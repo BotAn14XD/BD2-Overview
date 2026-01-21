@@ -1,0 +1,18 @@
+site_name: Brown Dust II Overview
+theme:
+  name: material
+  palette:
+    scheme: slate  # Dark mode
+    primary: indigo
+    accent: cyan
+    
+nav:
+    - Home: index.md
+    - 'Content Packs':
+        - 'Mirror Wars': content-packs/mirror-wars.md
+        - 'Evil Castle': content-packs/evil-castle.md
+        - 'Path of Adventure': content-packs/path-of-adventure.md
+        - 'Last Night': content-packs/last-night.md
+        - 'Glupy Diner': content-packs/glupy-diner.md
+        - 'Golden Colosseum': content-packs/golden-colosseum.md
+        - 'Fantasia Square': content-packs/fantasia-square.md
