@@ -20,3 +20,6 @@ nav:
         - 'Potential Liberation': character-info/potential-liberation.md
 repo_name: BotAn14XD/BD2-Overview
 repo_url: https://github.com/BotAn14XD/BD2-Overview
+plugins:
+  - search
+  - glightbox
