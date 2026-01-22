@@ -23,3 +23,8 @@ repo_url: https://github.com/BotAn14XD/BD2-Overview
 plugins:
   - search
   - glightbox
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

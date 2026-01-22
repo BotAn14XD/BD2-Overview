@@ -1,7 +1,35 @@
-Mirror Wars is PvP mode, which is unlocked also after clearing normal difficulty of Story Pack 3. Here, you automatically fight with other players with your team of five. Regardless of the outcome of the battle, you will be granted with exclusive pvp currency — Medal of the Fighting Spirit. 
-There are 11 total ranks, with highest being Champion, and lowest being Bronze. The higher you are, the more Medals you receive per battle and more diamonds you get as season rewards. 
+# Mirror Wars
+
+Mirror Wars is the PvP mode where you fight other players' defense teams. 
+
+!!! abstract "Unlock Requirement"
+    Clear **Story Pack 3 "Mist Man" (Normal Diffuculty)**.
+
+## Overview
+* **Rankings:** There are **11 ranks** total (Bronze to Champion).
+* **Rewards:** You earn **Medals of the Fighting Spirit** (PvP Currency) per win and **Diamonds** as season rewards.
+* **Season Duration:** 1 Week (Monday Reset to Sunday).
+    * *Note:* There is a 9-hour "Settlement Period" on Sunday before reset where you cannot attack.
+
 ![Mirror Wars Screenshot](../assets/images/mirror_wars.png)
-To start clashing, go to the blood bath in the middle of a room, set up your offense and defense formations, their skill order and you’re ready to go! 
-To balance things, you get 5 SP at the start in the offense and 6 SP in the defense, so your task is to create a powerful team with as low SP usage as possible, which differs from usual PvE goals and meta. You should not worry about making a good pvp team as a new player since it requires a lot of investment. Aside from this, you get 6 SP every turn, allowing your units to use skills mid battle, however you must set those skills beforehand using “Set Costumes” feature. 
-Each battle consumes 1 bloody cocktail, with 40 given daily. However 40 battles is really time-consuming, so you can increase cocktail usage up to 10 per fight instead, reducing fight amount significantly. To do that, head to the “Repeated Battle” menu and set the amount of Blood Cocktail consumption to 10 times. 
-Each PvP season lasts for 1 week, from Monday day reset time to Sunday and has a settlement period of 9 hours before daily reset in which you can no longer attack.
+
+## Combat Rules
+Mirror Wars works differently than PvE.
+
+* **Offense:** You start with **5 SP**.
+* **Defense:** You start with **6 SP**.
+* **SP Regen:** You gain **6 SP** every turn.
+
+!!! tip "Strategy Tip"
+    Because you have limited starting SP, you must build a team with **low SP costs**. You cannot use your expensive "nuke" skills on Turn 1 like you do in Story Mode!
+
+## The Economy (Bloody Cocktails)
+Each fight costs entry tickets called **Bloody Cocktails**.
+
+| **Daily Refill** | 40 Cocktails |
+| :--- | :--- |
+| **Cost per Fight** | 1 Cocktail |
+| **Batch Battle** | Up to 10x per fight |
+
+!!! warning "Time Saver"
+    40 battles a day is time-consuming! Use the **Repeated Battle** menu to set Cocktail consumption to **10 times**. You will fight once, but get rewards (and spend cocktails) as if you fought 10 times.
