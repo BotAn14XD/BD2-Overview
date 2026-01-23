@@ -20,14 +20,28 @@ nav:
         - 'Potential Liberation': character-info/potential-liberation.md
 repo_name: BotAn14XD/BD2-Overview
 repo_url: https://github.com/BotAn14XD/BD2-Overview
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
 plugins:
   - search
-  - glightbox
+  - glightbox:
+      skip_classes:
+        - icon
   - git-revision-date-localized:
       type: date
       timezone: UTC
+  - macros
 markdown_extensions:
   - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+extra:
+  cocktails: '![Bloody Cocktails](../assets/images/icons/Bloody Cocktails.png){ .icon } Bloody Cocktails'
+  cocktails_pic: '![Bloody Cocktails](../assets/images/icons/Bloody Cocktails.png){ .icon }'
+  dias: '![Dias](../assets/images/icons/Dias.png){ .icon } Dias'
+  dias_pic: '![Dias](../assets/images/icons/Dias.png){ .icon }'
+  pvp_medals: '![Medals of the Fighting Spirit](../assets/images/icons/Medals of the Fighting Spirit.png){ .icon } Medals of the Fighting Spirit'
+  pvp_medals_pic: '![Medals of the Fighting Spirit](../assets/images/icons/Medals of the Fighting Spirit.png){ .icon }'
