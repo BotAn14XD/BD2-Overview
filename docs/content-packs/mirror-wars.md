@@ -41,6 +41,9 @@ Each fight costs entry tickets called **{{ cocktails }}**
     * **Daily Refill:** 40 Cocktails (Resets at {{ time('00:00') }})
     * **Cost:** 1 per fight
     * **Batch:** Up to 10x per fight
+
+    ---
+
     * **Other Sources**: Events, Shop (40 {{ cocktails_pic }} for 170 {{ dias_pic }} )
 
 !!! warning "Time Saver"
@@ -51,3 +54,11 @@ Each fight costs entry tickets called **{{ cocktails }}**
     
     ??? "Image Guide"
         ![Bloody Cocktails Consumption Guide](../assets/images/mirror-wars/cocktail_consumption.png)
+
+---
+
+!!! abstact "Related Missions"
+    * **Season Pass**: Complete a battle in the Mirror Wars
+        * **Reset**: Daily
+        * **Reward**: 200 {{ pvp_medals_pic }}
+        * **Pass EXP**: 30
