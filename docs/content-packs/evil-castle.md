@@ -1,3 +1,42 @@
+# Evil Castle
+
+Evil Castle - PvE mode, offering both single-time and repetitive content.
+
+!!! abstract "Unlock Requirement"
+    Clear **Story Pack 4 "Cat Daddy" (Normal Diffuculty)**.
+
+**Evil Castle Consists of 5 Towers:**   
+
+* **Tower of Pride**
+* **Tower of Desire**
+* **Tower of Salvation**
+* **Tower of Wrath**
+* **Tower of Jealousy**
+
+![Evil Castle Screenshot](../assets/images/evil-castle/evil-castle.png)
+
+---
+
+## Tower of Desire
+
+Often considered to be a general content. 
+
+* **Height**: 200 floors (battles)
+* **Enemy Property**: Enemies share one **Property (Element)** for 10 floors, then it changes.
+* **Progression:** Simply win the battle to advance. Completing the 2 optional challenges per floor grants extra resources.
+
+!!! info "Tower Rewards"
+
+    * 1 {{ draw_tickets_pic }}, 150 {{ dias_pic }}, 10 {{ ancient_crystal }} each 10th floor 
+    * 1 {{ draw_tickets_pic }}, 100 {{ dias_pic }}, 5 {{ ancient_crystal }} each 5th floor
+    * 1 {{ draw_tickets_pic }}, 30 000 {{ gold_pic }}, 5 rice rest floors
+
+
+
+
+
+---
+
 Evil Castle — one of 5 content packs available to you after clearing Normal difficulty of Story Pack 4. The castle's main content consists of 5 towers: Tower of Pride, Tower of Desire, Tower of Salvation, Tower of Wrath and Tower of Jealousy.
 Starting from the simplest tower, Tower of Desire, which is often treated as general content. It consists of 200 floors, each having rewards. Enemies share one property each for 10 floors, then property changes. 
 To move to the next stage, you only need to win the battle. There are 2 additional challenges you can try to complete to gain additional resources.

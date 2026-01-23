@@ -39,8 +39,16 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 extra:
-  cocktails: '![Blood Cocktails](../assets/images/icons/Bloody Cocktails.png){ .icon } Blood Cocktails'
-  cocktails_pic: '![Blood Cocktails](../assets/images/icons/Bloody Cocktails.png){ .icon }'
+  gold: '![Gold](../assets/images/icons/Gold.png){ .icon} Gold'
+  gold_pic: '![Gold](../assets/images/icons/Gold.png){ .icon}'
+  ancient_crystals: '![Ancient Crystals](../assets/images/icons/Ancient_Crystal.png){ .icon } Ancient Crystals'
+  ancient_crystals_pic: '![Ancient Crystals](../assets/images/icons/Ancient_Crystal.png){ .icon }'
+  draw_tickets: '![Draw Tickets](../assets/images/icons/Draw_Tickets.png){ .icon } Draw Tickets'
+  draw_tickets_pic: '![Draw Tickets](../assets/images/icons/Draw_Tickets.png){ .icon }'
+  cooked_rice: '![Cooked Rice](../assets/images/icons/Cooked_Rice.png){ .icon } Cooked Rice'
+  cooked_rice_pic: '![Cooked Rice](../assets/images/icons/Cooked_Rice.png){ .icon }'
+  cocktails: '![Blood Cocktails](../assets/images/icons/Blood_Cocktails.png){ .icon } Blood Cocktails'
+  cocktails_pic: '![Blood Cocktails](../assets/images/icons/Blood_Cocktails.png){ .icon }'
   dias: '![Dias](../assets/images/icons/Dias.png){ .icon } Dias'
   dias_pic: '![Dias](../assets/images/icons/Dias.png){ .icon }'
   pvp_medals: '![Medals of the Fighting Spirit](../assets/images/icons/Medals of the Fighting Spirit.png){ .icon } Medals of the Fighting Spirit'
