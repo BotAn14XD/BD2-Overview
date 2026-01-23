@@ -23,6 +23,9 @@ repo_url: https://github.com/BotAn14XD/BD2-Overview
 plugins:
   - search
   - glightbox
+  - git-revision-date-localized:
+      type: date
+      timezone: UTC
 markdown_extensions:
   - attr_list
   - admonition
