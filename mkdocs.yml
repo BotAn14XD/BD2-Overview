@@ -39,8 +39,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 extra:
-  cocktails: '![Bloody Cocktails](../assets/images/icons/Bloody Cocktails.png){ .icon } Bloody Cocktails'
-  cocktails_pic: '![Bloody Cocktails](../assets/images/icons/Bloody Cocktails.png){ .icon }'
+  cocktails: '![Blood Cocktails](../assets/images/icons/Bloody Cocktails.png){ .icon } Blood Cocktails'
+  cocktails_pic: '![Blood Cocktails](../assets/images/icons/Bloody Cocktails.png){ .icon }'
   dias: '![Dias](../assets/images/icons/Dias.png){ .icon } Dias'
   dias_pic: '![Dias](../assets/images/icons/Dias.png){ .icon }'
   pvp_medals: '![Medals of the Fighting Spirit](../assets/images/icons/Medals of the Fighting Spirit.png){ .icon } Medals of the Fighting Spirit'

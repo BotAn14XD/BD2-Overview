@@ -33,7 +33,7 @@ Mirror Wars works differently than most of PvE.
 
     For example, using maxed **Comeback Idol Granhildr** preemptively on defense will give your team 6 (Initial) - 5 (Costume Preemptive) + 6 (Turn 2 Gain) = 7 SP on Turn 2. 
 
-## Bloody Cocktails
+## Blood Cocktails
 Each fight costs entry tickets called **{{ cocktails }}**
 
 !!! info "{{ cocktails }}"
@@ -53,7 +53,7 @@ Each fight costs entry tickets called **{{ cocktails }}**
     * This, however, does not increase Victory Points compared to 1 battle.
     
     ??? "Image Guide"
-        ![Bloody Cocktails Consumption Guide](../assets/images/mirror-wars/cocktail_consumption.png)
+        ![Blood Cocktails Consumption Guide](../assets/images/mirror-wars/cocktail_consumption.png)
 
 ---
 
