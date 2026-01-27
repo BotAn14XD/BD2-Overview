@@ -5,3 +5,49 @@
   margin: 0 0.2em;
   pointer-events: none; 
 }
+
+.md-typeset table td, 
+.md-typeset table th {
+    text-align: center !important;     
+    vertical-align: middle !important;
+}
+
+.md-typeset__table {
+    width: fit-content !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+}
+
+.md-typeset table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.md-typeset img.h-60 {
+    height: 60px;
+    width: auto;
+}
+
+.md-typeset img.h-30 {
+    height: 30px;
+    width: auto;
+}
+
+.gslide-media {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.gslide-image img {
+    background: transparent !important;
+    background-color: transparent !important; 
+}
+
+.gslide-description {
+    background: transparent !important;
+}
+
+.glightbox-clean .gslide-inner-content {
+    background: transparent !important;
+}
