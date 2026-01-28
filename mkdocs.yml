@@ -7,7 +7,7 @@ theme:
     accent: cyan
     
 nav:
-#     - Home: index.md
+#    - Home: index.md
     - 'Characters info':
         - 'Potential Liberation': character-info/potential-liberation.md
     - 'Content Packs':
@@ -29,6 +29,7 @@ plugins:
   - glightbox:
       skip_classes:
         - icon
+        - icon-header
   - git-revision-date-localized:
       type: date
       timezone: UTC
@@ -38,18 +39,61 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - md_in_html
 extra:
-  gold: '![Gold](../assets/images/icons/Gold.png){ .icon} Gold'
-  gold_pic: '![Gold](../assets/images/icons/Gold.png){ .icon}'
-  ancient_crystals: '![Ancient Crystals](../assets/images/icons/Ancient_Crystal.png){ .icon } Ancient Crystals'
-  ancient_crystals_pic: '![Ancient Crystals](../assets/images/icons/Ancient_Crystal.png){ .icon }'
-  draw_tickets: '![Draw Tickets](../assets/images/icons/Draw_Tickets.png){ .icon } Draw Tickets'
-  draw_tickets_pic: '![Draw Tickets](../assets/images/icons/Draw_Tickets.png){ .icon }'
-  cooked_rice: '![Cooked Rice](../assets/images/icons/Cooked_Rice.png){ .icon } Cooked Rice'
-  cooked_rice_pic: '![Cooked Rice](../assets/images/icons/Cooked_Rice.png){ .icon }'
-  cocktails: '![Blood Cocktails](../assets/images/icons/Blood_Cocktails.png){ .icon } Blood Cocktails'
-  cocktails_pic: '![Blood Cocktails](../assets/images/icons/Blood_Cocktails.png){ .icon }'
-  dias: '![Dias](../assets/images/icons/Dias.png){ .icon } Dias'
-  dias_pic: '![Dias](../assets/images/icons/Dias.png){ .icon }'
-  pvp_medals: '![Medals of the Fighting Spirit](../assets/images/icons/Medals of the Fighting Spirit.png){ .icon } Medals of the Fighting Spirit'
-  pvp_medals_pic: '![Medals of the Fighting Spirit](../assets/images/icons/Medals of the Fighting Spirit.png){ .icon }'
+  S1_Ability_S_Book: '![★1 Ability S. Book](../assets/images/icons/icon_resource901_49.png){ .icon }'
+  S1_Rank_up_Star: '![★1 Rank-up Star](../assets/images/icons/icon_resource7780_58.png){ .icon }'
+  S2_Ability_S_Book: '![★2 Ability S. Book](../assets/images/icons/icon_resource906_50.png){ .icon }'
+  S2_Rank_up_Star: '![★2 Rank-up Star](../assets/images/icons/icon_resource7781_65.png){ .icon }'
+  S3_Ability_S_Book: '![★3 Ability S. Book](../assets/images/icons/icon_resource907_51.png){ .icon }'
+  S3_R_Contract: '![★3 R. Contract](../assets/images/icons/icon_resource40003_105.png){ .icon }'
+  S3_Rank_up_Star: '![★3 Rank-up Star](../assets/images/icons/icon_resource7782_66.png){ .icon }'
+  S4_Ability_S_Book: '![★4 Ability S. Book](../assets/images/icons/icon_resource910_54.png){ .icon }'
+  S4_R_Contract: '![★4 R. Contract](../assets/images/icons/icon_resource40004_106.png){ .icon }'
+  S4_Rank_up_Star: '![★4 Rank-up Star](../assets/images/icons/icon_resource7783_67.png){ .icon }'
+  S5_R_Contract: '![★5 R. Contract](../assets/images/icons/icon_resource40005_107.png){ .icon }'
+#  Ability_Pill: '![Ability Pill](../assets/images/icons/.png){ .icon }'
+  Ancient_Crystal: '![Ancient Crystal](../assets/images/icons/icon_resource603_76.png){ .icon }'
+  Aurum_Coin: '![Aurum Coin](../assets/images/icons/icon_resource170001_326.png){ .icon }'
+  Awakening_Elixir: '![Awakening Elixir](../assets/images/icons/icon_resource20023_223.png){ .icon }'
+  Blood_Cocktail: '![Blood Cocktail](../assets/images/icons/icon_resource60009_92.png){ .icon }'
+  Blue_Slime: '![Blue Slime](../assets/images/icons/icon_resource9002_60.png){ .icon }'
+#  Cooked_Rice: '![Cooked Rice](../assets/images/icons/.png){ .icon }'
+  Copper_Ore: '![Copper Ore](../assets/images/icons/icon_resource202_28.png){ .icon }'
+  Darkness_Magic_Crystal: '![Darkness Magic Crystal](../assets/images/icons/icon_resource115_19.png){ .icon }'
+  Dia: '![Dia](../assets/images/icons/icon_resource60001_84.png){ .icon }'
+  Draw_Ticket: '![Draw Ticket](../assets/images/icons/icon_resource40002_79.png){ .icon }'
+  Engraving_Scroll: '![Engraving Scroll](../assets/images/icons/icon_resource701_219.png){ .icon }'
+  Essence_of_Life: '![Essence of Life](../assets/images/icons/icon_resource702_220.png){ .icon }'
+  Essence_of_Perseverance: '![Essence of Perseverance](../assets/images/icons/icon_resource704_222.png){ .icon }'
+  Essence_of_Strength: '![Essence of Strength](../assets/images/icons/icon_resource703_221.png){ .icon }'
+  Fire_Magic_Crystal: '![Fire Magic Crystal](../assets/images/icons/icon_resource111_15.png){ .icon }'
+#  Glupy_Star: '![Glupy Star](../assets/images/icons/.png){ .icon }'
+  Gold: '![Gold](../assets/images/icons/icon_resource60005_88.png){ .icon }'
+  Gold_Ore: '![Gold Ore](../assets/images/icons/icon_resource203_29.png){ .icon }'
+  Golden_Thread: '![Golden Thread](../assets/images/icons/icon_resource4_8.png){ .icon }'
+  Hardwood: '![Hardwood](../assets/images/icons/icon_resource501_45.png){ .icon }'
+  Iron_Ore: '![Iron Ore](../assets/images/icons/icon_resource201_27.png){ .icon }'
+  Key_of_Salvation: '![Key of Salvation](../assets/images/icons/icon_resource60024_212.png){ .icon }'
+  Light_Magic_Crystal: '![Light Magic Crystal](../assets/images/icons/icon_resource114_18.png){ .icon }'
+  Medals_of_the_Fighting_Spirit: '![Medals of the Fighting Spirit](../assets/images/icons/Medals of the Fighting Spirit.png){ .icon }'
+#  Mercenary_Alliance_Deed: '![Mercenary Alliance Deed](../assets/images/icons/.png){ .icon }'
+  Nickname_Ticket: '![Nickname Ticket](../assets/images/icons/icon_useitem1_1.png){ .icon }'
+  Peat: '![Peat](../assets/images/icons/icon_resource204_30.png){ .icon }'
+  Plain_Fabric: '![Plain Fabric](../assets/images/icons/icon_resource401_42.png){ .icon }'
+  Plain_Leather: '![Plain Leather](../assets/images/icons/icon_resource301_39.png){ .icon }'
+  Powder_of_Hope: '![Powder of Hope](../assets/images/icons/icon_resource602_48.png){ .icon }'
+  Property_Selective_Draw_Exchange_Ticket: '![Property Selective Draw Exchange Ticket](../assets/images/icons/icon_resource40015_168.png){ .icon }'
+  Recommended_S5_Selective_Tickets: '![Recommended ★5 Selective Tickets](../assets/images/icons/icon_resource40020_265.png){ .icon }'
+  Red_Slime: '![Red Slime](../assets/images/icons/icon_resource9003_61.png){ .icon }'
+  Refining_Crystal: '![Refining Crystal](../assets/images/icons/icon_resource126_26.png){ .icon }'
+  Refining_Powder: '![Refining Powder](../assets/images/icons/icon_resource80001_116.png){ .icon }'
+  Refining_Stone: '![Refining Stone](../assets/images/icons/icon_resource106_14.png){ .icon }'
+  Selective_Exclusive_Draw_Ticket: '![Selective Exclusive Draw Ticket](../assets/images/icons/icon_resource40021_267.png){ .icon }'
+  SR_Exclusive_Gear_Draw_Exchange_Ticket: '![SR Exclusive Gear Draw Exchange Ticket](../assets/images/icons/icon_resource40008_130.png){ .icon }'
+  Tear_of_Goddess: '![Tear of Goddess](../assets/images/icons/icon_resource20005_156.png){ .icon }'
+  Torch: '![Torch](../assets/images/icons/icon_resource60023_163.png){ .icon }'
+  UR_Exclusive_Gear_Draw_Exchange_Ticket: '![UR Exclusive Gear Draw Exchange Ticket](../assets/images/icons/icon_resource40007_129.png){ .icon }'
+  Water_Magic_Crystal: '![Water Magic Crystal](../assets/images/icons/icon_resource112_16.png){ .icon }'
+  Wind_Magic_Crystal: '![Wind Magic Crystal](../assets/images/icons/icon_resource113_17.png){ .icon }'
+  Yellow_Slime: '![Yellow Slime](../assets/images/icons/icon_resource9001_59.png){ .icon }'

@@ -2,33 +2,85 @@
 
 Potential Liberation (often called **"Pots"**) is the system used to upgrade a costume's performance and a character's stats.
 
-## **Costume Bonds**
+## ![Bond](../assets/images/potential-liberation/popupicon_potential_connect.png){ .icon-header } **Costume Bonds**
 Beforehand, you must understand **Bonds**.
 
 * Each character can "Bond" with **one** specific costume at a time.
 * The character gains additional stats based on the *Potential Liberation* progress of that specific bonded costume.
 
-!!! question "**How to Switch Bonds?**"
+!!! question "**How to switch bonds?**"
     Go to the Character screen and click the costume portrait on the right side.
     ??? note "Image Guide"
         ![Bond Switch Guide](../assets/images/potential-liberation/bond-guide.png)
+
+!!! example "**How to choose bond?**"
+    It is important to choose a proper bond. 
+
+    ---
+
+    * **<u>If you are new, use the bond with the most potential liberation done.</u>**
+    * If you are not new, you should choose depending on enemy. 
+        * In **general content**, you tend to use same DPS, which means a lot of off-element fights. For that reason, you usually target bonds **with no Property *(Water, Light etc)* DMG Increase**. 
+        * In **property content** *(Fiend Hunter, Guild Raid)*, you need to understand the buffs occuring in a fight. For some fights with no extra Property DMG Increase from boss itself, it *may* be worth to pick bond **with Property DMG Increase**.<br>However, if boss offers additional buff or you have a lot of external buffs from supports, it *may* be worth to pick "general" bond instead.   
+        * For **defensive / support bonds**, pick depending on damage type you are facing. 
+    
+    Of course, there are rare exceptions to this generalized advice and you can always rely on different guides or **[calculator](https://browndust2-wiki.souseha.com/en/option-calculator)** in case you are not sure. 
 
 ## **Liberation Nodes**
 To access this menu, select desire costume in Costume tab and press **Upgrade** in the bottom right. There are three types of nodes:
 
 ### 1. Small Nodes (Permanent)
+
+<div class="side-by-side" markdown>
+
+<div class="text-content" markdown>
+
 * **Effect:** Upgrades the character's **Base Stats**.
 * **Condition:** Active **permanently**, regardless of which costume is bonded.
-* **Cost:** Low (Gold + Elemental Crystals).
+* **Cost:** 
+    * 30K {{ Gold }}
+    * 50 Elemental Crystals
+
+</div>
+
+![Small Node](../assets/images/potential-liberation/small-node.png)
+
+</div>
 
 ### 2. Medium Nodes (Bond-Dependent)
+
+<div class="side-by-side" markdown>
+
+<div class="text-content" markdown>
+
 * **Effect:** Grants significant stat boosts.
 * **Condition:** Active **ONLY** when this specific costume is Bonded.
-* **Cost:** Moderate.
+* **Cost:** 
+    * 20 ~ 40K {{ Gold }}
+    * 0 ~ 350 Elemental Crystals
+
+</div>
+
+![Medium Node](../assets/images/potential-liberation/medium-node.png)
+
+</div>
 
 ### 3. Large Nodes (Skill Upgrades)
-* **Effect:** Directly enhances the skill (e.g., **-1 SP Cost**, **+Range**, **+Damage %**).
-* **Cost:** 500 Elemental Crystals + 1 {{ tear }} **Tear of Goddess**.
+
+<div class="side-by-side" markdown>
+
+<div class="text-content" markdown>
+
+* **Effect:** Directly enhances the skill (e.g., **-1 SP Cost**, **+ Range**, **+ Damage %**).
+* **Cost:** 
+    * 500 Elemental Crystals
+    * 1 {{ Tear_of_Goddess }} **Tear of Goddess**.
+
+</div>
+
+![Large Node](../assets/images/potential-liberation/large-node.png)
+
+</div>
 
 ![Potential Liberation Menu](../assets/images/potential-liberation/tree-view.png)
 
@@ -42,7 +94,7 @@ To access this menu, select desire costume in Costume tab and press **Upgrade** 
 2.  **DPS:** Look for "Quality of Life" upgrades (like Range increases) rather than just raw damage.
 
 !!! quote "External Resources"
-    For a detailed tier list and calculator, check out **[Cymmina's Potential Guide](LINK_GOES_HERE)**.
+    For a detailed tier list and calculator, check out **[Cymmina's Potential Guide](http://cymmina.gamependium.com/browndust2/growth.html#potentials)**.
 
 <!--Potential Liberation, also commonly known as pots, is a good way to upgrade the performance of a particular costume. 
 Before we check them, let’s have a small talk about costume bonds. 

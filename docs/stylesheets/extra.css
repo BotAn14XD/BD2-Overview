@@ -4,6 +4,15 @@
   vertical-align: text-bottom;
   margin: 0 0.2em;
   pointer-events: none; 
+  transform: scale(1.5);
+}
+
+.icon-header {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: text-bottom;
+  margin: 0 0.2em;
+  pointer-events: none;
 }
 
 .md-typeset table td, 
@@ -51,3 +60,29 @@
 .glightbox-clean .gslide-inner-content {
     background: transparent !important;
 }
+
+.side-by-side {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.side-by-side .text-content {
+    flex: 1;
+}
+
+.side-by-side img:not(.icon) {
+    width: 120px;
+    height: auto;
+}
+
+.side-by-side .icon {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: text-bottom;
+  margin: 0 0.2em;
+  pointer-events: none; 
+  transform: scale(1.5);
+}
+
