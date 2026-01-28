@@ -1,11 +1,11 @@
-# Mirror Wars
+# **Mirror Wars**
 
 Mirror Wars is the PvP mode where you fight other players' defense teams. 
 
 !!! abstract "Unlock Requirement"
     Clear **Story Pack 3 "Mist Man" (Normal Difficulty)**.
 
-## Overview
+## **Overview**
 * **Rankings:** There are **11 ranks** total (Bronze to Champion).
 * **Rewards:** You earn **{{ pvp_medals }}** per battle and **{{ dias }}** as season rewards.
 * **Season Duration:** 1 Week (Monday Reset to Sunday).
@@ -49,7 +49,7 @@ Mirror Wars is the PvP mode where you fight other players' defense teams.
 
 ![Mirror Wars Screenshot](../assets/images/mirror-wars/mirror_wars.png)
 
-## Combat Rules
+## **Combat Rules**
 Mirror Wars works differently than most of PvE.
 
 * **Offense:** You start with **5 SP**.
@@ -61,15 +61,16 @@ Mirror Wars works differently than most of PvE.
     
     You cannot use your expensive "nuke" skills on Turn 1 like you do in Story Mode!
 
-??? abstract "Preemptive Costume Mechanic Explained"
+??? example "Preemptive Costume Mechanic Explained"
     Some costumes have the ability to be used preemptive. They are used on so-called **0th turn**, which will still take SP, leaving you with less SP for following turns. 
 
-    For example, using maxed **Comeback Idol Granhildr** preemptively on defense will give your team 6 (Initial) - 5 (Costume Preemptive) + 6 (Turn 2 Gain) = 7 SP on Turn 2. 
+    !!! example ""
+        For example, using maxed **Comeback Idol Granhildr** preemptively on defense will give your team 6 (Initial) - 5 (Costume Preemptive) + 6 (Turn 2 Gain) = 7 SP on Turn 2. 
 
-## Blood Cocktails
+## **Blood Cocktails**
 Each fight costs entry tickets called **{{ cocktails }}**
 
-!!! info "{{ cocktails }}"
+!!! info ""
     
     * **Daily Refill:** 40 Cocktails (Resets at {{ time('00:00') }})
     * **Cost:** 1 per fight
@@ -79,7 +80,7 @@ Each fight costs entry tickets called **{{ cocktails }}**
 
     * **Other Sources**: Events, Shop (40 {{ cocktails_pic }} for 170 {{ dias_pic }} )
 
-!!! warning "Time Saver"
+!!! warning "Time-management tip"
     40 battles a day is time-consuming! Use the **Repeat Battle** menu to set Cocktail consumption to **10 times**. 
     
     * You will fight once, but get rewards (and spend cocktails) as if you fought 10 times.

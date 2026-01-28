@@ -7,7 +7,9 @@ theme:
     accent: cyan
     
 nav:
-    - Home: index.md
+#     - Home: index.md
+    - 'Characters info':
+        - 'Potential Liberation': character-info/potential-liberation.md
     - 'Content Packs':
         - 'Mirror Wars': content-packs/mirror-wars.md
         - 'Evil Castle': content-packs/evil-castle.md
@@ -16,8 +18,6 @@ nav:
         - 'Glupy Diner': content-packs/glupy-diner.md
         - 'Golden Colosseum': content-packs/golden-colosseum.md
         - 'Fantasia Square': content-packs/fantasia-square.md
-    - 'Characters info':
-        - 'Potential Liberation': character-info/potential-liberation.md
 repo_name: BotAn14XD/BD2-Overview
 repo_url: https://github.com/BotAn14XD/BD2-Overview
 extra_css:
