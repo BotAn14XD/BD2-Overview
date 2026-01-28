@@ -1,0 +1,88 @@
+.icon {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: text-bottom;
+  margin: 0 0.2em;
+  pointer-events: none; 
+  transform: scale(1.5);
+}
+
+.icon-header {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: text-bottom;
+  margin: 0 0.2em;
+  pointer-events: none;
+}
+
+.md-typeset table td, 
+.md-typeset table th {
+    text-align: center !important;     
+    vertical-align: middle !important;
+}
+
+.md-typeset__table {
+    width: fit-content !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+}
+
+.md-typeset table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.md-typeset img.h-60 {
+    height: 60px;
+    width: auto;
+}
+
+.md-typeset img.h-30 {
+    height: 30px;
+    width: auto;
+}
+
+.gslide-media {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.gslide-image img {
+    background: transparent !important;
+    background-color: transparent !important; 
+}
+
+.gslide-description {
+    background: transparent !important;
+}
+
+.glightbox-clean .gslide-inner-content {
+    background: transparent !important;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.side-by-side .text-content {
+    flex: 1;
+}
+
+.side-by-side img:not(.icon) {
+    width: 120px;
+    height: auto;
+}
+
+.side-by-side .icon {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: text-bottom;
+  margin: 0 0.2em;
+  pointer-events: none; 
+  transform: scale(1.5);
+}
+
