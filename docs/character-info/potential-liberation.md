@@ -2,6 +2,8 @@
 
 Potential Liberation (often called **"Pots"**) is the system used to upgrade a costume's performance and a character's stats.
 
+---
+
 ## ![Bond](../assets/images/potential-liberation/popupicon_potential_connect.png){ .icon-header } **Costume Bonds**
 Beforehand, you must understand **Bonds**.
 
@@ -26,75 +28,94 @@ Beforehand, you must understand **Bonds**.
     
     Of course, there are rare exceptions to this generalized advice and you can always rely on different guides or **[calculator](https://browndust2-wiki.souseha.com/en/option-calculator)** in case you are not sure. 
 
-## **Liberation Nodes**
-To access this menu, select desire costume in Costume tab and press **Upgrade** in the bottom right. There are three types of nodes:
+---
 
-### 1. Small Nodes (Permanent)
+## ![Liberation Icon](../assets/images/potential-liberation/icon_potential3_3.png){ .icon-header } **Liberation Nodes**
+To access this menu, select desire costume in Costume tab and press **Upgrade** in the bottom right.
 
-<div class="side-by-side" markdown>
+??? note "Image Guide"
+    ![Accessing Potential Liberation Guide](../assets/images/potential-liberation/tree-access.png)
 
-<div class="text-content" markdown>
+???+ note "Potential Liberation Menu Image"
+    ![Potential Liberation Menu](../assets/images/potential-liberation/tree-view.png)
 
-* **Effect:** Upgrades the character's **Base Stats**.
-* **Condition:** Active **permanently**, regardless of which costume is bonded.
-* **Cost:** 
-    * 30K {{ Gold }}
-    * 50 Elemental Crystals
+There are three types of nodes:
 
-</div>
+!!! question ""
 
-![Small Node](../assets/images/potential-liberation/small-node.png)
+    ### 1. Small Nodes (Permanent)
 
-</div>
+    <div class="side-by-side" markdown>
 
-### 2. Medium Nodes (Bond-Dependent)
+    <div class="text-content" markdown>
 
-<div class="side-by-side" markdown>
+    * **Effect:** Upgrades the character's **Base Stats**.
+    * **Condition:** Active **permanently**, regardless of which costume is bonded.
+    * **Cost:** 
+        * 30K {{ Gold }}
+        * 50 Elemental Crystals
 
-<div class="text-content" markdown>
+    </div>
 
-* **Effect:** Grants significant stat boosts.
-* **Condition:** Active **ONLY** when this specific costume is Bonded.
-* **Cost:** 
-    * 20 ~ 40K {{ Gold }}
-    * 0 ~ 350 Elemental Crystals
+    ![Small Node](../assets/images/potential-liberation/small-node.png)
 
-</div>
+    </div>
 
-![Medium Node](../assets/images/potential-liberation/medium-node.png)
+!!! question ""
 
-</div>
+    ### 2. Medium Nodes (Bond-Dependent)
 
-### 3. Large Nodes (Skill Upgrades)
+    <div class="side-by-side" markdown>
 
-<div class="side-by-side" markdown>
+    <div class="text-content" markdown>
 
-<div class="text-content" markdown>
+    * **Effect:** Grants significant stat boosts.
+    * **Condition:** Active **ONLY** when this specific costume is Bonded.
+    * **Cost:** 
+        * 20 ~ 40K {{ Gold }}
+        * 0 ~ 350 Elemental Crystals
 
-* **Effect:** Directly enhances the skill (e.g., **-1 SP Cost**, **+ Range**, **+ Damage %**).
-* **Cost:** 
-    * 500 Elemental Crystals
-    * 1 {{ Tear_of_Goddess }} **Tear of Goddess**.
+    </div>
 
-</div>
+    ![Medium Node](../assets/images/potential-liberation/medium-node.png)
 
-![Large Node](../assets/images/potential-liberation/large-node.png)
+    </div>
 
-</div>
+!!! question ""
 
-![Potential Liberation Menu](../assets/images/potential-liberation/tree-view.png)
+    ### 3. Large Nodes (Skill Upgrades)
+
+    <div class="side-by-side" markdown>
+
+    <div class="text-content" markdown>
+
+    * **Effect:** Directly enhances the skill (e.g., **-1 SP Cost**, **+ Range**, **+ Damage %**).
+    * **Cost:** 
+        * 500 Elemental Crystals
+        * 1 {{ Tear_of_Goddess }} **Tear of Goddess**.
+
+    </div>
+
+    ![Large Node](../assets/images/potential-liberation/large-node.png)
+
+    </div>
+
+---
 
 ## **Investment Strategy**
 
 !!! warning "Warning"
-    Potential Liberation cannot be undone. **Tears of Goddess** are a limited resource, so spend them wisely.
+    Potential Liberation cannot be undone.
+    **Tears of Goddess** are a limited resource, so spend them wisely.
 
-**Priority List:**
-1.  **Buffers:** SP Reduction and Cooldown reduction are usually top priority.
-2.  **DPS:** Look for "Quality of Life" upgrades (like Range increases) rather than just raw damage.
+**TL;DR Priority List:**
 
-!!! quote "External Resources"
-    For a detailed tier list and calculator, check out **[Cymmina's Potential Guide](http://cymmina.gamependium.com/browndust2/growth.html#potentials)**.
+1.  **Buffers:** **SP Cost Reduction**, **Cooldown Reduction** are the highest priority, followed by **Duration Increase**, **AoE Expansion** and regular Buff Increases.
+
+2.  **DPS:** "Quality of Life" upgrades first (**SP Cost Reduction**, **Cooldown Reduction**, **AoE Expansion**). **<u>Do not target Damage nodes until you are done with most of support</u>**.
+
+!!! quote ""
+    **For a detailed priority list, check out <u>[Cymmina's Potential Guide](http://cymmina.gamependium.com/browndust2/growth.html#potentials)</u>**.
 
 <!--Potential Liberation, also commonly known as pots, is a good way to upgrade the performance of a particular costume. 
 Before we check them, let’s have a small talk about costume bonds. 
