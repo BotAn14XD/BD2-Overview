@@ -26,7 +26,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs-material mkdocs-glightbox mkdocs-git-revision-date-localized-plugin mkdocs-macros-plugin
+          pip install mkdocs-material 
+          pip install mkdocs-glightbox 
+          pip install mkdocs-macros-plugin 
+          pip install mkdocs-git-revision-date-localized-plugin 
+          pip install mkdocs-open-in-new-tab
 
       - name: Deploy
         run: mkdocs gh-deploy --force
