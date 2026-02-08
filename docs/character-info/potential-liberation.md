@@ -31,7 +31,7 @@ Beforehand, you must understand **Bonds**.
 ---
 
 ## ![Liberation Icon](../assets/images/potential-liberation/icon_potential3_3.png){ .icon-header } **Liberation Nodes**
-To access this menu, select desire costume in Costume tab and press **Upgrade** in the bottom right.
+To access this menu, select desired costume in Costume tab and press **Upgrade** in the bottom right.
 
 ??? note "Image Guide"
     ![Accessing Potential Liberation Guide](../assets/images/potential-liberation/tree-access.png)
@@ -43,7 +43,7 @@ There are three types of nodes:
 
 !!! question ""
 
-    ### 1. Small Nodes (Permanent)
+    ### **1. Small Nodes (Permanent)**
 
     <div class="side-by-side" markdown>
 
@@ -63,7 +63,7 @@ There are three types of nodes:
 
 !!! question ""
 
-    ### 2. Medium Nodes (Bond-Dependent)
+    ### **2. Medium Nodes (Bond-Dependent)**
 
     <div class="side-by-side" markdown>
 
@@ -83,7 +83,7 @@ There are three types of nodes:
 
 !!! question ""
 
-    ### 3. Large Nodes (Skill Upgrades)
+    ### **3. Large Nodes (Skill Upgrades)**
 
     <div class="side-by-side" markdown>
 
@@ -102,11 +102,11 @@ There are three types of nodes:
 
 ---
 
-## **Investment Strategy**
+## **Liberation Priority**
 
 !!! warning "Warning"
     Potential Liberation cannot be undone.
-    **Tears of Goddess** are a limited resource, so spend them wisely.
+    {{ Tear_of_Goddess }} **Tears of Goddess** are a limited resource, so **spend them wisely**.
 
 **TL;DR Priority List:**
 
@@ -117,12 +117,14 @@ There are three types of nodes:
 !!! quote ""
     **For a detailed priority list, check out <u>[Cymmina's Potential Guide](http://cymmina.gamependium.com/browndust2/growth.html#potentials)</u>**.
 
-<!--Potential Liberation, also commonly known as pots, is a good way to upgrade the performance of a particular costume. 
-Before we check them, let’s have a small talk about costume bonds. 
-Each companion can bond one costume. Depending on chosen costume and progress in potential liberation, you can get additional stats to enhance your character. To switch the bond, choose a character and click on the costume portrait on the right near the glowing star.  
-Now, to access potential liberation feature, go to the specific character, then go to the costume tab, pick the desired costume and press the upgrade button in the right bottom corner. 
-Here you will see three different types of nodes you can upgrade. Most nodes require the use of gold and elemental crystals, with some exceptions.
-Let’s start from the smallest white ones. These nodes upgrade companion’s permanent stats regardless of the costume you bond. These nodes usually share the same attribute amongst themselves and have relatively low price to liberate.
-Middle-sized nodes are the most common ones. They offer you extra stats only if you have this particular costume bound. These are cheap at the start and get more expensive the closer you are to big nodes.
-And lastly, big nodes. These are the most important ones as they enhance the costume directly, increasing range, reducing costume SP cost or cooldown, and changing damage or buff percentage etc. They cost 500 elemental crystals and 1 Tear of Goddess each. 
-Keep in mind that liberation is permanent and there is no way to undo it. Given the fact that tears are limited, you should wisely spend them. As a new player, your priority should mainly be buffers, alongside some small QoL upgrades for DPS such as increased range for Sacred Justia etc. You can check additional information about pots, as well as a table of top-priority liberations, in this very useful site made by Cymmina-->
+---
+
+!!! tip "QoL Thing You Should Know #1" 
+    You do not need to check every costume to check their Potential Liberation Status. Instead, you can check them freely in Compainion Tab or during Battle, when selecting the costume.
+    ??? note "Image Guide"
+        ![Potential Liberaion Status Checks](../assets/images/potential-liberation/pots-shortcuts.png)
+
+!!! tip "QoL Thing You Should Know #2"
+    You can also check effect of all Potential Liberation Nodes at once. For that, go to Growth Preview Tab, select desired costume and press the switch on the right.
+    ??? note "Image Guide"
+        ![Potential Liberation Preview](../assets/images/potential-liberation/pots-preview.png)

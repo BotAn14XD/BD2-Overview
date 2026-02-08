@@ -59,7 +59,7 @@ Mirror Wars works differently than most of PvE.
 !!! tip "Strategy Tip"
     Because you have limited starting SP, you must build a team with **low SP costs**. 
     
-    You cannot use your expensive "nuke" skills on Turn 1 like you do in Story Mode!
+    You cannot use your expensive "nuke" skills on Turn 1 like you do in Story / General Content.
 
 ??? example "Preemptive Costume Mechanic Explained"
     Some costumes have the ability to be used preemptive. They are used on so-called **0th turn**, which will still take SP, leaving you with less SP for following turns. 

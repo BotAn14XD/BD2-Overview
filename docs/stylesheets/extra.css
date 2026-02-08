@@ -3,8 +3,9 @@
   height: 1.2em;
   vertical-align: text-bottom;
   margin: 0 0.2em;
-  pointer-events: none; 
+  pointer-events: auto;	
   transform: scale(1.5);
+  cursor: help;
 }
 
 .icon-header {
@@ -86,3 +87,51 @@
   transform: scale(1.5);
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+}
+
+.gallery figure {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+.gallery img {
+    display: block; 
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    font-style: normal !important;
+    background: rgba(0, 0, 0, 0.75); 
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    line-height: 1.5;	
+    opacity: 0;
+    transform: translateY(100%); 
+    transition: all 0.3s ease;
+}
+
+.gallery figure:hover figcaption {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.gallery figure:hover img {
+    transform: scale(1.05);
+}
