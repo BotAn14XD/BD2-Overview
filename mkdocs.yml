@@ -1,5 +1,6 @@
 site_name: Brown Dust II Overview
-theme:
+site_description: "Brown Dust II Features, Modes Overview and Tips"
+theme:  
   name: material
   favicon: assets/images/site/favicon.png
   logo: assets/images/site/logo.png
@@ -7,6 +8,10 @@ theme:
     scheme: slate  # Dark mode
     primary: indigo
     accent: cyan
+  features:
+    - navigation.top
+#    - navigation.tabs
+#    - navigation.sections
 nav:
 #    - Home: index.md
     - 'Characters info':
@@ -23,8 +28,12 @@ repo_name: BotAn14XD/BD2-Overview
 repo_url: https://github.com/BotAn14XD/BD2-Overview
 extra_css:
   - stylesheets/extra.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
 extra_javascript:
   - javascripts/extra.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 plugins:
   - search
   - open-in-new-tab:
@@ -44,6 +53,8 @@ markdown_extensions:
   - pymdownx.superfences
   - md_in_html
   - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.tabbed:
       alternate_style: true
   - toc:

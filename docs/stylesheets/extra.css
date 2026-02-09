@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .icon {
   width: 1.2em;
   height: 1.2em;

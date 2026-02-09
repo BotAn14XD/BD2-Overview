@@ -1,3 +1,7 @@
+---
+description: Brown Dust II Evil Castle Overview and Tips.
+---
+
 ## **Overview**
 
 Evil Castle - PvE mode, offering both single-time and repetitive content.
@@ -8,7 +12,7 @@ Evil Castle - PvE mode, offering both single-time and repetitive content.
 **Evil Castle Consists of 5 Towers:**   
 <table>
     <tr>
-        <td><b><a href="#tower-of-pride">Tower of Pride</a></b></td><td><b><a href="#tower-of-desire">Tower of Desire</a></b></td><td><b>Tower of Salvation</b></td><td><b>Tower of Wrath</b></td><td><b>Tower of Jealousy</b></td>
+        <td><b><a href="#tower-of-pride">Tower of Pride</a></b></td><td><b><a href="#tower-of-desire">Tower of Desire</a></b></td><td><b><a href="#tower-of-salvation">Tower of Salvation</a></b></td><td><b><a href="#tower-of-wrath">Tower of Wrath</a></b></td><td><b><a href="#tower-of-jealousy">Tower of Jealousy</a></b></td>
     </tr>
 </table>
 
@@ -18,7 +22,7 @@ Evil Castle - PvE mode, offering both single-time and repetitive content.
 
 ### ![Tower Of Desire Icon](../assets/images/evil-castle/icon_devilcastle_1.png){ .icon-header } **Tower of Desire**
 
-Often considered to be a general content. 
+Often considered to be a general content (until Floor 151+). 
 
 !!! info ""
     * **Height**: 200 floors
@@ -51,6 +55,12 @@ Often considered to be a general content.
 
 </div>
 
+!!! question "Who to use for this tower?"
+    * **You can use your general (Story) team until Floor 151.<br>Having correct Property is adviced but not necessarily needed.**
+    * **Starting from Floor 151, you <u>must</u> utilize Property damage bonus, meaning you need to use <u>Adventure of the Unknown Diana</u> and <u>correct DPS</u> for each stage.<br>You can experiment on your own or refer to [Seji's Video Guide](https://www.youtube.com/watch?v=JCN2n4DWRYA).**
+
+---
+
 ### ![Tower Of Pride Icon](../assets/images/evil-castle/icon_devilcastle_2.png){ .icon-header } **Tower of Pride**
 
 Tower of Pride is a unique Tower, offering **daily** rewards based on your score. 
@@ -59,8 +69,9 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
     * **Height**: 6 floors
     * **Enemy Property**: Enemies share one **Property** each floor. 
         * <i>Note: Enemies do not have Light property completely.</i>
+    * Each floor consists of **4 Normal Battles** and **1 Boss Battle**. You cannot do a Boss Battle until you have cleared the rest.
 
-???+ note "Tower of Pride Scoring System *( \[ \+ Score ] — Boss Values )*"
+???+ note "Tower of Pride Scoring System ( \[ \+ Score ] — Boss Values )"
     === "Floor 1"
         * **Entile at least 4 character(s) with Fire prorerty: +2000 \[\+4000\]**
         * **Win the battle within 1 turns or less: +1500 \[\+3000\]**
@@ -92,14 +103,20 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
         * **Win the battle within 3 turns or less: +1000 \[\+2000\]**
         * **Win the battle within 5 turns or less: +500 \[\+1000\]**
     ---
-    ???+ warning "IMPORTANT"
+    !!! warning "IMPORTANT"
         Except tasks above, there are also so called <u>**Evaluation points**</u>
 
         To get maximum of those, you need to:
         
         * **Deal 1,000,000 Damage by a single unit in a single turn**
         * **Complete the fight in 1 turn**
-        * **Have your current team with maximum HP**
+        * **Have your current team with maximum (healed) HP**
+    ---
+    !!! example "Total Score Points"
+
+        * **Regular fight:** 15,000 points
+        * **Boss fight:** 40,000 points
+        * **Total:** 15,000 $\times$ 4 + 40,000 = **100,000** points per floor
 
 <div class = "gallery" markdown>
 
@@ -152,6 +169,19 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
 </figure>
 
 </div>
+
+### ![Tower Of Wrath Icon](../assets/images/evil-castle/icon_devilcastle_3.png){ .icon-header } **Tower of Wrath**
+
+### ![Tower of Jealousy Icon](../assets/images/evil-castle/icon_devilcastle_4.png){ .icon-header } **Tower of Jealousy**
+
+### ![Tower Of Salvation Icon](../assets/images/evil-castle/icon_roguelike.png){ .icon-header } **Tower of Salvation**
+
+Tower of Salvation is a roguelike gamemode where you climb Floors of the Tower in order to obtain resources. 
+
+!!! example ""
+    **Whenever it is possible, first 2 choices for costumes is from your already owned characters, last 2 choices are always new.<br><br>That means it can be worth to obtain different costume of desired character to have a chance to obtain needed costume sooner.**
+
+#### ![Tower of Salvation Shop Icon](../assets/images/evil-castle/ToS/ToS-shop.png){ .icon-header } **Tower of Salvation Shop**
 
 <!--Evil Castle — one of 5 content packs available to you after clearing Normal difficulty of Story Pack 4. The castle's main content consists of 5 towers: Tower of Pride, Tower of Desire, Tower of Salvation, Tower of Wrath and Tower of Jealousy.
 Starting from the simplest tower, Tower of Desire, which is often treated as general content. It consists of 200 floors, each having rewards. Enemies share one property each for 10 floors, then property changes. 
