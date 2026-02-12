@@ -25,15 +25,9 @@ Evil Castle - PvE mode, offering both single-time and repetitive content.
 Often considered to be a general content (until Floor 151+). 
 
 !!! info ""
-    * **Height**: 200 floors
-    * **Enemy Property**: Enemies share one **Property** for 10 floors, then it changes.
+    * **Height:** 200 floors
+    * **Enemy Property:** Enemies share one **Property** for 10 floors, then it changes.
     * **Progression:** To advance, you just need to win the battle. Completing the 2 optional challenges per floor grants extra resources.
-
-!!! info "Tower Rewards"
-
-    * **Each 10th Floor:** 1 {{ Draw_Ticket }}, 150 {{ Dia }}, 10 {{ Ancient_Crystal }}
-    * **Each 5th Floor:** 1 {{ Draw_Ticket }}, 100 {{ Dia }}, 5 {{ Ancient_Crystal }}
-    * **Rest Floors:** 1 {{ Draw_Ticket }}, 30 000 {{ Gold }}, 5 {{ Cooked_Rice }}
 
 <div class = "gallery" markdown>
 
@@ -57,7 +51,13 @@ Often considered to be a general content (until Floor 151+).
 
 !!! question "Who to use for this tower?"
     * **You can use your general (Story) team until Floor 151.<br>Having correct Property is adviced but not necessarily needed.**
-    * **Starting from Floor 151, you <u>must</u> utilize Property damage bonus, meaning you need to use <u>Adventure of the Unknown Diana</u> and <u>correct DPS</u> for each stage.<br>You can experiment on your own or refer to [Seji's Video Guide](https://www.youtube.com/watch?v=JCN2n4DWRYA).**
+    * **Starting from Floor 151, you <u>must</u> utilize Property damage bonus, meaning you need to use <u>Diana</u> and <u>correct DPS</u> for each stage.<br>You can experiment on your own or refer to [Seji's Video Guide](https://www.youtube.com/watch?v=JCN2n4DWRYA).**
+
+??? info "Tower Rewards"
+
+    * **Each 10th Floor:** 1 {{ Draw_Ticket }}, 150 {{ Dia }}, 10 {{ Ancient_Crystal }}
+    * **Each 5th Floor:** 1 {{ Draw_Ticket }}, 100 {{ Dia }}, 5 {{ Ancient_Crystal }}
+    * **Rest Floors:** 1 {{ Draw_Ticket }}, 30 000 {{ Gold }}, 5 {{ Cooked_Rice }}
 
 ---
 
@@ -66,8 +66,8 @@ Often considered to be a general content (until Floor 151+).
 Tower of Pride is a unique Tower, offering **daily** rewards based on your score. 
 
 !!! info ""
-    * **Height**: 6 floors
-    * **Enemy Property**: Enemies share one **Property** each floor. 
+    * **Height:** 6 floors
+    * **Enemy Property:** Enemies share one **Property** each floor. 
         * <i>Note: Enemies do not have Light property completely.</i>
     * Each floor consists of **4 Normal Battles** and **1 Boss Battle**. You cannot do a Boss Battle until you have cleared the rest.
 
@@ -170,13 +170,52 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
 
 </div>
 
+!!! note "Newbie Advices"
+    **1. It is important to complete tower at least once to start gaining resources for crafting gear.**<br>
+    **2. <u>Do NOT chase fulfilling property requirenment as very new player.**</u><br><br>While it is important to have as best score as possible, that task isn't as benefial and requires a lot of investment in DPS and supports you may not have.<br><br>Intstead, exploit free points from full HP and try to deal 1m damage with single-hit costumes such as Dream Bride Eclipse. Using your general team is enough for the start.
+
+    
+
+!!! question "Do I need to fight it daily to obtain rewards?"
+    **No.** Game mode offers both one-time clear and daily rewards. For obtaining daily ones, go to any pack except Golden Colosseum and Glupy Diner and interact with pet following you. 
+    ??? note "Image Guide"
+        ![Claiming rewards tuto](../assets/images/evil-castle/dispatch_placeholder.png)
+
+??? info "Tower of Desire Rewards"
+    === "One-time Rewards"
+        * **6th Floor:** 1,000 {{ Devil_Coin }}, 10 {{ Ancient_Crystal }}  
+        * **5th Floor:** 1,000 {{ Devil_Coin }}, 10 {{ Ancient_Crystal }}  
+        * **4th Floor:** 1,000 {{ Devil_Coin }}, 10 {{ Ancient_Crystal }}  
+        * **3rd Floor:** 1,000 {{ Devil_Coin }}, 10 {{ Ancient_Crystal }}  
+        * **2nd Floor:** 1,000 {{ Devil_Coin }}, 10 {{ Ancient_Crystal }}    
+        * **1st Floor:** 1,000 {{ Devil_Coin }}, 10 {{ Ancient_Crystal }}
+    === "Daily Rewards"
+        * **600,000 points:** 900 {{ Devil_Coin }}, 9 {{ Ancient_Crystal }}
+        * **500,000 points:** 800 {{ Devil_Coin }}, 8 {{ Ancient_Crystal }}
+        * **400,000 points:** 750 {{ Devil_Coin }}, 8 {{ Ancient_Crystal }}
+        * **300,000 points:** 700 {{ Devil_Coin }}, 7 {{ Ancient_Crystal }}
+        * **200,000 points:** 650 {{ Devil_Coin }}, 7 {{ Ancient_Crystal }}
+        * **150,000 points:** 600 {{ Devil_Coin }}, 7 {{ Ancient_Crystal }}
+        * **100,000 points:** 550 {{ Devil_Coin }}, 6 {{ Ancient_Crystal }}
+        * **50,000 points:** &nbsp;&nbsp;500 {{ Devil_Coin }}, 6 {{ Ancient_Crystal }}
+        * **10,000 points:** &nbsp;&nbsp;300 {{ Devil_Coin }}, 6 {{ Ancient_Crystal }}
+
 ### ![Tower Of Wrath Icon](../assets/images/evil-castle/icon_devilcastle_3.png){ .icon-header } **Tower of Wrath**
+
 
 ### ![Tower of Jealousy Icon](../assets/images/evil-castle/icon_devilcastle_4.png){ .icon-header } **Tower of Jealousy**
 
 ### ![Tower Of Salvation Icon](../assets/images/evil-castle/icon_roguelike.png){ .icon-header } **Tower of Salvation**
 
-Tower of Salvation is a roguelike gamemode where you climb Floors of the Tower in order to obtain resources. 
+Tower of Salvation is a **seasonal** roguelike gamemode where you climb Floors of the Tower in order to obtain resources.
+
+!!! info ""
+    * **Levels:** 10 Difficulties \[ 10-30 floors each \]
+    * **Season Duration:** 4 weeks with settlement period on last day (starting at {{ time('15:00') }}).
+
+!!! question "What upgrades do I buy with {{ Night_World_Obsidian }} Obsidian?"
+    Prioritize **Refresh Attempts Up**, **Starting SP Up**, followed by **Discount Probability Up** and **ATK/MATK**, depending on the team you usually run. Rest is optional and / or not needed.
+
 
 !!! example ""
     **Whenever it is possible, first 2 choices for costumes is from your already owned characters, last 2 choices are always new.<br><br>That means it can be worth to obtain different costume of desired character to have a chance to obtain needed costume sooner.**

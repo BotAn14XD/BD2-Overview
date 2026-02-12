@@ -1,3 +1,7 @@
+---
+description: Brown Dust II Potential Liberation & Bonding System explanation, overview and tips.
+---
+
 # **Potential Liberation**
 
 Potential Liberation (often called **"Pots"**) is the system used to upgrade a costume's performance and a character's stats.
@@ -42,12 +46,8 @@ To access this menu, select desired costume in Costume tab and press **Upgrade**
 There are three types of nodes:
 
 !!! question ""
-
+    ![Small Node](../assets/images/potential-liberation/small-node.png){ width="200" align=right }
     ### **1. Small Nodes (Permanent)**
-
-    <div class="side-by-side" markdown>
-
-    <div class="text-content" markdown>
 
     * **Effect:** Upgrades the character's **Base Stats**.
     * **Condition:** Active **permanently**, regardless of which costume is bonded.
@@ -55,19 +55,9 @@ There are three types of nodes:
         * 30K {{ Gold }}
         * 50 Elemental Crystals
 
-    </div>
-
-    ![Small Node](../assets/images/potential-liberation/small-node.png)
-
-    </div>
-
 !!! question ""
-
+    ![Medium Node](../assets/images/potential-liberation/medium-node.png){ width="200" align=right }
     ### **2. Medium Nodes (Bond-Dependent)**
-
-    <div class="side-by-side" markdown>
-
-    <div class="text-content" markdown>
 
     * **Effect:** Grants significant stat boosts.
     * **Condition:** Active **ONLY** when this specific costume is Bonded.
@@ -75,30 +65,14 @@ There are three types of nodes:
         * 20 ~ 40K {{ Gold }}
         * 0 ~ 350 Elemental Crystals
 
-    </div>
-
-    ![Medium Node](../assets/images/potential-liberation/medium-node.png)
-
-    </div>
-
 !!! question ""
-
+    ![Large Node](../assets/images/potential-liberation/large-node.png){ width="200" align=right }
     ### **3. Large Nodes (Skill Upgrades)**
-
-    <div class="side-by-side" markdown>
-
-    <div class="text-content" markdown>
 
     * **Effect:** Directly enhances the skill (e.g., **-1 SP Cost**, **+ Range**, **+ Damage %**).
     * **Cost:** 
         * 500 Elemental Crystals
         * 1 {{ Tear_of_Goddess }} **Tear of Goddess**.
-
-    </div>
-
-    ![Large Node](../assets/images/potential-liberation/large-node.png)
-
-    </div>
 
 ---
 
