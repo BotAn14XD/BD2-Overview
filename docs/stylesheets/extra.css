@@ -120,3 +120,11 @@ html {
 .gallery figure:hover img {
     transform: scale(1.05);
 }
+
+.orange {
+    color: #f89c22;
+}
+
+.softred {
+    color: #ef8383ff;
+}

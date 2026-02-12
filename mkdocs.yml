@@ -53,6 +53,9 @@ markdown_extensions:
   - pymdownx.superfences
   - md_in_html
   - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.tabbed:

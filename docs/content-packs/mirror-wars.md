@@ -91,7 +91,7 @@ Each fight costs entry tickets called **{{ Blood_Cocktail }} Blood Cocktails**
 
 ---
 
-!!! abstact "Related Missions"
+!!! abstract "Related Missions"
     * **Season Pass**: Complete a battle in the Mirror Wars
         * **Reset**: Daily
         * **Reward**: 200 {{ Medals_of_the_Fighting_Spirit }}
