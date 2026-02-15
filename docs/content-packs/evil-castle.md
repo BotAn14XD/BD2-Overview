@@ -211,6 +211,7 @@ Tower of Salvation is a **seasonal** roguelike gamemode where you climb Floors o
     * <u>**Unlock Requirenment: Clear Story Pack 9 "Iron Mask" (Normal Diffuculty)**</u>.
     * **Levels:** 10 Difficulties \[ 10-30 floors each \]
     * **Season Duration:** 4 weeks with settlement period on last day (starting at {{ time('15:00') }}).
+    * **Daily attempts:** 3 {{ Key_of_Salvation }} per day.
 
 Before starting your run, you're allowed to choose a difficulty and purchase some upgrades.<br>
 Difficulty decide how hard it will be to climb the Tower, while upgrades ease the process but require from you {{ Night_World_Obsidian }} Night World Obsidian, earned in your other runs.
@@ -326,7 +327,12 @@ As for the fifth pick, you're allowed to take almost every costume from the game
     1. **Owned costumes in your account copy their dupes count (+0 ~ +5), [Potential Liberation](../character-info/potential-liberation.md) and Engraving & Awakening.**
     2. **Costumes <u>DO NOT</u> copy their gear equipped.**
     3. **Brown Dust II Exclusive costumes can appear in both Normal and Wildcard Selections. As mentioned earlier, <u>collab costumes</u> cannot appear / be chosen unless you own them.**
-    4. **In following Normal Selections, first 2 choices for costumes is from your already owned characters, last 2 choices are always new.<br>That means it can be worth to obtain different costume of desired character to have a chance to obtain needed costume sooner.**
+    4. **In following Normal Selections,** 
+
+        * First 2 choices for costumes is from your already owned characters, unless you obtained all possible costumes for characters<br>*(for example, having Angel of Destruction Teresse can give you Beachside Angel or Medical Club costumes in first two slots)*.
+        * Last 2 choices are always new *(for example, you will never see Teresse from those, as soon as you obtained any of her costumes)*.
+
+        **That means it can be worth to obtain different costume of desired character to have a chance to obtain needed costume sooner.**
 
 During your climb, you need to choose the path which can consist of the following activities:
 
@@ -337,9 +343,9 @@ During your climb, you need to choose the path which can consist of the followin
 | **Boss Battle** | ![Boss Battle Icon](../assets/images/evil-castle/ToS/ToS_Boss_Battle.png) | Necessary fight each 10th floor, usually the hardest ones. As a reward, you recieve {{ Lost_Silver }} **Lost Silver** and **high-grade Artifact Selection**, as well as **Refresh Attempt**. |
 | **Artifact** | ![Artifact Icon](../assets/images/evil-castle/ToS/ToS_Artifact.png) | Artifact Selection |
 | **Event**| ![Event Icon](../assets/images/evil-castle/ToS/ToS_Event.png) | It offers you ways to obtain {{ Lost_Silver }} **Lost Silver** and various **Artifacts**, but with possible drawbacks.  |
-| **Shop** | ![Shop Icon](../assets/images/evil-castle/ToS/ToS_Shop.png) | Shop is a place to buy new artifacts, purchase or upgrade existing {{Costumes }} costumes and heal your characters using {{ Lost_Silver }} **Lost Silver**. Always availbable at floors 11 and 21.|
+| **Shop** | ![Shop Icon](../assets/images/evil-castle/ToS/ToS_Shop.png) | Shop is a place to buy new artifacts, purchase or upgrade owned {{Costumes }} costumes and heal your characters using {{ Lost_Silver }} **Lost Silver**. Always available at floors 11 and 21.|
 !!! example "Interest System"
-    Each new floor, you recieve 5% of current {{Lost_Silver}} **Lost Silver** as **interest**. Do keep it in mind when choosing your path. 
+    Each new floor, you receive 5% of current {{Lost_Silver}} **Lost Silver** as **interest**. Do keep it in mind when choosing your path. 
 
 !!! abstract "![Artifact Icon](../assets/images/evil-castle/ToS/icon_jar.png){ .icon-header} Artifact System"
     Artifacts are items mostly giving buffs and either providing offensive or defensive capabilities.
@@ -392,6 +398,15 @@ During your climb, you need to choose the path which can consist of the followin
 
 !!! tip "Important Feature You Should REALLY Know"
     **During the battles, you can replace characters for 2 SP each. Replaced character will not have cooldowns on any of costumes**<br>That means, **you can refresh character's skills for 4 SP**.<br>Do keep in mind that it also removes all buffs applied before, so the best usage of this feature goes to utility / support characters. 
+
+!!! question "So, I've read this all, but, who to use?"
+    **It is really up to you.** There are few common possible tactics you can run.
+
+    1. High Chain team, which utilizes high hit count characters and resolve around chain mechanics.
+    2. Low Chain team, which utilizes the complete opposite and tries to be as low on chains as possible. 
+
+    Both options are viable, as well as different Damage type you pick.<br>This gamemode is really good to understand basics of the battles so **do not hesitate to experiment yourself**. 
+
 
 <div class = "gallery" markdown>
 
