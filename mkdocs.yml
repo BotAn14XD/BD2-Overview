@@ -10,6 +10,7 @@ theme:
     accent: cyan
   features:
     - navigation.top
+    - lazyload
 #    - navigation.tabs
 #    - navigation.sections
 nav:
@@ -36,6 +37,12 @@ extra_javascript:
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 plugins:
   - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+          remove_comments: true
   - open-in-new-tab:
       add_icon: true
   - glightbox:
