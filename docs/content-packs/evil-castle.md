@@ -338,14 +338,19 @@ During your climb, you need to choose the path which can consist of the followin
 
 | Name | Icon | Description |
 |:---:|:---:|:---:|
-| **Battle** | ![Battle Icon](../assets/images/evil-castle/ToS/ToS_Battle.png) | Just a plain battle. As a reward, you recieve {{ Lost_Silver }} **Lost Silver** and **Costume Selection.** |
-| **Elite Battle** | ![Elite Battle Icon](../assets/images/evil-castle/ToS/ToS_Elite_Battle.png) | More difficult battle compared to the one above. Often involves some mini-bosses. As a reward, you recieve {{ Lost_Silver }} **Lost Silver** and **Artifact Selection** |
-| **Boss Battle** | ![Boss Battle Icon](../assets/images/evil-castle/ToS/ToS_Boss_Battle.png) | Necessary fight each 10th floor, usually the hardest ones. As a reward, you recieve {{ Lost_Silver }} **Lost Silver** and **high-grade Artifact Selection**, as well as **Refresh Attempt**. |
+| **Battle** | ![Battle Icon](../assets/images/evil-castle/ToS/ToS_Battle.png) | Just a plain battle. As a reward, you receive {{ Lost_Silver }} **Lost Silver** and **Costume Selection.** |
+| **Elite Battle** | ![Elite Battle Icon](../assets/images/evil-castle/ToS/ToS_Elite_Battle.png) | More difficult battle compared to the one above. Often involves some mini-bosses. As a reward, you receive {{ Lost_Silver }} **Lost Silver** *(more compared to Normal Battles)* and **Artifact Selection** |
+| **Boss Battle** | ![Boss Battle Icon](../assets/images/evil-castle/ToS/ToS_Boss_Battle.png) | Necessary fight each 10th floor, usually the hardest ones. As a reward, you receive {{ Lost_Silver }} **Lost Silver** *(more compared to both Elite and Normal Battles)* and **high-grade Artifact Selection**, as well as **Refresh Attempt**. |
 | **Artifact** | ![Artifact Icon](../assets/images/evil-castle/ToS/ToS_Artifact.png) | Artifact Selection |
 | **Event**| ![Event Icon](../assets/images/evil-castle/ToS/ToS_Event.png) | It offers you ways to obtain {{ Lost_Silver }} **Lost Silver** and various **Artifacts**, but with possible drawbacks.  |
 | **Shop** | ![Shop Icon](../assets/images/evil-castle/ToS/ToS_Shop.png) | Shop is a place to buy new artifacts, purchase or upgrade owned {{Costumes }} costumes and heal your characters using {{ Lost_Silver }} **Lost Silver**. Always available at floors 11 and 21.|
+
 !!! example "Interest System"
     Each new floor, you receive 5% of current {{Lost_Silver}} **Lost Silver** as **interest**. Do keep it in mind when choosing your path. 
+
+!!! danger "RNG Manipulation in ToS"
+    In Tower of Salvation, **RNG is fixed**. That means **you cannot restart the battle with same setup to crit in case you did not**.<br>
+    However, to somehow change RNG, you can change DPS order, or inflict some extra damage such as knockback or basic attack from other characters.
 
 !!! abstract "![Artifact Icon](../assets/images/evil-castle/ToS/icon_jar.png){ .icon-header} Artifact System"
     Artifacts are items mostly giving buffs and either providing offensive or defensive capabilities.
@@ -513,7 +518,7 @@ This tower offers you a challenge by reducing useful character pool: **Enemies a
 
 ??? abstract "Environmental Effects"
     * **91 — 100 Floors:**<br>**[All Groups]**{ .orange} Crit Rate is reduced by 200%.
-    * **81 — 90 Floors:**<br>**[Monster Group]**{ .orange} Damage recieved is reduced by 50% due to the applied Barrier.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
+    * **81 — 90 Floors:**<br>**[Monster Group]**{ .orange} Damage received is reduced by 50% due to the applied Barrier.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
     * **71 — 80 Floors:**<br>**[Monster Group]**{ .orange} Each attack adds 1 extra Chain stack.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
     * **61 — 70 Floors:**<br>**[User Group]**{ .orange} DEF is reduced by 25%.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.    
     * **51 — 60 Floors:**<br>**[User Group]**{ .orange} Incoming DMG increases by 200%.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
@@ -575,7 +580,7 @@ This tower offers you a challenge by reducing useful character pool: **Enemies a
     * **51 — 60 Floors:**<br>**[Monster Group]**{ .orange} Damage dealt increases by 100%.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
     * **41 — 50 Floors:**<br>**[User Group]**{ .orange} Reinforcement skill efficiency reduces by 70%.
     * **31 — 40 Floors:**<br>**[Monster Group]**{ .orange} Each target heals 20% of Max HP per turn.
-    * **21 — 30 Floors:**<br>**[Monster Group]**{ .orange} Damage recieved is reduced by 50% due to the applied Barrier.
+    * **21 — 30 Floors:**<br>**[Monster Group]**{ .orange} Damage received is reduced by 50% due to the applied Barrier.
     * **11 — 20 Floors:**<br>**[All Groups]**{ .orange} Crit Rate increases by 50%.
 
 ??? info "Tower of Jealousy Rewards"
