@@ -18,49 +18,6 @@ Evil Castle - PvE mode, offering both single-time and repetitive content.
 
 ![Evil Castle Screenshot](../assets/images/evil-castle/evil-castle.png)
 
----
-
-### ![Tower Of Desire Icon](../assets/images/evil-castle/icon_devilcastle_1.png){ .icon-header } **Tower of Desire**
-
-Often considered to be a general content (until Floor 151+). 
-
-!!! info ""
-    * **Height:** 200 floors
-    * **Enemy Property:** Enemies share one **Property** for 10 floors, then it changes.
-    * **Progression:** To advance, you just need to win the battle. Completing the 2 optional challenges per floor grants extra resources.
-
-!!! question "Who to use for this tower?"
-    * **You can use your general (Story) team until Floor 151.<br>Having correct Property is adviced but not necessarily needed.**
-    * **Starting from Floor 151, you <u>must</u> utilize Property damage bonus, meaning you need to use <u>Diana</u> and <u>correct DPS</u> for each stage.<br>You can experiment on your own or refer to [Seji's Video Guide](https://www.youtube.com/watch?v=JCN2n4DWRYA).**
-
-??? info "Tower of Pride Rewards"
-
-    * **Each 10th Floor:** 1 {{ Draw_Ticket }}, 150 {{ Dia }}, 10 {{ Ancient_Crystal }}
-    * **Each 5th Floor:** 1 {{ Draw_Ticket }}, 100 {{ Dia }}, 5 {{ Ancient_Crystal }}
-    * **Rest Floors:** 1 {{ Draw_Ticket }}, 30 000 {{ Gold }}, 5 {{ Cooked_Rice }}
-
-
-<div class = "gallery" markdown>
-
-<figure markdown>
-
-![Tower of Desire Menu](../assets/images/evil-castle/ToD/ToD_1.png)
-
-<figcaption>Tower of Desire Menu</figcaption>
-
-</figure>
-
-<figure markdown>
-
-![Tower of Desire Battle Screen](../assets/images/evil-castle/ToD/ToD_2.png)
-
-<figcaption>Tower of Desire Battle Screen</figcaption>
-
-</figure>
-
-</div>
-
----
 
 ### ![Tower Of Pride Icon](../assets/images/evil-castle/icon_devilcastle_2.png){ .icon-header } **Tower of Pride**
 
@@ -128,9 +85,9 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
 !!! question "Do I need to fight it daily to obtain rewards?"
     **No.** Game mode offers both one-time clear and daily rewards. For obtaining daily ones, go to any pack except Golden Colosseum and Glupy Diner and interact with pet following you. 
     ??? note "Image Guide"
-        ![Claiming rewards tuto](../assets/images/evil-castle/dispatch_placeholder.png)
+        ![Claiming rewards tuto](../assets/images/evil-castle/dispatch_guide.png)
 
-??? abstract "Tower of Desire Rewards"
+??? abstract "Tower of Pride Rewards"
     === "One-time Rewards"
         * **6th Floor:** 1,000 {{ Devil_Coin }}, 10 {{ Ancient_Crystal }}  
         * **5th Floor:** 1,000 {{ Devil_Coin }}, 10 {{ Ancient_Crystal }}  
@@ -201,114 +158,49 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
 
 </div>
 
-### ![Tower Of Wrath Icon](../assets/images/evil-castle/icon_devilcastle_3.png){ .icon-header } **Tower of Wrath**
+---
 
-This tower offers you a challenge by reducing useful character pool: **Enemies are immune to Physical Damage**.
+### ![Tower Of Desire Icon](../assets/images/evil-castle/icon_devilcastle_1.png){ .icon-header } **Tower of Desire**
+
+Often considered to be a general content (until Floor 151+). 
 
 !!! info ""
-    * **Height:** 100 floors
-    * **Enemies:** They **DO NOT** have property. Aside from that, they **ARE IMMUNE to Physical Damage**.
+    * **Height:** 200 floors
+    * **Enemy Property:** Enemies share one **Property** for 10 floors, then it changes.
     * **Progression:** To advance, you just need to win the battle. Completing the 2 optional challenges per floor grants extra resources.
-    * **Battle Environment:** Starting from Floor 11, additional effects are added for you (and / or enemy) for the next 10 floors.
 
 !!! question "Who to use for this tower?"
-    * **As should have been guessed from the tower gimmick, characters with <u>Magic Damage type</u>**.
-    * **Starting from Floor 41, Tower becomes harder. Be aware of environmental challenges and find the ways to overcome them.**<br>**Or if you fail to do so, refer to [Seji's Video Guide](https://www.youtube.com/playlist?list=PLSWDlsPYyQphb3DCFuGhXL0IfrIi90di6).**
+    * **You can use your general (Story) team until Floor 151.<br>Having correct Property is adviced but not necessarily needed.**
+    * **Starting from Floor 151, you <u>must</u> utilize Property damage bonus, meaning you need to use <u>Diana</u> and <u>correct DPS</u> for each stage.<br>You can experiment on your own or refer to [Seji's Video Guide](https://www.youtube.com/watch?v=JCN2n4DWRYA).**
 
-!!! warning "Important to know"
-    Despite enemies being immune to Physical Damage, it simply negates damage.<br>**Any debuffs / knockback abilities from Physical type characters will work, which *may* or *may not* be useful for clearing the stage.**<br>(Damage from Knockback **will** be negated, though).
+??? info "Tower of Desire Rewards"
 
-??? abstract "Environmental Effects"
-    * **91 — 100 Floors:**<br>**[All Groups]**{ .orange} Crit Rate is reduced by 200%.
-    * **81 — 90 Floors:**<br>**[Monster Group]**{ .orange} Damage recieved is reduced by 50% due to the applied Barrier.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
-    * **71 — 80 Floors:**<br>**[Monster Group]**{ .orange} Each attack adds 1 extra Chain stack.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
-    * **61 — 70 Floors:**<br>**[User Group]**{ .orange} DEF is reduced by 25%.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.    
-    * **51 — 60 Floors:**<br>**[User Group]**{ .orange} Incoming DMG increases by 200%.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
-    * **41 — 50 Floors:**<br>**[User Group]**{ .orange} Reinforcement skill efficiency reduces by 70%.
-    * **31 — 40 Floors:**<br>**[User Group]**{ .orange} Each attack adds one additional stack of Chain.<br>**[User Group]**{ .orange } Incoming DMG increases by 50%.
-    * **21 — 30 Floors:**<br>**[Monster Group]**{ .orange} Each target receives an Energy Guard equivalent to 50% of Max HP.
-    * **11 — 20 Floors:**<br>**[All Groups]**{ .orange} Crit DMG increases by 100%.
+    * **Each 10th Floor:** 1 {{ Draw_Ticket }}, 150 {{ Dia }}, 10 {{ Ancient_Crystal }}
+    * **Each 5th Floor:** 1 {{ Draw_Ticket }}, 100 {{ Dia }}, 5 {{ Ancient_Crystal }}
+    * **Rest Floors:** 1 {{ Draw_Ticket }}, 30 000 {{ Gold }}, 5 {{ Cooked_Rice }}
 
-??? info "Tower of Wrath Rewards"
-    * **Each 50th Floor:** 10 {{ Draw_Ticket }}, 150 {{ Dia }}, 1 {{ Property_Selective_Draw_Exchange_Ticket }}
-    * **Each 10th Floor:** 10 {{ Draw_Ticket }}, 150 {{ Dia }}, 200 {{ Refining_Crystal }}
-    * **Each 5th Floor:** 5 {{ Draw_Ticket }}, 100 {{ Dia }}, 100 {{ Refining_Crystal }}
-    * **Rest Floors:** 30 000 {{ Gold }}, 30 000 {{ Gold }}, 5 {{ Torch }}
 
 <div class = "gallery" markdown>
 
 <figure markdown>
 
-![Tower of Wrath Menu](../assets/images/evil-castle/ToW/ToW_1.png)
+![Tower of Desire Menu](../assets/images/evil-castle/ToD/ToD_1.png)
 
-<figcaption>Tower of Wrath Menu</figcaption>
+<figcaption>Tower of Desire Menu</figcaption>
 
 </figure>
 
 <figure markdown>
 
-![Tower of Wrath Battle Screen](../assets/images/evil-castle/ToW/ToW_2.png)
+![Tower of Desire Battle Screen](../assets/images/evil-castle/ToD/ToD_2.png)
 
-<figcaption>Tower of Wrath Battle Screen</figcaption>
+<figcaption>Tower of Desire Battle Screen</figcaption>
 
 </figure>
 
 </div>
 
-### ![Tower of Jealousy Icon](../assets/images/evil-castle/icon_devilcastle_4.png){ .icon-header } **Tower of Jealousy**
-
-This tower offers you a challenge by reducing useful character pool: **Enemies are immune to Magical Damage**.
-
-!!! info ""
-    * **Height:** 100 floors
-    * **Enemies:** They **DO NOT** have property. Aside from that, they **ARE IMMUNE to Magical Damage**.
-    * **Progression:** To advance, you just need to win the battle. Completing the 2 optional challenges per floor grants extra resources.
-    * **Battle Environment:** Starting from Floor 11, additional effects are added for you (and / or enemy) for the next 10 floors.
-
-!!! question "Who to use for this tower?"
-    * **As should have been guessed from the tower gimmick, characters with <u>Physical Damage type</u>**.
-    * **Starting from Floor 41, Tower becomes harder. Be aware of environmental challenges and find the ways to overcome them.**<br>**Or if you fail to do so, refer to [Seji's Video Guide](https://www.youtube.com/playlist?list=PLSWDlsPYyQphb3DCFuGhXL0IfrIi90di6).**
-
-!!! warning "Important to know"
-    Despite enemies being immune to Magical Damage, it simply negates damage.<br>**Any debuffs / knockback abilities from Magical type characters will work, which *may* or *may not* be useful for clearing the stage.**<br>(Damage from Knockback **will** be negated, though).
-
-??? abstract "Environmental Effects"
-    * **91 — 100 Floors:**<br>**[All Groups]**{ .orange} Crit Rate is reduced by 200%.
-    * **81 — 90 Floors:**<br>**[User Group]**{ .orange} DEF is reduced by 25%. <br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
-    * **71 — 80 Floors:**<br>**[Monster Group]**{ .orange} Crit Rate increases by 100%.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
-    * **61 — 70 Floors:**<br>**[Monster Group]**{ .orange} Each attack adds 1 extra Chain stack.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.    
-    * **51 — 60 Floors:**<br>**[Monster Group]**{ .orange} Damage dealt increases by 100%.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
-    * **41 — 50 Floors:**<br>**[User Group]**{ .orange} Reinforcement skill efficiency reduces by 70%.
-    * **31 — 40 Floors:**<br>**[Monster Group]**{ .orange} Each target heals 20% of Max HP per turn.
-    * **21 — 30 Floors:**<br>**[Monster Group]**{ .orange} Damage recieved is reduced by 50% due to the applied Barrier.
-    * **11 — 20 Floors:**<br>**[All Groups]**{ .orange} Crit Rate increases by 50%.
-
-??? info "Tower of Jealousy Rewards"
-    * **Each 50th Floor:** 10 {{ Draw_Ticket }}, 150 {{ Dia }}, 1 {{ Property_Selective_Draw_Exchange_Ticket }}
-    * **Each 10th Floor:** 10 {{ Draw_Ticket }}, 150 {{ Dia }}, 200 {{ Refining_Crystal }}
-    * **Each 5th Floor:** 5 {{ Draw_Ticket }}, 100 {{ Dia }}, 100 {{ Refining_Crystal }}
-    * **Rest Floors:** 30 000 {{ Gold }}, 30 000 {{ Gold }}, 5 {{ Torch }}
-
-<div class = "gallery" markdown>
-
-<figure markdown>
-
-![Tower of Wrath Menu](../assets/images/evil-castle/ToJ/ToJ_1.png)
-
-<figcaption>Tower of Jealousy Menu</figcaption>
-
-</figure>
-
-<figure markdown>
-
-![Tower of Wrath Battle Screen](../assets/images/evil-castle/ToJ/ToJ_2.png)
-
-<figcaption>Tower of Jealousy Battle Screen</figcaption>
-
-</figure>
-
-</div>
-
+---
 
 
 ### ![Tower Of Salvation Icon](../assets/images/evil-castle/icon_roguelike.png){ .icon-header } **Tower of Salvation**
@@ -426,17 +318,280 @@ As for the fifth pick, you're allowed to take almost every costume from the game
 ??? note "Image of Wildcard Selection screen"
     ![Tower of Salvation Wildcard Selection](../assets/images/evil-castle/ToS/ToS_12.png)
 
-!!! example "Some rules about costumes"
+!!! question "How to properly pick your Wildcard"
+    * First, you need to understand what type of team you gathered. If you picked full {{ Magical }} Magical damage type of team, there is very little sense to switch to {{ Physical }} Physical type.
+    * Second, you need to balance the team. If you picked good supports, try consider picking DPS and vice versa.<br>There may be rare cases where you get both supports and DPS in first 4 picks. Then you can decide to bring in Utility costume or adding extra Support/DPS. 
+
+!!! example "Some rules about {{Costumes }} costumes"
     1. **Owned costumes in your account copy their dupes count (+0 ~ +5), [Potential Liberation](../character-info/potential-liberation.md) and Engraving & Awakening.**
     2. **Costumes <u>DO NOT</u> copy their gear equipped.**
     3. **Brown Dust II Exclusive costumes can appear in both Normal and Wildcard Selections. As mentioned earlier, <u>collab costumes</u> cannot appear / be chosen unless you own them.**
     4. **In following Normal Selections, first 2 choices for costumes is from your already owned characters, last 2 choices are always new.<br>That means it can be worth to obtain different costume of desired character to have a chance to obtain needed costume sooner.**
 
+During your climb, you need to choose the path which can consist of the following activities:
+
+| Name | Icon | Description |
+|:---:|:---:|:---:|
+| **Battle** | ![Battle Icon](../assets/images/evil-castle/ToS/ToS_Battle.png) | Just a plain battle. As a reward, you recieve {{ Lost_Silver }} **Lost Silver** and **Costume Selection.** |
+| **Elite Battle** | ![Elite Battle Icon](../assets/images/evil-castle/ToS/ToS_Elite_Battle.png) | More difficult battle compared to the one above. Often involves some mini-bosses. As a reward, you recieve {{ Lost_Silver }} **Lost Silver** and **Artifact Selection** |
+| **Boss Battle** | ![Boss Battle Icon](../assets/images/evil-castle/ToS/ToS_Boss_Battle.png) | Necessary fight each 10th floor, usually the hardest ones. As a reward, you recieve {{ Lost_Silver }} **Lost Silver** and **high-grade Artifact Selection**, as well as **Refresh Attempt**. |
+| **Artifact** | ![Artifact Icon](../assets/images/evil-castle/ToS/ToS_Artifact.png) | Artifact Selection |
+| **Event**| ![Event Icon](../assets/images/evil-castle/ToS/ToS_Event.png) | It offers you ways to obtain {{ Lost_Silver }} **Lost Silver** and various **Artifacts**, but with possible drawbacks.  |
+| **Shop** | ![Shop Icon](../assets/images/evil-castle/ToS/ToS_Shop.png) | Shop is a place to buy new artifacts, purchase or upgrade existing {{Costumes }} costumes and heal your characters using {{ Lost_Silver }} **Lost Silver**. Always availbable at floors 11 and 21.|
+!!! example "Interest System"
+    Each new floor, you recieve 5% of current {{Lost_Silver}} **Lost Silver** as **interest**. Do keep it in mind when choosing your path. 
+
+!!! abstract "![Artifact Icon](../assets/images/evil-castle/ToS/icon_jar.png){ .icon-header} Artifact System"
+    Artifacts are items mostly giving buffs and either providing offensive or defensive capabilities.
+
+    * There are 4 artifact rarities total: **N (Common)**, **R (Rare)**, **SR (Super Rare)**, **UR (Ultra Rare)**.
+    * They can be acquired as a reward from Elite Battles, Artifacts activity, Events or via purchasing in a Shop.
+    * Some artifacts of low rarity can be combined to make one of better rarity, usually better compared to components. These artifacts will have ![Combining Artifacts Icon](../assets/images/evil-castle/ToS/icon_relicmixbase.png "Possible Artifact Combining"){.icon} icon on top left corner of the artifact card.<br>**It is safe to click this icon to check the recipe for combining**.
+        * To actually combine artifacts, head to Sort tab, and press third tab on the left.
+        ??? "Image Guide"
+            ![Image Guide](../assets/images/evil-castle/ToS/ToS_13.png)
+    * You cannot have artifact duplicates, however, after combiining, it is possible to obtain component ones back naturally.
+    * Artifact (de)buffs amount <u>**IS NOT**</u> counted towards (de)buff-dependent costumes such as **New Hire Nebris** or **Onsen Swordfighter Blade**. All (de)buffs for increasing the damage must come from other costumes, not artifacts. 
+    
+    ---
+
+    * It is important to read artifact abilities and understand what type of build you want to run.
+    * You should be aware of combining artifacts, thus, *in some cases*, picking {{ Magical }} Magic-related artifacts when you run {{ Physical }} Physical team may have sense.
+
+!!! abstract "![Question Mark Icon](../assets/images/evil-castle/icon_questionmark.png){.icon-header} Event System"
+    * Events offer you few choices, from 2 to 4. You have the ability to read about all of them and make a decision based on your needs.
+    * Some choices have chance for a success. If you fail, usually negative effect, also displayed prior to, takes place.
+    * There are artifacts that increase Success Chance for events.
+    * For some events, it is just possible to skip event completely *("Leave the room")*.
+    * You can check all possible events [here](https://docs.google.com/spreadsheets/d/1edBTp4PXpX5gA1x9DdxX9FKrqSs40C_2Du0JS-sjLJ0/edit?usp=sharing).
+
+!!! abstract "![Tower of Salvation Shop Icon](../assets/images/evil-castle/ToS/ToS_Shop.png){ .icon-header } Shop System"
+    Each shop offers you:
+
+    * **5** ![Artifact Icon](../assets/images/evil-castle/ToS/icon_jar.png){.icon} **Artifacts** of different rarities (usually, higher chance of better ones the further you go).
+        * Each artifact have fixed price and it does not depend on difficulty or floor you're on.
+    * **4 {{Costumes}} Costumes** of characters you own *(whenever it is possible)*.
+        * If it's not *(you own all costumes for all but 3 or less characters)*, new character costumes will be offered instead.
+    * **4 {{Costumes}} Costumes** of characters you **DO NOT** own.
+    * **Ability to upgrade dupe of owned costumes** (1000 {{Lost_Silver}} per dupe of any character)
+    * Ability to heal & revive your characters
+    * Ability to refresh shop
+        * It has base price of 1,000 {{Lost_Silver}} Lost Silver and increases each time you do it in the same shop.
+
+    There is also a thing called as **discount**. It works for Artifacts and Costumes only, offering **50%** off for some of options.
+
+    * Discount chance depends on difficulty.
+    * There are upgrades and artifacts, capable of increasing the chance.
+
+!!! example "Crystal Battle"
+    **If you complete Floor 30 on Difficulty 10, extra Floor, 31, will be unlocked.** It serves as decisive factor for a leaderboard
+
+    * You have 5 turns to deal as much damage to the Crystal in a 3x3 grid as possible.
+    * Crystal takes no actions, but for the battle you can use survived characters after Floor 30 only.
+    * Since leaderboard doesn't give any necessary benefit, there is no point in chasing for maximum damage. Focus on completing Tower instead.
+
+!!! tip "Important Feature You Should REALLY Know"
+    **During the battles, you can replace characters for 2 SP each. Replaced character will not have cooldowns on any of costumes**<br>That means, **you can refresh character's skills for 4 SP**.<br>Do keep in mind that it also removes all buffs applied before, so the best usage of this feature goes to utility / support characters. 
+
+<div class = "gallery" markdown>
+
+<figure markdown>
+
+![Tower of Salvation Menu](../assets/images/evil-castle/ToS/ToS_9.png)
+
+<figcaption>Tower of Salvation Menu</figcaption>
+
+</figure>
+
+<figure markdown>
+
+![Tower of Salvation Upgrade Menu](../assets/images/evil-castle/ToS/ToS_10.png)
+
+<figcaption>Tower of Salvation Upgrade Menu</figcaption>
+
+</figure>
+
+<figure markdown>
+
+![Tower of Salvation Climbing Menu](../assets/images/evil-castle/ToS/ToS_1.png)
+
+<figcaption>Tower of Salvation Climbing Menu</figcaption>
+
+</figure>
+
+<figure markdown>
+
+![Tower of Salvation Battle](../assets/images/evil-castle/ToS/ToS_2.png)
+
+<figcaption>Tower of Salvation Battle</figcaption>
+
+</figure>
+
+<figure markdown>
+
+![Tower of Salvation Costume Selection](../assets/images/evil-castle/ToS/ToS_3.png)
+
+<figcaption>Tower of Salvation Costume Selection</figcaption>
+
+</figure>
+
+<figure markdown>
+
+![Tower of Salvation Event Menu](../assets/images/evil-castle/ToS/ToS_4.png)
+
+<figcaption>Tower of Salvation Event Menu</figcaption>
+
+</figure>
+
+<figure markdown>
+
+![Tower of Salvation Artifact Selection](../assets/images/evil-castle/ToS/ToS_5.png)
+
+<figcaption>Tower of Salvation Artifact Selection</figcaption>
+
+</figure>
+
+<figure markdown>
+
+![Tower of Salvation Shop Menu](../assets/images/evil-castle/ToS/ToS_6.png)
+
+<figcaption>Tower of Salvation Shop Menu</figcaption>
+
+</figure>
+
+<figure markdown>
+
+![Tower of Salvation Crystal Battle](../assets/images/evil-castle/ToS/ToS_7.png)
+
+<figcaption>Tower of Salvation Crystal Battle</figcaption>
+
+</figure>
+
+<figure markdown>
+
+![Tower of Salvation Results Screen](../assets/images/evil-castle/ToS/ToS_8.png)
+
+<figcaption>Tower of Salvation Results Screen</figcaption>
+
+</figure>
+
+</div>
+
+---
+
+### ![Tower Of Wrath Icon](../assets/images/evil-castle/icon_devilcastle_3.png){ .icon-header } **Tower of Wrath**
+
+This tower offers you a challenge by reducing useful character pool: **Enemies are immune to {{ Physical }} Physical Damage**.
+
+!!! info ""
+    * **Height:** 100 floors
+    * **Enemies:** They **DO NOT** have property. Aside from that, they **ARE IMMUNE to {{ Physical }} Physical Damage**.
+    * **Progression:** To advance, you just need to win the battle. Completing the 2 optional challenges per floor grants extra resources.
+    * **Battle Environment:** Starting from Floor 11, additional effects are added for you (and / or enemy) for the next 10 floors.
+
+!!! question "Who to use for this tower?"
+    * **As should have been guessed from the tower gimmick, characters with {{ Magical }} <u>Magic Damage type</u>**.
+    * **Starting from Floor 41, Tower becomes harder. Be aware of environmental challenges and find the ways to overcome them.**<br>**Or if you fail to do so, refer to [Seji's Video Guide](https://www.youtube.com/playlist?list=PLSWDlsPYyQphb3DCFuGhXL0IfrIi90di6).**
+
+!!! warning "Important to know"
+    Despite enemies being immune to {{ Physical }} Physical Damage, it simply negates damage.<br>**Any debuffs / knockback abilities from {{ Physical }} Physical type characters will work, which *may* or *may not* be useful for clearing the stage.**<br>(Damage from Knockback **will** be negated, though).
+
+??? abstract "Environmental Effects"
+    * **91 — 100 Floors:**<br>**[All Groups]**{ .orange} Crit Rate is reduced by 200%.
+    * **81 — 90 Floors:**<br>**[Monster Group]**{ .orange} Damage recieved is reduced by 50% due to the applied Barrier.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
+    * **71 — 80 Floors:**<br>**[Monster Group]**{ .orange} Each attack adds 1 extra Chain stack.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
+    * **61 — 70 Floors:**<br>**[User Group]**{ .orange} DEF is reduced by 25%.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.    
+    * **51 — 60 Floors:**<br>**[User Group]**{ .orange} Incoming DMG increases by 200%.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
+    * **41 — 50 Floors:**<br>**[User Group]**{ .orange} Reinforcement skill efficiency reduces by 70%.
+    * **31 — 40 Floors:**<br>**[User Group]**{ .orange} Each attack adds one additional stack of Chain.<br>**[User Group]**{ .orange } Incoming DMG increases by 50%.
+    * **21 — 30 Floors:**<br>**[Monster Group]**{ .orange} Each target receives an Energy Guard equivalent to 50% of Max HP.
+    * **11 — 20 Floors:**<br>**[All Groups]**{ .orange} Crit DMG increases by 100%.
+
+??? info "Tower of Wrath Rewards"
+    * **Each 50th Floor:** 10 {{ Draw_Ticket }}, 150 {{ Dia }}, 1 {{ Property_Selective_Draw_Exchange_Ticket }}
+    * **Each 10th Floor:** 10 {{ Draw_Ticket }}, 150 {{ Dia }}, 200 {{ Refining_Crystal }}
+    * **Each 5th Floor:** 5 {{ Draw_Ticket }}, 100 {{ Dia }}, 100 {{ Refining_Crystal }}
+    * **Rest Floors:** 30 000 {{ Gold }}, 30 000 {{ Gold }}, 5 {{ Torch }}
+
+<div class = "gallery" markdown>
+
+<figure markdown>
+
+![Tower of Wrath Menu](../assets/images/evil-castle/ToW/ToW_1.png)
+
+<figcaption>Tower of Wrath Menu</figcaption>
+
+</figure>
+
+<figure markdown>
+
+![Tower of Wrath Battle Screen](../assets/images/evil-castle/ToW/ToW_2.png)
+
+<figcaption>Tower of Wrath Battle Screen</figcaption>
+
+</figure>
+
+</div>
+
+---
+
+### ![Tower of Jealousy Icon](../assets/images/evil-castle/icon_devilcastle_4.png){ .icon-header } **Tower of Jealousy**
+
+This tower offers you a challenge by reducing useful character pool: **Enemies are immune to {{ Magical }} Magical Damage**.
+
+!!! info ""
+    * **Height:** 100 floors
+    * **Enemies:** They **DO NOT** have property. Aside from that, they **ARE IMMUNE to {{ Magical }} Magical Damage**.
+    * **Progression:** To advance, you just need to win the battle. Completing the 2 optional challenges per floor grants extra resources.
+    * **Battle Environment:** Starting from Floor 11, additional effects are added for you (and / or enemy) for the next 10 floors.
+
+!!! question "Who to use for this tower?"
+    * **As should have been guessed from the tower gimmick, characters with {{ Physical }} <u>Physical Damage type</u>**.
+    * **Starting from Floor 41, Tower becomes harder. Be aware of environmental challenges and find the ways to overcome them.**<br>**Or if you fail to do so, refer to [Seji's Video Guide](https://www.youtube.com/playlist?list=PLSWDlsPYyQphb3DCFuGhXL0IfrIi90di6).**
+
+!!! warning "Important to know"
+    Despite enemies being immune to {{ Magical }} Magical Damage, it simply negates damage.<br>**Any debuffs / knockback abilities from {{ Magical }} Magical type characters will work, which *may* or *may not* be useful for clearing the stage.**<br>(Damage from Knockback **will** be negated, though).
+
+??? abstract "Environmental Effects"
+    * **91 — 100 Floors:**<br>**[All Groups]**{ .orange} Crit Rate is reduced by 200%.
+    * **81 — 90 Floors:**<br>**[User Group]**{ .orange} DEF is reduced by 25%. <br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
+    * **71 — 80 Floors:**<br>**[Monster Group]**{ .orange} Crit Rate increases by 100%.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
+    * **61 — 70 Floors:**<br>**[Monster Group]**{ .orange} Each attack adds 1 extra Chain stack.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.    
+    * **51 — 60 Floors:**<br>**[Monster Group]**{ .orange} Damage dealt increases by 100%.<br>**[User Group]**{ .orange } Crit DMG decreases by 200%.
+    * **41 — 50 Floors:**<br>**[User Group]**{ .orange} Reinforcement skill efficiency reduces by 70%.
+    * **31 — 40 Floors:**<br>**[Monster Group]**{ .orange} Each target heals 20% of Max HP per turn.
+    * **21 — 30 Floors:**<br>**[Monster Group]**{ .orange} Damage recieved is reduced by 50% due to the applied Barrier.
+    * **11 — 20 Floors:**<br>**[All Groups]**{ .orange} Crit Rate increases by 50%.
+
+??? info "Tower of Jealousy Rewards"
+    * **Each 50th Floor:** 10 {{ Draw_Ticket }}, 150 {{ Dia }}, 1 {{ Property_Selective_Draw_Exchange_Ticket }}
+    * **Each 10th Floor:** 10 {{ Draw_Ticket }}, 150 {{ Dia }}, 200 {{ Refining_Crystal }}
+    * **Each 5th Floor:** 5 {{ Draw_Ticket }}, 100 {{ Dia }}, 100 {{ Refining_Crystal }}
+    * **Rest Floors:** 30 000 {{ Gold }}, 30 000 {{ Gold }}, 5 {{ Torch }}
+
+<div class = "gallery" markdown>
+
+<figure markdown>
+
+![Tower of Wrath Menu](../assets/images/evil-castle/ToJ/ToJ_1.png)
+
+<figcaption>Tower of Jealousy Menu</figcaption>
+
+</figure>
+
+<figure markdown>
+
+![Tower of Wrath Battle Screen](../assets/images/evil-castle/ToJ/ToJ_2.png)
+
+<figcaption>Tower of Jealousy Battle Screen</figcaption>
+
+</figure>
+
+</div>
+
+---
 
 
-
-
-#### ![Tower of Salvation Shop Icon](../assets/images/evil-castle/ToS/ToS-shop.png){ .icon-header } **Tower of Salvation Shop**
 
 <!--Evil Castle — one of 5 content packs available to you after clearing Normal difficulty of Story Pack 4. The castle's main content consists of 5 towers: Tower of Pride, Tower of Desire, Tower of Salvation, Tower of Wrath and Tower of Jealousy.
 Starting from the simplest tower, Tower of Desire, which is often treated as general content. It consists of 200 floors, each having rewards. Enemies share one property each for 10 floors, then property changes. 

@@ -82,6 +82,7 @@ extra:
   Blue_Slime: '![Blue Slime](../assets/images/icons/icon_resource9002_60.png "Blue Slime"){ .icon }'
   Cooked_Rice: '![Cooked Rice](../assets/images/icons/cooked_rice.png "Cooked Rice"){ .icon }'
   Copper_Ore: '![Copper Ore](../assets/images/icons/icon_resource202_28.png "Copper Ore"){ .icon }'
+  Costumes: '![Costume Icon](../assets/images/icons/icon_pictorialbook7.png "Costumes"){ .icon }'
   Darkness_Magic_Crystal: '![Darkness Magic Crystal](../assets/images/icons/icon_resource115_19.png "Darkness Magic Crystal"){ .icon }'
   Dia: '![Dia](../assets/images/icons/icon_resource60001_84.png "Dia"){ .icon }'
   Devil_Coin: '![Devil Coin](../assets/images/icons/devil_coin.png "Devil Coin"){ .icon }'
@@ -122,3 +123,5 @@ extra:
   Water_Magic_Crystal: '![Water Magic Crystal](../assets/images/icons/icon_resource112_16.png "Water Magic Crystal"){ .icon }'
   Wind_Magic_Crystal: '![Wind Magic Crystal](../assets/images/icons/icon_resource113_17.png "Wind Magic Crystal"){ .icon }'
   Yellow_Slime: '![Yellow Slime](../assets/images/icons/icon_resource9001_59.png "Yellow Slime"){ .icon }'
+  Physical: '![Physical Damage Type](../assets/images/icons/icon_stats_physical.png "Physical Damage Type"){ .icon }'
+  Magical: '![Magical Damage Type](../assets/images/icons/icon_stats_magical.png "Magical Damage Type"){ .icon }'
