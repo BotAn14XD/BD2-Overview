@@ -16,10 +16,10 @@ Evil Castle - PvE mode, offering both single-time and repetitive content.
     </tr>
 </table>
 
-![Evil Castle Screenshot](../assets/images/evil-castle/evil-castle.png)
+![Evil Castle Screenshot](../assets/images/evil-castle/evil-castle.webp)
 
 
-### ![Tower Of Pride Icon](../assets/images/evil-castle/icon_devilcastle_2.png){ .icon-header } **Tower of Pride**
+### ![Tower Of Pride Icon](../assets/images/evil-castle/icon_devilcastle_2.webp){ .icon-header } **Tower of Pride**
 
 Tower of Pride is a unique Tower, offering **daily** rewards based on your score. 
 
@@ -85,7 +85,7 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
 !!! question "Do I need to fight it daily to obtain rewards?"
     **No.** Game mode offers both one-time clear and daily rewards. For obtaining daily ones, go to any pack except Golden Colosseum and Glupy Diner and interact with pet following you. 
     ??? note "Image Guide"
-        ![Claiming rewards tuto](../assets/images/evil-castle/dispatch_guide.png)
+        ![Claiming rewards tuto](../assets/images/evil-castle/dispatch_guide.webp)
 
 ??? abstract "Tower of Pride Rewards"
     === "One-time Rewards"
@@ -110,7 +110,7 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
 
 <figure markdown>
 
-![Tower of Pride Menu](../assets/images/evil-castle/ToP/ToP_1.png)
+![Tower of Pride Menu](../assets/images/evil-castle/ToP/ToP_1.webp)
 
 <figcaption>Tower of Pride Menu</figcaption>
 
@@ -118,7 +118,7 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
 
 <figure markdown>
 
-![Tower of Pride Battle Room](../assets/images/evil-castle/ToP/ToP_3.png)
+![Tower of Pride Battle Room](../assets/images/evil-castle/ToP/ToP_3.webp)
 
 <figcaption>Tower of Pride Battle Room</figcaption>
 
@@ -126,15 +126,7 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
 
 <figure markdown>
 
-![Tower of Pride Battle Room](../assets/images/evil-castle/ToP/ToP_2.png)
-
-<figcaption>Tower of Pride Battle Room Map</figcaption>
-
-</figure>
-
-<figure markdown>
-
-![Tower of Pride Battle](../assets/images/evil-castle/ToP/ToP_4.png)
+![Tower of Pride Battle](../assets/images/evil-castle/ToP/ToP_4.webp)
 
 <figcaption>Tower of Pride Battle</figcaption>
 
@@ -142,17 +134,9 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
 
 <figure markdown>
 
-![Tower of Pride Boss Room](../assets/images/evil-castle/ToP/ToP_6.png)
+![Tower of Pride Boss Room](../assets/images/evil-castle/ToP/ToP_6.webp)
 
 <figcaption>Tower of Pride Boss Room</figcaption>
-
-</figure>
-
-<figure markdown>
-
-![Tower of Pride Battle Room Map](../assets/images/evil-castle/ToP/ToP_5.png)
-
-<figcaption>Tower of Pride Boss Room Map</figcaption>
 
 </figure>
 
@@ -160,7 +144,7 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
 
 ---
 
-### ![Tower Of Desire Icon](../assets/images/evil-castle/icon_devilcastle_1.png){ .icon-header } **Tower of Desire**
+### ![Tower Of Desire Icon](../assets/images/evil-castle/icon_devilcastle_1.webp){ .icon-header } **Tower of Desire**
 
 Often considered to be a general content (until Floor 151+). 
 
@@ -184,7 +168,7 @@ Often considered to be a general content (until Floor 151+).
 
 <figure markdown>
 
-![Tower of Desire Menu](../assets/images/evil-castle/ToD/ToD_1.png)
+![Tower of Desire Menu](../assets/images/evil-castle/ToD/ToD_1.webp)
 
 <figcaption>Tower of Desire Menu</figcaption>
 
@@ -192,7 +176,7 @@ Often considered to be a general content (until Floor 151+).
 
 <figure markdown>
 
-![Tower of Desire Battle Screen](../assets/images/evil-castle/ToD/ToD_2.png)
+![Tower of Desire Battle Screen](../assets/images/evil-castle/ToD/ToD_2.webp)
 
 <figcaption>Tower of Desire Battle Screen</figcaption>
 
@@ -203,7 +187,7 @@ Often considered to be a general content (until Floor 151+).
 ---
 
 
-### ![Tower Of Salvation Icon](../assets/images/evil-castle/icon_roguelike.png){ .icon-header } **Tower of Salvation**
+### ![Tower Of Salvation Icon](../assets/images/evil-castle/icon_roguelike.webp){ .icon-header } **Tower of Salvation**
 
 Tower of Salvation is a **seasonal** roguelike gamemode where you climb Floors of the Tower in order to obtain resources.
 
@@ -310,14 +294,16 @@ Difficulty decide how hard it will be to climb the Tower, while upgrades ease th
 
 !!! question "What upgrades do I buy with {{ Night_World_Obsidian }} Obsidian?"
     Prioritize **Refresh Attempts Up**, **Starting SP Up**, followed by **Discount Probability Up** and **ATK/MATK**, depending on the team you usually run. Rest is optional and / or not needed.
+    ??? note "Image of Upgrade Menu"
+        ![Tower of Salvation Upgrade Menu](../assets/images/evil-castle/ToS/ToS_10.webp)
 
 At the start of your run, you have to draft a team. To do that, you need to pick 1 of 4 offered costumes for each slot. If you do not like the choice and have rerolls available, you can Refresh the offered costumes.
 ??? note "Image of Normal Selection screen"
-    ![Tower of Salvation Initial Selection](../assets/images/evil-castle/ToS/ToS_11.png)
+    ![Tower of Salvation Initial Selection](../assets/images/evil-castle/ToS/ToS_11.webp)
 
 As for the fifth pick, you're allowed to take almost every costume from the game as Wildcard Selection, except **collab characters you do not own**. 
 ??? note "Image of Wildcard Selection screen"
-    ![Tower of Salvation Wildcard Selection](../assets/images/evil-castle/ToS/ToS_12.png)
+    ![Tower of Salvation Wildcard Selection](../assets/images/evil-castle/ToS/ToS_12.webp)
 
 !!! question "How to properly pick your Wildcard"
     * First, you need to understand what type of team you gathered. If you picked full {{ Magical }} Magical damage type of team, there is very little sense to switch to {{ Physical }} Physical type.
@@ -338,12 +324,12 @@ During your climb, you need to choose the path which can consist of the followin
 
 | Name | Icon | Description |
 |:---:|:---:|:---:|
-| **Battle** | ![Battle Icon](../assets/images/evil-castle/ToS/ToS_Battle.png) | Just a plain battle. As a reward, you receive {{ Lost_Silver }} **Lost Silver** and **Costume Selection.** |
-| **Elite Battle** | ![Elite Battle Icon](../assets/images/evil-castle/ToS/ToS_Elite_Battle.png) | More difficult battle compared to the one above. Often involves some mini-bosses. As a reward, you receive {{ Lost_Silver }} **Lost Silver** *(more compared to Normal Battles)* and **Artifact Selection** |
-| **Boss Battle** | ![Boss Battle Icon](../assets/images/evil-castle/ToS/ToS_Boss_Battle.png) | Necessary fight each 10th floor, usually the hardest ones. As a reward, you receive {{ Lost_Silver }} **Lost Silver** *(more compared to both Elite and Normal Battles)* and **high-grade Artifact Selection**, as well as **Refresh Attempt**. |
-| **Artifact** | ![Artifact Icon](../assets/images/evil-castle/ToS/ToS_Artifact.png) | Artifact Selection |
-| **Event**| ![Event Icon](../assets/images/evil-castle/ToS/ToS_Event.png) | It offers you ways to obtain {{ Lost_Silver }} **Lost Silver** and various **Artifacts**, but with possible drawbacks.  |
-| **Shop** | ![Shop Icon](../assets/images/evil-castle/ToS/ToS_Shop.png) | Shop is a place to buy new artifacts, purchase or upgrade owned {{Costumes }} costumes and heal your characters using {{ Lost_Silver }} **Lost Silver**. Always available at floors 11 and 21.|
+| **Battle** | ![Battle Icon](../assets/images/evil-castle/ToS/ToS_Battle.webp) | Just a plain battle. As a reward, you receive {{ Lost_Silver }} **Lost Silver** and **Costume Selection.** |
+| **Elite Battle** | ![Elite Battle Icon](../assets/images/evil-castle/ToS/ToS_Elite_Battle.webp) | More difficult battle compared to the one above. Often involves some mini-bosses. As a reward, you receive {{ Lost_Silver }} **Lost Silver** *(more compared to Normal Battles)* and **Artifact Selection** |
+| **Boss Battle** | ![Boss Battle Icon](../assets/images/evil-castle/ToS/ToS_Boss_Battle.webp) | Necessary fight each 10th floor, usually the hardest ones. As a reward, you receive {{ Lost_Silver }} **Lost Silver** *(more compared to both Elite and Normal Battles)* and **high-grade Artifact Selection**, as well as **Refresh Attempt**. |
+| **Artifact** | ![Artifact Icon](../assets/images/evil-castle/ToS/ToS_Artifact.webp) | Artifact Selection |
+| **Event**| ![Event Icon](../assets/images/evil-castle/ToS/ToS_Event.webp) | It offers you ways to obtain {{ Lost_Silver }} **Lost Silver** and various **Artifacts**, but with possible drawbacks.  |
+| **Shop** | ![Shop Icon](../assets/images/evil-castle/ToS/ToS_Shop.webp) | Shop is a place to buy new artifacts, purchase or upgrade owned {{Costumes }} costumes and heal your characters using {{ Lost_Silver }} **Lost Silver**. Always available at floors 11 and 21.|
 
 !!! example "Interest System"
     Each new floor, you receive 5% of current {{Lost_Silver}} **Lost Silver** as **interest**. Do keep it in mind when choosing your path. 
@@ -352,15 +338,15 @@ During your climb, you need to choose the path which can consist of the followin
     In Tower of Salvation, **RNG is fixed**. That means **you cannot restart the battle with same setup to crit in case you did not**.<br>
     However, to somehow change RNG, you can change DPS order, or inflict some extra damage such as knockback or basic attack from other characters.
 
-!!! abstract "![Artifact Icon](../assets/images/evil-castle/ToS/icon_jar.png){ .icon-header} Artifact System"
+!!! abstract "![Artifact Icon](../assets/images/evil-castle/ToS/icon_jar.webp){ .icon-header} Artifact System"
     Artifacts are items mostly giving buffs and either providing offensive or defensive capabilities.
 
     * There are 4 artifact rarities total: **N (Common)**, **R (Rare)**, **SR (Super Rare)**, **UR (Ultra Rare)**.
     * They can be acquired as a reward from Elite Battles, Artifacts activity, Events or via purchasing in a Shop.
-    * Some artifacts of low rarity can be combined to make one of better rarity, usually better compared to components. These artifacts will have ![Combining Artifacts Icon](../assets/images/evil-castle/ToS/icon_relicmixbase.png "Possible Artifact Combining"){.icon} icon on top left corner of the artifact card.<br>**It is safe to click this icon to check the recipe for combining**.
+    * Some artifacts of low rarity can be combined to make one of better rarity, usually better compared to components. These artifacts will have ![Combining Artifacts Icon](../assets/images/evil-castle/ToS/icon_relicmixbase.webp "Possible Artifact Combining"){.icon} icon on top left corner of the artifact card.<br>**It is safe to click this icon to check the recipe for combining**.
         * To actually combine artifacts, head to Sort tab, and press third tab on the left.
         ??? "Image Guide"
-            ![Image Guide](../assets/images/evil-castle/ToS/ToS_13.png)
+            ![Image Guide](../assets/images/evil-castle/ToS/ToS_13.webp)
     * You cannot have artifact duplicates, however, after combiining, it is possible to obtain component ones back naturally.
     * Artifact (de)buffs amount <u>**IS NOT**</u> counted towards (de)buff-dependent costumes such as **New Hire Nebris** or **Onsen Swordfighter Blade**. All (de)buffs for increasing the damage must come from other costumes, not artifacts. 
     
@@ -369,17 +355,17 @@ During your climb, you need to choose the path which can consist of the followin
     * It is important to read artifact abilities and understand what type of build you want to run.
     * You should be aware of combining artifacts, thus, *in some cases*, picking {{ Magical }} Magic-related artifacts when you run {{ Physical }} Physical team may have sense.
 
-!!! abstract "![Question Mark Icon](../assets/images/evil-castle/icon_questionmark.png){.icon-header} Event System"
+!!! abstract "![Question Mark Icon](../assets/images/evil-castle/icon_questionmark.webp){.icon-header} Event System"
     * Events offer you few choices, from 2 to 4. You have the ability to read about all of them and make a decision based on your needs.
     * Some choices have chance for a success. If you fail, usually negative effect, also displayed prior to, takes place.
     * There are artifacts that increase Success Chance for events.
     * For some events, it is just possible to skip event completely *("Leave the room")*.
     * You can check all possible events [here](https://docs.google.com/spreadsheets/d/1edBTp4PXpX5gA1x9DdxX9FKrqSs40C_2Du0JS-sjLJ0/edit?usp=sharing).
 
-!!! abstract "![Tower of Salvation Shop Icon](../assets/images/evil-castle/ToS/ToS_Shop.png){ .icon-header } Shop System"
+!!! abstract "![Tower of Salvation Shop Icon](../assets/images/evil-castle/ToS/ToS_Shop.webp){ .icon-header } Shop System"
     Each shop offers you:
 
-    * **5** ![Artifact Icon](../assets/images/evil-castle/ToS/icon_jar.png){.icon} **Artifacts** of different rarities (usually, higher chance of better ones the further you go).
+    * **5** ![Artifact Icon](../assets/images/evil-castle/ToS/icon_jar.webp){.icon} **Artifacts** of different rarities (usually, higher chance of better ones the further you go).
         * Each artifact have fixed price and it does not depend on difficulty or floor you're on.
     * **4 {{Costumes}} Costumes** of characters you own *(whenever it is possible)*.
         * If it's not *(you own all costumes for all but 3 or less characters)*, new character costumes will be offered instead.
@@ -397,9 +383,11 @@ During your climb, you need to choose the path which can consist of the followin
 !!! example "Crystal Battle"
     **If you complete Floor 30 on Difficulty 10, extra Floor, 31, will be unlocked.** It serves as decisive factor for a leaderboard
 
-    * You have 5 turns to deal as much damage to the Crystal in a 3x3 grid as possible.
+    * You have attack 5 turns to deal as much damage to the Crystal in a 3x3 grid as possible.
     * Crystal takes no actions, but for the battle you can use survived characters after Floor 30 only.
     * Since leaderboard doesn't give any necessary benefit, there is no point in chasing for maximum damage. Focus on completing Tower instead.
+
+    ![Tower of Salvation Crystal Battle](../assets/images/evil-castle/ToS/ToS_7.webp)
 
 !!! tip "Important Feature You Should REALLY Know"
     **During the battles, you can replace characters for 2 SP each. Replaced character will not have cooldowns on any of costumes**<br>That means, **you can refresh character's skills for 4 SP**.<br>Do keep in mind that it also removes all buffs applied before, so the best usage of this feature goes to utility / support characters. 
@@ -417,7 +405,7 @@ During your climb, you need to choose the path which can consist of the followin
 
 <figure markdown>
 
-![Tower of Salvation Menu](../assets/images/evil-castle/ToS/ToS_9.png)
+![Tower of Salvation Menu](../assets/images/evil-castle/ToS/ToS_9.webp)
 
 <figcaption>Tower of Salvation Menu</figcaption>
 
@@ -425,15 +413,7 @@ During your climb, you need to choose the path which can consist of the followin
 
 <figure markdown>
 
-![Tower of Salvation Upgrade Menu](../assets/images/evil-castle/ToS/ToS_10.png)
-
-<figcaption>Tower of Salvation Upgrade Menu</figcaption>
-
-</figure>
-
-<figure markdown>
-
-![Tower of Salvation Climbing Menu](../assets/images/evil-castle/ToS/ToS_1.png)
+![Tower of Salvation Climbing Menu](../assets/images/evil-castle/ToS/ToS_1.webp)
 
 <figcaption>Tower of Salvation Climbing Menu</figcaption>
 
@@ -441,7 +421,7 @@ During your climb, you need to choose the path which can consist of the followin
 
 <figure markdown>
 
-![Tower of Salvation Battle](../assets/images/evil-castle/ToS/ToS_2.png)
+![Tower of Salvation Battle](../assets/images/evil-castle/ToS/ToS_2.webp)
 
 <figcaption>Tower of Salvation Battle</figcaption>
 
@@ -449,7 +429,7 @@ During your climb, you need to choose the path which can consist of the followin
 
 <figure markdown>
 
-![Tower of Salvation Costume Selection](../assets/images/evil-castle/ToS/ToS_3.png)
+![Tower of Salvation Costume Selection](../assets/images/evil-castle/ToS/ToS_3.webp)
 
 <figcaption>Tower of Salvation Costume Selection</figcaption>
 
@@ -457,7 +437,7 @@ During your climb, you need to choose the path which can consist of the followin
 
 <figure markdown>
 
-![Tower of Salvation Event Menu](../assets/images/evil-castle/ToS/ToS_4.png)
+![Tower of Salvation Event Menu](../assets/images/evil-castle/ToS/ToS_4.webp)
 
 <figcaption>Tower of Salvation Event Menu</figcaption>
 
@@ -465,7 +445,7 @@ During your climb, you need to choose the path which can consist of the followin
 
 <figure markdown>
 
-![Tower of Salvation Artifact Selection](../assets/images/evil-castle/ToS/ToS_5.png)
+![Tower of Salvation Artifact Selection](../assets/images/evil-castle/ToS/ToS_5.webp)
 
 <figcaption>Tower of Salvation Artifact Selection</figcaption>
 
@@ -473,7 +453,7 @@ During your climb, you need to choose the path which can consist of the followin
 
 <figure markdown>
 
-![Tower of Salvation Shop Menu](../assets/images/evil-castle/ToS/ToS_6.png)
+![Tower of Salvation Shop Menu](../assets/images/evil-castle/ToS/ToS_6.webp)
 
 <figcaption>Tower of Salvation Shop Menu</figcaption>
 
@@ -481,15 +461,7 @@ During your climb, you need to choose the path which can consist of the followin
 
 <figure markdown>
 
-![Tower of Salvation Crystal Battle](../assets/images/evil-castle/ToS/ToS_7.png)
-
-<figcaption>Tower of Salvation Crystal Battle</figcaption>
-
-</figure>
-
-<figure markdown>
-
-![Tower of Salvation Results Screen](../assets/images/evil-castle/ToS/ToS_8.png)
+![Tower of Salvation Results Screen](../assets/images/evil-castle/ToS/ToS_8.webp)
 
 <figcaption>Tower of Salvation Results Screen</figcaption>
 
@@ -499,7 +471,7 @@ During your climb, you need to choose the path which can consist of the followin
 
 ---
 
-### ![Tower Of Wrath Icon](../assets/images/evil-castle/icon_devilcastle_3.png){ .icon-header } **Tower of Wrath**
+### ![Tower Of Wrath Icon](../assets/images/evil-castle/icon_devilcastle_3.webp){ .icon-header } **Tower of Wrath**
 
 This tower offers you a challenge by reducing useful character pool: **Enemies are immune to {{ Physical }} Physical Damage**.
 
@@ -537,7 +509,7 @@ This tower offers you a challenge by reducing useful character pool: **Enemies a
 
 <figure markdown>
 
-![Tower of Wrath Menu](../assets/images/evil-castle/ToW/ToW_1.png)
+![Tower of Wrath Menu](../assets/images/evil-castle/ToW/ToW_1.webp)
 
 <figcaption>Tower of Wrath Menu</figcaption>
 
@@ -545,7 +517,7 @@ This tower offers you a challenge by reducing useful character pool: **Enemies a
 
 <figure markdown>
 
-![Tower of Wrath Battle Screen](../assets/images/evil-castle/ToW/ToW_2.png)
+![Tower of Wrath Battle Screen](../assets/images/evil-castle/ToW/ToW_2.webp)
 
 <figcaption>Tower of Wrath Battle Screen</figcaption>
 
@@ -555,7 +527,7 @@ This tower offers you a challenge by reducing useful character pool: **Enemies a
 
 ---
 
-### ![Tower of Jealousy Icon](../assets/images/evil-castle/icon_devilcastle_4.png){ .icon-header } **Tower of Jealousy**
+### ![Tower of Jealousy Icon](../assets/images/evil-castle/icon_devilcastle_4.webp){ .icon-header } **Tower of Jealousy**
 
 This tower offers you a challenge by reducing useful character pool: **Enemies are immune to {{ Magical }} Magical Damage**.
 
@@ -593,7 +565,7 @@ This tower offers you a challenge by reducing useful character pool: **Enemies a
 
 <figure markdown>
 
-![Tower of Wrath Menu](../assets/images/evil-castle/ToJ/ToJ_1.png)
+![Tower of Wrath Menu](../assets/images/evil-castle/ToJ/ToJ_1.webp)
 
 <figcaption>Tower of Jealousy Menu</figcaption>
 
@@ -601,7 +573,7 @@ This tower offers you a challenge by reducing useful character pool: **Enemies a
 
 <figure markdown>
 
-![Tower of Wrath Battle Screen](../assets/images/evil-castle/ToJ/ToJ_2.png)
+![Tower of Wrath Battle Screen](../assets/images/evil-castle/ToJ/ToJ_2.webp)
 
 <figcaption>Tower of Jealousy Battle Screen</figcaption>
 

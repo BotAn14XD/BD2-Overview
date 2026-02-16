@@ -121,6 +121,18 @@ html {
     transform: scale(1.05);
 }
 
+@media screen and (max-width: 600px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr !important; 
+        gap: 8px !important;
+    }
+
+    .md-typeset .gallery figcaption {
+        font-size: 0.7rem;
+        padding: 4px;
+    }
+}
+
 .orange {
     color: #f89c22;
 }
