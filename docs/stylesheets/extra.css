@@ -25,6 +25,11 @@ html {
   pointer-events: none;
 }
 
+.icon-list {
+  pointer-events: none;
+  width: 2em;
+}
+
 .md-typeset table td, 
 .md-typeset table th {
     text-align: center !important;     
@@ -132,6 +137,12 @@ html {
         padding: 4px;
     }
 }
+
+.tab-align .tabbed-labels {
+    justify-content: center !important;
+    display: flex !important;
+}
+
 
 .orange {
     color: #f89c22;

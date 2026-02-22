@@ -15,6 +15,8 @@ theme:
 #    - navigation.sections
 nav:
 #    - Home: index.md
+    - 'Game Mechanics':
+        - 'Battle System': game-mechanics/battle-system.md
     - 'Characters info':
         - 'Potential Liberation': character-info/potential-liberation.md
     - 'Content Packs':
@@ -49,6 +51,7 @@ plugins:
       skip_classes:
         - icon
         - icon-header
+        - icon-list
   - git-revision-date-localized:
       type: date
       timezone: UTC
@@ -92,6 +95,7 @@ extra:
   Costumes: '![Costume Icon](../assets/images/icons/icon_pictorialbook7.png "Costumes"){ .icon }'
   Darkness_Magic_Crystal: '![Darkness Magic Crystal](../assets/images/icons/icon_resource115_19.png "Darkness Magic Crystal"){ .icon }'
   Dia: '![Dia](../assets/images/icons/icon_resource60001_84.png "Dia"){ .icon }'
+  Deco_Coin: '![Deco Coin](../assets/images/icons/icon_resource180001_349.png "Deco Coin"){.icon}'
   Devil_Coin: '![Devil Coin](../assets/images/icons/devil_coin.png "Devil Coin"){ .icon }'
   Draw_Ticket: '![Draw Ticket](../assets/images/icons/icon_resource40002_79.png "Draw Ticket"){ .icon }'
   Engraving_Scroll: '![Engraving Scroll](../assets/images/icons/icon_resource701_219.png "Engraving Scroll"){ .icon }'
@@ -99,13 +103,14 @@ extra:
   Essence_of_Perseverance: '![Essence of Perseverance](../assets/images/icons/icon_resource704_222.png "Essence of Perseverance"){ .icon }'
   Essence_of_Strength: '![Essence of Strength](../assets/images/icons/icon_resource703_221.png "Essence of Strength"){ .icon }'
   Fire_Magic_Crystal: '![Fire Magic Crystal](../assets/images/icons/icon_resource111_15.png "Fire Magic Crystal"){ .icon }'
-#  Glupy_Star: '![Glupy Star](../assets/images/icons/.png "Glupy Star"){ .icon }'
+  Glupy_Star: '![Glupy Star](../assets/images/icons/glupy_star.png "Glupy Star"){ .icon }'
   Gold: '![Gold](../assets/images/icons/icon_resource60005_88.png "Gold"){ .icon }'
   Gold_Ore: '![Gold Ore](../assets/images/icons/icon_resource203_29.png "Gold Ore"){ .icon }'
   Golden_Thread: '![Golden Thread](../assets/images/icons/icon_resource4_8.png "Golden Thread"){ .icon }'
   Hardwood: '![Hardwood](../assets/images/icons/icon_resource501_45.png "Hardwood"){ .icon }'
   Iron_Ore: '![Iron Ore](../assets/images/icons/icon_resource201_27.png "Iron Ore"){ .icon }'
   Key_of_Salvation: '![Key of Salvation](../assets/images/icons/icon_resource60024_212.png "Key of Salvation"){ .icon }'
+  Knockback: '![Knockback icon](../assets/images/battle-system/icons/icon_stats_knockback.png "Knockback"){ .icon }'
   Light_Magic_Crystal: '![Light Magic Crystal](../assets/images/icons/icon_resource114_18.png "Light Magic Crystal"){ .icon }'
   Lost_Silver: '![Lost Silver](../assets/images/icons/lost_silver.png "Lost Silver"){ .icon }'
   Medals_of_the_Fighting_Spirit: '![Medals of the Fighting Spirit](../assets/images/icons/Medals of the Fighting Spirit.png "Medals of the Fighting Spirit"){ .icon }'
