@@ -1,7 +1,7 @@
 ---
 description: Brown Dust II Battle System Overview
 ---
-# Battle System
+# **Battle System**
 Brown Dust II is a turn-based strategy in which you have ability to position your characters, as well as choose character's skills in order to defeat the enemies.
 
 ![Battle](../assets/images/battle-system/battle_system_1.webp)
@@ -19,11 +19,63 @@ In general content (such a Story, Towers), you have ability to use **5 character
 
 Field is a **3x4 rectangular grid**, in which you can place your characters however you like.
 
-## Battle UI
+## **Battle UI**
+![Top Part of UI](../assets/images/battle-system/UI_top.webp)
+<div class="tab-align" markdown>
+=== "![Environmental Icon](../assets/images/battle-system/icons/icon_environment.webp){ .icon-list }"
+    ### **Environmental Effects** { #__tabbed_1_1 }
+    This icon itself does not mean anything, but next to this icon all **environmental effects** are listed. They can be (but not limited to): 
+
+    * ![Collection Bonus Icon](../assets/images/battle-system/icons/bufficon_1000.png){ .icon } **Collection Bonus**
+    * ![Death Time Icon](../assets/images/battle-system/icons/bufficon_72.png){ .icon } **Death Time Effect**
+    * ![Evil Castle Environmental Effects](../assets/images/battle-system/icons/bufficon_81.png){ .icon } **[Evil Castle](../content-packs/evil-castle.md) Environmental effects**
+
+=== "![Auto Skill Icon](../assets/images/battle-system/icons/icon_autoskill.png){ .icon-list }"
+    ### **Auto Skill** { #__tabbed_1_2 }
+    This features automatically picks the costume to activate in the following turn.
+
+    !!! example ""
+        * **It tries to activate costumes in order of characters in a team (from first to the last).**
+            * It also tries to activate costumes shown in Compainion / Pre-battle screens first, meaning it will keep turn 1 settings almost every time.
+        * **If you do not have enough SP, skill (costume) will be not picked.**
+        * **If you do have SP but for cheaper costume only, that costume will be picked instead.**
+
+    To reselect costume choice, simply click on the character and choose different costume. 
+
+    Overall this feature is considered to be a time-saver, since setting up skills yourself is way bigger hustle. Aside of that, it is flexible feature which doesn't lock your selected skill order, so you should have no issues.
+
+=== "![Auto Battle Icon](../assets/images/battle-system/icons/icon_autobattle.webp){ .icon-list }"
+    ### **Auto Battle Feature** { #__tabbed_1_3 }
+    This feature allows you to complete battles automatically. 
+
+    !!! example ""
+        * **It locks your input from the battle completely, so in case you want to change anything, you must disable auto-battle first.**
+        * It uses initial positioning and Auto Skill Feature.
+        * It has a small countdown before launching the battle. 
+    It is **NOT** recommended to use Auto Battle, because 
+
+    * It takes longer time than actually just pressing battle button with no preparation
+    * It does not care about the enemy and positioning, meaning you will likely run into issues sooner or later.
+    * <u>**Auto Battle does not teach you a core gameplay feature such as the battle.**</u>
+
+=== "![Game Speed Icon](../assets/images/battle-system/icons/icon_speed.webp){ .icon-list }"
+    ### **Game Speed Feature** { #__tabbed_1_3 }
+    With that button, you can change the speed your battles are going at.<br>**Minimum is x1, maximum is x3**.
+    
+    To switch, simply press the button few times.
+
+=== "![Autofeed Icon](../assets/images/battle-system/icons/icon_autofood.webp){ .icon-list }"
+    ### **Autofeed Feature** { #__tabbed_1_3 }
+    This feature allows to heal minor damage by consuming cooked (and raw) food
+
+    While it sounds good on paper and no longer requires people go to the Inn, it is simply not worth the result. 
+
+---
+
 ![Bottom Part of UI](../assets/images/battle-system/UI_bottom.webp)
 <div class="tab-align" markdown>
 === "![Replace](../assets/images/battle-system/icons/icon_pictorialbook1.webp){ .icon-list }"
-    ### Replace Feature { #__tabbed_1_1 }
+    ### **Replace Feature** { #__tabbed_2_1 }
     Feauture allowing you to replace your characters during battle preparation.
     
     To replace a character, pick it from the list and tap on the character you want to replace.
@@ -34,7 +86,7 @@ Field is a **3x4 rectangular grid**, in which you can place your characters howe
         * In case you need **specific knockback**, you can check it via icon ({{ Knockback }}) on each character.
         * You can also **add characters instead of replacing** in case you do not have max amount on the field. In this case, **click on empty grid cell** with chosen character to place them.
         * **You cannot replace characters on Turn 3 onwards, except [Tower of Salvation](../content-packs/evil-castle.md#tower-of-salvation).**
-    ### Borrow Feature { #__tabbed_1_1 }
+    ### **Borrow Feature** { #__tabbed_2_1 }
     In some fights, you can use your Friend Support units to help you beat the fight.<br>
     The idea is completely the same with the exception of pressing one more button (![Support Character Icon](../assets/images/battle-system/icons/icon_mercenary.webp "Support Character"){.icon}).
     ??? note "Image Guide" 
@@ -50,7 +102,7 @@ Field is a **3x4 rectangular grid**, in which you can place your characters howe
         * You can borrow **only 1 character per fight**.
 
 === "![SwapOrder](../assets/images/battle-system/icons/icon_sequence1.png){ .icon-list }"
-    ### Swap Order Feature { #__tabbed_1_2 }
+    ### **Swap Order Feature** { #__tabbed_2_2 }
     This feature allows you to adjust the order in which your characters act.<br>It has 2 modes: ![Insert Icon](../assets/images/battle-system/icons/icon_insert.webp "Insert"){.icon} **Insert** and ![Replace Icon](../assets/images/battle-system/icons/icon_change.webp "Replace"){.icon} **Replace**.
     
     * ![Insert Icon](../assets/images/battle-system/icons/icon_insert.webp "Insert"){.icon} **Insert mode** allows you to alter your order by inserting desired character in a sequence. To do that, drag character on others.
@@ -61,7 +113,7 @@ Field is a **3x4 rectangular grid**, in which you can place your characters howe
         ??? note "Image Guide"
             ![Insert from above](../assets/images/battle-system/insert_above.webp)
 
-    * ![Replace Icon](../assets/images/battle-system/icons/icon_change.webp "Replace"){.icon} **Replace** mode allows you to change order of 2 costumes.<br>To do that, simply drag a character onto another to switch the order.
+    * ![Replace Icon](../assets/images/battle-system/icons/icon_change.webp "Replace"){.icon} **Replace mode** allows you to change order of 2 costumes.<br>To do that, simply drag a character onto another to switch the order.
     ??? note "Image Guide"
         ![Replace Feature](../assets/images/battle-system/Replace.webp)
     
@@ -72,7 +124,7 @@ Field is a **3x4 rectangular grid**, in which you can place your characters howe
             ![Replace Shortcut Guide](../assets/images/battle-system/replace_shortcut.webp)
 
 === "![Preset](../assets/images/battle-system/icons/icon_preset.png){ .icon-list }"
-    ### Preset Feature { #__tabbed_1_3 }
+    ### **Preset Feature** { #__tabbed_2_3 }
     This feature allows you to quick load pre-saved teams.
     !!! example ""
         * **This includes characters, gear, order and positioning.**
@@ -81,19 +133,38 @@ Field is a **3x4 rectangular grid**, in which you can place your characters howe
         * You can delete or rewrite old presets in case you do not need them anymore.
         * There are total of 12 preset slots.
     In addition to presets, you can use **own recently used teams** in the second tab of preset menu.
+
+    ---
+
     ![Preset Screen](../assets/images/battle-system/preset_screen.webp)
 === "![SP](../assets/images/battle-system/icons/icon_sp.webp){ .icon-list }"
+    ### **SP Bar** { #__tabbed_2_4}
     SP bar displays your Skill Points which you use for using costumes' abilities.
 
     !!! example ""
         ![SP Label](../assets/images/battle-system/sp_info.webp)
         
+        ---
+
         * ![Avaiable SP](../assets/images/battle-system/icons/icon_free_sp.webp "Available SP"){.icon} are available Skill Points.
         * ![Used SP](../assets/images/battle-system/icons/icon_used_sp.webp "Used SP"){.icon} are Skill Points which will be used in the following turn, if you press Battle.
         * ![Missing SP](../assets/images/battle-system/icons/icon_missing_sp.webp "Missing SP"){.icon} are Skill Points which are not available for use, or, in other words, you do not have them.
 === "![Rotate View](../assets/images/battle-system/icons/icon_rotateview.webp){ .icon-list }"
+    ### **Rotate View Feature** { #__tabbed_2_5 }
+    This feature allows you to change battlefield view to the top one and replacing surrounding backgrounds, allowing you to easily distinguish otherwise grouped enemies or allies.<br>In this mode, your units are always on the left side, while enemy is on the right.
+            
+    ---
 
+    ![Rotate View Feature Showcase](../assets/images/battle-system/rotate_view.webp) 
+        
+    ---
+
+    To go back to original view, simply press the same button once again.
 === "![Rotate](../assets/images/battle-system/icons/icon_rotate.webp){ .icon-list }"
+    ### **Rotate Feature** { #__tabbed_2_6 }
+    This feature allows you rotate the field, changing your and enemy visual positioning while keeping aethetics of surroundings. This can be useful for distinguishing grouped enemies, but [**Rotate View**]( #__tabbed_2_5 ) is better for this matter.<br>You cannot rotate the field with special bosses on it like Fiend Hunter or Guild Raid ones.
+    ??? note "Feature Showcase"
+        ![Rotate Feature Showcase](../assets/images/battle-system/rotation_comparison.webp)
 </div>
 <!--Brown Dust II is a turn-based strategy game, where you use your characters in order to defeat the enemy. 
 Most common ways to start the battle are either activating it via quests or touching the enemy in the battle zones of packs.
