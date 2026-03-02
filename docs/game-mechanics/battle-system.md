@@ -2,9 +2,12 @@
 description: Brown Dust II Battle System Overview
 ---
 # **Battle System**
+
 Brown Dust II is a turn-based strategy in which you have ability to position your characters, as well as choose character's skills in order to defeat the enemies.
 
 ![Battle](../assets/images/battle-system/battle_system_1.webp)
+
+## **Basics**
 
 !!! example "Turns mechanic"
     * For all PvE content, you attack on **odd turns (1, 3, 5, ...)**, while enemy attacks on **even turns (2, 4, 6, ...)**.
@@ -12,12 +15,34 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
     * You can make those preparations only **pre-turns**. Enemy turn is followed instantly after yours.
     * Turn progression only goes after you confirm your choices with "Turn X Battle" button in the bottom right corner of the battle screen.
 
-## General Content
 
+## **Battlefield**
 
-In general content (such a Story, Towers), you have ability to use **5 characters** on the field.
+!!! absract "Grid System"
+    * In general content (such a Story or [Evil Castle Towers](../content-packs/evil-castle.md)), you have ability to use **5 characters** on the field.
+    * Field is a <u>**3x4 rectangular grid**</u>, in which you can place your characters however you like.
+        * To swap character positioning, click and drag the chibi model of a character to the needed tile.
+    !!! warning ""
+        **Guild Raid** offers **5x5 square grid** and 7 characters, while **Fiend Hunter** uses **irregular grid**, but same 5 characters per team.<br>Golden Colosseum, on the other hand, has field changing depending on season from **3x3 square** to **5x5 square** with different amount of characters allowed. 
 
-Field is a **3x4 rectangular grid**, in which you can place your characters however you like.
+!!! abstact "Targetting Logic"
+    Before undertanding where would you character attack land, you need to undertand how character targets the enemy.
+
+    * Each costume has own **Range** — tiles that are affected by the action of the costume. 
+    * For each costume (except supports with ![All icon](../assets/images/battle-system/icons/icon_all.png "ALL Range"){.icon} Range), there is **Main Target** which is displayed by ![Main Target Icon](../assets/images/battle-system/icons/icon_main_target.webp "Main Target Icon"){.icon} down arrowhead.<br>**Main target is the one that actually gets targeted by your character, and rest AoE impact is calculated based on position of that Main Target.**
+
+    ---
+
+    As for Main Target, there are two main types of determining one.
+
+    * First is **Very Front**, meaning your character will target the closest enemy in the same column.
+    * Second is **Vault**, meaning your character will target **second** closest enemy in the same column, "vaulting" over first one. 
+        * If there's only one enemy in the column, it will be targeted instead.
+
+    You can check Target type and Costumes AoE either in Compainion tab or directly in the battle by clicking the character card. 
+
+    ??? note "Image Guide"
+        ![Main Target & AoE](../assets/images/battle-system/target_aoe.webp)
 
 ## **Battle UI**
 ![Top Part of UI](../assets/images/battle-system/UI_top.webp)
@@ -56,20 +81,35 @@ Field is a **3x4 rectangular grid**, in which you can place your characters howe
 
     * It takes longer time than actually just pressing battle button with no preparation
     * It does not care about the enemy and positioning, meaning you will likely run into issues sooner or later.
-    * <u>**Auto Battle does not teach you a core gameplay feature such as the battle.**</u>
+    * <u>**Auto Battle does not teach you how to be a good playere.**</u>
 
 === "![Game Speed Icon](../assets/images/battle-system/icons/icon_speed.webp){ .icon-list }"
-    ### **Game Speed Feature** { #__tabbed_1_3 }
+    ### **Game Speed Feature** { #__tabbed_1_4 }
     With that button, you can change the speed your battles are going at.<br>**Minimum is x1, maximum is x3**.
     
     To switch, simply press the button few times.
 
 === "![Autofeed Icon](../assets/images/battle-system/icons/icon_autofood.webp){ .icon-list }"
-    ### **Autofeed Feature** { #__tabbed_1_3 }
+    ### **Autofeed Feature** { #__tabbed_1_5 }
     This feature allows to heal minor damage by consuming cooked (and raw) food
 
     While it sounds good on paper and no longer requires people go to the Inn, it is simply not worth the result. 
 
+=== "![Pause Icon](../assets/images/battle-system/icons/icon_pause.webp){ .icon-list }"
+    ### **Pause Feature** { #__tabbed_1_6 }
+    Quite self-explanatory feature allowing to make a pause during your battle.
+
+    Here, you can:
+
+    * Adjust Skill cutscenes display
+    * Change Volume settings
+    * Check ![Statistics Icon](../assets/images/battle-system/icons/icon_conditions.png){ .icon } Battle Statistics
+    * **Restart the battle or previous turn**
+        * *You cannot rollback to previous turn in [**Tower of Salvation**](../content-packs/evil-castle.md#tower-of-salvation).*
+    * Run away from the battle.
+
+    ??? note "Pause Menu Image"
+        ![Pause Menu Image](../assets/images/battle-system/pause_menu.webp) 
 ---
 
 ![Bottom Part of UI](../assets/images/battle-system/UI_bottom.webp)

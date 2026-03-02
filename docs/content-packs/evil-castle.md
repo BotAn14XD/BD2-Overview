@@ -400,6 +400,29 @@ During your climb, you need to choose the path which can consist of the followin
 
     Both options are viable, as well as different Damage type you pick.<br>This gamemode is really good to understand basics of the battles so **do not hesitate to experiment yourself**. 
 
+??? info "Tower of Salvation Rewards"
+    === "Clear Rewards"
+        * **Lv.1:** 20 {{ Ancient_Crystal }}
+        * **Lv.2:** 1 {{ Tear_of_Goddess }}
+        * **Lv.3:** 5 {{ Draw_Ticket }}
+        * **Lv.4:** 1 {{ Property_Selective_Draw_Exchange_Ticket }}
+        * **Lv 5:** 5 {{ Draw_Ticket }}
+        * **Lv.6:** 20 {{ Ancient_Crystal }}
+        * **Lv.7:** 20 {{ Ancient_Crystal }}
+        * **Lv.8:** 300 {{ Refining_Crystal }}
+        * **Lv.9:** 300 {{ Refining_Crystal }}
+        * **Lv.10:** 500 {{ Refining_Crystal }}
+    === "Season Rewards"
+        * **15,000,000,000 points:** 10 {{Draw_Ticket}}
+        * **13,500,000,000 points:** 30 {{Awakening_Elixir}}
+        * **12,000,000,000 points:** 1 {{UR_Exclusive_Gear_Guaranteed_Draw_Exchange_Ticket}}
+        * **10,500,000,000 points:** 30 {{Awakening_Elixir}}
+        * **9,000,000,000 points:** 300 {{ Refining_Crystal }}
+        * **7,500,000,000 points:** 30 {{Awakening_Elixir}}
+        * **6,000,000,000 points:** 20 {{ Ancient_Crystal }}
+        * **4,500,000,000 points:** 30 {{Awakening_Elixir}}
+        * **3,000,000,000 points:** 7,500 {{Refining_Powder}}
+        * **1,500,000,000 points:** 30 {{Awakening_Elixir}}
 
 <div class = "gallery" markdown>
 
