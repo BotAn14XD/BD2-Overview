@@ -23,7 +23,9 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
     * Field is a <u>**3x4 rectangular grid**</u>, in which you can place your characters however you like.
         * To swap character positioning, click and drag the chibi model of a character to the needed tile.
     !!! warning ""
-        **Guild Raid** offers **5x5 square grid** and 7 characters, while **Fiend Hunter** uses **irregular grid**, but same 5 characters per team.<br>Golden Colosseum, on the other hand, has field changing depending on season from **3x3 square** to **5x5 square** with different amount of characters allowed. 
+        **Guild Raid** offers **5x5 square grid** and 7 characters, while **Fiend Hunter** uses **irregular grid**, but same 5 characters per team.<br>Golden Colosseum, on the other hand, has field changing depending on season from **3x3 square** to **5x5 square** with different amount of characters allowed.
+    ??? note "3x4 Grid Image"
+        ![3x4 Grid Image](../assets/images/battle-system/3x4_field.webp)
 
 !!! abstact "Targetting Logic"
     Before undertanding where would you character attack land, you need to undertand how character targets the enemy.
@@ -43,6 +45,52 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
 
     ??? note "Image Guide"
         ![Main Target & AoE](../assets/images/battle-system/target_aoe.webp)
+
+!!! question "Advanced Targetting Logic"
+    There are few ways one can change their targetting logic from "normal" one.
+
+    * Having **Taunt** or **Concentrated Fire** status effects make you attack the enemy with that status effect regardless of your attack type (Very Front, Vault).
+    * **Target Avoidance** status effect makes your enemy to not target your character if there are other options on the field.
+
+    * **If there is no enemy in the same column as your character, column on the right (to the character) takes priority instead. Thus, it is possible to attack the enemy on the most right column from the most left one.**
+        * If there is no enemy in the right column either, left one takes priority.  
+    ??? note "Showcase Image"
+        ![Targetting Logic](../assets/images/battle-system/targetting.webp)
+
+## Team Setup
+
+As said above, you can freely change positioning of characters and their order before your turn. These are important features to maximize your damage while minimizing enemy one.
+
+* To change the position, drag chibi model of a character to desired tile.
+* To change the order of characters, use [Swap Order]( #__tabbed_2_2 ) feature or it's quick ![Replace Shorcut Icon](../assets/images/battle-system/icons/icon_change_shortcut.webp "Replace Shortcut"){ .icon } shortcut
+
+!!! question "Why does it matter?"
+    * Some supports have **limited Range / Aura**, meaning you need to fit other units within that range to recieve buff *(like Medical Club Teresse, Adventure of the Unknown Diana, Refithea)*
+    * Enemy layout can require DPS on different column for better AoE coverage
+    * Enemy can be too strong for some characters to survive but fine for others within same team.
+    
+    ---
+
+    * Usually supports should go before DPS to maximize your damage, however not every support is *just* a support, meaning order sometimes is required to be changed.
+    * Some unique conditional abilities such as of Laid-Back Lifeguard Nebris require fine tuning the team order to receive better buff.
+
+## In-Battle Information
+In the battle, you can obtain a lot of information about your units and enemies. Moreover, there are a lot of small QoL features which ease your understanding of the battle.
+!!! abstract "Character / Enemy stats and status effects"
+    * To access the information about **stats**, press on either chibi model or card, then press ![Plus Icon](../assets/images/battle-system/icons/icon_plus2.png "Detailed Character information"){.icon} plus icon in the top corner of the screen *(left for your units, right for enemies)*.<br>Displayed information includes all stats **at the given moment** (with all **current** buffs applied), gear and [bond](../character-info/potential-liberation.md).
+    ??? note "Stats screenshot"
+        ![Stats screenshot](../assets/images/battle-system/stats_window.webp)
+    * To access the information about **status effects**, do the same thing except instead of clicking on the plus, click on the icons right below, such as ![Taunt Icon](../assets/images/battle-system/icons/bufficon_26.png "Taunt Status Effect"){ .icon } (which is the Taunt effect) or others.
+    ??? note "Status Effects screenshot"
+        ![Status Effects](../assets/images/battle-system/status_effects.webp)
+
+!!! example "Property"
+    Property is displayed in 3 ways.
+
+    * First, it is shown **near character name as a icon** *(![Water](../assets/images/battle-system/icons/elementicon1_1.png){.icon} Water, ![Fire](../assets/images/battle-system/icons/elementicon2_2.png){.icon} Fire, ![Wind](../assets/images/battle-system/icons/elementicon3_3.png){.icon} Wind, ![Light](../assets/images/battle-system/icons/elementicon4_4.png){.icon} Light and ![Darkness](../assets/images/battle-system/icons/elementicon5_5.png){.icon} Darkness)*. 
+    * Second, it is displayed as a **light tint on the character's card**. According to the property, tint is changed to resemble main color of the property.
+    ??? note "Tint display: All 5 properties on our side and Water & Fire on the enemy"
+        ![Tint Display](../assets/images/battle-system/property-tint.webp)
 
 ## **Battle UI**
 ![Top Part of UI](../assets/images/battle-system/UI_top.webp)
