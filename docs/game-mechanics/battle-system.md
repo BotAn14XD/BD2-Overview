@@ -28,7 +28,7 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
         ![3x4 Grid Image](../assets/images/battle-system/3x4_field.webp)
 
 !!! abstact "Targetting Logic"
-    Before undertanding where would you character attack land, you need to undertand how character targets the enemy.
+    Before understanding where would your character attack land, you need to understand how character targets the enemy.
 
     * Each costume has own **Range** — tiles that are affected by the action of the costume. 
     * For each costume (except supports with ![All icon](../assets/images/battle-system/icons/icon_all.png "ALL Range"){.icon} Range), there is **Main Target** which is displayed by ![Main Target Icon](../assets/images/battle-system/icons/icon_main_target.webp "Main Target Icon"){.icon} down arrowhead.<br>**Main target is the one that actually gets targeted by your character, and rest AoE impact is calculated based on position of that Main Target.**
@@ -76,8 +76,13 @@ As said above, you can freely change positioning of characters and their order b
 
 ## In-Battle Information
 In the battle, you can obtain a lot of information about your units and enemies. Moreover, there are a lot of small QoL features which ease your understanding of the battle.
-!!! abstract "Character / Enemy stats and status effects"
-    * To access the information about **stats**, press on either chibi model or card, then press ![Plus Icon](../assets/images/battle-system/icons/icon_plus2.png "Detailed Character information"){.icon} plus icon in the top corner of the screen *(left for your units, right for enemies)*.<br>Displayed information includes all stats **at the given moment** (with all **current** buffs applied), gear and [bond](../character-info/potential-liberation.md).
+!!! abstract "Character / Enemy skills, stats and status effects"
+    * To access the information about **skills**, press on either chibi model or card, and press the skills under "Basic Attack" and "Knockback" options to learn more about them on top of the screen.<br>When you do so, you can view **raw damage** (with no calculated impact from actions in the turn) and highlighted **area of effect** on the field.
+        * <u>**This way, you can switch actions for your characters as well.**</u>
+    ??? note "Skills screenshot"
+        ![Skills screenshot](../assets/images/battle-system/skills_view.webp)
+
+    * To access the information about **stats**, press on the chibi / card, then press ![Plus Icon](../assets/images/battle-system/icons/icon_plus2.png "Detailed Character information"){.icon} plus icon in the top corner of the screen *(left for your units, right for enemies)*.<br>Displayed information includes all stats **at the given moment** (with all **current** buffs applied), gear and [bond](../character-info/potential-liberation.md).
     ??? note "Stats screenshot"
         ![Stats screenshot](../assets/images/battle-system/stats_window.webp)
     * To access the information about **status effects**, do the same thing except instead of clicking on the plus, click on the icons right below, such as ![Taunt Icon](../assets/images/battle-system/icons/bufficon_26.png "Taunt Status Effect"){ .icon } (which is the Taunt effect) or others.
@@ -91,6 +96,24 @@ In the battle, you can obtain a lot of information about your units and enemies.
     * Second, it is displayed as a **light tint on the character's card**. According to the property, tint is changed to resemble main color of the property.
     ??? note "Tint display: All 5 properties on our side and Water & Fire on the enemy"
         ![Tint Display](../assets/images/battle-system/property-tint.webp)
+    * Third, it is displayed **as glow under character / enemy** whenever **they are going to use the ability (skill)**. Similar to tint in cards, this glow also changes the color depending on property, but is more bright in a sense. 
+    ??? note "Glow display: Light, Water, Fire and Darkness"
+        ![Glow Display](../assets/images/battle-system/glow_effect.webp)
+    
+    ---
+
+    * Property **advantage / disadvantage** also is displayed **during skill / damage preview**, and are shown as ![Property Advantage](../assets/images/battle-system/icons/prop_adv.webp "Property Advantage"){.icon} and ![Property Disadvantage](../assets/images/battle-system/icons/prop_disadv.webp "Propety Disadvantage"){.icon} accordingly. If you have neither advantage nor disadvantage, no icon will show up, similar to attacking neutral character.
+    ??? note "Advantage, disadvantage and basic damage display"
+        ![Adv_Disadv display](../assets/images/battle-system/property-preview.webp)
+
+!!! abstract "Targetting Lines" 
+    Pretty small and slightly underappreciated feature that tells you who is given character targets and by whom they are targeted.
+
+    * **Green lines** are related to actions from **teammates / your characters**, aka supports. 
+    * **Red lines** are related to **enemies who will hit your character** with their skill in the following round
+    * **Colorful lines** are related to **main target of an attack**. Their color depends on property (see above).
+    ??? note "Targetting Lines display"
+        ![Targetting Lines display](../assets/images/battle-system/target_lines.webp) 
 
 ## **Battle UI**
 ![Top Part of UI](../assets/images/battle-system/UI_top.webp)
