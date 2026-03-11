@@ -7,6 +7,8 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
 
 ![Battle](../assets/images/battle-system/battle_system_1.webp)
 
+---
+
 ## **Basics**
 
 !!! example "Turns mechanic"
@@ -15,6 +17,7 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
     * You can make those preparations only **pre-turns**. Enemy turn is followed instantly after yours.
     * Turn progression only goes after you confirm your choices with "Turn X Battle" button in the bottom right corner of the battle screen.
 
+---
 
 ## **Battlefield**
 
@@ -57,6 +60,8 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
     ??? note "Showcase Image"
         ![Targetting Logic](../assets/images/battle-system/targetting.webp)
 
+---
+
 ## Team Setup
 
 As said above, you can freely change positioning of characters and their order before your turn. These are important features to maximize your damage while minimizing enemy one.
@@ -74,10 +79,15 @@ As said above, you can freely change positioning of characters and their order b
     * Usually supports should go before DPS to maximize your damage, however not every support is *just* a support, meaning order sometimes is required to be changed.
     * Some unique conditional abilities such as of Laid-Back Lifeguard Nebris require fine tuning the team order to receive better buff.
 
+---
+
 ## In-Battle Information
-In the battle, you can obtain a lot of information about your units and enemies. Moreover, there are a lot of small QoL features which ease your understanding of the battle.
+In the battle, you can obtain a lot of information about your units and enemies. Moreover, there are a lot of small QoL features which ease your understanding of the battle, as well as mechanics which may be useful for completing the stages overall.
 !!! abstract "Character / Enemy skills, stats and status effects"
     * To access the information about **skills**, press on either chibi model or card, and press the skills under "Basic Attack" and "Knockback" options to learn more about them on top of the screen.<br>When you do so, you can view **raw damage** (with no calculated impact from actions in the turn) and highlighted **area of effect** on the field.
+
+        * If, instead of damage, K.O is displayed, it means raw damage is enough to kill the opponent.
+    
         * <u>**This way, you can switch actions for your characters as well.**</u>
     ??? note "Skills screenshot"
         ![Skills screenshot](../assets/images/battle-system/skills_view.webp)
@@ -106,6 +116,23 @@ In the battle, you can obtain a lot of information about your units and enemies.
     ??? note "Advantage, disadvantage and basic damage display"
         ![Adv_Disadv display](../assets/images/battle-system/property-preview.webp)
 
+!!! tip "Knockback"
+    Knockback is one of possible actions for a character for a turn. It exists in some skills, but, generally speaking, every character has a knockback option regardless. **It allows you to move enemy on the battlefield to create more comfortable setup for your DPS.**<br>There are few rules to it:
+    
+    * Each **character** has different knockback for 1 tile and applied to 1 enemy. Furthermore, there are some **costumes** that can target more enemies or have bigger distance.
+    * Knockback **always** deal 1 DMG to the Main Target no matter the buffs applied.
+    * If the tile to which you try to knockback into is occupied by enemy or tombstone, knockback will not take effect.
+    * If the basic knockback results in an enemy colliding with another, latter one recieves damage equal to 25% Max HP of **knocked back enemy**. Different costumes which utilize knockback will have greater numbers.
+    * Knockback shares the same **damage type** as character; meaning, **Diana** will have {{ Magical }} **Magical Damage** from knockback, and **Teresse** will have {{ Physical }} **Physical Damage**.
+    * Knockback damage **is affected by Crit (Rate / DMG), Property (DMG / Resist), DEF/MRES, Augmentation / Enemy Vulnerability, Chains and Weak Point bonuses**.
+    * Knockback damage, as any other HP-related skill, has 50k cap taken before applying any other buffs. Means, if knocked back enemy's HP is 2,000,000, only 50k will be taken into calculations instead of expected 2m.
+    * In Fiend Hunter / Guild Raid, you cannot knockback (move) boss tiles. Also, some enemies have knockback immune which negates knockback action on them completely.
+    ??? note "Knockback showcase"
+        ![Knockback screenshot](../assets/images/battle-system/knockback.webp)
+        !!! question "Knockback damage"
+            **62,500 damage in the first image is shown due to cap of 50k HP, mentioned above, mulitplied by 125% (Teresse Skill %)**.<br>
+            $50 000 \times 1.25 = 62 500$
+
 !!! abstract "Targetting Lines" 
     Pretty small and slightly underappreciated feature that tells you who is given character targets and by whom they are targeted.
 
@@ -114,6 +141,20 @@ In the battle, you can obtain a lot of information about your units and enemies.
     * **Colorful lines** are related to **main target of an attack**. Their color depends on property (see above).
     ??? note "Targetting Lines display"
         ![Targetting Lines display](../assets/images/battle-system/target_lines.webp) 
+
+!!! example "Tombstones"
+    **Tombstone is created when character on the field dies (becomes fatigued) in a place of that character.**
+
+    * Tombstones are created only for initial units on the battlefield. That means that summons do not create tombstones.
+        * The only exception for this rule are explosives which do not leave tombstone upon being destroyed.
+    * Self-destruct skills, as well as death from counter creates the tombstone on the place of where character was last pre action.
+    * Tombstone cannot be knocked back.
+    * Tombstones prevents enemies to pass through them (with knockback skills)
+    * Tombstones do not suffer damage / deal damage to knocked enemies. 
+    ??? note "Tombstones on the field"
+        ![Tombstones](../assets/images/battle-system/tombstones.webp) 
+
+---
 
 ## **Battle UI**
 ![Top Part of UI](../assets/images/battle-system/UI_top.webp)
@@ -277,6 +318,22 @@ In the battle, you can obtain a lot of information about your units and enemies.
     ??? note "Feature Showcase"
         ![Rotate Feature Showcase](../assets/images/battle-system/rotation_comparison.webp)
 </div>
+
+---
+
+## **More Advanced Battle Features**
+### ![Death Time icon](../assets/images/battle-system/icons/bufficon_72.png){.icon-header} **Death Time**
+Death Time is a feature that should prevent the game from having extremely long battles. 
+
+It appears **after 10th Turn** in **Story, Normal / Challenge Battles of Event, Mirror Wars and Evil Castle**. It also appears on **different turn** in **Golden Colosseum** (depending on rule), and does **NOT** appear in **Fiend Hunter and Guild Raid**.
+
+Every 2 turns, every unit on the battlefield recieves **+100% ATK / MATK increase**, as well as **DEF / MRES descrease by 100%** and **Incoming Damage increase by 50%**. This means that characters like Gynt and Remnunt will no longer be effective to lock down enemy with their ATK reduction.
+
+Death Time can be accumulated with no limits on its amount, meaning in case of "0 DMG Bug", you can reach as many Turns as you want, although it's quite pointless.
+??? note "Death Time showcase"
+    ![Death Time](../assets/images/battle-system/death_time.webp)
+
+
 <!--Brown Dust II is a turn-based strategy game, where you use your characters in order to defeat the enemy. 
 Most common ways to start the battle are either activating it via quests or touching the enemy in the battle zones of packs.
 Your team usually consists of 5 characters, which you can change pre-battle. Once you press “Battle”, you won’t be able to change your team. 
