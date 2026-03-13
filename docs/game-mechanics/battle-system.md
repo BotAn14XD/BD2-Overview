@@ -126,6 +126,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
     * Knockback shares the same **damage type** as character; meaning, **Diana** will have {{ Magical }} **Magical Damage** from knockback, and **Teresse** will have {{ Physical }} **Physical Damage**.
     * Knockback damage **is affected by Crit (Rate / DMG), Property (DMG / Resist), DEF/MRES, Augmentation / Enemy Vulnerability, Chains and Weak Point bonuses**.
     * Knockback damage, as any other HP-related skill, has 50k cap taken before applying any other buffs. Means, if knocked back enemy's HP is 2,000,000, only 50k will be taken into calculations instead of expected 2m.
+    * Knockback adds Chain to main target, similar to basic attack, although the one bumped into DOES NOT recieve a chain stack.
     * In Fiend Hunter / Guild Raid, you cannot knockback (move) boss tiles. Also, some enemies have knockback immune which negates knockback action on them completely.
     ??? note "Knockback showcase"
         ![Knockback screenshot](../assets/images/battle-system/knockback.webp)
@@ -333,6 +334,20 @@ Death Time can be accumulated with no limits on its amount, meaning in case of "
 ??? note "Death Time showcase"
     ![Death Time](../assets/images/battle-system/death_time.webp)
 
+### ![Set Costume order icon](../assets/images/battle-system/icons/icon_setting_costume_active.png){.icon-header} **Set Costume order**
+Set Costume order is a feature that allows you to make pre-determined skill order activation. This is useful when you're setting up [Mirror Wars](../content-packs/mirror-wars.md) or repetive fights in gamemodes as Fiend Hunter. If you have feature active, you will see ![Set Costume order icon](../assets/images/battle-system/icons/icon_setting_costume_active.png "Set Costume order"){.icon} icon in the character's card.
+
+To use it, press on the chibi character **before turn 1** and press **Set Costume order** button in the bottom part of the screen.
+??? note "Image Guide"
+    ![Set Order Guide](../assets/images/battle-system/set_costume_order_guide.webp)
+
+In opened menu, you will see 10 slots, corresponding to each of your Turns (up to 19th Turn) where you can put any of skills, basic attack or knockback.
+
+* Selection will override your manual attempts to choose different skill during given turn. 
+* Selection will oblige to game rules, meaning it won't activate the skill if you don't have enough SP or it's on cooldown.
+* **Selection can loop**, meaning that for example putting **Robin Hood Zenith** and **Poolside Guardian Zenith** in first two slots will provide you repeated usage until the last turn.
+??? note "Set Costume order UI Image"
+    ![Set Costume order UI](../assets/images/battle-system/set_costume_order_guide2.webp)
 
 <!--Brown Dust II is a turn-based strategy game, where you use your characters in order to defeat the enemy. 
 Most common ways to start the battle are either activating it via quests or touching the enemy in the battle zones of packs.
