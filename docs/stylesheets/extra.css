@@ -28,6 +28,9 @@ html {
 .icon-list {
   pointer-events: none;
   width: 2em;
+  height: 2em;
+  aspect-ratio: 1 / 1;
+  display: inline-block;
 }
 
 .md-typeset table td, 
@@ -97,6 +100,8 @@ html {
     height: auto;
     object-fit: cover;
     transition: transform 0.3s ease;
+    aspect-ratio: 16 / 9;
+    background: #202020;
 }
 
 .gallery figcaption {
@@ -126,6 +131,7 @@ html {
     transform: scale(1.05);
 }
 
+
 @media screen and (max-width: 600px) {
     .gallery {
         grid-template-columns: 1fr 1fr !important; 
@@ -149,5 +155,13 @@ html {
 }
 
 .softred {
-    color: #ef8383ff;
+    color: #ef8383;
+}
+
+.magenta {
+    color: #ffa6ff;
+}
+
+.yellow {
+    color: #ffe8aa;
 }

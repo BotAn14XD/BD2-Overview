@@ -11,6 +11,9 @@ theme:
   features:
     - navigation.top
     - lazyload
+#    - content.tabs.link
+    - navigation.instant
+    - navigation.tracking
 #    - navigation.tabs
 #    - navigation.sections
 nav:
@@ -110,7 +113,7 @@ extra:
   Hardwood: '![Hardwood](../assets/images/icons/icon_resource501_45.png "Hardwood"){ .icon }'
   Iron_Ore: '![Iron Ore](../assets/images/icons/icon_resource201_27.png "Iron Ore"){ .icon }'
   Key_of_Salvation: '![Key of Salvation](../assets/images/icons/icon_resource60024_212.png "Key of Salvation"){ .icon }'
-  Knockback: '![Knockback icon](../assets/images/battle-system/icons/icon_stats_knockback.png "Knockback"){ .icon }'
+  Knockback: '![Knockback icon](../assets/images/battle-system/icons/icon_stats_knockback.avif "Knockback"){ .icon }'
   Light_Magic_Crystal: '![Light Magic Crystal](../assets/images/icons/icon_resource114_18.png "Light Magic Crystal"){ .icon }'
   Lost_Silver: '![Lost Silver](../assets/images/icons/lost_silver.png "Lost Silver"){ .icon }'
   Medals_of_the_Fighting_Spirit: '![Medals of the Fighting Spirit](../assets/images/icons/Medals of the Fighting Spirit.png "Medals of the Fighting Spirit"){ .icon }'

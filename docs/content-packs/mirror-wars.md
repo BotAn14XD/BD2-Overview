@@ -81,9 +81,9 @@ Each fight costs entry tickets called **{{ Blood_Cocktail }} Blood Cocktails**
     * **Other Sources**: Events, Shop (40 {{ Blood_Cocktail }} for 170 {{ Dia }} )
 
 !!! warning "Time-management tip"
-    40 battles a day is time-consuming! Use the **Repeat Battle** menu to set Cocktail consumption to **10 times**. 
+    40 battles a day is time-consuming! Use the **Repeat Battle** menu to set Cocktail consumption to **40 times**. 
     
-    * You will fight once, but get rewards (and spend cocktails) as if you fought 10 times.
+    * You will fight once, but get rewards (and spend cocktails) as if you fought 40 times.
     * This, however, does not increase Victory Points compared to 1 battle.
     
     ??? "Image Guide"

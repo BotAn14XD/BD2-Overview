@@ -5,7 +5,7 @@ description: Brown Dust II Battle System Overview
 
 Brown Dust II is a turn-based strategy in which you have ability to position your characters, as well as choose character's skills in order to defeat the enemies.
 
-![Battle](../assets/images/battle-system/battle_system_1.avif)
+![Battle](../assets/images/battle-system/battle_system_1.avif){ loading="eager" }
 
 ---
 
@@ -60,6 +60,20 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
     ??? note "Showcase Image"
         ![Targetting Logic](../assets/images/battle-system/targetting.avif)
 
+
+!!! example "Chain Mechanic"
+    **Every time the enemy or boss tile is hit, 1 chain stack is applied.** Chains increase damage by 10% per each chain stacked on enemy. So, attack on enemy with 1 chain will have 110% damage compared to attack with no chains beforehand, and enemy with 5 chains will have 150% damage compared to no chains beforehand.<br>**Chains are very important for content such as Fiend Hunter and Guild Raid.**
+
+    * Poolside Guardian Zenith increases those 10% to maximum of 20% for the single tile.
+    * Chains last for 1 turn and are reset after, except some seasons of [**Golden Colosseum**](../content-packs/golden-colosseum.md).
+    * Chains have cap of 100, except [**Last Night**](../content-packs/last-night.md).
+    * Chains increases are added into same multiplier, thus it is a buff with diminishing returns.<br><br>
+    * Effect called **Chain Reiforcement** <u>**adds +1 chain per hit**</u>. 
+    !!! question "Example"
+        * **The Cursed Celia** without any buffs **hits 7 times** and **provides 7 chains**.
+        * **The Cursed Celia** with buff from **Masquerade Bunny Celia** (1 Chain Reinforcement) **provides 14 chains** instead.
+        * **The Cursed Celia** with buffs from **Masquerade Bunny Celia** and **Pure White Blessing Refithea** (2 Chain Reinforcement) **provides 21 chains** instead.
+
 ---
 
 ## Team Setup
@@ -87,10 +101,17 @@ In the battle, you can obtain a lot of information about your units and enemies.
     * To access the information about **skills**, press on either chibi model or card, and press the skills under "Basic Attack" and "Knockback" options to learn more about them on top of the screen.<br>When you do so, you can view **raw damage** (with no calculated impact from actions in the turn) and highlighted **area of effect** on the field.
 
         * If, instead of damage, K.O is displayed, it means raw damage is enough to kill the opponent.
-    
+        * {{ Magical }} Magic Damage is displayed in **magenta**{ .magenta } color and {{Physical}} Physical is displayed in **yellow**{ .yellow }. 
+
         * <u>**This way, you can switch actions for your characters as well.**</u>
+
     ??? note "Skills screenshot"
         ![Skills screenshot](../assets/images/battle-system/skills_view.avif)
+
+    !!! warning "Skills Cooldown"
+        Each costume has some cooldown, **during which you cannot use it again**. Cooldown for any costume is displayed in its description, and active cooldown is displayed in place of a costume button, covering it. 
+        ??? note "Image Display"
+            ![Cooldown Display](../assets/images/battle-system/Cooldown.avif)
 
     * To access the information about **stats**, press on the chibi / card, then press ![Plus Icon](../assets/images/battle-system/icons/icon_plus2.avif "Detailed Character information"){.icon} plus icon in the top corner of the screen *(left for your units, right for enemies)*.<br>Displayed information includes all stats **at the given moment** (with all **current** buffs applied), gear and [bond](../character-info/potential-liberation.md).
     ??? note "Stats screenshot"
@@ -102,7 +123,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
 !!! example "Property"
     Property is displayed in 3 ways.
 
-    * First, it is shown **near character name as a icon** *(![Water](../assets/images/battle-system/icons/elementicon1_1.avif){.icon} Water, ![Fire](../assets/images/battle-system/icons/elementicon2_2.avif){.icon} Fire, ![Wind](../assets/images/battle-system/icons/elementicon3_3.avif){.icon} Wind, ![Light](../assets/images/battle-system/icons/elementicon4_4.avif){.icon} Light and ![Darkness](../assets/images/battle-system/icons/elementicon5_5.avif){.icon} Darkness)*. 
+    * First, it is shown **near character name as a icon** *(![Water](../assets/images/battle-system/icons/elementicon1_1.avif){.icon} Water, ![Fire](../assets/images/battle-system/icons/elementicon2_2.avif){.icon} Fire, ![Wind](../assets/images/battle-system/icons/elementicon3_3.avif){.icon} Wind, ![Light](../assets/images/battle-system/icons/elementicon4_4.avif){.icon} Light, ![Darkness](../assets/images/battle-system/icons/elementicon5_5.avif){.icon} Darkness and ![Neutral](../assets/images/battle-system/icons/elementicon6_6.avif){.icon} Neutral)*. 
     * Second, it is displayed as a **light tint on the character's card**. According to the property, tint is changed to resemble main color of the property.
     ??? note "Tint display: All 5 properties on our side and Water & Fire on the enemy"
         ![Tint Display](../assets/images/battle-system/property-tint.avif)
@@ -124,9 +145,10 @@ In the battle, you can obtain a lot of information about your units and enemies.
     * If the tile to which you try to knockback into is occupied by enemy or tombstone, knockback will not take effect.
     * If the basic knockback results in an enemy colliding with another, latter one recieves damage equal to 25% Max HP of **knocked back enemy**. Different costumes which utilize knockback will have greater numbers.
     * Knockback shares the same **damage type** as character; meaning, **Diana** will have {{ Magical }} **Magical Damage** from knockback, and **Teresse** will have {{ Physical }} **Physical Damage**.
-    * Knockback damage **is affected by Crit (Rate / DMG), Property (DMG / Resist), DEF/MRES, Augmentation / Enemy Vulnerability, Chains and Weak Point bonuses**.
-    * Knockback damage, as any other HP-related skill, has 50k cap taken before applying any other buffs. Means, if knocked back enemy's HP is 2,000,000, only 50k will be taken into calculations instead of expected 2m.
+    * Knockback damage <u>**(for the one bumped INTO)**</u> **is affected by Crit (Rate / DMG), Property (dis)advantage (DMG / Resist), DEF/MRES, Augmentation / Enemy Vulnerability, Chains and Weak Point bonuses**.
+    * Knockback damage <u>**(for the one bumped INTO)**</u>, as any other HP-related skill, has 50k cap taken before applying any other buffs. Means, if knocked back enemy's HP is 2,000,000, only 50k will be taken into calculations instead of expected 2m.
     * Knockback adds Chain to main target, similar to basic attack, although the one bumped into DOES NOT recieve a chain stack.
+    * Knockback damage <u>**(for the one bumped INTO)**</u> cannot be evaded. However, Main Target with Evade active **cannot** be knocked back. 
     * In Fiend Hunter / Guild Raid, you cannot knockback (move) boss tiles. Also, some enemies have knockback immune which negates knockback action on them completely.
     ??? note "Knockback showcase"
         ![Knockback screenshot](../assets/images/battle-system/knockback.avif)
@@ -348,6 +370,23 @@ In opened menu, you will see 10 slots, corresponding to each of your Turns (up t
 * **Selection can loop**, meaning that for example putting **Robin Hood Zenith** and **Poolside Guardian Zenith** in first two slots will provide you repeated usage until the last turn.
 ??? note "Set Costume order UI Image"
     ![Set Costume order UI](../assets/images/battle-system/set_costume_order_guide2.avif)
+
+### Status Effects
+Characters and enemies can have different status effects, which enhance, dimish or modify character impact in a battle. <br>
+Most common status effects (in a Story Packs) are **Taunt**, **Counter**, **Evade**, **Energy Guard** and **Immunity**.
+
+* ![Taunt](../assets/images/battle-system/icons/bufficon_26.avif "Taunt"){.icon} **Taunt** makes your incoming attacks ignore target logic and attack that specific enemy. Is removable by dispel units (Scheherazade, Yuri, Eleanner), unless enemy has immunity.
+* ![Counter](../assets/images/battle-system/icons/bufficon_39.avif "Counter"){.icon} **Counter** makes your units recieve damage when attacking the enemy. Often paired with **Taunt**. There are a lot of types of Counter, so read ability to understand what type of it you're facing. Also dispellable by dispel units, unless enemy has immunity. 
+* ![Evade](../assets/images/battle-system/icons/bufficon_62.avif "Evade"){.icon} **Evade** completely disregards your attacks onto enemy. That means that any effects taking place with attacks *(such as Dispel, DoT etc)* **will not work** on enemy evading. To bypass the Evade, use **Self-Destruction** skills (Wiggle, Morpeah's summons).
+* ![Energy Guard](../assets/images/battle-system/icons/bufficon_38.avif "Energy Guard"){.icon} **Energy Guard** acts as a shield, increasing current character's HP on top of cap. To bypass it, either use Dispel, deal True Damage or just deal enough DMG to remove it.
+* ![Immunity](../assets/images/battle-system/icons/bufficon_61.avif "Immunity"){.icon} **Immunity** tells that character has immunity to some sort of actions, such as Weakness, Buff Removal, Knockback etc.
+
+### Different Damage Types
+There are few types of unique damage in the game.
+
+* <u>**Fixed DMG**</u> **cannot crit**. It is not affected by **DEF**, **Magic Resist** and **DMG Taken Reduction / Increase**, but affected by **Property DMG**, **Chain Effect**, **DMG Dealt Increase / Reduction** and **Death Time Effect**.
+* <u>**Consumed DMG**</u> also **cannot crit**. It is not affected by **DEF**, **Magic Resist**, **DMG Taken Reduction / Increase** and <u>**Energy Guard**</u>, but affected by **Property DMG**, **Chain Effect**, **DMG Dealt Increase / Reduction** and **Death Time Effect**.
+* <u>**Pure DMG**</u> is not affected by **DEF**, **Magic Resist**, **DMG Taken Reduction / Increase** and **Energy Guard**, but affected by <u>**Critical Hit**</u>, **Property DMG**, **Chain Effect**, **DMG Dealt Increase / Reduction** and **Death Time Effect**.
 
 <!--Brown Dust II is a turn-based strategy game, where you use your characters in order to defeat the enemy. 
 Most common ways to start the battle are either activating it via quests or touching the enemy in the battle zones of packs.
