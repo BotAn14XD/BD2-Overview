@@ -45,8 +45,9 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
         * If there's only one enemy in the column, it will be targeted instead.
 
     You can check Target type and Costumes AoE either in Compainion tab or directly in the battle by clicking the character card. 
-
-    ??? note "Image Guide"
+    ??? note "Target type information in-battle"
+        ![Target Type information in-battle](../assets/images/battle-system/dmgtype_view.avif)
+    ??? note "Very Front / Vault difference"
         ![Main Target & AoE](../assets/images/battle-system/target_aoe.avif)
 
 !!! question "Advanced Targetting Logic"
@@ -60,9 +61,32 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
     ??? note "Showcase Image"
         ![Targetting Logic](../assets/images/battle-system/targetting.avif)
 
+!!! abstract "Damage Formula"
+    $\text{Damage} = \\\\ \text{ATK / MATK / HP}^\text{[1]} \\\\ 
+    \times \; \text{Skill\%} \\\\ 
+    \times \; (100\% + \text{ATK\% Buffs} - \text{ATK\% Debuffs})^\text{[2]}\\\\ 
+    \times \; (100\% + \text{CDMG\%} + \text{CDMG\% Buffs} - \text{CDMG\% Debuffs}) \\\\
+    \times \; (100\% + \text{Weak Point\%}) \\\\
+    \times \; (100\% + (10\% + \text{Increase Chain DMG\%}) \times \text{Chains}) \\\\
+    \times \; (100\% + \text{Target's Vulnerability Debuffs\%} + \text{DMG Increase\% Buffs}) \\\\
+    \times \; (100\% + \text{Property Damage\%} + \text{Season Buff\%} + \text{Property Damage\% Buffs})^\text{[3]} \\\\ 
+    \times \; (100\% - (\text{Target's DEF\%} + \text{Target's DEF\% Buffs} - \text{Target's DEF\% Debuffs}))^\text{[4,5]} \\\\     
+    \times \; (100\% - \text{Target's DMG Reduction\% Buffs}) \\\\
+    \times \; (100\%) - \text{Target's Property Resists}^\text{[6]}$
+
+    ---
+
+    [1] Depends on the character. If costume attacks using HP, 50k is max.<br>
+    [2] Ignored with HP-related skills.<br>
+    [3] If Target has weaker Property. Imcompatible with Property Resist multiplier.<br>
+    [4] DEF when attacked with {Physical} Physical Damage, MRES when attacked with {Magical} Magical Damage.<br>
+    [5] Maximum is 100% (when summary DEF is 0%), minimum is 10% (when summary DEF is greater or equal to 90%).<br>
+    [6] If Target has stronger Property. Imcompatible with Property Damage multiplier.
+
+
 
 !!! example "Chain Mechanic"
-    **Every time the enemy or boss tile is hit, 1 chain stack is applied.** Chains increase damage by 10% per each chain stacked on enemy. So, attack on enemy with 1 chain will have 110% damage compared to attack with no chains beforehand, and enemy with 5 chains will have 150% damage compared to no chains beforehand.<br>**Chains are very important for content such as Fiend Hunter and Guild Raid.**
+    **Every time the enemy or boss tile is hit, 1 chain stack is applied.** Chains increase damage by 10% per each chain stacked on enemy (considering that base damage without any chains is 100%).<br>**Chains are very important for content such as Fiend Hunter and Guild Raid.**
 
     * Poolside Guardian Zenith increases those 10% to maximum of 20% for the single tile.
     * Chains last for 1 turn and are reset after, except some seasons of [**Golden Colosseum**](../content-packs/golden-colosseum.md).
