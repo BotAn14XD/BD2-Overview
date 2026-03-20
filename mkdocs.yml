@@ -20,6 +20,7 @@ nav:
 #    - Home: index.md
     - 'Game Mechanics':
         - 'Battle System': game-mechanics/battle-system.md
+        - 'Gear System': game-mechanics/gear-system.md
     - 'Characters info':
         - 'Potential Liberation': character-info/potential-liberation.md
     - 'Content Packs':
@@ -88,7 +89,9 @@ extra:
   S4_Rank_up_Star: '![★4 Rank-up Star](../assets/images/icons/icon_resource7783_67.png "★4 Rank-up Star"){ .icon }'
   S5_R_Contract: '![★5 R. Contract](../assets/images/icons/icon_resource40005_107.png "★5 R. Contract"){ .icon }'
   Ability_Pill: '![Ability Pill](../assets/images/icons/ability_pill.png "Ability Pill"){ .icon }'
+  Accessory: '![Accessory](../assets/images/gear-system/icons/popupicon_equip4.avif "Accessory"){ .icon }'
   Ancient_Crystal: '![Ancient Crystal](../assets/images/icons/icon_resource603_76.png "Ancient Crystal"){ .icon }'
+  Armor: '![Armor](../assets/images/gear-system/icons/popupicon_equip3.avif "Armor"){ .icon }'
   Aurum_Coin: '![Aurum Coin](../assets/images/icons/icon_resource170001_326.png "Aurum Coin"){ .icon }'
   Awakening_Elixir: '![Awakening Elixir](../assets/images/icons/icon_resource20023_223.png "Awakening Elixir"){ .icon }'
   Blood_Cocktail: '![Blood Cocktail](../assets/images/icons/icon_resource60009_92.png "Blood Cocktail"){ .icon }'
@@ -106,25 +109,31 @@ extra:
   Essence_of_Perseverance: '![Essence of Perseverance](../assets/images/icons/icon_resource704_222.png "Essence of Perseverance"){ .icon }'
   Essence_of_Strength: '![Essence of Strength](../assets/images/icons/icon_resource703_221.png "Essence of Strength"){ .icon }'
   Fire_Magic_Crystal: '![Fire Magic Crystal](../assets/images/icons/icon_resource111_15.png "Fire Magic Crystal"){ .icon }'
+  Gloves: '![Gloves](../assets/images/gear-system/icons/popupicon_equip5.avif "Gloves"){ .icon }'
   Glupy_Star: '![Glupy Star](../assets/images/icons/glupy_star.png "Glupy Star"){ .icon }'
   Gold: '![Gold](../assets/images/icons/icon_resource60005_88.png "Gold"){ .icon }'
   Gold_Ore: '![Gold Ore](../assets/images/icons/icon_resource203_29.png "Gold Ore"){ .icon }'
   Golden_Thread: '![Golden Thread](../assets/images/icons/icon_resource4_8.png "Golden Thread"){ .icon }'
   Hardwood: '![Hardwood](../assets/images/icons/icon_resource501_45.png "Hardwood"){ .icon }'
+  Helmet: '![Helmet](../assets/images/gear-system/icons/popupicon_equip3.avif "Helmet"){ .icon }'
   Iron_Ore: '![Iron Ore](../assets/images/icons/icon_resource201_27.png "Iron Ore"){ .icon }'
   Key_of_Salvation: '![Key of Salvation](../assets/images/icons/icon_resource60024_212.png "Key of Salvation"){ .icon }'
   Knockback: '![Knockback icon](../assets/images/battle-system/icons/icon_stats_knockback.avif "Knockback"){ .icon }'
   Light_Magic_Crystal: '![Light Magic Crystal](../assets/images/icons/icon_resource114_18.png "Light Magic Crystal"){ .icon }'
   Lost_Silver: '![Lost Silver](../assets/images/icons/lost_silver.png "Lost Silver"){ .icon }'
+  Magical: '![Magical Damage Type](../assets/images/icons/icon_stats_magical.png "Magical Damage Type"){ .icon }'
   Medals_of_the_Fighting_Spirit: '![Medals of the Fighting Spirit](../assets/images/icons/Medals of the Fighting Spirit.png "Medals of the Fighting Spirit"){ .icon }'
 #  Mercenary_Alliance_Deed: '![Mercenary Alliance Deed](../assets/images/icons/.png "Mercenary Alliance Deed"){ .icon }'
+  N_Grade: '![N Grade](../assets/images/gear-system/icons/N_Grade.avif "N Grade"){ .icon }'
   Nickname_Ticket: '![Nickname Ticket](../assets/images/icons/icon_useitem1_1.png "Nickname Ticket"){ .icon }'
   Night_World_Obsidian: '![Night World Obsidian](../assets/images/icons/night_world_obsidian.png "Night World Obsidian"){ .icon }'
   Peat: '![Peat](../assets/images/icons/icon_resource204_30.png "Peat"){ .icon }'
+  Physical: '![Physical Damage Type](../assets/images/icons/icon_stats_physical.png "Physical Damage Type"){ .icon }'
   Plain_Fabric: '![Plain Fabric](../assets/images/icons/icon_resource401_42.png "Plain Fabric"){ .icon }'
   Plain_Leather: '![Plain Leather](../assets/images/icons/icon_resource301_39.png "Plain Leather"){ .icon }'
   Powder_of_Hope: '![Powder of Hope](../assets/images/icons/icon_resource602_48.png "Powder of Hope"){ .icon }'
   Property_Selective_Draw_Exchange_Ticket: '![Property Selective Draw Exchange Ticket](../assets/images/icons/icon_resource40015_168.png "Property Selective Draw Exchange Ticket"){ .icon }'
+  R_Grade: '![R Grade](../assets/images/gear-system/icons/R_Grade.avif "R Grade"){ .icon }'
   Recommended_S5_Selective_Tickets: '![Recommended ★5 Selective Tickets](../assets/images/icons/icon_resource40020_265.png){ .icon }'
   Red_Slime: '![Red Slime](../assets/images/icons/icon_resource9003_61.png "Red Slime"){ .icon }'
   Refining_Crystal: '![Refining Crystal](../assets/images/icons/icon_resource126_26.png "Refining Crystal"){ .icon }'
@@ -132,11 +141,14 @@ extra:
   Refining_Stone: '![Refining Stone](../assets/images/icons/icon_resource106_14.png "Refining Stone"){ .icon }'
   Selective_Exclusive_Draw_Ticket: '![Selective Exclusive Draw Ticket](../assets/images/icons/icon_resource40021_267.png "Selective Exclusive Draw Ticket"){ .icon }'
   SR_Exclusive_Gear_Draw_Exchange_Ticket: '![SR Exclusive Gear Draw Exchange Ticket](../assets/images/icons/icon_resource40008_130.png "SR Exclusive Gear Draw Exchange Ticket"){ .icon }'
+  SR_Grade: '![SR Grade](../assets/images/gear-system/icons/SR_Grade.avif "SR Grade"){ .icon }'
   Tear_of_Goddess: '![Tear of Goddess](../assets/images/icons/icon_resource20005_156.png "Tear of Goddess"){ .icon }'
   Torch: '![Torch](../assets/images/icons/icon_resource60023_163.png "Torch"){ .icon }'
   UR_Exclusive_Gear_Guaranteed_Draw_Exchange_Ticket: '![UR Exclusive Gear Guaranteed Draw Exchange Ticket](../assets/images/icons/icon_resource40007_129.png "UR Exclusive Gear Guaranteed Draw Exchange Ticket"){ .icon }'
+  UR_Grade: '![UR Grade](../assets/images/gear-system/icons/UR_Grade.avif "UR Grade"){ .icon }'
   Water_Magic_Crystal: '![Water Magic Crystal](../assets/images/icons/icon_resource112_16.png "Water Magic Crystal"){ .icon }'
+  Weapon: '![Weapon](../assets/images/gear-system/icons/popupicon_equip1.avif "Weapon"){ .icon }'
   Wind_Magic_Crystal: '![Wind Magic Crystal](../assets/images/icons/icon_resource113_17.png "Wind Magic Crystal"){ .icon }'
   Yellow_Slime: '![Yellow Slime](../assets/images/icons/icon_resource9001_59.png "Yellow Slime"){ .icon }'
-  Physical: '![Physical Damage Type](../assets/images/icons/icon_stats_physical.png "Physical Damage Type"){ .icon }'
-  Magical: '![Magical Damage Type](../assets/images/icons/icon_stats_magical.png "Magical Damage Type"){ .icon }'
+
+  

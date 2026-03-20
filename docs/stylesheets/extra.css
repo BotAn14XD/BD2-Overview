@@ -8,8 +8,7 @@ html {
 }
 
 .icon {
-  width: 1.2em;
-  height: 1.2em;
+  height: 1.2em !important;
   vertical-align: text-bottom;
   margin: 0 0.2em;
   pointer-events: auto;	
