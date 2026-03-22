@@ -84,7 +84,7 @@ Each fight costs entry tickets called **{{ Blood_Cocktail }} Blood Cocktails**
     40 battles a day is time-consuming! Use the **Repeat Battle** menu to set Cocktail consumption to **40 times**. 
     
     * You will fight once, but get rewards (and spend cocktails) as if you fought 40 times.
-    * This, however, does not increase Victory Points compared to 1 battle.
+    * With this, however, victory points are changed as if you fought only once, not 40 times more.
     
     ??? "Image Guide"
         ![Blood Cocktails Consumption Guide](../assets/images/mirror-wars/cocktail_consumption.png)

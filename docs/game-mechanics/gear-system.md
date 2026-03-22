@@ -3,7 +3,7 @@
 description: Brown Dust II Gear System Overview, Early Crafting advices.
 
 ---
-# Gear System 
+# **Gear System**
 Gear System is an important characters' progression system. They increase character's stats, improving damage output or improving sustain on the battlefield.
 
 There are **5 gear slots** available for your characters: {{Weapon}} **Weapon**, {{Armor}} **Armor**, {{Helmet}} **Helmet**, {{Accessory}} **Accessory** and {{Gloves}} **Gloves**.
@@ -12,13 +12,15 @@ Generally speaking, {{Weapon}} **Weapon**, {{Helmet}} **Helmet** and {{Gloves}} 
 
 ![Gear Slots](../assets/images/gear-system/gear-slots.avif)
 
-For each gear piece, there is at least 1 Basic Attribute (Main Stat) and 3 Options (Substats) which carry those additional stats. 
+For each gear piece, there is at least 1 Basic Attribute (Main Stat) and 3 Options (Substats) which carry those additional stats.
 
 Gear is obtainable via **Crafting** (which is the main source), **Event Shop** or by pulling in gacha *(Exclusive Gear only)*.
 
 Gear has a lot of different layers, defining how good it actually is. These layers are **Grade (Rarity)**, **Tier**, **Upgrade Level**, **Upgrade Level**, **Upgrade Rank (Score)**.
 
-## Gear Grade (Rarity)
+---
+
+## **Gear Grade (Rarity)**
 
 There are total of 4 grades (rarities) that gear can have:
 
@@ -35,13 +37,117 @@ You can see the grade in top right corner of each gear piece or to the right to 
     * Main difference is the **amount of stats each Grade gives**. N gives the less, UR gives the most.
     * **N Grade** gear have only 1 Basic Option (Main Stat), **R & SR Grades (Craftable only)** have 2 Basic Options, one of which is rerollable. **UR Grade (Craftable only)** has 2 Basic Options which **cannot** be rerolled.
 
-## Gear Tier
-Each **Grade** can have different **Tiers**. There are total of 5 Tiers.
+---
+
+!!! abstract "So-far Summary"
+    Each gear piece has its own **Grade**. It varies from {{N_Grade}} to {{UR_Grade}}. <br>**The higher Grade is, the better gear is.**<br>That means that {{N_Grade}} gear is the worst, while {{UR_Grade}} Gear is the best (except Exclusive gear).
+
+---
+
+## **Gear Tier**
+Each **Grade** can have different **Tiers**. There are total of **4 Tiers** which are shown as **roman numbers** from {{I}} through {{IV}} for crafted gear piece. The higher the number, the better piece is.
+
+* Exclusive Gear has no number, although its tier is {{IV}}.
+* Event Shop Gear has no number either, although its tier is {{III}}.
+
+!!! example "Another <u>very useful</u> way to check for gear Tier"
+    You can check the gear tier by checking **stars** amount.
+
+    * **Zero silver** stars means tier is {{I}}.
+    * **One silver** star means tier is {{II}}.
+    * **Two silver** stars means tier is {{III}}.
+    * **Three silver** stars means tier is {{IV}}.
+    * **One <u>gold</u>** star means it is an exclusive gear. 
+
+??? note "Image Guide"
+    ![Tiers Visual Explanation](../assets/images/gear-system/gear_tiers.avif)
+
+!!! warning "Crafting RNG"
+    When you craft gear, it has a set chance to get a specific tier:
+
+    * {{I}}: **50%**;
+    * {{II}}: **30%**;
+    * {{III}}: **15%**;
+    * {{IV}}: **5%**.
+
+    Even though {{IV}} is very rare, it provides much better stats compared to {{I}}. It is fine to use {{III}} gear, although with no huge investment into it. **You should avoid actively using {{I}} and {{II}}**.
+
+---
+
+!!! abstract "So-far Summary"
+    Each gear piece has its own **Grade** and **Tier**. **Grades** vary from {{N_Grade}} to {{UR_Grade}}, while **Tiers** vary from {{I}} to {{IV}}.<br>**The higher Grade and Tier is, the better gear is.**<br>That means that {{N_Grade}} {{I}} gear is the worst, while {{UR_Grade}} {{IV}} Gear is the best (except Exclusive gear).
+
+---
+
 ## Gear Level
 
-## Gear Refinement
+Next layer of Gear investent is its **Level**. Each level enhances **Basic Attributes** values.
+
+Each Gear can be upgraded total up to 9 times, resulting in having **+9 Gear piece**.
+
+Each upgrade costs {{Gold}} **Gold** (price depends on Grade and Upgrade Level) and has **chance to fail**. If upgrade fails, there is **no penalty or downgrade risks**.
+
+!!! note ""
+    **For detailed info about success chances, check [CatlessCat's sheet](https://docs.google.com/spreadsheets/d/1m9PI5N6a_iHl1LM0Agub0L9i0BrlXeFE0k2_M7vQQC0/edit?usp=sharing).**
+
+On **+3**, **+6** and **+9 Level**, Option (Substats) slots are opened.<br>Aside of unlocking Option slot itself, they enhance **Basic Attributes values** via Upgrades Scores, similar to Levels, although +9 slot has way more impact compared to +3 one.
+
+
+!!! note ""
+    **For detailed info about mathematical side of upgrade values, check [this sheet](https://docs.google.com/spreadsheets/d/14S1ry3hblNeOZgmkk3VLdjNv8LERnrdzQ26V-ecc5Yk/edit?usp=sharing).**
+
+??? note "Image Guide"
+    ![Upgrade Feature Visual Explanation](../assets/images/gear-system/upgrade_view.avif)
+    !!! warning "Level representation"
+        As you can see from the picture, some gear pieces have level in the preview, while other have star in its place. Do not worry — that star is natural extension of Upgrade system and replaces level indicator when you reach +9 automatically.
+
+!!! warning "Time saving feature"
+    To prevent exhaustion and to guarantee quick upgrade, press the **Repeat** button, set the slider to the max (or use the MAX button), then hit **Upgrade** button, and, finally, press the {{Skip}} **Skip** button.
+    ??? note "Image Guide"
+        ![Upgrade Guide](../assets/images/gear-system/upgrade_guide.avif)
+     
+---
+
+!!! abstract "So-far Summary"
+    Each gear piece has its own **Grade** and **Tier**. **Grades** vary from {{N_Grade}} to {{UR_Grade}}, while **Tiers** vary from {{I}} to {{IV}}.<br>**The higher Grade and Tier is, the better gear is.**<br>That means that {{N_Grade}} {{I}} gear is the worst, while {{UR_Grade}} {{IV}} Gear is the best (except Exclusive gear).
+
+    ---
+
+    Each Gear piece can be **upgraded to 9 levels**, **enhancing values** given by the gear and **unlocking Options** (substats).
+
+---
+
+
+## ![Gear Refinement](../assets/images/gear-system/icons/score_system.avif){.icon-header} **Gear Refinement**
+
+Gear Refinement comes right after Upgrades. When you reach +9 and all Options are unlocked, **star with the number inside** will be unlocked as well. 
+
+It is so called **Gear Score**, which represents the most important layer of enhancing values given by the gear.
+Each of upgrade scores are represented by letters {{C}}, {{B}}, {{A}} and {{S}}, with {{S}} being the best possible one.
+
+As was mentioned earlier, each following Option slot has bigger impact towards overall score. **The weighted sum of slots give the final score.**
+
+* Minimal Total Score is **6**, being {{C}}{{C}}{{C}}.
+* Maximum Total Score is **24**, being {{S}}{{S}}{{S}}.
+* Increasing score by 1 has same **Basic Attribute** value increase as upgrading gear by 1 level.
+
+??? example "Detailed Score Explanation"
+    * Each letter is assigned a number 1-4, with {{C}} receiveing 1 and {{S}} 4 correspondedly.
+    * Second and third letter bonus is multiplied by 2 and 3 correspondedly.
+    * Each letter value is added towards the Total Score.
+    !!! warning ""
+        ![Gear Score Calculations](../assets/images/gear-system/score_calculation.avif)
+
+??? tip "Interesting yet totally useless fact"
+    * Scores from **6 to 11** are displayed with ![6-11 Score Star](../assets/images/gear-system/icons/score_6_11.avif "6-11 Score Star"){.icon} star.
+    * Scores from **12 to 16** are displayed with ![12-16 Score Star](../assets/images/gear-system/icons/score_12_16.avif "12-16 Score Star"){.icon} star.
+    * Scores from **17 to 20** are displayed with ![17-20 Score Star](../assets/images/gear-system/icons/score_17_20.avif "17-20 Score Star"){.icon} star.
+    * Scores from **21 to 24** are displayed with ![21-24 Score Star](../assets/images/gear-system/icons/score_21_24.avif "21-24 Score Star"){.icon} star.
+
+You can change the Gear Score you have by a process called Refinement. It uses {{Gold}} **Gold** and {{Refining_Powder}} **Refining Powder** to roll one of 81 possible scores ({{C}}{{C}}{{C}}, {{B}}{{C}}{{C}}, ... , {{S}}{{S}}{{S}}) 
 
 ## Gear Substats
+
 
 <!--Gears mechanic is one of the most important aspect of character build in Brown Dust II and is considered one of the most confusing thing new players encounter. Gears are called to increase character’s stats which we checked in the previous chapter.
 There are a total of five gear slots per character: Weapon, Armor, Helmet, Accessory and Gloves slots. Weapon, Accessory and Gloves mostly enhance offensive capabilities while Armor and Helmet gear grants extra protection for your character.
