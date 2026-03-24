@@ -174,6 +174,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
     * Knockback adds Chain to main target, similar to basic attack, although the one bumped into DOES NOT recieve a chain stack.
     * Knockback damage <u>**(for the one bumped INTO)**</u> cannot be evaded. However, Main Target with Evade active **cannot** be knocked back. 
     * In Fiend Hunter / Guild Raid, you cannot knockback (move) boss tiles. Also, some enemies have knockback immune which negates knockback action on them completely.
+    * Attempts to knockback enemy out of grid (out of bounds) will have no effect. 
     ??? note "Knockback showcase"
         ![Knockback screenshot](../assets/images/battle-system/knockback.avif)
         !!! question "Knockback damage"

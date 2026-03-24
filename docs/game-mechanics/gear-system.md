@@ -89,6 +89,8 @@ Each upgrade costs {{Gold}} **Gold** (price depends on Grade and Upgrade Level) 
 
 !!! note ""
     **For detailed info about success chances, check [CatlessCat's sheet](https://docs.google.com/spreadsheets/d/1m9PI5N6a_iHl1LM0Agub0L9i0BrlXeFE0k2_M7vQQC0/edit?usp=sharing).**
+    
+    **Alternatively, use [Official Gitbook](https://browndust2.gitbook.io/probabilitydetails_en/other-probabilities/gear-crafting-and-refining#upgrade-success-probability).**
 
 On **+3**, **+6** and **+9 Level**, Option (Substats) slots are opened.<br>Aside of unlocking Option slot itself, they enhance **Basic Attributes values** via Upgrades Scores, similar to Levels, although +9 slot has way more impact compared to +3 one.
 
@@ -144,9 +146,46 @@ As was mentioned earlier, each following Option slot has bigger impact towards o
     * Scores from **17 to 20** are displayed with ![17-20 Score Star](../assets/images/gear-system/icons/score_17_20.avif "17-20 Score Star"){.icon} star.
     * Scores from **21 to 24** are displayed with ![21-24 Score Star](../assets/images/gear-system/icons/score_21_24.avif "21-24 Score Star"){.icon} star.
 
-You can change the Gear Score you have by a process called Refinement. It uses {{Gold}} **Gold** and {{Refining_Powder}} **Refining Powder** to roll one of 81 possible scores ({{C}}{{C}}{{C}}, {{B}}{{C}}{{C}}, ... , {{S}}{{S}}{{S}}) 
+You can change the Gear Score you have by a process called Refinement. It uses {{Gold}} **Gold** and {{Refining_Powder}} **Refining Powder** to roll one of 81 possible scores ({{C}}{{C}}{{C}}, {{B}}{{C}}{{C}}, ... , {{S}}{{S}}{{S}}).
 
-## Gear Substats
+* <u>**You keep the best score obtained, meaning there is no possible downgrade for the gear**</u>.
+* The better score is, the less chances for it to appear. It drastically proves itself especially after score 18, when chances are decreased significantly, making maxed gear a whale challenge.
+* Despite multiple possible letters combination for the same score, they have no difference in Base Attributes value increase.
+
+??? info "Probability Chances"
+    ![Gear Refinement](../assets/images/gear-system/bbs.avif)
+    **Alternatively, use [Official Gitbook](https://browndust2.gitbook.io/probabilitydetails_en/other-probabilities/gear-crafting-and-refining#refinement-probability-by-upgrade-level), although keep in mind it uses different way to describe same percentages.**
+
+!!! warning "Time saving feature"
+    To prevent exhaustion and to do refinement much quicker, press the **Repeat** button, set the slider to the max (or use the MAX button), then hit **Refinement** button, and, finally, press the {{Skip}} **Skip** button.
+
+    It is adviced to have **"Ends once refining succeeds"** feature ON as it prevents you from overspending the powder. Although it means that upgrading gear to Score 18 will take few cycles. 
+    ??? note "Image Guide"
+        ![Refinement Guide](../assets/images/gear-system/refinement_guide.avif)
+     
+---
+
+!!! abstract "So-far Summary"
+    Each gear piece has its own **Grade** and **Tier**. **Grades** vary from {{N_Grade}} to {{UR_Grade}}, while **Tiers** vary from {{I}} to {{IV}}.<br>**The higher Grade and Tier is, the better gear is.**<br>That means that {{N_Grade}} {{I}} gear is the worst, while {{UR_Grade}} {{IV}} Gear is the best (except Exclusive gear).
+
+    ---
+
+    Each Gear piece can be **upgraded to 9 levels**, **enhancing values** given by the gear and **unlocking Options** (substats).
+
+    After you upgrade your gear +9, you can **refine** gear to obtain score from 6 to 24, which enhances values further. The higher the score is, the better, but chances are more slim. Only best refinement is kept, you cannot downgrade the gear.
+---
+
+## **Gear Stats**
+### **Basic Attributes**
+Different Gear pieces have different Basic Attributes, which defines how good gear actually is. You tend to use different gear for different purposes, so it is important to know what to use and when. 
+
+* **{{N_Grade}} Gear** has only 1 Basic Attribute. 
+* **{{R_Grade}} Gear** has 2 Basic Attributes, one of which is permanent, meaning you cannot change it, and second is rerollable.
+* **{{SR_Grade}} Gear** follows same logic as {{R_Grade}} one, having 1 permanent Basic Attribute and 1 rerollable.
+* **{{UR_Grade}} Gear** has 2 Basic Attributes, **neither of which** is rerollable.
+
+Exception to this rule is **Exclusive Gear**, which has first Attribute swappable between two choices for no cost, and second Attribute rerollable.
+
 
 
 <!--Gears mechanic is one of the most important aspect of character build in Brown Dust II and is considered one of the most confusing thing new players encounter. Gears are called to increase character’s stats which we checked in the previous chapter.
