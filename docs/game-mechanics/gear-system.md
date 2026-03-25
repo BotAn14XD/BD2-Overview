@@ -1,6 +1,7 @@
 ---
 
 description: Brown Dust II Gear System Overview, Early Crafting advices.
+comments: true
 
 ---
 # **Gear System**
@@ -30,7 +31,7 @@ There are total of 4 grades (rarities) that gear can have:
 * {{UR_Grade}} **UR Grade**
 
 You can see the grade in top right corner of each gear piece or to the right to the gear name if you decide to check it more detailed.
-??? note "Image Guide"
+??? image "Image Guide"
     ![Grade Visual Explanation](../assets/images/gear-system/grade_display.avif)
 
 !!! example "**Grade difference**"
@@ -39,7 +40,7 @@ You can see the grade in top right corner of each gear piece or to the right to 
 
 ---
 
-!!! abstract "So-far Summary"
+!!! abstract "Summary so far"
     Each gear piece has its own **Grade**. It varies from {{N_Grade}} to {{UR_Grade}}. <br>**The higher Grade is, the better gear is.**<br>That means that {{N_Grade}} gear is the worst, while {{UR_Grade}} Gear is the best (except Exclusive gear).
 
 ---
@@ -59,7 +60,7 @@ Each **Grade** can have different **Tiers**. There are total of **4 Tiers** whic
     * **Three silver** stars means tier is {{IV}}.
     * **One <u>gold</u>** star means it is an exclusive gear. 
 
-??? note "Image Guide"
+??? image "Image Guide"
     ![Tiers Visual Explanation](../assets/images/gear-system/gear_tiers.avif)
 
 !!! warning "Crafting RNG"
@@ -74,7 +75,7 @@ Each **Grade** can have different **Tiers**. There are total of **4 Tiers** whic
 
 ---
 
-!!! abstract "So-far Summary"
+!!! abstract "Summary so far"
     Each gear piece has its own **Grade** and **Tier**. **Grades** vary from {{N_Grade}} to {{UR_Grade}}, while **Tiers** vary from {{I}} to {{IV}}.<br>**The higher Grade and Tier is, the better gear is.**<br>That means that {{N_Grade}} {{I}} gear is the worst, while {{UR_Grade}} {{IV}} Gear is the best (except Exclusive gear).
 
 ---
@@ -98,19 +99,19 @@ On **+3**, **+6** and **+9 Level**, Option (Substats) slots are opened.<br>Aside
 !!! note ""
     **For detailed info about mathematical side of upgrade values, check [this sheet](https://docs.google.com/spreadsheets/d/14S1ry3hblNeOZgmkk3VLdjNv8LERnrdzQ26V-ecc5Yk/edit?usp=sharing).**
 
-??? note "Image Guide"
+??? image "Image Guide"
     ![Upgrade Feature Visual Explanation](../assets/images/gear-system/upgrade_view.avif)
     !!! warning "Level representation"
         As you can see from the picture, some gear pieces have level in the preview, while other have star in its place. Do not worry — that star is natural extension of Upgrade system and replaces level indicator when you reach +9 automatically.
 
 !!! warning "Time saving feature"
     To prevent exhaustion and to guarantee quick upgrade, press the **Repeat** button, set the slider to the max (or use the MAX button), then hit **Upgrade** button, and, finally, press the {{Skip}} **Skip** button.
-    ??? note "Image Guide"
+    ??? image "Image Guide"
         ![Upgrade Guide](../assets/images/gear-system/upgrade_guide.avif)
      
 ---
 
-!!! abstract "So-far Summary"
+!!! abstract "Summary so far"
     Each gear piece has its own **Grade** and **Tier**. **Grades** vary from {{N_Grade}} to {{UR_Grade}}, while **Tiers** vary from {{I}} to {{IV}}.<br>**The higher Grade and Tier is, the better gear is.**<br>That means that {{N_Grade}} {{I}} gear is the worst, while {{UR_Grade}} {{IV}} Gear is the best (except Exclusive gear).
 
     ---
@@ -160,12 +161,12 @@ You can change the Gear Score you have by a process called Refinement. It uses {
     To prevent exhaustion and to do refinement much quicker, press the **Repeat** button, set the slider to the max (or use the MAX button), then hit **Refinement** button, and, finally, press the {{Skip}} **Skip** button.
 
     It is adviced to have **"Ends once refining succeeds"** feature ON as it prevents you from overspending the powder. Although it means that upgrading gear to Score 18 will take few cycles. 
-    ??? note "Image Guide"
+    ??? image "Image Guide"
         ![Refinement Guide](../assets/images/gear-system/refinement_guide.avif)
      
 ---
 
-!!! abstract "So-far Summary"
+!!! abstract "Summary so far"
     Each gear piece has its own **Grade** and **Tier**. **Grades** vary from {{N_Grade}} to {{UR_Grade}}, while **Tiers** vary from {{I}} to {{IV}}.<br>**The higher Grade and Tier is, the better gear is.**<br>That means that {{N_Grade}} {{I}} gear is the worst, while {{UR_Grade}} {{IV}} Gear is the best (except Exclusive gear).
 
     ---
@@ -179,13 +180,47 @@ You can change the Gear Score you have by a process called Refinement. It uses {
 ### **Basic Attributes**
 Different Gear pieces have different Basic Attributes, which defines how good gear actually is. You tend to use different gear for different purposes, so it is important to know what to use and when. 
 
-* **{{N_Grade}} Gear** has only 1 Basic Attribute. 
-* **{{R_Grade}} Gear** has 2 Basic Attributes, one of which is permanent, meaning you cannot change it, and second is rerollable.
-* **{{SR_Grade}} Gear** follows same logic as {{R_Grade}} one, having 1 permanent Basic Attribute and 1 rerollable.
-* **{{UR_Grade}} Gear** has 2 Basic Attributes, **neither of which** is rerollable.
+* {{N_Grade}} and {{UR_Grade}} Gear have **1** and **2 Basic Attributes** respectively. These attributes are **not** rerollable.
+* {{R_Grade}} and {{SR_Grade}} Gear have **2 Basic Attributes**, with Attribute 1 **fixed** and Attribute 2 **rerollable** via the refinement menu. The reroll options for Attribute 2 are always between "relevant stats": this means that offensive gear will only have offensive options and the same goes for defensive gear. Moreover, offensive gear will give options only relevant to the 1st Attribute in terms of damage type. 
+* **Exclusive Gear** have **2 Basic Attributes** regardless of rarity, with Attribute 1 **swappable** between two relevant stats for no cost. Attribute 2 behaves similarly to {{R_Grade}} / {{SR_Grade}} gear.
 
-Exception to this rule is **Exclusive Gear**, which has first Attribute swappable between two choices for no cost, and second Attribute rerollable.
+You can check possible stats for each individual gear piece by pressing the ? in the refinement menu. 
+??? image "Image Guide"
+    ![Possible Basic Attributes for gear](../assets/images/gear-system/possible_options_check.avif)
 
+### **Options**
+**Options**, also more known as **substats**, can be rerolled regardless of the gear **Grade** or **Tier**. As was discussed above, there are total of **3** Options, each giving some random stat. 
+
+Similar to Basic Attributes, you can obtain mostly "relevant" stats only, although their variety is bigger compared to Basic Attributes; for example, defensive gear can roll offensive stats of **same damage type** (DEF armor can roll ATK, MRES armor can roll MATK).
+
+* Options **values** depend on **Grade** and **Tier** of the gear.
+* Options **values** DO NOT depend on **Refinement Score** of the gear.
+
+You can check possible Option stats for each individual gear piece by pressing the ? in the refinement menu. 
+??? image "Image Guide"
+    ![Possible Options for gear](../assets/images/gear-system/possible_options_check2.avif)
+
+## **Options Reroll**
+As it was stated earlier, you can change the Options (and in some cases Basic Attribute 2) to the desired ones. To do that, click the ![Option Reroll](../assets/images/gear-system/icons/icon_optionreroll.avif "Option Reroll"){ .icon } in the Gear Menu.
+
+??? image "Image Guide"
+    ![Reroll Menu](../assets/images/gear-system/substat_menu_access.avif)
+
+On the right side of the menu you can see the stats allowed to be rerolled.<br>
+Each reroll uses currency — {{Gold}} **Gold** and either {{Refining_Stone}} **Refining Stones** or {{Refining_Crystal}} **Refining Crystals**. Initial price depends on **Grade** of the gear.
+
+* For {{R_Grade}} gear, only {{Refining_Stone}} **Refining Stones** can be used. 
+* For {{SR_Grade}} and {{UR_Grade}} gear, both can be used, with {{Refining_Stone}} **Refining Stones** taking priority. They basically act as {{Refining_Crystal}} **Refining Crystals** at 10:1 ratio. You cannot spend Crystals before depleting Stones first, although it is more convenient this way.
+
+To do the reroll, press **Option Refinement** button. After that, you're given a choice of **keeping previous stats *(Keep Option button)***, **taking new stats *(Confirm button)*** or **reroll once more *(Retry button)***.
+
+??? image "Reroll Image"
+    ![Reroll Image](../assets/images/gear-system/reroll_confirm.avif)
+
+!!! example "**Locking Stats**"
+    Rerolling and praying on getting 3 or 4 desired stats at once can be a lot to ask. With that in mind, you can **lock** desired stat to prevent it from being rerolled. To do that, press ![Lock Icon](../assets/images/gear-system/icons/icon_lock.avif){.icon} **Lock Icon** on the left of stat. Keep in mind that **this will increase currency consumption by the base amount for each stat locked, reaching x4 the price for 3 stats locked**.
+    ??? image "Price Dependency based on amount of locked stats"
+        ![Price Dependency](../assets/images/gear-system/price_dependency.avif)
 
 
 <!--Gears mechanic is one of the most important aspect of character build in Brown Dust II and is considered one of the most confusing thing new players encounter. Gears are called to increase character’s stats which we checked in the previous chapter.

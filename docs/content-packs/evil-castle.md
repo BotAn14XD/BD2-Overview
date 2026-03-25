@@ -1,5 +1,6 @@
 ---
 description: Brown Dust II Evil Castle Content Pack overview and tips.
+comments: true
 ---
 
 ## **Overview**
@@ -76,7 +77,7 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
         * **Boss fight:** 40,000 points
         * **Total:** 15,000 $\times$ 4 + 40,000 = **100,000** points per floor
 
-!!! note "Newbie Advices"
+!!! image "Newbie Advices"
     **1. It is important to complete tower at least once to start gaining resources for crafting gear.**<br>
     **2. <u>Do NOT chase fulfilling property requirenment as very new player.**</u><br><br>While it is important to have as best score as possible, that task isn't as benefial and requires a lot of investment in DPS and supports you may not have.<br><br>Intstead, exploit free points from full HP and try to deal 1m damage with single-hit costumes such as Dream Bride Eclipse. Using your general team is enough for the start.
 
@@ -84,7 +85,7 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
 
 !!! question "Do I need to fight it daily to obtain rewards?"
     **No.** Game mode offers both one-time clear and daily rewards. For obtaining daily ones, go to any pack except Golden Colosseum and Glupy Diner and interact with pet following you. 
-    ??? note "Image Guide"
+    ??? image "Image Guide"
         ![Claiming rewards tuto](../assets/images/evil-castle/dispatch_guide.webp)
 
 ??? abstract "Tower of Pride Rewards"
@@ -294,15 +295,15 @@ Difficulty decide how hard it will be to climb the Tower, while upgrades ease th
 
 !!! question "What upgrades do I buy with {{ Night_World_Obsidian }} Obsidian?"
     Prioritize **Refresh Attempts Up**, **Starting SP Up**, followed by **Discount Probability Up** and **ATK/MATK**, depending on the team you usually run. Rest is optional and / or not needed.
-    ??? note "Image of Upgrade Menu"
+    ??? image "Image of Upgrade Menu"
         ![Tower of Salvation Upgrade Menu](../assets/images/evil-castle/ToS/ToS_10.webp)
 
 At the start of your run, you have to draft a team. To do that, you need to pick 1 of 4 offered costumes for each slot. If you do not like the choice and have rerolls available, you can Refresh the offered costumes.
-??? note "Image of Normal Selection screen"
+??? image "Image of Normal Selection screen"
     ![Tower of Salvation Initial Selection](../assets/images/evil-castle/ToS/ToS_11.webp)
 
 As for the fifth pick, you're allowed to take almost every costume from the game as Wildcard Selection, except **collab characters you do not own**. 
-??? note "Image of Wildcard Selection screen"
+??? image "Image of Wildcard Selection screen"
     ![Tower of Salvation Wildcard Selection](../assets/images/evil-castle/ToS/ToS_12.webp)
 
 !!! question "How to properly pick your Wildcard"

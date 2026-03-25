@@ -2,6 +2,9 @@ site_name: Brown Dust II Overview
 site_description: "Brown Dust II Features, Modes Overview and Tips"
 theme:  
   name: material
+  custom_dir: overrides
+  static_templates:
+    - 404.html
   favicon: assets/images/site/favicon.png
   logo: assets/images/site/logo.png
   palette:
@@ -18,6 +21,7 @@ theme:
 #    - navigation.sections
 nav:
 #    - Home: index.md
+    - 'Main Page': index.md
     - 'Game Mechanics':
         - 'Battle System': game-mechanics/battle-system.md
         - 'Gear System': game-mechanics/gear-system.md
@@ -68,6 +72,7 @@ markdown_extensions:
   - md_in_html
   - pymdownx.superfences
   - def_list
+#  - pymdownx.blocks.grid
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.arithmatex:

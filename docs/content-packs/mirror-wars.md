@@ -1,3 +1,7 @@
+---
+comments: true
+description: Brown Dust II Mirror Wars Content Pack Overview and tips.
+---
 # **Mirror Wars**
 
 Mirror Wars is the PvP mode where you fight other players' defense teams. 
@@ -86,7 +90,7 @@ Each fight costs entry tickets called **{{ Blood_Cocktail }} Blood Cocktails**
     * You will fight once, but get rewards (and spend cocktails) as if you fought 40 times.
     * With this, however, victory points are changed as if you fought only once, not 40 times more.
     
-    ??? "Image Guide"
+    ??? image "Image Guide"
         ![Blood Cocktails Consumption Guide](../assets/images/mirror-wars/cocktail_consumption.png)
 
 ---

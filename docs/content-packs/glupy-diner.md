@@ -20,7 +20,7 @@ Glupy Diner is the lite version of idle incremental simulators. Your main resour
 
 !!! tip "Resources Gathering"
     In case you're interested in collecting {{Gold}} **Gold**, {{ Refining_Powder }} **Refining Powder** and {{Glupy_Star}} **Stars** only, you can use **Business Management** button in main menu to quickly grab accumulated stuff without checking Glupy Diner pack directly.<br><br>Otherwise it does not really matter, since you have to visit pack for {{Deco_Coin}} **Deco Coins** and {{Light_Magic_Crystal}} **Magic Crystals**.
-    ??? note "Image Guide"
+    ??? image "Image Guide"
         ![Glupy Collection Guide](../assets/images/glupy-diner/glupy_collecting_guide.webp)
 
 ### **Fated Guests**

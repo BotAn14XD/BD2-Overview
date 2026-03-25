@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+
+  {# Only load Giscus if the page exists and has 'comments: true' in front matter #}
+  {% if page and page.meta and page.meta.comments %}
+    <h2 id="__comments">Comments</h2>
+    
+    <script src="https://giscus.app/client.js"
+            data-repo="BotAn14XD/BD2-Overview"
+            data-repo-id="R_kgDOQ-EjXQ"
+            data-category-id="DIC_kwDOQ-EjXc4C5QfQ"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="preferred_color_scheme"
+            data-lang="en"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async>
+    </script>
+
+    <script>
+      /* Your theme synchronization script goes here */
+      var updateGiscusTheme = function() {
+        if (typeof __md_get === "undefined") return;
+        var palette = __md_get("__palette");
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate" ? "transparent_dark" : "light";
+          var frame = document.querySelector(".giscus-frame");
+          if (frame && frame.contentWindow) {
+            frame.contentWindow.postMessage(
+              { giscus: { setConfig: { theme } } },
+              "https://giscus.app"
+            );
+          }
+        }
+      };
+
+      /* Wait for theme to be ready */
+      window.addEventListener('load', function() {
+        if (typeof document$ !== "undefined") {
+          document$.subscribe(function() {
+            updateGiscusTheme();
+          });
+        }
+      });
+    </script>
+  {% endif %}
+{% endblock %}

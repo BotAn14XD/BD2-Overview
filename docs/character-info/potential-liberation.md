@@ -1,5 +1,6 @@
 ---
 description: Brown Dust II Potential Liberation & Bonding System explanation, overview and tips.
+comments: true
 ---
 
 # **Potential Liberation**

@@ -1,17 +1,53 @@
-# Welcome to MkDocs
+# Brown Dust II Overview
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the ultimate starter encyclopedy for **Brown Dust II**.
 
-## Commands
+This site is a work in progress, focusing on high-quality explanation for every game aspect for new players.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
+<h2 style="text-align:center;"> Fundamentals </h2>
+<div class="grid cards" markdown>
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+-   ![Battle Icon](assets/images/icons/icon_battle.avif){.icon} __Battle System__
+
+    ---
+
+
+    [>> View Page <<](./game-mechanics/battle-system.md)
+</div>
+<h2 style="text-align:center;"> Character Progression </h2>
+<div class="grid cards" markdown>
+-   ![Gear Icon](assets/images/icons/icon_decomposition.avif){.icon} __Gear System__
+
+    ---
+
+    <!--Learn everything related to gear!-->
+
+    [>> View Page <<](./game-mechanics/gear-system.md)
+
+-   ![Liberation Icon](assets/images/potential-liberation/icon_potential3_3.png){.icon} __Potential Liberation__
+
+    ---
+    [>> View Page <<](./character-info/potential-liberation.md)
+</div>
+<h2 style="text-align:center;"> Content Packs </h2>
+<div class="grid cards" markdown>
+-   ![Evil Castle Icon](assets/images/icons/icon_devilcastle_monster.avif){.icon} __Evil Castle__
+
+    ---
+
+    [ >> View Page <<](./content-packs/evil-castle.md)
+
+-   ![Mirror Wars Icon](assets/images/icons/icon_rank.avif){.icon} __Mirror Wars__
+
+    ---
+
+    [>> View Page <<](./content-packs/mirror-wars.md)
+ 
+</div>
+---
+<h2 style="text-align:center;"> Resources & Community </h2>
+
+- [GitHub Repository](https://github.com/BotAn14XD/BD2-Overview)
+- [Brown Dust II Discord Server](https://discord.com/invite/browndust2)

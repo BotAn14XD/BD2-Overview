@@ -1,5 +1,6 @@
 ---
 description: Brown Dust II Battle System Overview
+comments: true
 ---
 # **Battle System**
 
@@ -26,8 +27,8 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
     * Field is a <u>**3x4 rectangular grid**</u>, in which you can place your characters however you like.
         * To swap character positioning, click and drag the chibi model of a character to the needed tile.
     !!! warning ""
-        **Guild Raid** offers **5x5 square grid** and 7 characters, while **Fiend Hunter** uses **irregular grid**, but same 5 characters per team.<br>Golden Colosseum, on the other hand, has field changing depending on season from **3x3 square** to **5x5 square** with different amount of characters allowed.
-    ??? note "3x4 Grid Image"
+        **Guild Raid** offers **5x5 square grid** and 7 characters per team.<br>Golden Colosseum, on the other hand, has field changing depending on season from **3x3 square** to **5x5 square** with different amount of characters allowed.
+    ??? image "3x4 Grid Image"
         ![3x4 Grid Image](../assets/images/battle-system/3x4_field.avif)
 
 !!! abstact "Targetting Logic"
@@ -45,9 +46,9 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
         * If there's only one enemy in the column, it will be targeted instead.
 
     You can check Target type and Costumes AoE either in Compainion tab or directly in the battle by clicking the character card. 
-    ??? note "Target type information in-battle"
+    ??? image "Target type information in-battle"
         ![Target Type information in-battle](../assets/images/battle-system/dmgtype_view.avif)
-    ??? note "Very Front / Vault difference"
+    ??? image "Very Front / Vault difference"
         ![Main Target & AoE](../assets/images/battle-system/target_aoe.avif)
 
 !!! question "Advanced Targetting Logic"
@@ -58,7 +59,7 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
 
     * **If there is no enemy in the same column as your character, column on the right (to the character) takes priority instead. Thus, it is possible to attack the enemy on the most right column from the most left one.**
         * If there is no enemy in the right column either, left one takes priority.  
-    ??? note "Showcase Image"
+    ??? image "Showcase Image"
         ![Targetting Logic](../assets/images/battle-system/targetting.avif)
 
 !!! abstract "Damage Formula"
@@ -72,7 +73,7 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
     \times \; (100\% + \text{Property Damage\%} + \text{Season Buff\%} + \text{Property Damage\% Buffs})^\text{[3]} \\\\ 
     \times \; (100\% - (\text{Target's DEF\%} + \text{Target's DEF\% Buffs} - \text{Target's DEF\% Debuffs}))^\text{[4,5]} \\\\     
     \times \; (100\% - \text{Target's DMG Reduction\% Buffs}) \\\\
-    \times \; (100\%) - \text{Target's Property Resists}^\text{[6]}$
+    \times \; (100\% - \text{Target's Property Resists})^\text{[6]}$
 
     ---
 
@@ -129,19 +130,19 @@ In the battle, you can obtain a lot of information about your units and enemies.
 
         * <u>**This way, you can switch actions for your characters as well.**</u>
 
-    ??? note "Skills screenshot"
+    ??? image "Skills screenshot"
         ![Skills screenshot](../assets/images/battle-system/skills_view.avif)
 
     !!! warning "Skills Cooldown"
         Each costume has some cooldown, **during which you cannot use it again**. Cooldown for any costume is displayed in its description, and active cooldown is displayed in place of a costume button, covering it. 
-        ??? note "Image Display"
+        ??? image "Image Display"
             ![Cooldown Display](../assets/images/battle-system/Cooldown.avif)
 
     * To access the information about **stats**, press on the chibi / card, then press ![Plus Icon](../assets/images/battle-system/icons/icon_plus2.avif "Detailed Character information"){.icon} plus icon in the top corner of the screen *(left for your units, right for enemies)*.<br>Displayed information includes all stats **at the given moment** (with all **current** buffs applied), gear and [bond](../character-info/potential-liberation.md).
-    ??? note "Stats screenshot"
+    ??? image "Stats screenshot"
         ![Stats screenshot](../assets/images/battle-system/stats_window.avif)
     * To access the information about **status effects**, do the same thing except instead of clicking on the plus, click on the icons right below, such as ![Taunt Icon](../assets/images/battle-system/icons/bufficon_26.avif "Taunt Status Effect"){ .icon } (which is the Taunt effect) or others.
-    ??? note "Status Effects screenshot"
+    ??? image "Status Effects screenshot"
         ![Status Effects](../assets/images/battle-system/status_effects.avif)
 
 !!! example "Property"
@@ -149,16 +150,16 @@ In the battle, you can obtain a lot of information about your units and enemies.
 
     * First, it is shown **near character name as a icon** *(![Water](../assets/images/battle-system/icons/elementicon1_1.avif){.icon} Water, ![Fire](../assets/images/battle-system/icons/elementicon2_2.avif){.icon} Fire, ![Wind](../assets/images/battle-system/icons/elementicon3_3.avif){.icon} Wind, ![Light](../assets/images/battle-system/icons/elementicon4_4.avif){.icon} Light, ![Darkness](../assets/images/battle-system/icons/elementicon5_5.avif){.icon} Darkness and ![Neutral](../assets/images/battle-system/icons/elementicon6_6.avif){.icon} Neutral)*. 
     * Second, it is displayed as a **light tint on the character's card**. According to the property, tint is changed to resemble main color of the property.
-    ??? note "Tint display: All 5 properties on our side and Water & Fire on the enemy"
+    ??? image "Tint display: All 5 properties on our side and Water & Fire on the enemy"
         ![Tint Display](../assets/images/battle-system/property-tint.avif)
     * Third, it is displayed **as glow under character / enemy** whenever **they are going to use the ability (skill)**. Similar to tint in cards, this glow also changes the color depending on property, but is more bright in a sense. 
-    ??? note "Glow display: Light, Water, Fire and Darkness"
+    ??? image "Glow display: Light, Water, Fire and Darkness"
         ![Glow Display](../assets/images/battle-system/glow_effect.avif)
     
     ---
 
     * Property **advantage / disadvantage** also is displayed **during skill / damage preview**, and are shown as ![Property Advantage](../assets/images/battle-system/icons/prop_adv.avif "Property Advantage"){.icon} and ![Property Disadvantage](../assets/images/battle-system/icons/prop_disadv.avif "Propety Disadvantage"){.icon} accordingly. If you have neither advantage nor disadvantage, no icon will show up, similar to attacking neutral character.
-    ??? note "Advantage, disadvantage and basic damage display"
+    ??? image "Advantage, disadvantage and basic damage display"
         ![Adv_Disadv display](../assets/images/battle-system/property-preview.avif)
 
 !!! tip "Knockback"
@@ -175,7 +176,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
     * Knockback damage <u>**(for the one bumped INTO)**</u> cannot be evaded. However, Main Target with Evade active **cannot** be knocked back. 
     * In Fiend Hunter / Guild Raid, you cannot knockback (move) boss tiles. Also, some enemies have knockback immune which negates knockback action on them completely.
     * Attempts to knockback enemy out of grid (out of bounds) will have no effect. 
-    ??? note "Knockback showcase"
+    ??? image "Knockback showcase"
         ![Knockback screenshot](../assets/images/battle-system/knockback.avif)
         !!! question "Knockback damage"
             **62,500 damage in the first image is shown due to cap of 50k HP, mentioned above, mulitplied by 125% (Teresse Skill %)**.<br>
@@ -187,7 +188,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
     * **Green lines** are related to actions from **teammates / your characters**, aka supports. 
     * **Red lines** are related to **enemies who will hit your character** with their skill in the following round
     * **Colorful lines** are related to **main target of an attack**. Their color depends on property (see above).
-    ??? note "Targetting Lines display"
+    ??? image "Targetting Lines display"
         ![Targetting Lines display](../assets/images/battle-system/target_lines.avif) 
 
 !!! example "Tombstones"
@@ -199,7 +200,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
     * Tombstone cannot be knocked back.
     * Tombstones prevents enemies to pass through them (with knockback skills)
     * Tombstones do not suffer damage / deal damage to knocked enemies. 
-    ??? note "Tombstones on the field"
+    ??? image "Tombstones on the field"
         ![Tombstones](../assets/images/battle-system/tombstones.avif) 
 
 ---
@@ -268,7 +269,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
         * *You cannot rollback to previous turn in [**Tower of Salvation**](../content-packs/evil-castle.md#tower-of-salvation).*
     * Run away from the battle.
 
-    ??? note "Pause Menu Image"
+    ??? image "Pause Menu Image"
         ![Pause Menu Image](../assets/images/battle-system/pause_menu.avif) 
 ---
 
@@ -279,7 +280,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
     Feauture allowing you to replace your characters during battle preparation.
     
     To replace a character, pick it from the list and tap on the character you want to replace.
-    ??? note "Image Guide"
+    ??? image "Image Guide"
         ![Replace Guide](../assets/images/battle-system/replace_guide.avif)
     !!! example ""
         * You can **filter characters** to find the needed ones faster by using **Property Filter** on top or filter button on the top as well.
@@ -289,7 +290,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
     ### **Borrow Feature** { #__tabbed_2_1 }
     In some fights, you can use your Friend Support units to help you beat the fight.<br>
     The idea is completely the same with the exception of pressing one more button (![Support Character Icon](../assets/images/battle-system/icons/icon_mercenary.avif "Support Character"){.icon}).
-    ??? note "Image Guide" 
+    ??? image "Image Guide" 
         ![Friend Support Replace Guide](../assets/images/battle-system/friend_support_guide.avif)
     !!! example ""
         * Borrow is limited to **3 borrows per day <u>per friend</u>**. That means if you have maximum friends (30), you can borrow up to 90 times per day.
@@ -307,20 +308,20 @@ In the battle, you can obtain a lot of information about your units and enemies.
     
     * ![Insert Icon](../assets/images/battle-system/icons/icon_insert.avif "Insert"){.icon} **Insert mode** allows you to alter your order by inserting desired character in a sequence. To do that, drag character on others.
         * If you drag **from bottom to top**, you will put chosen character **before** the character you drag onto.
-        ??? note "Image Guide"
+        ??? image "Image Guide"
             ![Insert from below](../assets/images/battle-system/insert_below.avif)
         * If you drag **from top to bottom**, you will put chosen character **after** the character you drag onto.
-        ??? note "Image Guide"
+        ??? image "Image Guide"
             ![Insert from above](../assets/images/battle-system/insert_above.avif)
 
     * ![Replace Icon](../assets/images/battle-system/icons/icon_change.avif "Replace"){.icon} **Replace mode** allows you to change order of 2 costumes.<br>To do that, simply drag a character onto another to switch the order.
-    ??? note "Image Guide"
+    ??? image "Image Guide"
         ![Replace Feature](../assets/images/battle-system/Replace.avif)
     
     !!! tip "Replace Shortcut"
         ![Replace Shorcut Icon](../assets/images/battle-system/icons/icon_replace_shortcut.avif){ align=right }
         In order to save time, you can access to **Replace** feature from main battle menu via icon next to the right of the character cards.<br>It functions completely identical to the feature explained above.
-        ??? note "Image Guide"
+        ??? image "Image Guide"
             ![Replace Shortcut Guide](../assets/images/battle-system/replace_shortcut.avif)
 
 === "![Preset](../assets/images/battle-system/icons/icon_preset.avif){ .icon-list }"
@@ -363,7 +364,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
 === "![Rotate](../assets/images/battle-system/icons/icon_rotate.avif){ .icon-list }"
     ### **Rotate Feature** { #__tabbed_2_6 }
     This feature allows you rotate the field, changing your and enemy visual positioning while keeping aethetics of surroundings. This can be useful for distinguishing grouped enemies, but [**Rotate View**]( #__tabbed_2_5 ) is better for this matter.<br>You cannot rotate the field with special bosses on it like Fiend Hunter or Guild Raid ones.
-    ??? note "Feature Showcase"
+    ??? image "Feature Showcase"
         ![Rotate Feature Showcase](../assets/images/battle-system/rotation_comparison.avif)
 </div>
 
@@ -378,14 +379,14 @@ It appears **after 10th Turn** in **Story, Normal / Challenge Battles of Event, 
 Every 2 turns, every unit on the battlefield recieves **+100% ATK / MATK increase**, as well as **DEF / MRES descrease by 100%** and **Incoming Damage increase by 50%**. This means that characters like Gynt and Remnunt will no longer be effective to lock down enemy with their ATK reduction.
 
 Death Time can be accumulated with no limits on its amount, meaning in case of "0 DMG Bug", you can reach as many Turns as you want, although it's quite pointless.
-??? note "Death Time showcase"
+??? image "Death Time showcase"
     ![Death Time](../assets/images/battle-system/death_time.avif)
 
 ### ![Set Costume order icon](../assets/images/battle-system/icons/icon_setting_costume_active.avif){.icon-header} **Set Costume order**
 Set Costume order is a feature that allows you to make pre-determined skill order activation. This is useful when you're setting up [Mirror Wars](../content-packs/mirror-wars.md) or repetive fights in gamemodes as Fiend Hunter. If you have feature active, you will see ![Set Costume order icon](../assets/images/battle-system/icons/icon_setting_costume_active.avif "Set Costume order"){.icon} icon in the character's card.
 
 To use it, press on the chibi character **before turn 1** and press **Set Costume order** button in the bottom part of the screen.
-??? note "Image Guide"
+??? image "Image Guide"
     ![Set Order Guide](../assets/images/battle-system/set_costume_order_guide.avif)
 
 In opened menu, you will see 10 slots, corresponding to each of your Turns (up to 19th Turn) where you can put any of skills, basic attack or knockback.
@@ -393,7 +394,7 @@ In opened menu, you will see 10 slots, corresponding to each of your Turns (up t
 * Selection will override your manual attempts to choose different skill during given turn. 
 * Selection will oblige to game rules, meaning it won't activate the skill if you don't have enough SP or it's on cooldown.
 * **Selection can loop**, meaning that for example putting **Robin Hood Zenith** and **Poolside Guardian Zenith** in first two slots will provide you repeated usage until the last turn.
-??? note "Set Costume order UI Image"
+??? image "Set Costume order UI Image"
     ![Set Costume order UI](../assets/images/battle-system/set_costume_order_guide2.avif)
 
 ### Status Effects
