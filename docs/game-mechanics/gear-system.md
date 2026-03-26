@@ -17,7 +17,7 @@ For each gear piece, there is at least 1 Basic Attribute (Main Stat) and 3 Optio
 
 Gear is obtainable via **Crafting** (which is the main source), **Event Shop** or by pulling in gacha *(Exclusive Gear only)*.
 
-Gear has a lot of different layers, defining how good it actually is. These layers are **Grade (Rarity)**, **Tier**, **Upgrade Level**, **Upgrade Level**, **Upgrade Rank (Score)**.
+Gear has a lot of different layers, defining how good it actually is. These layers are **Grade (Rarity)**, **Tier**, **Upgrade Level**, **Upgrade Rank (Score)**, **Basic Attributes & Options**.
 
 ---
 
@@ -35,12 +35,12 @@ You can see the grade in top right corner of each gear piece or to the right to 
     ![Grade Visual Explanation](../assets/images/gear-system/grade_display.avif)
 
 !!! example "**Grade difference**"
-    * Main difference is the **amount of stats each Grade gives**. N gives the less, UR gives the most.
-    * **N Grade** gear have only 1 Basic Option (Main Stat), **R & SR Grades (Craftable only)** have 2 Basic Options, one of which is rerollable. **UR Grade (Craftable only)** has 2 Basic Options which **cannot** be rerolled.
+    * Main difference is the **amount of stats each Grade gives**. N gives the least, UR gives the most.
+    * Second difference is the **amount of Basic Attributes (main stats)** and/or their specifics. It is explained more detailed in [this chapter](#basic-attributes), although it is recommended to just follow the natural explanation without skipping other sections.
 
 ---
 
-!!! abstract "Summary so far"
+!!! abstract "**Summary so far**"
     Each gear piece has its own **Grade**. It varies from {{N_Grade}} to {{UR_Grade}}. <br>**The higher Grade is, the better gear is.**<br>That means that {{N_Grade}} gear is the worst, while {{UR_Grade}} Gear is the best (except Exclusive gear).
 
 ---
@@ -51,7 +51,7 @@ Each **Grade** can have different **Tiers**. There are total of **4 Tiers** whic
 * Exclusive Gear has no number, although its tier is {{IV}}.
 * Event Shop Gear has no number either, although its tier is {{III}}.
 
-!!! example "Another <u>very useful</u> way to check for gear Tier"
+!!! example "**Another <u>very useful</u> way to check for gear Tier**"
     You can check the gear tier by checking **stars** amount.
 
     * **Zero silver** stars means tier is {{I}}.
@@ -60,10 +60,10 @@ Each **Grade** can have different **Tiers**. There are total of **4 Tiers** whic
     * **Three silver** stars means tier is {{IV}}.
     * **One <u>gold</u>** star means it is an exclusive gear. 
 
-??? image "Image Guide"
+??? image "**Image Guide**"
     ![Tiers Visual Explanation](../assets/images/gear-system/gear_tiers.avif)
 
-!!! warning "Crafting RNG"
+!!! warning "**Crafting RNG**"
     When you craft gear, it has a set chance to get a specific tier:
 
     * {{I}}: **50%**;
@@ -75,7 +75,7 @@ Each **Grade** can have different **Tiers**. There are total of **4 Tiers** whic
 
 ---
 
-!!! abstract "Summary so far"
+!!! abstract "**Summary so far**"
     Each gear piece has its own **Grade** and **Tier**. **Grades** vary from {{N_Grade}} to {{UR_Grade}}, while **Tiers** vary from {{I}} to {{IV}}.<br>**The higher Grade and Tier is, the better gear is.**<br>That means that {{N_Grade}} {{I}} gear is the worst, while {{UR_Grade}} {{IV}} Gear is the best (except Exclusive gear).
 
 ---
@@ -93,25 +93,25 @@ Each upgrade costs {{Gold}} **Gold** (price depends on Grade and Upgrade Level) 
     
     **Alternatively, use [Official Gitbook](https://browndust2.gitbook.io/probabilitydetails_en/other-probabilities/gear-crafting-and-refining#upgrade-success-probability).**
 
-On **+3**, **+6** and **+9 Level**, Option (Substats) slots are opened.<br>Aside of unlocking Option slot itself, they enhance **Basic Attributes values** via Upgrades Scores, similar to Levels, although +9 slot has way more impact compared to +3 one.
+On **+3**, **+6** and **+9 Level**, Option (Substats) slots are opened.<br>Aside of unlocking Option slot itself, they enhance **Basic Attributes values** via Upgrades Scores, similar to Levels, although +9 slot has way more impact compared to +3 one. Each slot also recieves the letter {{C}},{{B}},{{A}} or {{S}}, functionality of which will be covered in the [next chapter](#gear-refinement).
 
 
 !!! note ""
     **For detailed info about mathematical side of upgrade values, check [this sheet](https://docs.google.com/spreadsheets/d/14S1ry3hblNeOZgmkk3VLdjNv8LERnrdzQ26V-ecc5Yk/edit?usp=sharing).**
 
-??? image "Image Guide"
+??? image "**Image Guide**"
     ![Upgrade Feature Visual Explanation](../assets/images/gear-system/upgrade_view.avif)
     !!! warning "Level representation"
         As you can see from the picture, some gear pieces have level in the preview, while other have star in its place. Do not worry — that star is natural extension of Upgrade system and replaces level indicator when you reach +9 automatically.
 
-!!! warning "Time saving feature"
+!!! warning "**Time saving feature**"
     To prevent exhaustion and to guarantee quick upgrade, press the **Repeat** button, set the slider to the max (or use the MAX button), then hit **Upgrade** button, and, finally, press the {{Skip}} **Skip** button.
     ??? image "Image Guide"
         ![Upgrade Guide](../assets/images/gear-system/upgrade_guide.avif)
      
 ---
 
-!!! abstract "Summary so far"
+!!! abstract "**Summary so far**"
     Each gear piece has its own **Grade** and **Tier**. **Grades** vary from {{N_Grade}} to {{UR_Grade}}, while **Tiers** vary from {{I}} to {{IV}}.<br>**The higher Grade and Tier is, the better gear is.**<br>That means that {{N_Grade}} {{I}} gear is the worst, while {{UR_Grade}} {{IV}} Gear is the best (except Exclusive gear).
 
     ---
@@ -126,7 +126,7 @@ On **+3**, **+6** and **+9 Level**, Option (Substats) slots are opened.<br>Aside
 Gear Refinement comes right after Upgrades. When you reach +9 and all Options are unlocked, **star with the number inside** will be unlocked as well. 
 
 It is so called **Gear Score**, which represents the most important layer of enhancing values given by the gear.
-Each of upgrade scores are represented by letters {{C}}, {{B}}, {{A}} and {{S}}, with {{S}} being the best possible one.
+Each of refinement scores are represented by letters {{C}}, {{B}}, {{A}} and {{S}}, with {{S}} being the best possible one.
 
 As was mentioned earlier, each following Option slot has bigger impact towards overall score. **The weighted sum of slots give the final score.**
 
@@ -134,14 +134,14 @@ As was mentioned earlier, each following Option slot has bigger impact towards o
 * Maximum Total Score is **24**, being {{S}}{{S}}{{S}}.
 * Increasing score by 1 has same **Basic Attribute** value increase as upgrading gear by 1 level.
 
-??? example "Detailed Score Explanation"
+??? example "**Detailed Score Explanation**"
     * Each letter is assigned a number 1-4, with {{C}} receiveing 1 and {{S}} 4 correspondedly.
     * Second and third letter bonus is multiplied by 2 and 3 correspondedly.
     * Each letter value is added towards the Total Score.
     !!! warning ""
         ![Gear Score Calculations](../assets/images/gear-system/score_calculation.avif)
 
-??? tip "Interesting yet totally useless fact"
+??? tip "**Interesting yet totally useless fact**"
     * Scores from **6 to 11** are displayed with ![6-11 Score Star](../assets/images/gear-system/icons/score_6_11.avif "6-11 Score Star"){.icon} star.
     * Scores from **12 to 16** are displayed with ![12-16 Score Star](../assets/images/gear-system/icons/score_12_16.avif "12-16 Score Star"){.icon} star.
     * Scores from **17 to 20** are displayed with ![17-20 Score Star](../assets/images/gear-system/icons/score_17_20.avif "17-20 Score Star"){.icon} star.
@@ -153,27 +153,27 @@ You can change the Gear Score you have by a process called Refinement. It uses {
 * The better score is, the less chances for it to appear. It drastically proves itself especially after score 18, when chances are decreased significantly, making maxed gear a whale challenge.
 * Despite multiple possible letters combination for the same score, they have no difference in Base Attributes value increase.
 
-??? info "Probability Chances"
+??? info "**Probability Chances (for UR gear)**"
     ![Gear Refinement](../assets/images/gear-system/bbs.avif)
     **Alternatively, use [Official Gitbook](https://browndust2.gitbook.io/probabilitydetails_en/other-probabilities/gear-crafting-and-refining#refinement-probability-by-upgrade-level), although keep in mind it uses different way to describe same percentages.**
 
-!!! warning "Time saving feature"
+!!! warning "**Time saving feature**"
     To prevent exhaustion and to do refinement much quicker, press the **Repeat** button, set the slider to the max (or use the MAX button), then hit **Refinement** button, and, finally, press the {{Skip}} **Skip** button.
 
     It is adviced to have **"Ends once refining succeeds"** feature ON as it prevents you from overspending the powder. Although it means that upgrading gear to Score 18 will take few cycles. 
-    ??? image "Image Guide"
+    ??? image "**Image Guide**"
         ![Refinement Guide](../assets/images/gear-system/refinement_guide.avif)
      
 ---
 
-!!! abstract "Summary so far"
+!!! abstract "**Summary so far**"
     Each gear piece has its own **Grade** and **Tier**. **Grades** vary from {{N_Grade}} to {{UR_Grade}}, while **Tiers** vary from {{I}} to {{IV}}.<br>**The higher Grade and Tier is, the better gear is.**<br>That means that {{N_Grade}} {{I}} gear is the worst, while {{UR_Grade}} {{IV}} Gear is the best (except Exclusive gear).
 
     ---
 
     Each Gear piece can be **upgraded to 9 levels**, **enhancing values** given by the gear and **unlocking Options** (substats).
 
-    After you upgrade your gear +9, you can **refine** gear to obtain score from 6 to 24, which enhances values further. The higher the score is, the better, but chances are more slim. Only best refinement is kept, you cannot downgrade the gear.
+    After you upgrade your gear +9, you can **refine** gear to obtain **score** from **6** to **24**, which enhances values further. The higher the score is, the better, but chances are more slim. Only best refinement is kept, you cannot downgrade the gear.
 ---
 
 ## **Gear Stats**
@@ -185,7 +185,7 @@ Different Gear pieces have different Basic Attributes, which defines how good ge
 * **Exclusive Gear** have **2 Basic Attributes** regardless of rarity, with Attribute 1 **swappable** between two relevant stats for no cost. Attribute 2 behaves similarly to {{R_Grade}} / {{SR_Grade}} gear.
 
 You can check possible stats for each individual gear piece by pressing the ? in the refinement menu. 
-??? image "Image Guide"
+??? image "**Image Guide**"
     ![Possible Basic Attributes for gear](../assets/images/gear-system/possible_options_check.avif)
 
 ### **Options**
@@ -194,16 +194,17 @@ You can check possible stats for each individual gear piece by pressing the ? in
 Similar to Basic Attributes, you can obtain mostly "relevant" stats only, although their variety is bigger compared to Basic Attributes; for example, defensive gear can roll offensive stats of **same damage type** (DEF armor can roll ATK, MRES armor can roll MATK).
 
 * Options **values** depend on **Grade** and **Tier** of the gear.
-* Options **values** DO NOT depend on **Refinement Score** of the gear.
+* Options **values** DO NOT depend on **Gear (Total) Score** of the gear.
+* Options **values** DO NOT depend on **Individual Refinement Score** of each **Option slot** either. *(Having either {{C}} or {{S}} will **not** change the values)*
 
 You can check possible Option stats for each individual gear piece by pressing the ? in the refinement menu. 
-??? image "Image Guide"
+??? image "**Image Guide**"
     ![Possible Options for gear](../assets/images/gear-system/possible_options_check2.avif)
 
 ## **Options Reroll**
 As it was stated earlier, you can change the Options (and in some cases Basic Attribute 2) to the desired ones. To do that, click the ![Option Reroll](../assets/images/gear-system/icons/icon_optionreroll.avif "Option Reroll"){ .icon } in the Gear Menu.
 
-??? image "Image Guide"
+??? image "**Image Guide**"
     ![Reroll Menu](../assets/images/gear-system/substat_menu_access.avif)
 
 On the right side of the menu you can see the stats allowed to be rerolled.<br>
@@ -214,15 +215,81 @@ Each reroll uses currency — {{Gold}} **Gold** and either {{Refining_Stone}} **
 
 To do the reroll, press **Option Refinement** button. After that, you're given a choice of **keeping previous stats *(Keep Option button)***, **taking new stats *(Confirm button)*** or **reroll once more *(Retry button)***.
 
-??? image "Reroll Image"
+??? image "**Reroll Image**"
     ![Reroll Image](../assets/images/gear-system/reroll_confirm.avif)
 
 !!! example "**Locking Stats**"
-    Rerolling and praying on getting 3 or 4 desired stats at once can be a lot to ask. With that in mind, you can **lock** desired stat to prevent it from being rerolled. To do that, press ![Lock Icon](../assets/images/gear-system/icons/icon_lock.avif){.icon} **Lock Icon** on the left of stat. Keep in mind that **this will increase currency consumption by the base amount for each stat locked, reaching x4 the price for 3 stats locked**.
-    ??? image "Price Dependency based on amount of locked stats"
+    Rerolling and praying on getting 3 or 4 desired stats at once can be a lot to ask. With that in mind, you can **lock** desired stat to prevent it from being rerolled. 
+    
+    To do that, press ![Lock Icon](../assets/images/gear-system/icons/icon_lock.avif){.icon} **Lock Icon** on the left of stat. Keep in mind that **this will increase currency consumption by the base amount for each stat locked, reaching x4 the price for 3 stats locked**.
+    ??? image "**Price Dependency based on amount of locked stats**"
         ![Price Dependency](../assets/images/gear-system/price_dependency.avif)
 
+---
 
+!!! abstract "**Summary so far**"
+    Each gear piece has its own **Grade** and **Tier**. **Grades** vary from {{N_Grade}} to {{UR_Grade}}, while **Tiers** vary from {{I}} to {{IV}}.<br>**The higher Grade and Tier is, the better gear is.**<br>That means that {{N_Grade}} {{I}} gear is the worst, while {{UR_Grade}} {{IV}} Gear is the best (except Exclusive gear).
+
+    ---
+
+    Each Gear piece can be **upgraded to 9 levels**, **enhancing values** given by the gear and **unlocking Options** (substats).
+
+    After you upgrade your gear +9, you can **refine** gear to obtain **score** from **6** to **24**, which enhances values further. The higher the score is, the better, but chances are more slim. Only best refinement is kept, you cannot downgrade the gear.
+
+    ---
+    
+    Another unlock after +9 is **Options**, aka **substats**. They give extra stats which are rerollable into desider ones. Their values are fixed and depend only on gear **Grade** and **Tier**. Values **do not** depend on **Gear Score** in any way. 
+---
+
+
+## **Event Gear**
+In **Season Event Shop** you can obtain special gear. It is essentially {{UR_Grade}} {{III}} and {{SR_Grade}} {{III}} Gear pieces, but they have some unique mechanics.
+
+??? image "**Event Shop Menu; White border shows gears, yellow shows Upgrading material**"
+    ![Eshop Menu](../assets/images/gear-system/eshop.avif)
+
+* Event Gear has no Roman number, representing tier, but, as established earlier, it is Tier {{III}} due to stars amount.
+* Event Gear does **not** require {{Gold}} **Gold** for upgrading level. Instead, it uses **corresponding Upgrading material** (different for each gear) and **has no fail chance**.
+    * {{UR_Grade}} **Gear** uses **3** currency per level upgrade. (Total: **27**)
+    * {{SR_Grade}} **Gear** uses **1** currency per level upgrade. (Total: **9**)
+* Event Gear also does **not** have Refinement process at all; instead, **Gear automatically gets {{S}} Score for each Option slot**, resulting in **Gear Score of 24**.
+
+??? image "**Visual Demonstration**"
+    ![Event Gear Upgrading Screen](../assets/images/gear-system/event_gear_upgrade2.avif)
+
+Except for things mentioned above, Gear is **identical** to the gear of the same **Grade**. 
+
+!!! tip "**Advice regarding Event Gears**"
+    **Do NOT purchase {{SR_Grade}} Gear.**
+    
+    If you have **enough** currency and you bought more important stuff beforehand, you can purchase **{{UR_Grade}} Gear and <u>27</u> Upgrade 
+    materials**. 
+
+    You can keep buying them until the end game since they are better than craftable {{UR_Grade}} {{III}} for **Support Bonus** of **Last Night**.
+    ??? image "**Quick Event Shop Priority Guide**"
+        ![Event Shop Recs](../assets/images/gear-system/eshop_recs.avif)
+
+## Exclusive Gear
+**Exclusive (EX) Gear** is type of gear obtainable **from gacha only**. It is displayed with **one gold star** in a place of a **Tier**. 
+
+As name might suggest, this type of gear **can only be equipped on a specific character this gear is suitable for**. Similar to Event Gear, it also slighlty differs from craftable gear. 
+
+* <u>Each Exclusive gear gets **Exclusive Attribute**, an **additional stat**.</u> Its value depends only on **Grade** of the gear.
+* Despite also not having Roman number, each Exclusive gear inherits stats of {{IV}} Tier of given Grade. That means, {{UR_Grade}} {{EX}} scales the same way {{UR_Grade}} {{IV}} does.
+    * In very simple words, **{{EX}} Gear is the equivalent of an {{IV}}, but with extra stat on top.**
+* There are {{R_Grade}} {{EX}}, {{SR_Grade}} {{EX}} and {{UR_Grade}} {{EX}} Gears. {{R_Grade}} {{EX}} only exists for 3-4★ Characters, while rest exist for any characters.
+* **There is exactly one exclusive gear for each character.** It can be any piece of gear, although *in most cases* it is {{Weapon}} **Weapon** / {{Accessory}} **Accessory** for DPS characters.
+
+* **Basic Attribute 1** of the {{EX}} Gear is **swappable between two options** with no cost, while **Basic Attribute 2** is **rerollable**, similar to Options.
+
+Except for things mentioned above, Gear is **identical** to the gear of the same **Grade**.
+
+??? image "**Exclusive Gear Reroll Menu**"
+    ![EX Gear Reroll Menu](../assets/images/gear-system/ex_gear_reroll.avif)
+
+!!! example "**EX Gear Impact**"
+    * **{{SR_Grade}} {{EX}} Gear is roughly equal to {{UR_Grade}} {{III}} Craftable Gear.**
+    * **{{UR_Grade}} {{EX}} Gear gives ~10-20% more damage compared to {{UR_Grade}} {{IV}} Craftable Gear.**
 <!--Gears mechanic is one of the most important aspect of character build in Brown Dust II and is considered one of the most confusing thing new players encounter. Gears are called to increase character’s stats which we checked in the previous chapter.
 There are a total of five gear slots per character: Weapon, Armor, Helmet, Accessory and Gloves slots. Weapon, Accessory and Gloves mostly enhance offensive capabilities while Armor and Helmet gear grants extra protection for your character.
 

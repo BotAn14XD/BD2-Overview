@@ -162,6 +162,7 @@ extra:
   II: '$\text{II}$'
   III: '$\text{III}$'
   IV: '$\text{IV}$'
+  EX: '$\text{EX}$'
   S: '![S Gear Score](../assets/images/gear-system/icons/S_score.avif "S Gear Score"){ .icon }'
   A: '![A Gear Score](../assets/images/gear-system/icons/A_score.avif "A Gear Score"){ .icon }'
   B: '![B Gear Score](../assets/images/gear-system/icons/B_score.avif "B Gear Score"){ .icon }'
