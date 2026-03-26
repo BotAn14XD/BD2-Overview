@@ -24,6 +24,7 @@ Glupy Diner is the lite version of idle incremental simulators. Your main resour
         ![Glupy Collection Guide](../assets/images/glupy-diner/glupy_collecting_guide.webp)
 
 ### **Fated Guests**
+<h1>WORK IN PROGRESS</h1>
 <!--Glupy Diner is the last content pack. In this pack you are the Diner owner. Your task is to expand the diner using Glupy Stars, which are generated automatically over time. It’s also a place for small gold, Refining Powder and Elemental Crystals gain. For the gold and Refining Powder, you can press Checkout either in the pack or in the main menu. For the crystals, you need to press Regular Guests in the pack.
 
 Maximum level of diner is 30, and you can no longer get stars afterwards. Diner is adjusted to your current time, so you can see the difference in different periods of the day.

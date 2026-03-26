@@ -1,5 +1,6 @@
 site_name: Brown Dust II Overview
 site_description: "Brown Dust II Features, Modes Overview and Tips"
+site_url: https://botan14xd.github.io/BD2-Overview/
 theme:  
   name: material
   custom_dir: overrides
