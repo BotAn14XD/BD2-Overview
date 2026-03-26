@@ -1,6 +1,6 @@
 # Brown Dust II Overview
 
-Welcome to the ultimate starter encyclopedy for **Brown Dust II**.
+Welcome to the ultimate starter encyclopedia for **Brown Dust II**.
 
 This site is a work in progress, focusing on high-quality explanation for every game aspect for new players.
 
