@@ -9,7 +9,7 @@ Gear System is an important characters' progression system. They increase charac
 
 There are **5 gear slots** available for your characters: {{Weapon}} **Weapon**, {{Armor}} **Armor**, {{Helmet}} **Helmet**, {{Accessory}} **Accessory** and {{Gloves}} **Gloves**.
 
-Generally speaking, {{Weapon}} **Weapon**, {{Helmet}} **Helmet** and {{Gloves}} **Gloves** are considered to be offensive gears, while {{Armor}} **Armor** and {{Helmet}} **Helmet** are considered to be defensive ones.
+Generally speaking, {{Weapon}} **Weapon**, {{Accessory}} **Accessory** and {{Gloves}} **Gloves** are considered to be offensive gears, while {{Armor}} **Armor** and {{Helmet}} **Helmet** are considered to be defensive ones.
 
 ![Gear Slots](../assets/images/gear-system/gear-slots.avif)
 
