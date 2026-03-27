@@ -241,7 +241,6 @@ To do the reroll, press **Option Refinement** button. After that, you're given a
     Another unlock after +9 is **Options**, aka **substats**. They give extra stats which are rerollable into desider ones. Their values are fixed and depend only on gear **Grade** and **Tier**. Values **do not** depend on **Gear Score** in any way. 
 ---
 
-
 ## **Event Gear**
 In **Season Event Shop** you can obtain special gear. It is essentially {{UR_Grade}} {{III}} and {{SR_Grade}} {{III}} Gear pieces, but they have some unique mechanics.
 
@@ -269,6 +268,8 @@ Except for things mentioned above, Gear is **identical** to the gear of the same
     ??? image "**Quick Event Shop Priority Guide**"
         ![Event Shop Recs](../assets/images/gear-system/eshop_recs.avif)
 
+---
+
 ## Exclusive Gear
 **Exclusive (EX) Gear** is type of gear obtainable **from gacha only**. It is displayed with **one gold star** in a place of a **Tier**. 
 
@@ -290,6 +291,94 @@ Except for things mentioned above, Gear is **identical** to the gear of the same
 !!! example "**EX Gear Impact**"
     * **{{SR_Grade}} {{EX}} Gear is roughly equal to {{UR_Grade}} {{III}} Craftable Gear.**
     * **{{UR_Grade}} {{EX}} Gear gives ~10-20% more damage compared to {{UR_Grade}} {{IV}} Craftable Gear.**
+
+---
+
+## ![Gear Crafting Icon](../assets/images/gear-system/icons/talent_bufficon_9_l.avif){.icon} **Crafting Gear**
+When it comes down to **crafting the gear**, you need to use **Fred's** or **Layla's Crafting Field Ability**.
+
+To do that, press the ![Field Ability](../assets/images/gear-system/icons/icon_fieldskill.avif "Field Ability"){.icon} **Field Ability** icon on the bottom of your screen and find either of characters mentioned above.
+
+??? image "**Image Guide**"
+    ![Field Ability Location](../assets/images/gear-system/crafting_ability.avif)
+
+* **Fred and Layla have no difference in terms of Ability, so you can use the one you want.**
+
+In the menu, you can see all the gear you can possibly craft, sorted by rarity. You can click on any gear to check more details about it. 
+
+??? image "**Gear Crafting Menu**"
+    ![Gear Crafting Menu](../assets/images/gear-system/crafting_menu.avif)
+
+To craft the Gear, you must have corresponding materials and {{Ability_Pill}} **Ability Pills**. You can check what the resources are needed in the bottom left corner of the menu. In the same corner, you can also adjust amount of the Gear you want to craft.
+
+??? image "**Individual Gear Crafting Menu**"
+    ![Individual Gear Crafting Menu](../assets/images/gear-system/crafting_menu2.avif)
+
+!!! example "**Ability Rank**"
+    You will not be able to craft {{UR_Grade}} gear right of the start. If you try to do so, you'll be met with **"Your Ability Skill Level is too low"** error pop-up.
+
+    To fix this, you need to **upgrade** your Ability to the **Legendary** rank. For that, you need to **earn Ability EXP <u>by simply crafting gear</u> and upgrading Rank with Ability Book once you reach the EXP cap.**
+    ??? image "**Image Guide**"
+        ![Ability Rank Upgrade Guide](../assets/images/gear-system/abrank.avif)
+    !!! tip "**Best way to farm EXP**"
+        To get the EXP the most efficiently, **craft {{N_Grade}} or {{R_Grade}} gear** until you obtain **Legendary** Crafting Ability Rank. 
+
+        **Avoid Crafting {{SR_Grade}} Gear as if it is not worth the resources spent.**
+
+    !!! question "**How to Obtain Ability Books?**"
+        In order to upgrade Ability, aside of EXP, you need {{S1_Ability_S_Book}} **Ability Books**.
+
+        Here is where to obtain each of them:
+
+        * {{S1_Ability_S_Book}} **★1 Ability S. Book**: Story Pack 3 *(Mist Man)* Shop.
+        * {{S2_Ability_S_Book}} **★2 Ability S. Book**: Story Pack 3 *(Mist Man)* Shop.
+        * {{S3_Ability_S_Book}} **★3 Ability S. Book**: Story Pack 10 *(Homunculus)* Shop / [Evil Castle](../content-packs/evil-castle.md) Shop.
+        * {{S4_Ability_S_Book}} **★4 Ability S. Book**: [Evil Castle](../content-packs/evil-castle.md) Shop.
+
+    !!! tip "**Upgrade Settings Feauture**"
+        You can press **"Upgrade Settings"** button in crafting menu to instantly upgrade and / or dismantled crafted gear. 
+
+        It is the most useful when it comes down to {{Refining_Powder}} **Refining Powder** farming using {{N_Grade}} gear.
+        ??? image "**Upgrade Settings Menu**"
+            ![Upgrade Settings Menu](../assets/images/gear-system/upgrade_settings_menu.avif)
+
+## ![Alchemy Icon](../assets/images/gear-system/icons/talent_bufficon_8_l.avif "Alchemy"){.icon} **Alchemy** 
+In case you were wondering where do you obtain materials for your crafting, the question is mostly **Alchemy**. It is **Field Ability** of Scheherazade. 
+
+To access her ability, you need to repeat the same steps as for crafting, put picking Scheherazade instead. 
+??? image "**Image Guide**"
+     ![Field Ability Location](../assets/images/gear-system/alchemy_ability.avif)
+    
+In Alchemy menu, you can make more advanced materials out of more common ones with the help of {{Ability_Pill}} **Ability Pills**. Each common material has its own tree for upgrading. 
+
+Upon clicking the indinidual item, you can set desired amount of material you want to obtain and do the alchemy.
+
+??? image "**Individual Material Alchemy Menu**"
+    ![Individual Material Alchemy Menu](../assets/images/gear-system/alchemy_menu2.avif)
+
+!!! example "**Ability Rank (again)**"
+    Similar to crafting, you will not be able to make high-end materials immediately. To do that, you need to upgrade **Ability Rank** as well. 
+    
+    You can follow same steps as described above in [Crafting section](#crafting-gear).
+    !!! tip "**Best way to farm EXP**"
+        For Alchemy, it does not really matter much since you're going to use almost every material eventually. Thus, try to craft the least expensive stuff first, for example: 
+
+        * {{Plain_Leather}} **Plain Leather** into {{Fine_Leather}} **Fine Leather**.
+        * {{Plain_Fabric}} **Plain Fabric** into {{Fine_Fabric}} **Fine Fabric**.
+        * {{Peat}} **Peat** into {{Coal}} **Coal**.
+
+!!! tip "![Alchemy Icon](../assets/images/gear-system/icons/icon_alchemy_red.avif "Alchemy QoL"){ .icon } **Important QoL Feature**"
+    When you want to craft or do alchemy and have no materials, sometimes you can see the button under specific material with {{Ability_Pill}} **Ability Pills** cost. 
+
+    This is **not** buying them — **this is the cost of Alchemy** for this amount of material. By pressing the button, the game does needed Alchemy for you. 
+        * **This still uses all materials required to do Alchemy.**
+    ??? image "**Detailed Image Cost Explanation**"
+        ![Alchemy QoL Image Explanation](../assets/images/gear-system/detailed_qol_alch_explanation.avif)
+    
+## Gear Menu
+You can access all your gear via Gear Menu, located in **second** tab of **Bag**. 
+
+
 <!--Gears mechanic is one of the most important aspect of character build in Brown Dust II and is considered one of the most confusing thing new players encounter. Gears are called to increase character’s stats which we checked in the previous chapter.
 There are a total of five gear slots per character: Weapon, Armor, Helmet, Accessory and Gloves slots. Weapon, Accessory and Gloves mostly enhance offensive capabilities while Armor and Helmet gear grants extra protection for your character.
 
