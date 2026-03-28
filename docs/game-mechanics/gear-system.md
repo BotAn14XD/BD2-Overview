@@ -371,13 +371,15 @@ Upon clicking the indinidual item, you can set desired amount of material you wa
     When you want to craft or do alchemy and have no materials, sometimes you can see the button under specific material with {{Ability_Pill}} **Ability Pills** cost. 
 
     This is **not** buying them — **this is the cost of Alchemy** for this amount of material. By pressing the button, the game does needed Alchemy for you. 
-        * **This still uses all materials required to do Alchemy.**
+
+    * **This still uses all materials required to do Alchemy.**
     ??? image "**Detailed Image Cost Explanation**"
         ![Alchemy QoL Image Explanation](../assets/images/gear-system/detailed_qol_alch_explanation.avif)
     
 ## Gear Menu
-You can access all your gear via Gear Menu, located in **second** tab of **Bag**. 
-
+You can access all your gear via Gear Menu, located in **second** tab (![Gear Menu Icon](../assets/images/icons/icon_pictorialbook4.avif "Gear Menu"){ .icon }) of {{Bag}} **Bag**. 
+??? image "**Gear Menu Image**"
+    ![Gear Menu Image](../assets/images/gear-system/gear-location.avif)
 
 <!--Gears mechanic is one of the most important aspect of character build in Brown Dust II and is considered one of the most confusing thing new players encounter. Gears are called to increase character’s stats which we checked in the previous chapter.
 There are a total of five gear slots per character: Weapon, Armor, Helmet, Accessory and Gloves slots. Weapon, Accessory and Gloves mostly enhance offensive capabilities while Armor and Helmet gear grants extra protection for your character.

@@ -101,6 +101,7 @@ extra:
   Armor: '![Armor](../assets/images/gear-system/icons/popupicon_equip2.avif "Armor"){ .icon }'
   Aurum_Coin: '![Aurum Coin](../assets/images/icons/icon_resource170001_326.png "Aurum Coin"){ .icon }'
   Awakening_Elixir: '![Awakening Elixir](../assets/images/icons/icon_resource20023_223.png "Awakening Elixir"){ .icon }'
+  Bag: '![Bag](../assets/images/icons/icon_bag.avif){ .icon }'
   Blood_Cocktail: '![Blood Cocktail](../assets/images/icons/icon_resource60009_92.png "Blood Cocktail"){ .icon }'
   Blue_Slime: '![Blue Slime](../assets/images/icons/icon_resource9002_60.png "Blue Slime"){ .icon }'
   Coal: '![Coal](../assets/images/icons/icon_resource214_35.png "Coal"){ .icon }'
