@@ -404,15 +404,17 @@ Possible Sorting options:
 
 ??? image "Sorting "With Custom Mark First" (left) vs "By Highest Grade" (right)"
     ![Different Sortings](../assets/images/gear-system/sorting.avif)
+    
 ## Gear Dismantle
-
+WIP
 ## Crafting Guide
-
+WIP
 ## Gearing Guide
-
+WIP
 ## Gear Calculator 
-
+WIP
 ## {{Refining_Powder}} Refining Powder Farm
+WIP
 <!--Gears mechanic is one of the most important aspect of character build in Brown Dust II and is considered one of the most confusing thing new players encounter. Gears are called to increase character’s stats which we checked in the previous chapter.
 There are a total of five gear slots per character: Weapon, Armor, Helmet, Accessory and Gloves slots. Weapon, Accessory and Gloves mostly enhance offensive capabilities while Armor and Helmet gear grants extra protection for your character.
 
