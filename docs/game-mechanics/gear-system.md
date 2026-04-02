@@ -101,16 +101,6 @@ On **+3**, **+6** and **+9 Level**, Option (Substats) slots are opened.<br>Aside
      
 ---
 
-!!! abstract "Summary so far"
-    Each gear piece has its own **Grade** and **Tier**. **Grades** vary from {{N_Grade}} to {{UR_Grade}}, while **Tiers** vary from {{I}} to {{IV}}.<br>**The higher Grade and Tier is, the better gear is.**<br>That means that {{N_Grade}} {{I}} gear is the worst, while {{UR_Grade}} {{IV}} Gear is the best (except Exclusive gear).
-
-    ---
-
-    Each Gear piece can be **upgraded to 9 levels**, **enhancing values** given by the gear and **unlocking Options** (substats).
-
----
-
-
 ## ![Gear Refinement](../assets/images/gear-system/icons/score_system.avif){.icon-header} **Gear Refinement**
 
 Gear Refinement comes right after Upgrades. When you reach +9 and all Options are unlocked, the **star with the number inside** will be unlocked as well. 
@@ -273,6 +263,13 @@ Except for things mentioned above, Gear is **identical** to the gear of the same
     * **{{SR_Grade}} {{EX}} Gear is roughly equal to {{UR_Grade}} {{III}} Craftable Gear.**
     * **{{UR_Grade}} {{EX}} Gear gives ~10-20% more damage compared to {{UR_Grade}} {{IV}} Craftable Gear.**
 
+!!! question "What do I do with duplicate Exclusive Gear for a character?"
+    If you so happen to get second gear copy,
+
+    * If it's 5★ Character's gear, **keep 1 duplicate** in case you need other build and **dismantle** rest. 
+    * If it's 3★ or 4★ Character's gear, **dismantle** any extra dupe.
+    * If it's {{SR_Grade}} Gear regardless of the character, **dismantle** it as well. 
+        * Before commiting to the dismantle, check related section [below](#gear-dismantle).
 ---
 
 ## ![Gear Crafting Icon](../assets/images/gear-system/icons/talent_bufficon_9_l.avif){.icon} **Crafting Gear**
@@ -460,9 +457,10 @@ Dismantle is a process to get rid of gear pieces in exchange for {{Refining_Powd
 To do the dismantle, it better to use [**Upgrade All**](#upgrade-all) or [**Select Gear**](#select-gear) Features, described above.
 
 !!! example "Dismantle Advices"
-    Since {{Refining_Powder}} **Refining Powder** depends on **Upgrade Level**, before dismantling, upgrade your gear to **+7**. 
+    Since {{Refining_Powder}} **Refining Powder** gain depends on **Upgrade Level**, before dismantling, upgrade your gear to **+7**. 
     
     This way, you get the most efficient {{Refining_Powder}} **Refining Powder** amount {{Gold}} **Gold**-wise.
+
 ## Crafting Guide
 WIP
 ## Gearing Guide
