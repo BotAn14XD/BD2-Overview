@@ -79,9 +79,9 @@ Each Gear can be upgraded a total up to 9 times, resulting in having a **+9 Gear
 Each upgrade costs {{Gold}} **Gold** (price depends on Grade and Upgrade Level) and has **chance to fail**. If the  upgrade fails, there are **no penalty or downgrade risks**.
 
 !!! note ""
-    **For detailed info about success chances, check [CatlessCat's sheet](https://docs.google.com/spreadsheets/d/1m9PI5N6a_iHl1LM0Agub0L9i0BrlXeFE0k2_M7vQQC0/edit?usp=sharing).**
+    For detailed info about success chances, check [**CatlessCat's sheet**](https://docs.google.com/spreadsheets/d/1m9PI5N6a_iHl1LM0Agub0L9i0BrlXeFE0k2_M7vQQC0/edit?usp=sharing).
     
-    **Alternatively, use [Official Gitbook](https://browndust2.gitbook.io/probabilitydetails_en/other-probabilities/gear-crafting-and-refining#upgrade-success-probability).**
+    Alternatively, use [**Official Gitbook**](https://browndust2.gitbook.io/probabilitydetails_en/other-probabilities/gear-crafting-and-refining#upgrade-success-probability).
 
 On **+3**, **+6** and **+9 Level**, Option (Substats) slots are opened.<br>Aside from unlocking Option slot itself, they enhance **Basic Attributes values** via Upgrades Scores, similar to Levels, although the +9 slot has way more impact compared to the +3 one. Each slot also receives the letter {{C}},{{B}},{{A}} or {{S}}, functionality of which will be covered in the [next chapter](#gear-refinement).
 
@@ -283,6 +283,8 @@ To do that, press the ![Field Ability](../assets/images/gear-system/icons/icon_f
 ??? image "Image Guide"
     ![Field Ability Location](../assets/images/gear-system/crafting_ability.avif)
 
+Alternatively, use **"Craft Gear"** button in ![Gear Menu Icon](../assets/images/icons/icon_pictorialbook4.avif "Gear Menu"){ .icon } **Gear** section of {{Bag}} **Bag**.
+
 * **Fred and Layla have no difference in terms of Ability, so you can use the one you want.**
 
 In the menu, you can see all the gear you can possibly craft, sorted by rarity. You can click on any gear to check more details about it. 
@@ -356,7 +358,16 @@ Upon clicking the indinidual item, you can set desired amount of material you wa
     * **This still uses all materials required to do Alchemy.**
     ??? image "Detailed Image Cost Explanation"
         ![Alchemy QoL Image Explanation](../assets/images/gear-system/detailed_qol_alch_explanation.avif)
-    
+
+## Custom Marks
+Custom Marks feature allows you to mark specific gear. To do that, press "Custom Marks Settings" in gear preview tab. 
+??? image "Image Guide"
+    ![Custom Mark Guide](../assets/images/gear-system/custom_mark1.avif)
+
+This Mark is customizable, allowing you to choose 15 icons, 110 numbers ($0, 1, \dots , 100$ & $ 00, 01, \dots, 09$) and 6 colors, resulting in 750 different unique combinations. 
+
+??? image "Custom Mark Settings Menu"
+    ![Custom Mark Settings Menu](../assets/images/gear-system/custom_mark2.avif)
 ## Gear Menu
 You can access all your gear via Gear Menu, located in **second** tab (![Gear Menu Icon](../assets/images/icons/icon_pictorialbook4.avif "Gear Menu"){ .icon }) of {{Bag}} **Bag**. 
 ??? image "Gear Menu Image"
@@ -404,9 +415,54 @@ Possible Sorting options:
 
 ??? image "Sorting "With Custom Mark First" (left) vs "By Highest Grade" (right)"
     ![Different Sortings](../assets/images/gear-system/sorting.avif)
-    
+
+### Upgrade All
+The **Upgrade All** allows you to bulk upgrade the gear **level**. To do that, select the gear needed, press $\checkmark$ and set up upgrade settings. 
+??? image "Image Guide"
+    ![Upgrade All Feature](../assets/images/gear-system/upgrade_all.avif)
+
+!!! tip "Easier Selection"
+    Similar to filter, you can choose the gear more easily. To do that, click on three dots button near $\times$ and $\checkmark$. 
+
+    In this menu, you can choose the **Grade**, **Fiend (Event) Gear**, **Tier (Rarity)** for crafted gear and character's exclusive gear.
+    ??? image "Filter Showcase"
+        ![Upgrade All Filter Showcase](../assets/images/gear-system/filter_upgrade_all.avif)
+
+!!! warning ""
+    You can only upgrade the **level**. It means that to change the refining score, you need to go to each individual gear piece. 
+
+### Select Gear
+Select Gear is a feature that allows you to bulk dismantle the gear. 
+
+It behaves similar to **Upgrade All** feature.
+??? image "Image Guide"
+    ![Select Gear Feature](../assets/images/gear-system/select_gear.avif)
+
+!!! tip "Easier Selection"
+    Filter for picking gear here is similar to Upgrade All's one with sole exception of one more toggle: **Include Upgraded Gear**.
+    ??? image "Filter Showcase"
+        ![Select Gear Filter Showcase](../assets/images/gear-system/filter_select_gear.avif)
+
+* This feature will not allow you to dismantle **locked** or **equipped** gear.
+ 
 ## Gear Dismantle
-WIP
+
+Dismantle is a process to get rid of gear pieces in exchange for {{Refining_Powder}} **Refining Powder**, {{Refining_Stone}} **Refining Stones** or {{Refining_Crystal}} **Refining Crystals**.
+
+* {{Refining_Stone}} **Refining Stones** are obtained from {{R_Grade}} Gear only.
+* {{Refining_Crystal}} **Refining Crystals** are obtained from {{SR_Grade}} and {{UR_Grade}} Gear.
+* {{Refining_Powder}} **Refining Powder** amount depends on the **Grade** of the gear and **Upgrade Level**. 
+* {{Refining_Stone}} **Refining Stones** / {{Refining_Crystal}} **Refining Crystals** amount depends on Gear **Tier (Rarity)**.
+
+!!! abstract ""
+    To check the exact values, refer to [**Catless Cat's sheet**](https://docs.google.com/spreadsheets/d/1m9PI5N6a_iHl1LM0Agub0L9i0BrlXeFE0k2_M7vQQC0/edit?usp=sharing)
+
+To do the dismantle, it better to use [**Upgrade All**](#upgrade-all) or [**Select Gear**](#select-gear) Features, described above.
+
+!!! example "Dismantle Advices"
+    Since {{Refining_Powder}} **Refining Powder** depends on **Upgrade Level**, before dismantling, upgrade your gear to **+7**. 
+    
+    This way, you get the most efficient {{Refining_Powder}} **Refining Powder** amount {{Gold}} **Gold**-wise.
 ## Crafting Guide
 WIP
 ## Gearing Guide
