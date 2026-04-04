@@ -299,7 +299,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
             * Hard Difficulty of Character & Event Packs          
             * Normal & Challenge Battles in Season Events
             * Hunting Grounds & [Path of Adventure Content Pack](../content-packs/path-of-adventure.md) battles.
-        * You **cannot** have **2 same characters** in a team.
+        * You cannot have two of the same character on a team.
         * You can borrow **only 1 character per fight**.
 
 === "![SwapOrder](../assets/images/battle-system/icons/icon_sequence1.avif){ .icon-list }"
