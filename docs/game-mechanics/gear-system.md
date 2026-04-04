@@ -461,14 +461,224 @@ To do the dismantle, it better to use [**Upgrade All**](#upgrade-all) or [**Sele
     
     This way, you get the most efficient {{Refining_Powder}} **Refining Powder** amount {{Gold}} **Gold**-wise.
 
+!!! question "What do I do with duplicate Exclusive Gear for a character?"
+    Check [Exclusive Gear section](#exclusive-gear).
+
 ## Crafting Guide
-WIP
+
+As a new player, you should prioritize **offensive** gear instead of **defensive**. To put it simply, it is fine to run a glass cannon strategy for the story, as long as you evapourate everything on Turn 1. 
+
+As was mentioned above, offensive gears are <u>**mostly**</u> {{Weapon}} **Weapon**, {{Accessory}}**Accessory** and {{Gloves}} **Gloves**. 
+
+Whole crafting guide essetially comes down to your current needs. Here's example of what your progression can look like as a player who never touched crafting:
+
+!!! example "Crafting Guide"
+    1. Use the code **WAITING4LEGEND** to obtain {{UR_Grade}} {{III}} {{Venomous_Touch}} **Venomous Touch**.
+    2. Craft {{N_Grade}} or {{R_Grade}} Gear to upgrade [**Ability Skill**](#crafting-gear).
+    3. Once you upgrade Crafting Ability to Legendary, obtain {{UR_Grade}} {{III}} {{Weapon}} **Weapon** <!--({{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} / {{Evil_Dragons_Blade}} **Evil Dragons Blade**{.yellow})--> and {{UR_Grade}} {{III}} {{Gloves}} **Gloves** for your Main DPS. <!--({{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta} / {{Shackle_of_Treachery}} **Shackle of Treachery**{.magenta} / {{God_Kings_Silver_Arm}} **God-King's Silver Arm**{.yellow} / {{Prime_Authority}} **Prime Authority**{.yellow})-->
+    
+        !!! question "How do I decide what exactly to craft?"
+            Decide by the team you're running. Proper team utilizes either {{Physical}} **Physical**{.yellow} or {{Magical}} **Magical**{.magenta} Damage type.
+
+            * If you utilize both damage types, it is better to ask for the help in [**Discord**](https://discord.gg/browndust2), since it's most likely not the good one. 
+            
+            <br>
+            When it comes down to the {{Weapon}} **Weapon**, it means crafting {{Evil_Dragons_Blade}} **Evil Dragon's Blade**{.yellow} for {{Physical}} **Physical**{.yellow} DPS and {{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} for {{Magical}} **Magical**{.magenta} one. 
+            
+            Other weapons are usually niche ones and are not necessary for new player to worry about.  
+            <br>
+            Same applies to the {{Gloves}} **Gloves**, meaning {{God_Kings_Silver_Arm}} **God-King's Silver Arm**{.yellow} / {{Prime_Authority}} **Prime Authority**{.yellow} for the {{Physical}} **Physical**{.yellow} DPS and {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta} / {{Shackle_of_Treachery}} **Shackle of Treachery**{.magenta} for the **Magical**{.magenta} one.
+
+            * {{God_Kings_Silver_Arm}} **God-King's Silver Arm**{.yellow} and {{Shackle_of_Treachery}} **Shackle of Treachery**{.magenta} are **generally better** for a **new player** and are still used for some DPS in late game, while {{Prime_Authority}} **Prime Authority**{.yellow} and {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta} are used more in the **late game**, but could be **less powerful at the start**. 
+            
+            Either way, you will use **both gloves types**, so it is **up to you what to choose**.
+
+    4. Craft one more {{UR_Grade}} {{III}} {{Venomous_Touch}} **Venomous Touch**, {{Weapon}} **Weapon** and {{Gloves}} **Gloves** for the second DPS of the team.
+    5. Move onto crafting one or two sets of the {{UR_Grade}} {{IV}} offensive gear, following same pattern as in 4th point, starting from {{Venomous_Touch}} **Venomous Touch**.
+    6. Craft 2 {{UR_Grade}} {{III}} {{Armor}} **Armor** and {{Helmet}} **Helmet** pieces each. 
+
+        !!! question "What {{Armor}} Armor and {{Helmet}} Helmet to craft?"
+            Generally speaking, armor usage depends on the enemy. 
+            
+            That means crafting {{Invulnerable_Armor}} **Invulnerable Armor**{ .yellow }, **{{Helm_of_Carnage}}** **Helm of Carnage**{ .yellow } or {{Fiend_Guard}} **Fiend Guard**{ .magenta } and {{Radiant_Wisdom}} **Radiant Wisdom**{ .magenta } sets. 
+
+            Rest Armor type is more niche so it's not really worth investing as a new player.
+
+    7. Craft {{UR_Grade}} {{IV}} Gear of the opposite Damage type for the second team.
+    8. Craft whatever you feel necessary. 
+        * {{Accessory}} **Accessory**, in particular {{Venomous_Touch}} **Venomous Touch** should be the highest priority overall, followed by {{Gloves}} **Gloves**, then {{Weapon}} **Weapon** and {{Armor}} **Armor**.
+            * Note that {{Weapon}} **Weapon** take less priority later in the game due to being mostly replaced by **Exclusive Gear**, so you will not need that much of it compared to {{Gloves}} **Gloves**. On the contrary, {{Armor}} **Armor** and {{Helmet}} **Helmets** are required in large numbers when it comes down to 3 teams in **Fiend Hunter** on high difficulty levels.
+
 ## Gearing Guide
-WIP
+
+When it comes down to gearing a character, you should understand that there are 6 types of characters in the game. 
+
+1. **Standard DPS**, which utilize own {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} to do own actions.
+    * *Example: Nebris, Olivier, Blade.*
+2. **Fixed Damage DPS**, which deal **Fixed Damage** to the enemy.
+    * *Example: Justia, Alec*
+3. **HP-reliant DPS**, which use {{HP}} **own HP** to do damage. 
+    * *Example: Granhildr (Boo Ghost), Mamonir.*
+4. **Enemy HP-reliant DPS**, which in order to deal damage, use {{HP}} **enemy HP**.
+    * *Example: Angelica, Rou (Nature's Claw).*
+5. **Stat-Dependent Supports**, which benefits from some stats to increase the buff to allies.
+    * *Example: Diana (Anti-Dystopia), Rou (Red Riding Hood).*
+6. **Rest Supports**, which do not have offensive capabilities, and whose skills do not rely on anything said above.
+    * *Example: Liberta, Refithea, Helena.*
+
+For all of these types the build you want is different.
+<div class="tab-align" markdown>
+
+=== "Standard DPS"
+    Standard characters relies on mix of {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and {{CritDMG}} **Crit DMG** to deal DMG. 
+
+    This usually means builds like:
+
+    * {{Evil_Dragons_Blade}} **Evil Dragon's Blade**{.yellow} $+$ {{Venomous_Touch}} **Venomous Touch** $+$ {{Prime_Authority}} **Prime Authority**{.yellow};
+    * {{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} $+$ {{Venomous_Touch}} **Venomous Touch** $+$ {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta};
+    * {{Evil_Dragons_Blade}} **Evil Dragon's Blade**{.yellow} $+$ {{Venomous_Touch}} **Venomous Touch** $+$ {{God_Kings_Silver_Arm}} **God-King's Silver Arm**{.yellow};
+    * {{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} $+$ {{Venomous_Touch}} **Venomous Touch** $+$ {{Shackle_of_Treachery}} **Shackle of Treachery**{.magenta}.
+
+    {{UR_Grade}} **Exclusive Gear** can replace any gear piece in these builds, as was mentioned earlier. 
+
+    !!! question "Stats Amount"
+        You should aim for 2000 {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and 600 {{CritDMG}} **Crit DMG** as a baseline for this type of DPS.  
+
+    Some DPS like Eclipse *might* use other {{Weapon}} Weapon to achieve best damage, but, generally speaking, it only matters for minmaxing.<br>If you still want to craft the best gear ever possible, check [Gear Calculator](#gear-calculator) section. 
+    
+    When it comes down to {{Armor}} **Armor**, and {{Helmet}} **Helmet**, there are few combinations:
+
+    * {{Invulnerable_Armor}} **Invulnerable Armor**{ .yellow } $+$ **{{Helm_of_Carnage}}** **Helm of Carnage**{ .yellow } if enemy deals {{Physical}} **Physical**{.yellow} damage
+    * {{Fiend_Guard}} **Fiend Guard**{ .magenta } $+$ {{Radiant_Wisdom}} **Radiant Wisdom**{ .magenta } if enemy deals {{Magical}} **Magical**{.magenta} damage
+    * {{Immortal_Golden_Armor}} **Immortal Golden Armor**{ .yellow } $+$ **{{Helm_of_Death}}** **Helm of Death**{ .yellow } if enemy deals {{Physical}} **<u>Fixed, True or Consumed</u> Physical**{.yellow} damage
+    * {{Hellfire_Robe}} **Hellfire Robe**{ .magenta } $+$ **{{Crown_of_Galaxy}}** **Crown of Galaxy**{ .magenta } if enemy deals {{Magical}} **<u>Fixed, True or Consumed</u> Magical**{.magenta} damage
+    
+=== "Fixed Damage DPS"
+    Since Fixed Damage **cannot crit**, there is no reason to invest in {{CritDMG}} **Crit Damage**.
+
+    Although, worth mentioning that this type of DPS is heavily underperforming and **not worth building whatsoever**.
+
+    Therefore, most used builds are following:
+
+    * {{Peerless_Javelin}} **Peerless Javelin**{.yellow} $+$ {{Prime_Authority}} **Prime Authority**{.yellow};
+    * {{Demons_Forbidden_Book}} **Demon's Forbidden Book**{.magenta} $+$ {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta}.
+
+    {{Accessory}} **Accessory** can be {{Ring_of_the_Lake}} **Ring of the Lake** or {{Charming_Gaze}} **Charming Gaze**, since it provides at least something more valuable as {{HP}} HP, compared to {{Venomous_Touch}} **Venomous Touch** with {{CritDMG}} **Crit DMG** stats only.
+
+    {{Armor}} **Armor** and {{Helmet}} **Helmet** choice follows same logic as for [Standard DPS](#__tabbed_1_1).
+
+=== "HP-reliant DPS"
+
+    Since these DPS rely on {{HP}} **HP** to deal damage, their main stats should be {{HP}} **HP** and {{CritDMG}} **Crit DMG**. 
+
+    Therefore, builds are:
+
+    * {{Immortal_Golden_Armor}} **Immortal Golden Armor**{ .yellow } $+$  **{{Helm_of_Death}}** **Helm of Death**{ .yellow } $+$ {{Venomous_Touch}} **Venomous Touch** if enemy deals {{Physical}} **Physical**{.yellow} damage;
+    * {{Hellfire_Robe}} **Hellfire Robe**{ .magenta } $+$ **{{Crown_of_Galaxy}}** **Crown of Galaxy**{ .magenta } $+$ {{Venomous_Touch}} **Venomous Touch** if enemy deals {{Magical}} **Magical**{.magenta} damage.
+
+    {{Weapon}} **Weapon** can be either {{Evil_Dragons_Blade}} **Evil Dragon's Blade**{.yellow} or {{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} regardless of damage type character deals, since its value is in the {{CritDMG}}  **Crit DMG** only.
+
+    {{Gloves}} **Gloves** have no impact on character aside of Options (Substats), so using any is fine. 
+
+    !!! question "Wouldn't {{Charming_Gaze}} **Charming Gaze** be better {{Accessory}} Accessory?"
+        {{Charming_Gaze}} **Charming Gaze** indeed provides both {{HP}} **HP** and {{CritDMG}} **Crit DMG**, however, due to diminishing returns, impact on {{HP}} **HP** is usually lesser compared to {{CritDMG}} **Crit DMG**
+        
+        That means unless you have some heavy bonuses to {{CritDMG}} **Crit DMG** *(for example, Night of Death Mamonir self-buff combined with Red Riding Hood Rou and The Gluttonous Refithea for tremendous $+725\%$ {{CritDMG}} **Crit DMG**)*, {{Venomous_Touch}} **Venomous Touch** is simply better. 
+
+
+=== "Enemy HP-reliant DPS"
+    Since this type of DPS relies on enemy, there's nothing else to raise except {{CritDMG}} **Crit DMG** to gain extra damage. 
+
+    Thus, build consists of:
+
+    * {{Evil_Dragons_Blade}} **Evil Dragon's Blade**{.yellow} $+$ {{Venomous_Touch}} **Venomous Touch**;
+    * {{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} $+$ {{Venomous_Touch}} **Venomous Touch**.
+
+    There is no difference which {{Weapon}} **Weapon** out of two listed above you use, since the characters doesn't scale from {{ATK}} **ATK**{.yellow} or {{MATK}} **MATK**{.magenta}.
+
+    {{Gloves}} **Gloves** have no impact on the character except Options (Substats), so do {{Armor}} **Armor** and {{Helmet}} **Helmet**. Follow advice from [Standard DPS](#__tabbed_1_1) tab regarding armor. 
+
+=== "Stat-Dependent Supports"
+
+    These supports scale their buff depending on own stats.
+
+    Currently there is only 2 examples of this in the game:
+
+    1. **Anti-Dystopia Diana**, which generates **Energy Guard** based on own {{MATK}} **MATK**{.magenta};
+    2. **Red Riding Hood Rou**, which generates **Energy Guard** based on own {{HP}} **HP**.
+
+    It is not hard to figure the builds for either of them: 
+
+    * {{Demons_Forbidden_Book}} **Demon's Forbidden Book**{.magenta} $+$ {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta} for **Diana**;
+    * {{Immortal_Golden_Armor}} **Immortal Golden Armor**{ .yellow } $+$  **{{Helm_of_Death}}** **Helm of Death**{ .yellow } $+$ {{Charming_Gaze}} **Charming Gaze** if enemy deals {{Physical}} **Physical**{.yellow} damage for **Rou**;
+    * {{Hellfire_Robe}} **Hellfire Robe**{ .magenta } $+$ **{{Crown_of_Galaxy}}** **Crown of Galaxy**{ .magenta } $+$ {{Charming_Gaze}} **Charming Gaze** if enemy deals {{Magical}} **Magical**{.magenta} damage for **Rou**.
+
+=== "Rest Supports"
+    
+    Most supports **do not** scale with gear. That means their main job is to survive rather than deal some damage.
+
+    Overall, their build is similar to [Standard DPS](#__tabbed_1_1), with sole exception that both offensive and definsive gear equipped can be worse compared to the rest of the team.
+
+!!! question "What about {{CritRate}} Crit Rate? Is it useless?"
+    In PvE, yes. There are plenty of supports making your crit rate high enough, as well as game modes like **Fiend Hunter** have easy conditions to achieve 100% Crit.
+
+!!! question "What about Substats (Options)? Which do I want?"
+    Generally speaking, it, again, depends on the type of character you're building.
+
+    * **Standard DPS** benefit from {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and {{CritDMG}} **Crit DMG** split;
+    * **Fixed Damage DPS** solely benefit from {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta};
+    * **HP-reliant DPS** rely on {{HP}} **HP** and {{CritDMG}} **Crit DMG**;
+    * **Enemy HP-reliant DPS** want only {{CritDMG}} **Crit DMG**;
+    * **Stat-Dependent Supports** want corresponding stat;
+    * **Rest Supports** are fine with whatever.
+
+    As for split (ratio) of said Options, it's better to use [Gear Calculator](#gear-calculator) **if you want the precise answer**.
+    
+    If you, however, are fine with rough advice, setting up {{CritDMG}} **Crit DMG** on pieces that are swappable between DPS (mostly {{Armor}} **Armor**, {{Helmet}} **Helmet** and specifically {{Venomous_Touch}} **Venomous Touch**) and filling the rest Options with another stat isn't a bad choice.
+
+    Alteratively, use [Character Builds](https://dotgg.gg/brown-dust-2/characters/) made <u>**only**</u> by **IceKane**.
+</div>
 ## Gear Calculator 
-WIP
-## {{Refining_Powder}} Refining Powder Farm
-WIP
+To use Gear Calculator, use the [Souseha's Database](https://browndust2-wiki.souseha.com/en/option-calculator).
+
+This calculator is made to calculate the most efficent Options (substats), although it can somewhat work for general gear as well. 
+
+![Gear Calculator](../assets/images/gear-system/gear_calc.avif)
+
+To do the calculations, do the following steps:
+
+1. Select necessary character;
+2. Choose specific Gear in case you want to make some of them fixed;
+3. Choose different Gear Grade, if necessary;
+4. Pick External buffs, including {{CritDMG}} Crit DMG and **Property DMG**;
+5. Press Auto Calculate.
+
+??? image "Image Guide"
+    ![Gear Calculator Guide](../assets/images/gear-system/gear_calc_guide.avif)
+
+You will recieve table with builds, sorted by best damage dealt with **Advantage**.
+In this table, you can see the gear, [bond](../character-info/potential-liberation.md), substat amount for each stat and finalized stats. 
+
+Worth mentioning that **Damage** isn't actual Damage you will deal in-game but rather a metric to determine how good build is.
+
+![Gear Calculator Results](../assets/images/gear-system/gear_calc_results.avif)
+
+<!--## {{Refining_Powder}} Refining Powder Farm
+WIP-->
+
+<!--
+Weapons: 
+{{Evil_Dragons_Blade}} {{Hammer_of_Thunder}} {{Peerless_Javelin}} {{Travel_Gods_Friend}} {{Eye_of_the_Destroyer}} {{Demons_Forbidden_Book}} 
+Armor: 
+{{Invulnerable_Armor}} {{Scale_of_the_Sea_God}} {{Immortal_Golden_Armor}} {{Fiend_Guard}} {{Deaths_Shroud}} {{Hellfire_Robe}} 
+Helmet:
+{{Helm_of_Carnage}} {{Undefeated_Glory}} {{Helm_of_Death}} {{Radiant_Wisdom}} {{Solar_Brilliance}} {{Crown_of_Galaxy}}
+Accessory:
+{{Warmth_of_the_Brazier}} {{Pinnacle_of_Aesthetics}} {{Promise_of_Harmony}} {{Venomous_Touch}} {{Ring_of_the_Lake}} {{Charming_Gaze}}
+Gloves:
+{{God_Kings_Silver_Arm}} {{Rebellion}} {{Prime_Authority}} {{Ring_of_Fury}} {{Dragon_Scales_Protection}} {{Shackle_of_Treachery}}
+ -->
+
 <!--Gears mechanic is one of the most important aspect of character build in Brown Dust II and is considered one of the most confusing thing new players encounter. Gears are called to increase character’s stats which we checked in the previous chapter.
 There are a total of five gear slots per character: Weapon, Armor, Helmet, Accessory and Gloves slots. Weapon, Accessory and Gloves mostly enhance offensive capabilities while Armor and Helmet gear grants extra protection for your character.
 

@@ -182,3 +182,25 @@ html {
   -webkit-mask-image: var(--md-admonition-icon--image);
           mask-image: var(--md-admonition-icon--image);
 }
+
+a:has(> .manual-sprite) {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  margin: 0 8px;
+}
+
+.manual-sprite {
+  width: 176px !important;  
+  height: 176px !important; 
+  max-width: none !important;
+  display: block;
+
+  object-fit: contain;
+  object-position: var(--x, 50%) var(--y, 50%);
+  
+  transform: scale(var(--z, 1.0));
+  transform-origin: center center;
+}
