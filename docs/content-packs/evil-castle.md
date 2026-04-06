@@ -20,7 +20,7 @@ Evil Castle - PvE mode, offering both single-time and repetitive content.
 ![Evil Castle Screenshot](../assets/images/evil-castle/evil-castle.webp)
 
 
-### ![Tower Of Pride Icon](../assets/images/evil-castle/icon_devilcastle_2.webp){ .icon-header } **Tower of Pride**
+### ![Tower Of Pride Icon](../assets/images/evil-castle/icon_devilcastle_2.avif){ .icon-header } **Tower of Pride**
 
 Tower of Pride is a unique Tower, offering **daily** rewards based on your score. 
 
@@ -145,7 +145,7 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
 
 ---
 
-### ![Tower Of Desire Icon](../assets/images/evil-castle/icon_devilcastle_1.webp){ .icon-header } **Tower of Desire**
+### ![Tower Of Desire Icon](../assets/images/evil-castle/icon_devilcastle_1.avif){ .icon-header } **Tower of Desire**
 
 Often considered to be a general content (until Floor 151+). 
 
@@ -188,7 +188,7 @@ Often considered to be a general content (until Floor 151+).
 ---
 
 
-### ![Tower Of Salvation Icon](../assets/images/evil-castle/icon_roguelike.webp){ .icon-header } **Tower of Salvation**
+### ![Tower Of Salvation Icon](../assets/images/evil-castle/icon_roguelike.avif){ .icon-header } **Tower of Salvation**
 
 Tower of Salvation is a **seasonal** roguelike gamemode where you climb Floors of the Tower in order to obtain resources.
 
@@ -356,7 +356,7 @@ During your climb, you need to choose the path which can consist of the followin
     * It is important to read artifact abilities and understand what type of build you want to run.
     * You should be aware of combining artifacts, thus, *in some cases*, picking {{ Magical }} Magic-related artifacts when you run {{ Physical }} Physical team may have sense.
 
-!!! abstract "![Question Mark Icon](../assets/images/evil-castle/icon_questionmark.webp){.icon-header} Event System"
+!!! abstract "![Question Mark Icon](../assets/images/evil-castle/icon_questionmark.avif){.icon-header} Event System"
     * Events offer you few choices, from 2 to 4. You have the ability to read about all of them and make a decision based on your needs.
     * Some choices have chance for a success. If you fail, usually negative effect, also displayed prior to, takes place.
     * There are artifacts that increase Success Chance for events.
@@ -495,7 +495,7 @@ During your climb, you need to choose the path which can consist of the followin
 
 ---
 
-### ![Tower Of Wrath Icon](../assets/images/evil-castle/icon_devilcastle_3.webp){ .icon-header } **Tower of Wrath**
+### ![Tower Of Wrath Icon](../assets/images/evil-castle/icon_devilcastle_3.avif){ .icon-header } **Tower of Wrath**
 
 This tower offers you a challenge by reducing useful character pool: **Enemies are immune to {{ Physical }} Physical Damage**.
 
@@ -551,7 +551,7 @@ This tower offers you a challenge by reducing useful character pool: **Enemies a
 
 ---
 
-### ![Tower of Jealousy Icon](../assets/images/evil-castle/icon_devilcastle_4.webp){ .icon-header } **Tower of Jealousy**
+### ![Tower of Jealousy Icon](../assets/images/evil-castle/icon_devilcastle_4.avif){ .icon-header } **Tower of Jealousy**
 
 This tower offers you a challenge by reducing useful character pool: **Enemies are immune to {{ Magical }} Magical Damage**.
 

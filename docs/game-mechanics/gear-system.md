@@ -622,6 +622,8 @@ For all of these types the build you want is different.
 !!! question "What about {{CritRate}} Crit Rate? Is it useless?"
     In PvE, yes. There are plenty of supports making your crit rate high enough, as well as game modes like **Fiend Hunter** have easy conditions to achieve 100% Crit.
 
+    The only PvE usage for {{CritRate}} **Crit Rate** is Floors 41-50 of the ![Tower of Jealousy Icon](../assets/images/evil-castle/icon_devilcastle_4.avif){.icon} [**Tower of Jealousy**](../content-packs/evil-castle.md#tower-of-jealousy) and the ![Tower Of Wrath Icon](../assets/images/evil-castle/icon_devilcastle_3.avif "Tower of Wrath"){.icon} [**Tower of Wrath**](../content-packs/evil-castle.md#tower-of-wrath).
+
 !!! question "What about Substats (Options)? Which do I want?"
     Generally speaking, it, again, depends on the type of character you're building.
 
