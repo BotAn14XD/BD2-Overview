@@ -30,7 +30,7 @@ There are a total of 4 grades (rarities) that gear can have:
 * {{SR_Grade}} **SR Grade**
 * {{UR_Grade}} **UR Grade**
 
-You can see the grade in top right corner of each gear piece or to the right of the gear name if you decide to check it in more detail.
+You can see the grade in the top right corner of each gear piece or to the right of the gear name if you decide to check it in more detail.
 ??? image "Image Guide"
     ![Grade Visual Explanation](../assets/images/gear-system/grade_display.avif)
 
@@ -41,15 +41,15 @@ You can see the grade in top right corner of each gear piece or to the right of 
 ---
 
 ## Gear Tier
-Each **Grade** can have different **Tiers**. There are total of **4 Tiers** which are shown as **roman numbers** from {{I}} through {{IV}} for crafted gear piece. The higher the number, the better.
+Each **Grade** can have different **Tiers**. There are a total of **4 Tiers** which are shown as **roman numbers** from {{I}} through {{IV}} for crafted gear piece. The higher the number, the better.
 
 * Exclusive Gear has no number, although its tier is {{IV}}.
 * Event Shop Gear has no number either, although its tier is {{III}}.
 
 !!! example "Another <u>very useful</u> way to check for gear Tier"
-    You can check the gear tier by checking **stars** amount.
+    You can check the gear tier by checking the amount of **stars**.
 
-    * **Zero silver** stars means tier is {{I}}.
+    * **Zero silver** stars mean the tier is {{I}}.
     * **One silver** star means tier is {{II}}.
     * **Two silver** stars means tier is {{III}}.
     * **Three silver** stars means tier is {{IV}}.
@@ -66,7 +66,7 @@ Each **Grade** can have different **Tiers**. There are total of **4 Tiers** whic
     * {{III}}: **15%**;
     * {{IV}}: **5%**.
 
-    Even though {{IV}} is very rare, it provides much better stats compared to {{I}}. It is fine to use {{III}} gear, although with no huge investment into it. **You should avoid actively using {{I}} and {{II}}**.
+    Even though Tier {{IV}} is very rare, it provides much better stats compared to Tier {{I}}. It is fine to use Tier {{III}} gear, although with no huge investment into it. **You should avoid actively using Tier {{I}} and Tier {{II}}**.
 
 ---
 
@@ -76,14 +76,14 @@ Next layer of Gear investment is its **Level**. Each level enhances **Basic Attr
 
 Each Gear can be upgraded up to a total of 9 times, resulting in having a **+9 Gear piece**.
 
-Each upgrade costs {{Gold}} **Gold** (price depends on Grade and Upgrade Level) and has **chance to fail**. If the  upgrade fails, there is **no penalty or downgrade risk**.
+Each upgrade costs {{Gold}} **Gold** (price depends on Grade and Upgrade Level) and has **a chance to fail**. If the  upgrade fails, there is **no penalty or downgrade risk**.
 
 !!! note ""
     For detailed info about success chances, check [**CatlessCat's sheet**](https://docs.google.com/spreadsheets/d/1m9PI5N6a_iHl1LM0Agub0L9i0BrlXeFE0k2_M7vQQC0/edit?usp=sharing).
     
     Alternatively, use [**Official Gitbook**](https://browndust2.gitbook.io/probabilitydetails_en/other-probabilities/gear-crafting-and-refining#upgrade-success-probability).
 
-On **+3**, **+6** and **+9 Level**, Option (Substats) slots are opened.<br>Aside from unlocking Option slot itself, they enhance **Basic Attributes values** via Upgrades Scores, similar to Levels, although the +9 slot has way more impact compared to the +3 one. Each slot also receives the letter {{C}},{{B}},{{A}} or {{S}}, functionality of which will be covered in the [next chapter](#gear-refinement).
+On **+3**, **+6** and **+9 Level**, Option (Substats) slots are opened.<br>Aside from unlocking Option slot itself, they enhance **Basic Attributes values** via Upgrades Scores, similar to Levels, although the +9 slot has way more impact compared to the +3 one. Each slot also receives the letter {{C}},{{B}},{{A}} or {{S}}, the functionality of which will be covered in the [next chapter](#gear-refinement).
 
 
 !!! note ""
@@ -108,10 +108,10 @@ Gear Refinement comes right after Upgrades. When you reach +9 and all Options ar
 It is the so-called **Gear Score**, which represents the most important layer of enhancing values given by the gear.
 Each of the refinement scores are represented by the letters {{C}}, {{B}}, {{A}} and {{S}}, with {{S}} being the best possible one.
 
-As was mentioned earlier, each following Option slot has bigger impact towards overall score. **The weighted sum of slots give the final score.**
+As was mentioned earlier, each following Option slot has a bigger impact towards overall score. **The weighted sum of slots gives the final score.**
 
-* Minimal Total Score is **6**, being {{C}}{{C}}{{C}}.
-* Maximum Total Score is **24**, being {{S}}{{S}}{{S}}.
+* The Minimum Total Score is **6**, being {{C}}{{C}}{{C}}.
+* The Maximum Total Score is **24**, being {{S}}{{S}}{{S}}.
 * Increasing the score by 1 has the same **Basic Attribute** value increase as upgrading the gear by 1 level.
 
 ??? example "Detailed Score Explanation"
@@ -131,11 +131,11 @@ You can change the Gear Score you have by a process called Refinement. It uses {
 
 * <u>**You keep the best score obtained, meaning there is no possible downgrade for the gear**</u>.
 * The higher the score, the lower the chances of it appearing. This becomes especially noticeable after score 18, when the chances decrease significantly, making maxed gear a whale-level challenge.
-* Despite multiple possible letters combination for the same score, they have no difference in Base Attributes value increase.
+* Despite multiple possible letter combinations for the same score, they have no difference in Base Attributes value increase.
 
 ??? info "Probability Chances (for UR gear)"
     ![Gear Refinement](../assets/images/gear-system/bbs.avif)
-    **Alternatively, use [Official Gitbook](https://browndust2.gitbook.io/probabilitydetails_en/other-probabilities/gear-crafting-and-refining#refinement-probability-by-upgrade-level), although keep in mind it uses different way to describe same percentages.**
+    **Alternatively, use [Official Gitbook](https://browndust2.gitbook.io/probabilitydetails_en/other-probabilities/gear-crafting-and-refining#refinement-probability-by-upgrade-level), although keep in mind it uses a different way to describe same percentages.**
 
 !!! warning "Time saving feature"
     To prevent exhaustion and to do refinement much quicker, press the **Repeat** button, set the slider to the max (or use the MAX button), then hit the **Refinement** button, and, finally, press the {{Skip}} **Skip** button.
@@ -183,7 +183,7 @@ Each reroll uses currency — {{Gold}} **Gold** and either {{Refining_Stone}} **
 * For {{R_Grade}} gear, only {{Refining_Stone}} **Refining Stones** can be used. 
 * For {{SR_Grade}} and {{UR_Grade}} gear, both can be used, with {{Refining_Stone}} **Refining Stones** taking priority. They basically act as {{Refining_Crystal}} **Refining Crystals** at 10:1 ratio. You cannot spend Crystals before depleting Stones first, although it is more convenient this way.
 
-To do the reroll, press the **Option Refinement** button. After that, you're given a choice of **keeping previous stats *(Keep Option button)***, **taking new stats *(Confirm button)*** or **reroll once more *(Retry button)***.
+To do the reroll, press the **Option Refinement** button. After that, you're given a choice of **keeping previous stats *(Keep Option button)***, **taking new stats *(Confirm button)*** or **rerolling once more *(Retry button)***.
     * You can leave your choice unconfirmed for up to 12 hours. After that, the game will keep the previous ones.
 
 ??? image "Reroll Image"
@@ -193,7 +193,7 @@ To do the reroll, press the **Option Refinement** button. After that, you're giv
     Rerolling and praying on getting 3 or 4 desired stats at once can be a lot to ask. With that in mind, you can **lock** desired stat to prevent it from being rerolled. 
     
     To do that, press ![Lock Icon](../assets/images/gear-system/icons/icon_lock.avif){.icon} **Lock Icon** on the left of stat. Keep in mind that **this will increase currency consumption by the base amount for each stat locked, reaching x4 the price for 3 stats locked**.
-    ??? image "**Price Dependency based on amount of locked stats**"
+    ??? image "**Price Dependency based on the amount of locked stats**"
         ![Price Dependency](../assets/images/gear-system/price_dependency.avif)
 
 ---
@@ -213,7 +213,7 @@ To do the reroll, press the **Option Refinement** button. After that, you're giv
 ---
 
 ## Event Gear
-In **Season Event Shop** you can obtain special gear. It is essentially {{UR_Grade}} {{III}} and {{SR_Grade}} {{III}} Gear pieces, but they have some unique mechanics.
+In the **Season Event Shop** you can obtain special gear. It is essentially {{UR_Grade}} {{III}} and {{SR_Grade}} {{III}} Gear pieces, but they have some unique mechanics.
 
 ??? image "**Event Shop Menu; White border shows gears, yellow shows Upgrading material**"
     ![Eshop Menu](../assets/images/gear-system/eshop.avif)
@@ -222,14 +222,14 @@ In **Season Event Shop** you can obtain special gear. It is essentially {{UR_Gra
 * Event Gear does **not** require {{Gold}} **Gold** for upgrading its level. Instead, it uses a **corresponding Upgrading material** (different for each gear) and **has no fail chance**.
     * {{UR_Grade}} **Gear** uses **3** currency per level upgrade. (Total: **27**)
     * {{SR_Grade}} **Gear** uses **1** currency per level upgrade. (Total: **9**)
-* Event Gear does **not** have Refinement process at all; instead, the **Gear automatically gets an {{S}} Score for each Option slot**, resulting in a **Gear Score of 24**.
+* Event Gear does **not** have Refinement process at all; instead, the **Gear automatically gets a {{S}} Score for each Option slot**, resulting in a **Gear Score of 24**.
 
 ??? image "Visual Demonstration"
     ![Event Gear Upgrading Screen](../assets/images/gear-system/event_gear_upgrade2.avif)
 
 Except for things mentioned above, Gear is **identical** to the gear of the same **Grade**. 
 
-!!! tip "Advice regarding Event Gears"
+!!! tip "Advice regarding Event Gear"
     **Do NOT purchase {{SR_Grade}} Gear.**
     
     If you have **enough** currency and you bought more important stuff beforehand, you can purchase **{{UR_Grade}} Gear and <u>27</u> Upgrade 
@@ -249,7 +249,7 @@ As its name might suggest, this type of gear **can only be equipped on a specifi
 * <u>Each Exclusive gear gets an **Exclusive Attribute**, an **additional stat**.</u> Its value depends only on **Grade** of the gear.
 * Despite also not having Roman number, each Exclusive gear inherits stats of {{IV}} Tier of given Grade. That means, {{UR_Grade}} {{EX}} scales the same way {{UR_Grade}} {{IV}} does.
     * In very simple words, **{{EX}} Gear is the equivalent of an {{IV}}, but with extra stat on top.**
-* There are {{R_Grade}} {{EX}}, {{SR_Grade}} {{EX}} and {{UR_Grade}} {{EX}} Gears. {{R_Grade}} {{EX}} only exists for 3-4★ Characters, while rest exist for any characters.
+* There are {{R_Grade}} {{EX}}, {{SR_Grade}} {{EX}} and {{UR_Grade}} {{EX}} Gears. {{R_Grade}} {{EX}} only exists for 3-4★ Characters, while the rest exist for any character.
 * **There is exactly one exclusive gear for each character.** It can be any piece of gear, although *in most cases* it is {{Weapon}} **Weapon** / {{Accessory}} **Accessory** for DPS characters.
 
 * **Basic Attribute 1** of the {{EX}} Gear is **swappable between two options** with no cost, while **Basic Attribute 2** is **rerollable**, similar to Options.
@@ -266,7 +266,7 @@ Except for things mentioned above, Gear is **identical** to the gear of the same
 !!! question "What do I do with duplicate Exclusive Gear for a character?"
     If you happen to get a second gear copy,
 
-    * If it's 5★ Character's gear, **keep 1 duplicate** in case you need another build and **dismantle** rest. 
+    * If it's a 5★ Character's gear, **keep 1 duplicate** in case you need another build and **dismantle** rest. 
     * If it's 3★ or 4★ Character's gear, **dismantle** any extra dupe.
     * If it's {{SR_Grade}} Gear regardless of the character, **dismantle** it as well. 
         * Before committing to the dismantle, check related section [below](#gear-dismantle).
@@ -289,7 +289,7 @@ In the menu, you can see all the gear you can possibly craft, sorted by rarity. 
 ??? image "Gear Crafting Menu"
     ![Gear Crafting Menu](../assets/images/gear-system/crafting_menu.avif)
 
-To craft the Gear, you must have corresponding materials and {{Ability_Pill}} **Ability Pills**. You can check which resources are needed in the bottom left corner of the menu. In the same corner, you can also adjust amount of the Gear you want to craft.
+To craft the Gear, you must have corresponding materials and {{Ability_Pill}} **Ability Pills**. You can check which resources are needed in the bottom left corner of the menu. In the same corner, you can also adjust the amount of the Gear you want to craft.
 
 ??? image "Individual Gear Crafting Menu"
     ![Individual Gear Crafting Menu](../assets/images/gear-system/crafting_menu2.avif)
@@ -300,7 +300,7 @@ To craft the Gear, you must have corresponding materials and {{Ability_Pill}} **
     To fix this, you need to **upgrade** your Ability to the **Legendary** rank. For that, you need to **earn Ability EXP <u>by simply crafting gear</u> and upgrading Rank with Ability Book once you reach the EXP cap.**
     ??? image "Image Guide"
         ![Ability Rank Upgrade Guide](../assets/images/gear-system/abrank.avif)
-    !!! tip "Best way to farm EXP"
+    !!! tip "The best way to farm EXP"
         To get the EXP the most efficiently, **craft {{N_Grade}} or {{R_Grade}} gear** until you obtain **Legendary** Crafting Ability Rank. 
 
         **Avoid crafting {{SR_Grade}} Gear as it is not worth the resources spent.**
@@ -318,7 +318,7 @@ To craft the Gear, you must have corresponding materials and {{Ability_Pill}} **
     !!! tip "Upgrade Settings Feature"
         You can press **"Upgrade Settings"** button in crafting menu to instantly upgrade and / or dismantle crafted gear. 
 
-        It is the most useful when it comes down to {{Refining_Powder}} **Refining Powder** farming using {{N_Grade}} gear.
+        It is most useful when it comes down to {{Refining_Powder}} **Refining Powder** farming using {{N_Grade}} gear.
         ??? image "Upgrade Settings Menu"
             ![Upgrade Settings Menu](../assets/images/gear-system/upgrade_settings_menu.avif)
 
@@ -329,17 +329,17 @@ To access her ability, you need to repeat the same steps as for crafting, but pi
 ??? image "Image Guide"
      ![Field Ability Location](../assets/images/gear-system/alchemy_ability.avif)
     
-In Alchemy menu, you can make more advanced materials out of more common ones with the help of {{Ability_Pill}} **Ability Pills**. Each common material has its own tree for upgrading. 
+In the Alchemy menu, you can make more advanced materials out of more common ones with the help of {{Ability_Pill}} **Ability Pills**. Each common material has its own tree for upgrading. 
 
-Upon clicking the individual item, you can set desired amount of material you want to obtain and do the alchemy.
+Upon clicking the individual item, you can set the desired amount of material you want to obtain and do the alchemy.
 
 ??? image "Individual Material Alchemy Menu"
     ![Individual Material Alchemy Menu](../assets/images/gear-system/alchemy_menu2.avif)
 
 !!! example "Ability Rank (again)"
-    Similar to crafting, you will not be able to make high-end materials immediately. To do that, you need to upgrade **Ability Rank** as well. 
+    Similarly to crafting, you will not be able to make high-end materials immediately. To do that, you need to upgrade **Ability Rank** as well. 
     
-    You can follow same steps as described above in [Crafting section](#crafting-gear).
+    You can follow the same steps as described above in [Crafting section](#crafting-gear).
     !!! tip "Best way to farm EXP"
         For Alchemy, it does not really matter much since you're going to use almost every material eventually. Thus, try to craft the least expensive stuff first, for example: 
 
@@ -347,7 +347,7 @@ Upon clicking the individual item, you can set desired amount of material you wa
         * {{Plain_Fabric}} **Plain Fabric** into {{Fine_Fabric}} **Fine Fabric**.
         * {{Peat}} **Peat** into {{Coal}} **Coal**.
 
-!!! tip "![Alchemy Icon](../assets/images/gear-system/icons/icon_alchemy_red.avif "Alchemy QoL"){ .icon } Important QoL Feature"
+!!! tip "![Alchemy Icon](../assets/images/gear-system/icons/icon_alchemy_red.avif "Alchemy QoL"){ .icon } An Important QoL Feature"
     When you want to craft or do alchemy and have no materials, sometimes you can see the button under specific material with {{Ability_Pill}} **Ability Pills** cost. 
 
     This is **not** buying them — **this is the cost of Alchemy** for this amount of material. By pressing the button, the game does needed Alchemy for you. 
@@ -357,7 +357,7 @@ Upon clicking the individual item, you can set desired amount of material you wa
         ![Alchemy QoL Image Explanation](../assets/images/gear-system/detailed_qol_alch_explanation.avif)
 
 ## Custom Marks
-Custom Marks feature allows you to mark specific gear. To do that, press "Custom Marks Settings" in gear preview tab. 
+The Custom Marks feature allows you to mark specific gear. To do that, press "Custom Marks Settings" in the gear preview tab. 
 ??? image "Image Guide"
     ![Custom Mark Guide](../assets/images/gear-system/custom_mark1.avif)
 
@@ -366,7 +366,7 @@ This Mark is customizable, allowing you to choose 15 icons, 110 numbers ($0, 1, 
 ??? image "Custom Mark Settings Menu"
     ![Custom Mark Settings Menu](../assets/images/gear-system/custom_mark2.avif)
 ## Gear Menu
-You can access all your gear via Gear Menu, located in **second** tab (![Gear Menu Icon](../assets/images/icons/icon_pictorialbook4.avif "Gear Menu"){ .icon }) of {{Bag}} **Bag**. 
+You can access all your gear via the Gear Menu, located in **second** tab (![Gear Menu Icon](../assets/images/icons/icon_pictorialbook4.avif "Gear Menu"){ .icon }) of {{Bag}} **Bag**. 
 ??? image "Gear Menu Image"
     ![Gear Menu Image](../assets/images/gear-system/gear-location.avif)
 
@@ -375,20 +375,20 @@ In this menu, you can check specifics about any gear you have, as well as access
 ### See Details Feature
 The **See Details** feature is a toggle that allows you to see more information about gear on page, more particularly, its values. 
 
-It can be useful but as time passes by, you start understanding the gear without the necessity to toggle that feature on.
+It can be useful but as time passes by, you start understanding the gear without needing to toggle that feature on.
 ??? image "Image of See Details Feature ON"
     ![See Details Feature](../assets/images/gear-system/see_details.avif)
 ### Compare Feature
 The **Compare** feature allows you to compare stats of two gears of your choice. It displays the difference in the Options and / or Main Attributes values.
 
-First clicked gear becomes a "main" one, and any following gear is compared to the main. You can freely change compared gear by pressing different gear you want.
+First clicked gear becomes the "main" one, and any following gear is compared to the main. You can freely change compared gear by pressing different gear you want.
 
 That being said, the inability to properly display a meaningful comparison, especially when it comes down to substats, makes it a nearly useless feature. 
 ??? image "Image of Compare Feature"
     ![Compare Feature](../assets/images/gear-system/compare_feature.avif)
 
 ### ![Gear Filter](../assets/images/gear-system/icons/icon_filter.avif "Gear Filter"){.icon} Filter
-Aside of having filtering via **slot** gear is for, you can also use **Filter** feature to enhance this process even further. To access the menu, press ![Gear Filter](../assets/images/gear-system/icons/icon_filter.avif "Gear Filter"){.icon} **Gear Filter** icon in top right corner of the Gear Menu.
+Aside from having filtering via **slot** gear is for, you can also use **Filter** feature to enhance this process even further. To access the menu, press ![Gear Filter](../assets/images/gear-system/icons/icon_filter.avif "Gear Filter"){.icon} **Gear Filter** icon in top right corner of the Gear Menu.
 ??? image "Filter Menu"
     ![Gear Filter Menu](../assets/images/gear-system/filter_menu.avif)
 
@@ -401,7 +401,7 @@ Aside of having filtering via **slot** gear is for, you can also use **Filter** 
 * **Basic/Exclusive Attribute:** Filter for Basic or Exclusive Attribute, offering any of possible stats to choose from.
 
 ### Sorting
-With **Sorting** feature, you have the ability to sort the gear up to your preference. 
+With the **Sorting** feature, you have the ability to sort the gear up to your preference. 
 Possible Sorting options:
 
 * By Highest / Lowest Grade.
@@ -414,7 +414,7 @@ Possible Sorting options:
     ![Different Sortings](../assets/images/gear-system/sorting.avif)
 
 ### Upgrade All
-The **Upgrade All** allows you to bulk upgrade the gear **level**. To do that, select the gear needed, press $\checkmark$ and set up upgrade settings. 
+The **Upgrade All** feature allows you to bulk upgrade the gear **level**. To do that, select the gear needed, press $\checkmark$ and set up upgrade settings. 
 ??? image "Image Guide"
     ![Upgrade All Feature](../assets/images/gear-system/upgrade_all.avif)
 
@@ -431,12 +431,12 @@ The **Upgrade All** allows you to bulk upgrade the gear **level**. To do that, s
 ### Select Gear
 Select Gear is a feature that allows you to bulk dismantle the gear. 
 
-It behaves similar to **Upgrade All** feature.
+It behaves similarly to **Upgrade All** feature.
 ??? image "Image Guide"
     ![Select Gear Feature](../assets/images/gear-system/select_gear.avif)
 
 !!! tip "Easier Selection"
-    Filter for picking gear here is similar to Upgrade All's one with sole exception of one more toggle: **Include Upgraded Gear**.
+    The filter for picking gear here is similar to Upgrade All's one with sole exception of one more toggle: **Include Upgraded Gear**.
     ??? image "Filter Showcase"
         ![Select Gear Filter Showcase](../assets/images/gear-system/filter_select_gear.avif)
 
@@ -452,7 +452,7 @@ Dismantle is a process to get rid of gear pieces in exchange for {{Refining_Powd
 * {{Refining_Stone}} **Refining Stones** / {{Refining_Crystal}} **Refining Crystals** amount depends on Gear **Tier (Rarity)**.
 
 !!! abstract ""
-    To check the exact values, refer to [**Catless Cat's sheet**](https://docs.google.com/spreadsheets/d/1m9PI5N6a_iHl1LM0Agub0L9i0BrlXeFE0k2_M7vQQC0/edit?usp=sharing)
+    To check the exact values, refer to [**Catless Cat's sheet**](https://docs.google.com/spreadsheets/d/1m9PI5N6a_iHl1LM0Agub0L9i0BrlXeFE0k2_M7vQQC0/edit?usp=sharing).
 
 To do the dismantle, it is better to use the [**Upgrade All**](#upgrade-all) or [**Select Gear**](#select-gear) Features, described above.
 
@@ -468,9 +468,9 @@ To do the dismantle, it is better to use the [**Upgrade All**](#upgrade-all) or 
 
 As a new player, you should prioritize **offensive** gear instead of **defensive**. To put it simply, it is fine to run a glass cannon strategy for the story, as long as you evaporate everything on Turn 1. 
 
-As was mentioned above, offensive gears are <u>**mostly**</u> {{Weapon}} **Weapon**, {{Accessory}}**Accessory** and {{Gloves}} **Gloves**. 
+As was mentioned above, offensive gear are <u>**mostly**</u> {{Weapon}} **Weapon**, {{Accessory}}**Accessory** and {{Gloves}} **Gloves**. 
 
-Whole crafting guide essentially comes down to your current needs. Here's example of what your progression can look like as a player who never touched crafting:
+Whole crafting guide essentially comes down to your current needs. Here's an example of what your progression can look like as a player who never touched crafting:
 
 !!! example "Crafting Guide"
     1. Use the code **WAITING4LEGEND** to obtain {{UR_Grade}} {{III}} {{Venomous_Touch}} **Venomous Touch**.
@@ -478,26 +478,26 @@ Whole crafting guide essentially comes down to your current needs. Here's exampl
     3. Once you upgrade Crafting Ability to Legendary, obtain {{UR_Grade}} {{III}} {{Weapon}} **Weapon** <!--({{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} / {{Evil_Dragons_Blade}} **Evil Dragons Blade**{.yellow})--> and {{UR_Grade}} {{III}} {{Gloves}} **Gloves** for your Main DPS. <!--({{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta} / {{Shackle_of_Treachery}} **Shackle of Treachery**{.magenta} / {{God_Kings_Silver_Arm}} **God-King's Silver Arm**{.yellow} / {{Prime_Authority}} **Prime Authority**{.yellow})-->
     
         !!! question "How do I decide what exactly to craft?"
-            Decide by the team you're running. Proper team utilizes either {{Physical}} **Physical**{.yellow} or {{Magical}} **Magical**{.magenta} Damage type.
+            Decide by the team you're running. A proper team utilizes either {{Physical}} **Physical**{.yellow} or {{Magical}} **Magical**{.magenta} Damage type.
 
             * If you utilize both damage types, it is better to ask for the help in [**Discord**](https://discord.gg/browndust2), since it's most likely not a good one. 
             
             <br>
             When it comes down to the {{Weapon}} **Weapon**, it means crafting {{Evil_Dragons_Blade}} **Evil Dragon's Blade**{.yellow} for {{Physical}} **Physical**{.yellow} DPS and {{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} for {{Magical}} **Magical**{.magenta} one. 
             
-            Other weapons are usually niche ones and are not necessary for new player to worry about.  
+            Other weapons are usually niche ones and are not necessary for a new player to worry about.  
             <br>
-            Same applies to the {{Gloves}} **Gloves**, meaning {{God_Kings_Silver_Arm}} **God-King's Silver Arm**{.yellow} / {{Prime_Authority}} **Prime Authority**{.yellow} for the {{Physical}} **Physical**{.yellow} DPS and {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta} / {{Shackle_of_Treachery}} **Shackle of Treachery**{.magenta} for the **Magical**{.magenta} one.
+            The same applies to the {{Gloves}} **Gloves**, meaning {{God_Kings_Silver_Arm}} **God-King's Silver Arm**{.yellow} / {{Prime_Authority}} **Prime Authority**{.yellow} for the {{Physical}} **Physical**{.yellow} DPS and {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta} / {{Shackle_of_Treachery}} **Shackle of Treachery**{.magenta} for the **Magical**{.magenta} one.
 
             * {{God_Kings_Silver_Arm}} **God-King's Silver Arm**{.yellow} and {{Shackle_of_Treachery}} **Shackle of Treachery**{.magenta} are **generally better** for a **new player** and are still used for some DPS in late game, while {{Prime_Authority}} **Prime Authority**{.yellow} and {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta} are used more in the **late game**, but could be **less powerful at the start**. 
             
             Either way, you will use **both gloves types**, so it is **up to you what to choose**.
 
     4. Craft one more {{UR_Grade}} {{III}} {{Venomous_Touch}} **Venomous Touch**, {{Weapon}} **Weapon** and {{Gloves}} **Gloves** for the second DPS of the team.
-    5. Move onto crafting one or two sets of the {{UR_Grade}} {{IV}} offensive gear, following same pattern as in 4th point, starting from {{Venomous_Touch}} **Venomous Touch**.
+    5. Move onto crafting one or two sets of the {{UR_Grade}} {{IV}} offensive gear, following the same pattern as in 4th point, starting from {{Venomous_Touch}} **Venomous Touch**.
     6. Craft 2 {{UR_Grade}} {{III}} {{Armor}} **Armor** and {{Helmet}} **Helmet** pieces each. 
 
-        !!! question "What {{Armor}} Armor and {{Helmet}} Helmet to craft?"
+        !!! question "What {{Armor}} Armor and {{Helmet}} Helmet should I craft?"
             Generally speaking, armor usage depends on the enemy. 
             
             That means crafting {{Invulnerable_Armor}} **Invulnerable Armor**{ .yellow }, **{{Helm_of_Carnage}}** **Helm of Carnage**{ .yellow } or {{Fiend_Guard}} **Fiend Guard**{ .magenta } and {{Radiant_Wisdom}} **Radiant Wisdom**{ .magenta } sets. 
@@ -513,7 +513,7 @@ Whole crafting guide essentially comes down to your current needs. Here's exampl
 
 When it comes down to gearing a character, you should understand that there are 6 types of characters in the game. 
 
-1. **Standard DPS**, which utilize own {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} to do own actions.
+1. **Standard DPS**, which utilize their own {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} to do own actions.
     * *Example: Nebris, Olivier, Blade.*
 2. **Fixed Damage DPS**, which deal **Fixed Damage** to the enemy.
     * *Example: Justia, Alec*
@@ -523,14 +523,14 @@ When it comes down to gearing a character, you should understand that there are 
     * *Example: Angelica, Rou (Nature's Claw).*
 5. **Stat-Dependent Supports**, which benefits from some stats to increase the buff to allies.
     * *Example: Diana (Anti-Dystopia), Rou (Red Riding Hood).*
-6. **Rest Supports**, which do not have offensive capabilities, and whose skills do not rely on anything said above.
+6. **Other Supports**, which do not have offensive capabilities, and whose skills do not rely on anything said above.
     * *Example: Liberta, Refithea, Helena.*
 
 For all of these types the build you want is different.
 <div class="tab-align" markdown>
 
 === "Standard DPS"
-    Standard characters relies on mix of {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and {{CritDMG}} **Crit DMG** to deal DMG. 
+    Standard characters rely on a mix of {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and {{CritDMG}} **Crit DMG** to deal DMG. 
 
     This usually means builds like:
 
@@ -544,9 +544,9 @@ For all of these types the build you want is different.
     !!! question "Stats Amount"
         You should aim for 2000 {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and 600 {{CritDMG}} **Crit DMG** as a baseline for this type of DPS.  
 
-    Some DPS like Eclipse *might* use other {{Weapon}} Weapon to achieve best damage, but, generally speaking, it only matters for minmaxing.<br>If you still want to craft the best gear ever possible, check [Gear Calculator](#gear-calculator) section. 
+    Some DPS like Eclipse *might* use another {{Weapon}} Weapon to achieve best damage, but, generally speaking, it only matters for minmaxing.<br>If you still want to craft the best gear ever possible, check [Gear Calculator](#gear-calculator) section. 
     
-    When it comes down to {{Armor}} **Armor**, and {{Helmet}} **Helmet**, there are few combinations:
+    When it comes down to {{Armor}} **Armor**, and {{Helmet}} **Helmet**, there are a few combinations:
 
     * {{Invulnerable_Armor}} **Invulnerable Armor**{ .yellow } $+$ **{{Helm_of_Carnage}}** **Helm of Carnage**{ .yellow } if enemy deals {{Physical}} **Physical**{.yellow} damage
     * {{Fiend_Guard}} **Fiend Guard**{ .magenta } $+$ {{Radiant_Wisdom}} **Radiant Wisdom**{ .magenta } if enemy deals {{Magical}} **Magical**{.magenta} damage
@@ -558,14 +558,14 @@ For all of these types the build you want is different.
 
     Although, it is worth mentioning that this type of DPS is heavily underperforming and **not worth building whatsoever**.
 
-    Therefore, most used builds are following:
+    Therefore, the most used builds are the following:
 
     * {{Peerless_Javelin}} **Peerless Javelin**{.yellow} $+$ {{Prime_Authority}} **Prime Authority**{.yellow};
     * {{Demons_Forbidden_Book}} **Demon's Forbidden Book**{.magenta} $+$ {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta}.
 
-    {{Accessory}} **Accessory** can be {{Ring_of_the_Lake}} **Ring of the Lake** or {{Charming_Gaze}} **Charming Gaze**, since it provides at least something more valuable as {{HP}} HP, compared to {{Venomous_Touch}} **Venomous Touch** with {{CritDMG}} **Crit DMG** stats only.
+    {{Accessory}} **Accessory** can be {{Ring_of_the_Lake}} **Ring of the Lake** or {{Charming_Gaze}} **Charming Gaze**, since it provides at least something more valuable such as {{HP}} HP, compared to {{Venomous_Touch}} **Venomous Touch** with {{CritDMG}} **Crit DMG** stats only.
 
-    {{Armor}} **Armor** and {{Helmet}} **Helmet** choice follows same logic as for [Standard DPS](#__tabbed_1_1).
+    {{Armor}} **Armor** and {{Helmet}} **Helmet** choices follow the same logic as for [Standard DPS](#__tabbed_1_1).
 
 === "HP-reliant DPS"
 
@@ -578,42 +578,42 @@ For all of these types the build you want is different.
 
     {{Weapon}} **Weapon** can be either {{Evil_Dragons_Blade}} **Evil Dragon's Blade**{.yellow} or {{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} regardless of damage type character deals, since its value is in the {{CritDMG}}  **Crit DMG** only.
 
-    {{Gloves}} **Gloves** have no impact on character aside of Options (Substats), so using any is fine. 
+    {{Gloves}} **Gloves** have no impact on the character aside of Options (Substats), so using any is fine. 
 
     !!! question "Wouldn't {{Charming_Gaze}} **Charming Gaze** be a better {{Accessory}} Accessory?"
-        {{Charming_Gaze}} **Charming Gaze** indeed provides both {{HP}} **HP** and {{CritDMG}} **Crit DMG**, however, due to diminishing returns, impact on {{HP}} **HP** is usually lesser compared to {{CritDMG}} **Crit DMG**
+        {{Charming_Gaze}} **Charming Gaze** indeed provides both {{HP}} **HP** and {{CritDMG}} **Crit DMG**, however, due to diminishing returns, impact on {{HP}} **HP** is usually less compared to {{CritDMG}} **Crit DMG**.
         
         That means unless you have some heavy bonuses to {{CritDMG}} **Crit DMG** *(for example, Night of Death Mamonir self-buff combined with Red Riding Hood Rou and The Gluttonous Refithea for tremendous $+725\%$ {{CritDMG}} **Crit DMG**)*, {{Venomous_Touch}} **Venomous Touch** is simply better. 
 
 
 === "Enemy HP-reliant DPS"
-    Since this type of DPS relies on enemy, there's nothing else to raise except {{CritDMG}} **Crit DMG** to gain extra damage. 
+    Since this type of DPS relies on the enemy, there's nothing else to raise except {{CritDMG}} **Crit DMG** to gain extra damage. 
 
     Thus, build consists of:
 
     * {{Evil_Dragons_Blade}} **Evil Dragon's Blade**{.yellow} $+$ {{Venomous_Touch}} **Venomous Touch**;
     * {{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} $+$ {{Venomous_Touch}} **Venomous Touch**.
 
-    There is no difference which {{Weapon}} **Weapon** out of two listed above you use, since the characters do not scale from {{ATK}} **ATK**{.yellow} or {{MATK}} **MATK**{.magenta}.
+    There is no difference which {{Weapon}} **Weapon** out of the two listed above you use, since the characters do not scale from {{ATK}} **ATK**{.yellow} or {{MATK}} **MATK**{.magenta}.
 
-    {{Gloves}} **Gloves** have no impact on the character except Options (Substats), so do {{Armor}} **Armor** and {{Helmet}} **Helmet**. Follow advice from [Standard DPS](#__tabbed_1_1) tab regarding armor. 
+    {{Gloves}} **Gloves** have no impact on the character except Options (Substats), and neither do {{Armor}} **Armor** and {{Helmet}} **Helmet**. Follow advice from [Standard DPS](#__tabbed_1_1) tab regarding armor. 
 
 === "Stat-Dependent Supports"
 
-    These supports scale their buff depending on own stats.
+    These supports scale their buff depending on their own stats.
 
-    Currently there is only 2 examples of this in the game:
+    Currently there are only 2 examples of this in the game:
 
     1. **Anti-Dystopia Diana**, which generates **Energy Guard** based on own {{MATK}} **MATK**{.magenta};
     2. **Red Riding Hood Rou**, which generates **Energy Guard** based on own {{HP}} **HP**.
 
-    It is not hard to figure the builds for either of them: 
+    It is not hard to figure out the builds for either of them: 
 
     * {{Demons_Forbidden_Book}} **Demon's Forbidden Book**{.magenta} $+$ {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta} for **Diana**;
     * {{Immortal_Golden_Armor}} **Immortal Golden Armor**{ .yellow } $+$  **{{Helm_of_Death}}** **Helm of Death**{ .yellow } $+$ {{Charming_Gaze}} **Charming Gaze** if enemy deals {{Physical}} **Physical**{.yellow} damage for **Rou**;
     * {{Hellfire_Robe}} **Hellfire Robe**{ .magenta } $+$ **{{Crown_of_Galaxy}}** **Crown of Galaxy**{ .magenta } $+$ {{Charming_Gaze}} **Charming Gaze** if enemy deals {{Magical}} **Magical**{.magenta} damage for **Rou**.
 
-=== "Rest Supports"
+=== "Other Supports"
     
     Most supports **do not** scale with gear. That means their main job is to survive rather than deal some damage.
 
@@ -632,14 +632,14 @@ For all of these types the build you want is different.
     * **Stat-Dependent Supports** want corresponding stat;
     * **Rest Supports** are fine with whatever.
 
-    As for split (ratio) of said Options, it's better to use [Gear Calculator](#gear-calculator) **if you want the precise answer**.
+    As for the split (ratio) of said Options, it's better to use [Gear Calculator](#gear-calculator) **if you want the precise answer**.
     
-    If you, however, are fine with rough advice, setting up {{CritDMG}} **Crit DMG** on pieces that are swappable between DPS (mostly {{Armor}} **Armor**, {{Helmet}} **Helmet** and specifically {{Venomous_Touch}} **Venomous Touch**) and filling the rest Options with another stat isn't a bad choice.
+    If you, however, are fine with rough advice, setting up {{CritDMG}} **Crit DMG** on pieces that are swappable between DPS (mostly {{Armor}} **Armor**, {{Helmet}} **Helmet** and specifically {{Venomous_Touch}} **Venomous Touch**) and filling the remaining Options with another stat isn't a bad choice.
 
     Alternatively, use [Character Builds](https://dotgg.gg/brown-dust-2/characters/) made <u>**only**</u> by **IceKane**.
 </div>
 ## Gear Calculator 
-To use Gear Calculator, use the [Souseha's Database](https://browndust2-wiki.souseha.com/en/option-calculator).
+To use the Gear Calculator, use the [Souseha's Database](https://browndust2-wiki.souseha.com/en/option-calculator).
 
 This calculator is made to calculate the most efficient Options (substats), although it can somewhat work for general gear as well. 
 
@@ -659,7 +659,7 @@ To do the calculations, do the following steps:
 You will receive a table with builds, sorted by best damage dealt with **Advantage**.
 In this table, you can see the gear, [bond](../character-info/potential-liberation.md), substat amount for each stat and finalized stats. 
 
-Worth mentioning that **Damage** isn't actual Damage you will deal in-game but rather a metric to determine how good build is.
+It is worth mentioning that **Damage** isn't the actual Damage you will deal in-game but rather a metric to determine how good a build is.
 
 ![Gear Calculator Results](../assets/images/gear-system/gear_calc_results.avif)
 
@@ -694,29 +694,3 @@ Accessory:
 Gloves:
 {{God_Kings_Silver_Arm}} {{Rebellion}} {{Prime_Authority}} {{Ring_of_Fury}} {{Dragon_Scales_Protection}} {{Shackle_of_Treachery}}
  -->
-
-<!--Gears mechanic is one of the most important aspect of character build in Brown Dust II and is considered one of the most confusing thing new players encounter. Gears are called to increase character’s stats which we checked in the previous chapter.
-There are a total of five gear slots per character: Weapon, Armor, Helmet, Accessory and Gloves slots. Weapon, Accessory and Gloves mostly enhance offensive capabilities while Armor and Helmet gear grants extra protection for your character.
-
-Gear is divided by rarity, having Normal, Rare, R Exclusive, Super Rare, SR Exclusive, Ultra Rare and UR Exclusive rarities. Obviously, the higher the rarity, the more stats it will provide. Every rarity except Exclusive can be crafted by using Crafting Ability skill, which we will cover later. Some UR and SR gears also can be obtained from event shop. Exclusive gear, on the other hand, can only be obtained from gear banners (although not recommended for new players), equipped by specific character this gear is for and is better than craftable counterparts of the same rarity. Also each character can have only one exclusive gear. Let’s take one gear as an example as we move through the crafting system — a UR accessory called Venomous Touch, which you will definitely need in your progress, and check what you need to do to have it maxed.
-
-Aside from regular rarities, each non-exclusive gear can have its own tier — from one to four. These are displayed as roman numbers after gear name, as well as by silver star count, with rank I having no stars, and rank IV having 3 stars on gear icon. As you may have guessed, the higher the tier, the better stats gear will provide to your character. Exclusive gear is different though. It has no ranks, and has only one gold star for easier recognition. 
-So, back to our example, my Venomous Touch here (or VT for short) is Venomous Touch IV. 
-
-If you thought that’s all, I’m gonna disappoint you: it’s not even a half-way in! Next, let’s talk about gear levels, or upgrades. Each gear can be upgraded 9 times, enhancing stats provided. Each upgrade costs gold and has a failure rate that increases as you go higher. Do note that failure doesn’t mean downgrading, you just keep your current upgrade level. You can see the upgrade level by checking the arabic number in the name of the gear. Now, my VT is Venomous Touch IV +9.
-
-Every 3 upgrade levels, you open one Upgrade Rank slot, which also increases gear stats. Slot given at +9 has more impact compared to slot at +3 thanks to different weight. Immediately after you unlock any slot, you’ll see a letter assigned to the slot. It represents a sort of ranking, which has C, B, A and S scores, similar to any tier lists nowadays. Obviously, score S will have more impact compared to C. All 3 letters combined give you a gear score, which varies from 6 to 24, with 6 being CCC and 24 being SSS. You can change these letters, therefore upgrade gear, using the Refinement button. When you press it, you spend gold and Refinement powder in order to reroll these letters and of course, getting a better score is harder. The game keeps your best roll, so you can’t downgrade your gear. Do keep in mind that getting the best score being SSS is so rare so it’s considered to be a luxury. For the main gameplay, it’s better to stop your refinements for the UR III and UR IV gear at score 18, with BBS being the most common option with this score. Higher scores are usually achieved in late game or by whales. 
-
-My Venomous Touch has IVth tier, +9 level and BSS refinement, which is equivalent to a score of 22. 
-
-Now we miss only one thing yet: exclusive attributes, basic attributes and options. You can think of them as basic stats and substats. For exclusive gear, there's an exclusive attribute and two basic stats. For craftable and event gear, there’s no exclusive stat, leaving us with only two basic stats. First basic stat is always fixed for any type of gear. Second one can be rerolled in exclusive gears, making them more versatile in terms of builds, and R / SR craftable gears. 
-Then there’re substats. They are less powerful than main stats but can provide a variety of different stats to pick from. The pool consists of flat HP, HP%, flat ATK and ATK%, flat Magic ATK and MATK%, DEF%, Magic Resist%, Crit Rate% and Crit DMG%. Weapons, Armor, Helmets and Gloves remove wrong attack type from their own pool, so for example you won’t see ATK% on a Travel God’s Friend, UR magic weapon. Accessories like Venomous Touch are neutral and can roll any of substats from the pool. Finally, you can change stats using the Option Refinement button, spending Refining Crystals/Stones and Gold in a process. After the roll, you’ll be given the choice to either keep old substats or switch to new ones. You can also lock desired options so they won’t be rerolled, but be aware that you will increase reroll price by base price for each substat locked. 
-
-For Venomous Touch, you’d like to have CritDMG% as all substats. Thus, the full description of example gear is Venomous Touch IV +9, BSS refinement with CDMG% on substats. 
-That’s all about gear mechanics. Here some advices:
-Start by crafting R IV gear before moving to UR IIIs and IVs. You should skip crafting SR gear since they use the same materials as UR ones but give a lot less stats.
-You should prioritise your offensive gears over defensive ones.
-Reroll substats on UR IV and UR EX gear only. Leave all lower-tier gear as is.
-Get ATK/MATK and CDMG substats only. Crit rate stats are not good for PvE because we have crit rate buffers and crit is guaranteed in end game PvE content like Fiend hunt or Guild raid.
-
--->
