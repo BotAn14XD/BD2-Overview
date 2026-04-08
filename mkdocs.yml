@@ -1,4 +1,4 @@
-site_name: Brown Dust 2 Overview
+site_name: "Brown Dust II: Tactical Compendium"
 site_description: "Brown Dust II Features, Modes Overview and Tips"
 site_url: https://botan14xd.github.io/BD2-Overview/
 site_author: BotAn
@@ -66,6 +66,7 @@ plugins:
       type: date
       timezone: UTC
   - macros
+
 markdown_extensions:
   - attr_list
   - admonition
@@ -84,6 +85,8 @@ markdown_extensions:
   - toc:
       separator: "-"
 extra:
+  social_image: ../assets/images/site/banner.avif
+
   S1_Ability_S_Book: '![★1 Ability S. Book](../assets/images/icons/icon_resource901_49.png "★1 Ability S. Book"){ .icon }'
   S1_Rank_up_Star: '![★1 Rank-up Star](../assets/images/icons/icon_resource7780_58.png "★1 Rank-up Star"){ .icon }'
   S2_Ability_S_Book: '![★2 Ability S. Book](../assets/images/icons/icon_resource906_50.png "★2 Ability S. Book"){ .icon }'

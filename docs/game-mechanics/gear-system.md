@@ -1,10 +1,10 @@
 ---
 
-description: Brown Dust II Gear System Overview, Early Crafting advices.
+description: A comprehensive guide to the Gear and Crafting systems in Brown Dust 2. Master gear progression, including grades, tiers, upgrade levels, and refinement scores. Learn expert strategies for substat rerolling, Alchemy material farming, and optimizing builds for all DPS and support character types.
 comments: true
 
 ---
-# **Gear System — Brown Dust 2**
+# **Gear System & Crafting Guide — Brown Dust 2**
 The Gear System is an important character progression system. It increases a character's stats, improving damage output or improving sustain on the battlefield.
 
 There are **5 gear slots** available for your characters: {{Weapon}} **Weapon**, {{Armor}} **Armor**, {{Helmet}} **Helmet**, {{Accessory}} **Accessory** and {{Gloves}} **Gloves**.
@@ -516,7 +516,7 @@ The whole crafting guide essentially comes down to your current needs. Here's an
         !!! question "What {{Armor}} Armor and {{Helmet}} Helmet should I craft?"
             Generally speaking, armor usage depends on the enemy. 
             
-            That means crafting {{Invulnerable_Armor}} **Invulnerable Armor**{ .yellow }, **{{Helm_of_Carnage}}** **Helm of Carnage**{ .yellow } or {{Fiend_Guard}} **Fiend Guard**{ .magenta } and {{Radiant_Wisdom}} **Radiant Wisdom**{ .magenta } sets. 
+            That means crafting {{Invulnerable_Armor}} **Invulnerable Armor**{ .yellow }, {{Helm_of_Carnage}} **Helm of Carnage**{ .yellow } or {{Fiend_Guard}} **Fiend Guard**{ .magenta } and {{Radiant_Wisdom}} **Radiant Wisdom**{ .magenta } sets. 
 
            The rest of the armor types are more niche so it's not really worth investing in them as a new player.
 
@@ -566,10 +566,10 @@ For all of these types the build you want is different.
     
     When it comes down to {{Armor}} **Armor**, and {{Helmet}} **Helmet**, there are a few combinations:
 
-    * {{Invulnerable_Armor}} **Invulnerable Armor**{ .yellow } $+$ **{{Helm_of_Carnage}}** **Helm of Carnage**{ .yellow } if enemy deals {{Physical}} **Physical**{.yellow} damage
+    * {{Invulnerable_Armor}} **Invulnerable Armor**{ .yellow } $+$ {{Helm_of_Carnage}} **Helm of Carnage**{ .yellow } if enemy deals {{Physical}} **Physical**{.yellow} damage
     * {{Fiend_Guard}} **Fiend Guard**{ .magenta } $+$ {{Radiant_Wisdom}} **Radiant Wisdom**{ .magenta } if enemy deals {{Magical}} **Magical**{.magenta} damage
-    * {{Immortal_Golden_Armor}} **Immortal Golden Armor**{ .yellow } $+$ **{{Helm_of_Death}}** **Helm of Death**{ .yellow } if enemy deals {{Physical}} **<u>Fixed, True or Consumed</u> Physical**{.yellow} damage
-    * {{Hellfire_Robe}} **Hellfire Robe**{ .magenta } $+$ **{{Crown_of_Galaxy}}** **Crown of Galaxy**{ .magenta } if enemy deals {{Magical}} **<u>Fixed, True or Consumed</u> Magical**{.magenta} damage
+    * {{Immortal_Golden_Armor}} **Immortal Golden Armor**{ .yellow } $+$ {{Helm_of_Death}} **Helm of Death**{ .yellow } if enemy deals {{Physical}} **<u>Fixed, True or Consumed</u> Physical**{.yellow} damage
+    * {{Hellfire_Robe}} **Hellfire Robe**{ .magenta } $+$ {{Crown_of_Galaxy}} **Crown of Galaxy**{ .magenta } if enemy deals {{Magical}} **<u>Fixed, True or Consumed</u> Magical**{.magenta} damage
     
 === "Fixed Damage DPS"
     Since Fixed Damage **cannot crit**, there is no reason to invest in {{CritDMG}} **Crit Damage**.
@@ -591,8 +591,8 @@ For all of these types the build you want is different.
 
     Therefore, builds are:
 
-    * {{Immortal_Golden_Armor}} **Immortal Golden Armor**{ .yellow } $+$  **{{Helm_of_Death}}** **Helm of Death**{ .yellow } $+$ {{Venomous_Touch}} **Venomous Touch** if enemy deals {{Physical}} **Physical**{.yellow} damage;
-    * {{Hellfire_Robe}} **Hellfire Robe**{ .magenta } $+$ **{{Crown_of_Galaxy}}** **Crown of Galaxy**{ .magenta } $+$ {{Venomous_Touch}} **Venomous Touch** if enemy deals {{Magical}} **Magical**{.magenta} damage.
+    * {{Immortal_Golden_Armor}} **Immortal Golden Armor**{ .yellow } $+$  {{Helm_of_Death}} **Helm of Death**{ .yellow } $+$ {{Venomous_Touch}} **Venomous Touch** if enemy deals {{Physical}} **Physical**{.yellow} damage;
+    * {{Hellfire_Robe}} **Hellfire Robe**{ .magenta } $+$ {{Crown_of_Galaxy}} **Crown of Galaxy**{ .magenta } $+$ {{Venomous_Touch}} **Venomous Touch** if enemy deals {{Magical}} **Magical**{.magenta} damage.
 
     {{Weapon}} **Weapon** can be either {{Evil_Dragons_Blade}} **Evil Dragon's Blade**{.yellow} or {{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} regardless of damage type character deals, since its value is in the {{CritDMG}}  **Crit DMG** only.
 
@@ -628,8 +628,8 @@ For all of these types the build you want is different.
     It is not hard to figure out the builds for either of them: 
 
     * {{Demons_Forbidden_Book}} **Demon's Forbidden Book**{.magenta} $+$ {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta} for **Diana**;
-    * {{Immortal_Golden_Armor}} **Immortal Golden Armor**{ .yellow } $+$  **{{Helm_of_Death}}** **Helm of Death**{ .yellow } $+$ {{Charming_Gaze}} **Charming Gaze** if enemy deals {{Physical}} **Physical**{.yellow} damage for **Rou**;
-    * {{Hellfire_Robe}} **Hellfire Robe**{ .magenta } $+$ **{{Crown_of_Galaxy}}** **Crown of Galaxy**{ .magenta } $+$ {{Charming_Gaze}} **Charming Gaze** if enemy deals {{Magical}} **Magical**{.magenta} damage for **Rou**.
+    * {{Immortal_Golden_Armor}} **Immortal Golden Armor**{ .yellow } $+$  {{Helm_of_Death}} **Helm of Death**{ .yellow } $+$ {{Charming_Gaze}} **Charming Gaze** if enemy deals {{Physical}} **Physical**{.yellow} damage for **Rou**;
+    * {{Hellfire_Robe}} **Hellfire Robe**{ .magenta } $+$ {{Crown_of_Galaxy}} **Crown of Galaxy**{ .magenta } $+$ {{Charming_Gaze}} **Charming Gaze** if enemy deals {{Magical}} **Magical**{.magenta} damage for **Rou**.
 
 === "Other Supports"
     
@@ -689,10 +689,10 @@ It is worth mentioning that **Damage** isn't the actual Damage you will deal in-
 
 * {{Refining_Powder}} **Refining Powder**: **Events**, **Event Shop**, ![Dismantle Icon](../assets/images/gear-system/icons/icon_decomposition.avif){.icon} **Dismantling Gear** *(mostly {{N_Grade}} Grade)*.
     * Use [**Powder Calculator**](https://browndust2-wiki.souseha.com/en/powder-calculator) to calculate the most efficient way to grind the {{Refining_Powder}} **Refining Powder**.
-* {{Refining_Crystal}} **Refining Crystal**: **Event Shop**, **Golden Colloseum Shop**, ![Tower Of Salvation Icon](../assets/images/evil-castle/icon_roguelike.avif){ .icon } **Tower of Salvation**, ![Dismantle Icon](../assets/images/gear-system/icons/icon_decomposition.avif){.icon} Dismantling {{SR_Grade}} and {{UR_Grade}} Gear.
-* {{Ancient_Crystal}} **Ancient Crystals**: **Events**, **Event Shop**, **Golden Colloseum Shop**, ![Tower Of Salvation Icon](../assets/images/evil-castle/icon_roguelike.avif){ .icon } **Tower of Salvation**, ![Tower Of Pride Icon](../assets/images/evil-castle/icon_devilcastle_2.avif){ .icon } **Tower of Pride**, **Last Night**.
-* {{Gold_Ore}} **Gold Ore**: **Hunting Grounds**, **Map Absorbtion**, **Events**.
-* {{Hardwood}} **Hardwood**: **Hunting Grounds**, **Map Absorbtion**, **Events**.
+* {{Refining_Crystal}} **Refining Crystal**: **Event Shop**, **Golden Colloseum Shop**, ![Tower Of Salvation Icon](../assets/images/evil-castle/icon_roguelike.avif){ .icon } [**Tower of Salvation**](../content-packs/evil-castle.md#tower-of-salvation), ![Dismantle Icon](../assets/images/gear-system/icons/icon_decomposition.avif){.icon} Dismantling {{SR_Grade}} and {{UR_Grade}} Gear.
+* {{Ancient_Crystal}} **Ancient Crystals**: **Events**, **Event Shop**, **Golden Colosseum Shop**, ![Tower Of Salvation Icon](../assets/images/evil-castle/icon_roguelike.avif){ .icon } [**Tower of Salvation**](../content-packs/evil-castle.md#tower-of-salvation), ![Tower Of Pride Icon](../assets/images/evil-castle/icon_devilcastle_2.avif){ .icon } [**Tower of Pride**](../content-packs/evil-castle.md#tower-of-pride), **Last Night**.
+* {{Gold_Ore}} **Gold Ore**: **Hunting Grounds**, **Map Absorption**, **Events**.
+* {{Hardwood}} **Hardwood**: **Hunting Grounds**, **Map Absorption**, **Events**.
 
 
 ---
@@ -703,6 +703,7 @@ It is worth mentioning that **Damage** isn't the actual Damage you will deal in-
 * [Official Probabilities Gitbook](https://browndust2.gitbook.io/probabilitydetails_en/other-probabilities/gear-crafting-and-refining)
 * [Brown Dust II Sheets by <u>BotAn</u>](https://docs.google.com/spreadsheets/d/14S1ry3hblNeOZgmkk3VLdjNv8LERnrdzQ26V-ecc5Yk/edit?usp=sharing)
 * [Brown Dust II Sheets by <u>CatlessCat</u>](https://docs.google.com/spreadsheets/d/1m9PI5N6a_iHl1LM0Agub0L9i0BrlXeFE0k2_M7vQQC0/edit?usp=sharing)
+* [Gear — Brown Dust 2 Wiki](https://browndust2.miraheze.org/wiki/Gear)
 * [Powder Calculator — Brown Dust 2 Database by <u>souseha</u>](https://browndust2-wiki.souseha.com/en/powder-calculator)
 * [Character Builds — dotgg.gg](https://dotgg.gg/brown-dust-2/characters/)
 * [Alternative Gear Calculator by <u>Kane</u>](https://docs.google.com/spreadsheets/d/1-NAV4NWIWbzjgljz04iG1i8AETjU_S9YPm4QzJ_NRCY/edit?usp=sharing) *(no longer maintained)*

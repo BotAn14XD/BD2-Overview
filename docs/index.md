@@ -1,4 +1,4 @@
-# Brown Dust II Overview
+# Brown Dust II: Tactical Compendium
 
 Welcome to the ultimate starter encyclopedia for **Brown Dust II**.
 
