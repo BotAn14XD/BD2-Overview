@@ -2,6 +2,7 @@
 
 description: A comprehensive guide to the Gear and Crafting systems in Brown Dust 2. Master gear progression, including grades, tiers, upgrade levels, and refinement scores. Learn expert strategies for substat rerolling, Alchemy material farming, and optimizing builds for all DPS and support character types.
 comments: true
+image: assets/images/site/gear-system-banner.png
 
 ---
 # **Gear System & Crafting Guide — Brown Dust 2**
