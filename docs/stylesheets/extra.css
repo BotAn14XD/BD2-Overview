@@ -255,18 +255,21 @@ table.data-table {
   border-bottom: 2px solid #444;
 }
 
-.table-wrapper {
-  width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin: 0;
-}
 
 table.data-table {
   min-width: 600px;
 }
 
-.table-wrapper > p:empty,
-.table-wrapper > br {
-  display: none !important;
+.data-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap; 
+    padding-bottom: 10px;
+}
+
+.data-table thead, 
+.data-table tbody {
+    display: table;
+    width: 100%;
 }
