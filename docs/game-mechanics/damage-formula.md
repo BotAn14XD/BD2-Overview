@@ -20,7 +20,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
 ??? example "Formula Notes"
     ${\textcolor{AFDBF5}{[1]}}$: Whenever {{HP}} **HP**{.orange} is used (either own or enemy's), there is a cap of $\text{50,000}$ for the value. In other words, if you use Angelica's skill on the enemy with $\text{2,000,000}$ {{HP}} **HP**{.orange}, only $\text{50,000}$ will be put as the value.
 
-    ${\textcolor{AFDBF5}{[2]}}$: **Energy Guard** damage (from Boo Ghost Grandhildr) counts as {{HP}} **HP**{.orange} damage, but **has no cap value**.
+    ${\textcolor{AFDBF5}{[2]}}$: **Energy Guard** damage (from Boo Ghost Granhildr) counts as {{HP}} **HP**{.orange} damage, but **has no cap value**.
 
     ${\textcolor{AFDBF5}{[3]}}$: {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Buffs are **irrelevant** when character deals damage based on **own / enemy** {{HP}} **HP**{.orange}.
 
@@ -32,18 +32,34 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
     WIP
 
     $\text{Damage} = 
-    \max \left[ \vec{\text{v}}
-    \odot \vec{\text{SM}}
-    \odot \left(1 + \left(\displaystyle \sum_{i=1}^{n} \vec{\text{b}_\text{i}} \times \left[1 - \min\left(\text{Pr},1\right) \right] \right) 
-    - \left(\displaystyle \sum_{j=1}^{m}\vec{\text{d}_\text{j}}\right) \right)  \vec{\text{s}}^\text{T}
-    , 1\right]$
+    \max \left(\text{Damage}_{\; \text{Total}}, 1\right)$
 
-    $\vec{\text{v}} = \begin{bmatrix}\text{\textcolor{ffe8aa}{ATK}}_\text{self} & \text{\textcolor{ffa6ff}{MATK}}_\text{self} & \text{\textcolor{orange}{HP}}_\text{self} & \text{\textcolor{white}{EG}}_\text{self} & \text{\textcolor{ffe8aa}{ATK}}_\text{enemy} & \text{\textcolor{ffa6ff}{MATK}}_\text{enemy} & \text{\textcolor{orange}{HP}}_\text{enemy} \end{bmatrix} \\
-    \vec{\text{s}} = \begin{bmatrix}\delta\text{\textcolor{ffe8aa}{ATK}}_\text{self} & \delta\text{\textcolor{ffa6ff}{MATK}}_\text{self} & \delta\text{\textcolor{orange}{HP}}_\text{self} & \delta\text{\textcolor{white}{EG}}_\text{self} & \delta\text{\textcolor{ffe8aa}{ATK}}_\text{enemy} & \delta\text{\textcolor{ffa6ff}{MATK}}_\text{enemy} & \delta\text{\textcolor{orange}{HP}}_\text{enemy} \end{bmatrix} \\\\
-    \vec{\text{b}_\text{i}} = \begin{bmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{self}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{self}} & \text{b}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{self}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{white}{EG}}_\text{self}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{enemy}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{enemy}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{enemy}} \equiv 0 \end{bmatrix} \\
-    \vec{\text{d}_\text{j}} = \begin{bmatrix}\text{d}_{\text{j}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{self}} & \text{d}_{\text{j}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{self}} & \text{d}_{\text{j}}^{\text{\textcolor{orange}{HP}}_\text{self}} \equiv 0 & \text{d}_{\text{j}}^{\text{\textcolor{white}{EG}}_\text{self}} \equiv 0 & \text{d}_{\text{j}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{enemy}} \equiv 0 & \text{d}_{\text{j}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{enemy}} \equiv 0 & \text{d}_{\text{j}}^{\text{\textcolor{orange}{HP}}_\text{enemy}} \equiv 0 \end{bmatrix} \\\\$
+    ---
 
+    $\text{Damage}_{\; \text{Total}} = \\\\
+    \vec{\text{v}} \odot \vec{\text{SM}} \odot \\\\
+    \odot \left[1 + \left(\displaystyle \sum_{i=1}^{n^{(1)}} \vec{\text{b}_\text{i}^{\text{off}}} \times \left[1 - \min\left(\text{Pr},1\right) \right] \right) - \left(\displaystyle \sum_{i=1}^{n^{(2)}}\vec{\text{d}_\text{i}^{\text{off}}}\right) \right]  \vec{\text{s}}^{\top} \times \\\\
+    \times \left[ \min \left( 1 - \left(1-\delta_{\text{pfc}}\right) \times \left(\vec{\tilde{v}} + \left(\displaystyle \sum_{i=1}^{n^{(3)}} \vec{\text{b}_\text{i}^{\text{def}}} \times \left[1 - \min\left(\text{Pr},1\right) \right] \right) - \left(\displaystyle \sum_{i=1}^{n^{(4)}}\vec{\text{d}_\text{i}^{\text{def}}}\right) \right), 1\right)\right] \vec{\tilde{s}}^{\top}$
 
+    ---
+
+    $\vec{\text{v}} = \begin{bmatrix}\text{\textcolor{ffe8aa}{ATK}}_\text{self} & \text{\textcolor{ffa6ff}{MATK}}_\text{self} & \text{\textcolor{orange}{HP}}_\text{self} & \text{\textcolor{white}{EG}}_\text{self} & \text{\textcolor{ffe8aa}{ATK}}_\text{enemy} & \text{\textcolor{ffa6ff}{MATK}}_\text{enemy} & \text{\textcolor{orange}{HP}}_\text{enemy} \end{bmatrix}$
+
+    $\vec{\text{s}} = \begin{bmatrix}\delta\text{\textcolor{ffe8aa}{ATK}}_\text{self} & \delta\text{\textcolor{ffa6ff}{MATK}}_\text{self} & \delta\text{\textcolor{orange}{HP}}_\text{self} & \delta\text{\textcolor{white}{EG}}_\text{self} & \delta\text{\textcolor{ffe8aa}{ATK}}_\text{enemy} & \delta\text{\textcolor{ffa6ff}{MATK}}_\text{enemy} & \delta\text{\textcolor{orange}{HP}}_\text{enemy} \end{bmatrix}$
+
+    $\vec{\text{b}_\text{i}^{\text{off}}} = \begin{bmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{self}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{self}} & \text{b}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{self}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{white}{EG}}_\text{self}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{enemy}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{enemy}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{enemy}} \equiv 0 \end{bmatrix}$
+
+    $\vec{\text{d}_\text{i}^{\text{off}}} = \begin{bmatrix}\text{d}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{self}} & \text{d}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{self}} & \text{d}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{self}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{white}{EG}}_\text{self}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{enemy}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{enemy}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{enemy}} \equiv 0 \end{bmatrix}$
+
+    $\vec{\tilde{v}} = \begin{bmatrix}\text{\textcolor{ffe8aa}{DEF}} & \text{\textcolor{ffa6ff}{MRES}} \end{bmatrix}$
+
+    $\vec{\tilde{s}} = \begin{bmatrix}\delta\text{\textcolor{ffe8aa}{Physical}} & \delta\text{\textcolor{ffa6ff}{Magical}} \end{bmatrix}$
+
+    $\vec{\text{b}_\text{i}^{\text{def}}} = \begin{bmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{DEF}}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MRES}}}\end{bmatrix}$
+
+    $\vec{\text{d}_\text{i}^{\text{def}}} = \begin{bmatrix}\text{d}_{\text{i}}^{\text{\textcolor{ffe8aa}{DEF}}} & \text{d}_{\text{i}}^{\text{\textcolor{ffa6ff}{MRES}}}\end{bmatrix}$
+
+    $\delta_{\text{pfc}} = \begin{bmatrix}\delta\text{Pure} & \delta\text{Fixed} & \delta\text{Consumed}\end{bmatrix} \cdot \begin{bmatrix}1 & 1 & 1\end{bmatrix}^{\top}$ 
 
 <div class="tab-align" markdown>
 === "$\text{\textcolor{ffe8aa}{ATK}}$"
@@ -206,7 +222,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
                 ![Onsen Swordfighter Blade](../assets/images/damage-formula/illust_inven_char003303_149.avif){.icon-portrait}
                 </td>
                 <td><strong>Onsen Swordfighter<br>Blade</strong></td>
-                <td>$[350\% \sim 600\%] + [70\% \sim 120\%] \times \text{Defuffs Applied on enemy}$</td>
+                <td>$[350\% \sim 600\%] + [70\% \sim 120\%] \times \text{Debuffs Applied on enemy}$</td>
             </tr>
         </tbody>
     </table>
@@ -417,6 +433,15 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
                     <td>$50\%$</td>
                     <td>$2 \text{ Turns}$</td>
                     <td align="center">$2 \sim 4$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Promise of Vengeance Lathel](../assets/images/damage-formula/illust_inven_char000105_42.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Promise of Vengeance<br>Lathel</strong></td>
+                    <td>$50\% \sim 60\%$</td>
+                    <td>$2 \text{ Turns}$</td>
+                    <td align="center">$2 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -884,7 +909,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
                     <td align="center">
                     ![Comeback Idol Yuri](../assets/images/damage-formula/illust_inven_char065103_110.avif){.icon-portrait}
                     </td>
-                    <td><strong>Comback Idol Yuri</strong></td>
+                    <td><strong>Comeback Idol Yuri</strong></td>
                     <td>$150\%$</td>
                     <td>$4 \text{ Turns}$</td>
                     <td align="center">$3 \sim 4$</td>
