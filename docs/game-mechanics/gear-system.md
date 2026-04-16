@@ -711,9 +711,6 @@ It is worth mentioning that **Damage** isn't the actual Damage you will deal in-
 * [BD2 - The Tourist's Sheet](https://docs.google.com/spreadsheets/d/1E8eaUt-rgjAdunxYQPMDgqdI3-vE1S3MGfg0e_uNFc0/edit?usp=sharing) *(no longer maintained)*
 * [Official Brown Dust II Discord](https://discord.gg/browndust2)
 
-
----
-
 <!--
 Weapons: 
 {{Evil_Dragons_Blade}} {{Hammer_of_Thunder}} {{Peerless_Javelin}} {{Travel_Gods_Friend}} {{Eye_of_the_Destroyer}} {{Demons_Forbidden_Book}} 
