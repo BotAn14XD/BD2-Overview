@@ -28,9 +28,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
 
     ${\textcolor{AFDBF5}{[4]}}$: Applied only when character **crits**. Characters with [**Fixed Damage**](../game-mechanics/battle-system.md#different-damage-types) cannot crit, making this multiplier equal to $1$.
 
-???+ example "Pure Math Formula"
-    WIP
-
+??? example "Pure Math Formula (FOR MATH NERDS ONLY)"
     $\text{Damage} = 
     \max \left(\text{Damage}_{\; \text{Total}}, 1\right)$
 
@@ -38,28 +36,61 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
 
     $\text{Damage}_{\; \text{Total}} = \\\\
     \vec{\text{v}} \odot \vec{\text{SM}} \odot \\\\
-    \odot \left[1 + \left(\displaystyle \sum_{i=1}^{n^{(1)}} \vec{\text{b}_\text{i}^{\text{off}}} \times \left[1 - \min\left(\text{Pr},1\right) \right] \right) - \left(\displaystyle \sum_{i=1}^{n^{(2)}}\vec{\text{d}_\text{i}^{\text{off}}}\right) \right]  \vec{\text{s}}^{\top} \times \\\\
-    \times \left[ \min \left( 1 - \left(1-\delta_{\text{pfc}}\right) \times \left(\vec{\tilde{v}} + \left(\displaystyle \sum_{i=1}^{n^{(3)}} \vec{\text{b}_\text{i}^{\text{def}}} \times \left[1 - \min\left(\text{Pr},1\right) \right] \right) - \left(\displaystyle \sum_{i=1}^{n^{(4)}}\vec{\text{d}_\text{i}^{\text{def}}}\right) \right), 1\right)\right] \vec{\tilde{s}}^{\top}$
+    \odot \left[1 + \displaystyle \sum_{i=1}^{n^{(1)}} \vec{\text{b}}_\text{i}^{\text{(off)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(2)}}\vec{\text{d}}_\text{i}^{\text{(off)}}\right]  \vec{\text{s}}^{\top} \times \\\\
+    \times \left[ \min \left(1, \max \left(0.1, \left[ 1 - \left(1-\delta_{\text{pfc}}\right) \times \left(\vec{\tilde{\text{v}}} + \displaystyle \sum_{i=1}^{n^{(3)}} \vec{\text{b}}_\text{i}^{\text{(def)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(4)}}\vec{\text{d}}_\text{i}^{\text{(def)}}\right) \right]\right) \right) \right] \vec{\tilde{\text{s}}}^{\top} \times \\\\
+    \times \Bigg[ \max \Biggl(1,\Bigg[ 1 + \left(\left(1-\delta_{\text{fc}} \right) \times \mathcal{H}\left(\text{v}^{\text{cr}} + \displaystyle \sum_{i=1}^{n^{(5)}} \text{b}_\text{i}^{\text{(cr)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(6)}}\text{d}_\text{i}^{\text{(cr)}}- \mathcal{U}\left(0,1\right) \right) \right) \times \\\\ 
+    \times \left(\text{v}^{\text{(cdmg)}} + \displaystyle \sum_{i=1}^{n^{(7)}} \text{b}_\text{i}^{\text{(cdmg)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(8)}}\text{d}_\text{i}^{\text{(cdmg)}}\right) \Bigg]\Bigg)\Bigg] \times \\\\
+    \times \Bigg[1+\max \left(0, \vec{\text{pr}}^\text{(off)} \times \text{PR} \times \left(\vec{\text{pr}}^\text{(def)}\right)^{\top}\right) \times \left( \vec{\text{v}}_{\text{pr}}^{\text{(off)}} + \displaystyle \sum_{i=1}^{n^{(9)}} \vec{\text{b}}_\text{i}^{\text{(pr\_off)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(10)}} \vec{\text{d}}_\text{i}^{\text{(pr)}}\right)+\\\\
+    +\min \left(0, \vec{\text{pr}}^\text{(off)} \times \text{PR} \times \left(\vec{\text{pr}}^\text{(def)}\right)^{\top}\right) \times \left( \vec{\text{v}}_{\text{pr}}^{\text{(def)}} + \displaystyle \sum_{i=1}^{n^{(11)}} \vec{\text{b}}_\text{i}^{\text{(pr\_def)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(12)}} \vec{\text{d}}_\text{i}^{\text{(pr)}}\right) \Bigg] \times \\\\
+    \times \left[1 + \delta_{\text{chains}} \times \left(0.1 + \displaystyle \sum_{i=1}^{n^{(13)}} \text{b}_\text{i}^{\text{(chains)}} \right) \times \text{v}^{\text{(chains)}} \right] \times \\\\
+    \times \Bigg[1 + \displaystyle \sum_{i=1}^{n^{(14)}} \text{b}_\text{i}^{\text{(aug)}} + \displaystyle \sum_{i=1}^{n^{(15)}} \text{b}_\text{i}^{\text{(vuln\_gen)}} + \displaystyle \sum_{i=1}^{n^{(16)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_dt)}} \times \vec{\tilde{\text{s}}}^{\top} + \displaystyle \sum_{i=1}^{n^{(17)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_pr)}} \times  \left(\vec{\text{pr}}^\text{(off)}\right)^{\top} + \\\\
+    + \delta_{\text{DoT}} \times \displaystyle \sum_{i=1}^{n^{(18)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_dot)}} + \delta_{\text{summons}} \times \displaystyle \sum_{i=1}^{n^{(19)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_summons)}}  \Bigg] \times \\\\
+    \times \left[1 - \displaystyle \sum_{i=1}^{n^{(20)}} \text{b}_\text{i}^{\text{(dmg\_red)}} \right] \times \\\\
+    \times \left[1 + \delta_{\text{fh/gr}} \times \text{b}_{\text{weak}} \right] \times \\\\
+    \times \left[1 + \delta_\text{ln} \times \text{b}_{\text{supp}} \right] \times \\\\
+    \times \delta_{\text{kb}}$    
+    
 
     ---
 
-    $\vec{\text{v}} = \begin{bmatrix}\text{\textcolor{ffe8aa}{ATK}}_\text{self} & \text{\textcolor{ffa6ff}{MATK}}_\text{self} & \text{\textcolor{orange}{HP}}_\text{self} & \text{\textcolor{white}{EG}}_\text{self} & \text{\textcolor{ffe8aa}{ATK}}_\text{enemy} & \text{\textcolor{ffa6ff}{MATK}}_\text{enemy} & \text{\textcolor{orange}{HP}}_\text{enemy} \end{bmatrix}$
+    $\vec{\text{v}} = \begin{pmatrix}\text{\textcolor{ffe8aa}{ATK}}_\text{self} & \text{\textcolor{ffa6ff}{MATK}}_\text{self} & \text{\textcolor{orange}{HP}}_\text{self} & \text{\textcolor{white}{EG}}_\text{self} & \text{\textcolor{ffe8aa}{ATK}}_\text{enemy} & \text{\textcolor{ffa6ff}{MATK}}_\text{enemy} & \text{\textcolor{orange}{HP}}_\text{enemy} \end{pmatrix}$
 
-    $\vec{\text{s}} = \begin{bmatrix}\delta\text{\textcolor{ffe8aa}{ATK}}_\text{self} & \delta\text{\textcolor{ffa6ff}{MATK}}_\text{self} & \delta\text{\textcolor{orange}{HP}}_\text{self} & \delta\text{\textcolor{white}{EG}}_\text{self} & \delta\text{\textcolor{ffe8aa}{ATK}}_\text{enemy} & \delta\text{\textcolor{ffa6ff}{MATK}}_\text{enemy} & \delta\text{\textcolor{orange}{HP}}_\text{enemy} \end{bmatrix}$
+    $\text{SM} = \begin{pmatrix}\text{SM}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{self}} & \text{SM}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{self}} & \text{SM}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{self}} & \text{SM}_{\text{i}}^{\text{\textcolor{white}{EG}}_\text{self}}& \text{SM}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{enemy}}& \text{SM}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{enemy}} & \text{SM}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{enemy}} \end{pmatrix}$
 
-    $\vec{\text{b}_\text{i}^{\text{off}}} = \begin{bmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{self}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{self}} & \text{b}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{self}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{white}{EG}}_\text{self}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{enemy}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{enemy}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{enemy}} \equiv 0 \end{bmatrix}$
+    $\vec{\text{s}} = \begin{pmatrix}\delta\text{\textcolor{ffe8aa}{ATK}}_\text{self} & \delta\text{\textcolor{ffa6ff}{MATK}}_\text{self} & \delta\text{\textcolor{orange}{HP}}_\text{self} & \delta\text{\textcolor{white}{EG}}_\text{self} & \delta\text{\textcolor{ffe8aa}{ATK}}_\text{enemy} & \delta\text{\textcolor{ffa6ff}{MATK}}_\text{enemy} & \delta\text{\textcolor{orange}{HP}}_\text{enemy} \end{pmatrix}$
 
-    $\vec{\text{d}_\text{i}^{\text{off}}} = \begin{bmatrix}\text{d}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{self}} & \text{d}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{self}} & \text{d}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{self}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{white}{EG}}_\text{self}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{enemy}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{enemy}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{enemy}} \equiv 0 \end{bmatrix}$
+    $\vec{\text{b}}_\text{i}^{\text{(off)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{self}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{self}} & \text{b}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{self}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{white}{EG}}_\text{self}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{enemy}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{enemy}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{enemy}} \equiv 0 \end{pmatrix}$
 
-    $\vec{\tilde{v}} = \begin{bmatrix}\text{\textcolor{ffe8aa}{DEF}} & \text{\textcolor{ffa6ff}{MRES}} \end{bmatrix}$
+    $\vec{\text{d}}_\text{i}^{\text{(off)}} = \begin{pmatrix}\text{d}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{self}} & \text{d}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{self}} & \text{d}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{self}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{white}{EG}}_\text{self}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{enemy}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{enemy}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{enemy}} \equiv 0 \end{pmatrix}$
 
-    $\vec{\tilde{s}} = \begin{bmatrix}\delta\text{\textcolor{ffe8aa}{Physical}} & \delta\text{\textcolor{ffa6ff}{Magical}} \end{bmatrix}$
+    $\vec{\tilde{\text{v}}} = \begin{pmatrix}\text{\textcolor{ffe8aa}{DEF}} & \text{\textcolor{ffa6ff}{MRES}} \end{pmatrix}$
 
-    $\vec{\text{b}_\text{i}^{\text{def}}} = \begin{bmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{DEF}}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MRES}}}\end{bmatrix}$
+    $\vec{\tilde{\text{s}}} = \begin{pmatrix}\delta\text{\textcolor{ffe8aa}{Physical}} & \delta\text{\textcolor{ffa6ff}{Magical}} \end{pmatrix}$
 
-    $\vec{\text{d}_\text{i}^{\text{def}}} = \begin{bmatrix}\text{d}_{\text{i}}^{\text{\textcolor{ffe8aa}{DEF}}} & \text{d}_{\text{i}}^{\text{\textcolor{ffa6ff}{MRES}}}\end{bmatrix}$
+    $\vec{\text{b}}_\text{i}^{\text{(def)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{DEF}}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MRES}}}\end{pmatrix}$
 
-    $\delta_{\text{pfc}} = \begin{bmatrix}\delta\text{Pure} & \delta\text{Fixed} & \delta\text{Consumed}\end{bmatrix} \cdot \begin{bmatrix}1 & 1 & 1\end{bmatrix}^{\top}$ 
+    $\vec{\text{d}}_\text{i}^{\text{(def)}} = \begin{pmatrix}\text{d}_{\text{i}}^{\text{\textcolor{ffe8aa}{DEF}}} & \text{d}_{\text{i}}^{\text{\textcolor{ffa6ff}{MRES}}}\end{pmatrix}$
+
+    $\delta_{\text{pfc}} = \begin{pmatrix}\delta\text{Pure} & \delta\text{Fixed} & \delta\text{Consumed}\end{pmatrix} \cdot \begin{pmatrix}1 & 1 & 1\end{pmatrix}^{\top}$
+    
+    $\delta_{\text{fc}} = \begin{pmatrix}\delta\text{Fixed} & \delta\text{Consumed}\end{pmatrix} \cdot \begin{pmatrix}1 & 1\end{pmatrix}^{\top}$ 
+
+    $\text{PR} = \begin{pmatrix}0 & 1 & -1 & 0 & 0 & 0 \\ -1 & 0 & 1 & 0 & 0 & 0 \\ 1 & -1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 & 0\end{pmatrix}$
+    
+    $\vec{\text{pr}}^\text{(off)} = \begin{pmatrix}\delta\text{Water} & \delta\text{Fire} & \delta\text{Wind} & \delta\text{Light} & \delta\text{Darkness} & \delta\text{Neutral}\end{pmatrix} \\\\
+    \vec{\text{pr}}^\text{(def)} = \begin{pmatrix}\delta\text{Water} & \delta\text{Fire} & \delta\text{Wind} & \delta\text{Light} & \delta\text{Darkness} & \delta\text{Neutral}\end{pmatrix}$
+
+    $\vec{\text{b}}_\text{i}^{\text{(pr)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{Water}} & \text{b}_{\text{i}}^{\text{Fire}} & \text{b}_{\text{i}}^{\text{Wind}} & \text{b}_{\text{i}}^{\text{Light}} & \text{b}_{\text{i}}^{\text{Darkness}} & \text{b}_{\text{i}}^{\text{Neutral}} \equiv 0 \end{pmatrix}$
+
+    $\vec{\text{d}}_\text{i}^{\text{(pr)}} = \begin{pmatrix}\text{d}_{\text{i}}^{\text{Water}} & \text{d}_{\text{i}}^{\text{Fire}} & \text{d}_{\text{i}}^{\text{Wind}} & \text{d}_{\text{i}}^{\text{Light}} & \text{d}_{\text{i}}^{\text{Darkness}} & \text{d}_{\text{i}}^{\text{Neutral}} \equiv 0 \end{pmatrix}$
+
+    $\vec{\text{v}}_\text{(pr)}^{\text{j}} = \begin{pmatrix}\text{v}_{\text{pr}}^{\text{j\_Water}} & \text{v}_{\text{pr}}^{\text{j\_Fire}} & \text{v}_{\text{pr}}^{\text{j\_Wind}} & \text{v}_{\text{pr}}^{\text{j\_Light}} & \text{v}_{\text{pr}}^{\text{j\_Darkness}} & \text{v}_{\text{pr}}^{\text{j\_Neutral}} \equiv 0 \end{pmatrix}$
+
+    $\vec{\text{b}}_\text{i}^{\text{(vuln\_dt)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{Vuln\_Physical}}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{Vuln\_Magical}}} \end{pmatrix}$
+
+    $\vec{\text{b}}_\text{i}^{\text{(vuln\_pr)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{Vuln\_Water}} & \text{b}_{\text{i}}^{\text{Vuln\_Fire}} & \text{b}_{\text{i}}^{\text{Vuln\_Wind}} & \text{b}_{\text{i}}^{\text{Vuln\_Light}} & \text{b}_{\text{i}}^{\text{Vuln\_Darkness}} & \text{b}_{\text{i}}^{\text{Vuln\_Neutral}} \end{pmatrix}$
+
+    $\delta_{\text{fh/gr}} = \begin{pmatrix}\delta\text{Fiend Hunter} & \delta\text{Guild Raid}\end{pmatrix} \cdot \begin{pmatrix}1 & 1\end{pmatrix}^{\top}$ 
 
 <div class="tab-align" markdown>
 === "$\text{\textcolor{ffe8aa}{ATK}}$"
@@ -1011,6 +1042,235 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
                     </td>
                     <td><strong>Masquerade Bunny Celia</strong></td>
                     <td>$4 \sim 6 \text{ Turns}$</td>
+                    <td align="center">$3 \sim 4$</td>
+                </tr>
+            </tbody>
+        </table>
+
+=== "$\text{Vulnerability}$"
+    Vulnerability is a **debuff** that increases damage recieved by enemy. There are 5 types of Vulnerability: 
+
+    * **General**, which increases damage in every instance
+    * **Damage Type-related**, which increases damage only to {{Physical}} **Physical**{.yellow} of {{Magical}} **Magical**{.magenta} damage type. 
+        * {{Physical}} **Physical**{.yellow} Vulnerability is described as **Vulnerability (Physical)**
+        * {{Magical}} **Magical**{.magenta} Vulnerability is described as **Vulnerability (Magic)**
+    * **Property-related**, that increases damage if only specific property deals damage
+    * **Summons-related**, that increases damage dealt by summons
+
+    ---
+
+    Similar to any other buff from same multiplier, different Vulnerabilities stack additively:
+
+    $\text{Total Vulnerability} = \text{Vulnerability 1} + \text{Vulnerability 2} + \dots$
+
+    ---
+
+    Costumes providing **General Vulnerability**:
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Vulnerability Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Robin Hood Zenith](../assets/images/damage-formula/illust_inven_char061402_101.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Robin Hood Zenith</strong></td>
+                    <td>$20\% \sim 100\%$</td>
+                    <td>$\text{4 Turns}$</td>
+                    <td align="center">$0 \sim 2$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Shadow Bunny Eleaneer](../assets/images/damage-formula/illust_inven_char061103_187.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Shadow Bunny Eleaneer</strong></td>
+                    <td>$30\% \sim 50\%$</td>
+                    <td>$\text{10 Turns} \newline \text{\textcolor{AFDBF5}{[Domain]}}$</td>
+                    <td align="center">$4 \sim 6$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Shadowed Dream Sonya](../assets/images/damage-formula/illust_inven_char003901_180.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Shadowed Dream Sonya</strong></td>
+                    <td>$55\% \sim 125\%$</td>
+                    <td>$\text{4 Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
+                    <td align="center">$3 \sim 4$</td>
+                </tr>
+            </tbody>
+        </table>
+
+    ---
+
+    Costumes providing {{Physical}} **Physical**{.yellow} **Vulnerability**:
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Vulnerability Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Game Club Rafina](../assets/images/damage-formula/illust_inven_char060706_118.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Game Club Rafina</strong></td>
+                    <td>$50\% \sim 100\%$</td>
+                    <td>$\text{4 Turns}$</td>
+                    <td align="center">$3 \sim 5$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Your Very Own Cat Eris](../assets/images/damage-formula/illust_inven_char020002_127.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Your Very Own Cat Eris</strong></td>
+                    <td>$100\% \sim 150\% \newline \text{\textcolor{AFDBF5}{[Main Target]}}$</td>
+                    <td>$\text{4 Turns}$</td>
+                    <td align="center">$4 \sim 6$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Young Lady Blade](../assets/images/damage-formula/illust_inven_char003703_166.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Young Lady Blade</strong></td>
+                    <td>$100\% \sim 150\% \newline \text{\textcolor{AFDBF5}{[Main Target]}}$</td>
+                    <td>$\text{4 Turns}$</td>
+                    <td align="center">$4 \sim 5$</td>
+                </tr>
+            </tbody>
+        </table>
+
+    ---
+
+    Costumes providing {{Magical}} **Magical**{.magenta} **Vulnerability**:
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Vulnerability Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Track and Field Captain Levia](../assets/images/damage-formula/illust_inven_char067301_132.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Track and Field Captain Levia</strong></td>
+                    <td>$60\% \sim 120\% \newline \text{\textcolor{AFDBF5}{[Main Target]}} \newline 40\% \sim 100\% \newline \text{\textcolor{AFDBF5}{[Otherwise]}}$</td>
+                    <td>$\text{4 Turns}$</td>
+                    <td align="center">$4 \sim 5$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Earth Mother Believer Priestess](../assets/images/damage-formula/illust_inven_char020701_161.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Earth Mother Believer Priestess</strong></td>
+                    <td>$50\% \sim 75\%$</td>
+                    <td>$\text{2 Turns}$</td>
+                    <td align="center">$3 \sim 4$</td>
+                </tr>
+            </tbody>
+        </table>
+
+    ---
+
+    Costumes providing **DoT Vulnerability**:
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Vulnerability Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Maid Bikini Rubia](../assets/images/damage-formula/illust_inven_char000807_178.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Maid Bikini Rubia</strong></td>
+                    <td>$150\% \sim 300\%$</td>
+                    <td>$\text{4 Turns}$</td>
+                    <td align="center">$3 \sim 4$</td>
+                </tr>
+            </tbody>
+        </table>
+
+    ---
+
+    Costumes providing **Summons Vulnerability**:
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Vulnerability Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Apostle Morpeah](../assets/images/damage-formula/illust_inven_char003403_169.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Apostle Morpeah</strong></td>
+                    <td>$100\% \sim 180\%$</td>
+                    <td>$\text{2 Turns}$</td>
+                    <td align="center">$1 \sim 3$</td>
+                </tr>
+            </tbody>
+        </table>
+
+    ---
+
+    Costumes providing **Property Vulnerability**:
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Vulnerability Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Wind Dancer Venaka](../assets/images/damage-formula/illust_inven_char067202_147.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Wind Dancer Venaka</strong></td>
+                    <td>$75\% \sim 150\% \newline \text{\textcolor{AFDBF5}{[Wind]}}$</td>
+                    <td>$\text{4 Turns}$</td>
+                    <td align="center">$3 \sim 4$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Onsen Practitioner Ventana](../assets/images/damage-formula/illust_inven_char067004_157.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Onsen Practitioner Ventana</strong></td>
+                    <td>$100\% \sim 200\% \newline \text{\textcolor{AFDBF5}{[Light]}}$</td>
+                    <td>$6 \sim 10 \text{ Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
+                    <td align="center">$2 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Shadowed Dream Sonya](../assets/images/damage-formula/illust_inven_char003901_180.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Shadowed Dream Sonya</strong></td>
+                    <td>$75\% \sim 175\% \newline \text{\textcolor{AFDBF5}{[Darkness]}}$</td>
+                    <td>$\text{4 Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
                     <td align="center">$3 \sim 4$</td>
                 </tr>
             </tbody>

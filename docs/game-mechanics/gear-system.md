@@ -190,6 +190,7 @@ Each reroll uses currency — {{Gold}} **Gold** and either {{Refining_Stone}} **
 * For {{SR_Grade}} and {{UR_Grade}} gear, both can be used, with {{Refining_Stone}} **Refining Stones** taking priority. They basically act as {{Refining_Crystal}} **Refining Crystals** at a 10:1 ratio. You cannot spend Crystals before depleting Stones first, although it is more convenient this way.
 
 To do the reroll, press the **Option Refinement** button. After that, you're given a choice of **keeping previous stats *(Keep Option button)***, **taking new stats *(Confirm button)*** or **rerolling once more *(Retry button)***.
+
     * You can leave your choice unconfirmed for up to 12 hours. After that, the game will keep the previous ones.
 
 ??? image "Reroll Image"
