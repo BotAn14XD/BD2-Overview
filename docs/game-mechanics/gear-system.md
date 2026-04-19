@@ -191,7 +191,7 @@ Each reroll uses currency — {{Gold}} **Gold** and either {{Refining_Stone}} **
 
 To do the reroll, press the **Option Refinement** button. After that, you're given a choice of **keeping previous stats *(Keep Option button)***, **taking new stats *(Confirm button)*** or **rerolling once more *(Retry button)***.
 
-    * You can leave your choice unconfirmed for up to 12 hours. After that, the game will keep the previous ones.
+* You can leave your choice unconfirmed for up to 12 hours. After that, the game will keep the previous ones.
 
 ??? image "Reroll Image"
     ![Reroll Image](../assets/images/gear-system/reroll_confirm.avif)

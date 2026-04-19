@@ -156,8 +156,8 @@ html {
 }
 
 .tab-align .tabbed-labels {
-    justify-content: center !important;
-    display: flex !important;
+    justify-content: safe center !important;
+    display: flex-start !important;
 }
 
 
@@ -278,7 +278,6 @@ table.data-table {
     height: auto;
 }
 
-/* The "Victim" column (Skill Values) */
 .data-table td:nth-child(3) {
     width: auto;
     text-align: right;
