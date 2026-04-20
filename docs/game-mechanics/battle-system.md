@@ -93,11 +93,11 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
     * Chains last for 1 turn and are reset after, except some seasons of [**Golden Colosseum**](../content-packs/golden-colosseum.md).
     * Chains have cap of 100, except [**Last Night**](../content-packs/last-night.md).
     * Chains increases are added into same multiplier, thus it is a buff with diminishing returns.<br><br>
-    * Effect called **Chain Reiforcement** <u>**adds +1 chain per hit**</u>. 
+    * Effect called **Chain Reinforcement** <u>**adds +1 chain per hit**</u>. 
     !!! question "Example"
-        * **The Cursed Celia** without any buffs **hits 7 times** and **provides 7 chains**.
-        * **The Cursed Celia** with buff from **Masquerade Bunny Celia** (1 Chain Reinforcement) **provides 14 chains** instead.
-        * **The Cursed Celia** with buffs from **Masquerade Bunny Celia** and **Pure White Blessing Refithea** (2 Chain Reinforcement) **provides 21 chains** instead.
+        * **The Curse Celia** without any buffs **hits 7 times** and **provides 7 chains**.
+        * **The Curse Celia** with buff from **Masquerade Bunny Celia** (1 Chain Reinforcement) **provides 14 chains** instead.
+        * **The Curse Celia** with buffs from **Masquerade Bunny Celia** and **Pure White Blessing Refithea** (2 Chain Reinforcement) **provides 21 chains** instead.
 
 ---
 

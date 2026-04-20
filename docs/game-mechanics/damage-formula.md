@@ -53,7 +53,11 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
 
     ---
 
-    $\vec{\text{v}} = \begin{pmatrix}\text{\textcolor{ffe8aa}{ATK}}_\text{self} & \text{\textcolor{ffa6ff}{MATK}}_\text{self} & \text{\textcolor{orange}{HP}}_\text{self} & \text{\textcolor{white}{EG}}_\text{self} & \text{\textcolor{ffe8aa}{ATK}}_\text{enemy} & \text{\textcolor{ffa6ff}{MATK}}_\text{enemy} & \text{\textcolor{orange}{HP}}_\text{enemy} \end{pmatrix}$
+    $\vec{\text{v}} = \begin{pmatrix}\text{\textcolor{ffe8aa}{ATK}}_\text{self} & \text{\textcolor{ffa6ff}{MATK}}_\text{self} & \text{\textcolor{orange}{HP}}_\text{self}^{\text{cap}} & \text{\textcolor{white}{EG}}_\text{self} & \text{\textcolor{ffe8aa}{ATK}}_\text{enemy} & \text{\textcolor{ffa6ff}{MATK}}_\text{enemy} & \text{\textcolor{orange}{HP}}_\text{enemy}^{\text{cap}} \end{pmatrix}$
+
+    $\text{\textcolor{orange}{HP}}_\text{self}^{\text{cap}} = \min \left(5\cdot 10^4,\text{\textcolor{orange}{HP}}_\text{self}\right) \\\\$
+
+    $\text{\textcolor{orange}{HP}}_\text{enemy}^{\text{cap}} = \min \left(5\cdot 10^4,\text{\textcolor{orange}{HP}}_\text{enemy}\right) \\\\$
 
     $\text{SM} = \begin{pmatrix}\text{SM}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{self}} & \text{SM}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{self}} & \text{SM}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{self}} & \text{SM}_{\text{i}}^{\text{\textcolor{white}{EG}}_\text{self}}& \text{SM}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{enemy}}& \text{SM}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{enemy}} & \text{SM}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{enemy}} \end{pmatrix}$
 
@@ -1280,8 +1284,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
 
 
 
-## Additional Effects
+<!--## Additional Effects
 
 Death Time
 
-Enviromental
+Enviromental--> 
