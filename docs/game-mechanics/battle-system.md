@@ -389,7 +389,7 @@ To use it, press on the chibi character **before turn 1** and press **Set Costum
 ??? image "Image Guide"
     ![Set Order Guide](../assets/images/battle-system/set_costume_order_guide.avif)
 
-In opened menu, you will see 10 slots, corresponding to each of your Turns (up to 19th Turn) where you can put any of skills, basic attack or knockback.
+In opened menu, you will see 10 slots, corresponding to each of your skill activation where you can put any of skills, basic attack or knockback.
 
 * Selection will override your manual attempts to choose different skill during given turn. 
 * Selection will oblige to game rules, meaning it won't activate the skill if you don't have enough SP or it's on cooldown.

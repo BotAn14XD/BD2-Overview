@@ -26,7 +26,9 @@ nav:
     - 'Main Page': index.md
     - 'Game Mechanics':
         - 'Battle System': game-mechanics/battle-system.md
+        - 'Damage Formula': game-mechanics/damage-formula.md
         - 'Gear System': game-mechanics/gear-system.md
+
     - 'Characters info':
         - 'Potential Liberation': character-info/potential-liberation.md
     - 'Content Packs':
@@ -37,6 +39,10 @@ nav:
         - 'Glupy Diner': content-packs/glupy-diner.md
         - 'Golden Colosseum': content-packs/golden-colosseum.md
         - 'Fantasia Square': content-packs/fantasia-square.md
+    - 'Miscellaneous':
+        - 'Game Slang': miscellaneous/game-slang.md
+    - '---': '#'
+    - 'Banner Recommendations': https://zormolo.github.io/BD2-Banner-Recommendation/
 repo_name: BotAn14XD/BD2-Overview
 repo_url: https://github.com/BotAn14XD/BD2-Overview
 extra_css:

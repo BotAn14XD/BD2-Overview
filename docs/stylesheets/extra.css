@@ -282,3 +282,101 @@ table.data-table {
     width: auto;
     text-align: right;
 }
+
+li.md-nav__item:has(a[href$="#"]) {
+    margin-top: 10px !important;
+}
+
+.md-nav__link[href$="#"] {
+    pointer-events: none;
+    cursor: default;
+    font-size: 0 !important;
+    display: block !important;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 0 !important;
+    margin-top: 1.2em !important;
+    margin-bottom: 1.2em !important;
+
+}
+.md-nav__item:has(a[href$="#"]) {
+    background: transparent !important;
+}
+
+.md-typeset ul.slang-list {
+    list-style-type: none !important;
+    padding-left: 0 !important;
+    margin-top: 15px;
+}
+
+.md-typeset .letter-heading {
+    color: #AFDBF5 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15); 
+    padding-bottom: 8px;
+    margin-top: 40px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.md-typeset .slang-item {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 0;
+    padding: 20px 0;
+    display: block;
+}
+
+.md-typeset .slang-item:last-child {
+    border-bottom: none;
+}
+
+.md-typeset .slang-item h3 {
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+    color: #AFDBF5 !important;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.md-typeset .slang-item p {
+    margin: 0;
+    line-height: 1.6;
+    color: var(--md-default-fg-color); /* Uses the native theme text color */
+}
+
+.md-typeset .alias-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.md-typeset .alias-tag {
+    background-color: rgba(175, 219, 245, 0.15);
+    color: #AFDBF5;
+    border: 1px solid rgba(175, 219, 245, 0.3);
+    border-radius: 12px;
+    padding: 3px 10px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.slang-search-box {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--md-typeset-table-color);
+    background: var(--md-code-bg-color);
+    color: var(--md-typeset-color);
+    box-sizing: border-box;
+    font-size: 16px; 
+    transition: border-color 0.3s;
+}
+
+.slang-search-box:focus {
+    outline: none;
+    border-color: var(--md-primary-fg-color);
+}   

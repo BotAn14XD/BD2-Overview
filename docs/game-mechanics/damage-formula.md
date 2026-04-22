@@ -4,13 +4,13 @@
     WIP
 
 ## Damage Formula
-$\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[1,2]}} \\\\
+$\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MATK} / \textcolor{orange}{HP}}^{\textcolor{AFDBF5}{[1]}} \text{/ \textcolor{white}{EG}}^{\textcolor{AFDBF5}{[2]}}\text{]}^{\textcolor{AFDBF5}{[3]}}  \\\\
 \times \; \text{Skill\%} \\\\
-\times \; (100\% + \text{\textcolor{ffe8aa}{ATK\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{ffe8aa}{ATK\%} Debuffs})^{\textcolor{AFDBF5}{[3]}} \\\\
-\times \; (100\% + \text{\textcolor{white}{CDMG\%}} + \text{\textcolor{white}{CDMG\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{white}{CDMG\%} Debuffs})^{\textcolor{AFDBF5}{[4]}} \\
-\times \; (100\% + (10\% + \text{Increase Chain DMG\%}) \times \text{Chains}) \\\\
+\times \; (100\% + \text{\textcolor{ffe8aa}{ATK\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{ffe8aa}{ATK\%} Debuffs})^{\textcolor{AFDBF5}{[4]}} \\\\
+\times \; (100\% + \text{\textcolor{white}{CDMG\%}} + \text{\textcolor{white}{CDMG\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{white}{CDMG\%} Debuffs})^{\textcolor{AFDBF5}{[5]}} \\
+\times \; (100\% + (10\% + \text{Increase Chain DMG\%}) \times \text{Chains})^{\textcolor{AFDBD5}{[6]}} \\\\
 \times \; (100\% + \text{Target's Vulnerability Debuffs\%} + \text{DMG Increase\% Buffs}) \\\\
-\times \; (100\% + \text{\textcolor{8A9A5B}{Property Damage\%}} + \text{Season Buff\%} + \text{\textcolor{8A9A5B}{Property Damage\%} Buffs} \times [100\% - \text{Pressure\%}]  )^\text{[5]} \\\\
+\times \; (100\% + \text{\textcolor{8A9A5B}{Property Damage\%}} + \text{Season Buff\%}^{\textcolor{AFDBD5}{[7]}} + \text{\textcolor{8A9A5B}{Property Damage\%} Buffs} \times [100\% - \text{Pressure\%}]  )^\text{[8]} \\\\
 \times \; (100\% - (\text{Target's \textcolor{ffe8aa}{DEF\%}} + \text{Target's \textcolor{ffe8aa}{DEF\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{Target's \textcolor{ffe8aa}{DEF\%} Debuffs}))^{\textcolor{AFDBF5}{[6,7]}} \\\\  
 \times \; (100\% - \text{Target's DMG Reduction\% Buffs}) \\\\
 \times \; (100\% - \text{Target's \textcolor{8A9A5B}{Property Resist\%}})^\text{[6]} \\\\
@@ -22,11 +22,19 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
 
     ${\textcolor{AFDBF5}{[2]}}$: **Energy Guard** damage (from Boo Ghost Granhildr) counts as {{HP}} **HP**{.orange} damage, but **has no cap value**.
 
-    ${\textcolor{AFDBF5}{[3]}}$: {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Buffs are **irrelevant** when character deals damage based on **own / enemy** {{HP}} **HP**{.orange}.
+    ${\textcolor{AFDBF5}{[3]}}$: Necessary attribute depends on the Costume ability. Refer to [this](#__tabbed_1_1) section to learn more.
+
+    ${\textcolor{AFDBF5}{[]}}$: {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Buffs are **irrelevant** when character deals damage based on **own / enemy** {{HP}} **HP**{.orange}.
 
     Buffs are **relevant** if character uses **enemy** {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} to deal damage.
 
-    ${\textcolor{AFDBF5}{[4]}}$: Applied only when character **crits**. Characters with [**Fixed Damage**](../game-mechanics/battle-system.md#different-damage-types) cannot crit, making this multiplier equal to $1$.
+    ${\textcolor{AFDBF5}{[5]}}$: Applied only when character **crits**. Characters with [**Fixed Damage**](../game-mechanics/battle-system.md#different-damage-types) cannot crit, making this multiplier equal to $1$.
+
+    ${\textcolor{AFDBF5}{[6]}}$: Unless the fight disables the chain mechanic (some Story Pack bosses).
+
+    ${\textcolor{AFDBF5}{[7]}}$: Currently appliable only to [Evil Castle](../content-packs/evil-castle.md) battles.
+
+    ${\textcolor{AFDBF5}{[8]}}$: Mutually exclusive to $\text{Property Resist\%}$ multiplier.
 
 ??? example "Pure Math Formula (FOR MATH NERDS ONLY)"
     $\text{Damage} = 
@@ -41,7 +49,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
     \times \Bigg[ \max \Biggl(1,\Bigg[ 1 + \left(\left(1-\delta_{\text{fc}} \right) \times \mathcal{H}\left(\text{v}^{\text{cr}} + \displaystyle \sum_{i=1}^{n^{(5)}} \text{b}_\text{i}^{\text{(cr)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(6)}}\text{d}_\text{i}^{\text{(cr)}}- \mathcal{U}\left(0,1\right) \right) \right) \times \\\\ 
     \times \left(\text{v}^{\text{(cdmg)}} + \displaystyle \sum_{i=1}^{n^{(7)}} \text{b}_\text{i}^{\text{(cdmg)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(8)}}\text{d}_\text{i}^{\text{(cdmg)}}\right) \Bigg]\Bigg)\Bigg] \times \\\\
     \times \Bigg[1+\max \left(0, \vec{\text{pr}}^\text{(off)} \times \text{PR} \times \left(\vec{\text{pr}}^\text{(def)}\right)^{\top}\right) \times \left( \vec{\text{v}}_{\text{pr}}^{\text{(off)}} + \displaystyle \sum_{i=1}^{n^{(9)}} \vec{\text{b}}_\text{i}^{\text{(pr\_off)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(10)}} \vec{\text{d}}_\text{i}^{\text{(pr)}}\right)+\\\\
-    +\min \left(0, \vec{\text{pr}}^\text{(off)} \times \text{PR} \times \left(\vec{\text{pr}}^\text{(def)}\right)^{\top}\right) \times \left( \vec{\text{v}}_{\text{pr}}^{\text{(def)}} + \displaystyle \sum_{i=1}^{n^{(11)}} \vec{\text{b}}_\text{i}^{\text{(pr\_def)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(12)}} \vec{\text{d}}_\text{i}^{\text{(pr)}}\right) \Bigg] \times \\\\
+    +\min \left(0, \vec{\text{pr}}^\text{(off)} \times \text{PR} \times \left(\vec{\text{pr}}^\text{(def)}\right)^{\top}\right) \times \left( \vec{\text{v}}_{\text{pr}}^{\text{(def)}} + \displaystyle \sum_{i=1}^{n^{(11)}} \vec{\text{b}}_\text{i}^{\text{(pr\_def)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(12)}} \vec{\text{d}}_\text{i}^{\text{(pr)}}\right) + \\\\
+    + \delta_{\text{EC}} \times \text{b}^{\text{EC}} \Bigg] \times \\\\
     \times \left[1 + \delta_{\text{chains}} \times \left(0.1 + \displaystyle \sum_{i=1}^{n^{(13)}} \text{b}_\text{i}^{\text{(chains)}} \right) \times \text{v}^{\text{(chains)}} \right] \times \\\\
     \times \Bigg[1 + \displaystyle \sum_{i=1}^{n^{(14)}} \text{b}_\text{i}^{\text{(aug)}} + \displaystyle \sum_{i=1}^{n^{(15)}} \text{b}_\text{i}^{\text{(vuln\_gen)}} + \displaystyle \sum_{i=1}^{n^{(16)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_dt)}} \times \vec{\tilde{\text{s}}}^{\top} + \displaystyle \sum_{i=1}^{n^{(17)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_pr)}} \times  \left(\vec{\text{pr}}^\text{(off)}\right)^{\top} + \\\\
     + \delta_{\text{DoT}} \times \displaystyle \sum_{i=1}^{n^{(18)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_dot)}} + \delta_{\text{summons}} \times \displaystyle \sum_{i=1}^{n^{(19)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_summons)}}  \Bigg] \times \\\\
@@ -254,7 +263,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
             </tr>
             <tr>
                 <td align="center">
-                ![Onsen Swordfighter Blade](../assets/images/damage-formula/illust_inven_char003303_149.avif){.icon-portrait}
+                ![Onsen Swordfighter Blade](../assets/images/damage-formula/illust_inven_char003702_158.avif){.icon-portrait}
                 </td>
                 <td><strong>Onsen Swordfighter<br>Blade</strong></td>
                 <td>$[350\% \sim 600\%] + [70\% \sim 120\%] \times \text{Debuffs Applied on enemy}$</td>
@@ -609,10 +618,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
     * **Property Damage**
 
     !!! example "Example"
-        Maxed **Medical Club Teresse, which would give $120\%$ {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} buff, would only apply $60\%$ instead. 
+        Maxed **Medical Club Teresse**, which would give $120\%$ {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} buff, would only apply $60\%$ instead. 
 
         On the countrary, her **Beachside Angel** costume will still give 200% Augmentation Buff as if it's not considered a stat-boosting buff.
 
+    ??? image "Pressure Effect in a fight"
+        ![Pressure Effect in a fight](../assets/images/damage-formula/pressure.avif)
 === "$\text{\textcolor{ffe8aa}{ATK\%} Debuffs}$"
 
     {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Debuffs are straightforward: they reduce character's {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}. 
@@ -622,6 +633,11 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
     This debuff is considered as Weakening, so any enemy with **Immune to Weakening** Status Effect will ignore the reduction. 
 
     Additionally, despite {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Debuffs, damage will always be $\ge 1$ even with 0 {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} on the enemy.
+
+    ---
+    As was said above, these debuffs are not very widely used, especially since a lot of bosses have Weakness immunity or you can sustain just fine, while in PvP there are buffs pretty much nullifying your debuffs. 
+
+    However, worth mentioning there are Story Pack fights such as **Partan** (Story Pack 11) and **Nox** (Story Pack 12), where you can use **Gynt** and **Remnunt** to extend fight to the Death Time, where you will deal increased damage to the boss.
 
     ---
         
@@ -851,6 +867,15 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
                     <td>$100\%$</td>
                     <td>$\text{2 Turns}$</td>
                     <td align="center">$3 \sim 4$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Magical Rose Liberta](../assets/images/damage-formula/illust_inven_char050201_156.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Magical Rose Liberta</strong></td>
+                    <td>$40 \sim 100\%$</td>
+                    <td>$\text{1 Turn}$</td>
+                    <td align="center">$1 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1276,6 +1301,435 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK}}^{\textcolor{AFDBF5}{[
                     <td>$75\% \sim 175\% \newline \text{\textcolor{AFDBF5}{[Darkness]}}$</td>
                     <td>$\text{4 Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
                     <td align="center">$3 \sim 4$</td>
+                </tr>
+            </tbody>
+        </table>
+
+=== "$\text{DMG Increase\%}$"
+
+    $\text{DMG Increase\%}$ Buffs are buffs that technically act as reverse [**Vulnerability**](#__tabbed_1_8), increasing **own characters** damage instead of forcing enemy to take more damage.
+
+    So far, all these buffs are called **Augmentation**, which you can think of buff with conditions. The condition can be either related to chains, times getting hit or amount of debuffs being removed from allies. 
+
+    In other words, it is similar to Conditional [$\text{Skill\%}$](#__tabbed_1_2) in a way.
+
+    ---
+
+    As always, this type of buffs from different sources is additive:
+
+    $ \text{Total DMG Increase\%} = \text{DMG Increase\% 1} + \text{DMG Increase\% 2} + \dots$
+
+    ---
+
+    However, since this buffs belong to the same bracked as **Vulnerability**, note that high Vulnerability will decrease efficiency of these buffs. 
+
+    ---
+
+    Costumes providing $\text{DMG Increase\%}$ Buffs **to allies**:
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Buff Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Beachside Angel Teresse](../assets/images/damage-formula/illust_inven_char001107_135.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Beachside Angel<br>Teresse</strong></td>
+                    <td>$100\% \sim 200\% \newline \text{\textcolor{AFDBF5}{[When attacking enemy}} \newline \text{\textcolor{AFDBF5}{with a Chain count 5 or less]}}$</td>
+                    <td>$4 \sim 8 \text{ Turns}$</td>
+                    <td align="center">$2 \sim 4$</td>
+                </tr>
+                <tr>
+                    <td align="center" rowspan="2">
+                    ![Shrine Mainen of Purification Granadair](../assets/images/damage-formula/illust_inven_char067701_193.avif){.icon-portrait}
+                    </td>
+                    <td rowspan="2"><strong>Shrine Mainen<br>of Purification<br>Granadair</strong></td>
+                    <td>$75\% \sim 120\%$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
+                    <td align="center" rowspan="2">$3 \sim 4$</td>
+                </tr>
+                <tr>
+                    <td>$10\% \times \text{\textcolor{AFDBF5}{Debuffs Absorbed}}$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Onsen Manager Liberta](../assets/images/damage-formula/illust_inven_char003802_159.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Onsen Manager<br>Liberta</strong></td>
+                    <td>$80\% \sim 130\% \newline \text{\textcolor{AFDBF5}{[When attacking enemy}} \newline \text{\textcolor{AFDBF5}{with 10 Chains or more]}}$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
+                    <td align="center">$2 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![New Hire Seir](../assets/images/damage-formula/illust_inven_char101103_150.avif){.icon-portrait}
+                    </td>
+                    <td><strong>New Hire<br>Seir</strong></td>
+                    <td>$10\% \sim 22\% \times \newline \text{\textcolor{AFDBF5}{[Amount of times}} \newline \text{\textcolor{AFDBF5}{Seir gets hit]}}$</td>
+                    <td>$6 \sim 8 \text{ Turns}$</td>
+                    <td align="center">$2 \sim 3$</td>
+                </tr>
+            </tbody>
+        </table>
+
+    ---
+
+    Costumes providing $\text{DMG Increase\%}$ Buffs to **themselves only**:
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Buff Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Labyrinth Gatekeeper Nebris](../assets/images/damage-formula/illust_inven_char003301_146.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Labyrinth Gatekeeper<br>Nebris</strong></td>
+                    <td>$100\% \sim 150\% \newline \text{\textcolor{AFDBF5}{[If no Augmentation}} \newline \text{\textcolor{AFDBF5}{Status Effect]}}$</td>
+                    <td>$6 \text{ Turns}$</td>
+                    <td align="center">$3 \sim 4$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Fist of Conviction Yozakura](../assets/images/damage-formula/illust_inven_char020301_141.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Fist of Conviction<br>Yozakura</strong></td>
+                    <td>$400\% \sim 1200\% \newline \text{\textcolor{AFDBF5}{[For 1 next}} \newline  \text{\textcolor{AFDBF5}{Basic Attack]}}$</td>
+                    <td>$\text{Until} \newline \text{Basic Attack}$</td>
+                    <td align="center">$4 \sim 5$</td>
+                </tr>
+            </tbody>
+        </table>
+
+=== "$\text{\textcolor{8A9A5B}{Property}}$"
+    Property is another aspect of any character. There are total of 6 Properties: ![Water](../assets/images/battle-system/icons/elementicon1_1.avif){.icon} Water, ![Fire](../assets/images/battle-system/icons/elementicon2_2.avif){.icon} Fire, ![Wind](../assets/images/battle-system/icons/elementicon3_3.avif){.icon} Wind, ![Light](../assets/images/battle-system/icons/elementicon4_4.avif){.icon} Light, ![Darkness](../assets/images/battle-system/icons/elementicon5_5.avif){.icon} Darkness and ![Neutral](../assets/images/battle-system/icons/elementicon6_6.avif){.icon} Neutral.
+
+    Depending on what the opponent, there can be 3 incomes: 
+
+    * You gain **Property Advantage**, dealing **extra damage** due to superior Property
+    * You neither deal more nor deal less damage, due to Neutral enemy or cases like Light -> Water. 
+    * You deal **less damage** due to **Property Disadvantage**, .
+
+    ---
+
+    Similar to any other buff, \text{Property Damage\% Buffs} stack additively: 
+    $\text{\textcolor{8A9A5B}{Property Damage\%} Total Buffs} = \text{\textcolor{8A9A5B}{Property Damage\%} Buff 1} + \text{\textcolor{8A9A5B}{Property Damage\%} Buff 2} + \dots$
+
+    ---
+
+    $\text{\textcolor{8A9A5B}{Property Damage\%}}$ in the formula refers to the **character's own** Property Damage. Usually it consists of initial, awakening and [bond](../character-info/potential-liberation.md) one:
+
+    $\text{\textcolor{8A9A5B}{Property Damage\%}} = 50\% + \text{\textcolor{8A9A5B}{Property Damage\%} from Awakening} + \text{\textcolor{8A9A5B}{Property Damage\%} from Bond}$
+
+    ---
+
+    Costumes providing $\text{Property Damage\%}$ buffs **to allies**:
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Buff Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Adventurer of the Unknown Diana](../assets/images/damage-formula/illust_inven_char002401_58.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Adventurer of the Unknown<br>Diana</strong></td>
+                    <td>$100\% \sim 220\%$</td>
+                    <td>$\text{8 Turns} \newline \text{\textcolor{AFDBF5}{[Aura]}}$</td>
+                    <td align="center">$2 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Magical Innovator Diana](../assets/images/damage-formula/illust_inven_char002403_195.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Magical Innovator<br>Diana</strong></td>
+                    <td>$25\% \sim 200\% \newline \text{\textcolor{AFDBF5}{[Per Summon]}}$</td>
+                    <td>$\text{4 Turns}$</td>
+                    <td align="center">$3 \sim 5 + 1 \text{ per activation}$</td>
+                </tr>                
+                <tr>
+                    <td align="center">
+                    ![Pure White Blessing Refithea](../assets/images/damage-formula/illust_inven_char066802_121.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Pure White Blessing<Br>Refithea</strong></td>
+                    <td>$40\% \sim 100\%$</td>
+                    <td>$\text{2 Turns}$</td>
+                    <td align="center">$2 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Poolside Fairy Refithea](../assets/images/damage-formula/illust_inven_char066803_173.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Poolside Fairy<br>Refithea</strong></td>
+                    <td>$\newline 50\% \sim 100\% \newline \text{\textcolor{AFDBF5}{[if Light Property]}} \newline 25\% \sim 50\% \newline \text{\textcolor{AFDBF5}{[otherwise]}}$</td>
+                    <td>$\text{8 Turns}$</td>
+                    <td align="center">$6 \sim 7$</td>
+                </tr>
+            </tbody>
+        </table>
+
+    ---
+
+    Costumes providing $\text{Property Damage\%}$ buffs to **themselves only**:
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Buff Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Frozen Queen Wilhelmina](../assets/images/damage-formula/illust_inven_char067604_189.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Frozen Queen<br>Wilhelmina</strong></td>
+                    <td>$30\% \sim 60\%$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
+                    <td align="center">$3 \sim 5$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Laid-back Lifeguard Nebris](../assets/images/damage-formula/illust_inven_char003302_130.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Laid-back Lifeguard<br>Nebris</strong></td>
+                    <td>$50\%$</td>
+                    <td>$\text{2 Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
+                    <td align="center">$3 \sim 4$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Blood Glutton Justia](../assets/images/damage-formula/illust_inven_char000203_41.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Blood Glutton<br>Justia</strong></td>
+                    <td>$200\% \sim 400\%$</td>
+                    <td>$\text{8 Turns}$</td>
+                    <td align="center">$2 \sim 3$</td>
+                </tr>
+            </tbody>
+        </table>
+
+=== "$\text{\textcolor{ffe8aa}{DEF}}$"
+    {{DEF}} $\text{\textcolor{ffe8aa}{DEF}}$ / {{MRES}} $\text{\textcolor{ffa6ff}{MRES}}$ are two main stats of a character. They correspond for reducing damage from the enemy. 
+
+    * $\text{\textcolor{ffe8aa}{DEF}}$ decreases all incoming {{Physical}} **Physical**{.yellow} Damage.
+    * $\text{\textcolor{ffa6ff}{MRES}}$ decreases all incoming {{Magical}} **Magical**{.magenta} Damage.
+
+    ---
+
+    During calculations, $\text{\textcolor{ffe8aa}{DEF}}$ / $\text{\textcolor{ffa6ff}{MRES}}$ are capped at $90\%$. That means no matter how high stat is, only maximum of $90\%$ will be used. This, however, does not actually remove anything above that mark, meaning going above can be useful when facing $\text{\textcolor{ffe8aa}{DEF}}$ / $\text{\textcolor{ffa6ff}{MRES}}$ **Reduction**.
+
+    ---
+
+    **Fixed**, **Consumed** and **Pure** Damages ignore $\text{\textcolor{ffe8aa}{DEF}}$ / $\text{\textcolor{ffa6ff}{MRES}}$ completely.
+
+    ---
+    
+    Costumes providing {{DEF}} $\text{\textcolor{ffe8aa}{DEF\%}}$ reduction:
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Debuff Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Code Name A Rafina](../assets/images/damage-formula/illust_inven_char060702_49.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Code Name A<br>Rafina</strong></td>
+                    <td>$50\%$</td>
+                    <td>$4 \text{ Turns}$</td>
+                    <td align="center">$3 \sim 5$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Empress of the Ocean Rubia](../assets/images/damage-formula/illust_inven_char000804_74.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Empress of the Ocean<br>Rubia</strong></td>
+                    <td>$25\% \sim 45\%$</td>
+                    <td>$4 \text{ Turns}$</td>
+                    <td align="center">$4 \sim 5$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Lovely Lady Elise](../assets/images/damage-formula/illust_inven_char060801_82.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Lovely Lady<br>Elise</strong></td>
+                    <td>$50\%$</td>
+                    <td>$4 \sim 6\text{ Turns}$</td>
+                    <td align="center">$3 \sim 5$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![B-Rank Manager Gray](../assets/images/damage-formula/illust_inven_char000402_24.avif){.icon-portrait}
+                    </td>
+                    <td><strong>B-Rank Manager<br>Gray</strong></td>
+                    <td>$50\%$</td>
+                    <td>$2\text{ Turns}$</td>
+                    <td align="center">$2 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Nature's Claw Rou](../assets/images/damage-formula/illust_inven_char000504_71.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Nature's Claw<br>Rou</strong></td>
+                    <td>$20\%$</td>
+                    <td>$2\text{ Turns}$</td>
+                    <td align="center">$3 \sim 5$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![The Curse Celia](../assets/images/damage-formula/illust_inven_char101601_78.avif){.icon-portrait}
+                    </td>
+                    <td><strong>The Curse<br>Celia</strong></td>
+                    <td>$10\%$</td>
+                    <td>$2 \text{ Turns}$</td>
+                    <td align="center">$4 \sim 5$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![B-Rank Idol Eleanner](../assets/images/damage-formula/illust_inven_char061102_27.avif){.icon-portrait}
+                    </td>
+                    <td><strong>B-Rank Idol<br>Eleanner</strong></td>
+                    <td>$20\%$</td>
+                    <td>$2 \text{ Turns}$</td>
+                    <td align="center">$3 \sim 5$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Liberated Marauder Kry](../assets/images/damage-formula/illust_inven_char101501_65.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Liberated Marauder<br>Kry</strong></td>
+                    <td>$50\%$</td>
+                    <td>$4 \text{ Turns}$</td>
+                    <td align="center">$4 \sim 5$</td>
+                </tr>
+            </tbody>
+        </table>
+
+    ---
+    
+    Costumes providing {{MRES}} $\text{\textcolor{ffa6ff}{MRES\%}}$ reduction:
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Debuff Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Magic School Professor Scheherazade](../assets/images/damage-formula/illust_inven_char000303_43.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Magic School Professor<br>Scheherazade</strong></td>
+                    <td>$15\%$</td>
+                    <td>$2 \text{ Turns}$</td>
+                    <td align="center">$4 \sim 6$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Daydream Bunny Morpeah](../assets/images/damage-formula/illust_inven_char003402_152.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Daydream Bunny<br>Morpeah</strong></td>
+                    <td>$30\% \newline \text{\textcolor{AFDBF5}{[Summon]}}$</td>
+                    <td>$4 \text{ Turns}$</td>
+                    <td align="center">$1 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Lovely Lady Elise](../assets/images/damage-formula/illust_inven_char060801_82.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Lovely Lady<br>Elise</strong></td>
+                    <td>$50\%$</td>
+                    <td>$4 \sim 6\text{ Turns}$</td>
+                    <td align="center">$3 \sim 5$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![DJ Venaka](../assets/images/damage-formula/illust_inven_char067201_129.avif){.icon-portrait}
+                    </td>
+                    <td><strong>DJ<br>Venaka</strong></td>
+                    <td>$50\%$</td>
+                    <td>$4\text{ Turns}$</td>
+                    <td align="center">$3 \sim 4$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Nightmare Bunny Eclipse](../assets/images/damage-formula/illust_inven_char000706_106.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Nightmare Bunny<br>Eclipse</strong></td>
+                    <td>$15\% \sim 20\%$</td>
+                    <td>$4\text{ Turns}$</td>
+                    <td align="center">$3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Descendant of the Great Witch Celia](../assets/images/damage-formula/illust_inven_char060402_28.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Descendant of the Great Witch<br>Celia</strong></td>
+                    <td>$10\%$</td>
+                    <td>$2 \text{ Turns}$</td>
+                    <td align="center">$4 \sim 5$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Kind Liberator Samay](../assets/images/damage-formula/illust_inven_char101401_66.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Kind Liberator<br>Samay</strong></td>
+                    <td>$50\%$</td>
+                    <td>$4 \text{ Turns}$</td>
+                    <td align="center">$3 \sim 5$</td>
+                </tr>
+            </tbody>
+        </table>
+
+    ---
+
+    Costumes decreasing **own** {{DEF}} $\text{\textcolor{ffe8aa}{DEF}}$ / {{MRES}} $\text{\textcolor{ffa6ff}{MRES}}$:
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Debuff Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Acting Archbishop Michaela](../assets/images/damage-formula/illust_inven_char067403_168.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Acting Archbishop Michaela</strong></td>
+                    <td>$90\% \newline \text{\textcolor{ffe8aa}{DEF} \& \textcolor{ffa6ff}{MRES}}$</td>
+                    <td>$4 \text{ Turns}$</td>
+                    <td align="center">$2 \sim 4$</td>
                 </tr>
             </tbody>
         </table>
