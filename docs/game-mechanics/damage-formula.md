@@ -1,7 +1,11 @@
 # Damage Formula — Brown Dust II
 
-!!! abstract "Tl;dr"
-    WIP
+!!! abstract "TL;DR"
+    Damage Formula consists of few multipliers, main of which are {{ATK}} $\text{\textcolor{ffe8aa}{ATK}}$ / {{MATK}} $\text{\textcolor{ffa6ff}{MATK}}$ and its Buffs, {{CritDMG}} $\text{\textcolor{white}{CDMG}}$ and its buffs, $\text{\textcolor{8A9A5B}{Property Damage}}$, $\text{Vulnerability}$ with $\text{DMG Increase}$ Buffs, and, lastly, $\text{Chains}$.
+
+    Within each of that multiplier, buffs are additive, meaning, if you want to reach more damage, you must **use different buffs category**. 
+
+    Stacking a lot of {{ATK}} **ATK**{.yellow} buffs generally loses to a single {{ATK}} **ATK**{.yellow} buff combined with $\text{Vulnerability}$ and some $\text{Chains}$. Keep this in mind when constructing a team.
 
 ## Damage Formula
 $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MATK} / \textcolor{orange}{HP}}^{\textcolor{AFDBF5}{[1]}} \text{/ \textcolor{white}{EG}}^{\textcolor{AFDBF5}{[2]}}\text{]}^{\textcolor{AFDBF5}{[3]}}  \\\\
@@ -311,7 +315,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Medical Club Teresse</strong></td>
                     <td>$50\% \sim 120\%$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td rowspan="2" align="center">
@@ -319,8 +323,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td rowspan="2"><strong>Homunculus Lathel</strong></td>
                     <td>$60\% \sim 90\%$</td>
-                    <td>$4 \sim 6 \text{ Turns}$</td>
-                    <td align="center" rowspan="2">$1 \sim 2$</td>
+                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td align="center" rowspan="2">$2 \sim 1$</td>
                 </tr>
                 <tr>
                     <td>$25\% \sim 70\%$</td>
@@ -333,7 +337,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Dark Saintess Liberta</strong></td>
                     <td>$35\% \sim 115\%$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$1 \sim 3$</td>
+                    <td align="center">$3 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -342,7 +346,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Priest of Vitality Arines</strong></td>
                     <td>$25\% \sim 80\%$</td>
                     <td>$\text{6 Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -351,7 +355,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Shadow Bunny Eleaneer</strong></td>
                     <td>$20\% \sim 60\%$</td>
                     <td>$\text{10 Turns} \newline \text{\textcolor{AFDBF5}{[Domain]}}$</td>
-                    <td align="center">$4 \sim 6$</td>
+                    <td align="center">$6 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -360,7 +364,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Kind Student Samay</strong></td>
                     <td>$20\% \sim 50\%$</td>
                     <td>$\text{2 Turns}$</td>
-                    <td align="center">$0 \sim 2$</td>
+                    <td align="center">$2 \sim 0$</td>
                 </tr>
             </tbody>
         </table>
@@ -385,7 +389,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Medical Club Teresse</strong></td>
                     <td>$50\% \sim 120\%$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td rowspan="2" align="center">
@@ -394,7 +398,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td rowspan="2"><strong>Queen of Gluttis Granadair</strong></td>
                     <td>$50\% \sim 80\%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center" rowspan="2">$1 \sim 2$</td>
+                    <td align="center" rowspan="2">$2 \sim 1$</td>
                 </tr>
                 <tr>
                     <td>$45\% \sim 70\%$</td>
@@ -407,7 +411,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>B-Rank Idol Helena</strong></td>
                     <td>$35\% \sim 115\%$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$1 \sim 3$</td>
+                    <td align="center">$3 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -416,7 +420,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Retired Legend Olivier</strong></td>
                     <td>$60\% \sim 100\%$</td>
                     <td>$\text{10 Turns} \newline \text{\textcolor{AFDBF5}{[Domain]}}$</td>
-                    <td align="center">$4 \sim 6$</td>
+                    <td align="center">$6 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -425,7 +429,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Shadow Bunny Eleaneer</strong></td>
                     <td>$20\% \sim 60\%$</td>
                     <td>$\text{10 Turns} \newline \text{\textcolor{AFDBF5}{[Domain]}}$</td>
-                    <td align="center">$4 \sim 6$</td>
+                    <td align="center">$6 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -434,7 +438,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Kind Student Samay</strong></td>
                     <td>$20\% \sim 50\%$</td>
                     <td>$\text{2 Turns}$</td>
-                    <td align="center">$0 \sim 2$</td>
+                    <td align="center">$2 \sim 0$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -443,7 +447,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Hand of Salvation Elpis</strong></td>
                     <td>$25\% \sim 80\%$</td>
                     <td>$\text{6 Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
             </tbody>
         </table>
@@ -477,7 +481,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Herb Tracker<br>Lathel</strong></td>
                     <td>$50\%$</td>
                     <td>$2 \text{ Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -486,7 +490,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Lonely Survivor<br>Lathel</strong></td>
                     <td>$50\%$</td>
                     <td>$2 \text{ Turns}$</td>
-                    <td align="center">$2 \sim 4$</td>
+                    <td align="center">$4 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -495,7 +499,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Promise of Vengeance<br>Lathel</strong></td>
                     <td>$50\% \sim 60\%$</td>
                     <td>$2 \text{ Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -503,8 +507,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Maid Name C<br>Rubia</strong></td>
                     <td>$50\%$</td>
-                    <td>$4 \sim 6 \text{ Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -513,7 +517,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Noble Flame<br>Ikaruga</strong></td>
                     <td>$60\% \sim 100\%$</td>
                     <td>$\infty \newline \text{3 stacks MAX} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
-                    <td align="center">$4 \sim 6$</td>
+                    <td align="center">$6 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -522,7 +526,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Laid-back Lifeguard<br>Nebris</strong></td>
                     <td>$50\%$</td>
                     <td>$6 \sim 10 \text{ Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -531,7 +535,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Pool Party<br>Justia</strong></td>
                     <td>$150\% \sim 300\%$</td>
                     <td>$8 \sim 12 \text{ Turns}$</td>
-                    <td align="center">$1 \sim 2$</td>
+                    <td align="center">$2 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -540,7 +544,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Comeback Idol<br>Ventana</strong></td>
                     <td>$50\% \sim 125\%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$3 \sim 5$</td>
+                    <td align="center">$5 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -549,7 +553,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Whitebolt<br>Yuri</strong></td>
                     <td>$150\% \sim 160\%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -558,7 +562,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Haggard Delinquent<br>Emma</strong></td>
                     <td>$200\% \sim 500\%$</td>
                     <td>$6 \text{ Turns}$</td>
-                    <td align="center">$1 \sim 2$</td>
+                    <td align="center">$2 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -567,7 +571,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Shadow Bunny Eleaneer</strong></td>
                     <td>$25\% \sim 40\%$</td>
                     <td>$10 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 6$</td>
+                    <td align="center">$6 \sim 4$</td>
                 </tr>
             </tbody>
         </table>
@@ -592,7 +596,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Track and Field Team<br>Loen</strong></td>
                     <td>$40\% \sim 80\%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -601,7 +605,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Beachside Justice<br>Michaela</strong></td>
                     <td>$200\%$</td>
                     <td>$2 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -669,7 +673,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Combat Doctor<br>Remnunt</strong></td>
                     <td>$50\%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -677,8 +681,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Sage of Blue Clouds<br>Olstein</strong></td>
                     <td>$70\%$</td>
-                    <td>$2 \sim 4 \text{ Turns}$</td>
-                    <td align="center">$1 \sim 2$</td>
+                    <td>$4 \sim 2 \text{ Turns}$</td>
+                    <td align="center">$2 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -687,7 +691,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Lugo Hunter<br>Gynt</strong></td>
                     <td>$50\%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -696,7 +700,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>The Curse<br>Celia</strong></td>
                     <td>$35\% \sim 65 \%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
             </tbody>
         </table>
@@ -720,8 +724,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Sage of Blue Clouds<br>Olstein</strong></td>
                     <td>$70\%$</td>
-                    <td>$2 \sim 4 \text{ Turns}$</td>
-                    <td align="center">$1 \sim 2$</td>
+                    <td>$4 \sim 2 \text{ Turns}$</td>
+                    <td align="center">$2 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -730,7 +734,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Descendant of the Great Witch<br>Celia</strong></td>
                     <td>$35\% \sim 65 \%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
             </tbody>
         </table>
@@ -772,7 +776,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Dark Saintess Liberta</strong></td>
                     <td>$25\% \sim 50\%$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$1 \sim 3$</td>
+                    <td align="center">$3 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -781,7 +785,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Adventurer of the Unknown Diana</strong></td>
                     <td>$20\% \sim 30\%$</td>
                     <td>$\text{8 Turns} \newline \text{\textcolor{AFDBF5}{[Aura]}}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -790,7 +794,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>B-Rank Idol Helena</strong></td>
                     <td>$25\% \sim 50\%$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$1 \sim 3$</td>
+                    <td align="center">$3 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -799,7 +803,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Priest of Vitality Arines</strong></td>
                     <td>$30\%$</td>
                     <td>$\text{6 Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -808,7 +812,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Red Riding Hood Rou</strong></td>
                     <td>$30\% \sim 50\%$</td>
                     <td>$\text{6 Turns}$</td>
-                    <td align="center">$2 \sim 4$</td>
+                    <td align="center">$4 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -817,7 +821,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Hand of Salvation Elpis</strong></td>
                     <td>$30\% \sim 35\%$</td>
                     <td>$\text{6 Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
             </tbody>
         </table>
@@ -842,7 +846,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>The Gluttonous Refithea</strong></td>
                     <td>$50\% \sim 125\%$</td>
                     <td>$\text{6 Turns} \newline \text{\textcolor{AFDBF5}{[Aura]}}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -851,7 +855,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Red Riding Hood Rou</strong></td>
                     <td>$150\% \sim 300\%$</td>
                     <td>$\text{6 Turns}$</td>
-                    <td align="center">$2 \sim 4$</td>
+                    <td align="center">$4 \sim 2$</td>
                 </tr>
             </tbody>
         </table>
@@ -876,16 +880,16 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Pool Party Lathel</strong></td>
                     <td>$100\%$</td>
                     <td>$\text{2 Turns}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Magical Rose Liberta](../assets/images/damage-formula/illust_inven_char050201_156.avif){.icon-portrait}
+                    ![Magical Rose Liberta](../assets/images/damage-formula/illust_inven_char003803_201.avif){.icon-portrait}
                     </td>
                     <td><strong>Magical Rose Liberta</strong></td>
                     <td>$40 \sim 100\%$</td>
                     <td>$\text{1 Turn}$</td>
-                    <td align="center">$1 \sim 2$</td>
+                    <td align="center">$2 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -894,7 +898,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Pool Party Gray</strong></td>
                     <td>$50\%$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$3 \sim 5$</td>
+                    <td align="center">$5 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -903,7 +907,16 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Daughter of Starwind<br>High Elf Archer</strong></td>
                     <td>$100\%$</td>
                     <td>$\text{2 Turns}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Haggard Delinquent Emma](../assets/images/damage-formula/illust_inven_char101301_61.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Haggard Delinquent<br>Emma</strong></td>
+                    <td>$30\%$</td>
+                    <td>$6 \text{ Turns}$</td>
+                    <td align="center">$2 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -912,7 +925,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Stray Cat Rou</strong></td>
                     <td>$50\%$</td>
                     <td>$\text{1 Turn}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
             </tbody>
         </table>
@@ -937,7 +950,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Night of Death Mamonir</strong></td>
                     <td>$200\% \sim 300\%$</td>
                     <td>$\text{6 Turns}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -946,7 +959,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Gentle Maid Anastasia</strong></td>
                     <td>$200\% \sim 500\%$</td>
                     <td>$\text{1 Turn}$</td>
-                    <td align="center">$3 \sim 5$</td>
+                    <td align="center">$5 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -955,7 +968,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Fire Graffiti Anastasia</strong></td>
                     <td>$200\% \sim 500\%$</td>
                     <td>$\text{1 Turn}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -964,7 +977,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Pool Party Gray</strong></td>
                     <td>$50\%$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$3 \sim 5$</td>
+                    <td align="center">$5 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -973,7 +986,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Labyrinth Gatekeeper Nebris</strong></td>
                     <td>$200\% \sim 300\%$</td>
                     <td>$6 \text{ Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -982,7 +995,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Comeback Idol Yuri</strong></td>
                     <td>$150\%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -991,7 +1004,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Acting Archbishop Michaela</strong></td>
                     <td>$300\% \sim 500\%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$2 \sim 4$</td>
+                    <td align="center">$4 \sim 2$</td>
                 </tr>
             </tbody>
         </table>
@@ -1025,7 +1038,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Pure White Blessing Refithea</strong></td>
                     <td>$\text{2 Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
             </tbody>
         </table>
@@ -1049,8 +1062,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Poolside Guardian Zenith</strong></td>
                     <td>$5\% \sim 10\%$</td>
-                    <td>$2 \sim 4 \text{ Turns}$</td>
-                    <td align="center">$2 \sim 4$</td>
+                    <td>$4 \sim 2 \text{ Turns}$</td>
+                    <td align="center">$4 \sim 2$</td>
                 </tr>
             </tbody>
         </table>
@@ -1072,16 +1085,16 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     ![Water Park Queen Wilhelmina](../assets/images/damage-formula/illust_inven_char067603_171.avif){.icon-portrait}
                     </td>
                     <td><strong>Water Park Queen Wilhelmina</strong></td>
-                    <td>$4 \sim 6 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
                     ![Masquerade Bunny Celia](../assets/images/damage-formula/illust_inven_char060403_109.avif){.icon-portrait}
                     </td>
                     <td><strong>Masquerade Bunny Celia</strong></td>
-                    <td>$4 \sim 6 \text{ Turns}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
             </tbody>
         </table>
@@ -1122,7 +1135,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Robin Hood Zenith</strong></td>
                     <td>$20\% \sim 100\%$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$0 \sim 2$</td>
+                    <td align="center">$2 \sim 0$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1131,7 +1144,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Shadow Bunny Eleaneer</strong></td>
                     <td>$30\% \sim 50\%$</td>
                     <td>$\text{10 Turns} \newline \text{\textcolor{AFDBF5}{[Domain]}}$</td>
-                    <td align="center">$4 \sim 6$</td>
+                    <td align="center">$6 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1140,7 +1153,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Shadowed Dream Sonya</strong></td>
                     <td>$55\% \sim 125\%$</td>
                     <td>$\text{4 Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
             </tbody>
         </table>
@@ -1165,7 +1178,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Game Club Rafina</strong></td>
                     <td>$50\% \sim 100\%$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$3 \sim 5$</td>
+                    <td align="center">$5 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1174,7 +1187,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Your Very Own Cat Eris</strong></td>
                     <td>$100\% \sim 150\% \newline \text{\textcolor{AFDBF5}{[Main Target]}}$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$4 \sim 6$</td>
+                    <td align="center">$6 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1183,7 +1196,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Young Lady Blade</strong></td>
                     <td>$100\% \sim 150\% \newline \text{\textcolor{AFDBF5}{[Main Target]}}$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
             </tbody>
         </table>
@@ -1208,7 +1221,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Track and Field Captain Levia</strong></td>
                     <td>$60\% \sim 120\% \newline \text{\textcolor{AFDBF5}{[Main Target]}} \newline 40\% \sim 100\% \newline \text{\textcolor{AFDBF5}{[Otherwise]}}$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1217,7 +1230,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Earth Mother Believer Priestess</strong></td>
                     <td>$50\% \sim 75\%$</td>
                     <td>$\text{2 Turns}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
             </tbody>
         </table>
@@ -1242,7 +1255,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Maid Bikini Rubia</strong></td>
                     <td>$150\% \sim 300\%$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
             </tbody>
         </table>
@@ -1267,7 +1280,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Apostle Morpeah</strong></td>
                     <td>$100\% \sim 180\%$</td>
                     <td>$\text{2 Turns}$</td>
-                    <td align="center">$1 \sim 3$</td>
+                    <td align="center">$3 \sim 1$</td>
                 </tr>
             </tbody>
         </table>
@@ -1292,7 +1305,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Wind Dancer Venaka</strong></td>
                     <td>$75\% \sim 150\% \newline \text{\textcolor{AFDBF5}{[Wind]}}$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1301,7 +1314,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Onsen Practitioner Ventana</strong></td>
                     <td>$100\% \sim 200\% \newline \text{\textcolor{AFDBF5}{[Light]}}$</td>
                     <td>$6 \sim 10 \text{ Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1310,7 +1323,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Shadowed Dream Sonya</strong></td>
                     <td>$75\% \sim 175\% \newline \text{\textcolor{AFDBF5}{[Darkness]}}$</td>
                     <td>$\text{4 Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
             </tbody>
         </table>
@@ -1353,20 +1366,20 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Beachside Angel<br>Teresse</strong></td>
                     <td>$100\% \sim 200\% \newline \text{\textcolor{AFDBF5}{[When attacking enemy}} \newline \text{\textcolor{AFDBF5}{with a Chain count 5 or less]}}$</td>
                     <td>$4 \sim 8 \text{ Turns}$</td>
-                    <td align="center">$2 \sim 4$</td>
+                    <td align="center">$4 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center" rowspan="2">
-                    ![Shrine Mainen of Purification Granadair](../assets/images/damage-formula/illust_inven_char067701_193.avif){.icon-portrait}
+                    ![Shrine Maiden of Purification Granadair](../assets/images/damage-formula/illust_inven_char067701_193.avif){.icon-portrait}
                     </td>
-                    <td rowspan="2"><strong>Shrine Mainen<br>of Purification<br>Granadair</strong></td>
+                    <td rowspan="2"><strong>Shrine Maiden<br>of Purification<br>Granadair</strong></td>
                     <td>$75\% \sim 120\%$</td>
-                    <td>$4 \sim 6 \text{ Turns}$</td>
-                    <td align="center" rowspan="2">$3 \sim 4$</td>
+                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td align="center" rowspan="2">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td>$10\% \times \text{\textcolor{AFDBF5}{Debuffs Absorbed}}$</td>
-                    <td>$4 \sim 6 \text{ Turns}$</td>
+                    <td>$6 \sim 4 \text{ Turns}$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1374,8 +1387,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Onsen Manager<br>Liberta</strong></td>
                     <td>$80\% \sim 130\% \newline \text{\textcolor{AFDBF5}{[When attacking enemy}} \newline \text{\textcolor{AFDBF5}{with 10 Chains or more]}}$</td>
-                    <td>$4 \sim 6 \text{ Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1384,7 +1397,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>New Hire<br>Seir</strong></td>
                     <td>$10\% \sim 22\% \times \newline \text{\textcolor{AFDBF5}{[Amount of times}} \newline \text{\textcolor{AFDBF5}{Seir gets hit]}}$</td>
                     <td>$6 \sim 8 \text{ Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
             </tbody>
         </table>
@@ -1409,7 +1422,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Labyrinth Gatekeeper<br>Nebris</strong></td>
                     <td>$100\% \sim 150\% \newline \text{\textcolor{AFDBF5}{[If no Augmentation}} \newline \text{\textcolor{AFDBF5}{Status Effect]}}$</td>
                     <td>$6 \text{ Turns}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1418,7 +1431,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Fist of Conviction<br>Yozakura</strong></td>
                     <td>$400\% \sim 1200\% \newline \text{\textcolor{AFDBF5}{[For 1 next}} \newline  \text{\textcolor{AFDBF5}{Basic Attack]}}$</td>
                     <td>$\text{Until} \newline \text{Basic Attack}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
             </tbody>
         </table>
@@ -1463,7 +1476,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Adventurer of the Unknown<br>Diana</strong></td>
                     <td>$100\% \sim 220\%$</td>
                     <td>$\text{8 Turns} \newline \text{\textcolor{AFDBF5}{[Aura]}}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1472,7 +1485,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Magical Innovator<br>Diana</strong></td>
                     <td>$25\% \sim 200\% \newline \text{\textcolor{AFDBF5}{[Per Summon]}}$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$3 \sim 5 + 1 \text{ per activation}$</td>
+                    <td align="center">$5 \sim 3 + 1 \text{ per activation}$</td>
                 </tr>                
                 <tr>
                     <td align="center">
@@ -1481,7 +1494,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Pure White Blessing<Br>Refithea</strong></td>
                     <td>$40\% \sim 100\%$</td>
                     <td>$\text{2 Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1490,7 +1503,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Poolside Fairy<br>Refithea</strong></td>
                     <td>$\newline 50\% \sim 100\% \newline \text{\textcolor{AFDBF5}{[if Light Property]}} \newline 25\% \sim 50\% \newline \text{\textcolor{AFDBF5}{[otherwise]}}$</td>
                     <td>$\text{8 Turns}$</td>
-                    <td align="center">$6 \sim 7$</td>
+                    <td align="center">$7 \sim 6$</td>
                 </tr>
             </tbody>
         </table>
@@ -1514,8 +1527,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Frozen Queen<br>Wilhelmina</strong></td>
                     <td>$30\% \sim 60\%$</td>
-                    <td>$4 \sim 6 \text{ Turns}$</td>
-                    <td align="center">$3 \sim 5$</td>
+                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td align="center">$5 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1524,7 +1537,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Laid-back Lifeguard<br>Nebris</strong></td>
                     <td>$50\%$</td>
                     <td>$\text{2 Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1533,7 +1546,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Blood Glutton<br>Justia</strong></td>
                     <td>$200\% \sim 400\%$</td>
                     <td>$\text{8 Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
             </tbody>
         </table>
@@ -1572,7 +1585,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Code Name A<br>Rafina</strong></td>
                     <td>$50\%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$3 \sim 5$</td>
+                    <td align="center">$5 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1581,7 +1594,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Empress of the Ocean<br>Rubia</strong></td>
                     <td>$25\% \sim 45\%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1589,8 +1602,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Lovely Lady<br>Elise</strong></td>
                     <td>$50\%$</td>
-                    <td>$4 \sim 6\text{ Turns}$</td>
-                    <td align="center">$3 \sim 5$</td>
+                    <td>$6 \sim 4\text{ Turns}$</td>
+                    <td align="center">$5 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1599,7 +1612,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>B-Rank Manager<br>Gray</strong></td>
                     <td>$50\%$</td>
                     <td>$2\text{ Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1608,7 +1621,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Nature's Claw<br>Rou</strong></td>
                     <td>$20\%$</td>
                     <td>$2\text{ Turns}$</td>
-                    <td align="center">$3 \sim 5$</td>
+                    <td align="center">$5 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1617,16 +1630,16 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>The Curse<br>Celia</strong></td>
                     <td>$10\%$</td>
                     <td>$2 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
-                    ![B-Rank Idol Eleanner](../assets/images/damage-formula/illust_inven_char061102_27.avif){.icon-portrait}
+                    ![B-Rank Idol Eleaneer](../assets/images/damage-formula/illust_inven_char061102_27.avif){.icon-portrait}
                     </td>
-                    <td><strong>B-Rank Idol<br>Eleanner</strong></td>
+                    <td><strong>B-Rank Idol<br>Eleaneer</strong></td>
                     <td>$20\%$</td>
                     <td>$2 \text{ Turns}$</td>
-                    <td align="center">$3 \sim 5$</td>
+                    <td align="center">$5 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1635,7 +1648,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Liberated Marauder<br>Kry</strong></td>
                     <td>$50\%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
             </tbody>
         </table>
@@ -1660,7 +1673,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Magic School Professor<br>Scheherazade</strong></td>
                     <td>$15\%$</td>
                     <td>$2 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 6$</td>
+                    <td align="center">$6 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1669,7 +1682,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Daydream Bunny<br>Morpeah</strong></td>
                     <td>$30\% \newline \text{\textcolor{AFDBF5}{[Summon]}}$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$1 \sim 3$</td>
+                    <td align="center">$3 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1677,8 +1690,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Lovely Lady<br>Elise</strong></td>
                     <td>$50\%$</td>
-                    <td>$4 \sim 6\text{ Turns}$</td>
-                    <td align="center">$3 \sim 5$</td>
+                    <td>$6 \sim 4\text{ Turns}$</td>
+                    <td align="center">$5 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1687,7 +1700,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>DJ<br>Venaka</strong></td>
                     <td>$50\%$</td>
                     <td>$4\text{ Turns}$</td>
-                    <td align="center">$3 \sim 4$</td>
+                    <td align="center">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1705,7 +1718,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Descendant of the Great Witch<br>Celia</strong></td>
                     <td>$10\%$</td>
                     <td>$2 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1714,7 +1727,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Kind Liberator<br>Samay</strong></td>
                     <td>$50\%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$3 \sim 5$</td>
+                    <td align="center">$5 \sim 3$</td>
                 </tr>
             </tbody>
         </table>
@@ -1739,7 +1752,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Acting Archbishop Michaela</strong></td>
                     <td>$90\% \newline \text{\textcolor{ffe8aa}{DEF} \& \textcolor{ffa6ff}{MRES}}$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$2 \sim 4$</td>
+                    <td align="center">$4 \sim 2$</td>
                 </tr>
             </tbody>
         </table>
@@ -1786,7 +1799,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Top Idol<br>Helena</strong></td>
                     <td>$30\% \sim 70\%$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$1 \sim 2$</td>
+                    <td align="center">$2 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1795,7 +1808,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>The Gluttonous<br>Refithea</strong></td>
                     <td>$25\% \sim 50\%$</td>
                     <td>$\text{6 Turns} \newline \text{\textcolor{AFDBF5}{[Aura]}}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
             </tbody>
         </table>
@@ -1820,7 +1833,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Desert Flower<br>Sylvia</strong></td>
                     <td>$50\% \sim 75\%$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$2 \sim 4$</td>
+                    <td align="center">$4 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1829,7 +1842,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Disciplinary Committee<br>Glacia</strong></td>
                     <td>$50\% \newline \text{\textcolor{ffa6ff}{[Magic]}}$</td>
                     <td>$\text{2 Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1838,7 +1851,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Beach Vacation<br>Morpeah</strong></td>
                     <td>$30\%$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$5 \sim 6$</td>
+                    <td align="center">$6 \sim 5$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1846,8 +1859,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Mercenary Knight<br>Carlson</strong></td>
                     <td>$35\% \sim 65\% \newline \text{\textcolor{ffe8aa}{[Physical]}}$</td>
-                    <td>$2 \sim 4 \text{ Turns}$</td>
-                    <td align="center">$1 \sim 3$</td>
+                    <td>$4 \sim 2 \text{ Turns}$</td>
+                    <td align="center">$3 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1855,8 +1868,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Dark Knight<br>Lathel</strong></td>
                     <td>$50\% \sim 65\% \newline \text{\textcolor{ffe8aa}{[Physical]}}$</td>
-                    <td>$4 \sim 6 \text{ Turns}$</td>
-                    <td align="center">$1 \sim 2$</td>
+                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td align="center">$2 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1865,7 +1878,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Orcbolg<br>Goblin Slayer</strong></td>
                     <td>$50\% \sim 75\%$</td>
                     <td>$2 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1874,7 +1887,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Killer Doll<br>Lecliss</strong></td>
                     <td>$45\% \sim 85\%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$1 \sim 4$</td>
+                    <td align="center">$4 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1883,7 +1896,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Magical Innovator<br>Diana</strong></td>
                     <td>$20\%$</td>
                     <td>$\text{6 Turns}$</td>
-                    <td align="center">$3 \sim 5$</td>
+                    <td align="center">$5 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1892,7 +1905,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Pool Party<br>Angelica</strong></td>
                     <td>$75\%$</td>
                     <td>$\text{2 Turns}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1901,7 +1914,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Neon Savior<br>Angelica</strong></td>
                     <td>$75\%$</td>
                     <td>$\text{2 Turns}$</td>
-                    <td align="center">$3 \sim 6$</td>
+                    <td align="center">$6 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1910,7 +1923,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>The Fallen<br>Angelica</strong></td>
                     <td>$50\%$</td>
                     <td>$\text{2 Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1918,8 +1931,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Beautiful Girl Devotee<br>Jayden</strong></td>
                     <td>$50\% \sim 75\% \newline \text{\textcolor{ffa6ff}{[Magic]}}$</td>
-                    <td>$4 \sim 6 \text{ Turns}$</td>
-                    <td align="center">$2 \sim 3$</td>
+                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1927,8 +1940,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Demon's Daughter<br>Seir</strong></td>
                     <td>$40\% \sim 85\%$</td>
-                    <td>$4 \sim 6\text{ Turns}$</td>
-                    <td align="center">$1 \sim 3$</td>
+                    <td>$6 \sim 4\text{ Turns}$</td>
+                    <td align="center">$3 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1937,7 +1950,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>B-Rank Idol<br>Seir</strong></td>
                     <td>$40\% \sim 85\%$</td>
                     <td>$2 \text{ Turns}$</td>
-                    <td align="center">$1 \sim 2$</td>
+                    <td align="center">$2 \sim 1$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1946,14 +1959,40 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Anonymous Sage<br>Nartas</strong></td>
                     <td>$75\% \newline \text{\textcolor{ffa6ff}{[Magic]}}$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 5$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
             </tbody>
         </table>
 </div>
 
+## The Example
+As an example, let's take this fight.
+![Fight Screenshot](../assets/images/damage-formula/fight_1.avif)
 
+All Costumes are upgraded to the max. 
 
+!!! abstract "Blade's Stats"
+
+    * Hit Multiplier: $150\%$
+    * {{ATK}} **ATK**: $2950$
+    * {{CritDMG}} **Crit DMG**: $734.44\%$
+    * **Darkness DMG**: $60\%$
+
+!!! abstract "Enemy Stats"
+
+    * {{DEF}} **DEF**: $25\%$
+
+Liberta increases {{ATK}} **ATK** by $115\%$, Lathel increases {{ATK}} **ATK** by $160\%$, and Teresse increases **DMG Dealt** by $200\%$.
+
+Putting that into the equation:
+
+$\text{Damage} = \underbrace{2950}_\text{ATK} \times \underbrace{150\%}_\text{Skill Multiplier} \times \underbrace{(100\% + \overbrace{115\%}^\text{Liberta} + \overbrace{160\%}^\text{Lathel})}_\text{ATK Buffs} \times \underbrace{(100\% + \overbrace{200\%}^\text{Teresse})}_\text{DMG Increase} \times \underbrace{(100\% + 734.4\%)}_\text{Crit DMG} \times \underbrace{(100\% + 60\%)}_\text{Property} \times \underbrace{(100\% - 25\%)}_\text{Enemy DEF}$
+
+$\text{Damage} = 2950 \times 1.5 \times 3.75 \times 3 \times 8.344 \times 1.6 \times 0.75 = 498449.7$
+
+That confirms recieved damage by enemy in-game: 
+
+![Fight Screenshot №2](../assets/images/damage-formula/fight_2.avif)
 
 <!--## Additional Effects
 
