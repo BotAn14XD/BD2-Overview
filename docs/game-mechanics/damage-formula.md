@@ -10,12 +10,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 \times \; (100\% + \text{\textcolor{white}{CDMG\%}} + \text{\textcolor{white}{CDMG\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{white}{CDMG\%} Debuffs})^{\textcolor{AFDBF5}{[5]}} \\
 \times \; (100\% + (10\% + \text{Increase Chain DMG\%}) \times \text{Chains})^{\textcolor{AFDBD5}{[6]}} \\\\
 \times \; (100\% + \text{Target's Vulnerability Debuffs\%} + \text{DMG Increase\% Buffs}) \\\\
-\times \; (100\% + \text{\textcolor{8A9A5B}{Property Damage\%}} + \text{Season Buff\%}^{\textcolor{AFDBD5}{[7]}} + \text{\textcolor{8A9A5B}{Property Damage\%} Buffs} \times [100\% - \text{Pressure\%}]  )^\text{[8]} \\\\
-\times \; (100\% - (\text{Target's \textcolor{ffe8aa}{DEF\%}} + \text{Target's \textcolor{ffe8aa}{DEF\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{Target's \textcolor{ffe8aa}{DEF\%} Debuffs}))^{\textcolor{AFDBF5}{[6,7]}} \\\\  
+\times \; (100\% + \text{\textcolor{8A9A5B}{Property Damage\%}} + \text{Season Buff\%}^{\textcolor{AFDBD5}{[7]}} + \text{\textcolor{8A9A5B}{Property Damage\%} Buffs} \times [100\% - \text{Pressure\%}]  )^\text{\textcolor{AFDBF5}{[8]}} \\\\
+\times \; (100\% - (\text{Target's \textcolor{ffe8aa}{DEF\%}} + \text{Target's \textcolor{ffe8aa}{DEF\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{Target's \textcolor{ffe8aa}{DEF\%} Debuffs}))^\text{\textcolor{AFDBF5}{[9]}} \\\\  
 \times \; (100\% - \text{Target's DMG Reduction\% Buffs}) \\\\
-\times \; (100\% - \text{Target's \textcolor{8A9A5B}{Property Resist\%}})^\text{[6]} \\\\
-\times \; (100\% + \text{Weak Point\%}) \\\\
-\times \; (100\% + \text{Support Bonus\%})$
+\times \; (100\% - \text{Target's \textcolor{8A9A5B}{Property Resist\%}})^\text{\textcolor{AFDBF5}{[10]}} \\\\
+\times \; (100\% + \text{Weak Point\%})^\text{\textcolor{AFDBF5}{[11]}} \\\\
+\times \; (100\% + \text{Support Bonus\%})^\text{\textcolor{AFDBF5}{[12]}}$
 
 ??? example "Formula Notes"
     ${\textcolor{AFDBF5}{[1]}}$: Whenever {{HP}} **HP**{.orange} is used (either own or enemy's), there is a cap of $\text{50,000}$ for the value. In other words, if you use Angelica's skill on the enemy with $\text{2,000,000}$ {{HP}} **HP**{.orange}, only $\text{50,000}$ will be put as the value.
@@ -24,7 +24,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ${\textcolor{AFDBF5}{[3]}}$: Necessary attribute depends on the Costume ability. Refer to [this](#__tabbed_1_1) section to learn more.
 
-    ${\textcolor{AFDBF5}{[]}}$: {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Buffs are **irrelevant** when character deals damage based on **own / enemy** {{HP}} **HP**{.orange}.
+    ${\textcolor{AFDBF5}{[4]}}$: {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Buffs are **irrelevant** when character deals damage based on **own / enemy** {{HP}} **HP**{.orange}.
 
     Buffs are **relevant** if character uses **enemy** {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} to deal damage.
 
@@ -35,6 +35,14 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     ${\textcolor{AFDBF5}{[7]}}$: Currently appliable only to [Evil Castle](../content-packs/evil-castle.md) battles.
 
     ${\textcolor{AFDBF5}{[8]}}$: Mutually exclusive to $\text{Property Resist\%}$ multiplier.
+
+    ${\textcolor{AFDBF5}{[9]}}$: Ignored when unit deals **Pure**, **Consumed** or **Fixed** Damage.
+
+    ${\textcolor{AFDBF5}{[10]}}$: Mutually exclusive to $\text{Property Damage\%}$ multiplier.
+
+    ${\textcolor{AFDBF5}{[11]}}$: Exclusive to Fiend Hunter and Guild Raid.
+
+    ${\textcolor{AFDBF5}{[12]}}$: Exclusive to Last Night.
 
 ??? example "Pure Math Formula (FOR MATH NERDS ONLY)"
     $\text{Damage} = 
@@ -54,7 +62,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     \times \left[1 + \delta_{\text{chains}} \times \left(0.1 + \displaystyle \sum_{i=1}^{n^{(13)}} \text{b}_\text{i}^{\text{(chains)}} \right) \times \text{v}^{\text{(chains)}} \right] \times \\\\
     \times \Bigg[1 + \displaystyle \sum_{i=1}^{n^{(14)}} \text{b}_\text{i}^{\text{(aug)}} + \displaystyle \sum_{i=1}^{n^{(15)}} \text{b}_\text{i}^{\text{(vuln\_gen)}} + \displaystyle \sum_{i=1}^{n^{(16)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_dt)}} \times \vec{\tilde{\text{s}}}^{\top} + \displaystyle \sum_{i=1}^{n^{(17)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_pr)}} \times  \left(\vec{\text{pr}}^\text{(off)}\right)^{\top} + \\\\
     + \delta_{\text{DoT}} \times \displaystyle \sum_{i=1}^{n^{(18)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_dot)}} + \delta_{\text{summons}} \times \displaystyle \sum_{i=1}^{n^{(19)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_summons)}}  \Bigg] \times \\\\
-    \times \left[1 - \displaystyle \sum_{i=1}^{n^{(20)}} \text{b}_\text{i}^{\text{(dmg\_red)}} \right] \times \\\\
+    \times \displaystyle \prod_{i=1}^{n^{(20)}}  \left[1 - \vec{\text{b}}_\text{i}^{\text{(dmg\_red)}} \right] \vec{\tilde{\text{s}}}^{\top}  \times \\\\
     \times \left[1 + \delta_{\text{fh/gr}} \times \text{b}_{\text{weak}} \right] \times \\\\
     \times \left[1 + \delta_\text{ln} \times \text{b}_{\text{supp}} \right] \times \\\\
     \times \delta_{\text{kb}}$    
@@ -102,6 +110,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     $\vec{\text{b}}_\text{i}^{\text{(vuln\_dt)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{Vuln\_Physical}}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{Vuln\_Magical}}} \end{pmatrix}$
 
     $\vec{\text{b}}_\text{i}^{\text{(vuln\_pr)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{Vuln\_Water}} & \text{b}_{\text{i}}^{\text{Vuln\_Fire}} & \text{b}_{\text{i}}^{\text{Vuln\_Wind}} & \text{b}_{\text{i}}^{\text{Vuln\_Light}} & \text{b}_{\text{i}}^{\text{Vuln\_Darkness}} & \text{b}_{\text{i}}^{\text{Vuln\_Neutral}} \end{pmatrix}$
+
+    $\vec{\text{b}}_\text{i}^{\text{(dmg\_red)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{dmg\_red\_Physical}}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{dmg\_red\_Magical}}} \end{pmatrix}$
 
     $\delta_{\text{fh/gr}} = \begin{pmatrix}\delta\text{Fiend Hunter} & \delta\text{Guild Raid}\end{pmatrix} \cdot \begin{pmatrix}1 & 1\end{pmatrix}^{\top}$ 
 
@@ -725,7 +735,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tbody>
         </table>
 
-=== "$\text{\textcolor{white}{CDMG\%}}$"
+=== "$\text{\textcolor{white}{CDMG}}$"
 
     {{CritDMG}} **Crit Damage** matters when character **crits**, meaning it is essential to have high {{CritRate}} **Crit Rate** or guarantee it via other methods.
 
@@ -1730,6 +1740,213 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td>$90\% \newline \text{\textcolor{ffe8aa}{DEF} \& \textcolor{ffa6ff}{MRES}}$</td>
                     <td>$4 \text{ Turns}$</td>
                     <td align="center">$2 \sim 4$</td>
+                </tr>
+            </tbody>
+        </table>
+
+=== "$\text{DMG Reduction}$"
+    $\text{DMG Reduction}$ is a separate buff that decreases incoming damage, similar to {{DEF}} $\text{\textcolor{ffe8aa}{DEF}}$ and {{MRES}} $\text{\textcolor{ffa6ff}{MRES}}$, but working in a different way.
+
+    It's more known as **Barrier** buff, being part of the skillset for multiple costumes in the game.
+
+    ---
+
+    Barriers from different sources stack differently compared to other buffs.
+    Instead of being additive, they're being multiplicative:
+
+    $(100\% - \text{Target's DMG Reduction\% Buffs Total}) = \\\\
+    = (100\% - \text{Target's DMG Reduction\% Buff 1}) \times \\\\
+    \times \; (100\% - \text{Target's DMG Reduction\% Buff 2}) \times \dots$
+
+    For example, combining 2 Barriers of $70\%$ and $50\%$ will essentially give you $85\%$ Barrier.
+
+    This system ensures that barrier can never achieve $100\%$, meaning some damage will go through anyway. 
+
+    ---
+
+    Similar to **Vulnerability**, Barriers *can* be {{Physical}} **Physical**{.yellow} and {{Magical}} **Magical**{.magenta}, meaning they'll reduce incoming damage from only one damage type. 
+
+    ---
+
+    Costumes providing **Barrier** buff **to allies**:
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Buff Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Top Idol Helena](../assets/images/damage-formula/illust_inven_char061001_83.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Top Idol<br>Helena</strong></td>
+                    <td>$30\% \sim 70\%$</td>
+                    <td>$\text{4 Turns}$</td>
+                    <td align="center">$1 \sim 2$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![The Gluttonous Refithea](../assets/images/damage-formula/illust_inven_char066801_120.avif){.icon-portrait}
+                    </td>
+                    <td><strong>The Gluttonous<br>Refithea</strong></td>
+                    <td>$25\% \sim 50\%$</td>
+                    <td>$\text{6 Turns} \newline \text{\textcolor{AFDBF5}{[Aura]}}$</td>
+                    <td align="center">$2 \sim 3$</td>
+                </tr>
+            </tbody>
+        </table>
+
+    ---
+
+    Costumes providing **Barrier** buff to **themselves only**:
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Buff Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Desert Flower Sylvia](../assets/images/damage-formula/illust_inven_char001001_22.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Desert Flower<br>Sylvia</strong></td>
+                    <td>$50\% \sim 75\%$</td>
+                    <td>$\text{4 Turns}$</td>
+                    <td align="center">$2 \sim 4$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Disciplinary Committee Glacia](../assets/images/damage-formula/illust_inven_char066906_119.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Disciplinary Committee<br>Glacia</strong></td>
+                    <td>$50\% \newline \text{\textcolor{ffa6ff}{[Magic]}}$</td>
+                    <td>$\text{2 Turns}$</td>
+                    <td align="center">$2 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Beach Vacation Morpeah](../assets/images/damage-formula/illust_inven_char003401_136.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Beach Vacation<br>Morpeah</strong></td>
+                    <td>$30\%$</td>
+                    <td>$\text{4 Turns}$</td>
+                    <td align="center">$5 \sim 6$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Mercenary Knight Carlson](../assets/images/damage-formula/illust_inven_char103201_31.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Mercenary Knight<br>Carlson</strong></td>
+                    <td>$35\% \sim 65\% \newline \text{\textcolor{ffe8aa}{[Physical]}}$</td>
+                    <td>$2 \sim 4 \text{ Turns}$</td>
+                    <td align="center">$1 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Dark Knight Lathel](../assets/images/damage-formula/illust_inven_char000104_69.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Dark Knight<br>Lathel</strong></td>
+                    <td>$50\% \sim 65\% \newline \text{\textcolor{ffe8aa}{[Physical]}}$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
+                    <td align="center">$1 \sim 2$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Orcbolg Goblin Slayer](../assets/images/damage-formula/illust_inven_char020601_160.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Orcbolg<br>Goblin Slayer</strong></td>
+                    <td>$50\% \sim 75\%$</td>
+                    <td>$2 \text{ Turns}$</td>
+                    <td align="center">$4 \sim 5$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Killer Doll Lecliss](../assets/images/damage-formula/illust_inven_char060601_80.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Killer Doll<br>Lecliss</strong></td>
+                    <td>$45\% \sim 85\%$</td>
+                    <td>$4 \text{ Turns}$</td>
+                    <td align="center">$1 \sim 4$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Magical Innovator Diana](../assets/images/damage-formula/illust_inven_char002403_195.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Magical Innovator<br>Diana</strong></td>
+                    <td>$20\%$</td>
+                    <td>$\text{6 Turns}$</td>
+                    <td align="center">$3 \sim 5$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Pool Party Angelica](../assets/images/damage-formula/illust_inven_char066402_95.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Pool Party<br>Angelica</strong></td>
+                    <td>$75\%$</td>
+                    <td>$\text{2 Turns}$</td>
+                    <td align="center">$4 \sim 5$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Neon Savior Angelica](../assets/images/damage-formula/illust_inven_char066403_96.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Neon Savior<br>Angelica</strong></td>
+                    <td>$75\%$</td>
+                    <td>$\text{2 Turns}$</td>
+                    <td align="center">$3 \sim 6$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![The Fallen Angelica](../assets/images/damage-formula/illust_inven_char066401_94.avif){.icon-portrait}
+                    </td>
+                    <td><strong>The Fallen<br>Angelica</strong></td>
+                    <td>$50\%$</td>
+                    <td>$\text{2 Turns}$</td>
+                    <td align="center">$2 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Beautiful Girl Devotee Jayden](../assets/images/damage-formula/illust_inven_char101201_75.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Beautiful Girl Devotee<br>Jayden</strong></td>
+                    <td>$50\% \sim 75\% \newline \text{\textcolor{ffa6ff}{[Magic]}}$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
+                    <td align="center">$2 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Demon's Daughter Seir](../assets/images/damage-formula/illust_inven_char101101_67.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Demon's Daughter<br>Seir</strong></td>
+                    <td>$40\% \sim 85\%$</td>
+                    <td>$4 \sim 6\text{ Turns}$</td>
+                    <td align="center">$1 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![B-Rank Idol Seir](../assets/images/damage-formula/illust_inven_char101102_25.avif){.icon-portrait}
+                    </td>
+                    <td><strong>B-Rank Idol<br>Seir</strong></td>
+                    <td>$40\% \sim 85\%$</td>
+                    <td>$2 \text{ Turns}$</td>
+                    <td align="center">$1 \sim 2$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Anonymous Sage Nartas](../assets/images/damage-formula/illust_inven_char065802_103.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Anonymous Sage<br>Nartas</strong></td>
+                    <td>$75\% \newline \text{\textcolor{ffa6ff}{[Magic]}}$</td>
+                    <td>$4 \text{ Turns}$</td>
+                    <td align="center">$4 \sim 5$</td>
                 </tr>
             </tbody>
         </table>
