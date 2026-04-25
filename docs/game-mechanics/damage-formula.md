@@ -129,7 +129,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     (\text{Character's Base Parameter} \\\\
     + \; \text{Parameter from Gear} \\\\
     + \; \text{Parameter from Potential}) \\\\
-    \times \; ( 1 + \text{Parameter\% from Gear} \\\\
+    \times \; ( 100\% + \text{Parameter\% from Gear} \\\\
     + \; \text{Parameter\% from Potential} \\\\
     + \; \text{Parameter\% from Collection})$
 
