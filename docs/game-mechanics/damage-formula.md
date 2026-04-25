@@ -50,35 +50,32 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
 ??? example "Pure Math Formula (FOR MATH NERDS ONLY)"
     $\text{Damage} = 
-    \max \left(\text{Damage}_{\; \text{Total}}, 1\right)$
+    \max \left(\left\lfloor\text{Damage}_{\; \text{Total}}\right\rfloor, 1\right)$
 
     ---
 
     $\text{Damage}_{\; \text{Total}} = \\\\
-    \vec{\text{v}} \odot \vec{\text{SM}} \odot \\\\
-    \odot \left[1 + \displaystyle \sum_{i=1}^{n^{(1)}} \vec{\text{b}}_\text{i}^{\text{(off)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(2)}}\vec{\text{d}}_\text{i}^{\text{(off)}}\right]  \vec{\text{s}}^{\top} \times \\\\
+    \left[\min \left(\vec{c}_\text{max}^\text{v}, \vec{\text{v}} \odot \left[1 + \displaystyle \sum_{i=1}^{n^{(1)}} \vec{\text{b}}_\text{i}^{\text{(off)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(2)}}\vec{\text{d}}_\text{i}^{\text{(off)}}\right] \right) \odot \vec{\text{SM}} \right] \vec{\text{s}}^{\top} \times \\\\
     \times \left[ \min \left(1, \max \left(0.1, \left[ 1 - \left(1-\delta_{\text{pfc}}\right) \times \left(\vec{\tilde{\text{v}}} + \displaystyle \sum_{i=1}^{n^{(3)}} \vec{\text{b}}_\text{i}^{\text{(def)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(4)}}\vec{\text{d}}_\text{i}^{\text{(def)}}\right) \right]\right) \right) \right] \vec{\tilde{\text{s}}}^{\top} \times \\\\
     \times \Bigg[ \max \Biggl(1,\Bigg[ 1 + \left(\left(1-\delta_{\text{fc}} \right) \times \mathcal{H}\left(\text{v}^{\text{cr}} + \displaystyle \sum_{i=1}^{n^{(5)}} \text{b}_\text{i}^{\text{(cr)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(6)}}\text{d}_\text{i}^{\text{(cr)}}- \mathcal{U}\left(0,1\right) \right) \right) \times \\\\ 
-    \times \left(\text{v}^{\text{(cdmg)}} + \displaystyle \sum_{i=1}^{n^{(7)}} \text{b}_\text{i}^{\text{(cdmg)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(8)}}\text{d}_\text{i}^{\text{(cdmg)}}\right) \Bigg]\Bigg)\Bigg] \times \\\\
+    \times \min\left(10^4, 10^{-3} \times \left\lfloor 10^3 \times \left(\text{v}^{\text{(cdmg)}} + \displaystyle \sum_{i=1}^{n^{(7)}} \text{b}_\text{i}^{\text{(cdmg)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(8)}}\text{d}_\text{i}^{\text{(cdmg)}}\right)\right\rfloor\right) \Bigg]\Bigg)\Bigg] \times \\\\
     \times \Bigg[1+\max \left(0, \vec{\text{pr}}^\text{(off)} \times \text{PR} \times \left(\vec{\text{pr}}^\text{(def)}\right)^{\top}\right) \times \left( \vec{\text{v}}_{\text{pr}}^{\text{(off)}} + \displaystyle \sum_{i=1}^{n^{(9)}} \vec{\text{b}}_\text{i}^{\text{(pr\_off)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(10)}} \vec{\text{d}}_\text{i}^{\text{(pr)}}\right)+\\\\
     +\min \left(0, \vec{\text{pr}}^\text{(off)} \times \text{PR} \times \left(\vec{\text{pr}}^\text{(def)}\right)^{\top}\right) \times \left( \vec{\text{v}}_{\text{pr}}^{\text{(def)}} + \displaystyle \sum_{i=1}^{n^{(11)}} \vec{\text{b}}_\text{i}^{\text{(pr\_def)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(12)}} \vec{\text{d}}_\text{i}^{\text{(pr)}}\right) + \\\\
     + \delta_{\text{EC}} \times \text{b}^{\text{EC}} \Bigg] \times \\\\
-    \times \left[1 + \delta_{\text{chains}} \times \left(0.1 + \displaystyle \sum_{i=1}^{n^{(13)}} \text{b}_\text{i}^{\text{(chains)}} \right) \times \text{v}^{\text{(chains)}} \right] \times \\\\
+    \times \left[1 + \delta_{\text{chains}} \times \left(0.1 + \displaystyle \sum_{i=1}^{n^{(13)}} \text{b}_\text{i}^{\text{(chains)}} \right) \times \left[\left(1-\delta_\text{ln}\right) \times \min \left(100, \text{v}^{\text{(chains)}}\right) + \delta_\text{ln} \text{v}^{\text{(chains)}} \right] \right] \times \\\\
     \times \Bigg[1 + \displaystyle \sum_{i=1}^{n^{(14)}} \text{b}_\text{i}^{\text{(aug)}} + \displaystyle \sum_{i=1}^{n^{(15)}} \text{b}_\text{i}^{\text{(vuln\_gen)}} + \displaystyle \sum_{i=1}^{n^{(16)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_dt)}} \times \vec{\tilde{\text{s}}}^{\top} + \displaystyle \sum_{i=1}^{n^{(17)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_pr)}} \times  \left(\vec{\text{pr}}^\text{(off)}\right)^{\top} + \\\\
     + \delta_{\text{DoT}} \times \displaystyle \sum_{i=1}^{n^{(18)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_dot)}} + \delta_{\text{summons}} \times \displaystyle \sum_{i=1}^{n^{(19)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_summons)}}  \Bigg] \times \\\\
     \times \displaystyle \prod_{i=1}^{n^{(20)}}  \left[1 - \vec{\text{b}}_\text{i}^{\text{(dmg\_red)}} \right] \vec{\tilde{\text{s}}}^{\top}  \times \\\\
     \times \left[1 + \delta_{\text{fh/gr}} \times \text{b}_{\text{weak}} \right] \times \\\\
     \times \left[1 + \delta_\text{ln} \times \text{b}_{\text{supp}} \right] \times \\\\
-    \times \delta_{\text{kb}}$    
+    \times \left[1-\delta_{\text{kb}}\right]$    
     
 
     ---
 
-    $\vec{\text{v}} = \begin{pmatrix}\text{\textcolor{ffe8aa}{ATK}}_\text{self} & \text{\textcolor{ffa6ff}{MATK}}_\text{self} & \text{\textcolor{orange}{HP}}_\text{self}^{\text{cap}} & \text{\textcolor{white}{EG}}_\text{self} & \text{\textcolor{ffe8aa}{ATK}}_\text{enemy} & \text{\textcolor{ffa6ff}{MATK}}_\text{enemy} & \text{\textcolor{orange}{HP}}_\text{enemy}^{\text{cap}} \end{pmatrix}$
+    $\vec{\text{c}}^\text{v}_\text{max} = \begin{pmatrix} 10^5 & 10^5 & 5 \cdot 10^4 & \infty & 10^5 & 10^5 & 5 \cdot 10^4 \end{pmatrix}$
 
-    $\text{\textcolor{orange}{HP}}_\text{self}^{\text{cap}} = \min \left(5\cdot 10^4,\text{\textcolor{orange}{HP}}_\text{self}\right) \\\\$
-
-    $\text{\textcolor{orange}{HP}}_\text{enemy}^{\text{cap}} = \min \left(5\cdot 10^4,\text{\textcolor{orange}{HP}}_\text{enemy}\right) \\\\$
+    $\vec{\text{v}} = \begin{pmatrix}\text{\textcolor{ffe8aa}{ATK}}_\text{self} & \text{\textcolor{ffa6ff}{MATK}}_\text{self} & \text{\textcolor{orange}{HP}}_\text{self} & \text{\textcolor{white}{EG}}_\text{self} & \text{\textcolor{ffe8aa}{ATK}}_\text{enemy} & \text{\textcolor{ffa6ff}{MATK}}_\text{enemy} & \text{\textcolor{orange}{HP}}_\text{enemy} \end{pmatrix}$
 
     $\text{SM} = \begin{pmatrix}\text{SM}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{self}} & \text{SM}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{self}} & \text{SM}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{self}} & \text{SM}_{\text{i}}^{\text{\textcolor{white}{EG}}_\text{self}}& \text{SM}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{enemy}}& \text{SM}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{enemy}} & \text{SM}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{enemy}} \end{pmatrix}$
 
@@ -1973,7 +1970,7 @@ All Costumes are upgraded to the max.
 
 !!! abstract "Blade's Stats"
 
-    * Hit Multiplier: $150\%$
+    * **Hit Multiplier**: $150\%$
     * {{ATK}} **ATK**: $2950$
     * {{CritDMG}} **Crit DMG**: $734.44\%$
     * **Darkness DMG**: $60\%$
@@ -1994,6 +1991,15 @@ That confirms recieved damage by enemy in-game:
 
 ![Fight Screenshot №2](../assets/images/damage-formula/fight_2.avif)
 
+## Stat Limits
+During calculations, some numbers have the cap to avoid weird bugs or mechanics.
+
+* {{ATK}} **ATK**{.yellow} and {{MATK}} **MATK**{.magenta} are capped at $100,000$.
+* {{HP}} **HP**{.orange} is capped at $50,000$.
+* {{CritRate}} **Crit Rate**{.white} is capped at $100\%$.
+* {{CritDMG}} **Crit DMG**{.white} is capped at $10,000$
+
+* Chains are capped at $100$, except the Last Night, where they have no cap.
 <!--## Additional Effects
 
 Death Time
