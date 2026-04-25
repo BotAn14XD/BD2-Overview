@@ -1,14 +1,14 @@
 # Damage Formula — Brown Dust II
 
 !!! abstract "TL;DR"
-    Damage Formula consists of few multipliers, main of which are {{ATK}} $\text{\textcolor{ffe8aa}{ATK}}$ / {{MATK}} $\text{\textcolor{ffa6ff}{MATK}}$ and its Buffs, {{CritDMG}} $\text{\textcolor{white}{CDMG}}$ and its buffs, $\text{\textcolor{8A9A5B}{Property Damage}}$, $\text{Vulnerability}$ with $\text{DMG Increase}$ Buffs, and, lastly, $\text{Chains}$.
+    The Damage Formula consists of a few multipliers, the main of which are {{ATK}} $\text{\textcolor{ffe8aa}{ATK}}$ / {{MATK}} $\text{\textcolor{ffa6ff}{MATK}}$ and its Buffs, {{CritDMG}} $\text{\textcolor{white}{CDMG}}$ and its buffs, $\text{\textcolor{8A9A5B}{Property Damage}}$, $\text{Vulnerability}$ with $\text{DMG Increase}$ Buffs, and, lastly, $\text{Chains}$.
 
-    Within each of that multiplier, buffs are additive, meaning, if you want to reach more damage, you must **use different buffs category**. 
+    Within each of these multipliers, buffs are additive, meaning, if you want to reach more damage, you must **use different buff categories**. 
 
     Stacking a lot of {{ATK}} **ATK**{.yellow} buffs generally loses to a single {{ATK}} **ATK**{.yellow} buff combined with $\text{Vulnerability}$ and some $\text{Chains}$. Keep this in mind when constructing a team.
 
 ## Damage Formula
-$\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MATK} / \textcolor{orange}{HP}}^{\textcolor{AFDBF5}{[1]}} \text{/ \textcolor{white}{EG}}^{\textcolor{AFDBF5}{[2]}}\text{]}^{\textcolor{AFDBF5}{[3]}}  \\\\
+$\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MATK} / \textcolor{orange}{HP}}^{\textcolor{AFDBF5}{[1]}} \text{/ \textcolor{white}{Energy Guard}}^{\textcolor{AFDBF5}{[2]}}\text{]}^{\textcolor{AFDBF5}{[3]}}  \\\\
 \times \; \text{Skill\%} \\\\
 \times \; (100\% + \text{\textcolor{ffe8aa}{ATK\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{ffe8aa}{ATK\%} Debuffs})^{\textcolor{AFDBF5}{[4]}} \\\\
 \times \; (100\% + \text{\textcolor{white}{CDMG\%}} + \text{\textcolor{white}{CDMG\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{white}{CDMG\%} Debuffs})^{\textcolor{AFDBF5}{[5]}} \\
@@ -21,8 +21,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 \times \; (100\% + \text{Weak Point\%})^\text{\textcolor{AFDBF5}{[11]}} \\\\
 \times \; (100\% + \text{Support Bonus\%})^\text{\textcolor{AFDBF5}{[12]}}$
 
-??? example "Formula Notes"
-    ${\textcolor{AFDBF5}{[1]}}$: Whenever {{HP}} **HP**{.orange} is used (either own or enemy's), there is a cap of $\text{50,000}$ for the value. In other words, if you use Angelica's skill on the enemy with $\text{2,000,000}$ {{HP}} **HP**{.orange}, only $\text{50,000}$ will be put as the value.
+!!! example "Formula Notes"
+    ${\textcolor{AFDBF5}{[1]}}$: Whenever {{HP}} **HP**{.orange} is used (either your own or the enemy's), there is a cap of $\text{50,000}$ for the value. In other words, if you use Angelica's skill on the enemy with $\text{2,000,000}$ {{HP}} **HP**{.orange}, only $\text{50,000}$ will be put as the value.
 
     ${\textcolor{AFDBF5}{[2]}}$: **Energy Guard** damage (from Boo Ghost Granhildr) counts as {{HP}} **HP**{.orange} damage, but **has no cap value**.
 
@@ -36,7 +36,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ${\textcolor{AFDBF5}{[6]}}$: Unless the fight disables the chain mechanic (some Story Pack bosses).
 
-    ${\textcolor{AFDBF5}{[7]}}$: Currently appliable only to [Evil Castle](../content-packs/evil-castle.md) battles.
+    ${\textcolor{AFDBF5}{[7]}}$: Currently applicable only to [Evil Castle](../content-packs/evil-castle.md) battles.
 
     ${\textcolor{AFDBF5}{[8]}}$: Mutually exclusive to $\text{Property Resist\%}$ multiplier.
 
@@ -284,13 +284,13 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
 === "$\text{\textcolor{ffe8aa}{ATK\%} Buffs}$"
 
-    {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} buff is the most common type of buff. It directly increases the character stat.
+    The {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} buff is the most common type of buff. It directly increases the character stat.
 
-    These buffs are **additive**, if coming from different sources (parts of the skills or different skills): 
+    These buffs are **additive** if coming from different sources (parts of the skills or different skills): 
 
     $\text{\textcolor{ffe8aa}{ATK\%} Total Buff = \textcolor{ffe8aa}{ATK\%} Buff 1 + \textcolor{ffe8aa}{ATK\%} Buff 2} + \dots $
 
-    If you apply the same buff from the same source before previous one is expired, it will **refresh** the buff duration and will **not** make two instances of the buff. 
+    If you apply the same buff from the same source before the previous one has expired, it will **refresh** the buff duration and will **not** make two instances of the buff. 
 
     ---
 
@@ -320,7 +320,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td rowspan="2"><strong>Homunculus Lathel</strong></td>
                     <td>$60\% \sim 90\%$</td>
-                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
                     <td align="center" rowspan="2">$2 \sim 1$</td>
                 </tr>
                 <tr>
@@ -504,7 +504,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Maid Name C<br>Rubia</strong></td>
                     <td>$50\%$</td>
-                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
                     <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
@@ -617,7 +617,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         </table>
 
 === "$\text{Pressure}$"
-    Pressure is a debuff that reduces stat-boosting buff efficiency. **It does not affect initial character stats, buffs only.**
+    Pressure is a debuff that reduces stat-boosting buff efficiency. **It does not affect initial character stats, only buffs.**
     
     It affects such stats as:
 
@@ -631,7 +631,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     !!! example "Example"
         Maxed **Medical Club Teresse**, which would give $120\%$ {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} buff, would only apply $60\%$ instead. 
 
-        On the countrary, her **Beachside Angel** costume will still give 200% Augmentation Buff as if it's not considered a stat-boosting buff.
+        On the contrary, her **Beachside Angel** costume will still give 200% Augmentation Buff as if it's not considered a stat-boosting buff.
 
     ??? image "Pressure Effect in a fight"
         ![Pressure Effect in a fight](../assets/images/damage-formula/pressure.avif)
@@ -639,16 +639,16 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Debuffs are straightforward: they reduce character's {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}. 
 
-    Because it stacks with buffs additively, it is more or less not important unless you are in a fight where boss doesn't gain any buffs.
+    Because it stacks with buffs additively, it is more or less not important unless you are in a fight where the boss doesn't gain any buffs.
 
-    This debuff is considered as Weakening, so any enemy with **Immune to Weakening** Status Effect will ignore the reduction. 
+    This debuff is considered Weakening, so any enemy with **Immune to Weakening** Status Effect will ignore the reduction. 
 
     Additionally, despite {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Debuffs, damage will always be $\ge 1$ even with 0 {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} on the enemy.
 
     ---
-    As was said above, these debuffs are not very widely used, especially since a lot of bosses have Weakness immunity or you can sustain just fine, while in PvP there are buffs pretty much nullifying your debuffs. 
+    As mentioned above, these debuffs are not very widely used, especially since a lot of bosses have Weakening immunity or you can sustain just fine, while in PvP there are buffs pretty much nullifying your debuffs. 
 
-    However, worth mentioning there are Story Pack fights such as **Partan** (Story Pack 11) and **Nox** (Story Pack 12), where you can use **Gynt** and **Remnunt** to extend fight to the Death Time, where you will deal increased damage to the boss.
+    However, it is worth mentioning that there are Story Pack fights such as **Partan** (Story Pack 11) and **Nox** (Story Pack 12), where you can use **Gynt** and **Remnunt** to extend fight to the Death Time, where you will deal increased damage to the boss.
 
     ---
         
@@ -678,7 +678,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Sage of Blue Clouds<br>Olstein</strong></td>
                     <td>$70\%$</td>
-                    <td>$4 \sim 2 \text{ Turns}$</td>
+                    <td>$2 \sim 4 \text{ Turns}$</td>
                     <td align="center">$2 \sim 1$</td>
                 </tr>
                 <tr>
@@ -721,7 +721,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Sage of Blue Clouds<br>Olstein</strong></td>
                     <td>$70\%$</td>
-                    <td>$4 \sim 2 \text{ Turns}$</td>
+                    <td>$2 \sim 4 \text{ Turns}$</td>
                     <td align="center">$2 \sim 1$</td>
                 </tr>
                 <tr>
@@ -738,18 +738,18 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
 === "$\text{\textcolor{white}{CDMG}}$"
 
-    {{CritDMG}} **Crit Damage** matters when character **crits**, meaning it is essential to have high {{CritRate}} **Crit Rate** or guarantee it via other methods.
+    {{CritDMG}} **Crit Damage** matters when a character **crits**, meaning it is essential to have high {{CritRate}} **Crit Rate** or guarantee it via other methods.
 
     !!! example "{{CritRate}} Crit Rate"
         {{CritRate}} **Crit Rate** is additive, similar to other buffs within same multiplier: 
 
         $\text{\textcolor{white}{Crit Rate\%} Total Buff =  \textcolor{white}{Crit Rate\%} Inherent + \textcolor{white}{Crit Rate\%} Gear} + [\text{\textcolor{white}{Crit Rate\%} Buff 1} + \dots] \times [100\% - \text{Pressure\%}] $
 
-        Here **Inherent {{CritRate}} Crit Rate** means the one from character itself. It varies from $0\%$ to $20\%$, depending on the character. Characters with $0\%$ {{CritRate}} Crit Rate **cannot crit**.
+        Here **Inherent {{CritRate}} Crit Rate** means the one from the character itself. It varies from $0\%$ to $20\%$, depending on the character. Characters with $0\%$ {{CritRate}} Crit Rate **cannot crit**.
 
     ---
 
-    $\text{\textcolor{white}{CDMG\%}}$ addend refers to sum of inherent, gear and bonding {{CritDMG}} **Crit Damage**:
+    $\text{\textcolor{white}{CDMG\%}}$ addend refers to the sum of inherent, gear and bonding {{CritDMG}} **Crit Damage**:
     
     $\text{\textcolor{white}{CDMG\%}} = \text{Character's Base \textcolor{white}{CDMG\%}} + \text{Gear \textcolor{white}{CDMG\%}} + \text{ Potential \textcolor{white}{CDMG\%}}$
 
@@ -881,9 +881,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Magical Rose Liberta](../assets/images/damage-formula/illust_inven_char003803_201.avif){.icon-portrait}
+                    ![Miracle Rose Liberta](../assets/images/damage-formula/illust_inven_char003803_201.avif){.icon-portrait}
                     </td>
-                    <td><strong>Magical Rose Liberta</strong></td>
+                    <td><strong>Miracle Rose Liberta</strong></td>
                     <td>$40 \sim 100\%$</td>
                     <td>$\text{1 Turn}$</td>
                     <td align="center">$2 \sim 1$</td>
@@ -1000,16 +1000,16 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Acting Archbishop Michaela</strong></td>
                     <td>$300\% \sim 500\%$</td>
-                    <td>$4 \text{ Turns}$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
                     <td align="center">$4 \sim 2$</td>
                 </tr>
             </tbody>
         </table>
 
 === "$\text{Chains}$"
-    **Chains** is a mechanic that increases the damage with each repetitive hit on the same tile / enemy.
+    The **Chain** system is a mechanic that increases damage with each repetitive hit on the same tile / enemy.
     
-    Generally speaking, each hit generates 1 chain by default, with possibility to increase amount by applying **Chain Reinforcement** status effect:
+    Generally speaking, each hit generates 1 chain by default, with the possibility to increase the amount by applying **Chain Reinforcement** status effect:
 
     $\text{Chain Per Hit} = 1 + \text{Amount of Applied Chain Reinforcements}$
 
@@ -1059,7 +1059,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Poolside Guardian Zenith</strong></td>
                     <td>$5\% \sim 10\%$</td>
-                    <td>$4 \sim 2 \text{ Turns}$</td>
+                    <td>$2 \sim 4 \text{ Turns}$</td>
                     <td align="center">$4 \sim 2$</td>
                 </tr>
             </tbody>
@@ -1082,7 +1082,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     ![Water Park Queen Wilhelmina](../assets/images/damage-formula/illust_inven_char067603_171.avif){.icon-portrait}
                     </td>
                     <td><strong>Water Park Queen Wilhelmina</strong></td>
-                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
                     <td align="center">$5 \sim 4$</td>
                 </tr>
                 <tr>
@@ -1090,25 +1090,25 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     ![Masquerade Bunny Celia](../assets/images/damage-formula/illust_inven_char060403_109.avif){.icon-portrait}
                     </td>
                     <td><strong>Masquerade Bunny Celia</strong></td>
-                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
                     <td align="center">$4 \sim 3$</td>
                 </tr>
             </tbody>
         </table>
 
 === "$\text{Vulnerability}$"
-    Vulnerability is a **debuff** that increases damage recieved by enemy. There are 5 types of Vulnerability: 
+    Vulnerability is a **debuff** that increases damage received by the enemy. There are 5 types of Vulnerability: 
 
     * **General**, which increases damage in every instance
-    * **Damage Type-related**, which increases damage only to {{Physical}} **Physical**{.yellow} of {{Magical}} **Magical**{.magenta} damage type. 
+    * **Damage Type-related**, which increases damage only to the {{Physical}} **Physical**{.yellow} or {{Magical}} **Magical**{.magenta} damage type. 
         * {{Physical}} **Physical**{.yellow} Vulnerability is described as **Vulnerability (Physical)**
         * {{Magical}} **Magical**{.magenta} Vulnerability is described as **Vulnerability (Magic)**
-    * **Property-related**, that increases damage if only specific property deals damage
+    * **Property-related**, that increases damage if only a specific property deals damage
     * **Summons-related**, that increases damage dealt by summons
 
     ---
 
-    Similar to any other buff from same multiplier, different Vulnerabilities stack additively:
+    Similar to any other buff from the same multiplier, different Vulnerabilities stack additively:
 
     $\text{Total Vulnerability} = \text{Vulnerability 1} + \text{Vulnerability 2} + \dots$
 
@@ -1327,9 +1327,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
 === "$\text{DMG Increase\%}$"
 
-    $\text{DMG Increase\%}$ Buffs are buffs that technically act as reverse [**Vulnerability**](#__tabbed_1_8), increasing **own characters** damage instead of forcing enemy to take more damage.
+    $\text{DMG Increase\%}$ Buffs are buffs that technically act as reverse [**Vulnerability**](#__tabbed_1_8), increasing **your own characters'** damage instead of forcing the enemy to take more damage.
 
-    So far, all these buffs are called **Augmentation**, which you can think of buff with conditions. The condition can be either related to chains, times getting hit or amount of debuffs being removed from allies. 
+    So far, all these buffs are called **Augmentation**, which you can think of as a buff with conditions. The condition can be either related to chains, times getting hit or the amount of debuffs being removed from allies. 
 
     In other words, it is similar to Conditional [$\text{Skill\%}$](#__tabbed_1_2) in a way.
 
@@ -1341,7 +1341,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ---
 
-    However, since this buffs belong to the same bracked as **Vulnerability**, note that high Vulnerability will decrease efficiency of these buffs. 
+    However, since these buffs belong to the same bracket as **Vulnerability**, note that high Vulnerability will decrease efficiency of these buffs. 
 
     ---
 
@@ -1371,12 +1371,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td rowspan="2"><strong>Shrine Maiden<br>of Purification<br>Granadair</strong></td>
                     <td>$75\% \sim 120\%$</td>
-                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
                     <td align="center" rowspan="2">$4 \sim 3$</td>
                 </tr>
                 <tr>
                     <td>$10\% \times \text{\textcolor{AFDBF5}{Debuffs Absorbed}}$</td>
-                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1434,13 +1434,13 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         </table>
 
 === "$\text{\textcolor{8A9A5B}{Property}}$"
-    Property is another aspect of any character. There are total of 6 Properties: ![Water](../assets/images/battle-system/icons/elementicon1_1.avif){.icon} Water, ![Fire](../assets/images/battle-system/icons/elementicon2_2.avif){.icon} Fire, ![Wind](../assets/images/battle-system/icons/elementicon3_3.avif){.icon} Wind, ![Light](../assets/images/battle-system/icons/elementicon4_4.avif){.icon} Light, ![Darkness](../assets/images/battle-system/icons/elementicon5_5.avif){.icon} Darkness and ![Neutral](../assets/images/battle-system/icons/elementicon6_6.avif){.icon} Neutral.
+    Property is another aspect of any character. There are a total of 6 Properties: ![Water](../assets/images/battle-system/icons/elementicon1_1.avif){.icon} Water, ![Fire](../assets/images/battle-system/icons/elementicon2_2.avif){.icon} Fire, ![Wind](../assets/images/battle-system/icons/elementicon3_3.avif){.icon} Wind, ![Light](../assets/images/battle-system/icons/elementicon4_4.avif){.icon} Light, ![Darkness](../assets/images/battle-system/icons/elementicon5_5.avif){.icon} Darkness and ![Neutral](../assets/images/battle-system/icons/elementicon6_6.avif){.icon} Neutral.
 
-    Depending on what the opponent, there can be 3 incomes: 
+    Depending on the opponent, there can be 3 outcomes: 
 
-    * You gain **Property Advantage**, dealing **extra damage** due to superior Property
-    * You neither deal more nor deal less damage, due to Neutral enemy or cases like Light -> Water. 
-    * You deal **less damage** due to **Property Disadvantage**, .
+    * You gain **Property Advantage**, dealing **extra damage** due to a superior Property
+    * You neither deal more nor deal less damage, due to a Neutral enemy or cases like Light -> Water. 
+    * You deal **less damage** due to **Property Disadvantage**.
 
     ---
 
@@ -1449,7 +1449,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ---
 
-    $\text{\textcolor{8A9A5B}{Property Damage\%}}$ in the formula refers to the **character's own** Property Damage. Usually it consists of initial, awakening and [bond](../character-info/potential-liberation.md) one:
+    $\text{\textcolor{8A9A5B}{Property Damage\%}}$ in the formula refers to the **character's own** Property Damage. Usually it consists of the initial, awakening and [bond](../character-info/potential-liberation.md) ones:
 
     $\text{\textcolor{8A9A5B}{Property Damage\%}} = 50\% + \text{\textcolor{8A9A5B}{Property Damage\%} from Awakening} + \text{\textcolor{8A9A5B}{Property Damage\%} from Bond}$
 
@@ -1524,7 +1524,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Frozen Queen<br>Wilhelmina</strong></td>
                     <td>$30\% \sim 60\%$</td>
-                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
                     <td align="center">$5 \sim 3$</td>
                 </tr>
                 <tr>
@@ -1549,18 +1549,18 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         </table>
 
 === "$\text{\textcolor{ffe8aa}{DEF}}$"
-    {{DEF}} $\text{\textcolor{ffe8aa}{DEF}}$ / {{MRES}} $\text{\textcolor{ffa6ff}{MRES}}$ are two main stats of a character. They correspond for reducing damage from the enemy. 
+    {{DEF}} $\text{\textcolor{ffe8aa}{DEF}}$ / {{MRES}} $\text{\textcolor{ffa6ff}{MRES}}$ are two main stats of a character. They reduce damage from the enemy. 
 
     * $\text{\textcolor{ffe8aa}{DEF}}$ decreases all incoming {{Physical}} **Physical**{.yellow} Damage.
     * $\text{\textcolor{ffa6ff}{MRES}}$ decreases all incoming {{Magical}} **Magical**{.magenta} Damage.
 
     ---
 
-    During calculations, $\text{\textcolor{ffe8aa}{DEF}}$ / $\text{\textcolor{ffa6ff}{MRES}}$ are capped at $90\%$. That means no matter how high stat is, only maximum of $90\%$ will be used. This, however, does not actually remove anything above that mark, meaning going above can be useful when facing $\text{\textcolor{ffe8aa}{DEF}}$ / $\text{\textcolor{ffa6ff}{MRES}}$ **Reduction**.
+    During calculations, $\text{\textcolor{ffe8aa}{DEF}}$ / $\text{\textcolor{ffa6ff}{MRES}}$ are capped at $90\%$. That means no matter how high the stat is, only a maximum of $90\%$ will be used. This, however, does not actually remove anything above that mark, meaning going above can be useful when facing $\text{\textcolor{ffe8aa}{DEF}}$ / $\text{\textcolor{ffa6ff}{MRES}}$ **Reduction**.
 
     ---
 
-    **Fixed**, **Consumed** and **Pure** Damages ignore $\text{\textcolor{ffe8aa}{DEF}}$ / $\text{\textcolor{ffa6ff}{MRES}}$ completely.
+    **Fixed**, **Consumed** and **Pure** Damage ignores $\text{\textcolor{ffe8aa}{DEF}}$ / $\text{\textcolor{ffa6ff}{MRES}}$ completely.
 
     ---
     
@@ -1599,7 +1599,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Lovely Lady<br>Elise</strong></td>
                     <td>$50\%$</td>
-                    <td>$6 \sim 4\text{ Turns}$</td>
+                    <td>$4 \sim 6\text{ Turns}$</td>
                     <td align="center">$5 \sim 3$</td>
                 </tr>
                 <tr>
@@ -1687,7 +1687,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Lovely Lady<br>Elise</strong></td>
                     <td>$50\%$</td>
-                    <td>$6 \sim 4\text{ Turns}$</td>
+                    <td>$4 \sim 6\text{ Turns}$</td>
                     <td align="center">$5 \sim 3$</td>
                 </tr>
                 <tr>
@@ -1757,12 +1757,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 === "$\text{DMG Reduction}$"
     $\text{DMG Reduction}$ is a separate buff that decreases incoming damage, similar to {{DEF}} $\text{\textcolor{ffe8aa}{DEF}}$ and {{MRES}} $\text{\textcolor{ffa6ff}{MRES}}$, but working in a different way.
 
-    It's more known as **Barrier** buff, being part of the skillset for multiple costumes in the game.
+    It's more known as a **Barrier** buff, being part of the skillset for multiple costumes in the game.
 
     ---
 
     Barriers from different sources stack differently compared to other buffs.
-    Instead of being additive, they're being multiplicative:
+    Instead of being additive, they are multiplicative:
 
     $(100\% - \text{Target's DMG Reduction\% Buffs Total}) = \\\\
     = (100\% - \text{Target's DMG Reduction\% Buff 1}) \times \\\\
@@ -1770,11 +1770,11 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     For example, combining 2 Barriers of $70\%$ and $50\%$ will essentially give you $85\%$ Barrier.
 
-    This system ensures that barrier can never achieve $100\%$, meaning some damage will go through anyway. 
+    This system ensures that a barrier can never achieve $100\%$, meaning some damage will go through anyway. 
 
     ---
 
-    Similar to **Vulnerability**, Barriers *can* be {{Physical}} **Physical**{.yellow} and {{Magical}} **Magical**{.magenta}, meaning they'll reduce incoming damage from only one damage type. 
+    Similar to **Vulnerability**, Barriers *can* be {{Physical}} **Physical**{.yellow} or {{Magical}} **Magical**{.magenta}, meaning they will reduce incoming damage from only one damage type. 
 
     ---
 
@@ -1856,7 +1856,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Mercenary Knight<br>Carlson</strong></td>
                     <td>$35\% \sim 65\% \newline \text{\textcolor{ffe8aa}{[Physical]}}$</td>
-                    <td>$4 \sim 2 \text{ Turns}$</td>
+                    <td>$2 \sim 4 \text{ Turns}$</td>
                     <td align="center">$3 \sim 1$</td>
                 </tr>
                 <tr>
@@ -1865,7 +1865,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Dark Knight<br>Lathel</strong></td>
                     <td>$50\% \sim 65\% \newline \text{\textcolor{ffe8aa}{[Physical]}}$</td>
-                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
                     <td align="center">$2 \sim 1$</td>
                 </tr>
                 <tr>
@@ -1928,7 +1928,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Beautiful Girl Devotee<br>Jayden</strong></td>
                     <td>$50\% \sim 75\% \newline \text{\textcolor{ffa6ff}{[Magic]}}$</td>
-                    <td>$6 \sim 4 \text{ Turns}$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
                     <td align="center">$3 \sim 2$</td>
                 </tr>
                 <tr>
@@ -1937,7 +1937,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     </td>
                     <td><strong>Demon's Daughter<br>Seir</strong></td>
                     <td>$40\% \sim 85\%$</td>
-                    <td>$6 \sim 4\text{ Turns}$</td>
+                    <td>$4 \sim 6\text{ Turns}$</td>
                     <td align="center">$3 \sim 1$</td>
                 </tr>
                 <tr>
@@ -1987,21 +1987,34 @@ $\text{Damage} = \underbrace{2950}_\text{ATK} \times \underbrace{150\%}_\text{Sk
 
 $\text{Damage} = 2950 \times 1.5 \times 3.75 \times 3 \times 8.344 \times 1.6 \times 0.75 = 498449.7$
 
-That confirms recieved damage by enemy in-game: 
+That confirms the received damage by the enemy in-game: 
 
 ![Fight Screenshot №2](../assets/images/damage-formula/fight_2.avif)
 
 ## Stat Limits
-During calculations, some numbers have the cap to avoid weird bugs or mechanics.
+During calculations, some numbers have a cap to avoid weird bugs or mechanics.
 
 * {{ATK}} **ATK**{.yellow} and {{MATK}} **MATK**{.magenta} are capped at $100,000$.
 * {{HP}} **HP**{.orange} is capped at $50,000$.
 * {{CritRate}} **Crit Rate**{.white} is capped at $100\%$.
 * {{CritDMG}} **Crit DMG**{.white} is capped at $10,000$
 
-* Chains are capped at $100$, except the Last Night, where they have no cap.
-<!--## Additional Effects
+* Chains are capped at $100$, except in the Last Night, where they have no cap.
 
-Death Time
+## Additional Effects
 
-Enviromental--> 
+### Death Time
+Starting from Turn 11 in different modes, Death Time is introduced. 
+
+Each 2 turns, each side receives 
+
+* $100\%$ {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} **Buff**
+* $100\%$ {{DEF}} **DEF**{.yellow} / {{MRES}} **MRES**{.magenta} **Debuffs**
+* $50\%$ Damage Increase **Buff**
+
+These (de)buffs follow the exact rules as described above, going into each of the brackets seamlessly.
+
+### Environmental Effects
+In [**Evil Castle**](../content-packs/evil-castle.md), especially **Tower of Jealousy** and **Tower of Wrath**, there are effects taking place that affect some stats, such as  **Pressure**, {{CritRate}} **Crit Rate** and more. 
+
+Refer to the [**Evil Castle**](../content-packs/evil-castle.md) page for more detailed explanation.
