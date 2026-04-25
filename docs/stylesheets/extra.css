@@ -393,6 +393,16 @@ li.md-nav__item:has(a[href$="#"]) {
     font-weight: 500;
 }
 
+.md-typeset .rare-tag {
+    background-color: rgba(255, 255, 255, 0.05); 
+    color: rgba(255, 255, 255, 0.4);
+    border: 1px dashed rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 3px 10px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
 .slang-search-box {
     width: 100%;
     padding: 12px 15px;
@@ -410,3 +420,7 @@ li.md-nav__item:has(a[href$="#"]) {
     outline: none;
     border-color: var(--md-primary-fg-color);
 }   
+
+.alpha-group:not(:has(.slang-item)) {
+    display: none;
+}
