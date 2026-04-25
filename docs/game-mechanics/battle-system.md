@@ -63,26 +63,23 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
         ![Targetting Logic](../assets/images/battle-system/targetting.avif)
 
 !!! abstract "Damage Formula"
-    $\text{Damage} = \\\\ \text{ATK / MATK / HP}^\text{[1]} \\\\ 
-    \times \; \text{Skill\%} \\\\ 
-    \times \; (100\% + \text{ATK\% Buffs} - \text{ATK\% Debuffs})^\text{[2]}\\\\ 
-    \times \; (100\% + \text{CDMG\%} + \text{CDMG\% Buffs} - \text{CDMG\% Debuffs}) \\\\
-    \times \; (100\% + \text{Weak Point\%}) \\\\
+    $\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MATK} / \textcolor{orange}{HP}} \text{/ \textcolor{white}{Energy Guard}]} \\\\
+    \times \; \text{Skill\%} \\\\
+    \times \; (100\% + \text{\textcolor{ffe8aa}{ATK\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{ffe8aa}{ATK\%} Debuffs}) \\\\
+    \times \; (100\% + \text{\textcolor{white}{CDMG\%}} + \text{\textcolor{white}{CDMG\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{white}{CDMG\%} Debuffs}) \\
     \times \; (100\% + (10\% + \text{Increase Chain DMG\%}) \times \text{Chains}) \\\\
     \times \; (100\% + \text{Target's Vulnerability Debuffs\%} + \text{DMG Increase\% Buffs}) \\\\
-    \times \; (100\% + \text{Property Damage\%} + \text{Season Buff\%} + \text{Property Damage\% Buffs})^\text{[3]} \\\\ 
-    \times \; (100\% - (\text{Target's DEF\%} + \text{Target's DEF\% Buffs} - \text{Target's DEF\% Debuffs}))^\text{[4,5]} \\\\     
+    \times \; (100\% + \text{\textcolor{8A9A5B}{Property Damage\%}} + \text{Season Buff\%} + \text{\textcolor{8A9A5B}{Property Damage\%} Buffs} \times [100\% - \text{Pressure\%}]  )\\\\
+    \times \; (100\% - (\text{Target's \textcolor{ffe8aa}{DEF\%}} + \text{Target's \textcolor{ffe8aa}{DEF\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{Target's \textcolor{ffe8aa}{DEF\%} Debuffs})) \\\\  
     \times \; (100\% - \text{Target's DMG Reduction\% Buffs}) \\\\
-    \times \; (100\% - \text{Target's Property Resists})^\text{[6]}$
+    \times \; (100\% - \text{Target's \textcolor{8A9A5B}{Property Resist\%}}) \\\\
+    \times \; (100\% + \text{Weak Point\%}) \\\\
+    \times \; (100\% + \text{Support Bonus\%})$
 
     ---
 
-    [1] Depends on the character. If costume attacks using HP, 50k is max.<br>
-    [2] Ignored with HP-related skills.<br>
-    [3] If Target has weaker Property. Imcompatible with Property Resist multiplier.<br>
-    [4] DEF when attacked with {Physical} Physical Damage, MRES when attacked with {Magical} Magical Damage.<br>
-    [5] Maximum is 100% (when summary DEF is 0%), minimum is 10% (when summary DEF is greater or equal to 90%).<br>
-    [6] If Target has stronger Property. Imcompatible with Property Damage multiplier.
+    <big>**Check the [Damage Formula Page](../game-mechanics/damage-formula.md) for more detailed information regarding the formula.**</big>
+
 
 
 

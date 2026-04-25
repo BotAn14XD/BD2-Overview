@@ -363,6 +363,36 @@ li.md-nav__item:has(a[href$="#"]) {
     font-weight: 500;
 }
 
+.md-typeset .character-tag {
+    background-color: rgba(61, 200, 255, 0.752);
+    color: #000000;
+    border: 1px solid rgba(175, 219, 245, 0.3);
+    border-radius: 12px;
+    padding: 3px 10px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.md-typeset .game-tag {
+    background-color: rgba(255, 61, 61, 0.752);
+    color: #ffffff;
+    border: 1px solid rgba(175, 219, 245, 0.3);
+    border-radius: 12px;
+    padding: 3px 10px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.md-typeset .costume-tag {
+    background-color: rgba(0, 255, 174, 0.752);
+    color: #000000;
+    border: 1px solid rgba(175, 219, 245, 0.3);
+    border-radius: 12px;
+    padding: 3px 10px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
 .slang-search-box {
     width: 100%;
     padding: 12px 15px;
