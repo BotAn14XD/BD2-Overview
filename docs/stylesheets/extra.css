@@ -367,40 +367,30 @@ li.md-nav__item:has(a[href$="#"]) {
     background-color: rgba(61, 200, 255, 0.752);
     color: #000000;
     border: 1px solid rgba(175, 219, 245, 0.3);
-    border-radius: 12px;
-    padding: 3px 10px;
-    font-size: 0.85em;
-    font-weight: 500;
 }
 
 .md-typeset .game-tag {
     background-color: rgba(255, 61, 61, 0.752);
     color: #ffffff;
     border: 1px solid rgba(175, 219, 245, 0.3);
-    border-radius: 12px;
-    padding: 3px 10px;
-    font-size: 0.85em;
-    font-weight: 500;
 }
 
 .md-typeset .costume-tag {
     background-color: rgba(0, 255, 174, 0.752);
     color: #000000;
     border: 1px solid rgba(175, 219, 245, 0.3);
-    border-radius: 12px;
-    padding: 3px 10px;
-    font-size: 0.85em;
-    font-weight: 500;
+}
+
+.md-typeset .content-tag {
+    background-color: rgba(122, 255, 78, 0.752);
+    color: #000000;
+    border: 1px solid rgba(175, 219, 245, 0.3);
 }
 
 .md-typeset .rare-tag {
     background-color: rgba(255, 255, 255, 0.05); 
     color: rgba(255, 255, 255, 0.4);
     border: 1px dashed rgba(255, 255, 255, 0.2);
-    border-radius: 12px;
-    padding: 3px 10px;
-    font-size: 0.85em;
-    font-weight: 500;
 }
 
 .slang-search-box {
@@ -423,4 +413,64 @@ li.md-nav__item:has(a[href$="#"]) {
 
 .alpha-group:not(:has(.slang-item)) {
     display: none;
+}
+
+.md-typeset .slang-item {
+    transition: all 0.2s ease-in-out;
+    border-left: 3px solid transparent;
+}
+
+.md-typeset .slang-item.exact-match {
+    background-color: rgba(229, 181, 103, 0.08); 
+    border-left: 3px solid #e5b567 !important;   
+    border-bottom: 1px solid rgba(229, 181, 103, 0.2);
+    padding-left: 15px;                          
+}
+
+.md-typeset .slang-item.exact-match::before {
+    content: "EXACT MATCH";
+    display: block;
+    color: #e5b567;
+    font-size: 0.75em;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.quick-filters {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.quick-filters button {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #a0aabf;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.quick-filters button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+}
+
+.quick-filters .clear-btn {
+    border-color: rgba(255, 77, 77, 0.3);
+}
+.quick-filters .clear-btn:hover {
+    background-color: rgba(255, 77, 77, 0.2);
+}
+
+.quick-filters button.active-filter {
+    background-color: #ffffff !important;
+    color: #1a1e23 !important;
+    font-weight: bold;
+    border-color: #ffffff;
 }
