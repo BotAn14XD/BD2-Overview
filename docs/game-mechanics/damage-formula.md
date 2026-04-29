@@ -58,7 +58,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     \left[\min \left(\vec{c}_\text{max}^\text{v}, \vec{\text{v}} \odot \left[1 + \displaystyle \sum_{i=1}^{n^{(1)}} \vec{\text{b}}_\text{i}^{\text{(off)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(2)}}\vec{\text{d}}_\text{i}^{\text{(off)}}\right] \right) \odot \vec{\text{SM}} \right] \vec{\text{s}}^{\top} \times \\\\
     \times \left[ \min \left(1, \max \left(0.1, \left[ 1 - \left(1-\delta_{\text{pfc}}\right) \times \left(\vec{\tilde{\text{v}}} + \displaystyle \sum_{i=1}^{n^{(3)}} \vec{\text{b}}_\text{i}^{\text{(def)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(4)}}\vec{\text{d}}_\text{i}^{\text{(def)}}\right) \right]\right) \right) \right] \vec{\tilde{\text{s}}}^{\top} \times \\\\
     \times \Bigg[ \max \Biggl(1,\Bigg[ 1 + \left(\left(1-\delta_{\text{fc}} \right) \times \mathcal{H}\left(\text{v}^{\text{cr}} + \displaystyle \sum_{i=1}^{n^{(5)}} \text{b}_\text{i}^{\text{(cr)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(6)}}\text{d}_\text{i}^{\text{(cr)}}- \mathcal{U}\left(0,1\right) \right) \right) \times \\\\ 
-    \times \min\left(10^4, 10^{-3} \times \left\lfloor 10^3 \times \left(\text{v}^{\text{(cdmg)}} + \displaystyle \sum_{i=1}^{n^{(7)}} \text{b}_\text{i}^{\text{(cdmg)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(8)}}\text{d}_\text{i}^{\text{(cdmg)}}\right)\right\rfloor\right) \Bigg]\Bigg)\Bigg] \times \\\\
+    \times \min\left(10^4, 10^{-3} \times \left\lfloor 10^3 \times \left(1+ \text{v}^{\text{(cdmg)}} + \displaystyle \sum_{i=1}^{n^{(7)}} \text{b}_\text{i}^{\text{(cdmg)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(8)}}\text{d}_\text{i}^{\text{(cdmg)}}\right)\right\rfloor\right) \Bigg]\Bigg)\Bigg] \times \\\\
     \times \Bigg[1+\max \left(0, \vec{\text{pr}}^\text{(off)} \times \text{PR} \times \left(\vec{\text{pr}}^\text{(def)}\right)^{\top}\right) \times \left( \vec{\text{v}}_{\text{pr}}^{\text{(off)}} + \displaystyle \sum_{i=1}^{n^{(9)}} \vec{\text{b}}_\text{i}^{\text{(pr\_off)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(10)}} \vec{\text{d}}_\text{i}^{\text{(pr)}}\right)+\\\\
     +\min \left(0, \vec{\text{pr}}^\text{(off)} \times \text{PR} \times \left(\vec{\text{pr}}^\text{(def)}\right)^{\top}\right) \times \left( \vec{\text{v}}_{\text{pr}}^{\text{(def)}} + \displaystyle \sum_{i=1}^{n^{(11)}} \vec{\text{b}}_\text{i}^{\text{(pr\_def)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(12)}} \vec{\text{d}}_\text{i}^{\text{(pr)}}\right) + \\\\
     + \delta_{\text{EC}} \times \text{b}^{\text{EC}} \Bigg] \times \\\\
@@ -1444,7 +1444,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ---
 
-    Similar to any other buff, \text{Property Damage\% Buffs} stack additively: 
+    Similar to any other buff, $\text{Property Damage\% Buffs}$ stack additively: 
     $\text{\textcolor{8A9A5B}{Property Damage\%} Total Buffs} = \text{\textcolor{8A9A5B}{Property Damage\%} Buff 1} + \text{\textcolor{8A9A5B}{Property Damage\%} Buff 2} + \dots$
 
     ---

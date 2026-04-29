@@ -15,6 +15,11 @@ This site is a work in progress, focusing on high-quality explanation for every 
 
 
     [>> View Page <<](./game-mechanics/battle-system.md)
+
+-   __Damage Formula__
+
+    ---
+    [>> View Page <<](./game-mechanics/damage-formula.md)
 </div>
 <h2 style="text-align:center;"> Character Progression </h2>
 <div class="grid cards" markdown>
