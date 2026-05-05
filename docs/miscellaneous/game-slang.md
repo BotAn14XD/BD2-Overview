@@ -2,10 +2,13 @@
 
 <div class="quick-filters">
     <button id="btn-Character" onclick="toggleCategory('Character')">Character</button>
-    <button id="btn-Costume" onclick="toggleCategory('Costume')">Costume</button>
     <button id="btn-Content" onclick="toggleCategory('Content')">Content</button>
+    <button id="btn-Costume" onclick="toggleCategory('Costume')">Costume</button>
     <button id="btn-Game-Mechanics" onclick="toggleCategory('Game Mechanics')">Game Mechanics</button>
+    <button id="btn-Gear" onclick="toggleCategory('Gear')">Gear</button>
 </div>
+
+<div id="slang-counter" class="slang-counter"></div>
 
 <div class="alpha-group">
     <h2 class="letter-heading">A</h2>
@@ -26,6 +29,14 @@
                 </div>
                 <p><a href="https://browndust2.miraheze.org/wiki/Angelica">Angelica</a> is a playable Light Character.</p>
             </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Attack</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">ATK</span>
+            </div>
+            <p>Attack is one of in-game stats used mostly by units with Physical damage type to deal damage.</p>
+        </li>
     </ul>
 </div>
 
@@ -46,6 +57,33 @@
 <div class="alpha-group">
     <h2 class="letter-heading">C</h2>
     <ul class="slang-list">
+        <li class="slang-item" data-keywords="">
+            <h3>Character Pack</h3>
+            <div class="alias-container">
+                <span class="alias-tag content-tag ignore-exact">Content</span>
+                <span class="alias-tag">Char Pack</span>
+                <span class="alias-tag">Cpack</span>
+            </div>
+            <p>Character Packs are a specific pack type, set in an alternative universe separate from the main story.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Critical Damage</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">Crit DMG</span>
+                <span class="alias-tag">CDMG</span>
+            </div>
+            <p>Critical Damage represents a damage increase for the attack whenever character triggers critical hit.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Critical Rate</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">Crit Rate</span>
+                <span class="alias-tag">Crate</span>
+            </div>
+            <p>Critical Rate represents a chance that the attack will be a critical one, dealing increased damage.</p>
+        </li>
     </ul>
 </div>
 
@@ -58,7 +96,7 @@
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
                 <span class="alias-tag">DK Lathel</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Mamonir/Dark_Knight">Dark Knight</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a PvP Costume.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Mamonir/Dark_Knight">Dark Knight</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a  <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Costume.</p>
         </li>
     </ul>
 </div>
@@ -84,6 +122,14 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Eleaneer">Eleaneer</a> is a playable Darkness Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Event Pack</h3>
+            <div class="alias-container">
+                <span class="alias-tag content-tag ignore-exact">Content</span>
+                <span class="alias-tag rare-tag">Epack</span>
+            </div>
+            <p>Event Packs are a specific pack type, set in an alternative universe separate from the main story.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Evil Castle</h3>
             <div class="alias-container">
                 <span class="alias-tag content-tag ignore-exact">Content</span>
@@ -100,12 +146,30 @@
     <h2 class="letter-heading">F</h2>
     <ul class="slang-list">
         <li class="slang-item" data-keywords="">
+            <h3>Fantasia Square</h3>
+            <div class="alias-container">
+                <span class="alias-tag content-tag ignore-exact">Content</span>
+                <span class="alias-tag">FS</span>
+                <span class="alias-tag">Plaza</span>
+            </div>
+            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/fantasia-square">Fantasia Square</a> is one of the content packs, focused on players interaction with each other, as well as different events held place.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Fated Guest</h3>
+            <div class="alias-container">
+                <span class="alias-tag content-tag ignore-exact">Content</span>
+                <span class="alias-tag">FG</span>
+                <span class="alias-tag rare-tag">Fated</span>
+            </div>
+            <p>Fated Guest is a type of Guest in <a href="https://botan14xd.github.io/BD2-Overview/content-packs/glupy-diner/">Glupy Diner</a> that has story and interactive scenes.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Fiend Hunter</h3>
             <div class="alias-container">
                 <span class="alias-tag content-tag ignore-exact">Content</span>
                 <span class="alias-tag">FH</span>
             </div>
-            <p>One of key Game Modes.</p>
+            <p>Fiend Hunter is one of the key Game Modes, resolving around defeating a Boss.</p>
         </li>
     </ul>
 </div>
@@ -148,7 +212,7 @@
                 <span class="alias-tag rare-tag">Gcolo</span>
                 <span class="alias-tag rare-tag">Coloss</span>
             </div>
-            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/golden-colosseum/">Golden Colosseum</a> is a Content Pack, focusing on PvP experience.</p>
+            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/golden-colosseum/">Golden Colosseum</a> is a Content Pack, focusing on  <span class="cross-link" onclick="searchFor('PvP')">PvP</span> experience.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Granadair</h3>
@@ -212,6 +276,15 @@
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Mamonir/Homunculus">Homunculus</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Used as a buffer.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Health Points</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">HP</span>
+                <span class="alias-tag rare-tag">Health</span>
+            </div>
+            <p>Health Points represent the character Health. It is used for sustaining enemy damage.</p>
+        </li>
     </ul>
 </div>
 
@@ -239,6 +312,14 @@
 <div class="alpha-group">
     <h2 class="letter-heading">K</h2>
     <ul class="slang-list">
+        <li class="slang-item" data-keywords="">
+            <h3>Knockback</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">KB</span>
+            </div>
+            <p>Knockback is the one of available actions for a character, allowing to adjust enemy positioning.</p>
+        </li>
     </ul>
 </div>
 
@@ -261,7 +342,7 @@
                 <span class="alias-tag content-tag ignore-exact">Content</span>
                 <span class="alias-tag">LN</span>
             </div>
-            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/last-night">Last Night</a> is a Content Pack, focused on the     PvE battle with the help of all the roster.</p>
+            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/last-night">Last Night</a> is a Content Pack, focused on the      <span class="cross-link" onclick="searchFor('PvE')">PvE</span> battle with the help of all the roster.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Lecliss</h3>
@@ -324,6 +405,14 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Mamonir">Mamonir</a> is a playable Water Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Magical Attack</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">MATK</span>
+            </div>
+            <p>Magicla Attack is one of in-game stats used mostly by units with Magical damage type to deal damage.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Michaela</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
@@ -338,7 +427,7 @@
                 <span class="alias-tag">MW</span>
                 <span class="alias-tag">PvP</span>
             </div>
-            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/mirror-wars/">Mirror Wars</a> is a Content Pack, focusing on PvP experience.</p>
+            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/mirror-wars/">Mirror Wars</a> is a Content Pack, focusing on  <span class="cross-link" onclick="searchFor('PvP')">PvP</span> experience.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Morpeah</h3>
@@ -398,6 +487,22 @@
     <h2 class="letter-heading">P</h2>
     <ul class="slang-list">
         <li class="slang-item" data-keywords="">
+            <h3>Player vs. Environment Content</h3>
+            <div class="alias-container">
+                <span class="alias-tag content-tag ignore-exact">Content</span>
+                <span class="alias-tag">PvE</span>
+            </div>
+            <p>Player vs. Environment Content resolves around players fighting against environmental enemies.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Player vs. Player Content</h3>
+            <div class="alias-container">
+                <span class="alias-tag content-tag ignore-exact">Content</span>
+                <span class="alias-tag">PvP</span>
+            </div>
+            <p>Player vs. Player Content resolves around players competing amongst each other directly. Consists of <a href="https://botan14xd.github.io/BD2-Overview/content-packs/mirror-wars">Mirror Wars</a> and <a href="https://botan14xd.github.io/BD2-Overview/content-packs/golden-colosseum/">Golden Colosseum</a>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Pool Party Lathel</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -407,6 +512,15 @@
                 <span class="alias-tag rare-tag">Beach Lathel</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Mamonir/Pool_Party">Pool Party</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a low Chainer and Sub DPS.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Potential Liberation</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">Pots</span>
+                <span class="alias-tag rare-tag">Potlib</span>
+            </div>
+            <p><a href="https://botan14xd.github.io/BD2-Overview/character-info/potential-liberation/">Potential Liberation</a> is a character progession feature offering stats increase as well as difect skill enhancement.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Priestess</h3>
@@ -424,6 +538,23 @@
                 <span class="alias-tag">Vengeance Lathel</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Mamonir/Promise_of_Vengeance">Promise of Vengeance</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a DPS.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Property</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">Prop</span>
+                <span class="alias-tag">Element</span>
+            </div>
+            <p>Property is one of the character's traits that increases damage dealt versus weaker Property and reduces damage dealt versus a stronger one.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Property Damage</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">Prop Damage</span>
+            </div>
+            <p>Damage buffed with <span class="cross-link" onclick="searchFor('Property')">Property</span> Advantage.</p>
         </li>
     </ul>
 </div>
@@ -517,6 +648,17 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Sonya">Sonya</a> is a playable Darkness Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Story Pack</h3>
+            <div class="alias-container">
+                <span class="alias-tag content-tag ignore-exact">Content</span>
+                <span class="alias-tag">Story</span>
+                <span class="alias-tag">Chapter</span>
+                <span class="alias-tag">Ch</span>
+                <span class="alias-tag rare-tag">SP</span>
+            </div>
+            <p>Story Packs are a specific pack type, set in an original universe of the main story.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Sword Maiden</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
@@ -539,6 +681,16 @@
 <div class="alpha-group">
     <h2 class="letter-heading">T</h2>
     <ul class="slang-list">
+        <li class="slang-item" data-keywords="">
+            <h3>Taros Tactical Manual</h3>
+            <div class="alias-container">
+                <span class="alias-tag content-tag ignore-exact">Content</span>
+                <span class="alias-tag">TTM</span>
+                <span class="alias-tag">Tac Manual</span>
+                <span class="alias-tag">Taros Manual</span>
+            </div>
+            <p>Taros Tactical Manual is a content focusing on completing battles created as a puzzles.</p>
+        </li>
         <li class="slang-item" data-keywords="">
             <h3>Teresse</h3>
             <div class="alias-container">
@@ -677,27 +829,35 @@
 
 <script>
 let searchTimeout = null;
-let activeCategories = [];
+let activeCategory = "";
 
 function toggleCategory(category) {
-    const index = activeCategories.indexOf(category);
-    
-    if (index > -1) {
-        activeCategories.splice(index, 1);
+    if (activeCategory === category) {
+        activeCategory = "";
     } else {
-        activeCategories.push(category);
+        activeCategory = category;
     }
 
     let buttons = document.querySelectorAll('.quick-filters button');
     buttons.forEach(btn => btn.classList.remove('active-filter'));
 
-    activeCategories.forEach(cat => {
-        let safeId = 'btn-' + cat.replace(/\s+/g, '-'); 
+    if (activeCategory !== "") {
+        let safeId = 'btn-' + activeCategory.replace(/\s+/g, '-'); 
         let activeBtn = document.getElementById(safeId);
         if (activeBtn) activeBtn.classList.add('active-filter');
-    });
+    }
 
     filterSlang();
+}
+
+function searchFor(term) {
+    let searchInput = document.getElementById("slangSearch");
+    searchInput.value = term;
+    activeCategory = "";
+    let buttons = document.querySelectorAll('.quick-filters button');
+    buttons.forEach(btn => btn.classList.remove('active-filter'));
+    filterSlang();
+    searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
 function filterSlang() {
@@ -714,10 +874,11 @@ function filterSlang() {
 
         let rawInput = document.getElementById("slangSearch").value;
         let inputText = cleanText(rawInput);
-        
-        let activeCatsClean = activeCategories.map(cat => cleanText(cat));
+        let categoryInput = cleanText(activeCategory); 
         
         let groups = document.getElementsByClassName("alpha-group");
+        
+        let totalVisible = 0; 
 
         for (let i = 0; i < groups.length; i++) {
             let items = groups[i].getElementsByClassName("slang-item");
@@ -731,24 +892,26 @@ function filterSlang() {
                 
                 let tags = item.querySelectorAll('.alias-tag, .tag-rare, .rare-tag, [class*="tag-"]');
                 let tagsText = "";
-                let itemTagsArray = [];
+                let itemHasCategory = false; 
 
                 for (let k = 0; k < tags.length; k++) {
                     let singleTagText = cleanText(tags[k].textContent);
                     tagsText += singleTagText + " ";
-                    itemTagsArray.push(singleTagText);
+
+                    if (categoryInput !== "" && singleTagText === categoryInput) {
+                        itemHasCategory = true;
+                    }
                 }
                 
                 let searchableText = titleText + " " + tagsText;
+
                 let passesText = (inputText === "" || searchableText.indexOf(inputText) > -1);
-                let passesCategory = true;
-                if (activeCatsClean.length > 0) {
-                    passesCategory = activeCatsClean.some(activeCat => itemTagsArray.includes(activeCat));
-                }
+                let passesCategory = (categoryInput === "" || itemHasCategory);
 
                 if (passesText && passesCategory) {
                     item.style.display = "";
                     visibleCount++;
+                    totalVisible++; 
 
                     let isExact = false;
                     if (inputText !== "") {
@@ -779,8 +942,25 @@ function filterSlang() {
             }
         }
         
+        let counterDiv = document.getElementById("slang-counter");
+        if (counterDiv) {
+            // Choose the correct word based on the total
+            let word = (totalVisible === 1) ? "term" : "terms";
+
+            // Update the text
+            if (totalVisible === 0) {
+                counterDiv.textContent = "No terms found";
+            } else if (inputText === "" && categoryInput === "") {
+                counterDiv.textContent = "Showing all " + totalVisible + " " + word;
+            } else {
+                counterDiv.textContent = "Found " + totalVisible + " " + word;
+            }
+        }
+        
     }, 250); 
 }
+
+document.addEventListener("DOMContentLoaded", filterSlang);
 </script>
 
 <style>
