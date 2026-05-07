@@ -2,16 +2,16 @@
 
 description: A technical guide to the Brown Dust 2 Burst System. Includes detailed information on skill enhancement costs, unlock requirements, and optimal usage strategies for high-level play
 comments: true
-image: assets/images/site/
+image: assets/images/site/burst-system-banner.png
 
 ---
 
 # Burst System — Brown Dust 2
-The Burst System is one of the costume upgrading systems.<br>**It allows to spend more SP to activate the ability in exchange of having the ability enhanced.**
+The Burst System is one of the costume upgrading systems.<br>**It allows you to spend more SP to activate the ability in exchange for having the ability enhanced.**
 
 ---
 
-To access the Burst system, select desired costume in Costume tab, press **Upgrade** in the bottom right and pick the Burst icon.
+To access the Burst system, select the desired costume in the Costume tab, press **Upgrade** in the bottom right and pick the Burst icon.
 ??? image "Image Guide"
     ![Burst Menu Access Guide](../assets/images/burst/burst-location.avif)
 
@@ -80,7 +80,7 @@ When you choose the skill with upgraded Burst, you can press on the little arrow
 ??? image "Image Guide"
     ![Burst Switch](../assets/images/burst/switch_burst.avif)
     
-Aside of the animation, Skill Card will now have light blue border and extra SP shown in orange, and burst effects will be highlighted.
+Aside from the animation, Skill Card will now have light blue border and extra SP shown in orange, and burst effects will be highlighted.
 
 ??? image "Image Demonstration" 
     ![Burst Demostration](../assets/images/burst/burst_display.avif)
@@ -92,7 +92,7 @@ In the [Battle](../game-mechanics/battle-system.md), you can activate the **Auto
 !!! image "Auto Burst Button"
     ![Auto Burst Button Location](../assets/images/burst/auto-burst.avif)
 
-When active, Burst will be activated automatically, however, it will take **lesser priority** compared to Costume activation.1
+When active, Burst will be activated automatically, however, it will take **a lower priority** compared to Costume activation.
 
 That means if you do not have enough SP to activate Burst and Costume at the same time, Costume will be activated only.
 
@@ -104,33 +104,33 @@ That means if you do not have enough SP to activate Burst and Costume at the sam
 
 * In [**Last Night**](../content-packs/last-night.md), maximum possible Burst is applied automatically to the costume, whenever the costume was upgraded beforehand. 
 * In [**Golden Colosseum**](../content-packs/golden-colosseum.md), maximum possible Burst is used **based on your SP**.
-    * If Rules grant infinite ($\infty$) SP, Burst is applied similar to the [**Last Night**](../content-packs/last-night.md). Otherwise, Burst is applied after all costumes activated their Abilities.
+    * If Rules grant infinite ($\infty$) SP, Burst is applied similar to [**Last Night**](../content-packs/last-night.md). Otherwise, Burst is applied after all costumes activated their Abilities.
 
 ## Burst view in Collection
-In collection, Burst is diplayed under ![Liberation Icon](../assets/images/potential-liberation/icon_potential3_3.png "Potential Liberation"){.icon} [Potential Liberation](../character-progression/potential-liberation.md) icon and consists of 3 tongues of flame, corresponding to individual bursts.
+In the collection, Burst is displayed under the ![Liberation Icon](../assets/images/potential-liberation/icon_potential3_3.png "Potential Liberation"){.icon} [Potential Liberation](../character-progression/potential-liberation.md) icon and consists of 3 tongues of flame, corresponding to individual bursts.
 
-??? image "Burst Demostration in Compainion Tab"
-    ![Burst Demostration in Compainion Tab](../assets/images/burst/burst-collection.avif)
+??? image "Burst Demonstration in Companion Tab"
+    ![Burst Demonstration in Companion Tab](../assets/images/burst/burst-collection.avif)
 
-As was said above, each separate tongue of flame represents a separate burst, that means you can visually differ different stages of burst.
+As was said above, each separate tongue of flame represents a separate burst, that means you can visually differentiate the different stages of burst.
 ??? image "Different Burst progression"
     ![Different Burst progression](../assets/images/burst/burst-view.avif)
 
 ## Priority Guide
 Since **Sparks of Rampage** is a limited resource, it is important to focus the costumes that will benefit you more in a long run.
 
-!!! example "General Advices"
+!!! example "General Advice"
     * This system is **very expensive** for a new player. It is better to not heavily invest into it since it is a gold sink.
     * Despite it being gold sink, you **really should** accumulate Sparks even if you do not plan on spending them. The scarcity of the resource sets high pressure for a player and missing Sparks is a bad move. 
         * That isn't really applied to **Powder of Hope** / **Golden Thread** shops, because while you can afford start buying Sparks from latter, Powder Shop non-costume purchases are still for whales.
-    * Whole Burst System is more designed for **Fiend Hunter** / **Guild Raid** than it is for the story, meaning competition-wise, DPS **can be** more benefitial to upgrade. However, that extremely narrows down amount of content you would benefit from since it will come down to "good" seasons very quickly.<br><br>Less "dangerous route" is going for generic core supports for both types of damage, before investing into "generally good" DPS that can shine even outside of the corresponding seasons.<br><br>Aside of that, each costume has different Burst Effects which makes whole priority a bit more subjective and situative.<br><br><u>**Author of this Compendium thinks that going the less dangerous route is overall better for securing most of the content.**</u>
+    * Whole Burst System is more designed for **Fiend Hunter** / **Guild Raid** than it is for the story, meaning competition-wise, DPS **can be** more beneficial to upgrade. However, that extremely narrows down the amount of content you would benefit from since it will come down to "good" seasons very quickly.<br><br>The less "dangerous route" is going for generic core supports for both types of damage, before investing into "generally good" DPS that can shine even outside of the corresponding seasons.<br><br>Aside from that, each costume has different Burst Effects which makes the whole priority a bit more subjective and situational.<br><br><u>**Author of this Compendium thinks that going the less dangerous route is overall better for securing most of the content.**</u>
 
 !!! warning "DISCLAIMER"
-    **Anything below represents author's personal opinion. You may see different opinions compared to this one on different sources. See General Advices admonition to understand the reasoning behind the priority offered.**
+    **Anything below represents author's personal opinion. You may see different opinions compared to this one on different sources. See General Advice admonition to understand the reasoning behind the priority offered.**
 
-Costumes withing each category are **not sorted** in priority, but rather **alphabetically** (character-wise). 
+Costumes within each category are **not sorted** in priority, but rather **alphabetically** (character-wise). 
 
-When Burst 2-3 is higher in priority than Burst 1, that means it is more benefitial to upgrade up to Burst 2-3 immediately compared to Burst 1.
+When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burst 1 provides small benefit on its own. For these costumes, you should save your Sparks of Rampage and wait to upgrade until you can afford to unlock up to Burst 2 or 3 all at once.
 
 <div class="tab-align" markdown>
 
