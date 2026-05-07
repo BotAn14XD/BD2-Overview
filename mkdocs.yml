@@ -22,7 +22,6 @@ theme:
 #    - navigation.tabs
 #    - navigation.sections
 nav:
-#    - Home: index.md
     - 'Main Page': index.md
     - 'Game Mechanics':
         - 'Battle System': game-mechanics/battle-system.md
