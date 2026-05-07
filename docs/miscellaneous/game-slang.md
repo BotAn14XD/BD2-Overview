@@ -17,49 +17,63 @@
             <h3>Acting Archbishop Michaela</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
-                <span class="alias-tag"><!--STUB--></span>
+                <span class="alias-tag">Bishop</span>
+                <span class="alias-tag">Bishop Michaela</span>
+                <span class="alias-tag rare-tag">Arch Michaela</span>
+                <span class="alias-tag rare-tag">Arch Bish Mich</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Michaela/Acting_Archbishop">Acting Archbishop</a> is one of <a href="https://browndust2.miraheze.org/wiki/Michaela">Michaela's</a> costumes. Used as <!--STUB--></p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Michaela/Acting_Archbishop">Acting Archbishop</a> is one of <a href="https://browndust2.miraheze.org/wiki/Michaela">Michaela's</a> costumes. Used as self-buff costume and weak DPS.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Admiral Sylvia</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
                 <span class="alias-tag">ASylvia</span>
+                <span class="alias-tag">Adm Sylvia</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Sylvia/Admiral">Admiral</a> is one of <a href="https://browndust2.miraheze.org/wiki/Sylvia">Sylvia's</a> costumes. Used as <!--STUB--></p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Sylvia/Admiral">Admiral</a> is one of <a href="https://browndust2.miraheze.org/wiki/Sylvia">Sylvia's</a> costumes. Used as DPS.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Adventurer of the Unknown Diana</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
-                <span class="alias-tag"><!--STUB--></span>
+                <span class="alias-tag">AotU Diana</span>
+                <span class="alias-tag">Base Diana</span>
+                <span class="alias-tag">Glasses Diana</span>
+                <span class="alias-tag rare-tag">AU Diana</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown">Adventurer of the Unknown</a> is one of <a href="https://browndust2.miraheze.org/wiki/Diana">Diana's</a> costumes. Used as <!--STUB--></p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown">Adventurer of the Unknown</a> is one of <a href="https://browndust2.miraheze.org/wiki/Diana">Diana's</a> costumes. Used as Property Buffer (Support).</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Alice Glacia</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
-                <span class="alias-tag"><!--STUB--></span>
+                <span class="alias-tag">Alice</span>
+                <span class="alias-tag rare-tag">Fairytale Glacia</span>
+                <span class="alias-tag rare-tag">Tank Glacia</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Glacia/Alice">Alice</a> is one of <a href="https://browndust2.miraheze.org/wiki/Glacia">Glacia's</a> costumes. Used as <!--STUB--></p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Glacia/Alice">Alice</a> is one of <a href="https://browndust2.miraheze.org/wiki/Glacia">Glacia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Tank costume.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Android Queen Lecliss</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
-                <span class="alias-tag"><!--STUB--></span>
+                <span class="alias-tag">AQ Lecliss</span>
+                <span class="alias-tag">Android Lecliss</span>
+                <span class="alias-tag rare-tag">Firechip Lecliss</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Lecliss/Android_Queen">Android Queen</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lecliss">Lecliss's</a> costumes. Used as <!--STUB--></p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Lecliss/Android_Queen">Android Queen</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lecliss">Lecliss's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Tank costume.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Angel of Destruction Teresse</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
-                <span class="alias-tag"><!--STUB--></span>
+                <span class="alias-tag">AoD Teresse</span>
+                <span class="alias-tag">Base Teresse</span>
+                <span class="alias-tag">Angel Teresse</span>
+                <span class="alias-tag rare-tag">Knockback Teresse</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Teresse/Angel_of_Destruction">Angel of Destruction</a> is one of <a href="https://browndust2.miraheze.org/wiki/Teresse">Teresse's</a> costumes. Used as <!--STUB--></p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Teresse/Angel_of_Destruction">Angel of Destruction</a> is one of <a href="https://browndust2.miraheze.org/wiki/Teresse">Teresse's</a> costumes. Used as Knockback unit and <span class="cross-link" onclick="searchFor('SP Battery')">SP Battery</span></p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Anonymous Sage Nartas</h3>

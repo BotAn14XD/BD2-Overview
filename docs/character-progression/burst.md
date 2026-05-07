@@ -19,9 +19,9 @@ To access the Burst system, select the desired costume in the Costume tab, press
     ![Burst Menu Image](../assets/images/burst/burst-menu.avif)
 
 ## Burst Mechanics
-There are a total of **3** Bursts per costume. Each Burst is unlocked **separately**, but each subsequent tier **requires the previous one to be upgraded first**. 
+There are a total of **3** Bursts per costume. There are a total of **3** Bursts per costume, with **each subsequent tier requires the previous one to be upgraded first.**
 
-Effects from all Bursts **stack**, meaning **if you activate Burst 3, you will have all effects from Bursts 1-3**.
+Effects from all Bursts **stack**, meaning **if you activate Burst 3, you will have all effects from Bursts 1-3**. This also means that **Burst Cost also stacks**.
 
 !!! abstract "Upgrade Cost"
     * **5★ Costume:**
@@ -139,7 +139,6 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Homunculus Lathel** **Bursts 1-3**{.yellow}
 
 === "High Priority"
-    * **DJ Venaka** **Burst 1**{.yellow}
 
 === "Medium Priority"
     * **New Hire Nebris** **Bursts 2-3**{.yellow}
@@ -152,5 +151,5 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Magical Violet Palette** **Burst 1**{.yellow}
     * **Thorn of the Desert Rubia** **Burst 1-2**{.yellow}
     * **Reclaimed Destiny Sacred Justia** **Bursts 1-3**{.yellow}
-    * **DJ Venaka** **Bursts 2-3**{.yellow}
+    * **DJ Venaka** **Bursts 1-3**{.yellow}
 
