@@ -1449,7 +1449,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ---
 
-    $\text{\textcolor{8A9A5B}{Property Damage\%}}$ in the formula refers to the **character's own** Property Damage. Usually it consists of the initial, awakening and [bond](../character-info/potential-liberation.md) ones:
+    $\text{\textcolor{8A9A5B}{Property Damage\%}}$ in the formula refers to the **character's own** Property Damage. Usually it consists of the initial, awakening and [bond](../character-progression/potential-liberation.md) ones:
 
     $\text{\textcolor{8A9A5B}{Property Damage\%}} = 50\% + \text{\textcolor{8A9A5B}{Property Damage\%} from Awakening} + \text{\textcolor{8A9A5B}{Property Damage\%} from Bond}$
 

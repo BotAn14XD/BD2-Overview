@@ -34,7 +34,13 @@ This site is a work in progress, focusing on high-quality explanation for every 
 -   ![Liberation Icon](assets/images/potential-liberation/icon_potential3_3.png){.icon} __Potential Liberation__
 
     ---
-    [>> View Page <<](./character-info/potential-liberation.md)
+    [>> View Page <<](./character-progression/potential-liberation.md)
+</div>
+<div class="grid cards" markdown>
+-   __Burst System__
+
+    ---
+    [>> View Page <<](./character-progression/burst.md)
 </div>
 <h2 style="text-align:center;"> Content Packs </h2>
 <div class="grid cards" markdown>

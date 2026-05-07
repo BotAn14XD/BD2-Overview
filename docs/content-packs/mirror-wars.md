@@ -11,7 +11,7 @@ Mirror Wars is the PvP mode where you fight other players' defense teams.
 
 ## **Overview**
 * **Rankings:** There are **11 ranks** total (Bronze to Champion).
-* **Rewards:** You earn **{{ Medals_of_the_Fighting_Spirit }} Medals of the Fighting Spirit** per battle and **{{ Dia }} Dia** as season rewards.
+* **Rewards:** You earn **{{ Medal_of_the_Fighting_Spirit }} Medals of the Fighting Spirit** per battle and **{{ Dia }} Dia** as season rewards.
 * **Season Duration:** 1 Week (Monday Reset to Sunday).
     * *Note:* There is a 9-hour "Settlement Period" on Sunday before reset (starting at {{ time('15:00') }}) during which you cannot attack.
 
@@ -98,5 +98,5 @@ Each fight costs entry tickets called **{{ Blood_Cocktail }} Blood Cocktails**
 !!! abstract "Related Missions"
     * **Season Pass**: Complete a battle in the Mirror Wars
         * **Reset**: Daily
-        * **Reward**: 200 {{ Medals_of_the_Fighting_Spirit }}
+        * **Reward**: 200 {{ Medal_of_the_Fighting_Spirit }}
         * **Pass EXP**: 30

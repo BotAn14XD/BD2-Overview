@@ -135,7 +135,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
         ??? image "Image Display"
             ![Cooldown Display](../assets/images/battle-system/Cooldown.avif)
 
-    * To access the information about **stats**, press on the chibi / card, then press ![Plus Icon](../assets/images/battle-system/icons/icon_plus2.avif "Detailed Character information"){.icon} plus icon in the top corner of the screen *(left for your units, right for enemies)*.<br>Displayed information includes all stats **at the given moment** (with all **current** buffs applied), gear and [bond](../character-info/potential-liberation.md).
+    * To access the information about **stats**, press on the chibi / card, then press ![Plus Icon](../assets/images/battle-system/icons/icon_plus2.avif "Detailed Character information"){.icon} plus icon in the top corner of the screen *(left for your units, right for enemies)*.<br>Displayed information includes all stats **at the given moment** (with all **current** buffs applied), gear and [bond](../character-progression/potential-liberation.md).
     ??? image "Stats screenshot"
         ![Stats screenshot](../assets/images/battle-system/stats_window.avif)
     * To access the information about **status effects**, do the same thing except instead of clicking on the plus, click on the icons right below, such as ![Taunt Icon](../assets/images/battle-system/icons/bufficon_26.avif "Taunt Status Effect"){ .icon } (which is the Taunt effect) or others.

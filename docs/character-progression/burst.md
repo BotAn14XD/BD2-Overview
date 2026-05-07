@@ -1,0 +1,156 @@
+---
+
+description: A technical guide to the Brown Dust 2 Burst System. Includes detailed information on skill enhancement costs, unlock requirements, and optimal usage strategies for high-level play
+comments: true
+image: assets/images/site/
+
+---
+
+# Burst System — Brown Dust 2
+The Burst System is one of the costume upgrading systems.<br>**It allows to spend more SP to activate the ability in exchange of having the ability enhanced.**
+
+---
+
+To access the Burst system, select desired costume in Costume tab, press **Upgrade** in the bottom right and pick the Burst icon.
+??? image "Image Guide"
+    ![Burst Menu Access Guide](../assets/images/burst/burst-location.avif)
+
+!!! image "Burst Menu Image"
+    ![Burst Menu Image](../assets/images/burst/burst-menu.avif)
+
+## Burst Mechanics
+There are a total of **3** Bursts per costume. Each Burst is unlocked **separately**, but each subsequent tier **requires the previous one to be upgraded first**. 
+
+Effects from all Bursts **stack**, meaning **if you activate Burst 3, you will have all effects from Bursts 1-3**.
+
+!!! abstract "Upgrade Cost"
+    * **5★ Costume:**
+        * **Burst 1:** 60 **Sparks of Rampage** & 1.5M {{Gold}} **Gold**
+        * **Burst 2:** 60 **Sparks of Rampage** & 1.5M {{Gold}} **Gold**
+        * **Burst 3:** 60 **Sparks of Rampage** & 1.5M {{Gold}} **Gold**
+        * **Total:** 180 **Sparks of Rampage** & 4.5M {{Gold}} **Gold**
+      
+    <!-- --- -->
+
+    <!--* **4★ Costume:**
+        * **Burst 1:** *unknown*
+        * **Burst 2:** *unknown*
+        * **Burst 3:** *unknown*
+    -->
+    <!-- --- -->
+
+    <!--* **3★ Costume:**
+        * **Burst 1:** *unknown*
+        * **Burst 2:** *unknown*
+        * **Burst 3:** *unknown*
+    -->
+
+---
+
+For each Costume, the **SP Cost** and **Effects** are different. 
+
+* **To see the Costs and Effects for all costumes, check [this sheet](https://docs.google.com/spreadsheets/d/14S1ry3hblNeOZgmkk3VLdjNv8LERnrdzQ26V-ecc5Yk/edit?gid=449956328#gid=449956328)**.
+
+
+!!! example "**Sparks of Rampage**"
+    To upgrade the Bursts, you need the currency called **Spark of Rampage**. It is obtained from many sources:
+        
+    * **Event Shop**: **30 / season**{.yellow} — **60 / month**{.yellow}
+    * {{Golden_Thread}} **Golden Thread Shop**: **55 / month**{.yellow}
+    * {{Powder_of_Hope}} **Powder of Hope Shop**: **55 / month**{.yellow}
+    * **Refinement Remnants Shop**: **200 / month**{.yellow}
+    * {{Medal_of_the_Fighting_Spirit}} **[Mirror Wars](../content-packs/mirror-wars.md) Shop**: **55 / month**{.yellow}
+    * <!--{{Mercenary_Alliance_Deed}}--> **Guild Shop**: **50 / month**{.yellow}
+    * {{Aurum_Coin}} **Golden Colosseum Shop**: **55 / month**{.yellow}
+    * **Taros Tactical Manual**: **30 / month**{.yellow}
+
+    ---
+
+    * **Total theoretical:** **560 / month**{.yellow} ~ **3.1 Costumes / month**{.magenta}
+    * **Total realistical:** **450 ~ 505 / month**{.yellow} ~ **2.5 ~ 2.8 Costumes / month**{.magenta}
+
+---
+
+## Burst in a Battle
+
+If you upgraded your Burst, you can use that in your battle. 
+
+When you choose the skill with upgraded Burst, you can press on the little arrow to choose the Burst Tier, after which an animation and screen distortion will be visible for a brief period of time, implying Burst has been activated. 
+
+??? image "Image Guide"
+    ![Burst Switch](../assets/images/burst/switch_burst.avif)
+    
+Aside of the animation, Skill Card will now have light blue border and extra SP shown in orange, and burst effects will be highlighted.
+
+??? image "Image Demonstration" 
+    ![Burst Demostration](../assets/images/burst/burst_display.avif)
+
+### Auto Burst
+
+In the [Battle](../game-mechanics/battle-system.md), you can activate the **Auto Burst** button, located at the right top of the screen.
+
+!!! image "Auto Burst Button"
+    ![Auto Burst Button Location](../assets/images/burst/auto-burst.avif)
+
+When active, Burst will be activated automatically, however, it will take **lesser priority** compared to Costume activation.1
+
+That means if you do not have enough SP to activate Burst and Costume at the same time, Costume will be activated only.
+
+[Auto Battle](../game-mechanics/battle-system/#__tabbed_1_3) feature enables Auto Burst automatically.
+
+---
+
+## Unique Game Mode Behaviors
+
+* In [**Last Night**](../content-packs/last-night.md), maximum possible Burst is applied automatically to the costume, whenever the costume was upgraded beforehand. 
+* In [**Golden Colosseum**](../content-packs/golden-colosseum.md), maximum possible Burst is used **based on your SP**.
+    * If Rules grant infinite ($\infty$) SP, Burst is applied similar to the [**Last Night**](../content-packs/last-night.md). Otherwise, Burst is applied after all costumes activated their Abilities.
+
+## Burst view in Collection
+In collection, Burst is diplayed under ![Liberation Icon](../assets/images/potential-liberation/icon_potential3_3.png "Potential Liberation"){.icon} [Potential Liberation](../character-progression/potential-liberation.md) icon and consists of 3 tongues of flame, corresponding to individual bursts.
+
+??? image "Burst Demostration in Compainion Tab"
+    ![Burst Demostration in Compainion Tab](../assets/images/burst/burst-collection.avif)
+
+As was said above, each separate tongue of flame represents a separate burst, that means you can visually differ different stages of burst.
+??? image "Different Burst progression"
+    ![Different Burst progression](../assets/images/burst/burst-view.avif)
+
+## Priority Guide
+Since **Sparks of Rampage** is a limited resource, it is important to focus the costumes that will benefit you more in a long run.
+
+!!! example "General Advices"
+    * This system is **very expensive** for a new player. It is better to not heavily invest into it since it is a gold sink.
+    * Despite it being gold sink, you **really should** accumulate Sparks even if you do not plan on spending them. The scarcity of the resource sets high pressure for a player and missing Sparks is a bad move. 
+        * That isn't really applied to **Powder of Hope** / **Golden Thread** shops, because while you can afford start buying Sparks from latter, Powder Shop non-costume purchases are still for whales.
+    * Whole Burst System is more designed for **Fiend Hunter** / **Guild Raid** than it is for the story, meaning competition-wise, DPS **can be** more benefitial to upgrade. However, that extremely narrows down amount of content you would benefit from since it will come down to "good" seasons very quickly.<br><br>Less "dangerous route" is going for generic core supports for both types of damage, before investing into "generally good" DPS that can shine even outside of the corresponding seasons.<br><br>Aside of that, each costume has different Burst Effects which makes whole priority a bit more subjective and situative.<br><br><u>**Author of this Compendium thinks that going the less dangerous route is overall better for securing most of the content.**</u>
+
+!!! warning "DISCLAIMER"
+    **Anything below represents author's personal opinion. You may see different opinions compared to this one on different sources. See General Advices admonition to understand the reasoning behind the priority offered.**
+
+Costumes withing each category are **not sorted** in priority, but rather **alphabetically** (character-wise). 
+
+When Burst 2-3 is higher in priority than Burst 1, that means it is more benefitial to upgrade up to Burst 2-3 immediately compared to Burst 1.
+
+<div class="tab-align" markdown>
+
+=== "Highest Priority"
+    * **B-Rank Idol Helena** **Bursts 1-3**{.yellow}
+    * **Homunculus Lathel** **Bursts 1-3**{.yellow}
+
+=== "High Priority"
+    * **DJ Venaka** **Burst 1**{.yellow}
+
+=== "Medium Priority"
+    * **New Hire Nebris** **Bursts 2-3**{.yellow}
+    * **Magical Violet Palette** **Bursts 2-3**{.yellow}
+    * **Thorn of the Desert Rubia** **Burst 3**{.yellow}
+
+=== "Low Priority"
+    * **Wild Dog Luvencia** **Bursts 1-3**{.yellow}
+    * **New Hire Nebris** **Burst 1**{.yellow}
+    * **Magical Violet Palette** **Burst 1**{.yellow}
+    * **Thorn of the Desert Rubia** **Burst 1-2**{.yellow}
+    * **Reclaimed Destiny Sacred Justia** **Bursts 1-3**{.yellow}
+    * **DJ Venaka** **Bursts 2-3**{.yellow}
+

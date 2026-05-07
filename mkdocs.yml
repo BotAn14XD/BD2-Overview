@@ -29,8 +29,9 @@ nav:
         - 'Damage Formula': game-mechanics/damage-formula.md
         - 'Gear System': game-mechanics/gear-system.md
 
-    - 'Characters info':
-        - 'Potential Liberation': character-info/potential-liberation.md
+    - 'Characters Progression':
+        - 'Burst System': character-progression/burst.md
+        - 'Potential Liberation': character-progression/potential-liberation.md
     - 'Content Packs':
         - 'Mirror Wars': content-packs/mirror-wars.md
         - 'Evil Castle': content-packs/evil-castle.md
@@ -169,7 +170,7 @@ extra:
   Lost_Silver: '![Lost Silver](../assets/images/icons/lost_silver.png "Lost Silver"){ .icon }'
   Magical: '![Magical Damage Type](../assets/images/icons/icon_stats_magical.png "Magical Damage Type"){ .icon }'
   MATK: '![MATK](../assets/images/gear-system/icons/icon_stats_magical_l.avif "MATK"){ .icon }'
-  Medals_of_the_Fighting_Spirit: '![Medals of the Fighting Spirit](../assets/images/icons/Medals of the Fighting Spirit.png "Medals of the Fighting Spirit"){ .icon }'
+  Medal_of_the_Fighting_Spirit: '![Medal of the Fighting Spirit](../assets/images/icons/Medals of the Fighting Spirit.png "Medal of the Fighting Spirit"){ .icon }'
 #  Mercenary_Alliance_Deed: '![Mercenary Alliance Deed](../assets/images/icons/.png "Mercenary Alliance Deed"){ .icon }'
   MRES: '![Magic RES](../assets/images/gear-system/icons/icon_stats_magicaldef_l.avif "Magic RES"){ .icon }'
   N_Grade: '![N Grade](../assets/images/gear-system/icons/N_Grade.avif "N Grade"){ .icon }'

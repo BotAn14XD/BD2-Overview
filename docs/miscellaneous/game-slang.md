@@ -14,6 +14,62 @@
     <h2 class="letter-heading">A</h2>
     <ul class="slang-list">
         <li class="slang-item" data-keywords="">
+            <h3>Acting Archbishop Michaela</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Michaela/Acting_Archbishop">Acting Archbishop</a> is one of <a href="https://browndust2.miraheze.org/wiki/Michaela">Michaela's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Admiral Sylvia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">ASylvia</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Sylvia/Admiral">Admiral</a> is one of <a href="https://browndust2.miraheze.org/wiki/Sylvia">Sylvia's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Adventurer of the Unknown Diana</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown">Adventurer of the Unknown</a> is one of <a href="https://browndust2.miraheze.org/wiki/Diana">Diana's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Alice Glacia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Glacia/Alice">Alice</a> is one of <a href="https://browndust2.miraheze.org/wiki/Glacia">Glacia's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Android Queen Lecliss</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Lecliss/Android_Queen">Android Queen</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lecliss">Lecliss's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Angel of Destruction Teresse</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Teresse/Angel_of_Destruction">Angel of Destruction</a> is one of <a href="https://browndust2.miraheze.org/wiki/Teresse">Teresse's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Anonymous Sage Nartas</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Nartas/Anonymous_Sage">Anonymous Sage</a> is one of <a href="https://browndust2.miraheze.org/wiki/Nartas">Nartas's</a> costumes. Used as</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Anastasia</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
@@ -21,14 +77,38 @@
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Anastasia">Anastasia</a> is a playable Fire Character.</p>
         </li>
-            <li class="slang-item" data-keywords="">
-                <h3>Angelica</h3>
-                <div class="alias-container">
-                    <span class="alias-tag character-tag ignore-exact">Character</span>
-                    <span class="alias-tag">Ange</span>
-                </div>
-                <p><a href="https://browndust2.miraheze.org/wiki/Angelica">Angelica</a> is a playable Light Character.</p>
-            </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Angelica</h3>
+            <div class="alias-container">
+                <span class="alias-tag character-tag ignore-exact">Character</span>
+                <span class="alias-tag">Ange</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Angelica">Angelica</a> is a playable Light Character.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Anti-Dystopia Diana</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Diana/Anti-Dystopia">Anti-Dystopia</a> is one of <a href="https://browndust2.miraheze.org/wiki/Diana">Diana's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Apostle Blade</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Blade/Apostle">Apostle</a> is one of <a href="https://browndust2.miraheze.org/wiki/Blade">Blade's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Apostle Morpeah</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Morpeah/Apostle">Apostle</a> is one of <a href="https://browndust2.miraheze.org/wiki/Morpeah">Morpeah's</a> costumes. Used as <!--STUB--></p>
+        </li>
         <li class="slang-item" data-keywords="">
             <h3>Attack</h3>
             <div class="alias-container">
@@ -44,12 +124,132 @@
     <h2 class="letter-heading">B</h2>
     <ul class="slang-list">
         <li class="slang-item" data-keywords="">
+            <h3>B-Rank Idol Eleaneer</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Eleaneer/B-Rank_Idol">B-Rank Idol</a> is one of <a href="https://browndust2.miraheze.org/wiki/Eleaneer">Eleaneer's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>B-Rank Idol Helena</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Helena/B-Rank_Idol">B-Rank Idol</a> is one of <a href="https://browndust2.miraheze.org/wiki/Helena">Helena's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>B-Rank Idol Seir</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Seir/B-Rank_Idol">B-Rank Idol</a> is one of <a href="https://browndust2.miraheze.org/wiki/Seir">Seir's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>B-Rank Manager Gray</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Gray/B-Rank_Manager">B-Rank Manager</a> is one of <a href="https://browndust2.miraheze.org/wiki/Gray">Gray's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Beach Vacation Eclipse</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Eclipse/Beach_Vacation">Beach Vacation</a> is one of <a href="https://browndust2.miraheze.org/wiki/Eclipse">Eclipse's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Beach Vacation Morpeah</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Morpeah/Beach_Vacation">Beach Vacation</a> is one of <a href="https://browndust2.miraheze.org/wiki/Morpeah">Morpeah's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Beachside Angel Teresse</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Teresse/Beachside_Angel">Beachside Angel</a> is one of <a href="https://browndust2.miraheze.org/wiki/Teresse">Teresse's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Beachside Justice Michaela</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Michaela/Beachside_Justice">Beachside Justice</a> is one of <a href="https://browndust2.miraheze.org/wiki/Michaela">Michaela's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Beatrice</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
                 <span class="alias-tag">Bea</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Beatrice">Beatrice</a> is a playable Fire Character.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Bikini Agent Sylvia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Sylvia/Bikini_Agent">Bikini Agent</a> is one of <a href="https://browndust2.miraheze.org/wiki/Sylvia">Sylvia's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Bittersweet Bunny Darian</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Darian/Bittersweet_Bunny">Bittersweet Bunny</a> is one of <a href="https://browndust2.miraheze.org/wiki/Darian">Darian's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Blood Glutton Justia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Justia/Blood_Glutton">Blood Glutton</a> is one of <a href="https://browndust2.miraheze.org/wiki/Justia">Justia's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Bomb Fanatic Wiggle</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Wiggle/Bomb_Fanatic">Bomb Fanatic</a> is one of <a href="https://browndust2.miraheze.org/wiki/Wiggle">Wiggle's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Bomb in the Hoodie Wiggle</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Wiggle/Bomb_in_the_Hoodie">Bomb in the Hoodie</a> is one of <a href="https://browndust2.miraheze.org/wiki/Wiggle">Wiggle's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Boo Ghost Granhildr</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Granhildr/Boo_Ghost">Boo Ghost</a> is one of <a href="https://browndust2.miraheze.org/wiki/Granhildr">Granhildr's</a> costumes. Used as <!--STUB--></p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Bright Moon Dalvi</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Dalvi/Bright_Moon">Bright Moon</a> is one of <a href="https://browndust2.miraheze.org/wiki/Dalvi">Dalvi's</a> costumes. Used as <!--STUB--></p>
         </li>
     </ul>
 </div>
@@ -254,7 +454,7 @@
                 <span class="alias-tag rare-tag">HoT Lathel</span>
                 <span class="alias-tag rare-tag">HT Lathel</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Mamonir/Herb_of_Tracker">Herb of Tracker</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a low Chainer and Sub DPS.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Lathel/Herb_of_Tracker">Herb of Tracker</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a low Chainer and Sub DPS.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>High Elf Archer</h3>
@@ -274,7 +474,7 @@
                 <span class="alias-tag">Homo</span>
                 <span class="alias-tag">Homunculus</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Mamonir/Homunculus">Homunculus</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Used as a buffer.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Lathel/Homunculus">Homunculus</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Used as a buffer.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Health Points</h3>
@@ -378,7 +578,7 @@
                 <span class="alias-tag">LS Lathel</span>
                 <span class="alias-tag rare-tag">Apocalypse Lathel</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Mamonir/Lonely_Survivor">Lonely Survivor</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a low Chainer and Sub DPS.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Lathel/Lonely_Survivor">Lonely Survivor</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a low Chainer and Sub DPS.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Luvencia</h3>
@@ -425,6 +625,7 @@
             <div class="alias-container">
                 <span class="alias-tag content-tag ignore-exact">Content</span>
                 <span class="alias-tag">MW</span>
+                <span class="alias-tag">Arena</span>
                 <span class="alias-tag">PvP</span>
             </div>
             <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/mirror-wars/">Mirror Wars</a> is a Content Pack, focusing on  <span class="cross-link" onclick="searchFor('PvP')">PvP</span> experience.</p>
@@ -511,7 +712,7 @@
                 <span class="alias-tag rare-tag">Summer Lathel</span>
                 <span class="alias-tag rare-tag">Beach Lathel</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Mamonir/Pool_Party">Pool Party</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a low Chainer and Sub DPS.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Lathel/Pool_Party">Pool Party</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a low Chainer and Sub DPS.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Potential Liberation</h3>
@@ -520,7 +721,7 @@
                 <span class="alias-tag">Pots</span>
                 <span class="alias-tag rare-tag">Potlib</span>
             </div>
-            <p><a href="https://botan14xd.github.io/BD2-Overview/character-info/potential-liberation/">Potential Liberation</a> is a character progession feature offering stats increase as well as difect skill enhancement.</p>
+            <p><a href="https://botan14xd.github.io/BD2-Overview/character-progression/potential-liberation/">Potential Liberation</a> is a character progession feature offering stats increase as well as difect skill enhancement.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Priestess</h3>
@@ -537,7 +738,7 @@
                 <span class="alias-tag">PoV Lathel</span>
                 <span class="alias-tag">Vengeance Lathel</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Mamonir/Promise_of_Vengeance">Promise of Vengeance</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a DPS.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Lathel/Promise_of_Vengeance">Promise of Vengeance</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a DPS.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Property</h3>
@@ -646,6 +847,24 @@
                 <span class="alias-tag">Tanya</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Sonya">Sonya</a> is a playable Darkness Character.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>SP Generation</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">SP Gen</span>
+            </div>
+            <p>Process of recovering <span class="cross-link" onclick="searchFor('SP)">SP</span> to the team by a specific costume.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>SP Generator</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">SP Battery</span>
+                <span class="alias-tag">Battery</span>
+                <span class="alias-tag rare-tag">SP Gen</span>
+            </div>
+            <p>SP Generator is a costume that recovers <span class="cross-link" onclick="searchFor('SP)">SP</span> to the team.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Story Pack</h3>
@@ -775,6 +994,14 @@
                 <span class="alias-tag rare-tag">Vena</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Ventana">Ventana</a> is a playable Light Character.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Vulnerability</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">Vuln</span>
+            </div>
+            <p>Vulnerability is a debuff that increases incoming damage.</p>
         </li>
     </ul>
 </div>

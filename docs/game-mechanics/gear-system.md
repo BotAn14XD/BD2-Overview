@@ -679,7 +679,7 @@ To do the calculations, do the following steps:
     ![Gear Calculator Guide](../assets/images/gear-system/gear_calc_guide.avif)
 
 You will receive a table with builds, sorted by best damage dealt with **Advantage**.
-In this table, you can see the gear, [bond](../character-info/potential-liberation.md), substat amount for each stat and finalized stats. 
+In this table, you can see the gear, [bond](../character-progression/potential-liberation.md), substat amount for each stat and finalized stats. 
 
 It is worth mentioning that **Damage** isn't the actual Damage you will deal in-game but rather a metric to determine how good a build is.
 
