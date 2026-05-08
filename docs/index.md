@@ -37,7 +37,7 @@ This site is a work in progress, focusing on high-quality explanation for every 
     [>> View Page <<](./character-progression/potential-liberation.md)
 </div>
 <div class="grid cards" markdown>
--   __Burst System__
+-   ![Spark of Rampage](./assets/images/icons/icon_resource20045_383.avif){ .icon } __Burst System__
 
     ---
     [>> View Page <<](./character-progression/burst.md)

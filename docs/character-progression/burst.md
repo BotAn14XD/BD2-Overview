@@ -25,10 +25,10 @@ Effects from all Bursts **stack**, meaning **if you activate Burst 3, you will h
 
 !!! abstract "Upgrade Cost"
     * **5★ Costume:**
-        * **Burst 1:** 60 **Sparks of Rampage** & 1.5M {{Gold}} **Gold**
-        * **Burst 2:** 60 **Sparks of Rampage** & 1.5M {{Gold}} **Gold**
-        * **Burst 3:** 60 **Sparks of Rampage** & 1.5M {{Gold}} **Gold**
-        * **Total:** 180 **Sparks of Rampage** & 4.5M {{Gold}} **Gold**
+        * **Burst 1:** 60 {{Spark_of_Rampage}} **Sparks of Rampage** & 1.5M {{Gold}} **Gold**
+        * **Burst 2:** 60 {{Spark_of_Rampage}} **Sparks of Rampage** & 1.5M {{Gold}} **Gold**
+        * **Burst 3:** 60 {{Spark_of_Rampage}} **Sparks of Rampage** & 1.5M {{Gold}} **Gold**
+        * **Total:** 180 {{Spark_of_Rampage}} **Sparks of Rampage** & 4.5M {{Gold}} **Gold**
       
     <!-- --- -->
 
@@ -52,15 +52,16 @@ For each Costume, the **SP Cost** and **Effects** are different.
 * **To see the Costs and Effects for all costumes, check [this sheet](https://docs.google.com/spreadsheets/d/14S1ry3hblNeOZgmkk3VLdjNv8LERnrdzQ26V-ecc5Yk/edit?gid=449956328#gid=449956328)**.
 
 
-!!! example "**Sparks of Rampage**"
-    To upgrade the Bursts, you need the currency called **Spark of Rampage**. It is obtained from many sources:
+
+!!! example "{{Spark_of_Rampage}} **Sparks of Rampage**"
+    To upgrade the Bursts, you need the currency called {{Spark_of_Rampage}} **Spark of Rampage**. It is obtained from many sources:
         
     * **Event Shop**: **30 / season**{.yellow} — **60 / month**{.yellow}
     * {{Golden_Thread}} **Golden Thread Shop**: **55 / month**{.yellow}
     * {{Powder_of_Hope}} **Powder of Hope Shop**: **55 / month**{.yellow}
     * **Refinement Remnants Shop**: **200 / month**{.yellow}
     * {{Medal_of_the_Fighting_Spirit}} **[Mirror Wars](../content-packs/mirror-wars.md) Shop**: **55 / month**{.yellow}
-    * <!--{{Mercenary_Alliance_Deed}}--> **Guild Shop**: **50 / month**{.yellow}
+    * {{Mercenary_Alliance_Deed}} **Guild Shop**: **50 / month**{.yellow}
     * {{Aurum_Coin}} **Golden Colosseum Shop**: **55 / month**{.yellow}
     * **Taros Tactical Manual**: **30 / month**{.yellow}
 
@@ -117,12 +118,12 @@ As was said above, each separate tongue of flame represents a separate burst, th
     ![Different Burst progression](../assets/images/burst/burst-view.avif)
 
 ## Priority Guide
-Since **Sparks of Rampage** is a limited resource, it is important to focus the costumes that will benefit you more in a long run.
+Since {{Spark_Of_Rampage}} **Sparks of Rampage** is a limited resource, it is important to focus the costumes that will benefit you more in a long run.
 
 !!! example "General Advice"
     * This system is **very expensive** for a new player. It is better to not heavily invest into it since it is a gold sink.
     * Despite it being gold sink, you **really should** accumulate Sparks even if you do not plan on spending them. The scarcity of the resource sets high pressure for a player and missing Sparks is a bad move. 
-        * That isn't really applied to **Powder of Hope** / **Golden Thread** shops, because while you can afford start buying Sparks from latter, Powder Shop non-costume purchases are still for whales.
+        * That isn't really applied to {{Powder_of_Hope}} **Powder of Hope** / {{Golden_Thread}} **Golden Thread** shops, because while you can afford start buying Sparks from latter, Powder Shop non-costume purchases are still for whales.
     * Whole Burst System is more designed for **Fiend Hunter** / **Guild Raid** than it is for the story, meaning competition-wise, DPS **can be** more beneficial to upgrade. However, that extremely narrows down the amount of content you would benefit from since it will come down to "good" seasons very quickly.<br><br>The less "dangerous route" is going for generic core supports for both types of damage, before investing into "generally good" DPS that can shine even outside of the corresponding seasons.<br><br>Aside from that, each costume has different Burst Effects which makes the whole priority a bit more subjective and situational.<br><br><u>**Author of this Compendium thinks that going the less dangerous route is overall better for securing most of the content.**</u>
 
 !!! warning "DISCLAIMER"
