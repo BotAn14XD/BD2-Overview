@@ -118,7 +118,7 @@ As was said above, each separate tongue of flame represents a separate burst, th
     ![Different Burst progression](../assets/images/burst/burst-view.avif)
 
 ## Priority Guide
-Since {{Spark_Of_Rampage}} **Sparks of Rampage** is a limited resource, it is important to focus the costumes that will benefit you more in a long run.
+Since {{Spark_of_Rampage}} **Sparks of Rampage** is a limited resource, it is important to focus the costumes that will benefit you more in a long run.
 
 !!! example "General Advice"
     * This system is **very expensive** for a new player. It is better to not heavily invest into it since it is a gold sink.
