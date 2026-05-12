@@ -606,16 +606,6 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Roxy/Emerging_Desire">Emerging Desire</a> is one of <a href="https://browndust2.miraheze.org/wiki/Roxy">Roxy's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Costume.</p>
         </li>
         <li class="slang-item" data-keywords="">
-            <h3>Empress of the Ocean Rubia</h3>
-            <div class="alias-container">
-                <span class="alias-tag costume-tag ignore-exact">Costume</span>
-                <span class="alias-tag">Pirate Rubia</span>
-                <span class="alias-tag">Empress Rubia</span>
-                <span class="alias-tag rare-tag">EO Rubia</span>
-            </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Rubia/Empress_of_the_Ocean">Empress of the Ocean</a> is one of <a href="https://browndust2.miraheze.org/wiki/Rubia">Rubia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DEF')">DEF</span> Shredder and Chainer.</p>
-        </li>
-        <li class="slang-item" data-keywords="">
             <h3>Esteemed Adventurer Eris</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -820,7 +810,7 @@
                 <span class="alias-tag rare-tag">HoT Lathel</span>
                 <span class="alias-tag rare-tag">HT Lathel</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Lathel/Herb_of_Tracker">Herb of Tracker</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a low Chainer and Sub DPS.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Lathel/Herb_of_Tracker">Herb of Tracker</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a low Chainer and Sub <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>High Elf Archer</h3>
@@ -901,6 +891,54 @@
     <h2 class="letter-heading">K</h2>
     <ul class="slang-list">
         <li class="slang-item" data-keywords="">
+            <h3>Kendo Club Justia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag rare-tag">Kendo Justia</span>
+                <span class="alias-tag rare-tag">KC Justia</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Justia/Kendo_Club">Kendo Club</a> is one of <a href="https://browndust2.miraheze.org/wiki/Justia">Justia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Costume.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Killer Doll Lecliss</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Lecliss</span>
+                <span class="alias-tag">KD Lecliss</span>
+                <span class="alias-tag rare-tag">Doll Lecliss</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Lecliss/Killer_Doll">Killer Doll</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lecliss">Lecliss's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Costume.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Kind Liberator Samay</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Samay</span>
+                <span class="alias-tag rare-tag">KL Samay</span>
+                <span class="alias-tag rare-tag">Lib Samay</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Samay/Kind_Liberator">Kind Liberator</a> is one of <a href="https://browndust2.miraheze.org/wiki/Samay">Samay's</a> costumes.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Kind Student Samay</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Student Samay</span>
+                <span class="alias-tag">School Samay</span>
+                <span class="alias-tag rare-tag">KS Samay</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Samay/Kind_Student">Kind Student</a> is one of <a href="https://browndust2.miraheze.org/wiki/Samay">Samay's</a> costumes. Used as Buffer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Knight of Blood Justia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">KoB Justia</span>
+                <span class="alias-tag">Base Justia</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Justia/Knight_of_Blood">Knight of Blood</a> is one of <a href="https://browndust2.miraheze.org/wiki/Justia">Justia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Knockback</h3>
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
@@ -915,14 +953,40 @@
     <h2 class="letter-heading">L</h2>
     <ul class="slang-list">
         <li class="slang-item" data-keywords="">
-            <h3>Lapis Witch Scheherazade</h3>
+            <h3>Labyrinth Gatekeeper Nebris</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
-                <span class="alias-tag">LW Scheherazade</span>
-                <span class="alias-tag">LW Schera</span>
-                <span class="alias-tag">Base Schera</span>
+                <span class="alias-tag">Base Nebris</span>
+                <span class="alias-tag rare-tag">Lab Nebris</span>
+                <span class="alias-tag rare-tag">Gate Nebris</span>
+                <span class="alias-tag rare-tag">Gatekeeper Nebris</span>
+                <span class="alias-tag rare-tag">LG Nebris</span>
+                <span class="alias-tag rare-tag">Labyrinth Nebris</span>
+                <span class="alias-tag rare-tag">Base Neb</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Scheherazade/Lapis Witch">Lapis Witch</a> is one of <a href="https://browndust2.miraheze.org/wiki/Scheherazade">Scheherazade's</a> costumes. Primarily used as a Dispel costume.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Nebris/Labyrinth_Gatekeeper">Labyrinth Gatekeeper</a> is one of <a href="https://browndust2.miraheze.org/wiki/Nebris">Nebris's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span> and Self-Support.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Laid-back Lifeguard Nebris</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Beach Nebris</span>
+                <span class="alias-tag">Summer Nebris</span>
+                <span class="alias-tag rare-tag">LBL Nebris</span>
+                <span class="alias-tag rare-tag">LL Nebris</span>
+                <span class="alias-tag rare-tag">Summer Neb</span>
+                <span class="alias-tag rare-tag">Beach Neb</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Nebris/Laid-back_Lifeguard">Laid-back Lifeguard</a> is one of <a href="https://browndust2.miraheze.org/wiki/Nebris">Nebris's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span> and Self-Support.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Last Hope Loen</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Loen</span>
+                <span class="alias-tag rare-tag">LH Loen</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Loen/Last_Hope">Last Hope</a> is one of <a href="https://browndust2.miraheze.org/wiki/Loen">Loen's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Last Night</h3>
@@ -950,6 +1014,17 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Liatris">Liatris</a> is a playable Fire Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Liberated Marauder Kry</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Kry</span>
+                <span class="alias-tag rare-tag">Liberator Kry</span>
+                <span class="alias-tag rare-tag">LM Kry</span>
+                <span class="alias-tag rare-tag">Lib Kry</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Kry/Liberated_Marauder">Liberated Marauder</a> is one of <a href="https://browndust2.miraheze.org/wiki/Kry">Kry's</a> costumes. Used as early <span class="cross-link" onclick="searchFor('DPS')">DPS</span> and <span class="cross-link" onclick="searchFor('DEF')">DEF</span> Shredder.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Liberta</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
@@ -959,6 +1034,18 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Liberta">Liberta</a> is a playable Fire Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Little Pumpkin Girl Sonya</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">LPG Sonya</span>
+                <span class="alias-tag">Pumpkin Sonya</span>
+                <span class="alias-tag">Halloween Sonya</span>
+                <span class="alias-tag rare-tag">Pumpkin Tanya</span>
+                <span class="alias-tag rare-tag">Halloween Tanya</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Sonya/Little_Pumpkin_Girl">Little Pumpkin Girl</a> is one of <a href="https://browndust2.miraheze.org/wiki/Sonya">Sonya's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Lonely Survivor Lathel</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -966,7 +1053,24 @@
                 <span class="alias-tag">LS Lathel</span>
                 <span class="alias-tag rare-tag">Apocalypse Lathel</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Lathel/Lonely_Survivor">Lonely Survivor</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a low Chainer and Sub DPS.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Lathel/Lonely_Survivor">Lonely Survivor</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a low Chainer and Sub <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Lovely Lady Elise</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Elise</span>
+                <span class="alias-tag rare-tag">LL Elise</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Elise/Lovely_Lady">Lovely Lady</a> is one of <a href="https://browndust2.miraheze.org/wiki/Elise">Elise's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DEF')">DEF</span> and <span class="cross-link" onclick="searchFor('MRES')">MRES</span> Shredder.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Loyal Butler Andrew</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag rare-tag">Butler Andrew</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Andrew/Loyal_Butler">Loyal Butler</a> is one of <a href="https://browndust2.miraheze.org/wiki/Andrew">Andrew's</a> costumes.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Luvencia</h3>
@@ -1001,12 +1105,97 @@
             <p>Magicla Attack is one of in-game stats used mostly by units with Magical damage type to deal damage.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Magical Innovator Diana</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">MI Diana</span>
+                <span class="alias-tag rare-tag">Innovator Diana</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Diana/Magical_Innovator">Magical Innovator</a> is one of <a href="https://browndust2.miraheze.org/wiki/Diana">Diana's</a> costumes. Used as Property Buffer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Maid Bikini Rubia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Bikini Rubia</span>
+                <span class="alias-tag">Summer Rubia</span>
+                <span class="alias-tag rare-tag">Beach Rubia</span>
+                <span class="alias-tag rare-tag">MB Rubia</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Rubia/Maid_Bikini">Maid Bikini</a> is one of <a href="https://browndust2.miraheze.org/wiki/Rubia">Rubia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DoT')">DoT</span> <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Maid Name C Rubia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Maid Rubia</span>
+                <span class="alias-tag rare-tag">MNC Rubia</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Rubia/Maid_Name_C">Maid Name C</a> is one of <a href="https://browndust2.miraheze.org/wiki/Rubia">Rubia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('Staller')">Staller</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Maid Name R Liatris</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Maid Lia</span>
+                <span class="alias-tag">Maid Liatris</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Liatris/Maid_Name_R">Maid Name R</a> is one of <a href="https://browndust2.miraheze.org/wiki/Liatris">Liatris's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Manga Research Club Jayden</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag rare-tag">MRC Jayden</span>
+                <span class="alias-tag rare-tag">Manga Club Jayden</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Jayden/Manga_Research_Club">Manga Research Club</a> is one of <a href="https://browndust2.miraheze.org/wiki/Jayden">Jayden's</a> costumes.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Masquerade Bunny Celia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">BCelia</span>
+                <span class="alias-tag">Bunny Celia</span>
+                <span class="alias-tag rare-tag">Winter Celia</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Celia/Masquerade_Bunny">Masquerade Bunny</a> is one of <a href="https://browndust2.miraheze.org/wiki/Celia">Celia's</a> costumes. Used as Chainer and Self-Support.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Medical Club Teresse</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">MC Teresse</span>
+                <span class="alias-tag">School Teresse</span>
+                <span class="alias-tag">Med Teresse</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Teresse/Medical_Club">Medical Club</a> is one of <a href="https://browndust2.miraheze.org/wiki/Teresse">Teresse's</a> costumes. Used as Buffer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Michaela</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
                 <span class="alias-tag">Mich</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Michaela">Michaela</a> is a playable Light Character.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Miracle Rose Liberta</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Magical Liberta</span>
+                <span class="alias-tag rare-tag">MR Liberta</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Liberta/Miracle_Rose">Miracle Rose</a> is one of <a href="https://browndust2.miraheze.org/wiki/Liberta">Liberta's</a> costumes. Used as Sub <span class="cross-link" onclick="searchFor('DPS')">DPS</span> and Chainer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Miracle Violet Palette</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Magical Palette</span>
+                <span class="alias-tag rare-tag">MV Palette</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Palette/Miracle_Violet">Miracle Violet</a> is one of <a href="https://browndust2.miraheze.org/wiki/Palette">Palette's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Mirror Wars</h3>
@@ -1034,6 +1223,14 @@
     <h2 class="letter-heading">N</h2>
     <ul class="slang-list">
         <li class="slang-item" data-keywords="">
+            <h3>Nature's Claw Rou</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">NC Rou</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Rou/Nature's_Claw">Nature's Claw</a> is one of <a href="https://browndust2.miraheze.org/wiki/Rou">Rou's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Nebris</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
@@ -1041,6 +1238,47 @@
                 <span class="alias-tag">Nebi</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Nebris">Nebris</a> is a playable Wind Character.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Neon Savior Angelica</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Neon Angelica</span>
+                <span class="alias-tag">Neon Ange</span>
+                <span class="alias-tag rare-tag">NS Angelica</span>
+                <span class="alias-tag rare-tag">NS Ange</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Angelica/Neon_Savior">Neon Savior</a> is one of <a href="https://browndust2.miraheze.org/wiki/Angelica">Angelica's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DoT')">DoT</span> <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Neon Stalker Liatris</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Neon Lia</span>
+                <span class="alias-tag">Neon Liatris</span>
+                <span class="alias-tag rare-tag">NS Lia</span>
+                <span class="alias-tag rare-tag">NS Liatris</span>
+                <span class="alias-tag rare-tag">Firechip Lia</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Liatris/Neon_Stalker">Neon Stalker</a> is one of <a href="https://browndust2.miraheze.org/wiki/Liatris">Liatris's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DoT')">DoT</span> <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>New Hire Nebris</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">NH Nebris</span>
+                <span class="alias-tag">Office Nebris</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Nebris/New_Hire">New Hire</a> is one of <a href="https://browndust2.miraheze.org/wiki/Nebris">Nebris's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>New Hire Seir</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">NH Seir</span>
+                <span class="alias-tag">Office Seir</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Seir/New_Hire">New Hire</a> is one of <a href="https://browndust2.miraheze.org/wiki/Seir">Seir's</a> costumes. Used as Support.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Night of Death Mamonir</h3>
@@ -1051,6 +1289,25 @@
                 <span class="alias-tag">Base Mamonir</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Mamonir/Night_of_Death">Night of Death</a> is one of <a href="https://browndust2.miraheze.org/wiki/Mamonir">Mamonir's</a> costumes. Primarily used as a Chainer and <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Night of Jealousy Levia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">NoJ Levia</span>
+                <span class="alias-tag">Base Levia</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Levia/Night_of_Jealousy">Night of Jealousy</a> is one of <a href="https://browndust2.miraheze.org/wiki/Levia">Levia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Nightmare Bunny Eclipse</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Bunny Eclipse</span>
+                <span class="alias-tag">Beclipse</span>
+                <span class="alias-tag rare-tag">NB Eclipse</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Eclipse/Nightmare_Bunny">Nightmare Bunny</a> is one of <a href="https://browndust2.miraheze.org/wiki/Eclipse">Eclipse's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
     </ul>
 </div>
@@ -1069,12 +1326,62 @@
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Olivier">Olivier</a> is a playable Light Character.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Onsen Manager Liberta</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Onsen Liberta</span>
+                <span class="alias-tag">Onsen Lib</span>
+                <span class="alias-tag">OM Liberta</span>
+                <span class="alias-tag rare-tag">OM Lib</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Liberta/Onsen_Manager">Onsen Manager</a> is one of <a href="https://browndust2.miraheze.org/wiki/Liberta">Liberta's</a> costumes. Used as Buffer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Onsen Practitioner Ventana</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Onsen Ventana</span>
+                <span class="alias-tag">Onsen Vent</span>
+                <span class="alias-tag rare-tag">OP Ventana</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Ventana/Onsen_Practitioner">Onsen Practitioner</a> is one of <a href="https://browndust2.miraheze.org/wiki/Ventana">Ventana's</a> costumes. Used as Amplifier.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Onsen Swordfighter Blade</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Onsen Blade</span>
+                <span class="alias-tag rare-tag">Onsen Balde</span>
+                <span class="alias-tag rare-tag">OS Ventana</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Blade/Onsen_Swordfighter">Onsen Swordfighter</a> is one of <a href="https://browndust2.miraheze.org/wiki/Blade">Blade's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Overheat Levia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">OH Levia</span>
+                <span class="alias-tag rare-tag">Cyberpunk Levia</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Levia/Overheat">Overheat</a> is one of <a href="https://browndust2.miraheze.org/wiki/Levia">Levia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
     </ul>
 </div>
 
 <div class="alpha-group"> <!-- P -->
     <h2 class="letter-heading">P</h2>
     <ul class="slang-list">
+        <li class="slang-item" data-keywords="">
+            <h3>Piercing Magic Bow Eleaneer</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag rare-tag">Bow Eleaneer</span>
+                <span class="alias-tag rare-tag">Bow Ele</span>
+                <span class="alias-tag rare-tag">PMB Eleaneer</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Eleaneer/Piercing_Magic_Bow">Piercing Magic Bow</a> is one of <a href="https://browndust2.miraheze.org/wiki/Eleaneer">Eleaneer's</a> costumes. Used as Dispel Costume.</p>
+        </li>
         <li class="slang-item" data-keywords="">
             <h3>Player vs. Environment Content</h3>
             <div class="alias-container">
@@ -1092,6 +1399,43 @@
             <p>Player vs. Player Content resolves around players competing amongst each other directly. Consists of <a href="https://botan14xd.github.io/BD2-Overview/content-packs/mirror-wars">Mirror Wars</a> and <a href="https://botan14xd.github.io/BD2-Overview/content-packs/golden-colosseum/">Golden Colosseum</a>.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Pool Party Angelica</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">PP Ange</span>
+                <span class="alias-tag">PP Angelica</span>
+                <span class="alias-tag">Pool Angelica</span>
+                <span class="alias-tag">Summer Angelica</span>
+                <span class="alias-tag rare-tag">Pool Ange</span>
+                <span class="alias-tag rare-tag">Summer Ange</span>
+                <span class="alias-tag rare-tag">Beach Angelica</span>
+                <span class="alias-tag rare-tag">Beach Ange</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Angelica/Pool_Party">Pool Party</a> is one of <a href="https://browndust2.miraheze.org/wiki/Angelica">Angelica's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Pool Party Gray</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">PP Gray</span>
+                <span class="alias-tag">Pool Gray</span>
+                <span class="alias-tag">Summer Gray</span>
+                <span class="alias-tag rare-tag">Beach Gray</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Gray/Pool_Party">Pool Party</a> is one of <a href="https://browndust2.miraheze.org/wiki/Gray">Gray's</a> costumes.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Pool Party Justia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">PP Justia</span>
+                <span class="alias-tag">Pool Justia</span>
+                <span class="alias-tag rare-tag">Summer Justia</span>
+                <span class="alias-tag rare-tag">Beach Justia</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Justia/Pool_Party">Pool Party</a> is one of <a href="https://browndust2.miraheze.org/wiki/Justia">Justia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('Staller')">Staller</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Pool Party Lathel</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -1100,7 +1444,46 @@
                 <span class="alias-tag rare-tag">Summer Lathel</span>
                 <span class="alias-tag rare-tag">Beach Lathel</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Lathel/Pool_Party">Pool Party</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a low Chainer and Sub DPS.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Lathel/Pool_Party">Pool Party</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a low Chainer and Sub <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Pool Party Scheherazade</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">PP Schera</span>
+                <span class="alias-tag">Pool Schera</span>
+                <span class="alias-tag">Summer Schera</span>
+                <span class="alias-tag rare-tag">PP Schera</span>
+                <span class="alias-tag rare-tag">Pool Scheherazade</span>
+                <span class="alias-tag rare-tag">Summer Scheherazade</span>
+                <span class="alias-tag rare-tag">Beach Schera</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Scheherazade/Pool_Party">Pool Party</a> is one of <a href="https://browndust2.miraheze.org/wiki/Scheherazade">Scheherazade's</a> costumes. Used as Dispel Costume.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Poolside Fairy Refithea</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">PF Refi</span>
+                <span class="alias-tag">PP Refi</span>                
+                <span class="alias-tag">Pool Refi</span>
+                <span class="alias-tag">Summer Refi</span>
+                <span class="alias-tag rare-tag">Pool Refithea</span>
+                <span class="alias-tag rare-tag">Summer Refithea</span>
+                <span class="alias-tag rare-tag">Beach Refi</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Refithea/Poolside_Fairy">Poolside Fairy</a> is one of <a href="https://browndust2.miraheze.org/wiki/Refithea">Refithea's</a> costumes. Used as Buffer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Poolside Guardian Zenith</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">PG Zenith</span>
+                <span class="alias-tag">Pool Zenith</span>
+                <span class="alias-tag">Summer Zenith</span>
+                <span class="alias-tag rare-tag">Beach Zenith</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Zenith/Poolside_Guardian">Poolside Guardian</a> is one of <a href="https://browndust2.miraheze.org/wiki/Zenith">Zenith's</a> costumes. Used as Chainer and Amplifier.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Potential Liberation</h3>
@@ -1145,12 +1528,56 @@
             </div>
             <p>Damage buffed with <span class="cross-link" onclick="searchFor('Property')">Property</span> Advantage.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Prophetic Dream Darian</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Darian</span>
+                <span class="alias-tag rare-tag">PD Darian</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Darian/Prophetic_Dream">Prophetic Dream</a> is one of <a href="https://browndust2.miraheze.org/wiki/Darian">Darian's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Pure White Blessing Refithea</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">PWB Refi</span>
+                <span class="alias-tag">BRefi</span>
+                <span class="alias-tag">Bride Refi</span>
+                <span class="alias-tag">Bride Refithea</span>
+                <span class="alias-tag rare-tag">PWB Refithea</span>
+                <span class="alias-tag rare-tag">BRefithea</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Refithea/Pure_White_Blessing">Pure White Blessing</a> is one of <a href="https://browndust2.miraheze.org/wiki/Refithea">Refithea's</a> costumes. Used as Buffer.</p>
+        </li>
     </ul>
 </div>
 
 <div class="alpha-group"> <!-- Q -->
     <h2 class="letter-heading">Q</h2>
     <ul class="slang-list">
+        <li class="slang-item" data-keywords="">
+            <h3>Queen of Gluttis Granadair</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">QoG Grana</span>
+                <span class="alias-tag">Base Grana</span>
+                <span class="alias-tag">QoG Granadair</span>
+                <span class="alias-tag">Base Granadair</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Granadair/Queen_of_Gluttis">Queen of Gluttis</a> is one of <a href="https://browndust2.miraheze.org/wiki/Granadair">Granadair's</a> costumes. Used as Buffer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Queen of Signatures Michaela</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">QoS Michaela</span>
+                <span class="alias-tag">Office Michaela</span>
+                <span class="alias-tag rare-tag">QoS Mich</span>
+                <span class="alias-tag rare-tag">Office Mich</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Michaela/Queen_of_Signatures">Queen of Signatures</a> is one of <a href="https://browndust2.miraheze.org/wiki/Michaela">Michaela's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
     </ul>
 </div>
 
@@ -1199,6 +1626,16 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Sacred_Justia">Sacred Justia</a> is a playable Light Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Sage of Blue Clouds Olstein</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Sage Olstein</span>
+                <span class="alias-tag rare-tag">SoBC Olstein</span>
+                <span class="alias-tag rare-tag">SBC Olstein</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Olstein/Sage_of_Blue_Clouds">Sage of Blue Clouds</a> is one of <a href="https://browndust2.miraheze.org/wiki/Olstein">Olstein's</a> costumes.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Scheherazade</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
@@ -1209,16 +1646,53 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Scheherazade">Scheherazade</a> is a playable Water Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>School Queen Emma</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">School Emma</span>
+                <span class="alias-tag rare-tag">SQ Emma</span>
+                <span class="alias-tag rare-tag">Queen Emma</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Emma/School_Queen">School Queen</a> is one of <a href="https://browndust2.miraheze.org/wiki/Emma">Emma's</a> costumes.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Shadow Bunny Eleaneer</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Bunny Eleaneer</span>
+                <span class="alias-tag rare-tag">Bunny Ele</span>
+                <span class="alias-tag rare-tag">BEleaneer</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Eleaneer/Shadow_Bunny">Shadow Bunny</a> is one of <a href="https://browndust2.miraheze.org/wiki/Eleaneer">Eleaneer's</a> costumes. Used as Buffer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Shadowed Dream Sonya</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Sonya</span>
+                <span class="alias-tag rare-tag">SD Sonya</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Sonya/Shadowed_Dream">Shadowed Dream</a> is one of <a href="https://browndust2.miraheze.org/wiki/Sonya">Sonya's</a> costumes. Used as Amplifier and <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Shattered Dream Palette</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Palette</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Palette/Shattered_Dream">Shattered Dream</a> is one of <a href="https://browndust2.miraheze.org/wiki/Palette">Palette's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span> and Support.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Shrine Maiden of Purification Granadair</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
-                <span class="alias-tag">SMoP</span>
-                <span class="alias-tag">SMoP Grana</span>
-                <span class="alias-tag">SMoP Granadair</span>
                 <span class="alias-tag">Shrine Grana</span>
                 <span class="alias-tag">Shrine Granadair</span>
+                <span class="alias-tag rare-tag">SMoP</span>
+                <span class="alias-tag rare-tag">SMoP Grana</span>
+                <span class="alias-tag rare-tag">SMoP Granadair</span>
             </div>
-            <p>One of Granadair costumes. Meta support.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Granadair/Shrine_Maiden_of_Purification">Shrine Maiden of Purification</a> is one of <a href="https://browndust2.miraheze.org/wiki/Granadair">Granadair's</a> costumes. Used as Buffer.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Skill Points</h3>
@@ -1227,6 +1701,16 @@
                 <span class="alias-tag">SP</span>
             </div>
             <p>Skill Points, used to activate Costume abilities.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Snow White Ventana</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag rare-tag">SW Ventana</span>
+                <span class="alias-tag rare-tag">SW Vent</span>
+                <span class="alias-tag rare-tag">Snow Ventana</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Ventana/Snow_White">Snow White</a> is one of <a href="https://browndust2.miraheze.org/wiki/Ventana">Ventana's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Sonya</h3>
@@ -1262,6 +1746,26 @@
             <p>A Character or Costume whose job is to make the fight as long as possible, stalling it.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Starlight Guardian Tyr</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Tyr</span>
+                <span class="alias-tag rare-tag">SG Tyr</span>
+                <span class="alias-tag rare-tag">Guardian Tyr</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Tyr/Starlight_Guardian">Starlight Guardian</a> is one of <a href="https://browndust2.miraheze.org/wiki/Tyr">Tyr's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Steel Engine Rafina</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Rafina</span>
+                <span class="alias-tag rare-tag">SE Raf</span>
+                <span class="alias-tag rare-tag">SE Rafina</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Rafina/Steel_Engine">Steel Engine</a> is one of <a href="https://browndust2.miraheze.org/wiki/Rafina">Rafina's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Story Pack</h3>
             <div class="alias-container">
                 <span class="alias-tag content-tag ignore-exact">Content</span>
@@ -1271,6 +1775,34 @@
                 <span class="alias-tag rare-tag">SP</span>
             </div>
             <p>Story Packs are a specific pack type, set in an original universe of the main story.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Stray Cat Rou</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag rare-tag">SC Rou</span>
+                <span class="alias-tag rare-tag">Half Anni Rou</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Rou/Stray_Cat">Stray Cat</a> is one of <a href="https://browndust2.miraheze.org/wiki/Rou">Rou's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Summer Vacation Dalvi</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Summer Dalvi</span>
+                <span class="alias-tag rare-tag">SV Dalvi</span>
+                <span class="alias-tag rare-tag">Beach Dalvi</span>
+                <span class="alias-tag rare-tag">Bikini Dalvi</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Dalvi/Summer_Vacation">Summer Vacation</a> is one of <a href="https://browndust2.miraheze.org/wiki/Dalvi">Dalvi's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Sword Breaker Alec</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag rare-tag">SB Alec</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Alec/Sword_Breaker">Sword Breaker</a> is one of <a href="https://browndust2.miraheze.org/wiki/Alec">Alec's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Costume.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Sword Maiden</h3>
@@ -1313,6 +1845,135 @@
                 <span class="alias-tag">Tere</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Teresse">Teresse</a> is a playable Water Character.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>The Destruction Alec</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag rare-tag">TD Alec</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Alec/The_Destruction">The Destruction</a> is one of <a href="https://browndust2.miraheze.org/wiki/Alec">Alec's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Costume.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>The Dimension Witch Eclipse</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Eclipse</span>
+                <span class="alias-tag rare-tag">DW Eclipse</span>
+                <span class="alias-tag rare-tag">TDW Eclipse</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Eclipse/The_Dimension_Witch">The Dimension Witch</a> is one of <a href="https://browndust2.miraheze.org/wiki/Eclipse">Eclipse's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>The Empress of the Ocean Rubia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Pirate Rubia</span>
+                <span class="alias-tag">Empress Rubia</span>
+                <span class="alias-tag rare-tag">EO Rubia</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Rubia/Empress_of_the_Ocean">Empress of the Ocean</a> is one of <a href="https://browndust2.miraheze.org/wiki/Rubia">Rubia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DEF')">DEF</span> Shredder and Chainer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>The Fallen Angelica</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Ange</span>
+                <span class="alias-tag">Base Angelica</span>
+                <span class="alias-tag rare-tag">FAngelica</span>
+                <span class="alias-tag rare-tag">TF Angelica</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Angelica/The_Fallen">The Fallen</a> is one of <a href="https://browndust2.miraheze.org/wiki/Angelica">Angelica's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>The Fiend Scholar Olstein</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Olstein</span>
+                <span class="alias-tag rare-tag">Scholar Olstein</span>
+                <span class="alias-tag rare-tag">FS Olstein</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Olstein/The_Fiend_Scholar">The Fiend Scholar</a> is one of <a href="https://browndust2.miraheze.org/wiki/Olstein">Olstein's</a> costumes. Used as <span class="cross-link" onclick="searchFor('SP Battery')">SP Battery</span> and Support.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>The Gluttonous Refithea</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Refi</span>
+                <span class="alias-tag">Base Refithea</span>
+                <span class="alias-tag rare-tag">TG Refi</span>
+                <span class="alias-tag rare-tag">TG Refithea</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Refithea/The_Gluttonous">The Gluttonous</a> is one of <a href="https://browndust2.miraheze.org/wiki/Refithea">Refithea's</a> costumes. Used as Buffer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>The Lapis Witch Scheherazade</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">LW Scheherazade</span>
+                <span class="alias-tag">LW Schera</span>
+                <span class="alias-tag">Base Schera</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Scheherazade/Lapis Witch">Lapis Witch</a> is one of <a href="https://browndust2.miraheze.org/wiki/Scheherazade">Scheherazade's</a> costumes. Primarily used as a Dispel costume.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>The Magic School Professor Scheherazade</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Prof Schera</span>
+                <span class="alias-tag">Professor Schera</span>
+                <span class="alias-tag rare-tag">MSP Schera</span>
+                <span class="alias-tag rare-tag">Prof Scheherazade</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Scheherazade/Magic_School_Professor">Magic School Professor</a> is one of <a href="https://browndust2.miraheze.org/wiki/Scheherazade">Scheherazade's</a> costumes. Used as Chainer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>The Sharpshooter of the Mist Gray</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Gray</span>
+                <span class="alias-tag rare-tag">Sharpshooter Gray</span>
+                <span class="alias-tag rare-tag">Mist Gray</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Gray/The_Sharpshooter_of_the_Mist">The Sharpshooter of the Mist</a> is one of <a href="https://browndust2.miraheze.org/wiki/Gray">Gray's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>The Sword Queen Sylvia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">SQ Sylvia</span>
+                <span class="alias-tag rare-tag">SQ Sylv</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Sylvia/The_Sword_Queen">The Sword Queen</a> is one of <a href="https://browndust2.miraheze.org/wiki/Sylvia">Sylvia's</a> costumes. Used as Self-Buffer and <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>The Void Granhildr</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Gran</span>
+                <span class="alias-tag">Base Granhildr</span>
+                <span class="alias-tag rare-tag">TV Granhildr</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Granhildr/The_Void">The Void</a> is one of <a href="https://browndust2.miraheze.org/wiki/Granhildr">Granhildr's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Tank.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Thorn of the Desert Rubia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Rubia</span>
+                <span class="alias-tag rare-tag">Thorn Rubia</span>
+                <span class="alias-tag rare-tag">Desert Rubia</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Rubia/Thorn_of_the_Desert">Thorn of the Desert</a> is one of <a href="https://browndust2.miraheze.org/wiki/Rubia">Rubia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DoT')">DoT</span> <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Top Idol Helena</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Helena</span>
+                <span class="alias-tag rare-tag">TI Helena</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Helena/Top_Idol">Top Idol</a> is one of <a href="https://browndust2.miraheze.org/wiki/Helena">Helena's</a> costumes. Used as Support.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Tower of Desire</h3>
@@ -1360,6 +2021,27 @@
             </div>
             <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/evil-castle#tower-of-wrath">Tower of Wrath</a> is one of the towers inside the <a href="https://botan14xd.github.io/BD2-Overview/content-packs/evil-castle">Evil Castle</a>, offering one-time clear content.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Track and Field Captain Levia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">TnF Levia</span>
+                <span class="alias-tag">Track Levia</span>
+                <span class="alias-tag rare-tag">Sport Levia</span>
+                <span class="alias-tag rare-tag">Field Levia</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Levia/Track_and_Field_Captain">Track and Field Captain</a> is one of <a href="https://browndust2.miraheze.org/wiki/Levia">Levia's</a> costumes. Used as Amplifier.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Track and Field Team Loen</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Track Loen</span>
+                <span class="alias-tag">TnF Loen</span>
+                <span class="alias-tag">Sports Loen</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Loen/Track_and_Field_Team">Track and Field Team</a> is one of <a href="https://browndust2.miraheze.org/wiki/Loen">Loen's</a> costumes. Used as Self-Buff Costume and <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
     </ul>
 </div>
 
@@ -1372,6 +2054,23 @@
 <div class="alpha-group"> <!-- V -->
     <h2 class="letter-heading">V</h2>
     <ul class="slang-list">
+        <li class="slang-item" data-keywords="">
+            <h3>Vanguard Gray</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag rare-tag">Van Gray</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Gray/Vanguard">Vanguard</a> is one of <a href="https://browndust2.miraheze.org/wiki/Gray">Gray's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Violent Student Kry</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">School Kry</span>
+                <span class="alias-tag rare-tag">VS Kry</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Kry/Violent_Student">Violent Student</a> is one of <a href="https://browndust2.miraheze.org/wiki/Kry">Kry's</a> costumes. Used as Knockback Costume.</p>
+        </li>
         <li class="slang-item" data-keywords="">
             <h3>Venaka</h3>
             <div class="alias-container">
@@ -1405,6 +2104,59 @@
     <h2 class="letter-heading">W</h2>
     <ul class="slang-list">
         <li class="slang-item" data-keywords="">
+            <h3>Water Park Queen Wilhelmina</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag rare-tag">WPQ Wilhelmina</span>
+                <span class="alias-tag rare-tag">WPQ Wilh</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Wilhelmina/Water_Park_Queen">Water Park Queen</a> is one of <a href="https://browndust2.miraheze.org/wiki/Wilhelmina">Wilhelmina's</a> costumes. Used as Chainer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>White Cat Rou</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Rou</span>
+                <span class="alias-tag rare-tag">WC Rou</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Rou/White_Cat">White Cat</a> is one of <a href="https://browndust2.miraheze.org/wiki/Rou">Rou's</a> costumes.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>White Reaper Justia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">WR Justia</span>
+                <span class="alias-tag">Base Justia</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Justia/White_Reaper">White Reaper</a> is one of <a href="https://browndust2.miraheze.org/wiki/Justia">Justia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Whitebolt Yuri</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">WB Yuri</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Yuri/Whitebolt">Whitebolt</a> is one of <a href="https://browndust2.miraheze.org/wiki/Yuri">Yuri's</a> costumes.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Wild Dog Luvencia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">WD Luvencia</span>
+                <span class="alias-tag rare-tag">WD Luven</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Luvencia/Wild_Dog">Wild Dog</a> is one of <a href="https://browndust2.miraheze.org/wiki/Luvencia">Luvencia's</a> costumes. Used as Chainer and <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Wind Dancer Venaka</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">WD Venaka</span>
+                <span class="alias-tag">Dancer Venaka</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Venaka/Wind_Dancer">Wind Dancer</a> is one of <a href="https://browndust2.miraheze.org/wiki/Venaka">Venaka's</a> costumes. Used as Amplifier.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Wilhelmina</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
@@ -1424,6 +2176,25 @@
 <div class="alpha-group"> <!-- Y -->
     <h2 class="letter-heading">Y</h2>
     <ul class="slang-list">
+        <li class="slang-item" data-keywords="">
+            <h3>Young Lady Blade</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Young Blade</span>
+                <span class="alias-tag">YBlade</span>
+                <span class="alias-tag">YL Blade</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Blade/Young_Lady">Young Lady</a> is one of <a href="https://browndust2.miraheze.org/wiki/Blade">Blade's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span> and Amplifier.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Your Very Own Cat Eris</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Cat Eris</span>
+                <span class="alias-tag rare-tag">YVOC Eris</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Eris/Your_Very_Own_Cat">Your Very Own Cat</a> is one of <a href="https://browndust2.miraheze.org/wiki/Eris">Eris's</a> costumes. Used as Amplifier.</p>
+        </li>
         <li class="slang-item" data-keywords="">
             <h3>Yozakura</h3>
             <div class="alias-container">
