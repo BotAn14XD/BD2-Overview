@@ -134,6 +134,14 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Morpeah/Apostle">Apostle</a> is one of <a href="https://browndust2.miraheze.org/wiki/Morpeah">Morpeah's</a> costumes. Used as Self-Support Costume and Concentrated Fire Support.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Apostle Olivier</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"><!--STUB--></span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Olivier/Apostle">Apostle</a> is one of <a href="https://browndust2.miraheze.org/wiki/Olivier">Olivier's</a> costumes. Used as Self-Buffer and <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Costume.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Attack</h3>
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
@@ -159,7 +167,7 @@
                 <span class="alias-tag rare-tag">Bidol Ele</span>
                 <span class="alias-tag rare-tag">Bidol Eleaneer</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Eleaneer/B-Rank_Idol">B-Rank Idol</a> is one of <a href="https://browndust2.miraheze.org/wiki/Eleaneer">Eleaneer's</a> costumes. Used as ???</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Eleaneer/B-Rank_Idol">B-Rank Idol</a> is one of <a href="https://browndust2.miraheze.org/wiki/Eleaneer">Eleaneer's</a> costumes.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>B-Rank Idol Helena</h3>
@@ -189,7 +197,7 @@
                 <span class="alias-tag rare">Idol Manager Gray</span>
                 <span class="alias-tag rare">Idol Gray</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Gray/B-Rank_Manager">B-Rank Manager</a> is one of <a href="https://browndust2.miraheze.org/wiki/Gray">Gray's</a> costumes. Used as ???</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Gray/B-Rank_Manager">B-Rank Manager</a> is one of <a href="https://browndust2.miraheze.org/wiki/Gray">Gray's</a> costumes.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Beach Vacation Eclipse</h3>
@@ -1593,6 +1601,18 @@
             <p><a   href="https://browndust2.miraheze.org/wiki/Rafina">Rafina</a> is a playable Water Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Red Riding Hood Rou</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">RRH Rou</span>
+                <span class="alias-tag">Red Hat Rou</span>
+                <span class="alias-tag rare-tag">Red Rou</span>
+                <span class="alias-tag rare-tag">RR Rou</span>
+                <span class="alias-tag rare-tag">RRou</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Rou/Red_Riding_Hood">Red Riding Hood</a> is one of <a href="https://browndust2.miraheze.org/wiki/Rou">Rou's</a> costumes. Used as Buffer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Refithea</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
@@ -1602,12 +1622,42 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Refithea">Refithea</a> is a playable Light Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Respected Master Roxy</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Roxy</span>
+                <span class="alias-tag rare-tag">RM Roxy</span>
+                <span class="alias-tag rare-tag">Master Roxy</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Roxy/Respected_Master">Respected Master</a> is one of <a href="https://browndust2.miraheze.org/wiki/Roxy">Roxy's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Costume.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Retired Legend Olivier</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">RL Olivier</span>
+                <span class="alias-tag rare-tag">Retired Olivier</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Olivier/Retired_Legend">Retired Legend</a> is one of <a href="https://browndust2.miraheze.org/wiki/Olivier">Olivier's</a> costumes. Used as Buffer and Chainer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Rigenette</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
                 <span class="alias-tag">Rigen</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Rigenette">Rigenette</a> is a playable Wind Character.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Robin Hood Zenith</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">RH Zenith</span>
+                <span class="alias-tag rare-tag">Robin Zenith</span>
+                <span class="alias-tag rare-tag">Fairy Tale Zenith</span>
+                <span class="alias-tag rare-tag">Hood Zenith</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Zenith/Robin_Hood">Robin Hood</a> is one of <a href="https://browndust2.miraheze.org/wiki/Zenith">Zenith's</a> costumes. Used as Chainer and Amplifier.</p>
         </li>
     </ul>
 </div>
@@ -1847,6 +1897,16 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Teresse">Teresse</a> is a playable Water Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>The Curse Celia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Base Celia</span>
+                <span class="alias-tag rare-tag">TC Celia</span>
+                <span class="alias-tag rare-tag">CCelia</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Celia/The_Curse">The Curse</a> is one of <a href="https://browndust2.miraheze.org/wiki/Celia">Celia's</a> costumes. Used as Chainer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>The Destruction Alec</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -1914,7 +1974,7 @@
                 <span class="alias-tag">LW Schera</span>
                 <span class="alias-tag">Base Schera</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Scheherazade/Lapis Witch">Lapis Witch</a> is one of <a href="https://browndust2.miraheze.org/wiki/Scheherazade">Scheherazade's</a> costumes. Primarily used as a Dispel costume.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Scheherazade/The_Lapis_Witch">The Lapis Witch</a> is one of <a href="https://browndust2.miraheze.org/wiki/Scheherazade">Scheherazade's</a> costumes. Primarily used as a Dispel costume.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>The Magic School Professor Scheherazade</h3>
@@ -1941,6 +2001,7 @@
             <h3>The Sword Queen Sylvia</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">TSQ Sylvia</span>
                 <span class="alias-tag">SQ Sylvia</span>
                 <span class="alias-tag rare-tag">SQ Sylv</span>
             </div>
