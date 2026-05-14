@@ -1292,6 +1292,14 @@
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Morpeah">Morpeah</a> is a playable Water Character.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Magical Resistance</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">MRES</span>
+            </div>
+            <p>Magical Resistance is one of Character's stats that reduces incoming damage from Magical Characters.</p>
+        </li>
     </ul>
 </div>
 

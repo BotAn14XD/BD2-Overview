@@ -30,6 +30,11 @@ jobs:
       - name: Deploy
         run: mkdocs gh-deploy --force
 
+      - name: Debug Commit Message
+        env:
+          MSG: ${{ github.event.head_commit.message }}
+        run: echo "The message is... $MSG"
+
       - name: Notify Discord on Major Features
         if: github.actor != 'github-actions[bot]' && contains(github.event.head_commit.message, '[publish]') && success() 
         uses: rjstone/discord-webhook-notify@v2
