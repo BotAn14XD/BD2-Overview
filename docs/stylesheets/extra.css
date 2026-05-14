@@ -388,9 +388,15 @@ li.md-nav__item:has(a[href$="#"]) {
 }
 
 .md-typeset .resource-tag {
-    background-color: rgb(137, 255, 2); 
+    background-color: rgba(137, 255, 2, 0.752); 
     color: #000000;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(137, 255, 2, 0.3);
+}
+
+.md-typeset .gear-tag {
+    background-color: rgba(120, 2, 255, 0.752); 
+    color: #ffffff;
+    border: 1px solid rgba(120, 2, 255, 0.2);
 }
 
 .md-typeset .rare-tag {

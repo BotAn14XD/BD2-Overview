@@ -388,6 +388,16 @@
             <p>Character Packs are a specific pack type, set in an alternative universe separate from the main story.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Charming Gaze</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag rare-tag">CritDMG / HP% Ring</span>
+                <span class="alias-tag rare-tag">HP% Ring</span>
+                <span class="alias-tag rare-tag">HP Ring</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Charming_Gaze">Charming Gaze</a> is a UR Craftable Accessory.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Code Name A Rafina</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -477,7 +487,18 @@
             </div>
             <p>Critical Rate represents a chance that the attack will be a critical one, dealing increased damage.</p>
         </li>
-    </ul>
+        <li class="slang-item" data-keywords="">
+            <h3>Crown of Galaxy</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">Crown</span>
+                <span class="alias-tag">HP% Helm</span>
+                <span class="alias-tag">HP Helm</span>
+                <span class="alias-tag rare-tag">MRES / HP% Helm</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Crown_of_Galaxy">Crown of Galaxy</a> is a UR Craftable Helmet.</p>
+        </li>
+            </ul>
 </div>
 
 <div class="alpha-group"> <!-- D -->
@@ -559,6 +580,16 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Luvencia/Deal_Snatcher">Deal Snatcher</a> is one of <a href="https://browndust2.miraheze.org/wiki/Luvencia">Luvencia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span> and Chainer.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Death's Shroud</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">Flat HP Armor</span>
+                <span class="alias-tag rare-tag">MRES / Flat HP Armor</span>
+                <span class="alias-tag rare-tag">MRES / HP Armor</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Death's_Shroud">Death's Shroud</a> is a UR Craftable Armor.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Defence</h3>
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
@@ -575,6 +606,17 @@
                 <span class="alias-tag rare-tag">Demon Seir</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Seir/Demon's_Daughter">Demon's Daughter</a> is one of <a href="https://browndust2.miraheze.org/wiki/Seir">Seir's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Tank.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Demon's Forbidden Book</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag rare-tag">Demon Book</span>
+                <span class="alias-tag rare-tag">DFB</span>
+                <span class="alias-tag rare-tag">MATK / MATK Weapon</span>
+                <span class="alias-tag rare-tag">Double Flat MATK Weapon</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Demon's_Forbidden_Book">Demon's Forbidden Book</a> is a UR Craftable Weapon.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Descendant of the Great Witch Celia</h3>
@@ -613,6 +655,18 @@
                 <span class="alias-tag rare-tag">DJ Ven</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Venaka/DJ">DJ</a> is one of <a href="https://browndust2.miraheze.org/wiki/Venaka">Venaka's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Dragon Scales Protection</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">Dragon Scale</span>
+                <span class="alias-tag">Flat MATK Glove</span>
+                <span class="alias-tag rare-tag">MATK% / MATK Glove</span>
+                <span class="alias-tag rare-tag">MATK / Flat MATK Glove</span>
+                <span class="alias-tag rare-tag">DSP</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Dragon_Scales_Protection">Dragon Scales Protection</a> is a UR Craftable Glove.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Draw Ticket</h3>
@@ -709,6 +763,27 @@
             </div>
             <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/evil-castle/">Evil Castle</a> is a Content Pack, featuring one time clear and repetitive roguelike content.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Evil Dragon's Blade</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">UR Sword</span>
+                <span class="alias-tag rare-tag">CDMG Sword</span>
+                <span class="alias-tag rare-tag">ATK / CDMG Weapon</span>
+                <span class="alias-tag rare-tag">Crit DMG Sword</span>
+                <span class="alias-tag rare-tag">EDB</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Evil_Dragon's_Blade">Evil Dragon's Blade</a> is a UR Craftable Weapon.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Eye of the Destroyer</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag rare-tag">EotD</span>
+                <span class="alias-tag rare-tag">MATK / MATK% Weapon</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Eye_of_the_Destroyer">Eye of the Destroyer</a> is a UR Craftable Weapon.</p>
+        </li>
     </ul>
 </div>
 
@@ -751,6 +826,18 @@
                 <span class="alias-tag rare-tag">Fated</span>
             </div>
             <p>Fated Guest is a type of Guest in <a href="https://botan14xd.github.io/BD2-Overview/content-packs/glupy-diner/">Glupy Diner</a> that has story and interactive scenes.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Fiend Guard</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">Magic Armor</span>
+                <span class="alias-tag">Robe</span>
+                <span class="alias-tag">MRES / MRES Armor</span>
+                <span class="alias-tag">MRES Armor</span>
+                <span class="alias-tag rare-tag">MRES / MRES Robe</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Fiend_Guard">Fiend Guard</a> is a UR Craftable Armor.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Fiend Hunter</h3>
@@ -835,6 +922,18 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Goblin_Slayer">Goblin Slayer</a> is a playable Fire Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>God-King's Silver Arm</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">Silver Arm</span>
+                <span class="alias-tag">ATK% Glove</span>
+                <span class="alias-tag rare-tag">ATK% / ATK% Glove</span>
+                <span class="alias-tag rare-tag">Double ATK% Glove</span>
+                <span class="alias-tag rare-tag">GKSA</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/God-King's_Silver_Arm">God-King's Silver Arm</a> is a UR Craftable Glove.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Golden Colosseum</h3>
             <div class="alias-container">
                 <span class="alias-tag content-tag ignore-exact">Content</span>
@@ -870,6 +969,16 @@
     <h2 class="letter-heading">H</h2>
     <ul class="slang-list">
         <li class="slang-item" data-keywords="">
+            <h3>Hammer of Thunder</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">Hammer</span>
+                <span class="alias-tag rare-tag">ATK / ATK% Weapon</span>
+                <span class="alias-tag rare-tag">UR Hammer</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Hammer_of_Thunder">Hammer of Thunder</a> is a UR Craftable Weapon.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Helena</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
@@ -877,6 +986,17 @@
                 <span class="alias-tag rare-tag">Lena</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Helena">Helena</a> is a playable Light Character.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Helm of Carnage</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">Phys Helm</span>
+                <span class="alias-tag">DEF / DEF Helm</span>
+                <span class="alias-tag">DEF Helm</span>
+                <span class="alias-tag rare-tag">Carnage Helm</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Helm_of_Carnage">Helm of Carnage</a> is a UR Craftable Helmet.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Herb Tracker Lathel</h3>
@@ -917,6 +1037,16 @@
             </div>
             <p>Health Points represent the character Health. It is used for sustaining enemy damage.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Helm of Death</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">HP% Helm</span>
+                <span class="alias-tag">HP Helm</span>
+                <span class="alias-tag rare-tag">DEF / HP% Helm</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Helm_of_Death">Helm of Death</a> is a UR Craftable Helmet.</p>
+        </li>
     </ul>
 </div>
 
@@ -933,6 +1063,16 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Ikaruga">Ikaruga</a> is a playable Fire Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Immortal Golden Armor</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">HP% Armor</span>
+                <span class="alias-tag">HP Armor</span>
+                <span class="alias-tag rare-tag">DEF / HP% Armor</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Immortal_Golden_Armor">Immortal Golden Armor</a> is a UR Craftable Armor.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Innocent Bunny Tyr</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -941,6 +1081,17 @@
                 <span class="alias-tag rare-tag">IB Tyr</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Tyr/Innocent_Bunny">Innocent Bunny</a> is one of <a href="https://browndust2.miraheze.org/wiki/Tyr">Tyr's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Invulnerable Armor</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">Phys Armor</span>
+                <span class="alias-tag">DEF / DEF Armor</span>
+                <span class="alias-tag">DEF Armor</span>
+                <span class="alias-tag rare-tag">Invul Armor</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Invulnerable_Armor">Invulnerable Armor</a> is a UR Craftable Armor.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Iron Monarch Wilhelmina</h3>
@@ -1457,6 +1608,16 @@
     <h2 class="letter-heading">P</h2>
     <ul class="slang-list">
         <li class="slang-item" data-keywords="">
+            <h3>Peerless Javelin</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">Javelin</span>
+                <span class="alias-tag rare-tag">ATK / ATK Weapon</span>
+                <span class="alias-tag rare-tag">Double Flat ATK weapon</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Peerless_Javelin">Peerless Javelin</a> is a UR Craftable Weapon.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Piercing Magic Bow Eleaneer</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -1588,6 +1749,29 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Priestess">Priestess</a> is a playable Light Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Prime Authority</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">Prime</span>
+                <span class="alias-tag">Flat ATK Glove</span>
+                <span class="alias-tag rare-tag">ATK% / ATK Glove</span>
+                <span class="alias-tag rare-tag">ATK / Flat ATK Glove</span>
+                <span class="alias-tag rare-tag">PA</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Prime_Authority">Prime Authority</a> is a UR Craftable Glove.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Promise of Harmony</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag rare-tag">CRate / HP% Accessory</span>
+                <span class="alias-tag rare-tag">CRate / HP% Necklace</span>
+                <span class="alias-tag rare-tag">CR / HP% Accessory</span>
+                <span class="alias-tag rare-tag">CR / HP% Necklace</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Promise_of_Harmony">Promise of Harmony</a> is a UR Craftable Accessory.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Promise of Vengeance Lathel</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -1694,6 +1878,19 @@
             </div>
             <p><a   href="https://browndust2.miraheze.org/wiki/Rafina">Rafina</a> is a playable Water Character.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Rebellion</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">CR Glove</span>
+                <span class="alias-tag">Crit Rate Glove</span>
+                <span class="alias-tag">Crit Glove</span>
+                <span class="alias-tag rare-tag">CritRate Glove</span>
+                <span class="alias-tag rare-tag">ATK / CR Glove</span>
+                <span class="alias-tag rare-tag">ATK / CRate Glove</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Rebellion">Rebellion</a> is a UR Craftable Glove.</p>
+        </li>
         <li class="slang-item" data-keywords="Scrolls">
             <h3>Recruitment Contract</h3>
             <div class="alias-container">
@@ -1778,6 +1975,30 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Rigenette">Rigenette</a> is a playable Wind Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Ring of Fury</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">CR Glove</span>
+                <span class="alias-tag">Crit Rate Glove</span>
+                <span class="alias-tag">Crit Glove</span>
+                <span class="alias-tag rare-tag">CritRate Glove</span>
+                <span class="alias-tag rare-tag">MATK / CR Glove</span>
+                <span class="alias-tag rare-tag">MATK / CRate Glove</span>
+                <span class="alias-tag rare-tag">RoF</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Ring_of_Fury">Ring of Fury</a> is a UR Craftable Glove.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Ring of the Lake</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag rare-tag">Flat HP Ring</span>
+                <span class="alias-tag rare-tag">CDMG / HP Ring</span>
+                <span class="alias-tag rare-tag">CritDMG / HP Ring</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Ring_of_the_Lake">Ring of the Lake</a> is a UR Craftable Accessory.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Robin Hood Zenith</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -1815,6 +2036,16 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Olstein/Sage_of_Blue_Clouds">Sage of Blue Clouds</a> is one of <a href="https://browndust2.miraheze.org/wiki/Olstein">Olstein's</a> costumes.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Scale of the Sea God</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">Flat HP Armor</span>
+                <span class="alias-tag rare-tag">DEF / Flat HP Armor</span>
+                <span class="alias-tag rare-tag">DEF / HP Armor</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Scale_of_the_Sea_God">Scale of the Sea God</a> is a UR Craftable Armor.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Scheherazade</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
@@ -1844,6 +2075,18 @@
                 <span class="alias-tag">Selective Tickets</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Selective_Draw_Ticket">Selective Draw Ticket</a> is a Resource used to obtain Costumes or Gear from specific Banners.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Shackle of Treachery</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">Shackle</span>
+                <span class="alias-tag">MATK% Glove</span>
+                <span class="alias-tag rare-tag">MATK% / MATK% Glove</span>
+                <span class="alias-tag rare-tag">Double MATK% Glove</span>
+                <span class="alias-tag rare-tag">SoT</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Shackle_of_Treachery">Shackle of Treachery</a> is a UR Craftable Glove.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Shadow Bunny Eleaneer</h3>
@@ -1908,6 +2151,16 @@
                 <span class="alias-tag rare-tag">Snow Ventana</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Ventana/Snow_White">Snow White</a> is one of <a href="https://browndust2.miraheze.org/wiki/Ventana">Ventana's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Solar Brilliance</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">Flat HP Helm</span>
+                <span class="alias-tag rare-tag">MRES / Flat HP Helm</span>
+                <span class="alias-tag rare-tag">MRES / HP Helm</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Solar_Brilliance">Solar Brilliance</a> is a UR Craftable Helmet.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Sonya</h3>
@@ -2275,12 +2528,34 @@
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Loen/Track_and_Field_Team">Track and Field Team</a> is one of <a href="https://browndust2.miraheze.org/wiki/Loen">Loen's</a> costumes. Used as Self-Buff Costume and <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Travel God's Friend</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">Staff</span>
+                <span class="alias-tag">MATK/CDMG Weapon</span>
+                <span class="alias-tag rare-tag">CDMG Staff</span>
+                <span class="alias-tag rare-tag">TGF</span>
+                <span class="alias-tag rare-tag">UR Staff</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Travel_God's_Friend">Travel God's Friend</a> is a UR Craftable Weapon.</p>
+        </li>
     </ul>
 </div>
 
 <div class="alpha-group"> <!-- U -->
     <h2 class="letter-heading">U</h2>
     <ul class="slang-list">
+        <li class="slang-item" data-keywords="">
+            <h3>Undefeated Glory</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">Flat HP Helm</span>
+                <span class="alias-tag rare-tag">DEF / Flat HP Helm</span>
+                <span class="alias-tag rare-tag">DEF / HP Helm</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Undefeated_Glory">Undefeated Glory</a> is a UR Craftable Helmet.</p>
+        </li>
     </ul>
 </div>
 
@@ -2294,6 +2569,18 @@
                 <span class="alias-tag rare-tag">Van Gray</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Gray/Vanguard">Vanguard</a> is one of <a href="https://browndust2.miraheze.org/wiki/Gray">Gray's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Venomous Touch</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">VT</span>
+                <span class="alias-tag">CDMG / CDMG Ring</span>
+                <span class="alias-tag rare-tag">Double CDMG Accessory</span>
+                <span class="alias-tag rare-tag">CDMG / CDMG Necklace</span>
+                <span class="alias-tag rare-tag">Venom Touch</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Venomous_Touch">Venomous Touch</a> is a UR Craftable Accessory.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Violent Student Kry</h3>
@@ -2337,6 +2624,17 @@
     <h2 class="letter-heading">W</h2>
     <ul class="slang-list">
         <li class="slang-item" data-keywords="">
+        <li class="slang-item" data-keywords="">
+            <h3>Warmth of the Brazier</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag rare-tag">CRate Accessory</span>
+                <span class="alias-tag rare-tag">CR / CR Necklace</span>
+                <span class="alias-tag rare-tag">CRate Necklace</span>
+                <span class="alias-tag rare-tag">Double CR Necklace</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Warmth_of_the_Brazier">Warmth of the Brazier</a> is a UR Craftable Accessory.</p>
+        </li>
             <h3>Water Park Queen Wilhelmina</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
