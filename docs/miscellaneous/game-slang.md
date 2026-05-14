@@ -1,4 +1,4 @@
-<input type="text" id="slangSearch" onkeyup="filterSlang()" placeholder="Search for slang, characters or a tag..." class="slang-search-box">
+<input type="text" id="slangSearch" onkeyup="filterSlang()" placeholder="Search for slang or full name..." class="slang-search-box">
 
 <div class="quick-filters">
     <button id="btn-Character" onclick="toggleCategory('Character')">Character</button>
@@ -6,6 +6,7 @@
     <button id="btn-Costume" onclick="toggleCategory('Costume')">Costume</button>
     <button id="btn-Game-Mechanics" onclick="toggleCategory('Game Mechanics')">Game Mechanics</button>
     <button id="btn-Gear" onclick="toggleCategory('Gear')">Gear</button>
+    <button id="btn-Resource" onclick="toggleCategory('Resource')">Resource</button>
 </div>
 
 <div id="slang-counter" class="slang-counter"></div>
@@ -13,6 +14,15 @@
 <div class="alpha-group"> <!-- A -->
     <h2 class="letter-heading">A</h2>
     <ul class="slang-list">
+        <li class="slang-item" data-keywords="">
+            <h3>Ability Skill Books</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">Books</span>
+                <span class="alias-tag">Ability S. Books</span>
+            </div>
+            <p>Ability Books is a collective term for ★1 — ★4 Ability Skill Books, used for upgrading Character's Field Ability.</p>
+        </li>
         <li class="slang-item" data-keywords="">
             <h3>Acting Archbishop Michaela</h3>
             <div class="alias-container">
@@ -53,6 +63,15 @@
                 <span class="alias-tag rare-tag">Tank Glacia</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Glacia/Alice">Alice</a> is one of <a href="https://browndust2.miraheze.org/wiki/Glacia">Glacia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Tank costume.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Ancient Crystal</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">AC</span>
+                <span class="alias-tag rare-tag">ACrystal</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Ancient_Crystal">Ancient Crystal</a> is a resource used for crafting <span class="cross-link" onclick="searchFor('UR')">UR</span> Gear.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Android Queen Lecliss</h3>
@@ -137,7 +156,7 @@
             <h3>Apostle Olivier</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
-                <span class="alias-tag"><!--STUB--></span>
+                <span class="alias-tag rare-tag">AP Olivier</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Olivier/Apostle">Apostle</a> is one of <a href="https://browndust2.miraheze.org/wiki/Olivier">Olivier's</a> costumes. Used as Self-Buffer and <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Costume.</p>
         </li>
@@ -148,6 +167,14 @@
                 <span class="alias-tag">ATK</span>
             </div>
             <p>Attack is one of in-game stats used mostly by units with Physical damage type to deal damage.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Awakening Elixir</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">Elixir</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Awakening_Elixir">Awakening Elixir</a> is a resource used for Awakening Characters.</p>
         </li>
     </ul>
 </div>
@@ -425,6 +452,14 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Yuri/Comeback_Idol">Comeback Idol</a> is one of <a href="https://browndust2.miraheze.org/wiki/Yuri">Yuri's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span></p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Cooked Rice</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">Rice</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Cooked_Rice">Cooked Rice</a> is a Consumable Resource used to obtain Crafting Material, Gold or Slimes.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Critical Damage</h3>
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
@@ -572,6 +607,16 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Venaka/DJ">DJ</a> is one of <a href="https://browndust2.miraheze.org/wiki/Venaka">Venaka's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Draw Ticket</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">Tix</span>
+                <span class="alias-tag">Red Tix</span>
+                <span class="alias-tag">Draw Tix</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Draw_Ticket">Draw Ticket</a> is a Resource used to obtain Costumes and Gear.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Dream Bride Eclipse</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -612,6 +657,21 @@
                 <span class="alias-tag">Desire Roxy</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Roxy/Emerging_Desire">Emerging Desire</a> is one of <a href="https://browndust2.miraheze.org/wiki/Roxy">Roxy's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Costume.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Engraving Scroll</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">Scrolls</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Engraving_Scroll">Engraving Scroll</a> is a Resource used for Engraving Characters.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Essences</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+            </div>
+            <p>Essences is a collective term for <a href="https://browndust2.miraheze.org/wiki/Essence_of_Perseverance">Essence of Perseverance</a>, <a href="https://browndust2.miraheze.org/wiki/Essence_of_Strength">Essence of Strength</a> and <a href="https://browndust2.miraheze.org/wiki/Essence_of_Life">Essence of Life</a>, used to Engrave a Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Esteemed Adventurer Eris</h3>
@@ -1110,7 +1170,7 @@
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
                 <span class="alias-tag">MATK</span>
             </div>
-            <p>Magicla Attack is one of in-game stats used mostly by units with Magical damage type to deal damage.</p>
+            <p>Magical Attack is one of in-game stats used mostly by units with Magical damage type to deal damage.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Magical Innovator Diana</h3>
@@ -1499,8 +1559,9 @@
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
                 <span class="alias-tag">Pots</span>
                 <span class="alias-tag rare-tag">Potlib</span>
+                <span class="alias-tag rare-tag">Tree</span>
             </div>
-            <p><a href="https://botan14xd.github.io/BD2-Overview/character-progression/potential-liberation/">Potential Liberation</a> is a character progession feature offering stats increase as well as difect skill enhancement.</p>
+            <p><a href="https://botan14xd.github.io/BD2-Overview/character-progression/potential-liberation/">Potential Liberation</a> is a character progression feature offering stats increase as well as direct skill enhancement.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Priestess</h3>
@@ -1529,12 +1590,29 @@
             <p>Property is one of the character's traits that increases damage dealt versus weaker Property and reduces damage dealt versus a stronger one.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Property Crystal</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+            </div>
+            <p>Property Crystal is a collective term for the various elemental crystals (Water, Fire, Wind, Light, and Darkness) used for <a href="https://botan14xd.github.io/BD2-Overview/character-progression/potential-liberation/">Potential Liberation</a> of a Costume.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Property Damage</h3>
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
                 <span class="alias-tag">Prop Damage</span>
             </div>
             <p>Damage buffed with <span class="cross-link" onclick="searchFor('Property')">Property</span> Advantage.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Property Selective Draw Exchange Ticket</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">Property Ticket</span>
+                <span class="alias-tag">Prop Tix</span>
+                <span class="alias-tag">Proptix</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Property_Selective_Draw_Exchange_Ticket">Property Selective Draw Exchange Ticket</a> is a Resource that used to obtain Costumes from chosen <span class="cross-link" onclick="searchFor('Property')">Property</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Prophetic Dream Darian</h3>
@@ -1600,6 +1678,15 @@
             </div>
             <p><a   href="https://browndust2.miraheze.org/wiki/Rafina">Rafina</a> is a playable Water Character.</p>
         </li>
+        <li class="slang-item" data-keywords="Scrolls">
+            <h3>Recruitment Contract</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">R. Contract</span>
+                <span class="alias-tag">Scroll</span>
+            </div>
+            <p>Recruitment Contract is a collective term for ★3, ★4 and ★5 Contracts, used for recruiting Costumes from Pub.</p>
+        </li>
         <li class="slang-item" data-keywords="">
             <h3>Red Riding Hood Rou</h3>
             <div class="alias-container">
@@ -1611,6 +1698,32 @@
                 <span class="alias-tag rare-tag">RRou</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Rou/Red_Riding_Hood">Red Riding Hood</a> is one of <a href="https://browndust2.miraheze.org/wiki/Rou">Rou's</a> costumes. Used as Buffer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Refining Crystal</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">RC</span>
+                <span class="alias-tag rare-tag">Ref Crystal</span>
+                <span class="alias-tag rare-tag">RCrystal</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Refining_Crystal">Refining Crystal</a> is a Resource used to change <span class="cross-link" onclick="searchFor('Substats')">Substats</span> of the gear.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Refining Powder</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">Powder</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Refining_Powder">Refining Powder</a> is a Resource used to upgrade Gear.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Refining Stone</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">RS</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Refining_Stone">Refining Stone</a> <!--STUB--></p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Refithea</h3>
@@ -1706,6 +1819,17 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Emma/School_Queen">School Queen</a> is one of <a href="https://browndust2.miraheze.org/wiki/Emma">Emma's</a> costumes.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Selective Draw Ticket</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">Purple Tix</span>
+                <span class="alias-tag">Purple Tickets</span>
+                <span class="alias-tag">Selective Tix</span>
+                <span class="alias-tag">Selective Tickets</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Selective_Draw_Ticket">Selective Draw Ticket</a> is a Resource used to obtain Costumes or Gear from specific Banners.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Shadow Bunny Eleaneer</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -1752,6 +1876,13 @@
             </div>
             <p>Skill Points, used to activate Costume abilities.</p>
         </li>
+        <li class="slang-item" data-keywords="Slimes">
+            <h3>Slime</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+            </div>
+            <p>Slime is a collective term for Red, Blue, and Yellow Slimes, which are used as EXP consumables to level up Characters.</p>
+        </li>
         <li class="slang-item" data-keywords="">
             <h3>Snow White Ventana</h3>
             <div class="alias-container">
@@ -1789,11 +1920,27 @@
             <p>SP Generator is a costume that recovers <span class="cross-link" onclick="searchFor('SP)">SP</span> to the team.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Spark of Rampage</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">Spark</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Spark_of_Rampage">Spark of Rampage</a> is a Resource used to upgrade the <a href="https://botan14xd.github.io/BD2-Overview/character-progression/burst/">Burst</a> of Costumes.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Staller</h3>
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
             </div>
             <p>A Character or Costume whose job is to make the fight as long as possible, stalling it.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Rank-Up Stars</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">Stars</span>
+            </div>
+            <p>Stars is a collective term for the different tiers of Rank-Up Stars (ranging from ★1 to ★4) used to increase a character's maximum level cap.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Starlight Guardian Tyr</h3>
@@ -1886,6 +2033,15 @@
                 <span class="alias-tag">Taros Manual</span>
             </div>
             <p>Taros Tactical Manual is a content focusing on completing battles created as a puzzles.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Tear of Goddess</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">Tear</span>
+                <span class="alias-tag">ToG</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Tear_of_Goddess">Tear of Goddess</a> is a Resource used to upgrade <a href="https://botan14xd.github.io/BD2-Overview/character-progression/potential-liberation/">Potential Liberation</a> of a Costume.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Teresse</h3>
@@ -2345,20 +2501,33 @@ function filterSlang() {
                 let tags = item.querySelectorAll('.alias-tag, .tag-rare, .rare-tag, [class*="tag-"]');
                 let tagsText = "";
                 let itemHasCategory = false; 
+                
+                let ignoredCategories = ["CHARACTER", "COSTUME", "CONTENT", "GAME MECHANICS", "GEAR", "RESOURCE"];
 
                 for (let k = 0; k < tags.length; k++) {
                     let singleTagText = cleanText(tags[k].textContent);
-                    tagsText += singleTagText + " ";
 
                     if (categoryInput !== "" && singleTagText === categoryInput) {
                         itemHasCategory = true;
+                    }
+
+                    if (!ignoredCategories.includes(singleTagText)) {
+                        tagsText += singleTagText + " ";
                     }
                 }
                 let hiddenKeywords = item.getAttribute("data-keywords");
                 let keywordsText = hiddenKeywords ? cleanText(hiddenKeywords) : "";
                 let searchableText = titleText + " " + tagsText + " " + keywordsText;
 
-                let passesText = (inputText === "" || searchableText.indexOf(inputText) > -1);
+                let passesText = false;
+                if (inputText === "") {
+                    passesText = true;
+                } else if (inputText.length <= 2) {
+                    let regex = new RegExp("\\b" + inputText + "\\b");
+                    passesText = regex.test(searchableText);
+                } else {
+                    passesText = (searchableText.indexOf(inputText) > -1);
+                }
                 let passesCategory = (categoryInput === "" || itemHasCategory);
 
                 if (passesText && passesCategory) {

@@ -61,4 +61,5 @@ This site is a work in progress, focusing on high-quality explanation for every 
 <h2 style="text-align:center;"> Resources & Community </h2>
 
 - [GitHub Repository](https://github.com/BotAn14XD/BD2-Overview)
+- [Compendium Discord Server](https://discord.gg/tays83ew3N)
 - [Brown Dust II Discord Server](https://discord.com/invite/browndust2)

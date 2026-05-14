@@ -43,6 +43,7 @@ nav:
         - 'Game Slang': miscellaneous/game-slang.md
     - '---': '#'
     - 'Banner Recommendations': https://zormolo.github.io/BD2-Banner-Recommendation/
+    - 'Our Discord Server': https://discord.gg/tays83ew3N
 repo_name: BotAn14XD/BD2-Overview
 repo_url: https://github.com/BotAn14XD/BD2-Overview
 extra_css:
@@ -51,6 +52,7 @@ extra_css:
 extra_javascript:
   - javascripts/extra.js
   - javascripts/katex.js
+  - javascripts/custom.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 plugins:

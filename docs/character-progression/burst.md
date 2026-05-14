@@ -19,7 +19,7 @@ To access the Burst system, select the desired costume in the Costume tab, press
     ![Burst Menu Image](../assets/images/burst/burst-menu.avif)
 
 ## Burst Mechanics
-There are a total of **3** Bursts per costume. There are a total of **3** Bursts per costume, with **each subsequent tier requires the previous one to be upgraded first.**
+There are a total of **3** Bursts per costume, with **each subsequent tier requires the previous one to be upgraded first.**
 
 Effects from all Bursts **stack**, meaning **if you activate Burst 3, you will have all effects from Bursts 1-3**. This also means that **Burst Cost also stacks**.
 

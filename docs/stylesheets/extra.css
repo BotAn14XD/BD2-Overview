@@ -387,11 +387,18 @@ li.md-nav__item:has(a[href$="#"]) {
     border: 1px solid rgba(175, 219, 245, 0.3);
 }
 
+.md-typeset .resource-tag {
+    background-color: rgb(137, 255, 2); 
+    color: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .md-typeset .rare-tag {
     background-color: rgba(255, 255, 255, 0.05); 
     color: rgba(255, 255, 255, 0.4);
     border: 1px dashed rgba(255, 255, 255, 0.2);
 }
+
 
 .slang-search-box {
     width: 100%;
@@ -494,4 +501,59 @@ li.md-nav__item:has(a[href$="#"]) {
 
 .cross-link:hover {
     color: #ffffff;
+}
+
+.md-banner {
+    background-color: #faa419bc !important;
+    padding: 0 !important;
+    display: none;  
+}
+
+.md-banner__inner {
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+
+.discord-announce-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: transparent;
+    color: white;
+    font-size: 0.9rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px 40px;
+}
+
+.discord-announce-bar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.discord-announce-bar a:hover {
+    color: #679ee5;
+}
+
+.announce-close {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    line-height: 1;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    padding: 0;
+    margin: 0;
+}
+
+.announce-close:hover {
+    opacity: 1;
 }

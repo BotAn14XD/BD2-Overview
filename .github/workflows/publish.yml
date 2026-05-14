@@ -29,3 +29,16 @@ jobs:
 
       - name: Deploy
         run: mkdocs gh-deploy --force
+
+      - name: Notify Discord on Major Features
+        if: github.actor != 'github-actions[bot]' && contains(github.event.head_commit.message, '[publish]') && success() 
+        uses: rjstone/discord-webhook-notify@v3
+        with:
+          severity: info
+          text: "**Site Updated!**"
+          details: |
+            New changes were just pushed to the documentation by **${{ github.actor }}**.
+            
+            **Commit Message:**
+            > ${{ github.event.head_commit.message }}
+          webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
