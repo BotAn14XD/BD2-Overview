@@ -559,6 +559,14 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Luvencia/Deal_Snatcher">Deal Snatcher</a> is one of <a href="https://browndust2.miraheze.org/wiki/Luvencia">Luvencia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span> and Chainer.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Defence</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">DEF</span>
+            </div>
+            <p>Defense is one of Character's stats that reduces incoming damage from Physical Characters.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Demon's Daughter Seir</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
