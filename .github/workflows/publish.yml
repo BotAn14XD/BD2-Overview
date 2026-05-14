@@ -35,18 +35,22 @@ jobs:
           MSG: ${{ github.event.head_commit.message }}
         run: echo "The message is... $MSG"
 
-      - name: Notify Discord on Major Features
-        if: |
-          github.actor != 'github-actions[bot]' && 
-          contains(github.event.head_commit.message, '[notify]') && 
-          success() 
-        uses: rjstone/discord-webhook-notify@v2
-        with:
-          severity: info
-          text: "**Site Updated!**"
-          details: |
-            New changes were just pushed to the documentation by **${{ github.actor }}**.
-            
-            **Commit Message:**
-            > ${{ github.event.head_commit.message }}
-          webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
+      - name: Notify Discord
+        if: github.actor != 'github-actions[bot]' && success()
+        env:
+          MSG: ${{ github.event.head_commit.message }}
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          if echo "$MSG" | grep -qi "\[notify\]"; then
+            CLEAN_MSG=$(echo "$MSG" | sed 's/\[notify\]//gI' | sed '/^[[:space:]]*$/d' | sed 's/"/\\"/g')
+            curl -X POST -H "Content-Type: application/json" \
+            -d '{
+              "embeds": [{
+                "title": "Site Updated!",
+                "description": "New changes were just pushed to the documentation by **'${{ github.actor }}'**.\n\n**Commit Message:**\n> '"$CLEAN_MSG"'",
+                "color": 3066993
+              }]
+            }' $WEBHOOK
+          else
+            echo "No [notify] tag found. Skipping Discord."
+          fi
