@@ -36,7 +36,10 @@ jobs:
         run: echo "The message is... $MSG"
 
       - name: Notify Discord on Major Features
-        if: github.actor != 'github-actions[bot]' && contains(github.event.head_commit.message, '[publish]') && success() 
+        if: |
+          github.actor != 'github-actions[bot]' && 
+          contains(github.event.head_commit.message, '[notify]') && 
+          success() 
         uses: rjstone/discord-webhook-notify@v2
         with:
           severity: info
