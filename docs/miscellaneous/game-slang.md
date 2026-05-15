@@ -1891,6 +1891,16 @@
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Rebellion">Rebellion</a> is a UR Craftable Glove.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Recommended ★5 Costume Selective Ticket</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">Rainbow Tix</span>
+                <span class="alias-tag">Rainbow Ticket</span>
+                <span class="alias-tag">Selective Ticket</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Recommended_5-Star_Costume_Selective_Ticket">Recommended ★5 Costume Selective Ticket</a> is a Resource allowing you to choose one Costume out of suggested 12. </p>
+        </li>
         <li class="slang-item" data-keywords="Scrolls">
             <h3>Recruitment Contract</h3>
             <div class="alias-container">
