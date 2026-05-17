@@ -7,6 +7,7 @@
     <button id="btn-Game-Mechanics" onclick="toggleCategory('Game Mechanics')">Game Mechanics</button>
     <button id="btn-Gear" onclick="toggleCategory('Gear')">Gear</button>
     <button id="btn-Resource" onclick="toggleCategory('Resource')">Resource</button>
+    <button id="btn-misc" onclick="toggleCategory('Miscellaneous')">Miscellaneous</button>
 </div>
 
 <div id="slang-counter" class="slang-counter"></div>
@@ -67,6 +68,16 @@
             <h3></h3>
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag"></span>
+                <span class="alias-tag rare-tag"></span>
+            </div>
+            <p></p>
+        </li>
+    # Miscellaneous
+        <li class="slang-item" data-keywords="">
+            <h3></h3>
+            <div class="alias-container">
+                <span class="alias-tag miscellaneous-tag ignore-exact">Miscellaneous</span>
                 <span class="alias-tag"></span>
                 <span class="alias-tag rare-tag"></span>
             </div>
@@ -299,6 +310,14 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Gray/B-Rank_Manager">B-Rank Manager</a> is one of <a href="https://browndust2.miraheze.org/wiki/Gray">Gray's</a> costumes.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Basic Attack</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">Normal Attack</span>
+            </div>
+            <p>Basic Attack is one of possible actions that Character can perform during the Turn. It is single tile attack with no Skill Multiplier.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Basic Skill</h3>
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
@@ -493,6 +512,13 @@
             <p>Character Packs are a specific pack type, set in an alternative universe separate from the main story.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Chains</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+            </div>
+            <p>A battle mechanic where every hit on an enemy or boss tile applies one chain stack. Each chain stack increases the damage dealt to that enemy by 10%, and they last for one turn before resetting.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Charming Gaze</h3>
             <div class="alias-container">
                 <span class="alias-tag gear-tag ignore-exact">Gear</span>
@@ -584,6 +610,23 @@
                 <span class="alias-tag">Rice</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Cooked_Rice">Cooked Rice</a> is a Consumable Resource used to obtain Crafting Material, Gold or Slimes.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Costume Selective Enhancement</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">Unidupe</span>
+                <span class="alias-tag">Universal Dupe</span>
+                <span class="alias-tag rare-tag">CSE</span>
+            </div>
+            <p>Costume Selective Enhancement is a resource purchasable from <span class="cross-link" onclick="searchFor('Golden Thread Shop')">Golden Thread Shop</span> that allows the Upgrade of the chosen non-limited Costume.</p>
+        </li>
+        <li class="slang-item" data-keywords="Critfish">
+            <h3>Crit Fish</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+            </div>
+            <p>Crit Fish is a mechanic where you restart the turn / battle in order to trigger a <span class="cross-link" onclick="searchFor('Critical Damage')">Critical Damage</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Critical Damage</h3>
@@ -975,6 +1018,14 @@
             <p>Fiend Hunter is one of the key Game Modes, resolving around defeating a Boss.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Fiend Hunt Damage Threshold</h3>
+            <div class="alias-container">
+                <span class="alias-tag miscellaneous-tag ignore-exact">Miscellaneous</span>
+                <span class="alias-tag">Threshold</span>
+            </div>
+            <p>Threshold is a Minimum Damage required to be dealt in a single fight to achieve given Fiend Hunter Level Clear.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Fire Graffiti Anastasia</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -983,6 +1034,19 @@
                 <span class="alias-tag rare-tag">Fire Graf Ana</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Anastasia/Fire_Graffiti">Fire Graffiti</a> is one of <a href="https://browndust2.miraheze.org/wiki/Anastasia">Anastasia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Flat Stat</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">Flat HP</span>
+                <span class="alias-tag">Flat ATK</span>
+                <span class="alias-tag">Flat MATK</span>
+                <span class="alias-tag rare-tag">HP+</span>
+                <span class="alias-tag rare-tag">ATK+</span>
+                <span class="alias-tag rare-tag">MATK+</span>
+            </div>
+            <p>Flat Stat is a Stat Bonus that is applied before % Bonus and mostly used in Gears.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Frozen Queen Wilhelmina</h3>
@@ -1072,6 +1136,24 @@
             </div>
             <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/golden-colosseum/">Golden Colosseum</a> is a Content Pack, focusing on  <span class="cross-link" onclick="searchFor('PvP')">PvP</span> experience.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Golden Thread</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">GT</span>
+                <span class="alias-tag">Thread</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Golden_Thread">Golden Thread</a> is a Resource which is mostly used for obtaining <span class="cross-link" onclick="searchFor('Unidupe')">Unidupe</span> and other Resources. Obtained from getting Costume after already having +5.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Golden Thread Shop</h3>
+            <div class="alias-container">
+                <span class="alias-tag content-tag ignore-exact">Content</span>
+                <span class="alias-tag">GT Shop</span>
+                <span class="alias-tag rare-tag">Threads Shop</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Golden_Threads">Powder of Hope</a> Shop is a Shop that uses <span class="cross-link" onclick="searchFor('Golden Thread')">Golden Thread</span> as a currency.</p>
+        </li>   
         <li class="slang-item" data-keywords="">
             <h3>Granadair</h3>
             <div class="alias-container">
@@ -1342,6 +1424,16 @@
                 <span class="alias-tag rare-tag">Beach Neb</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Nebris/Laid-back_Lifeguard">Laid-back Lifeguard</a> is one of <a href="https://browndust2.miraheze.org/wiki/Nebris">Nebris's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span> and Self-Support.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Lancelot</h3>
+            <div class="alias-container">
+                <span class="alias-tag miscellaneous-tag ignore-exact">Miscellaneous</span>
+                <span class="alias-tag">Lance</span>
+                <span class="alias-tag">Robot</span>
+                <span class="alias-tag rare-tag">Lanc</span>
+            </div>
+            <p>Lancelot is a Support Character in <span class="cross-link" onclick="searchFor('Guild Raid')">Guild Raid</span> that provides unique set of Abilities for a limited amount of Turns.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Last Hope Loen</h3>
@@ -1700,6 +1792,23 @@
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Eclipse/Nightmare_Bunny">Nightmare Bunny</a> is one of <a href="https://browndust2.miraheze.org/wiki/Eclipse">Eclipse's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Nuke</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag rare-tag">Burst</span>
+            </div>
+            <p>Nuke <i>[Noun]</i> — Skill of a Costume that deals massive damage to the enemy all at once.</p>
+            <p>Nuke <i>[Verb]</i> — Process of dealing the massive damage to the enemy all at once.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Nuke Turn</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">Burst Turn</span>
+            </div>
+            <p>The specific Turn during a battle where the player deals significantly more damage compared to the rest of the Turns, usually executed after preparing all necessary Buffs and Debuffs.</p>
+        </li>
     </ul>
 </div>
 
@@ -1923,7 +2032,7 @@
                 <span class="alias-tag">Powder</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Powder_of_Hope">Powder of Hope</a> is a Resource which is mostly used for obtaining Costumes. Obtained from Draw System.</p>
-            <p>Powder <i>[Verb] — to buy a Costume from <span class="cross-link" onclick="searchFor('Powder of Hope Shop')">Powder of Hope Shop</span>.</p>
+            <p>Powder <i>[Verb]</i> — to buy a Costume from <span class="cross-link" onclick="searchFor('Powder of Hope Shop')">Powder of Hope Shop</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Powder of Hope Shop</h3>
@@ -1933,7 +2042,14 @@
                 <span class="alias-tag rare-tag">PShop</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Powder_of_Hope">Powder of Hope Shop</a> is a Shop that uses <span class="cross-link" onclick="searchFor('Powder of Hope')">Powder of Hope</span> as a currency.</p>
-        </li>   
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Pressure</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+            </div>
+            <p>Pressure is a Debuff that decreases Buff Efficiency. Refer to <a href="https://botan14xd.github.io/BD2-Overview/game-mechanics/damage-formula/#__tabbed_1_4">Damage Formula</a> Page for more information.</p>
+        </li>
         <li class="slang-item" data-keywords="">
             <h3>Priestess</h3>
             <div class="alias-container">
@@ -2788,6 +2904,14 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Gray/Vanguard">Vanguard</a> is one of <a href="https://browndust2.miraheze.org/wiki/Gray">Gray's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Vault</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">Skip</span>
+            </div>
+            <p>Vault is one of two possible targetting options for a Character. It targets a second Character in a Column if possible.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Venomous Touch</h3>
             <div class="alias-container">
                 <span class="alias-tag gear-tag ignore-exact">Gear</span>
@@ -2798,6 +2922,14 @@
                 <span class="alias-tag rare-tag">Venom Touch</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Venomous_Touch">Venomous Touch</a> is a UR Craftable Accessory.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Very Front</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag rare-tag">VF</span>
+            </div>
+            <p>Very Front is one of two possible targetting options for a Character. It targets a First Character in a Column.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Violent Student Kry</h3>
@@ -2856,10 +2988,19 @@
             <h3>Water Park Queen Wilhelmina</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Summer Wilhelmina</span>
                 <span class="alias-tag rare-tag">WPQ Wilhelmina</span>
+                <span class="alias-tag rare-tag">WP Wilhelmina</span>
                 <span class="alias-tag rare-tag">WPQ Wilh</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Wilhelmina/Water_Park_Queen">Water Park Queen</a> is one of <a href="https://browndust2.miraheze.org/wiki/Wilhelmina">Wilhelmina's</a> costumes. Used as Chainer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Weak Point</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+            </div>
+            <p>Weak Point is a Boss Tile in Fiend Hunter and Guild Raid that recieves increased damage.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>White Cat Rou</h3>

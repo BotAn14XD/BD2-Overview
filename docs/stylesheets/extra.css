@@ -399,6 +399,12 @@ li.md-nav__item:has(a[href$="#"]) {
     border: 1px solid rgba(120, 2, 255, 0.2);
 }
 
+.md-typeset .miscellaneous-tag {
+    background-color: rgb(255, 255, 255); 
+    color: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .md-typeset .rare-tag {
     background-color: rgba(255, 255, 255, 0.05); 
     color: rgba(255, 255, 255, 0.4);
