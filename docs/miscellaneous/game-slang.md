@@ -11,6 +11,69 @@
 
 <div id="slang-counter" class="slang-counter"></div>
 
+<!-- <div class="alpha-group"> Templates
+    # Character
+        <li class="slang-item" data-keywords="">
+            <h3></h3>
+            <div class="alias-container">
+                <span class="alias-tag character-tag ignore-exact">Character</span>
+                <span class="alias-tag"></span>
+                <span class="alias-tag rare-tag"></span>
+            </div>
+            <p></p>
+        </li>
+    # Content
+        <li class="slang-item" data-keywords="">
+            <h3></h3>
+            <div class="alias-container">
+                <span class="alias-tag content-tag ignore-exact">Content</span>
+                <span class="alias-tag"></span>
+                <span class="alias-tag rare-tag"></span>
+            </div>
+            <p></p>
+        </li>
+    # Costume
+        <li class="slang-item" data-keywords="">
+            <h3></h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag"></span>
+                <span class="alias-tag rare-tag"></span>
+            </div>
+            <p></p>
+        </li>
+    # Game Mechanics
+        <li class="slang-item" data-keywords="">
+            <h3></h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag"></span>
+                <span class="alias-tag rare-tag"></span>
+            </div>
+            <p></p>
+        </li>
+    # Gear
+        <li class="slang-item" data-keywords="">
+            <h3></h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag"></span>
+                <span class="alias-tag rare-tag"></span>
+            </div>
+            <p></p>
+        </li>
+    # Resource
+        <li class="slang-item" data-keywords="">
+            <h3></h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag"></span>
+                <span class="alias-tag rare-tag"></span>
+            </div>
+            <p></p>
+        </li>
+</div> -->
+
 <div class="alpha-group"> <!-- A -->
     <h2 class="letter-heading">A</h2>
     <ul class="slang-list">
@@ -169,6 +232,15 @@
             <p>Attack is one of in-game stats used mostly by units with Physical damage type to deal damage.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Augmentation</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">Aug</span>
+                <span class="alias-tag">Amp</span>
+            </div>
+            <p>Augmentation is a type of Buff that increases Damage of allies, usually with some condition for activation or value.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Awakening Elixir</h3>
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
@@ -225,6 +297,17 @@
                 <span class="alias-tag rare">Idol Gray</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Gray/B-Rank_Manager">B-Rank Manager</a> is one of <a href="https://browndust2.miraheze.org/wiki/Gray">Gray's</a> costumes.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Basic Skill</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">S1</span>
+                <span class="alias-tag">S2</span>
+                <span class="alias-tag">S3</span>
+                <span class="alias-tag">S4</span>
+            </div>
+            <p>Basic Skill is a Boss Skill that is used by the boss by default. Number represents the display order of said skill.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Beach Vacation Eclipse</h3>
@@ -361,6 +444,28 @@
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Dalvi/Bright_Moon">Bright Moon</a> is one of <a href="https://browndust2.miraheze.org/wiki/Dalvi">Dalvi's</a> costumes. Used as weak <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Bunny Spectre</h3>
+            <div class="alias-container">
+                <span class="alias-tag character-tag ignore-exact">Character</span>
+                <span class="alias-tag">Bot</span>
+                <span class="alias-tag">Robot</span>
+                <span class="alias-tag">Summon</span>
+                <span class="alias-tag rare-tag">Bunny Robot</span>
+            </div>
+            <p>Bunny Spectre is a Summon Character from <a href="https://browndust2.miraheze.org/wiki/Morpeah/Daydream_Bunny">Daydream Bunny</a> <a href="https://browndust2.miraheze.org/wiki/Morpeah">Morpeah</a>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Burst</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">B0</span>
+                <span class="alias-tag">B1</span>
+                <span class="alias-tag">B2</span>
+                <span class="alias-tag">B3</span>
+            </div>
+            <p>Different <a href="https://botan14xd.github.io/BD2-Overview/character-progression/burst/">Burst</a> Upgrades [Burst 0 (No Burst) — Burst 3 (Maximum Burst)].</p>
+        </li>
     </ul>
 </div>
 
@@ -462,6 +567,17 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Yuri/Comeback_Idol">Comeback Idol</a> is one of <a href="https://browndust2.miraheze.org/wiki/Yuri">Yuri's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span></p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Conditional Skill</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">C1</span>
+                <span class="alias-tag">C2</span>
+                <span class="alias-tag">C3</span>
+                <span class="alias-tag">C4</span>
+            </div>
+            <p>Conditional Skill is a Boss Skill that is triggered whenever the condition is met. Number represents the display order of said skill.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Cooked Rice</h3>
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
@@ -484,6 +600,7 @@
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
                 <span class="alias-tag">Crit Rate</span>
                 <span class="alias-tag">Crate</span>
+                <span class="alias-tag">CR</span>
             </div>
             <p>Critical Rate represents a chance that the attack will be a critical one, dealing increased damage.</p>
         </li>
@@ -555,7 +672,7 @@
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Liberta/Dark_Saintess">Dark Saintess</a> is one of <a href="https://browndust2.miraheze.org/wiki/Liberta">Liberta's</a> costumes. Used as Physical Buffer.</p>
         </li>
-        <li class="slang-item" data-keywords="">
+        <li class="slang-item" data-keywords="Morpheah">
             <h3>Daydream Bunny Morpeah</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -720,6 +837,16 @@
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Roxy/Emerging_Desire">Emerging Desire</a> is one of <a href="https://browndust2.miraheze.org/wiki/Roxy">Roxy's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Costume.</p>
         </li>
+            <li class="slang-item" data-keywords="">
+                <h3>Energy Guard</h3>
+                <div class="alias-container">
+                    <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                    <span class="alias-tag">EG</span>
+                    <span class="alias-tag">Shield</span>
+                    <span class="alias-tag rare-tag">EGuard</span>
+                </div>
+                <p>Energy Guard is a Buff that gives temporary <span class="cross-link" onclick="searchFor('HP')">HP</span> that is spent before own Character's <span class="cross-link" onclick="searchFor('HP')">HP</span> upon taking Damage.</p>
+            </li>
         <li class="slang-item" data-keywords="">
             <h3>Engraving Scroll</h3>
             <div class="alias-container">
@@ -961,6 +1088,16 @@
                 <span class="alias-tag">Gran</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Granhildr">Granhildr</a> is a playable Light Character.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Guild Raid</h3>
+            <div class="alias-container">
+                <span class="alias-tag content-tag ignore-exact">Content</span>
+                <span class="alias-tag">GR</span>
+                <span class="alias-tag rare-tag">GRaid</span>
+                <span class="alias-tag rare-tag">G Raid</span>
+            </div>
+            <p>Guild Raid is a <span class="cross-link" onclick="searchFor('PvE')">PvE</span> type of Content, resolving around killing a Boss and gaining points for the Guild.</p>
         </li>
     </ul>
 </div>
@@ -1316,12 +1453,14 @@
     <h2 class="letter-heading">M</h2>
     <ul class="slang-list">
         <li class="slang-item" data-keywords="">
-            <h3>Mamonir</h3>
+            <h3>Magic Amplifier ET001</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
-                <span class="alias-tag">Mamo</span>
+                <span class="alias-tag">Bot</span>
+                <span class="alias-tag">Robot</span>
+                <span class="alias-tag">Summon</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Mamonir">Mamonir</a> is a playable Water Character.</p>
+            <p>Magic Amplifier ET001 is a Summon Character from <a href="https://browndust2.miraheze.org/wiki/Diana/Magical_Innovator">Magical Innovator</a> <a href="https://browndust2.miraheze.org/wiki/Diana">Diana</a>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Magical Attack</h3>
@@ -1368,6 +1507,14 @@
                 <span class="alias-tag">Maid Liatris</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Liatris/Maid_Name_R">Maid Name R</a> is one of <a href="https://browndust2.miraheze.org/wiki/Liatris">Liatris's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Mamonir</h3>
+            <div class="alias-container">
+                <span class="alias-tag character-tag ignore-exact">Character</span>
+                <span class="alias-tag">Mamo</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Mamonir">Mamonir</a> is a playable Water Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Manga Research Club Jayden</h3>
@@ -1440,6 +1587,8 @@
                 <span class="alias-tag character-tag ignore-exact">Character</span>
                 <span class="alias-tag">Morp</span>
                 <span class="alias-tag">Morph</span>
+                <span class="alias-tag">Morphea</span>
+                <span class="alias-tag">Morpheah</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Morpeah">Morpeah</a> is a playable Water Character.</p>
         </li>
@@ -1457,6 +1606,13 @@
 <div class="alpha-group"> <!-- N -->
     <h2 class="letter-heading">N</h2>
     <ul class="slang-list">
+        <li class="slang-item" data-keywords="">
+            <h3>Naked Character</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+            </div>
+            <p>Naked Character is a Character with no Gear, either unintentionally or on purpose.</p>
+        </li>
         <li class="slang-item" data-keywords="">
             <h3>Nature's Claw Rou</h3>
             <div class="alias-container">
@@ -1618,6 +1774,25 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Peerless_Javelin">Peerless Javelin</a> is a UR Craftable Weapon.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Persona of Slander</h3>
+            <div class="alias-container">
+                <span class="alias-tag character-tag ignore-exact">Character</span>
+                <span class="alias-tag">Persona</span>
+                <span class="alias-tag">Summon</span>
+                <span class="alias-tag rare-tag">Light Blue Persona</span>
+            </div>
+            <p>Persona of Slander is a Summon Character from <a href="https://browndust2.miraheze.org/wiki/Morpeah/Beach_Vacantion">Beach Vacantion</a> <a href="https://browndust2.miraheze.org/wiki/Morpeah">Morpeah</a>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Persona of Worship</h3>
+            <div class="alias-container">
+                <span class="alias-tag character-tag ignore-exact">Character</span>
+                <span class="alias-tag">Persona</span>
+                <span class="alias-tag">Summon</span>
+            </div>
+            <p>Persona of Worship is a Summon Character from <a href="https://browndust2.miraheze.org/wiki/Morpeah/Beach_Vacantion">Beach Vacantion</a> <a href="https://browndust2.miraheze.org/wiki/Morpeah">Morpeah</a>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Piercing Magic Bow Eleaneer</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -1741,6 +1916,25 @@
             <p><a href="https://botan14xd.github.io/BD2-Overview/character-progression/potential-liberation/">Potential Liberation</a> is a character progression feature offering stats increase as well as direct skill enhancement.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Powder of Hope</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">PoH</span>
+                <span class="alias-tag">Powder</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Powder_of_Hope">Powder of Hope</a> is a Resource which is mostly used for obtaining Costumes. Obtained from Draw System.</p>
+            <p>Powder <i>[Verb] — to buy a Costume from <span class="cross-link" onclick="searchFor('Powder of Hope Shop')">Powder of Hope Shop</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Powder of Hope Shop</h3>
+            <div class="alias-container">
+                <span class="alias-tag content-tag ignore-exact">Content</span>
+                <span class="alias-tag">PoH Shop</span>
+                <span class="alias-tag rare-tag">PShop</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Powder_of_Hope">Powder of Hope Shop</a> is a Shop that uses <span class="cross-link" onclick="searchFor('Powder of Hope')">Powder of Hope</span> as a currency.</p>
+        </li>   
+        <li class="slang-item" data-keywords="">
             <h3>Priestess</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
@@ -1793,6 +1987,11 @@
             <h3>Property Crystal</h3>
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">Water Crystal</span>
+                <span class="alias-tag">Fire Crystal</span>
+                <span class="alias-tag">Wind Crystal</span>
+                <span class="alias-tag">Light Crystal</span>
+                <span class="alias-tag">Dark Crystal</span>
             </div>
             <p>Property Crystal is a collective term for the various elemental crystals (Water, Fire, Wind, Light, and Darkness) used for <a href="https://botan14xd.github.io/BD2-Overview/character-progression/potential-liberation/">Potential Liberation</a> of a Costume.</p>
         </li>
@@ -2136,6 +2335,14 @@
                 <span class="alias-tag rare-tag">SMoP Granadair</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Granadair/Shrine_Maiden_of_Purification">Shrine Maiden of Purification</a> is one of <a href="https://browndust2.miraheze.org/wiki/Granadair">Granadair's</a> costumes. Used as Buffer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Stat Reduction</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">Shred</span>
+            </div>
+            <p>Stat (<span class="cross-link" onclick="searchFor('ATK')">ATK</span>, <span class="cross-link" onclick="searchFor('MATK')">MATK</span>, <span class="cross-link" onclick="searchFor('DEF')">DEF</span>, <span class="cross-link" onclick="searchFor('MRES')">MRES</span>) reduction, mostly by some Ability.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Skill Points</h3>
@@ -2624,6 +2831,7 @@
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
                 <span class="alias-tag">Vuln</span>
+                <span class="alias-tag">Amp</span>
             </div>
             <p>Vulnerability is a debuff that increases incoming damage.</p>
         </li>
@@ -2633,7 +2841,6 @@
 <div class="alpha-group"> <!-- W -->
     <h2 class="letter-heading">W</h2>
     <ul class="slang-list">
-        <li class="slang-item" data-keywords="">
         <li class="slang-item" data-keywords="">
             <h3>Warmth of the Brazier</h3>
             <div class="alias-container">
@@ -2645,6 +2852,7 @@
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Warmth_of_the_Brazier">Warmth of the Brazier</a> is a UR Craftable Accessory.</p>
         </li>
+        <li class="slang-item" data-keywords="">
             <h3>Water Park Queen Wilhelmina</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
