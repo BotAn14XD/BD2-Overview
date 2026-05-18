@@ -3111,8 +3111,8 @@
 </div>
 
 <script>
-let searchTimeout = null;
-let activeCategory = "";
+var searchTimeout = null;
+var activeCategory = "";
 
 function toggleCategory(category) {
     if (activeCategory === category) {
@@ -3133,6 +3133,25 @@ function toggleCategory(category) {
     filterSlang();
 }
 
+function applyUrlSearch() {
+    const searchBox = document.getElementById("slangSearch"); 
+    if (!searchBox) return; 
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchQuery = urlParams.get('term'); 
+
+    if (searchQuery) {
+        searchBox.value = searchQuery;
+        filterSlang(); 
+    }
+}
+
+if (typeof document$ !== "undefined") {
+    document$.subscribe(applyUrlSearch);
+} else {
+    document.addEventListener("DOMContentLoaded", applyUrlSearch);
+}
+
 function searchFor(term) {
     let searchInput = document.getElementById("slangSearch");
     searchInput.value = term;
@@ -3143,7 +3162,11 @@ function searchFor(term) {
     searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
+
 function filterSlang() {
+    let searchBox = document.getElementById("slangSearch");
+    if (!searchBox) return; 
+
     if (searchTimeout) {
         clearTimeout(searchTimeout);
     }
@@ -3154,7 +3177,7 @@ function filterSlang() {
             return str.replace(/-/g, ' ').toUpperCase().replace(/\s+/g, ' ').trim();
         };
 
-        let rawInput = document.getElementById("slangSearch").value;
+        let rawInput = searchBox.value; 
         let inputText = cleanText(rawInput);
         let categoryInput = cleanText(activeCategory); 
         

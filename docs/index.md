@@ -7,55 +7,69 @@ This site is a work in progress, focusing on high-quality explanation for every 
 ---
 
 <h2 style="text-align:center;"> Fundamentals </h2>
-<div class="grid cards" markdown>
+<div class="grid cards center-content" markdown>
 
--   ![Battle Icon](assets/images/icons/icon_battle.avif){.icon} __Battle System__
+-   __Commonly Asked Questions__
 
     ---
 
+    [View Page](./FAQ.md){: .md-button}
+</div>
+<div class="grid cards center-content" markdown>
+-   ![Battle Icon](assets/images/icons/icon_battle.avif){.icon-header} __Battle System__
 
-    [>> View Page <<](./game-mechanics/battle-system.md)
+    ---
+
+    [View Page](./game-mechanics/battle-system.md){: .md-button }
 
 -   __Damage Formula__
 
     ---
-    [>> View Page <<](./game-mechanics/damage-formula.md)
+
+    [View Page](./game-mechanics/damage-formula.md){: .md-button }
 </div>
 <h2 style="text-align:center;"> Character Progression </h2>
-<div class="grid cards" markdown>
--   ![Gear Icon](assets/images/icons/icon_decomposition.avif){.icon} __Gear System__
+<div class="grid cards center-content" markdown>
+-   ![Gear Icon](assets/images/icons/icon_decomposition.avif){.icon-header} __Gear System__
 
     ---
 
-    <!--Learn everything related to gear!-->
+    [View Page](./game-mechanics/gear-system.md){: .md-button }
 
-    [>> View Page <<](./game-mechanics/gear-system.md)
-
--   ![Liberation Icon](assets/images/potential-liberation/icon_potential3_3.png){.icon} __Potential Liberation__
+-   ![Liberation Icon](assets/images/potential-liberation/icon_potential3_3.png){.icon-header} __Potential Liberation__
 
     ---
-    [>> View Page <<](./character-progression/potential-liberation.md)
+    [View Page](./character-progression/potential-liberation.md){: .md-button }
 </div>
-<div class="grid cards" markdown>
--   ![Spark of Rampage](./assets/images/icons/icon_resource20045_383.avif){ .icon } __Burst System__
+<div class="grid cards center-content" markdown>
+-   ![Spark of Rampage](./assets/images/icons/icon_resource20045_383.avif){.icon-header} __Burst System__
 
     ---
-    [>> View Page <<](./character-progression/burst.md)
+    [View Page](./character-progression/burst.md){: .md-button }
 </div>
 <h2 style="text-align:center;"> Content Packs </h2>
-<div class="grid cards" markdown>
--   ![Evil Castle Icon](assets/images/icons/icon_devilcastle_monster.avif){.icon} __Evil Castle__
+<div class="grid cards center-content" markdown>
+-   ![Evil Castle Icon](assets/images/icons/icon_devilcastle_monster.avif){.icon-header} __Evil Castle__
 
     ---
 
-    [ >> View Page <<](./content-packs/evil-castle.md)
+    [View Page](./content-packs/evil-castle.md){: .md-button }
 
--   ![Mirror Wars Icon](assets/images/icons/icon_rank.avif){.icon} __Mirror Wars__
+-   ![Mirror Wars Icon](assets/images/icons/icon_rank.avif){.icon-header} __Mirror Wars__
 
     ---
 
-    [>> View Page <<](./content-packs/mirror-wars.md)
+    [View Page](./content-packs/mirror-wars.md){: .md-button }
  
+</div>
+<h2 style="text-align:center;"> Miscellaneous </h2>
+<div class="grid cards center-content" markdown>
+-   __Game Slang__
+
+    ---
+
+    [View Page](./miscellaneous/game-slang.md){: .md-button }
+
 </div>
 ---
 <h2 style="text-align:center;"> Resources & Community </h2>

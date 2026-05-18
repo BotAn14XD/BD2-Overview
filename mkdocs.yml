@@ -26,10 +26,10 @@ nav:
     - 'Game Mechanics':
         - 'Battle System': game-mechanics/battle-system.md
         - 'Damage Formula': game-mechanics/damage-formula.md
-        - 'Gear System': game-mechanics/gear-system.md
 
     - 'Characters Progression':
         - 'Burst System': character-progression/burst.md
+        - 'Gear System': game-mechanics/gear-system.md  
         - 'Potential Liberation': character-progression/potential-liberation.md
     - 'Content Packs':
         - 'Mirror Wars': content-packs/mirror-wars.md
@@ -41,6 +41,7 @@ nav:
         - 'Fantasia Square': content-packs/fantasia-square.md
     - 'Miscellaneous':
         - 'Game Slang': miscellaneous/game-slang.md
+    - 'Common Questions': FAQ.md
     - '---': '#'
     - 'Banner Recommendations': https://zormolo.github.io/BD2-Banner-Recommendation/
     - 'Our Discord Server': https://discord.gg/tays83ew3N
@@ -130,6 +131,7 @@ extra:
   CritDMG: '![Crit DMG](../assets/images/gear-system/icons/icon_stats_criticalhit_l.avif "Critical DMG"){ .icon }'
   CritRate: '![Crit Rate](../assets/images/gear-system/icons/icon_stats_critical_l.avif "Critical Rate"){ .icon }'
   Crown_of_Galaxy: '![Crown of Galaxy](../assets/images/gear-system/icons/icon_equipment4406_72.avif "Crown of Galaxy"){ .icon }'
+  Darkness: '![Darkness Property](../assets/images/battle-system/icons/elementicon5_5.avif "Darkness Property"){.icon}'
   Darkness_Magic_Crystal: '![Darkness Magic Crystal](../assets/images/icons/icon_resource115_19.png "Darkness Magic Crystal"){ .icon }'
   Dia: '![Dia](../assets/images/icons/icon_resource60001_84.png "Dia"){ .icon }'
   Deaths_Shroud: '![Death''s Shroud](../assets/images/gear-system/icons/icon_equipment4305_77.avif "Death''s Shroud"){ .icon }'
@@ -148,6 +150,7 @@ extra:
   Fiend_Guard: '![Fiend Guard](../assets/images/gear-system/icons/icon_equipment4304_76.avif "Fiend Guard"){ .icon }'
   Fine_Fabric: '![Fine Fabric](../assets/images/icons/icon_resource411_43.png "Fine Fabric"){ .icon }'
   Fine_Leather: '![Fine Leather](../assets/images/icons/icon_resource311_40.png "Fine Leather"){ .icon }'
+  Fire: '![Fire Property](../assets/images/battle-system/icons/elementicon2_2.avif "Fire Property"){.icon}'
   Fire_Magic_Crystal: '![Fire Magic Crystal](../assets/images/icons/icon_resource111_15.png "Fire Magic Crystal"){ .icon }'
   Gloves: '![Gloves](../assets/images/gear-system/icons/popupicon_equip5.avif "Gloves"){ .icon }'
   Glupy_Star: '![Glupy Star](../assets/images/icons/glupy_star.png "Glupy Star"){ .icon }'
@@ -167,6 +170,7 @@ extra:
   Iron_Ore: '![Iron Ore](../assets/images/icons/icon_resource201_27.png "Iron Ore"){ .icon }'
   Key_of_Salvation: '![Key of Salvation](../assets/images/icons/icon_resource60024_212.png "Key of Salvation"){ .icon }'
   Knockback: '![Knockback icon](../assets/images/battle-system/icons/icon_stats_knockback.avif "Knockback"){ .icon }'
+  Light: '![Light Property](../assets/images/battle-system/icons/elementicon4_4.avif "Light Property"){.icon}'
   Light_Magic_Crystal: '![Light Magic Crystal](../assets/images/icons/icon_resource114_18.png "Light Magic Crystal"){ .icon }'
   Lost_Silver: '![Lost Silver](../assets/images/icons/lost_silver.png "Lost Silver"){ .icon }'
   Magical: '![Magical Damage Type](../assets/images/icons/icon_stats_magical.png "Magical Damage Type"){ .icon }'
@@ -175,6 +179,7 @@ extra:
   Mercenary_Alliance_Deed: '![Mercenary Alliance Deed](../assets/images/icons/Mercenary_Alliance_Deed.avif "Mercenary Alliance Deed"){ .icon }'
   MRES: '![Magic RES](../assets/images/gear-system/icons/icon_stats_magicaldef_l.avif "Magic RES"){ .icon }'
   N_Grade: '![N Grade](../assets/images/gear-system/icons/N_Grade.avif "N Grade"){ .icon }'
+  Neutral: '![Neutral Property](../assets/images/battle-system/icons/elementicon6_6.avif "Neutral Property"){.icon}'
   Nickname_Ticket: '![Nickname Ticket](../assets/images/icons/icon_useitem1_1.png "Nickname Ticket"){ .icon }'
   Night_World_Obsidian: '![Night World Obsidian](../assets/images/icons/night_world_obsidian.png "Night World Obsidian"){ .icon }'
   Peat: '![Peat](../assets/images/icons/icon_resource204_30.png "Peat"){ .icon }'
@@ -213,8 +218,10 @@ extra:
   UR_Grade: '![UR Grade](../assets/images/gear-system/icons/UR_Grade.avif "UR Grade"){ .icon }'
   Venomous_Touch: '![Venomous Touch](../assets/images/gear-system/icons/icon_equipment4504_88.avif "Venomous Touch"){ .icon }'
   Warmth_of_the_Brazier: '![Warmth of the Brazier](../assets/images/gear-system/icons/icon_equipment4501_85.avif "Warmth of the Brazier"){ .icon }'
+  Water: '![Water Property](../assets/images/battle-system/icons/elementicon1_1.avif "Water Property"){.icon}'
   Water_Magic_Crystal: '![Water Magic Crystal](../assets/images/icons/icon_resource112_16.png "Water Magic Crystal"){ .icon }'
   Weapon: '![Weapon](../assets/images/gear-system/icons/popupicon_equip1.avif "Weapon"){ .icon }'
+  Wind: '![Wind Property](../assets/images/battle-system/icons/elementicon3_3.avif "Wind Property"){.icon}'
   Wind_Magic_Crystal: '![Wind Magic Crystal](../assets/images/icons/icon_resource113_17.png "Wind Magic Crystal"){ .icon }'
   Yellow_Slime: '![Yellow Slime](../assets/images/icons/icon_resource9001_59.png "Yellow Slime"){ .icon }'
   I: '$\text{I}$'
