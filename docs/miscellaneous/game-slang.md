@@ -1077,6 +1077,14 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Rafina/Game_Club">Game Club</a> is one of <a href="https://browndust2.miraheze.org/wiki/Rafina">Rafina's</a> costumes. Used as Amplifier.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Gear Calculator</h3>
+            <div class="alias-container">
+                <span class="alias-tag miscellaneous-tag ignore-exact">Miscellaneous</span>
+                <span class="alias-tag">GCalc</span>
+            </div>
+            <p>[Gear Calculator](https://browndust2-db.souseha.com/en/option-calculator) made by Souseha.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Gentle Maid Anastasia</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>

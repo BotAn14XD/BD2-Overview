@@ -177,10 +177,14 @@ html {
     color: #ffe8aa;
 }
 
+/* ADDITIONAL ADMONITIONS */
+
 :root {
   --md-admonition-icon--image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg width='800px' height='800px' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.02693 18.329C4.18385 19.277 5.0075 20 6 20H18C19.1046 20 20 19.1046 20 18V14.1901M4.02693 18.329C4.00922 18.222 4 18.1121 4 18V6C4 4.89543 4.89543 4 6 4H18C19.1046 4 20 4.89543 20 6V14.1901M4.02693 18.329L7.84762 14.5083C8.52765 13.9133 9.52219 13.8482 10.274 14.3494L10.7832 14.6888C11.5078 15.1719 12.4619 15.1305 13.142 14.5865L15.7901 12.4679C16.4651 11.9279 17.4053 11.8856 18.1228 12.3484C18.2023 12.3997 18.2731 12.4632 18.34 12.5302L20 14.1901M11 9C11 10.1046 10.1046 11 9 11C7.89543 11 7 10.1046 7 9C7 7.89543 7.89543 7 9 7C10.1046 7 11 7.89543 11 9Z' stroke='%23FFFFFF' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   --md-admonition-icon--q-battle: var(--md-admonition-icon--question);
   --md-admonition-icon--q-progression: var(--md-admonition-icon--question);
+  --md-admonition-icon--q-misc: var(--md-admonition-icon--question);
+  --md-admonition-icon--q-tc: var(--md-admonition-icon--question);
 }
 .md-typeset .admonition.image,
 .md-typeset details.image {
@@ -222,9 +226,39 @@ html {
 }
 .md-typeset .q-progression > .admonition-title::before,
 .md-typeset .q-progression > summary::before {
-  background-color: #9d65c9; /* Icon color */
+  background-color: #9d65c9;
   -webkit-mask-image: var(--md-admonition-icon--q-progression);
           mask-image: var(--md-admonition-icon--q-progression);
+}
+
+.md-typeset .admonition.q-misc,
+.md-typeset details.q-misc {
+  border-color: #4A5568;
+}
+.md-typeset .q-misc > .admonition-title,
+.md-typeset .q-misc > summary {
+  background-color: rgba(13, 148, 136, 0.1)
+}
+.md-typeset .q-misc > .admonition-title::before,
+.md-typeset .q-misc > summary::before {
+  background-color: #4A5568;
+  -webkit-mask-image: var(--md-admonition-icon--q-misc);
+          mask-image: var(--md-admonition-icon--q-misc);
+}
+
+.md-typeset .admonition.q-tc,
+.md-typeset details.q-tc {
+    border-color: #00b4d8;
+}
+.md-typeset .q-tc > .admonition-title,
+.md-typeset .q-tc > summary {
+    background-color: rgba(0, 180, 216, 0.1);
+}
+.md-typeset .q-tc > .admonition-title::before,
+.md-typeset .q-tc > summary::before {
+    background-color: #00b4d8;
+    -webkit-mask-image: var(--md-admonition-icon--q-tc);
+    mask-image: var(--md-admonition-icon--q-tc);
 }
 
 a:has(> .manual-sprite) {
@@ -335,6 +369,8 @@ li.md-nav__item:has(a[href$="#"]) {
 .md-nav__item:has(a[href$="#"]) {
     background: transparent !important;
 }
+
+/* SLANG PAGE STYLING*/
 
 .md-typeset ul.slang-list {
     list-style-type: none !important;
@@ -560,6 +596,8 @@ li.md-nav__item:has(a[href$="#"]) {
     color: #ffffff !important;
 }
 
+/* ? */
+
 .md-banner {
     background-color: #faa419bc !important;
     padding: 0 !important;
@@ -570,6 +608,8 @@ li.md-nav__item:has(a[href$="#"]) {
     margin: 0 auto !important;
     padding: 0 !important;
 }
+
+/* DISCORD POP-UP STYLING */
 
 .discord-announce-bar {
     display: flex;
@@ -615,7 +655,7 @@ li.md-nav__item:has(a[href$="#"]) {
     opacity: 1;
 }
 
-/* Index.md Cards Centering */
+/* INDEX.MD CARDS CENTERING */
 
 .md-typeset .grid.cards.center-content > ul > li {
     text-align: center;
@@ -630,7 +670,7 @@ li.md-nav__item:has(a[href$="#"]) {
     margin-right: 0;
 }
 
-/* Index.md Buttons Styling */
+/* INDEX.MD BUTTONS STYLING */
 
 .md-typeset .grid.cards .md-button {
     color: #e5b567;

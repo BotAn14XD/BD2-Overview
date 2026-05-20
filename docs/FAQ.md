@@ -126,19 +126,36 @@
     * Uses **different Buff Types** whenever it is possible (**Augmentation** / **Vulnerability**, {{ATK}} **ATK**{.yellow} Buff etc).
     * Is built around finishing the battle on Turn 1, or, at max, on Turn 3
     * Can activate all abilities on Turn 1, or, in other words, has enough [SP](miscellaneous/game-slang.md/?term=SP)
-    * Has **the best Gear you have at the moment**.
+    * Has **the best Gear you have at the moment**
+
+    !!! image "Example of newbie team"
+        ![Newbie Brown Dust 2 Team](assets/images/faq/newbie_team_Kit.avif)
 
 ??? q-battle "How to defeat [Specific Boss]?"
-    The easiest solution (in most cases) is a {{Physical}} **Physical**{.yellow} team with [Zenith](https://browndust2.miraheze.org/wiki/Zenith) and [Ventana](https://browndust2.miraheze.org/wiki/Ventana) as your main [DPS](miscellaneous/game-slang.md/?term=DPS), which you can [borrow](https://botan14xd.github.io/BD2-Overview/game-mechanics/battle-system/#__tabbed_2_1) from friends.
+    For Single Target Bosses, the easiest solution (in most cases) is a {{Physical}} **Physical**{.yellow} team with [Zenith](https://browndust2.miraheze.org/wiki/Zenith) and [Ventana](https://browndust2.miraheze.org/wiki/Ventana) as your main [DPS](miscellaneous/game-slang.md/?term=DPS), which you can [borrow](https://botan14xd.github.io/BD2-Overview/game-mechanics/battle-system/#__tabbed_2_1) from friends.
 
-    However, there are some bosses that can or have to be completed in a different fashion, with which you can get known below.<br>
-    Click on images to enlarge them.
+    ??? image "Example of Ventana Team"
+        ![Ventana Team for Bosses](assets/images/faq/solo_boss_kit.avif)
+
+    For Boss fights with minions ([AoE](miscellaneous/game-slang.md/?term=AoE) fights), you can use borrowed [Sacred Justia](https://browndust2.miraheze.org/wiki/Sacred Justia) or [Bunny Loen](miscellaneous/game-slang.md/?term=Bunny Loen) as your main DPS.
+
+    ??? image "Example of AoE Bosses Team"
+        ![Sacred Justia Team for Bosses](assets/images/faq/aoe_boss_kit.avif)
+
+    ---
+
+    **Exceptions**
+
+    ??? abstact "White Witch (Story Pack 13 — Song of Snow)"
+        ![White Witch Fight Guide](assets/images/faq/White_Witch.avif){ width="200" }
+
+    ---
+
+    **Alternative Clears**
 
     ??? abstact "Apostle Partan (Story Pack 11 — Fake Game)"
         ![Apostle Partan Fight Guide](assets/images/faq/partan.avif)
 
-    ??? abstact "White Witch (Story Pack 13 — Song of Snow)"
-        ![White Witch Fight Guide](assets/images/faq/White_Witch.avif){ width="200" }
 
 ??? q-battle "Why are there no mobs in the hunting ground?"
     This is the unintented feature / bug. It happends because you have an active **Main or NPC Quest**.
@@ -152,13 +169,49 @@
 ??? q-progression "Who do I level / upgrade first?"
     You need to be careful when using **upgrade** term, since it can be applied to a lot of Costumes' / Characters' aspects.
 
-    * When it comes down to **Level**, prefer using [Slimes](miscellaneous/game-slang.md/?term=Slimes) for your [DPS](miscellaneous/game-slang.md/?term=DPS).
-    * When it comes down to [**Potential Liberation**](character-progression/potential-liberation.md), focus on Supports first. Check the Potential Liberation Page for more information. 
-    * When it comes down to [**Gear**](game-mechanics/gear-system.md), prioritize DPS.
-    * When it comes down to **Engraving / Awakening**, it is used on DPS, but it is very expensive for a new player so hold onto resources.
-        * If you do this for Guide Pass Task, Awakening Nebris is one of the best choices. 
-    * When it comes down to [**Burst**](character-progression/burst.md), there is no definitive answer since the mechanic is new. However, the Author suggests focusing on Supports, similar to [Potential Liberation](character-progression/potential-liberation.md).
-    * When it comes down to **Costume copies**, generally Supports are preferred, however there may be exceptions. Refer to [Banner Recommendations](https://zormolo.github.io/BD2-Banner-Recommendation/) in case you are hesitating.
+    * When it comes down to **Level**, prefer using [Slimes](miscellaneous/game-slang.md/?term=Slimes) for your [DPS](miscellaneous/game-slang.md/?term=DPS)
+    * When it comes down to [**Potential Liberation**](character-progression/potential-liberation.md), focus on Supports first. Check the Potential Liberation Page for more information.
+    * When it comes down to [**Gear**](game-mechanics/gear-system.md), prioritize DPS
+    * When it comes down to **Engraving / Awakening**, it is used on DPS, but it is very expensive for a new player so hold onto resources
+        * If you do this for Guide Pass Task, Awakening [Nebris](https://browndust2.miraheze.org/wiki/Nebris) is one of the best choices
+    * When it comes down to [**Burst**](character-progression/burst.md), there is no definitive answer since the mechanic is new. However, the Author suggests focusing on Supports, similar to [Potential Liberation](character-progression/potential-liberation.md)
+    * When it comes down to **Costume copies**, generally Supports are preferred, however there may be exceptions. Refer to [Banner Recommendations](https://zormolo.github.io/BD2-Banner-Recommendation/) in case you are hesitating
+
+??? q-progression "What gear should I craft?"
+    Refer to the [Crafting Guide](game-mechanics/gear-system.md#crafting-guide).
+
+??? q-progression "Who to spend [Tears of Goddess](miscellaneous/game-slang.md/?term=Tear of Goddess) and [Crystals](miscellaneous/game-slang.md/?term=Property Crystal) on?"
+    Refer to the [Cymmina's Guide](http://cymmina.gamependium.com/browndust2/growth.html#potentials). 
+
+    Additionally, you can learn more about Potential Liberation from [this page](character-progression/potential-liberation.md).
+
+??? q-progression "Who to spend Sparkles of Rampage on?"
+    Since this is relatively new feature, there is no one united opinion on this topic. 
+    
+    You can refer to [Priority Guide](character-progression/burst.md#priority-guide) from the Author of the site, but **definitely** read **General Advice** and **Disclaimer** before you do that.
+
+??? q-progression "Should I Engrave / Awaken someone? Who to Engrave / Awaken?"
+    As was stated in "Who do I level / upgrade first?" question, engraving **is not worth for new players**. It is expensive proccedure that does not give much benefit. 
+
+    Nonetheless, if you decided to Engrave / Awaken someone, it should be the [DPS](miscellaneous/game-slang.md/?term=DPS) you use the most, such as [Nebris](https://browndust2.miraheze.org/wiki/Nebris).
+
+## Miscellaneous
+
+??? q-misc "Where to find a Goddess Statue?"
+    Goddess Statue is located in **Fantasia Square** Content Pack. 
+
+    To make a wish, go into the pack, find the Statue and interact with it.
+
+    ??? image "Image Guide"
+        ![Goddess State Guide](assets/images/faq/fwish_temp.avif)
+        
+## Technical & Community
+
+??? q-tc "How can I play the game from PC?"
+    **Windows: You can download Official Launcher by downloading the .exe file from the [Official Discord Server](https://discord.gg/browndust2) (#🖥️pc-download channel)**.
+
+    **Linux: Follow the guide in the same channel.**
+
 <style>
 .md-typeset a[target="_blank"]::after,
 .md-typeset a[href^="http://"]::after,

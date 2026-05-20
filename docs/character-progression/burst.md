@@ -137,20 +137,31 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
 
 === "Highest Priority"
     * **B-Rank Idol Helena** **Bursts 1-3**{.yellow}
-    * **Homunculus Lathel** **Bursts 1-3**{.yellow}
+    * **Homunculus Lathel** **Burst 3**{.yellow}
 
 === "High Priority"
+    * **Homunculus Lathel** **Bursts 1-2**{.yellow}
+    * **Adventurer of the Unknown Diana** **Bursts 1-3**{.yellow}
+    * **Onsen Manager Liberta** **Bursts 1-3**{.yellow}
+    * **Miracle Marine Mamonir** **Burst 3**{.yellow}
 
 === "Medium Priority"
     * **New Hire Nebris** **Bursts 2-3**{.yellow}
-    * **Magical Violet Palette** **Bursts 2-3**{.yellow}
     * **Thorn of the Desert Rubia** **Burst 3**{.yellow}
+    * **Miracle Marine Mamonir** **Burst 1-2**{.yellow}
+    * **Bikini Sylvia** **Bursts 1-3**
 
 === "Low Priority"
     * **Wild Dog Luvencia** **Bursts 1-3**{.yellow}
     * **New Hire Nebris** **Burst 1**{.yellow}
-    * **Magical Violet Palette** **Burst 1**{.yellow}
+    * **Magical Violet Palette** **Bursts 2-3**{.yellow}
     * **Thorn of the Desert Rubia** **Burst 1-2**{.yellow}
     * **Reclaimed Destiny Sacred Justia** **Bursts 1-3**{.yellow}
     * **DJ Venaka** **Bursts 1-3**{.yellow}
+    * **Frozen Queen Wilhelmina** **Bursts 1-3**{.yellow}
 
+=== "Complete Skip"
+    * **Blood Glutton Justia** **Bursts 1-3**{.yellow}
+    * **The Lapis Witch Scheherazade** **Bursts 1-3**{.yellow}
+    * **Magical Violet Palette** **Burst 1**{.yellow}
+</div>  
