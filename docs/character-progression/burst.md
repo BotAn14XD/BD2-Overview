@@ -140,15 +140,15 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Homunculus Lathel** **Burst 3**{.yellow}
 
 === "High Priority"
-    * **Homunculus Lathel** **Bursts 1-2**{.yellow}
     * **Adventurer of the Unknown Diana** **Bursts 1-3**{.yellow}
+    * **Homunculus Lathel** **Bursts 1-2**{.yellow}
     * **Onsen Manager Liberta** **Bursts 1-3**{.yellow}
     * **Miracle Marine Mamonir** **Burst 3**{.yellow}
 
 === "Medium Priority"
     * **New Hire Nebris** **Bursts 2-3**{.yellow}
-    * **Thorn of the Desert Rubia** **Burst 3**{.yellow}
     * **Miracle Marine Mamonir** **Burst 1-2**{.yellow}
+    * **Thorn of the Desert Rubia** **Burst 3**{.yellow}
     * **Bikini Sylvia** **Bursts 1-3**
 
 === "Low Priority"

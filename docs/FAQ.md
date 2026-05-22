@@ -1,5 +1,5 @@
 ## Gacha, Summons & Economy
-??? question "Is there a Tier List?"
+??? question "Is there a Tier List? <span id='tierlist'></span>" 
     This game is roster-based, not team-based, thus <u>**there is no reliable Tier List**</u> since you tend to use different characters depending on the situation. Anything you see online can have some degree of the truth but it still wouldn't capture the whole complexity of the game.
 
     The only thing that stays correct all the time:<br><u>**Supports are the highest priority**</u> since you use them constantly, unlike [DPS](miscellaneous/game-slang.md/?term=DPS).
@@ -9,12 +9,12 @@
 
     Whenever you obtain first costume of the Character, **they are unlocked automatically**. You **do not** need to pull for Characters.
 
-??? question "Who should I pull for?"
+??? question "Who should I pull for? <span id='br'></span>"
     <u>**Refer to [Banner Recommendations](https://zormolo.github.io/BD2-Banner-Recommendation/).**</u>
 
     Alternatively, as a new player, you can spend *some* amount of pulls into **12-Pick Selective Banner**, prioritizing Supports. 
 
-??? question "Who do I get from the Newbie Infinite Draw?"
+??? question "Who do I get from the Newbie Infinite Draw? <span id='inf'></span>"
     ![The Curse Celia](./assets/images/faq/celia_illust.avif){ width="128" align=right }
     The best Costume to get from there is [The Curse Celia](https://browndust2.miraheze.org/wiki/Celia/The_Curse).
 
@@ -29,7 +29,47 @@
 
     As a new player, <u>**12-Pick is objectively better**</u>.
 
-??? question "Who to pick from Recommended ★5 Costume Selective Ticket?"
+??? question "Who should I put in 12-Pick? <span id='12pick'></span>"
+    Generally speaking, Supports. These include not just [Buffers](miscellaneous/game-slang.md/?term=Buffer), but [Chainers](miscellaneous/game-slang.md/?term=Chainer) and [Amplifiers](miscellaneous/game-slang.md/?term=Amplifier).
+
+    ---
+
+    If you're completely new, you can set the following Costumes:
+
+    * **Queen of Gluttis Granadair ({{Water}} Water)** (until +5)
+    * **Shrine Maiden of Purification Granadair ({{Water}} Water)** (until +5)
+    * **Water Park Queen Wilhelmina ({{Water}} Water)** (until +4)
+    * **Homunculus Lathel ({{Fire}} Fire)** (until +5)
+    * **Dark Saintess Liberta ({{Fire}} Fire)** (until +5)
+    * **Onsen Manager Liberta ({{Fire}} Fire)** (until +5)
+    * **Adventurer of the Unknown Diana ({{Wind}} Wind)** (until +5)
+    * **Magical Innovator Diana ({{Wind}} Wind)** (until +0)
+    * **Robin Hood Zenith ({{Wind}} Wind)** (until +3 or +5)
+    * **B-Rank Idol Helena ({{Light}} Light)** (until +5)
+    * **Pure White Blessing Refithea ({{Light}} Light)** (until +1 or +5)
+    * **Poolside Fairy Refithea ({{Light}} Light)** (until +3 or +5)
+
+    ---
+
+    **Keep in mind that for Dark Saintess Liberta and Adventurer of the Unknown Diana there is a Pub Recruitment, thus if you haven't recruited them yet, remove at +4 instead.**
+
+    !!! image "Visual Costume Display"
+        ![12-Pick Recommendations](assets/images/faq/12-pick.avif)
+
+    ---
+
+    If you need a replacement to the some costumes list above due to completion, pick the following:
+    
+    * **Poolside Guardian Zenith ({{Wind}} Wind)** (until +5)
+    * **Iron Monarch Wilhelmina ({{Water}} Water)** (until +4)
+    * **Shadowed Dream Sonya ({{Darkness}} Darkness)** (until +4 or +5)
+    * **Yound Lady Blade ({{Darkness}} Darkness)** (until +5)
+    * **Red Riding Hood Rou ({{Darkness}} Darkness)** (until +5)
+    * **Shadowed Bunny Eleaneer ({{Darkness}} Darkness)** (until +4)
+
+    By the time you need more replacements, better to ask personal advice in the [Discord Server](https://discord.gg/browndust2).
+
+??? question "Who to pick from Recommended ★5 Costume Selective Ticket? <span id='str'></span>"
     Generally, it depends on who you have from those tickets beforehand.
 
     Assuming you have noone, you should pick
@@ -58,7 +98,7 @@
     Later on, you can do the math to see what gives more useful Costumes on average.<br>
     Even later on, you can do the math to see what gives less [Threads](miscellaneous/game-slang.md/?term=Golden Thread) on average due to owning a lot of +5 Costumes.
 
-??? question "How to get more Tickets and Diamonds?"
+??? question "How to get more Tickets and Diamonds? <span id='tix'></span>"
     * Using Coupon Codes
     * Completing [Evil Castle](content-packs/evil-castle.md)
     * Completing Character Packs
@@ -72,7 +112,7 @@
     
     And, honestly, just playing the game. 
 
-??? question "Who to recruit from the pub?"
+??? question "Who to recruit from the pub? <span id='pub'></span>"
     **Highest priority is taken by Supports:**
 
     * **[Adventurer of the Unknown Diana](https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown) — Story Pack 10 (Homunculus)**
@@ -115,7 +155,7 @@
     
     Increased damage can be influenced by Property Buffs. 
     
-??? q-battle "How to build a good team?"
+??? q-battle "How to build a good team? <span id='teambuild'></span>"
     A good *(general content)* team:
 
     * Uses only one type of damage, {{Physical}} **Physical**{.yellow} or {{Magical}} **Magical**{.magenta} (unless you **absolutely** know what you are doing and can explain every single moment regarding your decision)
@@ -131,7 +171,7 @@
     !!! image "Example of newbie team"
         ![Newbie Brown Dust 2 Team](assets/images/faq/newbie_team_Kit.avif)
 
-??? q-battle "How to defeat [Specific Boss]?"
+??? q-battle "How to defeat [Specific Boss]? <span id='boss'></span>"
     For Single Target Bosses, the easiest solution (in most cases) is a {{Physical}} **Physical**{.yellow} team with [Zenith](https://browndust2.miraheze.org/wiki/Zenith) and [Ventana](https://browndust2.miraheze.org/wiki/Ventana) as your main [DPS](miscellaneous/game-slang.md/?term=DPS), which you can [borrow](https://botan14xd.github.io/BD2-Overview/game-mechanics/battle-system/#__tabbed_2_1) from friends.
 
     ??? image "Example of Ventana Team"
@@ -166,7 +206,7 @@
 
 ## Upgrades & Progression
 
-??? q-progression "Who do I level / upgrade first?"
+??? q-progression "Who do I level / upgrade first? <span id='upgrade'></span>"
     You need to be careful when using **upgrade** term, since it can be applied to a lot of Costumes' / Characters' aspects.
 
     * When it comes down to **Level**, prefer using [Slimes](miscellaneous/game-slang.md/?term=Slimes) for your [DPS](miscellaneous/game-slang.md/?term=DPS)
@@ -177,10 +217,10 @@
     * When it comes down to [**Burst**](character-progression/burst.md), there is no definitive answer since the mechanic is new. However, the Author suggests focusing on Supports, similar to [Potential Liberation](character-progression/potential-liberation.md)
     * When it comes down to **Costume copies**, generally Supports are preferred, however there may be exceptions. Refer to [Banner Recommendations](https://zormolo.github.io/BD2-Banner-Recommendation/) in case you are hesitating
 
-??? q-progression "What gear should I craft?"
+??? q-progression "What gear should I craft? <span id='gcraft'></span>"
     Refer to the [Crafting Guide](game-mechanics/gear-system.md#crafting-guide).
 
-??? q-progression "Who to spend [Tears of Goddess](miscellaneous/game-slang.md/?term=Tear of Goddess) and [Crystals](miscellaneous/game-slang.md/?term=Property Crystal) on?"
+??? q-progression "Who to spend [Tears of Goddess](miscellaneous/game-slang.md/?term=Tear of Goddess) and [Crystals](miscellaneous/game-slang.md/?term=Property Crystal) on? <span id='pots'></span>"
     Refer to the [Cymmina's Guide](http://cymmina.gamependium.com/browndust2/growth.html#potentials). 
 
     Additionally, you can learn more about Potential Liberation from [this page](character-progression/potential-liberation.md).
@@ -197,20 +237,49 @@
 
 ## Miscellaneous
 
-??? q-misc "Where to find a Goddess Statue?"
+??? q-misc "Where to find a Goddess Statue? <span id='fwish'></span>"
     Goddess Statue is located in **Fantasia Square** Content Pack. 
 
     To make a wish, go into the pack, find the Statue and interact with it.
 
     ??? image "Image Guide"
         ![Goddess State Guide](assets/images/faq/fwish_temp.avif)
-        
+
 ## Technical & Community
 
-??? q-tc "How can I play the game from PC?"
+??? q-tc "How can I play the game from PC? <span id='pc'></span>"
     **Windows: You can download Official Launcher by downloading the .exe file from the [Official Discord Server](https://discord.gg/browndust2) (#🖥️pc-download channel)**.
 
     **Linux: Follow the guide in the same channel.**
+
+??? q-tc "My characters appear to be black(ened). How do I fix it? <span id='censor'></span>"
+    This happends because **Silhouette Mode** is enabled. It uses silouettes instead of sprites and disables animations. 
+
+    To remove it, head to **Settings &rarr; Graphics &rarr; Silhouette Mode &rarr; Disable.**
+    ??? image "Image Guide"
+        ![Silhouette Mode Removal Brown Dust 2](assets/images/faq/censor.avif)
+
+??? q-tc "Is there censorship in this game? <span id='censorship'></span>"
+    * The only active form of censorship is for German citizens. There, *few* game sprites have altered appearance, as well as some **Ability cutscenes**, **Medical Club Teresse Fated Guest** and **Slap Pop Pop! Minigame** were removed. 
+    * Game is not legally accessible in **Vientam** and **Netherlands**, but there are workarounds to download the game from there.
+    
+??? q-tc "How to display my own collection when asking for a team build? <span id='box'></span>"
+    * When asking for a **team**, use Last Night to show the Costumes to have. To do that, 
+        1. Go to the Last Night Pack and walk towards the battle area
+        2. Tap Replace &rarr; Replace &rarr; Reset &rarr; Confirm.
+        3. Click the second icon in top right corner and sort "By Deployed First ↓" and screenshot your costumes.
+    ??? image "Image Guide"
+        ![Guide for displaying a Costume collection](assets/images/faq/box_costumes.avif)
+
+    * When asking for a **Awakening** / [**Potential Liberation**](character-progression/potential-liberation.md) / [**Burst**](character-progression/burst.md) help, use Compainion tab with **View Costume** button enabled.
+
+    ??? image "Image Guide"
+        ![Guide for displaying a Costume collection ver.2](assets/images/faq/box_pots.avif)
+
+    * When asking for a help with **Gear**, use **second menu** inside of **Compainion tab**. It captures the gear for your main team (which is usually the best) and some extra gear on the right side. Later on, you can show from the bag, by using [Custom Marks](game-mechanics/gear-system.md#custom-marks) and filtering to display them first.
+
+    ??? image "Image Guide"
+        ![Guide for displaying a Gear collection](assets/images/faq/box_gear.avif)
 
 <style>
 .md-typeset a[target="_blank"]::after,

@@ -138,7 +138,7 @@
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Glacia/Alice">Alice</a> is one of <a href="https://browndust2.miraheze.org/wiki/Glacia">Glacia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Tank costume.</p>
         </li>
-        <li class="slang-item" data-keywords="">
+        <li class="slang-item" data-keywords="crytals">
             <h3>Ancient Crystal</h3>
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
@@ -233,6 +233,15 @@
                 <span class="alias-tag rare-tag">AP Olivier</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Olivier/Apostle">Apostle</a> is one of <a href="https://browndust2.miraheze.org/wiki/Olivier">Olivier's</a> costumes. Used as Self-Buffer and <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Costume.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Area of Effect</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+                <span class="alias-tag">AoE</span>
+            </div>
+            <p>Area of Effect are the tiles on the Field that are affected by skill.</p>
+            <p>Alternatively, this term can specifically refer to large tile count from skill.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Attack</h3>
@@ -512,6 +521,13 @@
             <p>Character Packs are a specific pack type, set in an alternative universe separate from the main story.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Chainer</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+            </div>
+            <p>Chainer is a Character / Costume that has high <span class="cross-link" onclick="searchFor('Chain')">Chain</span> or Hit count (for example, [Wilhelmina](https://browndust2.miraheze.org/wiki/Wilhelmina)).</p>
+        </li>
+        <li class="slang-item" data-keywords="chains">
             <h3>Chains</h3>
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
@@ -612,6 +628,14 @@
             <p><a href="https://browndust2.miraheze.org/wiki/Cooked_Rice">Cooked Rice</a> is a Consumable Resource used to obtain Crafting Material, Gold or Slimes.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Costume Collectiom</h3>
+            <div class="alias-container">
+                <span class="alias-tag miscellaneous-tag ignore-exact">Miscellaneous</span>
+                <span class="alias-tag">Box</span>
+            </div>
+            <p>Costume Collection is a display of Costumes you have on your account. Generally is done via Last Night.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Costume Selective Enhancement</h3>
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
@@ -664,6 +688,15 @@
 <div class="alpha-group"> <!-- D -->
     <h2 class="letter-heading">D</h2>
     <ul class="slang-list">
+        <li class="slang-item" data-keywords="">
+            <h3>Daily Missions</h3>
+            <div class="alias-container">
+                <span class="alias-tag content-tag ignore-exact">Content</span>
+                <span class="alias-tag">Dailies</span>
+                <span class="alias-tag rare-tag"></span>
+            </div>
+            <p>Daily Missions are tasks for various activities that are refreshed each day.</p>
+        </li>
         <li class="slang-item" data-keywords="">
             <h3>Damage Dealer</h3>
             <div class="alias-container">
@@ -2107,7 +2140,7 @@
             </div>
             <p>Property is one of the character's traits that increases damage dealt versus weaker Property and reduces damage dealt versus a stronger one.</p>
         </li>
-        <li class="slang-item" data-keywords="">
+        <li class="slang-item" data-keywords="crytals">
             <h3>Property Crystal</h3>
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
@@ -2145,6 +2178,13 @@
                 <span class="alias-tag rare-tag">PD Darian</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Darian/Prophetic_Dream">Prophetic Dream</a> is one of <a href="https://browndust2.miraheze.org/wiki/Darian">Darian's</a> costumes. Used as <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Pulls</h3>
+            <div class="alias-container">
+                <span class="alias-tag resource-tag ignore-exact">Resource</span>
+            </div>
+            <p>Pulls is a collective term for [Draw Tickets](https://browndust2.miraheze.org/wiki/Draw_Ticket) and [Dia](https://browndust2.miraheze.org/wiki/Dia), used to obtain Costumes from Draw System.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Pure White Blessing Refithea</h3>
@@ -2245,7 +2285,7 @@
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Rou/Red_Riding_Hood">Red Riding Hood</a> is one of <a href="https://browndust2.miraheze.org/wiki/Rou">Rou's</a> costumes. Used as Buffer.</p>
         </li>
-        <li class="slang-item" data-keywords="">
+        <li class="slang-item" data-keywords="crytals">
             <h3>Refining Crystal</h3>
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>

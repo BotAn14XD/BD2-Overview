@@ -4,6 +4,7 @@ def define_env(env):
     def time(t):
         return f'<span class="local-time" data-utc="{t}">{t} UTC</span>'
 
+
     images = {
         "S1_Ability_S_Book": ["assets/images/icons/icon_resource901_49.png", "★1 Ability S. Book"],
         "S1_Rank_up_Star": ["assets/images/icons/icon_resource7780_58.png", "★1 Rank-up Star"],
