@@ -64,7 +64,9 @@
     * **Iron Monarch Wilhelmina ({{Water}} Water)** (until +4)
     * **Shadowed Dream Sonya ({{Darkness}} Darkness)** (until +4 or +5)
     * **Yound Lady Blade ({{Darkness}} Darkness)** (until +5)
+    * **Medical Club Teresse ({{Water}} Water)** (until +5)
     * **Red Riding Hood Rou ({{Darkness}} Darkness)** (until +5)
+    * **New Hire Seir ({{Darkness}} Darkness)** (until +5)
     * **Shadowed Bunny Eleaneer ({{Darkness}} Darkness)** (until +4)
 
     By the time you need more replacements, better to ask personal advice in the [Discord Server](https://discord.gg/browndust2).
