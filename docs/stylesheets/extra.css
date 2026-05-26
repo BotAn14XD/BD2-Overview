@@ -655,33 +655,156 @@ li.md-nav__item:has(a[href$="#"]) {
     opacity: 1;
 }
 
-/* INDEX.MD CARDS CENTERING */
+/* INDEX.MD CARDS SCAFFOLDING */
 
 .md-typeset .grid.cards.center-content > ul > li {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
+    padding: 16px !important; 
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    height: 130px !important; 
 }
+
+/* THE IMAGE CONTAINER */
+.md-typeset .grid.cards.center-content > ul > li > p:first-of-type {
+    margin: 0 !important;
+    padding: 0 !important;
+    flex: 0 0 70% !important;
+    height: 70% !important;
+    overflow: hidden !important;
+    
+    margin-top: -16px !important;
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+    width: calc(100% + 32px) !important;
+}
+
+.card-header-img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: 50% 50% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* THE DIVIDER LINE */
 
 .md-typeset .grid.cards.center-content > ul > li > hr {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    border: none !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+    width: calc(100% + 32px) !important;
+    
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    height: 0 !important;
+    position: relative !important;
+    z-index: 5 !important;
 }
 
-/* INDEX.MD BUTTONS STYLING */
+/* THE BUTTON CONTAINER */
 
+.md-typeset .grid.cards.center-content > ul > li > p:nth-of-type(2) {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    flex: 1 1 30% !important;
+    height: 30% !important;
+    
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+    margin-bottom: -16px !important;
+    display: flex !important;
+}
+
+/* THE NATIVE BUTTON ELEMENT */
 .md-typeset .grid.cards .md-button {
+    width: 100% !important;
+    height: 100% !important; 
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important; 
+    border: none !important;
+    
+    /* 5. Parallel corner rounding track */
+    border-radius: 0 0 6px 6px !important; 
+    
     color: #e5b567;
-    border-color: transparent;
     background-color: rgba(229, 181, 103, 0.1);
     transition: all 0.2s ease-in-out;
 }
+
 
 .md-typeset .grid.cards .md-button:hover,
 .md-typeset .grid.cards .md-button:focus {
     color: #ffffff;
     background-color: #e5b567;
-    border-color: #e5b567;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 4px 12px rgba(255, 255, 255, 0.15);
+}
+
+.md-typeset .grid.cards .md-button::after {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+    margin-left: 6px;
+}
+
+
+/* INDEX.MD BANNERS STYLING */
+
+.banner-container {
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.responsive-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.custom-nav-card {
+    border: 1px solid #2a2d32;
+    border-radius: 8px;
+    overflow: hidden; 
+    background: #1e2124;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image-wrapper {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #2a2d32;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.card-header-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center;
+}
+
+.card-content {
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
 }
