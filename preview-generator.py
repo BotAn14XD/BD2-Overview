@@ -8,14 +8,11 @@ output_base = "site/miscellaneous/game-slang"
 
 if os.path.exists(output_base):
     print(f"Clearing old generated subfolders from '{output_base}'...")
-    # Loop through everything inside game-slang
     for item in os.listdir(output_base):
         item_path = os.path.join(output_base, item)
-        # ONLY delete subdirectories (leave index.html completely alone!)
         if os.path.isdir(item_path):
             shutil.rmtree(item_path)
 else:
-    # If the base folder doesn't exist at all, create it
     os.makedirs(output_base, exist_ok=True)
 
 if not os.path.exists(html_path):
