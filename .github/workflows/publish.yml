@@ -24,11 +24,32 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install dependencies
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Deploy
-        run: mkdocs gh-deploy --force
+      - name: Build Static Site Layout
+        run: mkdocs build
+
+      - name: Install Puppeteer Engine
+        run: npm install puppeteer
+
+      - name: Auto-Capture Term Card Screenshots
+        run: node take_screenshots.js
+
+      - name: Build Redirect Channels
+        run: python generate_previews.py
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          force_orphan: true
 
       - name: Notify Discord
         if: github.actor != 'github-actions[bot]' && success()

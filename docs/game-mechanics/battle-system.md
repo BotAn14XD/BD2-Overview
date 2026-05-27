@@ -213,8 +213,19 @@ In the battle, you can obtain a lot of information about your units and enemies.
     * ![Death Time Icon](../assets/images/battle-system/icons/bufficon_72.avif){ .icon } **Death Time Effect**
     * ![Evil Castle Environmental Effects](../assets/images/battle-system/icons/bufficon_81.avif){ .icon } **[Evil Castle](../content-packs/evil-castle.md) Environmental effects**
 
+=== "![Burst Icon](../assets/images/battle-system/icons/spark_temp.avif){ .icon-list }"
+    ### **Auto Burst** { #__tabbed_1_2 }
+    This features automatically enables the [Burst](../character-progression/burst.md) for your Costumes.
+
+    !!! example ""
+        * It prioritizes **Costume** activation over **Burst**, meaning if there is lack of SP, Burst will not be activated. 
+        * If few Costumes have Burst, it will prioritise activation of the **first in the order**. Meaning, supports have higher priority in Burst activation over [DPS](miscellaneous/game-slang.md/?term=DPS).
+
+    To reselect Burst choice, simply click on the character and use arrows to remove the Burst. 
+
+
 === "![Auto Skill Icon](../assets/images/battle-system/icons/icon_autoskill.avif){ .icon-list }"
-    ### **Auto Skill** { #__tabbed_1_2 }
+    ### **Auto Skill** { #__tabbed_1_3 }
     This features automatically picks the costume to activate in the following turn.
 
     !!! example ""
@@ -228,12 +239,12 @@ In the battle, you can obtain a lot of information about your units and enemies.
     Overall this feature is considered to be a time-saver, since setting up skills yourself is way bigger hustle. Aside of that, it is flexible feature which doesn't lock your selected skill order, so you should have no issues.
 
 === "![Auto Battle Icon](../assets/images/battle-system/icons/icon_autobattle.avif){ .icon-list }"
-    ### **Auto Battle Feature** { #__tabbed_1_3 }
+    ### **Auto Battle Feature** { #__tabbed_1_4 }
     This feature allows you to complete battles automatically. 
 
     !!! example ""
         * **It locks your input from the battle completely, so in case you want to change anything, you must disable auto-battle first.**
-        * It uses initial positioning and Auto Skill Feature.
+        * It uses initial positioning, Auto Skill and Auto Burst Feature.
         * It has a small countdown before launching the battle. 
     It is **NOT** recommended to use Auto Battle, because 
 
@@ -242,19 +253,19 @@ In the battle, you can obtain a lot of information about your units and enemies.
     * <u>**Auto Battle does not teach you how to be a good playere.**</u>
 
 === "![Game Speed Icon](../assets/images/battle-system/icons/icon_speed.avif){ .icon-list }"
-    ### **Game Speed Feature** { #__tabbed_1_4 }
+    ### **Game Speed Feature** { #__tabbed_1_5 }
     With that button, you can change the speed your battles are going at.<br>**Minimum is x1, maximum is x3**.
     
     To switch, simply press the button few times.
 
 === "![Autofeed Icon](../assets/images/battle-system/icons/icon_autofood.avif){ .icon-list }"
-    ### **Autofeed Feature** { #__tabbed_1_5 }
+    ### **Autofeed Feature** { #__tabbed_1_6 }
     This feature allows to heal minor damage by consuming cooked (and raw) food
 
     While it sounds good on paper and no longer requires people go to the Inn, it is simply not worth the result. 
 
 === "![Pause Icon](../assets/images/battle-system/icons/icon_pause.avif){ .icon-list }"
-    ### **Pause Feature** { #__tabbed_1_6 }
+    ### **Pause Feature** { #__tabbed_1_7 }
     Quite self-explanatory feature allowing to make a pause during your battle.
 
     Here, you can:
