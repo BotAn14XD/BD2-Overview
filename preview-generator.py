@@ -56,15 +56,15 @@ for block in slang_blocks:
 <head>
     <meta charset="utf-8">
     <title>{raw_term} - Tactical Compendium</title>
-    <meta property="og:title" content="{raw_term} - Glossary Definition">
+    <meta property="og:title" content="{raw_term} - Brown Dust II Glossary Definition">
     <meta property="og:description" content="{definition}">
     <meta property="og:image" content="https://botan14xd.github.io/BD2-Overview/{img_path}">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta http-equiv="refresh" content="0; url=../../miscellaneous/game-slang?term={term_slug}">
-</head>
-<body>
-    <p>Redirecting to Tactical Compendium... If not automated, <a href="../../miscellaneous/game-slang?term={term_slug}">click here</a>.</p>
+    <meta http-equiv="refresh" content="0; url=/BD2-Overview/miscellaneous/game-slang?term={term_slug}">
+    </head>
+    <body>
+    <p>Redirecting to Tactical Compendium... If not automated, <a href="/BD2-Overview/miscellaneous/game-slang?term={term_slug}">click here</a>.</p>
 </body>
 </html>"""
 
