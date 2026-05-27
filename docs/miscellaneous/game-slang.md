@@ -525,7 +525,7 @@
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
             </div>
-            <p>Chainer is a Character / Costume that has high <span class="cross-link" onclick="searchFor('Chain')">Chain</span> or Hit count (for example, [Wilhelmina](https://browndust2.miraheze.org/wiki/Wilhelmina)).</p>
+            <p>Chainer is a Character / Costume that has high <span class="cross-link" onclick="searchFor('Chain')">Chain</span> or Hit count. (For an example, <a href="https://browndust2.miraheze.org/wiki/Wilhelmina">Wilhelmina</a>).</p>
         </li>
         <li class="slang-item" data-keywords="chains">
             <h3>Chains</h3>
