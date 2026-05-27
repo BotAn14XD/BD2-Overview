@@ -219,7 +219,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
 
     !!! example ""
         * It prioritizes **Costume** activation over **Burst**, meaning if there is lack of SP, Burst will not be activated. 
-        * If few Costumes have Burst, it will prioritise activation of the **first in the order**. Meaning, supports have higher priority in Burst activation over [DPS](miscellaneous/game-slang.md/?term=DPS).
+        * If few Costumes have Burst, it will prioritise activation of the **first in the order**. Meaning, supports have higher priority in Burst activation over [DPS](../miscellaneous/game-slang.md/?term=DPS).
 
     To reselect Burst choice, simply click on the character and use arrows to remove the Burst. 
 

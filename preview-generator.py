@@ -4,13 +4,19 @@ import html
 import shutil
 
 html_path = "site/miscellaneous/game-slang/index.html"
-output_base = "site/share"
+output_base = "site/miscellaneous/game-slang"
 
 if os.path.exists(output_base):
-    print(f"🧹 Clearing old data tracks from '{output_base}'...")
-    shutil.rmtree(output_base)
-    
-os.makedirs(output_base, exist_ok=True)
+    print(f"Clearing old generated subfolders from '{output_base}'...")
+    # Loop through everything inside game-slang
+    for item in os.listdir(output_base):
+        item_path = os.path.join(output_base, item)
+        # ONLY delete subdirectories (leave index.html completely alone!)
+        if os.path.isdir(item_path):
+            shutil.rmtree(item_path)
+else:
+    # If the base folder doesn't exist at all, create it
+    os.makedirs(output_base, exist_ok=True)
 
 if not os.path.exists(html_path):
     print(f"Error: Could not find build file at {html_path}")
@@ -57,6 +63,7 @@ for block in slang_blocks:
     <meta property="og:description" content="{definition}">
     <meta property="og:image" content="https://botan14xd.github.io/BD2-Overview/{img_path}">
     <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
     <meta http-equiv="refresh" content="0; url=../../miscellaneous/game-slang?term={term_slug}">
 </head>
 <body>
