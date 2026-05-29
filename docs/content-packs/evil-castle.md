@@ -311,7 +311,7 @@ As for the fifth pick, you're allowed to take almost every costume from the game
     * Second, you need to balance the team. If you picked good supports, try consider picking DPS and vice versa.<br>There may be rare cases where you get both supports and DPS in first 4 picks. Then you can decide to bring in Utility costume or adding extra Support/DPS. 
 
 !!! example "Some rules about {{Costumes }} costumes"
-    1. **Owned costumes in your account copy their dupes count (+0 ~ +5), [Potential Liberation](../character-progression/potential-liberation.md) and Engraving & Awakening.**
+    1. **Owned costumes in your account copy their dupes count (+0 ~ +5), [Potential Liberation](../progression/potentials.md) and Engraving & Awakening.**
     2. **Costumes <u>DO NOT</u> copy their gear equipped.**
     3. **Brown Dust II Exclusive costumes can appear in both Normal and Wildcard Selections. As mentioned earlier, <u>collab costumes</u> cannot appear / be chosen unless you own them.**
     4. **In following Normal Selections,** 

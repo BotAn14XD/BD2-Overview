@@ -32,7 +32,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     Buffs are **relevant** if character uses **enemy** {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} to deal damage.
 
-    ${\textcolor{AFDBF5}{[5]}}$: Applied only when character **crits**. Characters with [**Fixed Damage**](../game-mechanics/battle-system.md#different-damage-types) cannot crit, making this multiplier equal to $1$.
+    ${\textcolor{AFDBF5}{[5]}}$: Applied only when character **crits**. Characters with [**Fixed Damage**](../mechanics/battle.md#different-damage-types) cannot crit, making this multiplier equal to $1$.
 
     ${\textcolor{AFDBF5}{[6]}}$: Unless the fight disables the chain mechanic (some Story Pack bosses).
 
@@ -65,7 +65,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     \times \left[1 + \delta_{\text{chains}} \times \left(0.1 + \displaystyle \sum_{i=1}^{n^{(13)}} \text{b}_\text{i}^{\text{(chains)}} \right) \times \left[\left(1-\delta_\text{ln}\right) \times \min \left(100, \text{v}^{\text{(chains)}}\right) + \delta_\text{ln} \text{v}^{\text{(chains)}} \right] \right] \times \\\\
     \times \Bigg[1 + \displaystyle \sum_{i=1}^{n^{(14)}} \text{b}_\text{i}^{\text{(aug)}} + \displaystyle \sum_{i=1}^{n^{(15)}} \text{b}_\text{i}^{\text{(vuln\_gen)}} + \displaystyle \sum_{i=1}^{n^{(16)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_dt)}} \times \vec{\tilde{\text{s}}}^{\top} + \displaystyle \sum_{i=1}^{n^{(17)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_pr)}} \times  \left(\vec{\text{pr}}^\text{(off)}\right)^{\top} + \\\\
     + \delta_{\text{DoT}} \times \displaystyle \sum_{i=1}^{n^{(18)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_dot)}} + \delta_{\text{summons}} \times \displaystyle \sum_{i=1}^{n^{(19)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_summons)}}  \Bigg] \times \\\\
-    \times \displaystyle \prod_{i=1}^{n^{(20)}}  \left[1 - \vec{\text{b}}_\text{i}^{\text{(dmg\_red)}} \right] \vec{\tilde{\text{s}}}^{\top}  \times \\\\
+    \times \left(1-\delta_{\text{pf}}\right) \times \displaystyle \prod_{i=1}^{n^{(20)}}  \left[1 - \vec{\text{b}}_\text{i}^{\text{(dmg\_red)}} \right] \vec{\tilde{\text{s}}}^{\top}  \times \\\\
     \times \left[1 + \delta_{\text{fh/gr}} \times \text{b}_{\text{weak}} \right] \times \\\\
     \times \left[1 + \delta_\text{ln} \times \text{b}_{\text{supp}} \right] \times \\\\
     \times \left[1-\delta_{\text{kb}}\right]$    
@@ -1449,7 +1449,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ---
 
-    $\text{\textcolor{8A9A5B}{Property Damage\%}}$ in the formula refers to the **character's own** Property Damage. Usually it consists of the initial, awakening and [bond](../character-progression/potential-liberation.md) ones:
+    $\text{\textcolor{8A9A5B}{Property Damage\%}}$ in the formula refers to the **character's own** Property Damage. Usually it consists of the initial, awakening and [bond](../progression/potentials.md) ones:
 
     $\text{\textcolor{8A9A5B}{Property Damage\%}} = 50\% + \text{\textcolor{8A9A5B}{Property Damage\%} from Awakening} + \text{\textcolor{8A9A5B}{Property Damage\%} from Bond}$
 

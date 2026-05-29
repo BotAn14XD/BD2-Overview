@@ -24,23 +24,25 @@ theme:
 nav:
     - 'Main Page': index.md
     - 'Game Mechanics':
-        - 'Battle System': game-mechanics/battle-system.md
-        - 'Damage Formula': game-mechanics/damage-formula.md
+        - 'Battle System': mechanics/battle.md
+        - 'Damage Formula': mechanics/damage-formula.md
 
     - 'Characters Progression':
-        - 'Burst System': character-progression/burst.md
-        - 'Gear System': game-mechanics/gear-system.md  
-        - 'Potential Liberation': character-progression/potential-liberation.md
-    - 'Content Packs':
-        - 'Mirror Wars': content-packs/mirror-wars.md
-        - 'Evil Castle': content-packs/evil-castle.md
-        - 'Path of Adventure': content-packs/path-of-adventure.md
-        - 'Last Night': content-packs/last-night.md
-        - 'Glupy Diner': content-packs/glupy-diner.md
-        - 'Golden Colosseum': content-packs/golden-colosseum.md
-        - 'Fantasia Square': content-packs/fantasia-square.md
+        - 'Burst System': progression/burst.md
+        - 'Gear System': progression/gear.md  
+        - 'Potential Liberation': progression/potentials.md
+    - 'Game Content':
+        - 'Season Events': content/events.md
+        - 'Content Packs':
+            - 'Mirror Wars': content-packs/mirror-wars.md
+            - 'Evil Castle': content-packs/evil-castle.md
+            - 'Path of Adventure': content-packs/path-of-adventure.md
+            - 'Last Night': content-packs/last-night.md
+            - 'Glupy Diner': content-packs/glupy-diner.md
+            - 'Golden Colosseum': content-packs/golden-colosseum.md
+            - 'Fantasia Square': content-packs/fantasia-square.md
     - 'Miscellaneous':
-        - 'Game Slang': miscellaneous/game-slang.md
+        - 'Game Slang': misc/slang.md
     - 'Common Questions': FAQ.md
     - '---': '#'
     - 'Banner Recommendations': https://zormolo.github.io/BD2-Banner-Recommendation/
@@ -79,6 +81,15 @@ plugins:
       cards: false
       cards_layout_options:
         background_image: assets/images/site/banner.png
+  - redirects:
+      redirect_maps:
+        'game-mechanics/gear-system.md': 'progression/gear.md'
+        'game-mechanics/battle-system.md': 'mechanics/battle.md'
+        'game-mechanics/damage-formula.md': 'mechanics/damage-formula.md'
+        'character-progression/burst.md': 'progression/burst.md'
+        'character-progression/gear-system.md': 'progression/gear.md'
+        'character-progression/potential-liberation.md': 'progression/potentials.md'
+        'miscellaneous/game-slang.md': 'misc/slang.md'
 
 markdown_extensions:
   - attr_list

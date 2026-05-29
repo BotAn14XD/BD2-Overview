@@ -35,12 +35,12 @@ This site is a work in progress, focusing on high-quality explanation for every 
 
     ---
 
-    [View Page →](./game-mechanics/battle-system.md){: .md-button }
+    [View Page →](./mechanics/battle.md){: .md-button }
 
 -   ![Damage Formula](assets/images/site/index-pc-nav-3.avif){: .card-header-img }
     ---
 
-    [View Page →](./game-mechanics/damage-formula.md){: .md-button }
+    [View Page →](./mechanics/damage-formula.md){: .md-button }
 </div>
 
 ---
@@ -54,18 +54,18 @@ This site is a work in progress, focusing on high-quality explanation for every 
 
     ---
 
-    [View Page →](./game-mechanics/gear-system.md){: .md-button }
+    [View Page →](./progression/gear.md){: .md-button }
 
 -   ![Potential Liberation](assets/images/site/index-pc-nav-5.avif){: .card-header-img }
 
     ---
-    [View Page →](./character-progression/potential-liberation.md){: .md-button }
+    [View Page →](./progression/potentials.md){: .md-button }
 </div>
 <div class="grid cards center-content" markdown>
 -   ![Burst System](assets/images/site/index-pc-nav-6.avif){: .card-header-img }
 
     ---
-    [View Page →](./character-progression/burst.md){: .md-button }
+    [View Page →](./progression/burst.md){: .md-button }
 </div>
 
 ---
@@ -100,17 +100,13 @@ This site is a work in progress, focusing on high-quality explanation for every 
 
     ---
 
-    [View Page →](./miscellaneous/game-slang.md){: .md-button }
+    [View Page →](./misc/slang.md){: .md-button }
 
 </div>
 ---
 <div class="banner-container">
     <img src="assets/images/site/index-pc-6.avif" alt="Fundamentals" class="responsive-banner">
 </div>
-
-<!--- [GitHub Repository](https://github.com/BotAn14XD/BD2-Overview)
-- [Compendium Discord Server](https://discord.gg/tays83ew3N)
-- [Brown Dust II Discord Server](https://discord.com/invite/browndust2)-->
 
 <div class="grid cards center-content" markdown>
 -   ![Banner Recommendations](assets/images/site/index-pc-nav-13.avif){: .card-header-img }

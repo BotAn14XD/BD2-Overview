@@ -1,3 +1,12 @@
+---
+
+description: The Glossary of Slang, used in the Brown Dust II Community.
+comments: true
+
+---
+#
+![Game Slang](../assets/images/site/index-pc-nav-9.avif){: .card-header-img }
+
 <input type="text" id="slangSearch" onkeyup="filterSlang()" placeholder="Search for slang or full name..." class="slang-search-box">
 
 <div class="quick-filters">
@@ -492,7 +501,7 @@
                 <span class="alias-tag">B2</span>
                 <span class="alias-tag">B3</span>
             </div>
-            <p>Different <a href="https://botan14xd.github.io/BD2-Overview/character-progression/burst/">Burst</a> Upgrades [Burst 0 (No Burst) — Burst 3 (Maximum Burst)].</p>
+            <p>Different <a href="https://botan14xd.github.io/BD2-Overview/progression/burst/">Burst</a> Upgrades [Burst 0 (No Burst) — Burst 3 (Maximum Burst)].</p>
         </li>
     </ul>
 </div>
@@ -2063,7 +2072,7 @@
                 <span class="alias-tag rare-tag">Potlib</span>
                 <span class="alias-tag rare-tag">Tree</span>
             </div>
-            <p><a href="https://botan14xd.github.io/BD2-Overview/character-progression/potential-liberation/">Potential Liberation</a> is a character progression feature offering stats increase as well as direct skill enhancement.</p>
+            <p><a href="https://botan14xd.github.io/BD2-Overview/progression/potential-liberation/">Potential Liberation</a> is a character progression feature offering stats increase as well as direct skill enhancement.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Powder of Hope</h3>
@@ -2089,7 +2098,7 @@
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
             </div>
-            <p>Pressure is a Debuff that decreases Buff Efficiency. Refer to <a href="https://botan14xd.github.io/BD2-Overview/game-mechanics/damage-formula/#__tabbed_1_4">Damage Formula</a> Page for more information.</p>
+            <p>Pressure is a Debuff that decreases Buff Efficiency. Refer to <a href="https://botan14xd.github.io/BD2-Overview/mechanics/damage-formula/#__tabbed_1_4">Damage Formula</a> Page for more information.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Priestess</h3>
@@ -2150,7 +2159,7 @@
                 <span class="alias-tag">Light Crystal</span>
                 <span class="alias-tag">Dark Crystal</span>
             </div>
-            <p>Property Crystal is a collective term for the various elemental crystals (Water, Fire, Wind, Light, and Darkness) used for <a href="https://botan14xd.github.io/BD2-Overview/character-progression/potential-liberation/">Potential Liberation</a> of a Costume.</p>
+            <p>Property Crystal is a collective term for the various elemental crystals (Water, Fire, Wind, Light, and Darkness) used for <a href="https://botan14xd.github.io/BD2-Overview/progression/potential-liberation/">Potential Liberation</a> of a Costume.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Property Damage</h3>
@@ -2575,7 +2584,7 @@
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
                 <span class="alias-tag">Spark</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Spark_of_Rampage">Spark of Rampage</a> is a Resource used to upgrade the <a href="https://botan14xd.github.io/BD2-Overview/character-progression/burst/">Burst</a> of Costumes.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Spark_of_Rampage">Spark of Rampage</a> is a Resource used to upgrade the <a href="https://botan14xd.github.io/BD2-Overview/progression/burst/">Burst</a> of Costumes.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Staller</h3>
@@ -2691,7 +2700,7 @@
                 <span class="alias-tag">Tear</span>
                 <span class="alias-tag">ToG</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Tear_of_Goddess">Tear of Goddess</a> is a Resource used to upgrade <a href="https://botan14xd.github.io/BD2-Overview/character-progression/potential-liberation/">Potential Liberation</a> of a Costume.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Tear_of_Goddess">Tear of Goddess</a> is a Resource used to upgrade <a href="https://botan14xd.github.io/BD2-Overview/progression/potential-liberation/">Potential Liberation</a> of a Costume.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Teresse</h3>

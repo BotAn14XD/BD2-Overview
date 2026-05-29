@@ -30,10 +30,13 @@ jobs:
           node-version: 20
 
       - name: Install Python dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip uninstall mkdocs -y
+          pip install properdocs
 
       - name: Build Static Site Layout
-        run: mkdocs build
+        run: properdocs build --config-file properdocs.yml
 
       - name: Install Puppeteer Engine
         run: npm install puppeteer

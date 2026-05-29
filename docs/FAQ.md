@@ -1,8 +1,11 @@
+![Commonly Asked Questions](assets/images/site/index-pc-nav-1.avif){: .card-header-img }
+#
+
 ## Gacha, Summons & Economy
 ??? question "Is there a Tier List? <span id='tierlist'></span>" 
     This game is roster-based, not team-based, thus <u>**there is no reliable Tier List**</u> since you tend to use different characters depending on the situation. Anything you see online can have some degree of the truth but it still wouldn't capture the whole complexity of the game.
 
-    The only thing that stays correct all the time:<br><u>**Supports are the highest priority**</u> since you use them constantly, unlike [DPS](miscellaneous/game-slang.md/?term=DPS).
+    The only thing that stays correct all the time:<br><u>**Supports are the highest priority**</u> since you use them constantly, unlike [DPS](misc/slang.md/?term=DPS).
 
 ??? question "How do I get Characters? How Costume system works?"
     You can think of **Costumes** as <u>**Skills of a Character**</u>.
@@ -23,14 +26,14 @@
     Do not worry about any weapons or other costumes; it is not worth the time spent on rerolling the banner.
 
 ??? question "How does the Selective Draw work? Is 1-Pick or 12-Pick better?"
-    Selective Draw (Banners) work in a way that you pick desired Costumes and they have increased chances to appear. They are the only banners that accept [Selective Draw Tickets](miscellaneous/game-slang.md/?term=Selective Draw Ticket).
+    Selective Draw (Banners) work in a way that you pick desired Costumes and they have increased chances to appear. They are the only banners that accept [Selective Draw Tickets](misc/slang.md/?term=Selective Draw Ticket).
 
     Essentially, Selective Draw is displayed in form of **12-Pick** (Permanent) and **1-Pick** (reocurring) Banners.
 
     As a new player, <u>**12-Pick is objectively better**</u>.
 
 ??? question "Who should I put in 12-Pick? <span id='12pick'></span>"
-    Generally speaking, Supports. These include not just [Buffers](miscellaneous/game-slang.md/?term=Buffer), but [Chainers](miscellaneous/game-slang.md/?term=Chainer) and [Amplifiers](miscellaneous/game-slang.md/?term=Amplifier).
+    Generally speaking, Supports. These include not just [Buffers](misc/slang.md/?term=Buffer), but [Chainers](misc/slang.md/?term=Chainer) and [Amplifiers](misc/slang.md/?term=Amplifier).
 
     ---
 
@@ -63,7 +66,7 @@
     * **Poolside Guardian Zenith ({{Wind}} Wind)** (until +5)
     * **Iron Monarch Wilhelmina ({{Water}} Water)** (until +4)
     * **Shadowed Dream Sonya ({{Darkness}} Darkness)** (until +4 or +5)
-    * **Yound Lady Blade ({{Darkness}} Darkness)** (until +5)
+    * **Young Lady Blade ({{Darkness}} Darkness)** (until +5)
     * **Medical Club Teresse ({{Water}} Water)** (until +5)
     * **Red Riding Hood Rou ({{Darkness}} Darkness)** (until +5)
     * **New Hire Seir ({{Darkness}} Darkness)** (until +5)
@@ -94,11 +97,11 @@
     If you are not sure, it is always better to ask in a [Discord Server](https://discord.gg/browndust2).
 
 ??? question "How do Property Tickets work? Who do I pick?"
-    [Property Selective Draw Exchange Ticket](miscellaneous/game-slang.md/?term=Property Selective Draw Exchange Ticket) allows you to choose a [Property](miscellaneous/game-slang.md/?term=Property) and recieve **random** ★5 Costume from the chosen Property. 
+    [Property Selective Draw Exchange Ticket](misc/slang.md/?term=Property Selective Draw Exchange Ticket) allows you to choose a [Property](misc/slang.md/?term=Property) and recieve **random** ★5 Costume from the chosen Property. 
 
     As a new player, almost every Property is good to spend tickets on. You can focus on Light until you get decent Refithea.<br>
     Later on, you can do the math to see what gives more useful Costumes on average.<br>
-    Even later on, you can do the math to see what gives less [Threads](miscellaneous/game-slang.md/?term=Golden Thread) on average due to owning a lot of +5 Costumes.
+    Even later on, you can do the math to see what gives less [Threads](misc/slang.md/?term=Golden Thread) on average due to owning a lot of +5 Costumes.
 
 ??? question "How to get more Tickets and Diamonds? <span id='tix'></span>"
     * Using Coupon Codes
@@ -129,14 +132,14 @@
     * **[The Gluttonous Refithea](https://browndust2.miraheze.org/wiki/Refithea/The_Gluttonous) — Random Appearance**
     * **[The Curse Celia](https://browndust2.miraheze.org/wiki/Celia/The_Curse) — Random Appearance**
 
-    Rest Costumes are either [DPS](miscellaneous/game-slang.md/?term=DPS) or Low Priority / Niche picks. It's up to you what to follow afterwards. 
+    Rest Costumes are either [DPS](misc/slang.md/?term=DPS) or Low Priority / Niche picks. It's up to you what to follow afterwards. 
     Alternatively, ask in a [Discord Server](https://discord.gg/browndust2) or follow the $/ \text{pub}$ command there.
 
 ## Battle & Mechanics
 
 ??? q-battle "What is "Property" and how does it work?"
     ![Property Illustration](assets/images/faq/property.avif){ align=right}
-    [Property](miscellaneous/game-slang.md/?term=Property) is technically the Element of each Character.
+    [Property](misc/slang.md/?term=Property) is technically the Element of each Character.
 
     There are a lotal of 6 Properties: {{Water}} **Water**, {{Fire}} **Fire**, {{Wind}} **Wind**, {{Light}} **Light**, {{Darkness}} **Darkness** and {{Neutral}} **Neutral**.
 
@@ -161,25 +164,25 @@
     A good *(general content)* team:
 
     * Uses only one type of damage, {{Physical}} **Physical**{.yellow} or {{Magical}} **Magical**{.magenta} (unless you **absolutely** know what you are doing and can explain every single moment regarding your decision)
-    * Uses **both** Supports (usually 3, can be two) and [DPS](miscellaneous/game-slang.md/?term=DPS)
+    * Uses **both** Supports (usually 3, can be two) and [DPS](misc/slang.md/?term=DPS)
     * Has a **correct** order of Costumes (Supports first, DPS second)
     * Does **NOT** use Property Buffs whenever the team is at no gain from it
-    * Focuses **either** on Large [AoE](miscellaneous/game-slang.md/?term=AoE) Damage (for regular fights) or Single Target [Nuke](miscellaneous/game-slang.md/?term=Nuke) Damage (for Solo Bosses fights)
+    * Focuses **either** on Large [AoE](misc/slang.md/?term=AoE) Damage (for regular fights) or Single Target [Nuke](misc/slang.md/?term=Nuke) Damage (for Solo Bosses fights)
     * Uses **different Buff Types** whenever it is possible (**Augmentation** / **Vulnerability**, {{ATK}} **ATK**{.yellow} Buff etc).
     * Is built around finishing the battle on Turn 1, or, at max, on Turn 3
-    * Can activate all abilities on Turn 1, or, in other words, has enough [SP](miscellaneous/game-slang.md/?term=SP)
+    * Can activate all abilities on Turn 1, or, in other words, has enough [SP](misc/slang.md/?term=SP)
     * Has **the best Gear you have at the moment**
 
     !!! image "Example of newbie team"
         ![Newbie Brown Dust 2 Team](assets/images/faq/newbie_team_Kit.avif)
 
 ??? q-battle "How to defeat [Specific Boss]? <span id='boss'></span>"
-    For Single Target Bosses, the easiest solution (in most cases) is a {{Physical}} **Physical**{.yellow} team with [Zenith](https://browndust2.miraheze.org/wiki/Zenith) and [Ventana](https://browndust2.miraheze.org/wiki/Ventana) as your main [DPS](miscellaneous/game-slang.md/?term=DPS), which you can [borrow](https://botan14xd.github.io/BD2-Overview/game-mechanics/battle-system/#__tabbed_2_1) from friends.
+    For Single Target Bosses, the easiest solution (in most cases) is a {{Physical}} **Physical**{.yellow} team with [Zenith](https://browndust2.miraheze.org/wiki/Zenith) and [Ventana](https://browndust2.miraheze.org/wiki/Ventana) as your main [DPS](misc/slang.md/?term=DPS), which you can [borrow](https://botan14xd.github.io/BD2-Overview/game-mechanics/battle-system/#__tabbed_2_1) from friends.
 
     ??? image "Example of Ventana Team"
         ![Ventana Team for Bosses](assets/images/faq/solo_boss_kit.avif)
 
-    For Boss fights with minions ([AoE](miscellaneous/game-slang.md/?term=AoE) fights), you can use borrowed [Sacred Justia](https://browndust2.miraheze.org/wiki/Sacred Justia) or [Bunny Loen](miscellaneous/game-slang.md/?term=Bunny Loen) as your main DPS.
+    For Boss fights with minions ([AoE](misc/slang.md/?term=AoE) fights), you can use borrowed [Sacred Justia](https://browndust2.miraheze.org/wiki/Sacred Justia) or [Bunny Loen](misc/slang.md/?term=Bunny Loen) as your main DPS.
 
     ??? image "Example of AoE Bosses Team"
         ![Sacred Justia Team for Bosses](assets/images/faq/aoe_boss_kit.avif)
@@ -211,33 +214,33 @@
 ??? q-progression "Who do I level / upgrade first? <span id='upgrade'></span>"
     You need to be careful when using **upgrade** term, since it can be applied to a lot of Costumes' / Characters' aspects.
 
-    * When it comes down to **Level**, prefer using [Slimes](miscellaneous/game-slang.md/?term=Slimes) for your [DPS](miscellaneous/game-slang.md/?term=DPS)
-    * When it comes down to [**Potential Liberation**](character-progression/potential-liberation.md), focus on Supports first. Check the Potential Liberation Page for more information.
-    * When it comes down to [**Gear**](game-mechanics/gear-system.md), prioritize DPS
+    * When it comes down to **Level**, prefer using [Slimes](misc/slang.md/?term=Slimes) for your [DPS](misc/slang.md/?term=DPS)
+    * When it comes down to [**Potential Liberation**](progression/potentials.md), focus on Supports first. Check the Potential Liberation Page for more information.
+    * When it comes down to [**Gear**](progression/gear.md), prioritize DPS
     * When it comes down to **Engraving / Awakening**, it is used on DPS, but it is very expensive for a new player so hold onto resources
         * If you do this for Guide Pass Task, Awakening [Nebris](https://browndust2.miraheze.org/wiki/Nebris) is one of the best choices
-    * When it comes down to [**Burst**](character-progression/burst.md), there is no definitive answer since the mechanic is new. However, the Author suggests focusing on Supports, similar to [Potential Liberation](character-progression/potential-liberation.md)
+    * When it comes down to [**Burst**](progression/burst.md), there is no definitive answer since the mechanic is new. However, the Author suggests focusing on Supports, similar to [Potential Liberation](progression/potentials.md)
     * When it comes down to **Costume copies**, generally Supports are preferred, however there may be exceptions. Refer to [Banner Recommendations](https://zormolo.github.io/BD2-Banner-Recommendation/) in case you are hesitating
 
 ??? q-progression "What gear should I craft? <span id='gcraft'></span>"
-    Refer to the [Crafting Guide](game-mechanics/gear-system.md#crafting-guide).
+    Refer to the [Crafting Guide](progression/gear.md#crafting-guide).
 
-??? q-progression "Who to spend [Tears of Goddess](miscellaneous/game-slang.md/?term=Tear of Goddess) and [Crystals](miscellaneous/game-slang.md/?term=Property Crystal) on? <span id='pots'></span>"
+??? q-progression "Who to spend [Tears of Goddess](misc/slang.md/?term=Tear of Goddess) and [Crystals](misc/slang.md/?term=Property Crystal) on? <span id='pots'></span>"
     Refer to the [Cymmina's Guide](http://cymmina.gamependium.com/browndust2/growth.html#potentials). 
 
-    Additionally, you can learn more about Potential Liberation from [this page](character-progression/potential-liberation.md).
+    Additionally, you can learn more about Potential Liberation from [this page](progression/potentials.md).
 
 ??? q-progression "Who to spend Sparkles of Rampage on?"
     Since this is relatively new feature, there is no one united opinion on this topic. 
     
-    You can refer to [Priority Guide](character-progression/burst.md#priority-guide) from the Author of the site, but **definitely** read **General Advice** and **Disclaimer** before you do that.
+    You can refer to [Priority Guide](progression/burst.md#priority-guide) from the Author of the site, but **definitely** read **General Advice** and **Disclaimer** before you do that.
 
 ??? q-progression "Should I Engrave / Awaken someone? Who to Engrave / Awaken?"
     As was stated in "Who do I level / upgrade first?" question, engraving **is not worth for new players**. It is expensive proccedure that does not give much benefit. 
 
-    Nonetheless, if you decided to Engrave / Awaken someone, it should be the [DPS](miscellaneous/game-slang.md/?term=DPS) you use the most, such as [Nebris](https://browndust2.miraheze.org/wiki/Nebris).
+    Nonetheless, if you decided to Engrave / Awaken someone, it should be the [DPS](misc/slang.md/?term=DPS) you use the most, such as [Nebris](https://browndust2.miraheze.org/wiki/Nebris).
 
-## Miscellaneous
+## misc
 
 ??? q-misc "Where to find a Goddess Statue? <span id='fwish'></span>"
     Goddess Statue is located in **Fantasia Square** Content Pack. 
@@ -273,12 +276,12 @@
     ??? image "Image Guide"
         ![Guide for displaying a Costume collection](assets/images/faq/box_costumes.avif)
 
-    * When asking for a **Awakening** / [**Potential Liberation**](character-progression/potential-liberation.md) / [**Burst**](character-progression/burst.md) help, use Compainion tab with **View Costume** button enabled.
+    * When asking for a **Awakening** / [**Potential Liberation**](progression/potentials.md) / [**Burst**](progression/burst.md) help, use Compainion tab with **View Costume** button enabled.
 
     ??? image "Image Guide"
         ![Guide for displaying a Costume collection ver.2](assets/images/faq/box_pots.avif)
 
-    * When asking for a help with **Gear**, use **second menu** inside of **Compainion tab**. It captures the gear for your main team (which is usually the best) and some extra gear on the right side. Later on, you can show from the bag, by using [Custom Marks](game-mechanics/gear-system.md#custom-marks) and filtering to display them first.
+    * When asking for a help with **Gear**, use **second menu** inside of **Compainion tab**. It captures the gear for your main team (which is usually the best) and some extra gear on the right side. Later on, you can show from the bag, by using [Custom Marks](progression/gear.md#custom-marks) and filtering to display them first.
 
     ??? image "Image Guide"
         ![Guide for displaying a Gear collection](assets/images/faq/box_gear.avif)

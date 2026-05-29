@@ -808,3 +808,9 @@ li.md-nav__item:has(a[href$="#"]) {
     justify-content: center;
     flex-grow: 1;
 }
+
+/* HEADERS TOC STYLING*/
+
+.toc-only {
+    display: none;
+}

@@ -4,3 +4,4 @@ mkdocs-macros-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-open-in-new-tab
 mkdocs-minify-plugin
+mkdocs-redirects

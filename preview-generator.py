@@ -3,8 +3,8 @@ import re
 import html
 import shutil
 
-html_path = "site/miscellaneous/game-slang/index.html"
-output_base = "site/miscellaneous/game-slang"
+html_path = "site/misc/slang/index.html"
+output_base = "site/misc/slang"
 
 if os.path.exists(output_base):
     print(f"Clearing old generated subfolders from '{output_base}'...")

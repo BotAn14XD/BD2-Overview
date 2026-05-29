@@ -88,7 +88,7 @@ Aside from the animation, Skill Card will now have light blue border and extra S
 
 ### Auto Burst
 
-In the [Battle](../game-mechanics/battle-system.md), you can activate the **Auto Burst** button, located at the right top of the screen.
+In the [Battle](../mechanics/battle.md), you can activate the **Auto Burst** button, located at the right top of the screen.
 
 !!! image "Auto Burst Button"
     ![Auto Burst Button Location](../assets/images/burst/auto-burst.avif)
@@ -97,7 +97,7 @@ When active, Burst will be activated automatically, however, it will take **a lo
 
 That means if you do not have enough SP to activate Burst and Costume at the same time, Costume will be activated only.
 
-[Auto Battle](../game-mechanics/battle-system.md#__tabbed_1_3) feature enables Auto Burst automatically.
+[Auto Battle](../mechanics/battle.md#__tabbed_1_3) feature enables Auto Burst automatically.
 
 ---
 
@@ -108,7 +108,7 @@ That means if you do not have enough SP to activate Burst and Costume at the sam
     * If Rules grant infinite ($\infty$) SP, Burst is applied similar to [**Last Night**](../content-packs/last-night.md). Otherwise, Burst is applied after all costumes activated their Abilities.
 
 ## Burst view in Collection
-In the collection, Burst is displayed under the ![Liberation Icon](../assets/images/potential-liberation/icon_potential3_3.png "Potential Liberation"){.icon} [Potential Liberation](../character-progression/potential-liberation.md) icon and consists of 3 tongues of flame, corresponding to individual bursts.
+In the collection, Burst is displayed under the ![Liberation Icon](../assets/images/potential-liberation/icon_potential3_3.png "Potential Liberation"){.icon} [Potential Liberation](../progression/potentials.md) icon and consists of 3 tongues of flame, corresponding to individual bursts.
 
 ??? image "Burst Demonstration in Companion Tab"
     ![Burst Demonstration in Companion Tab](../assets/images/burst/burst-collection.avif)

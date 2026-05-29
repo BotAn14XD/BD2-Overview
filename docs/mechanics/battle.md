@@ -78,7 +78,7 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
 
     ---
 
-    <big>**Check the [Damage Formula Page](../game-mechanics/damage-formula.md) for more detailed information regarding the formula.**</big>
+    <big>**Check the [Damage Formula Page](../mechanics/damage-formula.md) for more detailed information regarding the formula.**</big>
 
 
 
@@ -135,7 +135,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
         ??? image "Image Display"
             ![Cooldown Display](../assets/images/battle-system/Cooldown.avif)
 
-    * To access the information about **stats**, press on the chibi / card, then press ![Plus Icon](../assets/images/battle-system/icons/icon_plus2.avif "Detailed Character information"){.icon} plus icon in the top corner of the screen *(left for your units, right for enemies)*.<br>Displayed information includes all stats **at the given moment** (with all **current** buffs applied), gear and [bond](../character-progression/potential-liberation.md).
+    * To access the information about **stats**, press on the chibi / card, then press ![Plus Icon](../assets/images/battle-system/icons/icon_plus2.avif "Detailed Character information"){.icon} plus icon in the top corner of the screen *(left for your units, right for enemies)*.<br>Displayed information includes all stats **at the given moment** (with all **current** buffs applied), gear and [bond](../progression/potentials.md).
     ??? image "Stats screenshot"
         ![Stats screenshot](../assets/images/battle-system/stats_window.avif)
     * To access the information about **status effects**, do the same thing except instead of clicking on the plus, click on the icons right below, such as ![Taunt Icon](../assets/images/battle-system/icons/bufficon_26.avif "Taunt Status Effect"){ .icon } (which is the Taunt effect) or others.
@@ -215,11 +215,11 @@ In the battle, you can obtain a lot of information about your units and enemies.
 
 === "![Burst Icon](../assets/images/battle-system/icons/spark_temp.avif){ .icon-list }"
     ### **Auto Burst** { #__tabbed_1_2 }
-    This features automatically enables the [Burst](../character-progression/burst.md) for your Costumes.
+    This features automatically enables the [Burst](../progression/burst.md) for your Costumes.
 
     !!! example ""
         * It prioritizes **Costume** activation over **Burst**, meaning if there is lack of SP, Burst will not be activated. 
-        * If few Costumes have Burst, it will prioritise activation of the **first in the order**. Meaning, supports have higher priority in Burst activation over [DPS](../miscellaneous/game-slang.md/?term=DPS).
+        * If few Costumes have Burst, it will prioritise activation of the **first in the order**. Meaning, supports have higher priority in Burst activation over [DPS](../misc/slang.md/?term=DPS).
 
     To reselect Burst choice, simply click on the character and use arrows to remove the Burst. 
 
