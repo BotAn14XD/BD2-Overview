@@ -8,10 +8,10 @@ const path = require('path');
     
     await page.setViewport({ width: 1200, height: 1080, deviceScaleFactor: 2 });
 
-    const fileUrl = `file://${path.resolve(__dirname, './site/miscellaneous/game-slang/index.html')}`;
+    const fileUrl = `file://${path.resolve(__dirname, './site/misc/slang/index.html')}`;
 
-    if (!fs.existsSync(path.resolve(__dirname, './site/miscellaneous/game-slang/index.html'))) {
-        console.error("Error: Build folder not found! Make sure to run 'mkdocs build' first.");
+    if (!fs.existsSync(path.resolve(__dirname, './site/misc/slang/index.html'))) {
+        console.error("Error: Build folder not found! Make sure to run 'properdocs build' first.");
         process.exit(1);
     }
 

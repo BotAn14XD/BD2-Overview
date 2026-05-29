@@ -61,10 +61,10 @@ for block in slang_blocks:
     <meta property="og:image" content="https://botan14xd.github.io/BD2-Overview/{img_path}">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta http-equiv="refresh" content="0; url=/BD2-Overview/miscellaneous/game-slang?term={term_slug}">
+    <meta http-equiv="refresh" content="0; url=/BD2-Overview/misc/slang?term={term_slug}">
     </head>
     <body>
-    <p>Redirecting to Tactical Compendium... If not automated, <a href="/BD2-Overview/miscellaneous/game-slang?term={term_slug}">click here</a>.</p>
+    <p>Redirecting to Tactical Compendium... If not automated, <a href="/BD2-Overview/misc/slang?term={term_slug}">click here</a>.</p>
 </body>
 </html>"""
 
