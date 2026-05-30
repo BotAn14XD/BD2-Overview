@@ -71,7 +71,7 @@ for block in slang_blocks:
     with open(os.path.join(term_dir, "index.html"), "w", encoding="utf-8") as out_f:
         out_f.write(payload)
 
-    alias_tags = re.findall(r'<span\s+class="alias-tag"[^>]*>(.*?)</span>', block, re.DOTALL)
+    alias_tags = re.findall(r'<span\s+class="alias-tag(?:\s+rare-tag)?">([^<]*)</span>', block, re.DOTALL)
     for alias in alias_tags:
         cleaned_alias = alias.strip().lower()
         if "ignore-exact" in cleaned_alias or "content" in cleaned_alias:
