@@ -240,7 +240,7 @@
 
     Nonetheless, if you decided to Engrave / Awaken someone, it should be the [DPS](misc/slang.md/?term=DPS) you use the most, such as [Nebris](https://browndust2.miraheze.org/wiki/Nebris).
 
-## misc
+## Miscellaneous
 
 ??? q-misc "Where to find a Goddess Statue? <span id='fwish'></span>"
     Goddess Statue is located in **Fantasia Square** Content Pack. 
