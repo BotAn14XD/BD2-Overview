@@ -113,7 +113,7 @@ This site is a work in progress, focusing on high-quality explanation for every 
 
     ---
 
-    [Check Banner Recommndations →](https://zormolo.github.io/BD2-Banner-Recommendation/){: .md-button }
+    [Check Banner Recommendations →](https://zormolo.github.io/BD2-Banner-Recommendation/){: .md-button }
 
 </div>
 
@@ -147,13 +147,13 @@ This site is a work in progress, focusing on high-quality explanation for every 
 
     ---
 
-    [Check the Database →](https://browndust2.miraheze.org/wiki/Brown_Dust_2_Wiki){: .md-button }
+    [Check the Database →](https://browndust2-db.souseha.com/en){: .md-button }
 
 -   ![Cymmina's Website](assets/images/site/index-pc-nav-17.avif){: .card-header-img }
 
     ---
 
-    [Check the Website →](https://browndust2.miraheze.org/wiki/Brown_Dust_2_Wiki){: .md-button }
+    [Check the Website →](http://cymmina.gamependium.com/browndust2/){: .md-button }
 
 
 </div>
