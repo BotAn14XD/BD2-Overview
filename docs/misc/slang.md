@@ -637,7 +637,7 @@ comments: true
             <p><a href="https://browndust2.miraheze.org/wiki/Cooked_Rice">Cooked Rice</a> is a Consumable Resource used to obtain Crafting Material, Gold or Slimes.</p>
         </li>
         <li class="slang-item" data-keywords="">
-            <h3>Costume Collectiom</h3>
+            <h3>Costume Collection</h3>
             <div class="alias-container">
                 <span class="alias-tag miscellaneous-tag ignore-exact">Miscellaneous</span>
                 <span class="alias-tag">Box</span>
@@ -1057,7 +1057,7 @@ comments: true
                 <span class="alias-tag content-tag ignore-exact">Content</span>
                 <span class="alias-tag">FH</span>
             </div>
-            <p>Fiend Hunter is one of the key Game Modes, resolving around defeating a Boss.</p>
+            <p>Fiend Hunter is one of the key Game Modes, revolving around defeating a Boss.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Fiend Hunt Damage Threshold</h3>
@@ -1229,7 +1229,7 @@ comments: true
                 <span class="alias-tag rare-tag">GRaid</span>
                 <span class="alias-tag rare-tag">G Raid</span>
             </div>
-            <p>Guild Raid is a <span class="cross-link" onclick="searchFor('PvE')">PvE</span> type of Content, resolving around killing a Boss and gaining points for the Guild.</p>
+            <p>Guild Raid is a <span class="cross-link" onclick="searchFor('PvE')">PvE</span> type of Content, revolving around killing a Boss and gaining points for the Guild.</p>
         </li>
     </ul>
 </div>
@@ -1940,7 +1940,7 @@ comments: true
                 <span class="alias-tag">Summon</span>
                 <span class="alias-tag rare-tag">Light Blue Persona</span>
             </div>
-            <p>Persona of Slander is a Summon Character from <a href="https://browndust2.miraheze.org/wiki/Morpeah/Beach_Vacantion">Beach Vacantion</a> <a href="https://browndust2.miraheze.org/wiki/Morpeah">Morpeah</a>.</p>
+            <p>Persona of Slander is a Summon Character from <a href="https://browndust2.miraheze.org/wiki/Morpeah/Beach_Vacation">Beach Vacation</a> <a href="https://browndust2.miraheze.org/wiki/Morpeah">Morpeah</a>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Persona of Worship</h3>
@@ -1949,7 +1949,7 @@ comments: true
                 <span class="alias-tag">Persona</span>
                 <span class="alias-tag">Summon</span>
             </div>
-            <p>Persona of Worship is a Summon Character from <a href="https://browndust2.miraheze.org/wiki/Morpeah/Beach_Vacantion">Beach Vacantion</a> <a href="https://browndust2.miraheze.org/wiki/Morpeah">Morpeah</a>.</p>
+            <p>Persona of Worship is a Summon Character from <a href="https://browndust2.miraheze.org/wiki/Morpeah/Beach_Vacation">Beach Vacation</a> <a href="https://browndust2.miraheze.org/wiki/Morpeah">Morpeah</a>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Piercing Magic Bow Eleaneer</h3>
@@ -1967,7 +1967,7 @@ comments: true
                 <span class="alias-tag content-tag ignore-exact">Content</span>
                 <span class="alias-tag">PvE</span>
             </div>
-            <p>Player vs. Environment Content resolves around players fighting against environmental enemies.</p>
+            <p>Player vs. Environment Content revolves around players fighting against environmental enemies.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Player vs. Player Content</h3>
@@ -1975,7 +1975,7 @@ comments: true
                 <span class="alias-tag content-tag ignore-exact">Content</span>
                 <span class="alias-tag">PvP</span>
             </div>
-            <p>Player vs. Player Content resolves around players competing amongst each other directly. Consists of <a href="https://botan14xd.github.io/BD2-Overview/content-packs/mirror-wars">Mirror Wars</a> and <a href="https://botan14xd.github.io/BD2-Overview/content-packs/golden-colosseum/">Golden Colosseum</a>.</p>
+            <p>Player vs. Player Content revolves around players competing amongst each other directly. Consists of <a href="https://botan14xd.github.io/BD2-Overview/content-packs/mirror-wars">Mirror Wars</a> and <a href="https://botan14xd.github.io/BD2-Overview/content-packs/golden-colosseum/">Golden Colosseum</a>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Pool Party Angelica</h3>
@@ -2966,7 +2966,7 @@ comments: true
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
                 <span class="alias-tag">Skip</span>
             </div>
-            <p>Vault is one of two possible targetting options for a Character. It targets a second Character in a Column if possible.</p>
+            <p>Vault is one of two possible targeting options for a Character. It targets a second Character in a Column if possible.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Venomous Touch</h3>
@@ -2986,7 +2986,7 @@ comments: true
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
                 <span class="alias-tag rare-tag">VF</span>
             </div>
-            <p>Very Front is one of two possible targetting options for a Character. It targets a First Character in a Column.</p>
+            <p>Very Front is one of two possible targeting options for a Character. It targets a First Character in a Column.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Violent Student Kry</h3>
@@ -3057,7 +3057,7 @@ comments: true
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
             </div>
-            <p>Weak Point is a Boss Tile in Fiend Hunter and Guild Raid that recieves increased damage.</p>
+            <p>Weak Point is a Boss Tile in Fiend Hunter and Guild Raid that receives increased damage.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>White Cat Rou</h3>

@@ -28,7 +28,7 @@
 ??? question "How does the Selective Draw work? Is 1-Pick or 12-Pick better?"
     Selective Draw (Banners) work in a way that you pick desired Costumes and they have increased chances to appear. They are the only banners that accept [Selective Draw Tickets](misc/slang.md/?term=Selective Draw Ticket).
 
-    Essentially, Selective Draw is displayed in form of **12-Pick** (Permanent) and **1-Pick** (reocurring) Banners.
+    Essentially, Selective Draw is displayed in form of **12-Pick** (Permanent) and **1-Pick** (reoccurring) Banners.
 
     As a new player, <u>**12-Pick is objectively better**</u>.
 
@@ -97,7 +97,7 @@
     If you are not sure, it is always better to ask in a [Discord Server](https://discord.gg/browndust2).
 
 ??? question "How do Property Tickets work? Who do I pick?"
-    [Property Selective Draw Exchange Ticket](misc/slang.md/?term=Property Selective Draw Exchange Ticket) allows you to choose a [Property](misc/slang.md/?term=Property) and recieve **random** ★5 Costume from the chosen Property. 
+    [Property Selective Draw Exchange Ticket](misc/slang.md/?term=Property Selective Draw Exchange Ticket) allows you to choose a [Property](misc/slang.md/?term=Property) and receive **random** ★5 Costume from the chosen Property. 
 
     As a new player, almost every Property is good to spend tickets on. You can focus on Light until you get decent Refithea.<br>
     Later on, you can do the math to see what gives more useful Costumes on average.<br>
@@ -203,7 +203,7 @@
 
 
 ??? q-battle "Why are there no mobs in the hunting ground?"
-    This is the unintented feature / bug. It happends because you have an active **Main or NPC Quest**.
+    This is the unintended feature / bug. It happens because you have an active **Main or NPC Quest**.
 
     To fix it, abandon the quest.
     ??? image "Image Guide"
@@ -258,7 +258,7 @@
     **Linux: Follow the guide in the same channel.**
 
 ??? q-tc "My characters appear to be black(ened). How do I fix it? <span id='censor'></span>"
-    This happends because **Silhouette Mode** is enabled. It uses silouettes instead of sprites and disables animations. 
+    This happends because **Silhouette Mode** is enabled. It uses silhouettes instead of sprites and disables animations. 
 
     To remove it, head to **Settings &rarr; Graphics &rarr; Silhouette Mode &rarr; Disable.**
     ??? image "Image Guide"

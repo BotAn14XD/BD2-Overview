@@ -583,7 +583,7 @@ li.md-nav__item:has(a[href$="#"]) {
     color: #ffffff;
 }
 
-.md-typeset a[href*="game-slang"][href*="?term="] {
+.md-typeset a[href*="slang"][href*="?term="] {
     color: #e5b567 !important;
     cursor: pointer;
     text-decoration: underline !important;
@@ -592,7 +592,7 @@ li.md-nav__item:has(a[href$="#"]) {
     transition: color 0.2s;
 }
 
-.md-typeset a[href*="game-slang"][href*="?term="]:hover {
+.md-typeset a[href*="slang"][href*="?term="]:hover {
     color: #ffffff !important;
 }
 

@@ -28,7 +28,7 @@ Beforehand, you must understand **Bonds**.
     * **<u>If you are new, use the bond with the most potential liberation done.</u>**
     * If you are not new, you should choose depending on enemy. 
         * In **general content**, you tend to use same DPS, which means a lot of off-element fights. For that reason, you usually target bonds **with no Property *(Water, Light etc)* DMG Increase**. 
-        * In **property content** *(Fiend Hunter, Guild Raid)*, you need to understand the buffs occuring in a fight. For some fights with no extra Property DMG Increase from boss itself, it *may* be worth to pick bond **with Property DMG Increase**.<br>However, if boss offers additional buff or you have a lot of external buffs from supports, it *may* be worth to pick "general" bond instead.   
+        * In **property content** *(Fiend Hunter, Guild Raid)*, you need to understand the buffs occurring in a fight. For some fights with no extra Property DMG Increase from boss itself, it *may* be worth to pick bond **with Property DMG Increase**.<br>However, if boss offers additional buff or you have a lot of external buffs from supports, it *may* be worth to pick "general" bond instead.   
         * For **defensive / support bonds**, pick depending on damage type you are facing. 
     
     Of course, there are rare exceptions to this generalized advice and you can always rely on different guides or **[calculator](https://browndust2-wiki.souseha.com/en/option-calculator)** in case you are not sure. 
@@ -87,7 +87,7 @@ There are three types of nodes:
 
 1.  **Buffers:** **SP Cost Reduction**, **Cooldown Reduction** are the highest priority, followed by **Duration Increase**, **AoE Expansion** and regular Buff Increases.
 
-2.  **DPS:** "Quality of Life" upgrades first (**SP Cost Reduction**, **Cooldown Reduction**, **AoE Expansion**). **<u>Do not target Damage nodes until you are done with most of support</u>**.
+2.  **DPS:** "Quality of Life" upgrades first (**SP Cost Reduction**, **Cooldown Reduction**, **AoE Expansion**). **<u>Do not target Damage nodes until you are done with most supports</u>**.
 
 !!! quote ""
     **For a detailed priority list, check out <u>[Cymmina's Potential Guide](http://cymmina.gamependium.com/browndust2/growth.html#potentials)</u>**.
@@ -95,7 +95,7 @@ There are three types of nodes:
 ---
 
 !!! tip "QoL Thing You Should Know #1" 
-    You do not need to check every costume to check their Potential Liberation Status. Instead, you can check them freely in Compainion Tab or during Battle, when selecting the costume.
+    You do not need to check every costume to check their Potential Liberation Status. Instead, you can check them freely in Companion Tab or during Battle, when selecting the costume.
     ??? note "Image Guide"
         ![Potential Liberaion Status Checks](../assets/images/potential-liberation/pots-shortcuts.png)
 

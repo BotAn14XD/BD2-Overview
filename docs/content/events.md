@@ -12,7 +12,7 @@ To access the event, find the icon on the right side of the **Home Screen**.
 !!! image "Event Menu"
     ![Event Menu](../assets/images/season-event/event_menu.avif)
 
-Event Menu typically consists of:
+The Event Menu typically consists of:
 
 * **Story**
 * **Normal Battles** 
@@ -27,28 +27,29 @@ Event Menu typically consists of:
 
 ## Story
 
-Story of the Season Event consists of Episodes, with each Episode giving a reward upon completion, consisting of $80-100$ {{Dia}} **Dias** and $650-750$ **Event Currency**.
+The Story of the Season Event consists of Episodes, with each Episode giving a reward upon completion, consisting of $80-100$ {{Dia}} **Dias** and $650-750$ **Event Currency**.
 
-There are usually $10 — 14$ Episodes, usually split between **2 Season Events**. It means that *typically* half of the story is given in the first two weeks (first Season Event), and another half of the story is given in the second two weeks (second Season Event).
+There are usually $10 — 14$ Episodes, usually split between **2 Season Events**. It means that *typically* half of the story is given in the first two weeks (first Season Event), and other half of the story is given in the second two weeks (second Season Event).
 
 !!! question "Stories from previous Events"
-    You can read old Stories via **Story** tab from main menu, but you **will not** receive any rewards from doing so. 
+    You can read old Stories via the **Story** tab from main menu, but you **will not** receive any rewards from doing so. 
     
     * Currently, **Going Home** and **Operation M.O.E.** Season Events are not available due to certain circumstances, you can find records of those on YouTube.
 
     ??? image "Image Guide"
         ![Old Stories Access](../assets/images/season-event/old-story.avif)
 
-    Note that Stories take the name of the **Event of first two weeks** (if they are combined).
+    Note that Stories take the name of the **Event of the first two weeks** (if they are combined).
     
-    That means that whole story covered in both **«Strange Request»** and **«Dark Magica»** Season Events will be displayed under **«Strange Request»** name.
+    That means that the whole story covered in both **«Strange Request»** and **«Dark Magica»** Season Events will be displayed under the **«Strange Request»** name.
+
 ---
 
 
 
 ## Event Costume
 
-Each Event, there are total of **4 Costumes** that are chosen to be the Event ones. 
+Each Event, there are a total of **4 Costumes** that are chosen to be the Event ones. 
 
 You can check the list of Costumes by pressing the corresponding tab on the top of the page.
 
@@ -60,14 +61,49 @@ You can check the list of Costumes by pressing the corresponding tab on the top 
 
 Each Costume provides a **Bonus** to the **Event Currency Gain** from **Normal** and **Challenge Battles**, up to $100\%$.
 
-<u>To obtain a bonus, **you only need to own costumes**, not actually using them in the battle.</u>
+<u>To obtain a bonus, **you only need to own the costumes**, not using them in the battle.</u>
 
 ## Normal and Challenge Battles
 
-## Fiend Hunter
+Each Event, there are total of 15 **Normal** and **Challenge Battles** you can participate in.
+
+Successfully winning in any Battle gives you **Event Currency**. Additionally, there are 3 **Clear Rewards** — one-time rewards obtained whenever you satisfy the condition.
+
+!!! note "Conditions"
+    * Win the Battle
+    * Win with everyone survived$^{[1]}$ / Win the battle with less than 2 fatigued$^{[2]}$
+    * Win the battle within 8 turns or less
+
+    ---
+
+    $[1]$: For **Normal Battles** $1-4$, $5-9$ and $11-14$.<br>
+    $[2]$: For **Normal Battles** $5$, $10$, $15$ and **all Challenge Battles**.
+
+The **Clear Rewards** are not changed depending on the Level and are affected only by type of Battle (Normal / Challenge) and Event Currency Boost Gain.
+
+!!! note "Clear Rewards"
+    **Normal Battles:**
+
+    * $125$ **Event Currency**
+    * $25$ {{Dia}} **Dias**
+    * $25$ {{Dia}} **Dias**
+
+    ---
+
+    **Challenge Battles:**
+
+    * $125$ **Event Currency**
+    * $50\text{K}$ {{Gold}} **Gold**
+    * $50\text{K}$ {{Gold}} **Gold**
+
+### Quick Battle
+
+# WORK IN PROGRESS
+
+<!--## Fiend Hunter
 
 ## Missions
 
 ## Event Shop
-
+-->
 
