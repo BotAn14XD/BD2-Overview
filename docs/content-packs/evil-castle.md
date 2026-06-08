@@ -8,7 +8,7 @@ comments: true
 Evil Castle - PvE mode, offering both single-time and repetitive content.
 
 !!! abstract "Unlock Requirement"
-    Clear **Story Pack 4 "Cat Daddy" (Normal Diffuculty)**.
+    Clear **Story Pack 4 "Cat Daddy" (Normal Difficulty)**.
 
 **Evil Castle Consists of 5 Towers:**   
 <table>
@@ -32,33 +32,33 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
 
 ???+ abstract "Tower of Pride Scoring System ( \[ \+ Score ] — Boss Values )"
     === "Floor 1"
-        * **Entile at least 4 character(s) with Fire prorerty: +2000 \[\+4000\]**
+        * **Entile at least 4 character(s) with Fire property: +2000 \[\+4000\]**
         * **Win the battle within 1 turns or less: +1500 \[\+3000\]**
         * **Win the battle within 3 turns or less: +1000 \[\+2000\]**
         * **Win the battle within 5 turns or less: +500 \[\+1000\]**                        
     === "Floor 2"
-        * **Entile at least 4 character(s) with Light prorerty: +2000 \[\+4000\]**
+        * **Entile at least 4 character(s) with Light property: +2000 \[\+4000\]**
         * **Win the battle within 1 turns or less: +1500 \[\+3000\]**
         * **Win the battle within 3 turns or less: +1000 \[\+2000\]**
         * **Win the battle within 5 turns or less: +500 \[\+1000\]** 
     === "Floor 3"
-        * **Entile at least 4 character(s) with Water prorerty: +2000 \[\+4000\]**
+        * **Entile at least 4 character(s) with Water property: +2000 \[\+4000\]**
         * **Win the battle within 1 turns or less: +1500 \[\+3000\]**
         * **Win the battle within 3 turns or less: +1000 \[\+2000\]**
         * **Win the battle within 5 turns or less: +500 \[\+1000\]**
     === "Floor 4"
-        * **Entile at least 4 character(s) with Light prorerty: +2000 \[\+4000\]**
+        * **Entile at least 4 character(s) with Light property: +2000 \[\+4000\]**
         * **Win the battle within 1 turns or less: +1500 \[\+3000\]**
         * **Win the battle within 3 turns or less: +1000 \[\+2000\]**
         * **Win the battle within 5 turns or less: +500 \[\+1000\]** 
     === "Floor 5"
-        * **Entile at least 3 character(s) with Wind prorerty: +2000 \[\+4000\]**
+        * **Entile at least 3 character(s) with Wind property: +2000 \[\+4000\]**
         * **Win the battle within 1 turns or less: +1500 \[\+3000\]**
         * **Win the battle within 3 turns or less: +1000 \[\+2000\]**
         * **Win the battle within 5 turns or less: +500 \[\+1000\]**
     === "Floor 6"
-        * **Entile at least 2 character(s) with Light prorerty: +1750 \[\+3500\]**
-        * **Entile at least 2 character(s) with Darkness prorerty: +1750 \[\+3500\]**
+        * **Entile at least 2 character(s) with Light property: +1750 \[\+3500\]**
+        * **Entile at least 2 character(s) with Darkness property: +1750 \[\+3500\]**
         * **Win the battle within 3 turns or less: +1000 \[\+2000\]**
         * **Win the battle within 5 turns or less: +500 \[\+1000\]**
     ---
@@ -79,7 +79,7 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
 
 !!! image "Newbie Advices"
     **1. It is important to complete tower at least once to start gaining resources for crafting gear.**<br>
-    **2. <u>Do NOT chase fulfilling property requirenment as very new player.**</u><br><br>While it is important to have as best score as possible, that task isn't as benefial and requires a lot of investment in DPS and supports you may not have.<br><br>Intstead, exploit free points from full HP and try to deal 1m damage with single-hit costumes such as Dream Bride Eclipse. Using your general team is enough for the start.
+    **2. <u>Do NOT chase fulfilling property requirement as very new player.**</u><br><br>While it is important to have as best score as possible, that task isn't as benefical and requires a lot of investment in DPS and supports you may not have.<br><br>Instead, exploit free points from full HP and try to deal 1m damage with single-hit costumes such as Dream Bride Eclipse. Using your general team is enough for the start.
 
     
 
@@ -193,7 +193,7 @@ Often considered to be a general content (until Floor 151+).
 Tower of Salvation is a **seasonal** roguelike gamemode where you climb Floors of the Tower in order to obtain resources.
 
 !!! info ""
-    * <u>**Unlock Requirenment: Clear Story Pack 9 "Iron Mask" (Normal Diffuculty)**</u>.
+    * <u>**Unlock requirement: Clear Story Pack 9 "Iron Mask" (Normal Difficulty)**</u>.
     * **Levels:** 10 Difficulties \[ 10-30 floors each \]
     * **Season Duration:** 4 weeks with settlement period on last day (starting at {{ time('15:00') }}).
     * **Daily attempts:** 3 {{ Key_of_Salvation }} per day.

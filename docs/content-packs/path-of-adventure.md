@@ -4,7 +4,7 @@ description: Brown Dust II Path of Adventure Content pack overview & useful advi
 Path of Adventure is one of Content Packs, offering you daily income of useful materials such as {{ Gold }} Gold, {{ Red_Slime }} Slimes and {{ Light_Magic_Crystal }} Magic Crystals.
 
 !!! abstract "Unlock Requirement"
-    Clear **Story Pack 3 "Mist Man" (Normal Diffuculty)**.
+    Clear **Story Pack 3 "Mist Man" (Normal Difficulty)**.
 
 
 !!! question "How should I use {{ Cooked_Rice }} Rice and {{ Torch }} Torches?"

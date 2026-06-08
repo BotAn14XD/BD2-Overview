@@ -16,7 +16,7 @@ Mirror Wars is the PvP mode where you fight other players' defense teams.
     * *Note:* There is a 9-hour "Settlement Period" on Sunday before reset (starting at {{ time('15:00') }}) during which you cannot attack.
 
 ??? info "Rankings"
-    | Rank 	| Icon 	| Requirenments 	| Ranking Reward 	|
+    | Rank 	| Icon 	| Requirements 	| Ranking Reward 	|
     |:---:	|:---:	|:---:	|:---:	|
     | Bronze 	| ![Bronze Rank](../assets/images/mirror-wars/ranking-icons/icon_pvprank01_1.png){ .h-60 }	| Victory Points 1000 or above 	| 400 {{ Dia }} 	|
     | Silver III 	| ![Silver III Rank](../assets/images/mirror-wars/ranking-icons/icon_pvprank02_2.png){ .h-60 }	| Victory Points 1050 or above 	| 400 {{ Dia }} 	|
@@ -66,7 +66,7 @@ Mirror Wars works differently than most of PvE.
     You cannot use your expensive "nuke" skills on Turn 1 like you do in Story / General Content.
 
 ??? example "Preemptive Costume Mechanic Explained"
-    Some costumes have the ability to be used preemptive. They are used on so-called **0th turn**, which will still take SP, leaving you with less SP for following turns. 
+    Some costumes have the ability to be used preemptively. They are used on so-called **0th turn**, which will still take SP, leaving you with less SP for following turns. 
 
     !!! example ""
         For example, using maxed **Comeback Idol Granhildr** preemptively on defense will give your team 6 (Initial) - 5 (Costume Preemptive) + 6 (Turn 2 Gain) = 7 SP on Turn 2. 

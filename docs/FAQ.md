@@ -137,7 +137,7 @@
 
 ## Battle & Mechanics
 
-??? q-battle "What is "Property" and how does it work?"
+??? q-battle "What is "Property" and how does it work?" <span id='property'></span>
     ![Property Illustration](assets/images/faq/property.avif){ align=right}
     [Property](misc/slang.md/?term=Property) is technically the Element of each Character.
 

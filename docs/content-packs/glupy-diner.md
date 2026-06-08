@@ -4,7 +4,7 @@ description: Brown Dust II Glupy Diner Content Pack Overview.
 
 ## **Overview**
 
-Glupy Diner is a Content Pack offering you daily income of {{Gold}} **Gold**, {{Refining_Powder}} **Refining Powder**, {{Deco_Coin}} **Deco Coins**, {{Light_Magic_Crystal}} **Magic Crystals** and ability to do **encounters** with in-game costumes, leading to **Live2D interactions** with ones.
+Glupy Diner is a Content Pack offering you daily income of {{Gold}} **Gold**, {{Refining_Powder}} **Refining Powder**, {{Deco_Coin}} **Deco Coins**, {{Light_Magic_Crystal}} **Magic Crystals** and ability to do **encounters** with in-game costumes, leading to **Live2D interactions** with them.
 
 !!! abstract "Unlock Requirement"
     **Unlocked since the start of the game.**

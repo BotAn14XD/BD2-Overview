@@ -23,7 +23,7 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
 ## **Battlefield**
 
 !!! absract "Grid System"
-    * In general content (such a Story or [Evil Castle Towers](../content-packs/evil-castle.md)), you have ability to use **5 characters** on the field.
+    * In general content (such as Story or [Evil Castle Towers](../content-packs/evil-castle.md)), you have ability to use **5 characters** on the field.
     * Field is a <u>**3x4 rectangular grid**</u>, in which you can place your characters however you like.
         * To swap character positioning, click and drag the chibi model of a character to the needed tile.
     !!! warning ""
@@ -31,7 +31,7 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
     ??? image "3x4 Grid Image"
         ![3x4 Grid Image](../assets/images/battle-system/3x4_field.avif)
 
-!!! abstact "Targetting Logic"
+!!! abstact "Targeting Logic"
     Before understanding where would your character attack land, you need to understand how character targets the enemy.
 
     * Each costume has own **Range** — tiles that are affected by the action of the costume. 
@@ -45,14 +45,14 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
     * Second is **Vault**, meaning your character will target **second** closest enemy in the same column, "vaulting" over first one. 
         * If there's only one enemy in the column, it will be targeted instead.
 
-    You can check Target type and Costumes AoE either in Compainion tab or directly in the battle by clicking the character card. 
+    You can check Target type and Costumes AoE either in Companion tab or directly in the battle by clicking the character card. 
     ??? image "Target type information in-battle"
         ![Target Type information in-battle](../assets/images/battle-system/dmgtype_view.avif)
     ??? image "Very Front / Vault difference"
         ![Main Target & AoE](../assets/images/battle-system/target_aoe.avif)
 
-!!! question "Advanced Targetting Logic"
-    There are few ways one can change their targetting logic from "normal" one.
+!!! question "Advanced Targeting Logic"
+    There are few ways one can change their targeting logic from "normal" one.
 
     * Having **Taunt** or **Concentrated Fire** status effects make you attack the enemy with that status effect regardless of your attack type (Very Front, Vault).
     * **Target Avoidance** status effect makes your enemy to not target your character if there are other options on the field.
@@ -60,7 +60,7 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
     * **If there is no enemy in the same column as your character, column on the right (to the character) takes priority instead. Thus, it is possible to attack the enemy on the most right column from the most left one.**
         * If there is no enemy in the right column either, left one takes priority.  
     ??? image "Showcase Image"
-        ![Targetting Logic](../assets/images/battle-system/targetting.avif)
+        ![Targeting Logic](../assets/images/battle-system/targeting.avif)
 
 !!! abstract "Damage Formula"
     $\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MATK} / \textcolor{orange}{HP}} \text{/ \textcolor{white}{Energy Guard}]} \\\\
@@ -106,7 +106,7 @@ As said above, you can freely change positioning of characters and their order b
 * To change the order of characters, use [Swap Order]( #__tabbed_2_2 ) feature or it's quick ![Replace Shorcut Icon](../assets/images/battle-system/icons/icon_change_shortcut.avif "Replace Shortcut"){ .icon } shortcut
 
 !!! question "Why does it matter?"
-    * Some supports have **limited Range / Aura**, meaning you need to fit other units within that range to recieve buff *(like Medical Club Teresse, Adventure of the Unknown Diana, Refithea)*
+    * Some supports have **limited Range / Aura**, meaning you need to fit other units within that range to receive buff *(like Medical Club Teresse, Adventure of the Unknown Diana, Refithea)*
     * Enemy layout can require DPS on different column for better AoE coverage
     * Enemy can be too strong for some characters to survive but fine for others within same team.
     
@@ -165,11 +165,11 @@ In the battle, you can obtain a lot of information about your units and enemies.
     * Each **character** has different knockback for 1 tile and applied to 1 enemy. Furthermore, there are some **costumes** that can target more enemies or have bigger distance.
     * Knockback **always** deal 1 DMG to the Main Target no matter the buffs applied.
     * If the tile to which you try to knockback into is occupied by enemy or tombstone, knockback will not take effect.
-    * If the basic knockback results in an enemy colliding with another, latter one recieves damage equal to 25% Max HP of **knocked back enemy**. Different costumes which utilize knockback will have greater numbers.
+    * If the basic knockback results in an enemy colliding with another, latter one receives damage equal to 25% Max HP of **knocked back enemy**. Different costumes which utilize knockback will have greater numbers.
     * Knockback shares the same **damage type** as character; meaning, **Diana** will have {{ Magical }} **Magical Damage** from knockback, and **Teresse** will have {{ Physical }} **Physical Damage**.
     * Knockback damage <u>**(for the one bumped INTO)**</u> **is affected by Crit (Rate / DMG), Property (dis)advantage (DMG / Resist), DEF/MRES, Augmentation / Enemy Vulnerability, Chains and Weak Point bonuses**.
     * Knockback damage <u>**(for the one bumped INTO)**</u>, as any other HP-related skill, has 50k cap taken before applying any other buffs. Means, if knocked back enemy's HP is 2,000,000, only 50k will be taken into calculations instead of expected 2m.
-    * Knockback adds Chain to main target, similar to basic attack, although the one bumped into DOES NOT recieve a chain stack.
+    * Knockback adds Chain to main target, similar to basic attack, although the one bumped into DOES NOT receive a chain stack.
     * Knockback damage <u>**(for the one bumped INTO)**</u> cannot be evaded. However, Main Target with Evade active **cannot** be knocked back. 
     * In Fiend Hunter / Guild Raid, you cannot knockback (move) boss tiles. Also, some enemies have knockback immune which negates knockback action on them completely.
     * Attempts to knockback enemy out of grid (out of bounds) will have no effect. 
@@ -230,7 +230,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
 
     !!! example ""
         * **It tries to activate costumes in order of characters in a team (from first to the last).**
-            * It also tries to activate costumes shown in Compainion / Pre-battle screens first, meaning it will keep turn 1 settings almost every time.
+            * It also tries to activate costumes shown in Companion / Pre-battle screens first, meaning it will keep turn 1 settings almost every time.
         * **If you do not have enough SP, skill (costume) will be not picked.**
         * **If you do have SP but for cheaper costume only, that costume will be picked instead.**
 
@@ -250,7 +250,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
 
     * It takes longer time than actually just pressing battle button with no preparation
     * It does not care about the enemy and positioning, meaning you will likely run into issues sooner or later.
-    * <u>**Auto Battle does not teach you how to be a good playere.**</u>
+    * <u>**Auto Battle does not teach you how to be a good player.**</u>
 
 === "![Game Speed Icon](../assets/images/battle-system/icons/icon_speed.avif){ .icon-list }"
     ### **Game Speed Feature** { #__tabbed_1_5 }
@@ -285,7 +285,7 @@ In the battle, you can obtain a lot of information about your units and enemies.
 <div class="tab-align" markdown>
 === "![Replace](../assets/images/battle-system/icons/icon_pictorialbook1.avif){ .icon-list }"
     ### **Replace Feature** { #__tabbed_2_1 }
-    Feauture allowing you to replace your characters during battle preparation.
+    Feature allowing you to replace your characters during battle preparation.
     
     To replace a character, pick it from the list and tap on the character you want to replace.
     ??? image "Image Guide"
@@ -384,14 +384,14 @@ Death Time is a feature that should prevent the game from having extremely long 
 
 It appears **after 10th Turn** in **Story, Normal / Challenge Battles of Event, Mirror Wars and Evil Castle**. It also appears on **different turn** in **Golden Colosseum** (depending on rule), and does **NOT** appear in **Fiend Hunter and Guild Raid**.
 
-Every 2 turns, every unit on the battlefield recieves **+100% ATK / MATK increase**, as well as **DEF / MRES descrease by 100%** and **Incoming Damage increase by 50%**. This means that characters like Gynt and Remnunt will no longer be effective to lock down enemy with their ATK reduction.
+Every 2 turns, every unit on the battlefield receives **+100% ATK / MATK increase**, as well as **DEF / MRES decrease by 100%** and **Incoming Damage increase by 50%**. This means that characters like Gynt and Remnunt will no longer be effective to lock down enemy with their ATK reduction.
 
 Death Time can be accumulated with no limits on its amount, meaning in case of "0 DMG Bug", you can reach as many Turns as you want, although it's quite pointless.
 ??? image "Death Time showcase"
     ![Death Time](../assets/images/battle-system/death_time.avif)
 
 ### ![Set Costume order icon](../assets/images/battle-system/icons/icon_setting_costume_active.avif){.icon-header} **Set Costume order**
-Set Costume order is a feature that allows you to make pre-determined skill order activation. This is useful when you're setting up [Mirror Wars](../content-packs/mirror-wars.md) or repetive fights in gamemodes as Fiend Hunter. If you have feature active, you will see ![Set Costume order icon](../assets/images/battle-system/icons/icon_setting_costume_active.avif "Set Costume order"){.icon} icon in the character's card.
+Set Costume order is a feature that allows you to make pre-determined skill order activation. This is useful when you're setting up [Mirror Wars](../content-packs/mirror-wars.md) or repetitive fights in gamemodes as Fiend Hunter. If you have feature active, you will see ![Set Costume order icon](../assets/images/battle-system/icons/icon_setting_costume_active.avif "Set Costume order"){.icon} icon in the character's card.
 
 To use it, press on the chibi character **before turn 1** and press **Set Costume order** button in the bottom part of the screen.
 ??? image "Image Guide"
@@ -406,11 +406,11 @@ In opened menu, you will see 10 slots, corresponding to each of your skill activ
     ![Set Costume order UI](../assets/images/battle-system/set_costume_order_guide2.avif)
 
 ### Status Effects
-Characters and enemies can have different status effects, which enhance, dimish or modify character impact in a battle. <br>
+Characters and enemies can have different status effects, which enhance, diminish or modify character impact in a battle. <br>
 Most common status effects (in a Story Packs) are **Taunt**, **Counter**, **Evade**, **Energy Guard** and **Immunity**.
 
 * ![Taunt](../assets/images/battle-system/icons/bufficon_26.avif "Taunt"){.icon} **Taunt** makes your incoming attacks ignore target logic and attack that specific enemy. Is removable by dispel units (Scheherazade, Yuri, Eleanner), unless enemy has immunity.
-* ![Counter](../assets/images/battle-system/icons/bufficon_39.avif "Counter"){.icon} **Counter** makes your units recieve damage when attacking the enemy. Often paired with **Taunt**. There are a lot of types of Counter, so read ability to understand what type of it you're facing. Also dispellable by dispel units, unless enemy has immunity. 
+* ![Counter](../assets/images/battle-system/icons/bufficon_39.avif "Counter"){.icon} **Counter** makes your units receive damage when attacking the enemy. Often paired with **Taunt**. There are a lot of types of Counter, so read ability to understand what type of it you're facing. Also dispellable by dispel units, unless enemy has immunity. 
 * ![Evade](../assets/images/battle-system/icons/bufficon_62.avif "Evade"){.icon} **Evade** completely disregards your attacks onto enemy. That means that any effects taking place with attacks *(such as Dispel, DoT etc)* **will not work** on enemy evading. To bypass the Evade, use **Self-Destruction** skills (Wiggle, Morpeah's summons).
 * ![Energy Guard](../assets/images/battle-system/icons/bufficon_38.avif "Energy Guard"){.icon} **Energy Guard** acts as a shield, increasing current character's HP on top of cap. To bypass it, either use Dispel, deal True Damage or just deal enough DMG to remove it.
 * ![Immunity](../assets/images/battle-system/icons/bufficon_61.avif "Immunity"){.icon} **Immunity** tells that character has immunity to some sort of actions, such as Weakness, Buff Removal, Knockback etc.

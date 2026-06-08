@@ -1124,7 +1124,7 @@ comments: true
                 <span class="alias-tag miscellaneous-tag ignore-exact">Miscellaneous</span>
                 <span class="alias-tag">GCalc</span>
             </div>
-            <p>[Gear Calculator](https://browndust2-db.souseha.com/en/option-calculator) made by Souseha.</p>
+            <p><a href="https://browndust2-db.souseha.com/en/option-calculator">Gear Calculator</a> made by Souseha.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Gentle Maid Anastasia</h3>

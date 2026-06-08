@@ -68,7 +68,7 @@ For each Costume, the **SP Cost** and **Effects** are different.
     ---
 
     * **Total theoretical:** **560 / month**{.yellow} ~ **3.1 Costumes / month**{.magenta}
-    * **Total realistical:** **450 ~ 505 / month**{.yellow} ~ **2.5 ~ 2.8 Costumes / month**{.magenta}
+    * **Total realistic:** **450 ~ 505 / month**{.yellow} ~ **2.5 ~ 2.8 Costumes / month**{.magenta}
 
 ---
 
@@ -146,22 +146,40 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Miracle Marine Mamonir** **Burst 3**{.yellow}
 
 === "Medium Priority"
-    * **New Hire Nebris** **Bursts 2-3**{.yellow}
+    * **Fire Graffiti Anastasia** **Burst 3**{.yellow}
+    * **Beach Vacation Eclipse** **Burst 3**{.yellow}
+    * **Night of Jealousy Levia** **Burst 1**{.yellow}
+    * **Ocean Vanguard Luvencia** **Burst 3**{.yellow}
     * **Miracle Marine Mamonir** **Burst 1-2**{.yellow}
+    * **Beachside Justice Michaela** **Burst 3**{.yellow}
+    * **New Hire Nebris** **Bursts 2-3**{.yellow}
+    * **Deadeye Nekyndalia** **Burst 1**{.yellow}
     * **Thorn of the Desert Rubia** **Burst 3**{.yellow}
     * **Bikini Sylvia** **Bursts 1-3**
 
 === "Low Priority"
+    * **Fire Graffiti Anastasia** **Bursts 1-2**{.yellow}
+    * **Prophetic Dream Darian** **Bursts 1-3**{.yellow}
+    * **Beach Vacation Eclipse** **Bursts 1-2**{.yellow}
+    * **Code Name O Elise** **Bursts 1-3**{.yellow}
+    * **Night of Jealousy Levia** **Bursts 2-3**{.yellow}
+    * **Ocean Vanguard Luvencia** **Bursts 1-2**{.yellow}
     * **Wild Dog Luvencia** **Bursts 1-3**{.yellow}
+    * **Beachside Justice Michaela** **Bursts 1-2**{.yellow}
     * **New Hire Nebris** **Burst 1**{.yellow}
     * **Magical Violet Palette** **Bursts 2-3**{.yellow}
     * **Thorn of the Desert Rubia** **Burst 1-2**{.yellow}
     * **Reclaimed Destiny Sacred Justia** **Bursts 1-3**{.yellow}
+    * **Pool Party Scheherazade** **Burst 3**{.yellow}
     * **DJ Venaka** **Bursts 1-3**{.yellow}
     * **Frozen Queen Wilhelmina** **Bursts 1-3**{.yellow}
 
 === "Complete Skip"
     * **Blood Glutton Justia** **Bursts 1-3**{.yellow}
-    * **The Lapis Witch Scheherazade** **Bursts 1-3**{.yellow}
+    * **Pool Party Justia** **Bursts 1-3**{.yellow}
+    * **Deadeye Nekyndalia** **Bursts 2-3**{.yellow}
     * **Magical Violet Palette** **Burst 1**{.yellow}
+    * **Pool Party Scheherazade** **Bursts 1-2**{.yellow}
+    * **The Lapis Witch Scheherazade** **Bursts 1-3**{.yellow}
+
 </div>  
