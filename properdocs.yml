@@ -73,6 +73,7 @@ plugins:
         - icon
         - icon-header
         - icon-list
+        - card-header-img
   - git-revision-date-localized:
       type: date
       timezone: UTC
@@ -88,7 +89,7 @@ plugins:
         'game-mechanics/damage-formula.md': 'mechanics/damage-formula.md'
         'character-progression/burst.md': 'progression/burst.md'
         'character-progression/gear-system.md': 'progression/gear.md'
-        'character-progression/potential-liberation.md': 'progression/potentials.md'
+        'character-info/potential-liberation.md': 'progression/potentials.md'
         'miscellaneous/game-slang.md': 'misc/slang.md'
 
 markdown_extensions:

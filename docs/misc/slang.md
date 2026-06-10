@@ -2,10 +2,10 @@
 
 description: The Glossary of Slang, used in the Brown Dust II Community.
 comments: true
-
 ---
-#
+
 ![Game Slang](../assets/images/site/index-pc-nav-9.avif){: .card-header-img }
+#
 
 <input type="text" id="slangSearch" onkeyup="filterSlang()" placeholder="Search for slang or full name..." class="slang-search-box">
 

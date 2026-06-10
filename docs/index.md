@@ -1,6 +1,5 @@
 ---
 glightbox: false
-
 ---
 
 # Brown Dust II: Tactical Compendium
@@ -46,7 +45,7 @@ This site is a work in progress, focusing on high-quality explanations for every
 ---
 
 <div class="banner-container">
-    <img src="assets/images/site/index-pc-3.avif" alt="Fundamentals" class="responsive-banner">
+    <img src="assets/images/site/index-pc-3.avif" alt="Character Progression" class="responsive-banner">
 </div>
 
 <div class="grid cards center-content" markdown>
@@ -71,7 +70,20 @@ This site is a work in progress, focusing on high-quality explanations for every
 ---
 
 <div class="banner-container">
-    <img src="assets/images/site/index-pc-4.avif" alt="Fundamentals" class="responsive-banner">
+    <img src="assets/images/site/index-pc-7.avif" alt="Content" class="responsive-banner">
+</div>
+
+<div class="grid cards center-content" markdown>
+-   ![Season Event](assets/images/site/index-pc-nav-18.avif){: .card-header-img }
+
+    ---
+
+    [View Page →](./content/events.md){: .md-button }
+</div>
+---
+
+<div class="banner-container">
+    <img src="assets/images/site/index-pc-4.avif" alt="Content Packs" class="responsive-banner">
 </div>
 
 <div class="grid cards center-content" markdown>
@@ -92,7 +104,7 @@ This site is a work in progress, focusing on high-quality explanations for every
 ---
 
 <div class="banner-container">
-    <img src="assets/images/site/index-pc-5.avif" alt="Fundamentals" class="responsive-banner">
+    <img src="assets/images/site/index-pc-5.avif" alt="Misc" class="responsive-banner">
 </div>
 
 <div class="grid cards center-content" markdown>
@@ -105,7 +117,7 @@ This site is a work in progress, focusing on high-quality explanations for every
 </div>
 ---
 <div class="banner-container">
-    <img src="assets/images/site/index-pc-6.avif" alt="Fundamentals" class="responsive-banner">
+    <img src="assets/images/site/index-pc-6.avif" alt="Community" class="responsive-banner">
 </div>
 
 <div class="grid cards center-content" markdown>

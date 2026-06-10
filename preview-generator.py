@@ -96,3 +96,35 @@ for block in slang_blocks:
     generated_count += 1
 
 print(f"Success! Automatically processed {generated_count} landing page proxy routes with screenshot assets.")
+
+
+sitemap_path = "site/sitemap.xml"
+
+if os.path.exists(sitemap_path):
+    print(f"Updating '{sitemap_path}' with dynamic landing page proxy routes...")
+    
+    with open(sitemap_path, "r", encoding="utf-8") as f:
+        sitemap_content = f.read()
+
+    if "</urlset>" in sitemap_content:
+        new_urls_block = ""
+        
+        for item in os.listdir(output_base):
+            item_path = os.path.join(output_base, item)
+            if os.path.isdir(item_path):
+                proxy_url = f"https://botan14xd.github.io/BD2-Overview/misc/slang/{item}/"
+                
+                new_urls_block += f"""  <url>
+    <loc>{proxy_url}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>\n"""
+        
+        updated_sitemap = sitemap_content.replace("</urlset>", f"{new_urls_block}</urlset>")
+        
+        with open(sitemap_path, "w", encoding="utf-8") as f:
+            f.write(updated_sitemap)
+            
+        print("Sitemap successfully updated for Google Search Console!")
+else:
+    print(f"Warning: Could not locate sitemap at {sitemap_path} to inject dynamic routes.")

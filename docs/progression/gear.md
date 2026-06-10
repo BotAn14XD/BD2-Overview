@@ -5,7 +5,10 @@ comments: true
 image: assets/images/site/gear-system-banner.png
 
 ---
-# **Gear System & Crafting Guide — Brown Dust 2**
+
+![Gear System](../assets/images/site/index-pc-nav-4.avif){: .card-header-img }
+#
+
 The Gear System is an important character progression system. It increases a character's stats, improving damage output or improving sustain on the battlefield.
 
 There are **5 gear slots** available for your characters: {{Weapon}} **Weapon**, {{Armor}} **Armor**, {{Helmet}} **Helmet**, {{Accessory}} **Accessory** and {{Gloves}} **Gloves**.

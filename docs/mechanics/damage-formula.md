@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # Damage Formula — Brown Dust II
 
 !!! abstract "TL;DR"

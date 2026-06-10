@@ -2,7 +2,8 @@
 description: Brown Dust II Battle System Overview
 comments: true
 ---
-# **Battle System**
+![Battle System](../assets/images/site/index-pc-nav-2.avif){: .card-header-img }
+#
 
 Brown Dust II is a turn-based strategy in which you have ability to position your characters, as well as choose character's skills in order to defeat the enemies.
 

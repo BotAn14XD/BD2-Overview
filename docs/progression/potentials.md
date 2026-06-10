@@ -3,7 +3,8 @@ description: Brown Dust II Potential Liberation & Bonding System explanation, ov
 comments: true
 ---
 
-# **Potential Liberation**
+![Potential Liberation](../assets/images/site/index-pc-nav-5.avif){: .card-header-img }
+#
 
 Potential Liberation (often called **"Pots"**) is the system used to upgrade a costume's performance and a character's stats.
 

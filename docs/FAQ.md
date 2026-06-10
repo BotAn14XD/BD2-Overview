@@ -1,3 +1,8 @@
+---
+description: "Quick answers to frequently asked community questions about systems and mechanics."
+image: assets/images/site/faq-small-thumb.png
+comments: true
+---
 ![Commonly Asked Questions](assets/images/site/index-pc-nav-1.avif){: .card-header-img }
 #
 
@@ -94,6 +99,12 @@
     * **Homunculus Lathel +3** (4 tickets)
     * ...
 
+    ---
+
+    Order, generally speaking, does not matter since at the end you will have same costume set either way. Nonetheless, you can start by picking **B-Rank Idol Helena +1** first to comfortably run your starting team.
+
+    ---
+     
     If you are not sure, it is always better to ask in a [Discord Server](https://discord.gg/browndust2).
 
 ??? question "How do Property Tickets work? Who do I pick?"
