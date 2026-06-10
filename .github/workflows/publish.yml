@@ -53,16 +53,24 @@ jobs:
           force_orphan: true
 
       - name: Notify Discord
-        if: success()
+        if: github.actor != 'github-actions[bot]' && success()
+        env:
+          MSG: ${{ github.event.head_commit.message }}
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
-          cat << 'EOF' > commit_msg.txt
-          ${{ github.event.head_commit.message }}
-          EOF
-          if grep -qi "\[notify\]" commit_msg.txt; then
-            JSON_MSG=$(jq -Rs '.' commit_msg.txt)
-            PAYLOAD="{\"content\": $JSON_MSG}"
-            curl -H "Content-Type: application/json" \
-                 -X POST \
-                 -d "$PAYLOAD" \
-                 ${{ secrets.DISCORD_WEBHOOK_URL }}
+          if echo "$MSG" | grep -qi "\[notify\]"; then
+            CLEAN_RAW=$(echo "$MSG" | sed 's/\[notify\]//gI' | sed '/^[[:space:]]*$/d' | sed 's/"/\\"/g')
+
+            export CLEAN_MSG=$(echo "$CLEAN_RAW" | awk '{printf "%s\\n", $0}' | sed 's/\\n$//')
+
+            curl -X POST -H "Content-Type: application/json" \
+            -d '{
+              "embeds": [{
+                "title": "Site Updated!",
+                "description": "New changes were just pushed to the documentation by **'${{ github.actor }}'**.\n\n**Commit Message:**\n> '"$CLEAN_MSG"'\n\n[View Changes]('${{ github.event.compare }}') | [View Live Site](https://botan14xd.github.io/BD2-Overview/)",
+                "color": 3066993
+              }]
+            }' $WEBHOOK
+          else
+            echo "No [notify] tag found. Skipping Discord."
           fi
