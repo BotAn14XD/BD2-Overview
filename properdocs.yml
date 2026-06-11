@@ -55,7 +55,8 @@ extra_css:
 extra_javascript:
   - javascripts/extra.js
   - javascripts/katex.js
-  - javascripts/custom.js
+  - javascripts/custom.js:
+    async: true
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 plugins:

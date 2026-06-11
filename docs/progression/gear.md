@@ -248,7 +248,8 @@ Except for things mentioned above, Gear is **identical** to the gear of the same
 
     You can keep buying them until the end game since they are better than craftable {{UR_Grade}} {{III}} for **Support Bonus** of **Last Night**.
     ??? image "**Quick Event Shop Priority Guide**"
-        ![Event Shop Recs](../assets/images/gear-system/eshop_recs.avif)
+        ![Event Shop Reccomendations](../assets/images/season-event/eshop_prio.avif)
+    {{ redirect_btn('content/events/', 'Learn more about Season Event', '#5ad7d7') }} 
 
 ---
 

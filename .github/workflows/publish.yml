@@ -61,13 +61,23 @@ jobs:
           if echo "$MSG" | grep -qi "\[notify\]"; then
             CLEAN_RAW=$(echo "$MSG" | sed 's/\[notify\]//gI' | sed '/^[[:space:]]*$/d' | sed 's/"/\\"/g')
 
-            export CLEAN_MSG=$(echo "$CLEAN_RAW" | awk '{printf "%s\\n", $0}' | sed 's/\\n$//')
+            COMMIT_HEADER=$(echo "$CLEAN_RAW" | head -n 1 | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+            BOLD_HEADER="**$COMMIT_HEADER**"
+
+            COMMIT_BODY=$(echo "$CLEAN_RAW" | tail -n +2 | sed '/^[[:space:]]*$/d')
+
+            if [ -n "$COMMIT_BODY" ]; then
+              FORMATTED_BODY=$(echo "$COMMIT_BODY" | awk '{printf "%s\\n", $0}' | sed 's/\\n$//')
+              FINAL_CONTENT="$BOLD_HEADER\\n$FORMATTED_BODY"
+            else
+              FINAL_CONTENT="$BOLD_HEADER"
+            fi
 
             curl -X POST -H "Content-Type: application/json" \
             -d '{
               "embeds": [{
                 "title": "Site Updated!",
-                "description": "New changes were just pushed to the documentation by **'${{ github.actor }}'**.\n\n**Commit Message:**\n> '"$CLEAN_MSG"'\n\n[View Changes]('${{ github.event.compare }}') | [View Live Site](https://botan14xd.github.io/BD2-Overview/)",
+                "description": "New changes were just pushed to the documentation by **'${{ github.actor }}'**.\n\n**Commit Message:**\n'"$FINAL_CONTENT"'\n\n[View Changes]('${{ github.event.compare }}') | [View Live Site](https://botan14xd.github.io/BD2-Overview/)",
                 "color": 3066993
               }]
             }' $WEBHOOK

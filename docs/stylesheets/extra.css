@@ -188,7 +188,7 @@ html {
 }
 .md-typeset .admonition.image,
 .md-typeset details.image {
-  border-color: rgb(90, 215, 215);
+  border-color: #5ad7d7;
 }
 .md-typeset .image > .admonition-title,
 .md-typeset .image > summary {

@@ -4,6 +4,31 @@ def define_env(env):
     def time(t):
         return f'<span class="local-time" data-utc="{t}">{t} UTC</span>'
 
+    @env.macro
+    def redirect_btn(target_page, button_text, color="#2196f3"):
+        payload = f"""
+        <div style="margin-top: 10px; margin-bottom: 5px; width: 100%;">
+            <a href="/BD2-Overview/{target_page}" style="display: block; text-align: center; background-color: transparent; color: #90a4ae; padding: 10px; border-radius: 4px; font-weight: bold; text-decoration: none; font-size: 1.1em; border: 1px solid #2e384d; transition: all 0.2s ease-in-out; user-select: none;" onmouseover="this.style.color='#ffffff'; this.style.backgroundColor='#1a233a'; this.style.borderColor='{color}';" onmouseout="this.style.color='#90a4ae'; this.style.backgroundColor='transparent'; this.style.borderColor='#2e384d';">
+                {button_text} &rarr;
+            </a>
+        </div>
+        """
+        return payload.replace("\n", "").strip()
+
+    @env.macro
+    def share_btn(anchor_id):
+        payload = f"""
+        <span id="{anchor_id}"></span>
+        <span style="float: right; margin-right: 25px; position: relative; z-index: 10; line-height: 1;" onclick="event.stopPropagation();">
+            <input type="button" 
+                   value="Copy Share Link" 
+                   onclick="navigator.clipboard.writeText('https://botan14xd.github.io/BD2-Overview/FAQ/#{anchor_id}'); this.value='Copied!'; this.style.color='#4caf50'; this.style.backgroundColor='#11291b'; this.style.borderColor='#4caf50'; setTimeout(()=>{{this.value='Copy Share Link'; this.style.color='#90a4ae'; this.style.backgroundColor='#1e2638'; this.style.borderColor='#2e384d'}}, 2000);" 
+                   style="all: unset; display: inline-block; white-space: nowrap; color: #90a4ae; font-size: 0.9em; font-weight: bold; cursor: pointer; background: #1e2638; padding: 4px 12px; border-radius: 4px; border: 1px solid #2e384d; transition: all 0.2s ease-in-out; user-select: none; box-sizing: border-box; vertical-align: middle;" 
+                   onmouseover="if(this.value==='Copy Share Link'){{this.style.color='#ffffff'; this.style.backgroundColor='#2a354d'; this.style.borderColor='#4f5d75';}}" 
+                   onmouseout="if(this.value==='Copy Share Link'){{this.style.color='#90a4ae'; this.style.backgroundColor='#1e2638'; this.style.borderColor='#2e384d';}}">
+        </span>
+        """
+        return payload.replace("\n", "").strip()
 
     images = {
         "S1_Ability_S_Book": ["assets/images/icons/icon_resource901_49.png", "★1 Ability S. Book"],

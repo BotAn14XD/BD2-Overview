@@ -77,11 +77,7 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
     \times \; (100\% + \text{Weak Point\%}) \\\\
     \times \; (100\% + \text{Support Bonus\%})$
 
-    ---
-
-    <big>**Check the [Damage Formula Page](../mechanics/damage-formula.md) for more detailed information regarding the formula.**</big>
-
-
+    {{ redirect_btn('mechanics/damage-formula', 'Detailed Formula Breakdown') }}
 
 
 !!! example "Chain Mechanic"
