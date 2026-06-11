@@ -146,12 +146,12 @@ def surgically_fix_faq_meta():
     html = re.sub(r'<meta name="twitter:[^>]+>', '', html)
     
     clean_meta = """
-    <meta property="og:image" content="https://botan14xd.github.io/BD2-Overview/assets/images/site/faq-small-thumb.png" />
-    <meta property="og:image:secure_url" content="https://botan14xd.github.io/BD2-Overview/assets/images/site/faq-small-thumb.png" />
+    <meta property="og:image" content="https://botan14xd.github.io/BD2-Overview/assets/images/site-assets/faq-small-thumb.png" />
+    <meta property="og:image:secure_url" content="https://botan14xd.github.io/BD2-Overview/assets/images/site-assets/faq-small-thumb.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="300" />
     <meta property="og:image:height" content="300" />
-    <meta name="twitter:image" content="https://botan14xd.github.io/BD2-Overview/assets/images/site/faq-small-thumb.png" />
+    <meta name="twitter:image" content="https://botan14xd.github.io/BD2-Overview/assets/images/site-assets/faq-small-thumb.png" />
     <meta name="twitter:card" content="summary" />
     """
     
