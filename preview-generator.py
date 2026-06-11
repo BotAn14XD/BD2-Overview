@@ -128,3 +128,31 @@ if os.path.exists(sitemap_path):
         print("Sitemap successfully updated for Google Search Console!")
 else:
     print(f"Warning: Could not locate sitemap at {sitemap_path} to inject dynamic routes.")
+
+def surgically_fix_faq_meta():
+    faq_path = "site/FAQ/index.html"
+    import os
+    if not os.path.exists(faq_path):
+        print("FAQ compiled file not found, skipping meta fix.")
+        return
+
+    with open(faq_path, "r", encoding="utf-8") as f:
+        html = f.read()
+
+    import re
+    html = re.sub(r'<meta property="og:temporal:[^>]+>', '', html)
+    html = re.sub(r'<meta name="twitter:[^>]+>', '', html)
+    
+    clean_meta = """
+    <meta property="og:image" content="https://botan14xd.github.io/BD2-Overview/assets/images/site/faq-small-thumb.png" />
+    <meta name="twitter:image" content="https://botan14xd.github.io/BD2-Overview/assets/images/site/faq-small-thumb.png" />
+    <meta name="twitter:card" content="summary" />
+    """
+    
+    html = html.replace("<head>", f"<head>{clean_meta}")
+
+    with open(faq_path, "w", encoding="utf-8") as f:
+        f.write(html)
+    print("Surgically cleaned FAQ metadata embed tags!")
+
+surgically_fix_faq_meta()

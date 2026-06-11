@@ -2,9 +2,6 @@
 description: "Quick answers to frequently asked community questions about systems and mechanics."
 comments: true
 ---
-<meta property="og:image" content="https://botan14xd.github.io/BD2-Overview/assets/images/site-assets/faq-small-thumb.png" />
-<meta name="twitter:image" content="https://botan14xd.github.io/BD2-Overview/assets/images/site-assets/faq-small-thumb.png" />
-<meta name="twitter:card" content="summary" />
 
 ![Commonly Asked Questions](assets/images/site-assets/index-pc-nav-1.avif){: .card-header-img }
 #
