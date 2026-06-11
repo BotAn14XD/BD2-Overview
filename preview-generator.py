@@ -140,21 +140,25 @@ def surgically_fix_faq_meta():
         html = f.read()
 
     import re
-    html = re.sub(r'<meta [^>]*content="[^"]*/banner\.png"[^>]*>', '', html)
 
+    html = re.sub(r'<meta [^>]*content="[^"]*banner\.png"[^>]*>', '', html)
     html = re.sub(r'<meta property="og:temporal:[^>]+>', '', html)
     html = re.sub(r'<meta name="twitter:[^>]+>', '', html)
-
+    
     clean_meta = """
     <meta property="og:image" content="https://botan14xd.github.io/BD2-Overview/assets/images/site/faq-small-thumb.png" />
+    <meta property="og:image:secure_url" content="https://botan14xd.github.io/BD2-Overview/assets/images/site/faq-small-thumb.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
     <meta name="twitter:image" content="https://botan14xd.github.io/BD2-Overview/assets/images/site/faq-small-thumb.png" />
     <meta name="twitter:card" content="summary" />
     """
-
+    
     html = html.replace("<head>", f"<head>{clean_meta}")
 
     with open(faq_path, "w", encoding="utf-8") as f:
         f.write(html)
-    print("Surgically separated FAQ metadata from the master layout!")
+    print("Surgically locked the FAQ metadata block!")
 
 surgically_fix_faq_meta()
