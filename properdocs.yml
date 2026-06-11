@@ -7,8 +7,8 @@ theme:
   custom_dir: overrides
   static_templates:
     - 404.html
-  favicon: assets/images/site/favicon.png
-  logo: assets/images/site/logo.png
+  favicon: assets/images/site-assets/favicon.png
+  logo: assets/images/site-assets/logo.png
   palette:
     scheme: slate
     primary: indigo
@@ -81,7 +81,7 @@ plugins:
   - social:
       cards: false
       cards_layout_options:
-        background_image: assets/images/site/banner.png
+        background_image: assets/images/site-assets/banner.png
   - redirects:
       redirect_maps:
         'game-mechanics/gear-system.md': 'progression/gear.md'
@@ -114,7 +114,7 @@ extra:
   analytics:
       provider: google
       property: G-K5ZWHH7K1V
-  social_image: assets/images/site/banner.png
+  social_image: assets/images/site-assets/banner.png
   I: '$\text{I}$'
   II: '$\text{II}$'
   III: '$\text{III}$'
