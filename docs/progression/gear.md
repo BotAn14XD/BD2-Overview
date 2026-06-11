@@ -2,11 +2,11 @@
 
 description: A comprehensive guide to the Gear and Crafting systems in Brown Dust 2. Master gear progression, including grades, tiers, upgrade levels, and refinement scores. Learn expert strategies for substat rerolling, Alchemy material farming, and optimizing builds for all DPS and support character types.
 comments: true
-image: assets/images/site/gear-system-banner.png
+image: assets/images/site-assets/gear-system-banner.png
 
 ---
 
-![Gear System](../assets/images/site/index-pc-nav-4.avif){: .card-header-img }
+![Gear System](../assets/images/site-assets/index-pc-nav-4.avif){: .card-header-img }
 #
 
 The Gear System is an important character progression system. It increases a character's stats, improving damage output or improving sustain on the battlefield.

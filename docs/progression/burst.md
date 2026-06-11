@@ -2,9 +2,9 @@
 
 description: A technical guide to the Brown Dust 2 Burst System. Includes detailed information on skill enhancement costs, unlock requirements, and optimal usage strategies for high-level play
 comments: true
-image: assets/images/site/burst-system-banner.png
+image: assets/images/site-assets/burst-system-banner.png
 ---
-![Burst System](../assets/images/site/index-pc-nav-6.avif){: .card-header-img }
+![Burst System](../assets/images/site-assets/index-pc-nav-6.avif){: .card-header-img }
 #
 
 The Burst System is one of the costume upgrading systems.<br>**It allows you to spend more SP to activate the ability in exchange for having the ability enhanced.**
