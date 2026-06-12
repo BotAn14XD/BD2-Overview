@@ -19,7 +19,7 @@ def define_env(env):
     def share_btn(anchor_id):
         payload = f"""
         <span id="{anchor_id}"></span>
-        <span style="float: right; margin-right: 25px; position: relative; z-index: 10; line-height: 1;" onclick="event.stopPropagation();">
+        <span style="float: right; margin-right: 25px; position: relative; z-index: 2; line-height: 1;" onclick="event.stopPropagation();">
             <input type="button" 
                    value="Copy Share Link" 
                    onclick="navigator.clipboard.writeText('https://botan14xd.github.io/BD2-Overview/FAQ/#{anchor_id}'); this.value='Copied!'; this.style.color='#4caf50'; this.style.backgroundColor='#11291b'; this.style.borderColor='#4caf50'; setTimeout(()=>{{this.value='Copy Share Link'; this.style.color='#90a4ae'; this.style.backgroundColor='#1e2638'; this.style.borderColor='#2e384d'}}, 2000);" 

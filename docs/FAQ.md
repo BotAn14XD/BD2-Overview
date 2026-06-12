@@ -12,10 +12,10 @@ comments: true
 
     The only thing that stays correct all the time:<br><u>**Supports are the highest priority**</u> since you use them constantly, unlike [DPS](misc/slang.md/?term=DPS).
 
-??? question "How do I get Characters? How Costume system works? {{ share_btn('characters') }}"
+??? question "How do I get Characters? How does Costume system work? {{ share_btn('characters') }}"
     You can think of **Costumes** as <u>**Skills of a Character**</u>.
 
-    Whenever you obtain first costume of the Character, **they are unlocked automatically**. You **do not** need to pull for Characters.
+    Whenever you obtain the first costume of the Character, **they are unlocked automatically**. You **do not** need to pull for Characters.
 
 ??? question "Who should I pull for? {{ share_btn('br') }}"
     <u>**Refer to [Banner Recommendations](https://zormolo.github.io/BD2-Banner-Recommendation/).**</u>
@@ -28,14 +28,14 @@ comments: true
     ![The Curse Celia](./assets/images/faq/celia_illust.avif){ width="128" align=right }
     The best Costume to get from there is [The Curse Celia](https://browndust2.miraheze.org/wiki/Celia/The_Curse).
 
-    She is late-game oriented pick, so you should not expect immediate benefit from her. Nonetheless, she is an important Chainer to have. 
+    She is a late-game oriented pick, so you should not expect immediate benefit from her. Nonetheless, she is an important Chainer to have. 
 
     Do not worry about any weapons or other costumes; it is not worth the time spent on rerolling the banner.
 
 ??? question "How does the Selective Draw work? Is 1-Pick or 12-Pick better? {{ share_btn('selective-banners') }}"
     Selective Draw (Banners) work in a way that you pick desired Costumes and they have increased chances to appear. They are the only banners that accept [Selective Draw Tickets](misc/slang.md/?term=Selective Draw Ticket).
 
-    Essentially, Selective Draw is displayed in form of **12-Pick** (Permanent) and **1-Pick** (reoccurring) Banners.
+    Essentially, Selective Draw is displayed in the form of **12-Pick** (Permanent) and **1-Pick** (recurring) Banners.
 
     As a new player, <u>**12-Pick is objectively better**</u>.
 
@@ -86,7 +86,7 @@ comments: true
 ??? question "Who to pick from Recommended ★5 Costume Selective Ticket? {{ share_btn('str') }}"
     Generally, it depends on who you have from those tickets beforehand.
 
-    Assuming you have noone, you should pick
+    Assuming you have no one, you should pick
     
     * **Adventurer of the Unknown Diana +2** (3 tickets)
     * **B-Rank Idol Helena +1** (2 tickets)
@@ -96,7 +96,7 @@ comments: true
     * **Robin Hood Zenith +0** (1 ticket)
     * **Game Club Rafina +0** (1 ticket)
 
-    Assuming you also bought **Mega SALE!!! First Time Countdown Package!**, you choice changes to:
+    Assuming you also bought **Mega SALE!!! First Time Countdown Package!**, your choice changes to:
 
     * **Adventurer of the Unknown Diana +4** (5 tickets)
     * **B-Rank Idol Helena +3** (4 tickets)
@@ -105,14 +105,14 @@ comments: true
 
     ---
 
-    Order, generally speaking, does not matter since at the end you will have same costume set either way. Nonetheless, you can start by picking **B-Rank Idol Helena +1** first to comfortably run your starting team.
+    Order, generally speaking, does not matter since at the end you will have the same costume set either way. Nonetheless, you can start by picking **B-Rank Idol Helena +1** first to comfortably run your starting team.
 
     ---
      
     If you are not sure, it is always better to ask in a [Discord Server](https://discord.gg/browndust2).
 
 ??? question "How do Property Tickets work? Who do I pick? {{ share_btn('proptix') }}" 
-    [Property Selective Draw Exchange Ticket](misc/slang.md/?term=Property Selective Draw Exchange Ticket) allows you to choose a [Property](misc/slang.md/?term=Property) and receive **random** ★5 Costume from the chosen Property. 
+    [Property Selective Draw Exchange Ticket](misc/slang.md/?term=Property Selective Draw Exchange Ticket) allows you to choose a [Property](misc/slang.md/?term=Property) and receive a **random** ★5 Costume from the chosen Property. 
 
     As a new player, almost every Property is good to spend tickets on. You can focus on Light until you get decent Refithea.<br>
     Later on, you can do the math to see what gives more useful Costumes on average.<br>
@@ -147,7 +147,7 @@ comments: true
     * **[The Gluttonous Refithea](https://browndust2.miraheze.org/wiki/Refithea/The_Gluttonous) — Random Appearance**
     * **[The Curse Celia](https://browndust2.miraheze.org/wiki/Celia/The_Curse) — Random Appearance**
 
-    Rest Costumes are either [DPS](misc/slang.md/?term=DPS) or Low Priority / Niche picks. It's up to you what to follow afterwards. 
+    The remaining Costumes are either [DPS](misc/slang.md/?term=DPS) or Low Priority / Niche picks. It's up to you what to follow afterwards. 
     Alternatively, ask in a [Discord Server](https://discord.gg/browndust2) or follow the $/ \text{pub}$ command there.
 
 ??? question "What to buy from Event Shop? {{ share_btn('eshop') }}"
@@ -173,7 +173,7 @@ comments: true
 
     ---
     
-    {{Neutral}} Neutral Property cannot recieve more or less damage from any other Property.
+    {{Neutral}} Neutral Property cannot receive more or less damage from any other Property.
 
     ---
     
@@ -222,7 +222,7 @@ comments: true
 
 
 ??? q-battle "Why are there no mobs in the hunting ground? {{ share_btn('hgnomob') }}" 
-    This is the unintended feature / bug. It happens because you have an active **Main or NPC Quest**.
+    This is an unintended feature / bug. It happens because you have an active **Main or NPC Quest**.
 
     To fix it, abandon the quest.
     ??? image "Image Guide"
@@ -262,14 +262,14 @@ comments: true
     {{ redirect_btn('progression/burst/', 'More about Burst System', '#9d65c9') }} 
 
 ??? q-progression "Should I Engrave / Awaken someone? Who to Engrave / Awaken? {{ share_btn('engrave') }}"
-    As was stated in "Who do I level / upgrade first?" question, engraving **is not worth for new players**. It is expensive proccedure that does not give much benefit. 
+    As was stated in "Who do I level / upgrade first?" question, engraving **is not worth for new players**. This is an expensive procedure that does not give much benefit.
 
     Nonetheless, if you decided to Engrave / Awaken someone, it should be the [DPS](misc/slang.md/?term=DPS) you use the most, such as [Nebris](https://browndust2.miraheze.org/wiki/Nebris).
 
 ## Miscellaneous
 
 ??? q-misc "Where to find a Goddess Statue? {{ share_btn('fwish') }}"
-    Goddess Statue is located in **Fantasia Square** Content Pack. 
+    The Goddess Statue is located in the **Fantasia Square** Content Pack. 
 
     To make a wish, go into the pack, find the Statue and interact with it.
 
@@ -282,30 +282,30 @@ comments: true
     **You can download the client using [this link](https://pc.bd2.pmang.cloud/browndust2starter/starter/update/BD2StarterSetup.exe)**.
 
 ??? q-tc "My characters appear to be black(ened). How do I fix it? {{ share_btn('censor') }}"
-    This happends because **Silhouette Mode** is enabled. It uses silhouettes instead of sprites and disables animations. 
+    This happens because **Silhouette Mode** is enabled. It uses silhouettes instead of sprites and disables animations. 
 
     To remove it, head to **Settings &rarr; Graphics &rarr; Silhouette Mode &rarr; Disable.**
     ??? image "Image Guide"
         ![Silhouette Mode Removal Brown Dust 2](assets/images/faq/censor.avif)
 
 ??? q-tc "Is there censorship in this game? {{ share_btn('censorship') }}"
-    * The only active form of censorship is for German citizens. There, *few* game sprites have altered appearance, as well as some **Ability cutscenes**, **Medical Club Teresse Fated Guest** and **Slap Pop Pop! Minigame** were removed. 
-    * Game is not legally accessible in **Vientam** and **Netherlands**, but there are workarounds to download the game from there.
+    * The only active form of censorship is for German citizens. There, a *few* game sprites have altered appearance, as well as some **Ability cutscenes**, **Medical Club Teresse Fated Guest** and **Slap Pop Pop! Minigame** were removed. 
+    * The game is not legally accessible in **Vietnam** and **Netherlands**, but there are workarounds to download the game from there.
     
 ??? q-tc "How to display my own collection when asking for a team build? {{ share_btn('box') }}"
-    * When asking for a **team**, use Last Night to show the Costumes to have. To do that, 
+    * When asking for a **team**, use Last Night to show the Costumes you have. To do that,
         1. Go to the Last Night Pack and walk towards the battle area
         2. Tap Replace &rarr; Replace &rarr; Reset &rarr; Confirm.
         3. Click the second icon in top right corner and sort "By Deployed First ↓" and screenshot your costumes.
     ??? image "Image Guide"
         ![Guide for displaying a Costume collection](assets/images/faq/box_costumes.avif)
 
-    * When asking for a **Awakening** / [**Potential Liberation**](progression/potentials.md) / [**Burst**](progression/burst.md) help, use Compainion tab with **View Costume** button enabled.
+    * When asking for an **Awakening** / [**Potential Liberation**](progression/potentials.md) / [**Burst**](progression/burst.md) help, use Companion tab with **View Costume** button enabled.
 
     ??? image "Image Guide"
         ![Guide for displaying a Costume collection ver.2](assets/images/faq/box_pots.avif)
 
-    * When asking for a help with **Gear**, use **second menu** inside of **Compainion tab**. It captures the gear for your main team (which is usually the best) and some extra gear on the right side. Later on, you can show from the bag, by using [Custom Marks](progression/gear.md#custom-marks) and filtering to display them first.
+    * When asking for a help with **Gear**, use **second menu** inside of **Companion tab**. It captures the gear for your main team (which is usually the best) and some extra gear on the right side. Later on, you can show from the bag, by using [Custom Marks](progression/gear.md#custom-marks) and filtering to display them first.
 
     ??? image "Image Guide"
         ![Guide for displaying a Gear collection](assets/images/faq/box_gear.avif)
