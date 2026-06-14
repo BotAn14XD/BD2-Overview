@@ -79,6 +79,12 @@ This site is a work in progress, focusing on high-quality explanations for every
     ---
 
     [View Page →](./content/events.md){: .md-button }
+
+-   ![Fiend Hunter](assets/images/site-assets/index-pc-nav-19.avif){: .card-header-img }
+
+    ---
+
+    [View Page →](./content/fh.md){: .md-button }
 </div>
 ---
 

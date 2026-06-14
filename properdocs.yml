@@ -33,6 +33,7 @@ nav:
         - 'Potential Liberation': progression/potentials.md
     - 'Game Content':
         - 'Season Events': content/events.md
+        - 'Fiend Hunter': content/fh.md
         - 'Content Packs':
             - 'Mirror Wars': content-packs/mirror-wars.md
             - 'Evil Castle': content-packs/evil-castle.md

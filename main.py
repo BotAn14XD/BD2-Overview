@@ -6,15 +6,28 @@ def define_env(env):
 
     @env.macro
     def redirect_btn(target_page, button_text, color="#2196f3"):
+        is_external = target_page.startswith("http://") or target_page.startswith("https://")
+        
+        href_target = target_page if is_external else f"/BD2-Overview/{target_page}"
+        tab_behavior = 'target="_blank" rel="noopener noreferrer"' if is_external else ''
+
+        style_override = """
+        <style>
+            .no-ext-icon::after { display: none !important; }
+        </style>
+        """ if is_external else ""
+
         payload = f"""
         <div style="margin-top: 10px; margin-bottom: 5px; width: 100%;">
-            <a href="/BD2-Overview/{target_page}" style="display: block; text-align: center; background-color: transparent; color: #90a4ae; padding: 10px; border-radius: 4px; font-weight: bold; text-decoration: none; font-size: 1.1em; border: 1px solid #2e384d; transition: all 0.2s ease-in-out; user-select: none;" onmouseover="this.style.color='#ffffff'; this.style.backgroundColor='#1a233a'; this.style.borderColor='{color}';" onmouseout="this.style.color='#90a4ae'; this.style.backgroundColor='transparent'; this.style.borderColor='#2e384d';">
+            {style_override}
+            <a href="{href_target}" {tab_behavior} class="no-ext-icon" style="display: block; text-align: center; background-color: transparent; color: #90a4ae; padding: 10px; border-radius: 4px; font-weight: bold; text-decoration: none; font-size: 1.1em; border: 1px solid #2e384d; transition: all 0.2s ease-in-out; user-select: none;" onmouseover="this.style.color='#ffffff'; this.style.backgroundColor='#1a233a'; this.style.borderColor='{color}';" onmouseout="this.style.color='#90a4ae'; this.style.backgroundColor='transparent'; this.style.borderColor='#2e384d';">
                 {button_text} &rarr;
             </a>
         </div>
         """
         return payload.replace("\n", "").strip()
-
+    
+    
     @env.macro
     def share_btn(anchor_id):
         payload = f"""

@@ -23,7 +23,7 @@ Brown Dust II is a turn-based strategy in which you have ability to position you
 
 ## **Battlefield**
 
-!!! absract "Grid System"
+!!! absract "Grid System <span id="grid-system"></span>"
     * In general content (such as Story or [Evil Castle Towers](../content-packs/evil-castle.md)), you have ability to use **5 characters** on the field.
     * Field is a <u>**3x4 rectangular grid**</u>, in which you can place your characters however you like.
         * To swap character positioning, click and drag the chibi model of a character to the needed tile.
