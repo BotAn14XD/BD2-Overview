@@ -1,6 +1,6 @@
 ---
 comments: true
-image: 
+image: assets/images/site-assets/fh-banner.png
 ---
 ![Fiend Hunter](../assets/images/site-assets/index-pc-nav-19.avif){: .card-header-img }
 #
@@ -30,6 +30,8 @@ Fiend Hunter is Seasonal, biweekly content. Each Fiend Hunter season is separate
 
 The Fiend Hunter schedule completely aligns with [Season Events](events.md); or, to be more precise, Fiend Hunter is a part of Season Events.
 {{ redirect_btn('content/events/', 'More about Season Events', '#e5b567') }}
+
+On the last day of the Hunting Period, a Settlement Period starts at {{ time('15:00') }}, after which you can no longer challenge the Boss.
 
 ---
 
@@ -82,7 +84,7 @@ All Bosses have two types of skills: **Basic** and **Conditional** Skills. Each 
 * **Basic Skills** are the ones that boss will definitely use during the fight.
     * The final Basic Skill always causes **Instant Death**, preventing you from playing for an extended turn period.
 * **Conditional Skills** are actions the Boss will use only if a particular condition is met.
-    * Conditional Skill can only be triggered **fixed amount per battle** or **fixed amount per team**.
+    * Conditional Skills can only be triggered a **fixed number of times per battle** or a **fixed number of times per team**.
     * This type of Skill will be used instead of the next scheduled Basic Skill as soon as its condition is met, delaying the latter.
 
 It is essential to understand the Skills in order to maximize your damage.
@@ -95,6 +97,8 @@ Each Weak Point takes additional damage and is displayed as text reading $\textb
 
 ??? image "Weak Points Display"
     ![Weak Points Display](../assets/images/fiend-hunter/weak-points.avif)
+
+---
 
 ## Battle
 
@@ -115,6 +119,7 @@ As mentioned earlier, the Boss has a set Skill pattern, which is displayed on th
     * Boss Tiles cannot be knocked back or silenced. 
     * Whenever a team dies from any source **other than the Boss's final Basic Skill**, the Boss Skill cycle **continues**, meaning the **Boss will not reset their Skills**.
         * This implies that teams should aim to survive until that final Basic Skill.
+    * Characters **cannot evade** Boss hits. The only way to not get hit is to position your Companions correctly.
 
 ### Team Switch
 
@@ -126,6 +131,8 @@ This feature is overall rarely used, with the sole exception of saving time at h
 
 ??? image "Team Switch Warning Menu"
     ![Team Switch Warning Menu](../assets/images/fiend-hunter/switch_team.avif)
+
+---
 
 ## Damage Mechanic
 
@@ -164,6 +171,8 @@ You can continue dealing damage to the boss the **following day**, either by att
 
     {{ redirect_btn('https://browndust2-db.souseha.com/en/fiend-season-calculator', "Souseha's Database Threshold Chart", '#e5b567') }}
     {{ redirect_btn('https://docs.google.com/spreadsheets/d/1c8SuOk7aAy2ZWZ13SjM-spg9YJ9zcN4g1lTWmpaQhYI/edit?gid=1944196942#gid=1944196942', "BotAn's Fiend Hunter Threshold Data", '#e5b567') }}
+
+---
 
 ## Rewards
 
@@ -217,4 +226,122 @@ Similar to the Damage behavior, you can obtain Challenge Rewards once per day pe
     * $\dots$
 </div>
 
-# WORK IN PROGRESS
+---
+
+## Ranking
+
+Since Fiend Hunter is a competitive [PvE](../misc/slang.md/?term=PvE) game mode, it features a ranking system.
+
+Rankings are determined by the **remaining Boss HP percentage**, accurate up to $0.01\%$, and rewards are distributed once the season is over.
+
+!!! abstract "Ranking Rewards"
+    * Rank $1$: $5$ {{Draw_Ticket}} **Draw Tickets** & $300$ {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 4"** sticker & **Boss Gold Trophy**
+    * Rank $2 - 10$: $5$ {{Draw_Ticket}} **Draw Tickets** & $300$ {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 3"** sticker & **Boss Silver Trophy**
+    * Rank $11 - 100$: $5$ {{Draw_Ticket}} **Draw Tickets** & $300$ {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 2"** sticker & **Boss Bronze Trophy**
+    * Rank $101 - 1000$: $4$ {{Draw_Ticket}} **Draw Tickets** & $300$ {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 1"** sticker & **Boss Tarnished Bronze Trophy**
+    * Rank $101 -$ Top $5\%$: $3$ {{Draw_Ticket}} **Draw Tickets** & $250$ {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 1"** sticker
+    * Top $5.1\% - 10\%$: $3$ {{Draw_Ticket}} **Draw Tickets** & $200$ {{Refining_Crystal}} **Refining Crystals**
+    * Top $10.1\% - 30\%$: $3$ {{Draw_Ticket}} **Draw Tickets** & $150$ {{Refining_Crystal}} **Refining Crystals**
+    * Top $30.1\% - 50\%$: $3$ {{Draw_Ticket}} **Draw Tickets** & $100$ {{Refining_Crystal}} **Refining Crystals**
+    * Top $50.1\% - 100\%$: $3$ {{Draw_Ticket}} **Draw Tickets** & $50$ {{Refining_Crystal}} **Refining Crystals**
+
+---
+
+## Return and Break Seasons
+
+### Break Season
+
+Whenever a bug is found that heavily impacts rankings, a **Break Season** is introduced in place of a normal one.
+
+During Break Season, you will receive the rewards for the Rank 1 (except the sticker and trophy) regardless of your personal ranking as long as you participated in the Fiend Hunter at all.
+
+You can spot a Break Season by checking in-game notifications or noticing the "Break Season" label within the Fiend Hunter menu itself.
+
+!!! image "Break Season"
+    ![Break Season](../assets/images/fiend-hunter/break_season.avif)
+
+After some time, **Return Season** will be introduced, featuring the same Boss.
+
+!!! tip "...Even if this is Break Season..."
+    ...you still should fight the Boss on a daily basis.
+
+    * You still get all resources from **Clear Rewards**.
+    * You also gain **Event Currency** that will **not** be obtainable during **Return Season**, so you will want to clear out the [Event Shop](events.md/#event-shop).
+
+### Return Season
+
+**Return Season** is a rerun of the **Break Season** after the bug fix.
+
+There is no fixed amount of time between Break and Return Seasons. It also runs independently of the regular Fiend Hunter cycle. That means you should check **Maintenance / Developer Notes** for their schedule (if any).
+
+Similar to Break Season, Return one also has a label in the menu. Additionally, you can access the rerun season via the **Home Screen**.
+
+!!! image "Return Season & Access Guide"
+    ![Return Season](../assets/images/fiend-hunter/return-season.avif)
+    ![Return Season Access Button](../assets/images/fiend-hunter/return_season_2.avif)
+
+Since this is a rerun, **no Preparation Period is given**; instead, it starts directly from **Hunting Period** and lasts **for the entire duration of the current Fiend Hunter Boss's Preparation Period**.
+
+This ensures you do not have two Boss fights on a daily basis, but essentially forces you to attack different Bosses for three weeks straight *(Hunting Period of the Boss №1 &rarr; Preparation Period of the Boss №2 & Hunting Period for Return Season &rarr; Hunting Period of the Boss №2)*.
+
+#### Ban System
+
+Since a Return Season happens later in the timeline, new costumes released in the interim could change the meta for that specific Boss.
+
+To ensure fair play, a **Ban System** is introduced for Return Seasons.
+
+??? image "Banned Costumes List During Return Season"
+    ![Banned Costumes List](../assets/images/fiend-hunter/ban_system.avif)
+
+This system forbids using Companions (or individual Costumes) for the Boss. 
+
+If all of a Companion's costumes are banned, they cannot be deployed for battle. Otherwise, if only one of their many Costumes is banned, you are allowed to deploy the Companion, but using the banned Costume will be prohibited.
+
+??? image "Ban System in Action"
+    ![Ban System in Action](../assets/images/fiend-hunter/ban_system_1.avif)
+
+!!! tip "...Even if this is a Return Season..."
+    ...you still should fight the Boss on a daily basis.
+
+    * You still get all resources from **Clear Rewards**, **even if you claimed them during the Break Season**.
+
+---
+
+## Fiend Hunter Guide
+
+Since figuring out the best strategy for Fiend Hunter can be tricky for the average player, you have a few options:
+
+* **Option 1: Follow YouTube Guides**{.yellow}
+
+    * **Pod** for more newbie-friendly clears;
+    * **Shimonami しもなみ** for more advanced clears.
+    
+    {{ redirect_btn('https://www.youtube.com/@pod2005', "Pod's YouTube Channel", '#e5b567') }}
+    {{ redirect_btn('https://www.youtube.com/@Shimonami', "Shimonami's YouTube Channel", '#e5b567') }}
+
+* **Option 2: Follow Souseha's Database Templates**{.yellow}
+
+    It acts as a sort of forum where players can share their clears for the specific Boss.
+    {{ redirect_btn('https://browndust2-db.souseha.com/en/formation/list', "Souseha's Database", '#e5b567') }}
+
+* **Option 3: Follow Arca Live Forum**{.yellow}
+
+    This option is similar to the second; however, it is a **Korean forum**. Therefore, you should use a translator, but generally speaking, images do not need any translation.
+    {{ redirect_btn('https://arca.live/b/browndust2/', "Arca Live Forum", '#e5b567') }}
+
+* **Option 4: Check Official Discord Forum**{.yellow}
+
+    If you are a part of the Official Brown Dust II Discord Community, you can visit **#fiend-hunter-tips** to find the guides from **Pod** and other players.
+    {{ redirect_btn('https://canary.discord.com/channels/1027111928327323668/1162208623250911305', "#fiend-hunter-tips", '#e5b567') }}
+
+---
+
+## Related Links
+
+* [Brown Dust II Fiend Hunter Data by <u>BotAn</u>](https://docs.google.com/spreadsheets/d/1c8SuOk7aAy2ZWZ13SjM-spg9YJ9zcN4g1lTWmpaQhYI/edit?gid=769427679#gid=769427679)
+* [Fiend Season Calculator | Brown Dust II Database by <u>Souseha</u>](https://browndust2-db.souseha.com/en/fiend-season-calculator)
+* [<u>Pod</u> | YouTube](https://www.youtube.com/@pod2005)
+* [<u>Shimonami しもなみ</u> | YouTube](https://www.youtube.com/@Shimonami)
+* [Formation Templates | Brown Dust II Database by <u>Souseha</u>](https://browndust2-db.souseha.com/en/formation/list)
+* [Arca Live Forum](https://arca.live/b/browndust2/)
+* [Official Brown Dust II Discord](https://discord.gg/browndust2)

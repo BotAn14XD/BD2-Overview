@@ -22,3 +22,22 @@ function closeAnnounceBar() {
     }
     localStorage.setItem("discordBannerClosed", "true");
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const timeElements = document.querySelectorAll('.local-time');
+
+    timeElements.forEach(element => {
+        const utcTimeString = element.getAttribute('data-utc');
+        
+        try {
+            const utcDate = new Date(utcTimeString.includes('Z') ? utcTimeString : utcTimeString + ' UTC');
+            const localTimeString = utcDate.toLocaleString(undefined, {
+                dateStyle: 'medium',
+                timeStyle: 'short'
+            });
+            element.textContent = localTimeString;
+        } catch (error) {
+            console.error("Failed to parse UTC time for element:", element, error);
+        }
+    });
+});

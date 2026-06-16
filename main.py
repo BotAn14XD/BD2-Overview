@@ -2,7 +2,7 @@ def define_env(env):
 
     @env.macro
     def time(t):
-        return f'<span class="local-time" data-utc="{t}">{t} UTC</span>'
+        return f'<span class="local-time" data-utc="{t.strip()}">{t.strip()} UTC</span>'
 
     @env.macro
     def redirect_btn(target_page, button_text, color="#2196f3"):
