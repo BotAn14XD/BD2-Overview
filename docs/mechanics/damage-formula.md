@@ -29,13 +29,13 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ${\textcolor{AFDBF5}{[2]}}$: **Energy Guard** damage (from Boo Ghost Granhildr) counts as {{HP}} **HP**{.orange} damage, but **has no cap value**.
 
-    ${\textcolor{AFDBF5}{[3]}}$: Necessary attribute depends on the Costume ability. Refer to [this](#__tabbed_1_1) section to learn more.
+    ${\textcolor{AFDBF5}{[3]}}$: The necessary attribute depends on the Costume ability. Refer to [this](#__tabbed_1_1) section to learn more.
 
-    ${\textcolor{AFDBF5}{[4]}}$: {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Buffs are **irrelevant** when character deals damage based on **own / enemy** {{HP}} **HP**{.orange}.
+    ${\textcolor{AFDBF5}{[4]}}$: {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Buffs are **irrelevant** when a character deals damage based on their **own / the enemy's** {{HP}} **HP**{.orange}.
 
-    Buffs are **relevant** if character uses **enemy** {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} to deal damage.
+    Buffs are **relevant** if a character uses **enemy** {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} to deal damage.
 
-    ${\textcolor{AFDBF5}{[5]}}$: Applied only when character **crits**. Characters with [**Fixed Damage**](../mechanics/battle.md#different-damage-types) cannot crit, making this multiplier equal to $1$.
+    ${\textcolor{AFDBF5}{[5]}}$: Applied only when a character **crits**. Characters with [**Fixed Damage**](../mechanics/battle.md#different-damage-types) cannot crit, making this multiplier equal to $1$.
 
     ${\textcolor{AFDBF5}{[6]}}$: Unless the fight disables the chain mechanic (some Story Pack bosses).
 
@@ -145,7 +145,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     ??? image "Image Showcase"
         ![Skill% Showcase](../assets/images/damage-formula/skill_desc.avif)
     
-    There are some conditional $\text{Skill\%}$ values, meaning they are achievable, only when some conditions are met.
+    There are some conditional $\text{Skill\%}$ values, meaning they are achievable only when some conditions are met.
 
     <table class="data-table">
         <thead>
@@ -287,7 +287,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
 === "$\text{\textcolor{ffe8aa}{ATK\%} Buffs}$"
 
-    The {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} buff is the most common type of buff. It directly increases the character stat.
+    The {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} buff is the most common type of buff. It directly increases the character's stat.
 
     These buffs are **additive** if coming from different sources (parts of the skills or different skills): 
 
