@@ -495,7 +495,7 @@ As was mentioned above, offensive gear is <u>**mostly**</u> {{Weapon}} **Weapon*
 The whole crafting guide essentially comes down to your current needs. Here's an example of what your progression can look like as a player who never touched crafting:
 
 !!! example "Crafting Guide"
-    1. Use the code **WAITING4LEGEND** to obtain {{UR_Grade}} {{III}} {{ gear("Venomous Touch", "III") }} **Venomous Touch**.
+    1. Use the code **WAITING4LEGEND** to obtain {{UR_Grade}} {{III}} {{ gear("Venomous Touch", "III") }}.
     2. Craft {{N_Grade}} or {{R_Grade}} Gear to upgrade [**Ability Skill**](#crafting-gear).
     3. Once you upgrade Crafting Ability to Legendary, obtain {{UR_Grade}} {{III}} {{Weapon}} **Weapon** and {{UR_Grade}} {{III}} {{Gloves}} **Gloves** for your Main DPS.
     
@@ -515,8 +515,8 @@ The whole crafting guide essentially comes down to your current needs. Here's an
             
             Either way, you will use **both gloves types**, so it is **up to you what to choose**.
 
-    4. Craft one more {{UR_Grade}} {{III}} {{ gear("Venomous Touch", "III") }} **Venomous Touch**, {{Weapon}} **Weapon** and {{Gloves}} **Gloves** for the second DPS of the team.
-    5. Move onto crafting one or two sets of the {{UR_Grade}} {{IV}} offensive gear, following the same pattern as in 4th point, starting from {{ gear("Venomous Touch") }} **Venomous Touch**.
+    4. Craft one more {{UR_Grade}} {{III}} {{ gear("Venomous Touch", "III") }}, {{Weapon}} **Weapon** and {{Gloves}} **Gloves** for the second DPS of the team.
+    5. Move onto crafting one or two sets of the {{UR_Grade}} {{IV}} offensive gear, following the same pattern as in 4th point, starting from {{ gear("Venomous Touch") }}.
     6. Craft 2 {{UR_Grade}} {{III}} {{Armor}} **Armor** and {{Helmet}} **Helmet** pieces each. 
 
         !!! question "What {{Armor}} Armor and {{Helmet}} Helmet should I craft?"
@@ -660,7 +660,7 @@ For all of these types the build you want is different.
 
     As for the split (ratio) of said Options, it's better to use [Gear Calculator](#gear-calculator) **if you want the precise answer**.
     
-    If you, however, are fine with rough advice, setting up {{CritDMG}} **Crit DMG** on pieces that are swappable between DPS (mostly {{Armor}} **Armor**, {{Helmet}} **Helmet** and specifically {{ gear("Venomous Touch") }} **Venomous Touch**) and filling the remaining Options with another stat isn't a bad choice.
+    If you, however, are fine with rough advice, setting up {{CritDMG}} **Crit DMG** on pieces that are swappable between DPS (mostly {{Armor}} **Armor**, {{Helmet}} **Helmet** and specifically {{ gear("Venomous Touch") }}) and filling the remaining Options with another stat isn't a bad choice.
 
     Alternatively, use [Character Builds](https://dotgg.gg/brown-dust-2/characters/) made <u>**only**</u> by **IceKane**.
 </div>

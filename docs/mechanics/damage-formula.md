@@ -146,7 +146,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         ![Skill% Showcase](../assets/images/damage-formula/skill_desc.avif)
     
     There are some conditional $\text{Skill\%}$ values, meaning they are achievable only when some conditions are met.
-
+    <div class="responsive-table-wrapper">
     <table class="data-table">
         <thead>
             <tr>
@@ -284,6 +284,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
         </tbody>
     </table>
+    </div>
 
 === "$\text{\textcolor{ffe8aa}{ATK\%} Buffs}$"
 
@@ -298,6 +299,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     ---
 
     Costumes providing {{ATK}} $\text{\textcolor{ffe8aa}{ATK\%}}$ buffs **to allies**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -368,10 +370,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
-    
+    </div>
+
     ---
     
     Costumes providing {{MATK}} $\text{\textcolor{ffa6ff}{MATK\%}}$ buffs **to allies**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -451,10 +455,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
     ---
         
     Costumes providing {{ATK}} $\text{\textcolor{ffe8aa}{ATK\%}}$ buffs to **themselves only**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -575,10 +581,11 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
-
+    </div>
     ---
         
     Costumes providing {{MATK}} $\text{\textcolor{ffa6ff}{MATK\%}}$ buffs to **themselves only**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -618,6 +625,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
 === "$\text{Pressure}$"
     Pressure is a debuff that reduces stat-boosting buff efficiency. **It does not affect initial character stats, only buffs.**
@@ -656,6 +664,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     ---
         
     Costumes providing {{ATK}} $\text{\textcolor{ffe8aa}{ATK\%}}$ debuffs:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -704,10 +713,11 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
-
+    </div>
     ---
         
     Costumes providing {{MATK}} $\text{\textcolor{ffa6ff}{MATK\%}}$ debuffs:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -738,6 +748,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
 === "$\text{\textcolor{white}{CDMG}}$"
 
@@ -759,6 +770,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     ---
 
     Costumes providing {{CritRate}} $\text{\textcolor{white}{Crit Rate\%}}$ buffs **to allies**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -825,10 +837,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
     ---
 
     Costumes providing {{CritDMG}} $\text{\textcolor{white}{Crit DMG\%}}$ buffs **to allies**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -859,10 +873,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
     ---
 
     Costumes providing {{CritRate}} $\text{\textcolor{white}{Crit Rate\%}}$ buffs to **themselves only**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -929,10 +945,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
     ---
 
     Costumes providing {{CritDMG}} $\text{\textcolor{white}{Crit DMG\%}}$ buffs to **themselves only**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1008,6 +1026,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
 === "$\text{Chains}$"
     The **Chain** system is a mechanic that increases damage with each repetitive hit on the same tile / enemy.
@@ -1023,6 +1042,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     ---
 
     Costumes providing **Chain Reinforcement** buff **to allies**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1042,10 +1062,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
     ---
 
     Costumes providing $\text{Increased Chain DMG\%}$:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1067,10 +1089,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
     ---
 
     Costumes providing **Chain Reinforcement** buff to **themselves only**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1098,6 +1122,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
 === "$\text{Vulnerability}$"
     Vulnerability is a **debuff** that increases damage received by the enemy. There are 5 types of Vulnerability: 
@@ -1118,6 +1143,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     ---
 
     Costumes providing **General Vulnerability**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1157,10 +1183,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
     ---
 
     Costumes providing {{Physical}} **Physical**{.yellow} **Vulnerability**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1200,10 +1228,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
     ---
 
     Costumes providing {{Magical}} **Magical**{.magenta} **Vulnerability**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1234,10 +1264,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
     ---
 
     Costumes providing **DoT Vulnerability**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1259,10 +1291,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
     ---
 
     Costumes providing **Summons Vulnerability**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1284,10 +1318,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
     ---
 
     Costumes providing **Property Vulnerability**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1327,6 +1363,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
 === "$\text{DMG Increase\%}$"
 
@@ -1349,6 +1386,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     ---
 
     Costumes providing $\text{DMG Increase\%}$ Buffs **to allies**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1401,10 +1439,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
     ---
 
     Costumes providing $\text{DMG Increase\%}$ Buffs to **themselves only**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1435,6 +1475,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
 === "$\text{\textcolor{8A9A5B}{Property}}$"
     Property is another aspect of any character. There are a total of 6 Properties: ![Water](../assets/images/battle-system/icons/elementicon1_1.avif){.icon} Water, ![Fire](../assets/images/battle-system/icons/elementicon2_2.avif){.icon} Fire, ![Wind](../assets/images/battle-system/icons/elementicon3_3.avif){.icon} Wind, ![Light](../assets/images/battle-system/icons/elementicon4_4.avif){.icon} Light, ![Darkness](../assets/images/battle-system/icons/elementicon5_5.avif){.icon} Darkness and ![Neutral](../assets/images/battle-system/icons/elementicon6_6.avif){.icon} Neutral.
@@ -1459,6 +1500,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     ---
 
     Costumes providing $\text{Property Damage\%}$ buffs **to allies**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1507,10 +1549,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
     ---
 
     Costumes providing $\text{Property Damage\%}$ buffs to **themselves only**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1550,6 +1594,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
 === "$\text{\textcolor{ffe8aa}{DEF}}$"
     {{DEF}} $\text{\textcolor{ffe8aa}{DEF}}$ / {{MRES}} $\text{\textcolor{ffa6ff}{MRES}}$ are two main stats of a character. They reduce damage from the enemy. 
@@ -1568,6 +1613,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     ---
     
     Costumes providing {{DEF}} $\text{\textcolor{ffe8aa}{DEF\%}}$ reduction:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1652,10 +1698,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
     ---
     
     Costumes providing {{MRES}} $\text{\textcolor{ffa6ff}{MRES\%}}$ reduction:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1731,10 +1779,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
     ---
 
     Costumes decreasing **own** {{DEF}} $\text{\textcolor{ffe8aa}{DEF}}$ / {{MRES}} $\text{\textcolor{ffa6ff}{MRES}}$:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1756,6 +1806,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+    </div>
 
 === "$\text{DMG Reduction}$"
     $\text{DMG Reduction}$ is a separate buff that decreases incoming damage, similar to {{DEF}} $\text{\textcolor{ffe8aa}{DEF}}$ and {{MRES}} $\text{\textcolor{ffa6ff}{MRES}}$, but working in a different way.
@@ -1782,6 +1833,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     ---
 
     Costumes providing **Barrier** buff **to allies**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1812,10 +1864,11 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
-
+    </div>
     ---
 
     Costumes providing **Barrier** buff to **themselves only**:
+    <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
                 <tr>
@@ -1963,6 +2016,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
+        </div>
 </div>
 
 ## The Example

@@ -30,23 +30,49 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function() {
     const wrappers = document.querySelectorAll(".gear-tooltip-wrapper");
 
-    wrappers.forEach(wrapper => {
-        wrapper.addEventListener("mouseenter", function() {
-            const tooltip = this.querySelector(".gear-tooltip-box");
-            if (!tooltip) return;
+    function adjustTooltipPosition(wrapper) {
+        const tooltip = wrapper.querySelector(".gear-tooltip-box");
+        if (!tooltip) return;
 
-            const rect = this.getBoundingClientRect();
-            
+        tooltip.style.left = "50%";
+        tooltip.style.transform = "translateX(-50%)";
+
+        requestAnimationFrame(() => {
+            const rect = wrapper.getBoundingClientRect();
+            const tooltipRect = tooltip.getBoundingClientRect();
+            const viewportWidth = window.innerWidth;
+
             if (rect.top < 250) {
                 tooltip.style.bottom = "auto";
                 tooltip.style.top = "125%";
-                
                 tooltip.classList.add("flipped-down");
             } else {
                 tooltip.style.bottom = "125%";
                 tooltip.style.top = "auto";
                 tooltip.classList.remove("flipped-down");
             }
+            const padding = 12; 
+            let shiftX = 0;
+
+            if (tooltipRect.left < padding) {
+                shiftX = padding - tooltipRect.left;
+            } else if (tooltipRect.right > viewportWidth - padding) {
+                shiftX = (viewportWidth - padding) - tooltipRect.right;
+            }
+
+            // Apply shifts safely using translate
+            if (shiftX !== 0) {
+                tooltip.style.transform = `translateX(calc(-50% + ${shiftX}px))`;
+            }
         });
+    }
+
+    wrappers.forEach(wrapper => {
+        wrapper.addEventListener("mouseenter", () => adjustTooltipPosition(wrapper));
+        
+        // Mobile tap support
+        wrapper.addEventListener("touchstart", function(e) {
+            adjustTooltipPosition(this);
+        }, { passive: true });
     });
 });

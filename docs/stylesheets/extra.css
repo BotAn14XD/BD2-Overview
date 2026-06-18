@@ -1,3 +1,9 @@
+.md-content, 
+.md-main,
+body {
+    overflow-x: hidden;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -852,7 +858,9 @@ li.md-nav__item:has(a[href$="#"]) {
     font-size: 0.85rem;
     z-index: 2;
     width: max-content;
-    max-width: 400px;
+    max-width: calc(100vw - 24px) !important; 
+    box-sizing: border-box;
+    
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     line-height: 1.4;
     
@@ -947,4 +955,19 @@ li.md-nav__item:has(a[href$="#"]) {
     bottom: auto;
     top: -12px;
     border-color: transparent transparent #4b5563 transparent; 
+}
+
+/* OVERFLOW TABLES ON MOBILE */
+
+.responsive-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 1rem;
+}
+
+.responsive-table-wrapper table {
+    display: table;
+    width: max-content;
+    min-width: 100%;
 }
