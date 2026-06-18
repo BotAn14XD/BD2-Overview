@@ -2018,6 +2018,6 @@ Every 2 turns, each side receives
 These (de)buffs follow the exact rules as described above, going into each of the brackets seamlessly.
 
 ### Environmental Effects
-In [**Evil Castle**](../content-packs/evil-castle.md), especially **Tower of Jealousy** and **Tower of Wrath**, there are effects taking place that affect some stats, such as  **Pressure**, {{CritRate}} **Crit Rate** and more. 
+In [**Evil Castle**](../content-packs/evil-castle.md), especially **Tower of Jealousy** and **Tower of Wrath**, there are effects taking place that affect some stats, such as  **Pressure**, {{CritRate}} **Crit Rate** and more.
 
 Refer to the [**Evil Castle**](../content-packs/evil-castle.md) page for the more detailed explanation.

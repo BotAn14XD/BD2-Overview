@@ -495,9 +495,9 @@ As was mentioned above, offensive gear is <u>**mostly**</u> {{Weapon}} **Weapon*
 The whole crafting guide essentially comes down to your current needs. Here's an example of what your progression can look like as a player who never touched crafting:
 
 !!! example "Crafting Guide"
-    1. Use the code **WAITING4LEGEND** to obtain {{UR_Grade}} {{III}} {{Venomous_Touch}} **Venomous Touch**.
+    1. Use the code **WAITING4LEGEND** to obtain {{UR_Grade}} {{III}} {{ gear("Venomous Touch", "III") }} **Venomous Touch**.
     2. Craft {{N_Grade}} or {{R_Grade}} Gear to upgrade [**Ability Skill**](#crafting-gear).
-    3. Once you upgrade Crafting Ability to Legendary, obtain {{UR_Grade}} {{III}} {{Weapon}} **Weapon** <!--({{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} / {{Evil_Dragons_Blade}} **Evil Dragons Blade**{.yellow})--> and {{UR_Grade}} {{III}} {{Gloves}} **Gloves** for your Main DPS. <!--({{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta} / {{Shackle_of_Treachery}} **Shackle of Treachery**{.magenta} / {{God_Kings_Silver_Arm}} **God-King's Silver Arm**{.yellow} / {{Prime_Authority}} **Prime Authority**{.yellow})-->
+    3. Once you upgrade Crafting Ability to Legendary, obtain {{UR_Grade}} {{III}} {{Weapon}} **Weapon** and {{UR_Grade}} {{III}} {{Gloves}} **Gloves** for your Main DPS.
     
         !!! question "How do I decide what exactly to craft?"
             Decide by the team you're running. A proper team utilizes either {{Physical}} **Physical**{.yellow} or {{Magical}} **Magical**{.magenta} Damage type.
@@ -505,30 +505,30 @@ The whole crafting guide essentially comes down to your current needs. Here's an
             * If you utilize both damage types, it is better to ask for the help in [**Discord**](https://discord.gg/browndust2), since it's most likely not a good one. 
             
             <br>
-            When it comes down to the {{Weapon}} **Weapon**, it means crafting {{Evil_Dragons_Blade}} **Evil Dragon's Blade**{.yellow} for the {{Physical}} **Physical**{.yellow} DPS and {{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} for the {{Magical}} **Magical**{.magenta} one. 
+            When it comes down to the {{Weapon}} **Weapon**, it means crafting {{ gear("Evil Dragon's Blade", "III") }} for the {{Physical}} **Physical**{.yellow} DPS and {{ gear("Travel God's Friend", "III") }} for the {{Magical}} **Magical**{.magenta} one. 
             
             Other weapons are usually niche ones and are not necessary for a new player to worry about.  
             <br>
-            The same applies to the {{Gloves}} **Gloves**, meaning {{God_Kings_Silver_Arm}} **God-King's Silver Arm**{.yellow} / {{Prime_Authority}} **Prime Authority**{.yellow} for the {{Physical}} **Physical**{.yellow} DPS and {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta} / {{Shackle_of_Treachery}} **Shackle of Treachery**{.magenta} for the **Magical**{.magenta} one.
+            The same applies to the {{Gloves}} **Gloves**, meaning {{ gear("God-King's Silver Arm", "III") }} / {{ gear("Prime Authority", "III") }} for the {{Physical}} **Physical**{.yellow} DPS and {{ gear("Dragon Scales Protection", "III") }} / {{ gear("Shackle of Treachery", "III") }} for the **Magical**{.magenta} one.
 
-            * {{God_Kings_Silver_Arm}} **God-King's Silver Arm**{.yellow} and {{Shackle_of_Treachery}} **Shackle of Treachery**{.magenta} are **generally better** for a **new player** and are still used for some DPS in late game, while {{Prime_Authority}} **Prime Authority**{.yellow} and {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta} are used more in the **late game**, but could be **less powerful at the start**. 
+            * {{ gear("God-King's Silver Arm") }} and {{ gear("Shackle of Treachery") }} are **generally better** for a **new player** and are still used for some DPS in late game, while {{ gear("Prime Authority") }} and {{ gear("Dragon Scales Protection") }} are used more in the **late game**, but could be **less powerful at the start**. 
             
             Either way, you will use **both gloves types**, so it is **up to you what to choose**.
 
-    4. Craft one more {{UR_Grade}} {{III}} {{Venomous_Touch}} **Venomous Touch**, {{Weapon}} **Weapon** and {{Gloves}} **Gloves** for the second DPS of the team.
-    5. Move onto crafting one or two sets of the {{UR_Grade}} {{IV}} offensive gear, following the same pattern as in 4th point, starting from {{Venomous_Touch}} **Venomous Touch**.
+    4. Craft one more {{UR_Grade}} {{III}} {{ gear("Venomous Touch", "III") }} **Venomous Touch**, {{Weapon}} **Weapon** and {{Gloves}} **Gloves** for the second DPS of the team.
+    5. Move onto crafting one or two sets of the {{UR_Grade}} {{IV}} offensive gear, following the same pattern as in 4th point, starting from {{ gear("Venomous Touch") }} **Venomous Touch**.
     6. Craft 2 {{UR_Grade}} {{III}} {{Armor}} **Armor** and {{Helmet}} **Helmet** pieces each. 
 
         !!! question "What {{Armor}} Armor and {{Helmet}} Helmet should I craft?"
             Generally speaking, armor usage depends on the enemy. 
             
-            That means crafting {{Invulnerable_Armor}} **Invulnerable Armor**{ .yellow }, {{Helm_of_Carnage}} **Helm of Carnage**{ .yellow } or {{Fiend_Guard}} **Fiend Guard**{ .magenta } and {{Radiant_Wisdom}} **Radiant Wisdom**{ .magenta } sets. 
+            That means crafting {{ gear("Invulnerable Armor", "III") }}, {{ gear("Helm of Carnage", "III") }} or {{ gear("Fiend Guard", "III") }} and {{ gear("Radiant Wisdom", "III") }} sets. 
 
            The rest of the armor types are more niche so it's not really worth investing in them as a new player.
 
     7. Craft {{UR_Grade}} {{IV}} Gear of the opposite Damage type for the second team.
     8. Craft whatever you feel necessary. 
-        * {{Accessory}} **Accessory**, in particular {{Venomous_Touch}} **Venomous Touch** should be the highest priority overall, followed by {{Gloves}} **Gloves**, then {{Weapon}} **Weapon** and {{Armor}} **Armor**.
+        * {{Accessory}} **Accessory**, in particular {{ gear("Venomous Touch") }} should be the highest priority overall, followed by {{Gloves}} **Gloves**, then {{Weapon}} **Weapon** and {{Armor}} **Armor**.
             * Note that {{Weapon}} **Weapons** take less priority later in the game due to being mostly replaced by **Exclusive Gear**, so you will not need that much of it compared to {{Gloves}} **Gloves**. On the contrary, {{Armor}} **Armor** and {{Helmet}} **Helmets** are required in large numbers when it comes down to 3 teams in **Fiend Hunter** on high difficulty levels.
 
 ---
@@ -558,10 +558,10 @@ For all of these types the build you want is different.
 
     This usually means builds like:
 
-    * {{Evil_Dragons_Blade}} **Evil Dragon's Blade**{.yellow} $+$ {{Venomous_Touch}} **Venomous Touch** $+$ {{Prime_Authority}} **Prime Authority**{.yellow};
-    * {{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} $+$ {{Venomous_Touch}} **Venomous Touch** $+$ {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta};
-    * {{Evil_Dragons_Blade}} **Evil Dragon's Blade**{.yellow} $+$ {{Venomous_Touch}} **Venomous Touch** $+$ {{God_Kings_Silver_Arm}} **God-King's Silver Arm**{.yellow};
-    * {{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} $+$ {{Venomous_Touch}} **Venomous Touch** $+$ {{Shackle_of_Treachery}} **Shackle of Treachery**{.magenta}.
+    * {{ gear("Evil Dragon's Blade") }} $+$ {{ gear("Venomous Touch") }} $+$ {{ gear("Prime Authority") }} ;
+    * {{ gear("Travel God's Friend") }} $+$ {{ gear("Venomous Touch") }} $+$ {{ gear("Dragon Scales Protection") }};
+    * {{ gear("Evil Dragon's Blade") }} $+$ {{ gear("Venomous Touch") }} $+$ {{ gear("God-King's Silver Arm") }};
+    * {{ gear("Travel God's Friend") }} $+$ {{ gear("Venomous Touch") }} $+$ {{ gear("Shackle of Treachery") }}.
 
     {{UR_Grade}} **Exclusive Gear** can replace any gear piece in these builds, as was mentioned earlier. 
 
@@ -572,10 +572,10 @@ For all of these types the build you want is different.
     
     When it comes down to {{Armor}} **Armor**, and {{Helmet}} **Helmet**, there are a few combinations:
 
-    * {{Invulnerable_Armor}} **Invulnerable Armor**{ .yellow } $+$ {{Helm_of_Carnage}} **Helm of Carnage**{ .yellow } if enemy deals {{Physical}} **Physical**{.yellow} damage
-    * {{Fiend_Guard}} **Fiend Guard**{ .magenta } $+$ {{Radiant_Wisdom}} **Radiant Wisdom**{ .magenta } if enemy deals {{Magical}} **Magical**{.magenta} damage
-    * {{Immortal_Golden_Armor}} **Immortal Golden Armor**{ .yellow } $+$ {{Helm_of_Death}} **Helm of Death**{ .yellow } if enemy deals {{Physical}} **<u>Fixed, True or Consumed</u> Physical**{.yellow} damage
-    * {{Hellfire_Robe}} **Hellfire Robe**{ .magenta } $+$ {{Crown_of_Galaxy}} **Crown of Galaxy**{ .magenta } if enemy deals {{Magical}} **<u>Fixed, True or Consumed</u> Magical**{.magenta} damage
+    * {{ gear("Invulnerable Armor") }} $+$ {{ gear("Helm of Carnage") }} if enemy deals {{Physical}} **Physical**{.yellow} damage
+    * {{ gear("Fiend Guard") }} $+$ {{ gear("Radiant Wisdom") }} if enemy deals {{Magical}} **Magical**{.magenta} damage
+    * {{ gear("Immortal Golden Armor") }} $+$ {{ gear("Helm of Death") }} if enemy deals {{Physical}} **<u>Fixed, True or Consumed</u> Physical**{.yellow} damage
+    * {{ gear("Hellfire Robe") }} $+$ {{ gear("Crown of Galaxy") }} if enemy deals {{Magical}} **<u>Fixed, True or Consumed</u> Magical**{.magenta} damage
     
 === "Fixed Damage DPS"
     Since Fixed Damage **cannot crit**, there is no reason to invest in {{CritDMG}} **Crit Damage**.
@@ -584,10 +584,10 @@ For all of these types the build you want is different.
 
     Therefore, the most used builds are the following:
 
-    * {{Peerless_Javelin}} **Peerless Javelin**{.yellow} $+$ {{Prime_Authority}} **Prime Authority**{.yellow};
-    * {{Demons_Forbidden_Book}} **Demon's Forbidden Book**{.magenta} $+$ {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta}.
+    * {{ gear("Peerless Javelin") }} $+$ {{ gear("Prime Authority") }} ;
+    * {{ gear("Demon's Forbidden Book") }} $+$ {{ gear("Dragon Scales Protection") }}.
 
-    {{Accessory}} **Accessory** can be {{Ring_of_the_Lake}} **Ring of the Lake** or {{Charming_Gaze}} **Charming Gaze**, since it provides at least something more valuable such as {{HP}} HP, compared to {{Venomous_Touch}} **Venomous Touch** with {{CritDMG}} **Crit DMG** stats only.
+    {{Accessory}} **Accessory** can be {{ gear("Ring of the Lake") }} or {{ gear("Charming Gaze") }}, since it provides at least something more valuable such as {{HP}} HP, compared to {{ gear("Venomous Touch") }} with {{CritDMG}} **Crit DMG** stats only.
 
     {{Armor}} **Armor** and {{Helmet}} **Helmet** choices follow the same logic as for [Standard DPS](#__tabbed_1_1).
 
@@ -597,17 +597,17 @@ For all of these types the build you want is different.
 
     Therefore, builds are:
 
-    * {{Immortal_Golden_Armor}} **Immortal Golden Armor**{ .yellow } $+$  {{Helm_of_Death}} **Helm of Death**{ .yellow } $+$ {{Venomous_Touch}} **Venomous Touch** if enemy deals {{Physical}} **Physical**{.yellow} damage;
-    * {{Hellfire_Robe}} **Hellfire Robe**{ .magenta } $+$ {{Crown_of_Galaxy}} **Crown of Galaxy**{ .magenta } $+$ {{Venomous_Touch}} **Venomous Touch** if enemy deals {{Magical}} **Magical**{.magenta} damage.
+    * {{ gear("Immortal Golden Armor") }} $+$  {{ gear("Helm of Death") }} $+$ {{ gear("Venomous Touch") }} if enemy deals {{Physical}} **Physical**{.yellow} damage;
+    * {{ gear("Hellfire Robe") }} $+$ {{ gear("Crown of Galaxy") }} $+$ {{ gear("Venomous Touch") }} if enemy deals {{Magical}} **Magical**{.magenta} damage.
 
-    {{Weapon}} **Weapon** can be either {{Evil_Dragons_Blade}} **Evil Dragon's Blade**{.yellow} or {{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} regardless of damage type character deals, since its value is in the {{CritDMG}}  **Crit DMG** only.
+    {{Weapon}} **Weapon** can be either {{ gear("Evil Dragon's Blade") }} or {{ gear("Travel God's Friend") }} regardless of damage type character deals, since its value is in the {{CritDMG}} **Crit DMG** only.
 
     {{Gloves}} **Gloves** have no impact on the character aside from Options (Substats), so using any is fine. 
 
-    !!! question "Wouldn't {{Charming_Gaze}} **Charming Gaze** be a better {{Accessory}} Accessory?"
-        {{Charming_Gaze}} **Charming Gaze** indeed provides both {{HP}} **HP** and {{CritDMG}} **Crit DMG**, however, due to diminishing returns, impact on {{HP}} **HP** is usually less compared to {{CritDMG}} **Crit DMG**.
+    !!! question "Wouldn't {{ gear("Charming Gaze") }} be a better {{Accessory}} Accessory?"
+        {{ gear("Charming Gaze") }} indeed provides both {{HP}} **HP** and {{CritDMG}} **Crit DMG**, however, due to diminishing returns, impact on {{HP}} **HP** is usually less compared to {{CritDMG}} **Crit DMG**.
         
-        That means unless you have some heavy bonuses to {{CritDMG}} **Crit DMG** *(for example, Night of Death Mamonir self-buff combined with Red Riding Hood Rou and The Gluttonous Refithea for tremendous $+725\%$ {{CritDMG}} **Crit DMG**)*, {{Venomous_Touch}} **Venomous Touch** is simply better. 
+        That means unless you have some heavy bonuses to {{CritDMG}} **Crit DMG** *(for example, Night of Death Mamonir self-buff combined with Red Riding Hood Rou and The Gluttonous Refithea for tremendous $+725\%$ {{CritDMG}} **Crit DMG**)*, {{ gear("Venomous Touch") }} is simply better. 
 
 
 === "Enemy HP-reliant DPS"
@@ -615,8 +615,8 @@ For all of these types the build you want is different.
 
     Thus, build consists of:
 
-    * {{Evil_Dragons_Blade}} **Evil Dragon's Blade**{.yellow} $+$ {{Venomous_Touch}} **Venomous Touch**;
-    * {{Travel_Gods_Friend}} **Travel God's Friend**{.magenta} $+$ {{Venomous_Touch}} **Venomous Touch**.
+    * {{ gear("Evil Dragon's Blade") }} $+$ {{ gear("Venomous Touch") }};
+    * {{ gear("Travel God's Friend") }} $+$ {{ gear("Venomous Touch") }}.
 
     There is no difference which {{Weapon}} **Weapon** out of the two listed above you use, since the characters do not scale from {{ATK}} **ATK**{.yellow} or {{MATK}} **MATK**{.magenta}.
 
@@ -633,9 +633,9 @@ For all of these types the build you want is different.
 
     It is not hard to figure out the builds for either of them: 
 
-    * {{Demons_Forbidden_Book}} **Demon's Forbidden Book**{.magenta} $+$ {{Dragon_Scales_Protection}} **Dragon Scales Protection**{.magenta} for **Diana**;
-    * {{Immortal_Golden_Armor}} **Immortal Golden Armor**{ .yellow } $+$  {{Helm_of_Death}} **Helm of Death**{ .yellow } $+$ {{Charming_Gaze}} **Charming Gaze** if enemy deals {{Physical}} **Physical**{.yellow} damage for **Rou**;
-    * {{Hellfire_Robe}} **Hellfire Robe**{ .magenta } $+$ {{Crown_of_Galaxy}} **Crown of Galaxy**{ .magenta } $+$ {{Charming_Gaze}} **Charming Gaze** if enemy deals {{Magical}} **Magical**{.magenta} damage for **Rou**.
+    * {{ gear("Demon's Forbidden Book") }} $+$ {{ gear("Dragon Scales Protection") }} for **Diana**;
+    * {{ gear("Immortal Golden Armor") }} $+$  {{ gear("Helm of Death") }} $+$ {{ gear("Charming Gaze") }} if enemy deals {{Physical}} **Physical**{.yellow} damage for **Rou**;
+    * {{ gear("Hellfire Robe") }} $+$ {{ gear("Crown of Galaxy") }} $+$ {{ gear("Charming Gaze") }} if enemy deals {{Magical}} **Magical**{.magenta} damage for **Rou**.
 
 === "Other Supports"
     
@@ -660,7 +660,7 @@ For all of these types the build you want is different.
 
     As for the split (ratio) of said Options, it's better to use [Gear Calculator](#gear-calculator) **if you want the precise answer**.
     
-    If you, however, are fine with rough advice, setting up {{CritDMG}} **Crit DMG** on pieces that are swappable between DPS (mostly {{Armor}} **Armor**, {{Helmet}} **Helmet** and specifically {{Venomous_Touch}} **Venomous Touch**) and filling the remaining Options with another stat isn't a bad choice.
+    If you, however, are fine with rough advice, setting up {{CritDMG}} **Crit DMG** on pieces that are swappable between DPS (mostly {{Armor}} **Armor**, {{Helmet}} **Helmet** and specifically {{ gear("Venomous Touch") }} **Venomous Touch**) and filling the remaining Options with another stat isn't a bad choice.
 
     Alternatively, use [Character Builds](https://dotgg.gg/brown-dust-2/characters/) made <u>**only**</u> by **IceKane**.
 </div>
@@ -715,16 +715,3 @@ It is worth mentioning that **Damage** isn't the actual Damage you will deal in-
 * [Alternative Gear Calculator by <u>Kane</u>](https://docs.google.com/spreadsheets/d/1-NAV4NWIWbzjgljz04iG1i8AETjU_S9YPm4QzJ_NRCY/edit?usp=sharing) *(no longer maintained)*
 * [BD2 - The Tourist's Sheet](https://docs.google.com/spreadsheets/d/1E8eaUt-rgjAdunxYQPMDgqdI3-vE1S3MGfg0e_uNFc0/edit?usp=sharing) *(no longer maintained)*
 * [Official Brown Dust II Discord](https://discord.gg/browndust2)
-
-<!--
-Weapons: 
-{{Evil_Dragons_Blade}} {{Hammer_of_Thunder}} {{Peerless_Javelin}} {{Travel_Gods_Friend}} {{Eye_of_the_Destroyer}} {{Demons_Forbidden_Book}} 
-Armor: 
-{{Invulnerable_Armor}} {{Scale_of_the_Sea_God}} {{Immortal_Golden_Armor}} {{Fiend_Guard}} {{Deaths_Shroud}} {{Hellfire_Robe}} 
-Helmet:
-{{Helm_of_Carnage}} {{Undefeated_Glory}} {{Helm_of_Death}} {{Radiant_Wisdom}} {{Solar_Brilliance}} {{Crown_of_Galaxy}}
-Accessory:
-{{Warmth_of_the_Brazier}} {{Pinnacle_of_Aesthetics}} {{Promise_of_Harmony}} {{Venomous_Touch}} {{Ring_of_the_Lake}} {{Charming_Gaze}}
-Gloves:
-{{God_Kings_Silver_Arm}} {{Rebellion}} {{Prime_Authority}} {{Ring_of_Fury}} {{Dragon_Scales_Protection}} {{Shackle_of_Treachery}}
- -->

@@ -26,3 +26,27 @@ document.addEventListener("DOMContentLoaded", function() {
         element.style.display = "inline-block"; 
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const wrappers = document.querySelectorAll(".gear-tooltip-wrapper");
+
+    wrappers.forEach(wrapper => {
+        wrapper.addEventListener("mouseenter", function() {
+            const tooltip = this.querySelector(".gear-tooltip-box");
+            if (!tooltip) return;
+
+            const rect = this.getBoundingClientRect();
+            
+            if (rect.top < 250) {
+                tooltip.style.bottom = "auto";
+                tooltip.style.top = "125%";
+                
+                tooltip.classList.add("flipped-down");
+            } else {
+                tooltip.style.bottom = "125%";
+                tooltip.style.top = "auto";
+                tooltip.classList.remove("flipped-down");
+            }
+        });
+    });
+});

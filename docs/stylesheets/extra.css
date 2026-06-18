@@ -814,3 +814,137 @@ li.md-nav__item:has(a[href$="#"]) {
 .toc-only {
     display: none;
 }
+
+/* GEAR TOOLTIPS */
+
+.gear-tooltip-wrapper {
+    position: relative !important;
+    display: inline-flex !important;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.gear-tooltip-wrapper .icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    height: 1.2em;
+    width: auto;
+}
+
+.gear-name {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.gear-tooltip-box {
+    display: block;
+    position: absolute;
+    bottom: 125%; 
+    left: 50%;
+    transform: translateX(-50%);
+    
+    background-color: #1a1f2c; 
+    border: 1px solid #4b5563;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 0.85rem;
+    z-index: 2;
+    width: max-content;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    line-height: 1.4;
+    
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.15s ease-in-out, visibility 0.15s ease-in-out;
+}
+
+
+.tooltip-line {
+    display: flex !important;
+    align-items: center;
+    gap: 4px; 
+    margin-bottom: 4px;
+    width: 100%;
+}
+.tooltip-line:last-child {
+    margin-bottom: 0;
+}
+
+.gear-tooltip-wrapper:hover .gear-tooltip-box {
+    opacity: 1;
+    visibility: visible;
+}
+
+.tooltip-line.yellow { color: #ffe8aa; }
+.tooltip-line.white { color: #ffffff; }
+.tooltip-line.gray { color: #9ca3af; font-weight: bold; }
+
+.gear-tooltip-box .icon {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+
+.tooltip-header {
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+
+.header-title {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.tooltip-divider-line {
+    display: block !important;
+    height: 1px;
+    background-color: #374151;
+    margin: 6px 0 8px 0;
+    width: 100%;
+}
+
+.tooltip-line.bold {
+    font-weight: bold;
+}
+.tooltip-line.white {
+    color: #ffffff;
+}
+
+.stat-num {
+    color: #fcd34d;
+    margin-left: 4px;
+}
+
+.gear-name {
+    font-weight: 600;
+    margin-left: 4px;
+    transition: color 0.15s ease-in-out;
+}
+
+.gear-name.physical {
+    color: #ffe8aa; 
+}
+
+.gear-name.magical {
+    color: #ffa6ff; 
+}
+
+.gear-name.neutral {
+    color: #9ca3af;
+}
+
+.gear-tooltip-box.flipped-down {
+    transform: translateX(-50%);
+}
+
+.gear-tooltip-wrapper:hover .gear-tooltip-box.flipped-down::before {
+    bottom: auto;
+    top: -12px;
+    border-color: transparent transparent #4b5563 transparent; 
+}
