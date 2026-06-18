@@ -622,7 +622,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 === "$\text{Pressure}$"
     Pressure is a debuff that reduces stat-boosting buff efficiency. **It does not affect initial character stats, only buffs.**
     
-    It affects such stats as:
+    It affects stats such as:
 
     * {{HP}} **HP%**{.orange}
     * {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta}
@@ -632,26 +632,26 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     * **Property Damage**
 
     !!! example "Example"
-        Maxed **Medical Club Teresse**, which would give $120\%$ {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} buff, would only apply $60\%$ instead. 
+        A maxed **Medical Club Teresse**, which would give $120\%$ {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} buff, would only apply $60\%$ instead. 
 
-        On the contrary, her **Beachside Angel** costume will still give 200% Augmentation Buff as if it's not considered a stat-boosting buff.
+        On the contrary, her **Beachside Angel** costume will still give a 200% Augmentation Buff as if it's not considered a stat-boosting buff.
 
     ??? image "Pressure Effect in a fight"
         ![Pressure Effect in a fight](../assets/images/damage-formula/pressure.avif)
 === "$\text{\textcolor{ffe8aa}{ATK\%} Debuffs}$"
 
-    {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Debuffs are straightforward: they reduce character's {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}. 
+    {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Debuffs are straightforward: they reduce the character's {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}. 
 
-    Because it stacks with buffs additively, it is more or less not important unless you are in a fight where the boss doesn't gain any buffs.
+    Because they stack with buffs additively, it is more or less not important unless you are in a fight where the boss doesn't gain any buffs.
 
-    This debuff is considered Weakening, so any enemy with **Immune to Weakening** Status Effect will ignore the reduction. 
+    This debuff is considered Weakening, so any enemy with the **Immune to Weakening** Status Effect will ignore the reduction. 
 
     Additionally, despite {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Debuffs, damage will always be $\ge 1$ even with 0 {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} on the enemy.
 
     ---
     As mentioned above, these debuffs are not very widely used, especially since a lot of bosses have Weakening immunity or you can sustain just fine, while in PvP there are buffs pretty much nullifying your debuffs. 
 
-    However, it is worth mentioning that there are Story Pack fights such as **Partan** (Story Pack 11) and **Nox** (Story Pack 12), where you can use **Gynt** and **Remnunt** to extend fight to the Death Time, where you will deal increased damage to the boss.
+    However, it is worth mentioning that there are Story Pack fights such as **Partan** (Story Pack 11) and **Nox** (Story Pack 12), where you can use **Gynt** and **Remnunt** to extend fight to Death Time, where you will deal increased damage to the boss.
 
     ---
         
@@ -741,7 +741,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
 === "$\text{\textcolor{white}{CDMG}}$"
 
-    {{CritDMG}} **Crit Damage** matters when a character **crits**, meaning it is essential to have high {{CritRate}} **Crit Rate** or guarantee it via other methods.
+    {{CritDMG}} **Crit Damage** matters when a character **crits**, meaning it is essential to have a high {{CritRate}} **Crit Rate** or guarantee it via other methods.
 
     !!! example "{{CritRate}} Crit Rate"
         {{CritRate}} **Crit Rate** is additive, similar to other buffs within same multiplier: 
@@ -1018,7 +1018,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ---
 
-    Each **Chain** increases damage by 10% by default, however there is an effect called **Increased Chain DMG**, which increases that value more.
+    Each **Chain** increases damage by 10% by default, however there is an effect called **Increased Chain DMG**, which increases that value further.
 
     ---
 
@@ -1103,10 +1103,10 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     Vulnerability is a **debuff** that increases damage received by the enemy. There are 5 types of Vulnerability: 
 
     * **General**, which increases damage in every instance
-    * **Damage Type-related**, which increases damage only to the {{Physical}} **Physical**{.yellow} or {{Magical}} **Magical**{.magenta} damage type. 
+    * **Damage Type-related**, which increases damage only for the {{Physical}} **Physical**{.yellow} or {{Magical}} **Magical**{.magenta} damage type. 
         * {{Physical}} **Physical**{.yellow} Vulnerability is described as **Vulnerability (Physical)**
         * {{Magical}} **Magical**{.magenta} Vulnerability is described as **Vulnerability (Magic)**
-    * **Property-related**, that increases damage if only a specific property deals damage
+    * **Property-related**, that increases damage only if a specific property deals damage
     * **Summons-related**, that increases damage dealt by summons
 
     ---
@@ -1330,9 +1330,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
 === "$\text{DMG Increase\%}$"
 
-    $\text{DMG Increase\%}$ Buffs are buffs that technically act as reverse [**Vulnerability**](#__tabbed_1_8), increasing **your own characters'** damage instead of forcing the enemy to take more damage.
+    $\text{DMG Increase\%}$ Buffs are buffs that technically act as a reverse [**Vulnerability**](#__tabbed_1_8), increasing **your own characters'** damage instead of forcing the enemy to take more damage.
 
-    So far, all these buffs are called **Augmentation**, which you can think of as a buff with conditions. The condition can be either related to chains, times getting hit or the amount of debuffs being removed from allies. 
+    So far, all these buffs are called **Augmentation**, which you can think of as a buff with conditions. The condition can be either related to chains, the number of times getting hit or the number of debuffs being removed from allies. 
 
     In other words, it is similar to Conditional [$\text{Skill\%}$](#__tabbed_1_2) in a way.
 
@@ -1442,7 +1442,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     Depending on the opponent, there can be 3 outcomes: 
 
     * You gain **Property Advantage**, dealing **extra damage** due to a superior Property
-    * You neither deal more nor deal less damage, due to a Neutral enemy or cases like Light -> Water. 
+    * You deal neither more nor less damage, due to a Neutral enemy or cases like Light -> Water. 
     * You deal **less damage** due to **Property Disadvantage**.
 
     ---
@@ -1559,11 +1559,11 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ---
 
-    During calculations, $\text{\textcolor{ffe8aa}{DEF}}$ / $\text{\textcolor{ffa6ff}{MRES}}$ are capped at $90\%$. That means no matter how high the stat is, only a maximum of $90\%$ will be used. This, however, does not actually remove anything above that mark, meaning going above can be useful when facing $\text{\textcolor{ffe8aa}{DEF}}$ / $\text{\textcolor{ffa6ff}{MRES}}$ **Reduction**.
+    During calculations, $\text{\textcolor{ffe8aa}{DEF}}$ / $\text{\textcolor{ffa6ff}{MRES}}$ are capped at $90\%$. That means no matter how high the stat is, only a maximum of $90\%$ will be used. This, however, does not actually remove anything above that mark, meaning going above it can be useful when facing $\text{\textcolor{ffe8aa}{DEF}}$ / $\text{\textcolor{ffa6ff}{MRES}}$ **Reduction**.
 
     ---
 
-    **Fixed**, **Consumed** and **Pure** Damage ignores $\text{\textcolor{ffe8aa}{DEF}}$ / $\text{\textcolor{ffa6ff}{MRES}}$ completely.
+    **Fixed**, **Consumed** and **Pure** Damage ignore $\text{\textcolor{ffe8aa}{DEF}}$ / $\text{\textcolor{ffa6ff}{MRES}}$ completely.
 
     ---
     
@@ -1990,7 +1990,7 @@ $\text{Damage} = \underbrace{2950}_\text{ATK} \times \underbrace{150\%}_\text{Sk
 
 $\text{Damage} = 2950 \times 1.5 \times 3.75 \times 3 \times 8.344 \times 1.6 \times 0.75 = 498449.7$
 
-That confirms the received damage by the enemy in-game: 
+That confirms the damage received by the enemy in-game:
 
 ![Fight Screenshot №2](../assets/images/damage-formula/fight_2.avif)
 
@@ -2002,14 +2002,14 @@ During calculations, some numbers have a cap to avoid weird bugs or mechanics.
 * {{CritRate}} **Crit Rate**{.white} is capped at $100\%$.
 * {{CritDMG}} **Crit DMG**{.white} is capped at $10,000$
 
-* Chains are capped at $100$, except in the Last Night, where they have no cap.
+* Chains are capped at $100$, except in Last Night, where they have no cap.
 
 ## Additional Effects
 
 ### Death Time
 Starting from Turn 11 in different modes, Death Time is introduced. 
 
-Each 2 turns, each side receives 
+Every 2 turns, each side receives
 
 * $100\%$ {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} **Buff**
 * $100\%$ {{DEF}} **DEF**{.yellow} / {{MRES}} **MRES**{.magenta} **Debuffs**
@@ -2020,4 +2020,4 @@ These (de)buffs follow the exact rules as described above, going into each of th
 ### Environmental Effects
 In [**Evil Castle**](../content-packs/evil-castle.md), especially **Tower of Jealousy** and **Tower of Wrath**, there are effects taking place that affect some stats, such as  **Pressure**, {{CritRate}} **Crit Rate** and more. 
 
-Refer to the [**Evil Castle**](../content-packs/evil-castle.md) page for more detailed explanation.
+Refer to the [**Evil Castle**](../content-packs/evil-castle.md) page for the more detailed explanation.
