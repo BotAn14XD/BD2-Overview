@@ -86,6 +86,15 @@ This site is a work in progress, focusing on high-quality explanations for every
 
     [View Page →](./content/fh.md){: .md-button }
 </div>
+
+<div class="grid cards center-content" markdown>
+-   ![Territory](assets/images/site-assets/index-pc-nav-20.avif){: .card-header-img }
+
+    ---
+
+    [View Page →](./content/territory.md){: .md-button }
+</div>
+
 ---
 
 <div class="banner-container">

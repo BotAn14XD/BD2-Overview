@@ -846,28 +846,27 @@ li.md-nav__item:has(a[href$="#"]) {
 
 .gear-tooltip-box {
     display: block;
-    position: absolute;
     bottom: 125%; 
     left: 50%;
     transform: translateX(-50%);
-    
     background-color: #1a1f2c; 
     border: 1px solid #4b5563;
     border-radius: 6px;
-    padding: 10px 14px;
     font-size: 0.85rem;
     z-index: 2;
-    width: max-content;
-    max-width: calc(100vw - 24px) !important; 
-    box-sizing: border-box;
-    
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     line-height: 1.4;
-    
+    padding: 16px;
+    background-clip: padding-box;
     opacity: 0;
     visibility: hidden;
-    pointer-events: none;
+    pointer-events: auto !important;
     transition: opacity 0.15s ease-in-out, visibility 0.15s ease-in-out;
+    position: absolute;
+    width: max-content;
+    max-width: 350px;
+    box-sizing: border-box;
+    white-space: normal !important;
 }
 
 
@@ -970,4 +969,64 @@ li.md-nav__item:has(a[href$="#"]) {
     display: table;
     width: max-content;
     min-width: 100%;
+}
+
+/* TERRITORY CARDS */
+
+.territory-grid-tile {
+    width: 110px;
+    height: 110px;
+    background-color: #1a1f2c;
+    border: 2px solid #374151;
+    border-radius: 10px;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    cursor: help;
+    transition: all 0.15s ease-in-out;
+}
+
+.tile-image {
+    width: 85px !important;
+    height: 85px !important;
+    object-fit: contain;
+}
+
+.tooltip-line.green {
+    color: #4ade80 !important; 
+}
+.tooltip-line .yellow {
+    color: #f59e0b !important;
+}
+
+.territory-grid-tile .gear-tooltip-box {
+    width: max-content;
+    min-width: 260px;
+    max-width: 400px;
+    white-space: normal !important;
+}
+
+.mat-cost-item {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap; 
+}
+
+.inline-mat-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+    margin-top: -2px;
+}
+
+.cost-flex-line {
+    display: flex !important;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.cost-items-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 12px;
 }

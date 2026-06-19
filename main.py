@@ -1,5 +1,7 @@
 def define_env(env):
 
+    prefix = "/BD2-Overview/"
+
     @env.macro
     def time(t):
         return f'<span class="local-time" data-utc="{t.strip()}">{t.strip()} UTC</span>'
@@ -69,6 +71,7 @@ def define_env(env):
         "Coal": ["assets/images/icons/icon_resource214_35.png", "Coal"],
         "Cooked_Rice": ["assets/images/icons/cooked_rice.png", "Cooked Rice"],
         "Copper_Ore": ["assets/images/icons/icon_resource202_28.png", "Copper Ore"],
+        "Copper_Ore_T": ["assets/images/territory/icons/icon_life_item_consumption_002.avif", "Copper Ore"],
         "Costumes": ["assets/images/icons/icon_pictorialbook7.png", "Costumes"],
         "CritDMG": ["assets/images/gear-system/icons/icon_stats_criticalhit_l.avif", "Critical DMG"],
         "CritRate": ["assets/images/gear-system/icons/icon_stats_critical_l.avif", "Critical Rate"],
@@ -99,6 +102,7 @@ def define_env(env):
         "God_Kings_Silver_Arm": ["assets/images/gear-system/icons/icon_equipment4201_79.avif", "God-King's Silver Arm"],
         "Gold": ["assets/images/icons/icon_resource60005_88.png", "Gold"],
         "Gold_Ore": ["assets/images/icons/icon_resource203_29.png", "Gold Ore"],
+        "Gold_Ore_T": ["assets/images/territory/icons/icon_life_item_consumption_005.avif", "Gold Ore"],
         "Golden_Thread": ["assets/images/icons/icon_resource4_8.png", "Golden Thread"],
         "Hammer_of_Thunder": ["assets/images/gear-system/icons/icon_equipment4102_62.avif", "Hammer of Thunder"],
         "Hardwood": ["assets/images/icons/icon_resource501_45.png", "Hardwood"],
@@ -110,11 +114,14 @@ def define_env(env):
         "Invulnerable_Armor": ["assets/images/gear-system/icons/icon_equipment4301_73.avif", "Invulnerable Armor"],
         "Immortal_Golden_Armor": ["assets/images/gear-system/icons/icon_equipment4303_75.avif", "Immortal Golden Armor"],
         "Iron_Ore": ["assets/images/icons/icon_resource201_27.png", "Iron Ore"],
+        "Iron_Ore_T": ["assets/images/territory/icons/icon_life_item_consumption_003.avif", "Iron Ore"],
         "Key_of_Salvation": ["assets/images/icons/icon_resource60024_212.png", "Key of Salvation"],
         "Knockback": ["assets/images/battle-system/icons/icon_stats_knockback.avif", "Knockback"],
         "Light": ["assets/images/battle-system/icons/elementicon4_4.avif", "Light Property"],
         "Light_Magic_Crystal": ["assets/images/icons/icon_resource114_18.png", "Light Magic Crystal"],
+        "Local_Points": ["assets/images/icons/icon_resource90080_382.avif","Local Points"],
         "Lost_Silver": ["assets/images/icons/lost_silver.png", "Lost Silver"],
+        "Lumber": ["assets/images/territory/icons/icon_life_item_consumption_007.avif","Lumber"],
         "Magical": ["assets/images/icons/icon_stats_magical.png", "Magical Damage Type"],
         "MATK": ["assets/images/gear-system/icons/icon_stats_magical_l.avif", "MATK"],
         "Medal_of_the_Fighting_Spirit": ["assets/images/icons/Medals of the Fighting Spirit.png", "Medal of the Fighting Spirit"],
@@ -144,14 +151,17 @@ def define_env(env):
         "Refining_Stone": ["assets/images/icons/icon_resource106_14.png", "Refining Stone"],
         "Ring_of_Fury": ["assets/images/gear-system/icons/icon_equipment4204_82.avif", "Ring of Fury"],
         "Ring_of_the_Lake": ["assets/images/gear-system/icons/icon_equipment4505_89.avif", "Ring of the Lake"],
+        "Rock": ["assets/images/territory/icons/icon_life_item_consumption_001.avif", "Rock"],
         "Scale_of_the_Sea_God": ["assets/images/gear-system/icons/icon_equipment4302_74.avif", "Scale of the Sea God"],
         "Selective_Exclusive_Draw_Ticket": ["assets/images/icons/icon_resource40021_267.png", "Selective Exclusive Draw Ticket"],
         "Shackle_of_Treachery": ["assets/images/gear-system/icons/icon_equipment4206_84.avif", "Shackle of Treachery"],
+        "Silver_Ore_T": ["assets/images/territory/icons/icon_life_item_consumption_004.avif", "Silver Ore"],
         "Skip": ["assets/images/icons/icon_skip.avif", "Skip Button"],
         "Solar_Brilliance": ["assets/images/gear-system/icons/icon_equipment4405_71.avif", "Solar Brilliance"],
         "Spark_of_Rampage": ["assets/images/icons/icon_resource20045_383.avif", "Spark of Rampage"],
         "SR_Exclusive_Gear_Draw_Exchange_Ticket": ["assets/images/icons/icon_resource40008_130.png", "SR Exclusive Gear Draw Exchange Ticket"],
         "SR_Grade": ["assets/images/gear-system/icons/SR_Grade.avif", "SR Grade"],
+        "Sturdy_Lumber": ["assets/images/territory/icons/icon_life_item_consumption_008.avif","Sturdy Lumber"],
         "Tear_of_Goddess": ["assets/images/icons/icon_resource20005_156.png", "Tear of Goddess"],
         "Torch": ["assets/images/icons/icon_resource60023_163.png", "Torch"],
         "Travel_Gods_Friend": ["assets/images/gear-system/icons/icon_equipment4104_64.avif", "Travel God's Friend"],
@@ -165,6 +175,7 @@ def define_env(env):
         "Weapon": ["assets/images/gear-system/icons/popupicon_equip1.avif", "Weapon"],
         "Wind": ["assets/images/battle-system/icons/elementicon3_3.avif", "Wind Property"],
         "Wind_Magic_Crystal": ["assets/images/icons/icon_resource113_17.png", "Wind Magic Crystal"],
+        "Wooden_Branch": ["assets/images/territory/icons/icon_life_item_consumption_006.avif", "Wooden Branch"],
         "Yellow_Slime": ["assets/images/icons/icon_resource9001_59.png", "Yellow Slime"],
         "S": ["assets/images/gear-system/icons/S_score.avif", "S Gear Score"],
         "A": ["assets/images/gear-system/icons/A_score.avif", "A Gear Score"],
@@ -619,11 +630,217 @@ def define_env(env):
                 f'</span>'
             )
 
-    prefix = "/BD2-Overview/"
-
     for key, info in images.items():
         path, label = info[0], info[1]
     
         html_payload = f'<img src="{prefix}{path}" title="{label}" alt="{label}" class="icon" />'
         
         env.macros[key] = html_payload
+
+    # TERRITORY STUFF 
+    MATERIALS_DB = {
+    "Rock": "assets/images/territory/icons/icon_life_item_consumption_001.avif",
+    "Copper Ore": "assets/images/territory/icons/icon_life_item_consumption_002.avif",
+    "Iron Ore": "assets/images/territory/icons/icon_life_item_consumption_003.avif",
+    "Silver Ore": "assets/images/territory/icons/icon_life_item_consumption_004.avif",
+    "Gold Ore": "assets/images/territory/icons/icon_life_item_consumption_005.avif",
+    "Wooden Branch": "assets/images/territory/icons/icon_life_item_consumption_006.avif",
+    "Lumber": "assets/images/territory/icons/icon_life_item_consumption_007.avif",
+    "Sturdy Lumber": "assets/images/territory/icons/icon_life_item_consumption_008.avif"
+    }
+
+
+    TERRITORY_DB = {
+        "Home": {
+            "icon": "assets/images/territory/icons/icon_life_object_building_004.avif",
+            "limit": "1",
+            "usage": "Main Building",
+            "time": "",
+            "cost": "",
+            "bonus": "",
+            "desc": "A private retreat where you can rest and recharge. Furnished with cozy decor and items of personal value, this space serves as the control hub of everything that goes on in your territory."
+        },
+        "Cooking Pot": {
+            "icon": "assets/images/territory/icons/icon_life_object_building_001.avif",
+            "limit": "1",
+            "usage": "Cooking",
+            "cost": {
+            "Rock": 10,
+            "Wooden Branch": 10
+        },
+            "desc": "Fierce flames lick the base of a massive iron cauldron, as countless ingredients swirl together inside, giving off a rich fragrance."
+        },
+        "Workbench": {
+            "icon": "assets/images/territory/icons/icon_life_object_building_002.avif",
+            "limit": "1",
+            "usage": "Crafting",
+            "desc": "A heavy wooden workbench bearing the marks of frequent use, equipped with various crafting tools. A wide range of everyday items can be refined and assembled here."
+        },
+        "Helper Lodging":{
+            "icon": "assets/images/territory/icons/icon_life_object_building_003.avif",
+            "limit": "5",
+            "usage": "",
+            "cost":{
+            "Iron Ore": 40,
+            "Copper Ore": 20,
+            "Lumber": 120
+            },
+            "time": "12 hours",
+            "desc": "A cozy cottage that retains heat with its roof of soft, leafy layers. A perfect retreat after a day of hard labor."
+        },
+        "Resident Mansion":{
+            "icon": "assets/images/territory/icons/icon_life_object_building_004.avif",
+            "limit": "5",
+            "usage": "",
+            "cost":{
+            "Rock": 40,
+            "Copper Ore": 15,
+            "Lumber": 40,
+            "Sturdy Lumber": 40,
+            },
+            "time": "15 minutes",
+            "desc": "A luxury residence featuring an ornate roof and large windows. Built for those who call your Territory home, it boasts a spacious interior and a solid structure."
+        },
+        "Pub":{
+            "icon": "assets/images/territory/icons/icon_life_object_building_005.avif",
+            "limit": "1",
+            "usage": "",
+            "cost":{
+            "Rock": 100,
+            "Copper Ore": 40,
+            "Iron Ore": 20,
+            "Lumber": 120,
+            },
+            "time": "8 hours",
+            "desc": "A breezy, bar-style tavern. A lively place for grabbing a drink and getting the latest scoop on your Territory.",
+            "bonus": "+1 Lumber Bonus"
+        },
+        "Warehouse":{
+            "icon": "assets/images/territory/icons/icon_life_object_building_006.avif",
+            "limit": "1",
+            "usage": "",
+            "cost":{
+            "Rock": 100,
+            "Copper Ore": 40,
+            "Iron Ore": 20,
+            "Lumber": 120,
+            },
+            "time": "8 hours",
+            "desc": "A standard wooden building reinforced with thick planks and nails for heavy-duty storage. Safely houses harvested resources and supplies against external threats.",
+            "bonus": "+1 Mineral Bonus"
+        },
+        "Field":{
+            "icon": "assets/images/territory/icons/icon_life_object_building_007.avif",
+            "limit": "100",
+            "usage": "",
+            "cost":{
+            "Rock": 5,
+            "Wooden Branch": 5,
+            "Lumber": 3,
+            },
+            "time": "",
+            "desc": "A plot of farmland with fertile soil, carefully leveled and tilled. Rich in nutrients, it provides everything seeds need to take root and grow into strangely shaped crops.",
+        },
+        "Logging Site":{
+            "icon": "assets/images/territory/icons/icon_life_object_building_008.avif",
+            "limit": "2",
+            "usage": "",
+            "cost":{
+            "Sturdy Lumber":120,
+            "Iron Ore":50,
+            "Silver Ore":40,
+            "Gold Ore":15,
+            },
+            "time": "24 hours",
+            "desc": "A dense woodland where thick trees grow without end. New shoots spring up wherever a tree is felled, steadily supplying the local demand for timber.",
+        },
+        "Quarry":{
+            "icon": "assets/images/territory/icons/icon_life_object_building_009.avif",
+            "limit": "2",
+            "usage": "",
+            "cost":{
+            "Lumber": 300,
+            "Iron Ore": 50,
+            "Silver Ore": 50,
+            "Gold Ore": 15,
+            },
+            "time": "24 hours",
+            "desc": "A rugged rock formation where massive boulders have broken through and risen above the surface. Solid ore veins periodically emerge throughout the area.",
+        },
+        "Forge":{
+            "icon": "assets/images/territory/icons/icon_life_object_building_010.avif",
+            "limit": "1",
+            "usage": "",
+            "cost":{
+            "Rock": 15,
+            "Wooden Branch": 15,
+            "Lumber": 15,
+            },
+            "time": "",
+            "desc": "A forge where red molten metal flows ceaselessly from a massive furnace. Fully equipped with all manner of facilities, it is the ideal place for enhancing tools of every kind.",
+        },
+    }
+
+    @env.macro
+    def territory_tile(name):
+    
+        item = TERRITORY_DB.get(name, {})
+        icon = item.get("icon", "default.png")
+        
+        tooltip_html = (
+            f'<span class="gear-tooltip-box">'
+            f'<span class="tooltip-header">'
+            f'<img src="{prefix}{icon}" class="icon header-icon" alt="">'
+            f'<span class="header-title white bold">{name}</span>'
+            f'</span>'
+            f'<span class="tooltip-divider-line"></span>'
+        )
+
+        limit = item.get("limit", "?")
+        usage = item.get("usage", "Unknown")
+
+        if usage:
+            tooltip_html += f'<span class="tooltip-line gray bold">Limit: {limit} | Type: {usage}</span>'
+        else:
+            tooltip_html += f'<span class="tooltip-line gray bold">Limit: {limit}</span>'
+
+        time = item.get("time")
+        if time:
+            tooltip_html += f'<span class="tooltip-line gray bold">Build Time: {time}</span>'
+            
+        cost_data = item.get("cost")
+        if isinstance(cost_data, dict): 
+            cost_html_parts = []
+            for mat_name, amount in cost_data.items():
+                mat_icon = MATERIALS_DB.get(mat_name, "default_mat.png")
+                mat_html = f'<span class="mat-cost-item"><img src="{prefix}{mat_icon}" class="inline-mat-icon icon" alt="{mat_name}"> {amount}x {mat_name}</span>'
+                cost_html_parts.append(mat_html)
+                
+            joined_costs = "".join(cost_html_parts)
+            tooltip_html += f'<span class="tooltip-line gray bold cost-flex-line"><span class="cost-label">Cost:</span> <span class="cost-items-wrap">{joined_costs}</span></span>'
+            
+        elif cost_data and cost_data != "None":
+            tooltip_html += f'<span class="tooltip-line gray bold">Cost: {cost_data}</span>'
+            
+        elif cost_data and cost_data != "None":
+            tooltip_html += f'<span class="tooltip-line gray bold">Cost: {cost_data}</span>'
+            
+        if item.get("bonus") or item.get("desc"):
+            tooltip_html += f'<span class="tooltip-divider-line"></span>'
+            
+        bonus = item.get("bonus")
+        if bonus and bonus != "None":
+            tooltip_html += f'<span class="tooltip-line green"><strong class="yellow">Option:</strong> {bonus}</span>'
+            
+        desc = item.get("desc")
+        if desc:
+            tooltip_html += f'<span class="tooltip-line white">{desc}</span>'
+            
+        tooltip_html += f'</span>'
+
+        return (
+            f'<span class="territory-grid-tile gear-tooltip-wrapper">'
+            f'<img src="{prefix}{icon}" class="tile-image" alt="{name}">'
+            f'{tooltip_html}'
+            f'</span>'
+        )

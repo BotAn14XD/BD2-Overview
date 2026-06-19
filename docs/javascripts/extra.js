@@ -27,52 +27,71 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+function initTooltips() {
     const wrappers = document.querySelectorAll(".gear-tooltip-wrapper");
 
     function adjustTooltipPosition(wrapper) {
         const tooltip = wrapper.querySelector(".gear-tooltip-box");
         if (!tooltip) return;
 
+        tooltip.style.display = "block";
         tooltip.style.left = "50%";
         tooltip.style.transform = "translateX(-50%)";
+        
+        const rect = wrapper.getBoundingClientRect();
+        const tooltipRect = tooltip.getBoundingClientRect();
+        
+        const mainContent = document.querySelector(".md-content") || document.querySelector("article");
+        
+        let minLeftBoundary = 16;
+        let maxRightBoundary = window.innerWidth - 16;
 
-        requestAnimationFrame(() => {
-            const rect = wrapper.getBoundingClientRect();
-            const tooltipRect = tooltip.getBoundingClientRect();
-            const viewportWidth = window.innerWidth;
+        if (mainContent) {
+            const contentRect = mainContent.getBoundingClientRect();
+            minLeftBoundary = contentRect.left + 16;
+            maxRightBoundary = Math.min(window.innerWidth - 16, contentRect.right - 16);
+        }
 
-            if (rect.top < 250) {
-                tooltip.style.bottom = "auto";
-                tooltip.style.top = "125%";
-                tooltip.classList.add("flipped-down");
-            } else {
-                tooltip.style.bottom = "125%";
-                tooltip.style.top = "auto";
-                tooltip.classList.remove("flipped-down");
-            }
-            const padding = 12; 
-            let shiftX = 0;
+        if (rect.top < 250) {
+            tooltip.style.bottom = "auto";
+            tooltip.style.top = "125%";
+            tooltip.classList.add("flipped-down");
+        } else {
+            tooltip.style.bottom = "125%";
+            tooltip.style.top = "auto";
+            tooltip.classList.remove("flipped-down");
+        }
 
-            if (tooltipRect.left < padding) {
-                shiftX = padding - tooltipRect.left;
-            } else if (tooltipRect.right > viewportWidth - padding) {
-                shiftX = (viewportWidth - padding) - tooltipRect.right;
-            }
+        let shiftX = 0;
 
-            // Apply shifts safely using translate
-            if (shiftX !== 0) {
-                tooltip.style.transform = `translateX(calc(-50% + ${shiftX}px))`;
-            }
-        });
+        if (tooltipRect.left < minLeftBoundary) {
+            shiftX = minLeftBoundary - tooltipRect.left; 
+        } else if (tooltipRect.right > maxRightBoundary) {
+            shiftX = maxRightBoundary - tooltipRect.right;
+        }
+
+        if (shiftX !== 0) {
+            tooltip.style.transform = `translateX(calc(-50% + ${shiftX}px))`;
+        }
+
+        tooltip.style.display = "";
     }
 
     wrappers.forEach(wrapper => {
+        if (wrapper.dataset.tooltipInit) return; 
+        wrapper.dataset.tooltipInit = "true";
+
         wrapper.addEventListener("mouseenter", () => adjustTooltipPosition(wrapper));
-        
-        // Mobile tap support
-        wrapper.addEventListener("touchstart", function(e) {
+        wrapper.addEventListener("touchstart", function() {
             adjustTooltipPosition(this);
         }, { passive: true });
     });
-});
+}
+
+if (typeof document$ !== "undefined") {
+    document$.subscribe(function() {
+        initTooltips();
+    });
+} else {
+    document.addEventListener("DOMContentLoaded", initTooltips);
+}

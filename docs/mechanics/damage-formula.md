@@ -90,7 +90,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     $\vec{\tilde{\text{v}}} = \begin{pmatrix}\text{\textcolor{ffe8aa}{DEF}} & \text{\textcolor{ffa6ff}{MRES}} \end{pmatrix}$
 
-    $\vec{\tilde{\text{s}}} = \begin{pmatrix}\delta\text{\textcolor{ffe8aa}{Physical}} & \delta\text{\textcolor{ffa6ff}{Magical}} \end{pmatrix}$
+    $\vec{\tilde{\text{s}} = \begin{pmatrix}\delta\text{\textcolor{ffe8aa}{Physical}} & \delta\text{\textcolor{ffa6ff}{Magical}} \end{pmatrix}$
 
     $\vec{\text{b}}_\text{i}^{\text{(def)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{DEF}}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MRES}}}\end{pmatrix}$
 
@@ -103,7 +103,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     $\text{PR} = \begin{pmatrix}0 & 1 & -1 & 0 & 0 & 0 \\ -1 & 0 & 1 & 0 & 0 & 0 \\ 1 & -1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 & 0\end{pmatrix}$
     
     $\vec{\text{pr}}^\text{(off)} = \begin{pmatrix}\delta\text{Water} & \delta\text{Fire} & \delta\text{Wind} & \delta\text{Light} & \delta\text{Darkness} & \delta\text{Neutral}\end{pmatrix} \\\\
-    \vec{\text{pr}}^\text{(def)} = \begin{pmatrix}\delta\text{Water} & \delta\text{Fire} & \delta\text{Wind} & \delta\text{Light} & \delta\text{Darkness} & \delta\text{Neutral}\end{pmatrix}$
+    \vec{\text{pr}}^\text{(def)} = \begin{pmatrix}\text{\delta\text{Water}} & \delta\text{Fire} & \delta\text{Wind} & \delta\text{Light} & \delta\text{Darkness} & \delta\text{Neutral}\end{pmatrix}$
 
     $\vec{\text{b}}_\text{i}^{\text{(pr)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{Water}} & \text{b}_{\text{i}}^{\text{Fire}} & \text{b}_{\text{i}}^{\text{Wind}} & \text{b}_{\text{i}}^{\text{Light}} & \text{b}_{\text{i}}^{\text{Darkness}} & \text{b}_{\text{i}}^{\text{Neutral}} \equiv 0 \end{pmatrix}$
 
@@ -119,9 +119,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     $\delta_{\text{fh/gr}} = \begin{pmatrix}\delta\text{Fiend Hunter} & \delta\text{Guild Raid}\end{pmatrix} \cdot \begin{pmatrix}1 & 1\end{pmatrix}^{\top}$ 
 
-<div class="tab-align" markdown>
-=== "$\text{\textcolor{ffe8aa}{ATK}}$"
+## Damage Formula Details {.tab-align}
 
+=== "$\text{\textcolor{ffe8aa}{ATK}}$"
     This corresponds to the character's {{ATK}} **ATK**{.yellow}, {{MATK}} **MATK**{.magenta}, own or enemy {{HP}} **HP**{.orange}, or, rarely, enemy {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}. To understand what's being used in each case, find words like "**of your** **ATK**{.yellow}" in the costume skill description.  
     ??? image "Image Showcase"
         ![Base stat dependency Showcase](../assets/images/damage-formula/based_of_desc.avif)
@@ -139,7 +139,6 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     ---
 
 === "$\text{Skill\%}$"
-
     The Skill% mostly represents the percent (%) mentioned in the Skill Description. 
 
     ??? image "Image Showcase"
@@ -286,8 +285,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     </table>
     </div>
 
-=== "$\text{\textcolor{ffe8aa}{ATK\%} Buffs}$"
+    ---
 
+=== "$\text{\textcolor{ffe8aa}{ATK\%} Buffs}$"
     The {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} buff is the most common type of buff. It directly increases the character's stat.
 
     These buffs are **additive** if coming from different sources (parts of the skills or different skills): 
@@ -300,336 +300,337 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     Costumes providing {{ATK}} $\text{\textcolor{ffe8aa}{ATK\%}}$ buffs **to allies**:
     <div class="responsive-table-wrapper">
-        <table class="data-table">
-            <thead>
-                <tr>
-                    <th colspan="2">Costume</th>
-                    <th>Buff Value</th>
-                    <th>Duration</th>
-                    <th>SP</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td align="center">
-                    ![Medical Club Teresse](../assets/images/damage-formula/illust_inven_char001106_117.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Medical Club Teresse</strong></td>
-                    <td>$50\% \sim 120\%$</td>
-                    <td>$\text{4 Turns}$</td>
-                    <td align="center">$4 \sim 3$</td>
-                </tr>
-                <tr>
-                    <td rowspan="2" align="center">
-                    ![Homunculus Lathel](../assets/images/damage-formula/illust_inven_char000103_59.avif){.icon-portrait}
-                    </td>
-                    <td rowspan="2"><strong>Homunculus Lathel</strong></td>
-                    <td>$60\% \sim 90\%$</td>
-                    <td>$4 \sim 6 \text{ Turns}$</td>
-                    <td align="center" rowspan="2">$2 \sim 1$</td>
-                </tr>
-                <tr>
-                    <td>$25\% \sim 70\%$</td>
-                    <td>$\text{2 Turns}$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Dark Saintess Liberta](../assets/images/damage-formula/illust_inven_char003801_164.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Dark Saintess Liberta</strong></td>
-                    <td>$35\% \sim 115\%$</td>
-                    <td>$\text{4 Turns}$</td>
-                    <td align="center">$3 \sim 1$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Priest of Vitality Arines](../assets/images/damage-formula/illust_inven_char103701_36.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Priest of Vitality Arines</strong></td>
-                    <td>$25\% \sim 80\%$</td>
-                    <td>$\text{6 Turns}$</td>
-                    <td align="center">$3 \sim 2$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Shadow Bunny Eleaneer](../assets/images/damage-formula/illust_inven_char061103_187.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Shadow Bunny Eleaneer</strong></td>
-                    <td>$20\% \sim 60\%$</td>
-                    <td>$\text{10 Turns} \newline \text{\textcolor{AFDBF5}{[Domain]}}$</td>
-                    <td align="center">$6 \sim 4$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Kind Student Samay](../assets/images/damage-formula/illust_inven_char101402_16.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Kind Student Samay</strong></td>
-                    <td>$20\% \sim 50\%$</td>
-                    <td>$\text{2 Turns}$</td>
-                    <td align="center">$2 \sim 0$</td>
-                </tr>
-            </tbody>
-        </table>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th colspan="2">Costume</th>
+                <th>Buff Value</th>
+                <th>Duration</th>
+                <th>SP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">
+                ![Medical Club Teresse](../assets/images/damage-formula/illust_inven_char001106_117.avif){.icon-portrait}
+                </td>
+                <td><strong>Medical Club Teresse</strong></td>
+                <td>$50\% \sim 120\%$</td>
+                <td>$\text{4 Turns}$</td>
+                <td align="center">$4 \sim 3$</td>
+            </tr>
+            <tr>
+                <td rowspan="2" align="center">
+                ![Homunculus Lathel](../assets/images/damage-formula/illust_inven_char000103_59.avif){.icon-portrait}
+                </td>
+                <td rowspan="2"><strong>Homunculus Lathel</strong></td>
+                <td>$60\% \sim 90\%$</td>
+                <td>$4 \sim 6 \text{ Turns}$</td>
+                <td align="center" rowspan="2">$2 \sim 1$</td>
+            </tr>
+            <tr>
+                <td>$25\% \sim 70\%$</td>
+                <td>$\text{2 Turns}$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Dark Saintess Liberta](../assets/images/damage-formula/illust_inven_char003801_164.avif){.icon-portrait}
+                </td>
+                <td><strong>Dark Saintess Liberta</strong></td>
+                <td>$35\% \sim 115\%$</td>
+                <td>$\text{4 Turns}$</td>
+                <td align="center">$3 \sim 1$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Priest of Vitality Arines](../assets/images/damage-formula/illust_inven_char103701_36.avif){.icon-portrait}
+                </td>
+                <td><strong>Priest of Vitality Arines</strong></td>
+                <td>$25\% \sim 80\%$</td>
+                <td>$\text{6 Turns}$</td>
+                <td align="center">$3 \sim 2$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Shadow Bunny Eleaneer](../assets/images/damage-formula/illust_inven_char061103_187.avif){.icon-portrait}
+                </td>
+                <td><strong>Shadow Bunny Eleaneer</strong></td>
+                <td>$20\% \sim 60\%$</td>
+                <td>$\text{10 Turns} \newline \text{\textcolor{AFDBF5}{[Domain]}}$</td>
+                <td align="center">$6 \sim 4$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Kind Student Samay](../assets/images/damage-formula/illust_inven_char101402_16.avif){.icon-portrait}
+                </td>
+                <td><strong>Kind Student Samay</strong></td>
+                <td>$20\% \sim 50\%$</td>
+                <td>$\text{2 Turns}$</td>
+                <td align="center">$2 \sim 0$</td>
+            </tr>
+        </tbody>
+    </table>
     </div>
-
+    
     ---
     
     Costumes providing {{MATK}} $\text{\textcolor{ffa6ff}{MATK\%}}$ buffs **to allies**:
     <div class="responsive-table-wrapper">
-        <table class="data-table">
-            <thead>
-                <tr>
-                    <th colspan="2">Costume</th>
-                    <th>Buff Value</th>
-                    <th>Duration</th>
-                    <th>SP</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td align="center">
-                    ![Medical Club Teresse](../assets/images/damage-formula/illust_inven_char001106_117.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Medical Club Teresse</strong></td>
-                    <td>$50\% \sim 120\%$</td>
-                    <td>$\text{4 Turns}$</td>
-                    <td align="center">$4 \sim 3$</td>
-                </tr>
-                <tr>
-                    <td rowspan="2" align="center">
-                    ![Queen of Gluttis Granadair](../assets/images/damage-formula/illust_inven_char067702_194.avif){.icon-portrait}
-                    </td>
-                    <td rowspan="2"><strong>Queen of Gluttis Granadair</strong></td>
-                    <td>$50\% \sim 80\%$</td>
-                    <td>$4 \text{ Turns}$</td>
-                    <td align="center" rowspan="2">$2 \sim 1$</td>
-                </tr>
-                <tr>
-                    <td>$45\% \sim 70\%$</td>
-                    <td>$\text{2 Turns}$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![B-Rank Idol Helena](../assets/images/damage-formula/illust_inven_char061002_26.avif){.icon-portrait}
-                    </td>
-                    <td><strong>B-Rank Idol Helena</strong></td>
-                    <td>$35\% \sim 115\%$</td>
-                    <td>$\text{4 Turns}$</td>
-                    <td align="center">$3 \sim 1$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Retired Legend Olivier](../assets/images/damage-formula/illust_inven_char003604_196.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Retired Legend Olivier</strong></td>
-                    <td>$60\% \sim 100\%$</td>
-                    <td>$\text{10 Turns} \newline \text{\textcolor{AFDBF5}{[Domain]}}$</td>
-                    <td align="center">$6 \sim 4$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Shadow Bunny Eleaneer](../assets/images/damage-formula/illust_inven_char061103_187.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Shadow Bunny Eleaneer</strong></td>
-                    <td>$20\% \sim 60\%$</td>
-                    <td>$\text{10 Turns} \newline \text{\textcolor{AFDBF5}{[Domain]}}$</td>
-                    <td align="center">$6 \sim 4$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Kind Student Samay](../assets/images/damage-formula/illust_inven_char101402_16.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Kind Student Samay</strong></td>
-                    <td>$20\% \sim 50\%$</td>
-                    <td>$\text{2 Turns}$</td>
-                    <td align="center">$2 \sim 0$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Hand of Salvation Elpis](../assets/images/damage-formula/illust_inven_char003101_122.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Hand of Salvation Elpis</strong></td>
-                    <td>$25\% \sim 80\%$</td>
-                    <td>$\text{6 Turns}$</td>
-                    <td align="center">$3 \sim 2$</td>
-                </tr>
-            </tbody>
-        </table>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th colspan="2">Costume</th>
+                <th>Buff Value</th>
+                <th>Duration</th>
+                <th>SP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">
+                ![Medical Club Teresse](../assets/images/damage-formula/illust_inven_char001106_117.avif){.icon-portrait}
+                </td>
+                <td><strong>Medical Club Teresse</strong></td>
+                <td>$50\% \sim 120\%$</td>
+                <td>$\text{4 Turns}$</td>
+                <td align="center">$4 \sim 3$</td>
+            </tr>
+            <tr>
+                <td rowspan="2" align="center">
+                ![Queen of Gluttis Granadair](../assets/images/damage-formula/illust_inven_char067702_194.avif){.icon-portrait}
+                </td>
+                <td rowspan="2"><strong>Queen of Gluttis Granadair</strong></td>
+                <td>$50\% \sim 80\%$</td>
+                <td>$4 \text{ Turns}$</td>
+                <td align="center" rowspan="2">$2 \sim 1$</td>
+            </tr>
+            <tr>
+                <td>$45\% \sim 70\%$</td>
+                <td>$\text{2 Turns}$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![B-Rank Idol Helena](../assets/images/damage-formula/illust_inven_char061002_26.avif){.icon-portrait}
+                </td>
+                <td><strong>B-Rank Idol Helena</strong></td>
+                <td>$35\% \sim 115\%$</td>
+                <td>$\text{4 Turns}$</td>
+                <td align="center">$3 \sim 1$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Retired Legend Olivier](../assets/images/damage-formula/illust_inven_char003604_196.avif){.icon-portrait}
+                </td>
+                <td><strong>Retired Legend Olivier</strong></td>
+                <td>$60\% \sim 100\%$</td>
+                <td>$\text{10 Turns} \newline \text{\textcolor{AFDBF5}{[Domain]}}$</td>
+                <td align="center">$6 \sim 4$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Shadow Bunny Eleaneer](../assets/images/damage-formula/illust_inven_char061103_187.avif){.icon-portrait}
+                </td>
+                <td><strong>Shadow Bunny Eleaneer</strong></td>
+                <td>$20\% \sim 60\%$</td>
+                <td>$\text{10 Turns} \newline \text{\textcolor{AFDBF5}{[Domain]}}$</td>
+                <td align="center">$6 \sim 4$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Kind Student Samay](../assets/images/damage-formula/illust_inven_char101402_16.avif){.icon-portrait}
+                </td>
+                <td><strong>Kind Student Samay</strong></td>
+                <td>$20\% \sim 50\%$</td>
+                <td>$\text{2 Turns}$</td>
+                <td align="center">$2 \sim 0$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Hand of Salvation Elpis](../assets/images/damage-formula/illust_inven_char003101_122.avif){.icon-portrait}
+                </td>
+                <td><strong>Hand of Salvation Elpis</strong></td>
+                <td>$25\% \sim 80\%$</td>
+                <td>$\text{6 Turns}$</td>
+                <td align="center">$3 \sim 2$</td>
+            </tr>
+        </tbody>
+    </table>
     </div>
 
     ---
-        
+
     Costumes providing {{ATK}} $\text{\textcolor{ffe8aa}{ATK\%}}$ buffs to **themselves only**:
     <div class="responsive-table-wrapper">
-        <table class="data-table">
-            <thead>
-                <tr>
-                    <th colspan="2">Costume</th>
-                    <th>Buff Value</th>
-                    <th>Duration</th>
-                    <th>SP</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td align="center">
-                    ![The Sword Queen Sylvia](../assets/images/damage-formula/illust_inven_char001002_102.avif){.icon-portrait}
-                    </td>
-                    <td><strong>The Sword Queen<br>Sylvia</strong></td>
-                    <td>$100\% \sim 225\%$</td>
-                    <td>$2 \sim 6 \text{ Turns}$</td>
-                    <td align="center">1</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Herb Tracker Lathel](../assets/images/damage-formula/illust_inven_char000101_1.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Herb Tracker<br>Lathel</strong></td>
-                    <td>$50\%$</td>
-                    <td>$2 \text{ Turns}$</td>
-                    <td align="center">$3 \sim 2$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Lonely Survivor Lathel](../assets/images/damage-formula/illust_inven_char000102_44.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Lonely Survivor<br>Lathel</strong></td>
-                    <td>$50\%$</td>
-                    <td>$2 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 2$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Promise of Vengeance Lathel](../assets/images/damage-formula/illust_inven_char000105_42.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Promise of Vengeance<br>Lathel</strong></td>
-                    <td>$50\% \sim 60\%$</td>
-                    <td>$2 \text{ Turns}$</td>
-                    <td align="center">$3 \sim 2$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Maid Name C Rubia](../assets/images/damage-formula/illust_inven_char000806_116.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Maid Name C<br>Rubia</strong></td>
-                    <td>$50\%$</td>
-                    <td>$4 \sim 6 \text{ Turns}$</td>
-                    <td align="center">$3 \sim 2$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Noble Flame Ikaruga](../assets/images/damage-formula/illust_inven_char021001_198.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Noble Flame<br>Ikaruga</strong></td>
-                    <td>$60\% \sim 100\%$</td>
-                    <td>$\infty \newline \text{3 stacks MAX} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
-                    <td align="center">$6 \sim 4$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Laid-back Lifeguard Nebris](../assets/images/damage-formula/illust_inven_char003302_130.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Laid-back Lifeguard<br>Nebris</strong></td>
-                    <td>$50\%$</td>
-                    <td>$6 \sim 10 \text{ Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
-                    <td align="center">$4 \sim 3$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Pool Party Justia](../assets/images/damage-formula/illust_inven_char000206_91.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Pool Party<br>Justia</strong></td>
-                    <td>$150\% \sim 300\%$</td>
-                    <td>$8 \sim 12 \text{ Turns}$</td>
-                    <td align="center">$2 \sim 1$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Comeback Idol Ventana](../assets/images/damage-formula/illust_inven_char067003_111.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Comeback Idol<br>Ventana</strong></td>
-                    <td>$50\% \sim 125\%$</td>
-                    <td>$4 \text{ Turns}$</td>
-                    <td align="center">$5 \sim 3$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Whitebolt Yuri](../assets/images/damage-formula/illust_inven_char065102_105.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Whitebolt<br>Yuri</strong></td>
-                    <td>$150\% \sim 160\%$</td>
-                    <td>$4 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 3$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Haggard Delinquent Emma](../assets/images/damage-formula/illust_inven_char101301_61.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Haggard Delinquent<br>Emma</strong></td>
-                    <td>$200\% \sim 500\%$</td>
-                    <td>$6 \text{ Turns}$</td>
-                    <td align="center">$2 \sim 1$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Shadow Bunny Eleaneer](../assets/images/damage-formula/illust_inven_char061103_187.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Shadow Bunny Eleaneer</strong></td>
-                    <td>$25\% \sim 40\%$</td>
-                    <td>$10 \text{ Turns}$</td>
-                    <td align="center">$6 \sim 4$</td>
-                </tr>
-            </tbody>
-        </table>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th colspan="2">Costume</th>
+                <th>Buff Value</th>
+                <th>Duration</th>
+                <th>SP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">
+                ![The Sword Queen Sylvia](../assets/images/damage-formula/illust_inven_char001002_102.avif){.icon-portrait}
+                </td>
+                <td><strong>The Sword Queen<br>Sylvia</strong></td>
+                <td>$100\% \sim 225\%$</td>
+                <td>$2 \sim 6 \text{ Turns}$</td>
+                <td align="center">1</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Herb Tracker Lathel](../assets/images/damage-formula/illust_inven_char000101_1.avif){.icon-portrait}
+                </td>
+                <td><strong>Herb Tracker<br>Lathel</strong></td>
+                <td>$50\%$</td>
+                <td>$2 \text{ Turns}$</td>
+                <td align="center">$3 \sim 2$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Lonely Survivor Lathel](../assets/images/damage-formula/illust_inven_char000102_44.avif){.icon-portrait}
+                </td>
+                <td><strong>Lonely Survivor<br>Lathel</strong></td>
+                <td>$50\%$</td>
+                <td>$2 \text{ Turns}$</td>
+                <td align="center">$4 \sim 2$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Promise of Vengeance Lathel](../assets/images/damage-formula/illust_inven_char000105_42.avif){.icon-portrait}
+                </td>
+                <td><strong>Promise of Vengeance<br>Lathel</strong></td>
+                <td>$50\% \sim 60\%$</td>
+                <td>$2 \text{ Turns}$</td>
+                <td align="center">$3 \sim 2$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Maid Name C Rubia](../assets/images/damage-formula/illust_inven_char000806_116.avif){.icon-portrait}
+                </td>
+                <td><strong>Maid Name C<br>Rubia</strong></td>
+                <td>$50\%$</td>
+                <td>$4 \sim 6 \text{ Turns}$</td>
+                <td align="center">$3 \sim 2$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Noble Flame Ikaruga](../assets/images/damage-formula/illust_inven_char021001_198.avif){.icon-portrait}
+                </td>
+                <td><strong>Noble Flame<br>Ikaruga</strong></td>
+                <td>$60\% \sim 100\%$</td>
+                <td>$\infty \newline \text{3 stacks MAX} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
+                <td align="center">$6 \sim 4$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Laid-back Lifeguard Nebris](../assets/images/damage-formula/illust_inven_char003302_130.avif){.icon-portrait}
+                </td>
+                <td><strong>Laid-back Lifeguard<br>Nebris</strong></td>
+                <td>$50\%$</td>
+                <td>$6 \sim 10 \text{ Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
+                <td align="center">$4 \sim 3$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Pool Party Justia](../assets/images/damage-formula/illust_inven_char000206_91.avif){.icon-portrait}
+                </td>
+                <td><strong>Pool Party<br>Justia</strong></td>
+                <td>$150\% \sim 300\%$</td>
+                <td>$8 \sim 12 \text{ Turns}$</td>
+                <td align="center">$2 \sim 1$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Comeback Idol Ventana](../assets/images/damage-formula/illust_inven_char067003_111.avif){.icon-portrait}
+                </td>
+                <td><strong>Comeback Idol<br>Ventana</strong></td>
+                <td>$50\% \sim 125\%$</td>
+                <td>$4 \text{ Turns}$</td>
+                <td align="center">$5 \sim 3$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Whitebolt Yuri](../assets/images/damage-formula/illust_inven_char065102_105.avif){.icon-portrait}
+                </td>
+                <td><strong>Whitebolt<br>Yuri</strong></td>
+                <td>$150\% \sim 160\%$</td>
+                <td>$4 \text{ Turns}$</td>
+                <td align="center">$4 \sim 3$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Haggard Delinquent Emma](../assets/images/damage-formula/illust_inven_char101301_61.avif){.icon-portrait}
+                </td>
+                <td><strong>Haggard Delinquent<br>Emma</strong></td>
+                <td>$200\% \sim 500\%$</td>
+                <td>$6 \text{ Turns}$</td>
+                <td align="center">$2 \sim 1$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Shadow Bunny Eleaneer](../assets/images/damage-formula/illust_inven_char061103_187.avif){.icon-portrait}
+                </td>
+                <td><strong>Shadow Bunny Eleaneer</strong></td>
+                <td>$25\% \sim 40\%$</td>
+                <td>$10 \text{ Turns}$</td>
+                <td align="center">$6 \sim 4$</td>
+            </tr>
+        </tbody>
+    </table>
     </div>
+
     ---
         
     Costumes providing {{MATK}} $\text{\textcolor{ffa6ff}{MATK\%}}$ buffs to **themselves only**:
     <div class="responsive-table-wrapper">
-        <table class="data-table">
-            <thead>
-                <tr>
-                    <th colspan="2">Costume</th>
-                    <th>Buff Value</th>
-                    <th>Duration</th>
-                    <th>SP</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td align="center">
-                    ![Track and Field Team Loen](../assets/images/damage-formula/illust_inven_char003202_133.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Track and Field Team<br>Loen</strong></td>
-                    <td>$40\% \sim 80\%$</td>
-                    <td>$4 \text{ Turns}$</td>
-                    <td align="center">$5 \sim 4$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Beachside Justice Michaela](../assets/images/damage-formula/illust_inven_char067401_137.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Beachside Justice<br>Michaela</strong></td>
-                    <td>$200\%$</td>
-                    <td>$2 \text{ Turns}$</td>
-                    <td align="center">$5 \sim 4$</td>
-                </tr>
-                <tr>
-                    <td align="center">
-                    ![Apostle Olivier](../assets/images/damage-formula/illust_inven_char003602_176.avif){.icon-portrait}
-                    </td>
-                    <td><strong>Apostle<br>Olivier</strong></td>
-                    <td>$50\% \sim 80\%$</td>
-                    <td>$8 \sim 10 \text{ Turns}$</td>
-                    <td align="center">$2 \sim 1$</td>
-                </tr>
-            </tbody>
-        </table>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th colspan="2">Costume</th>
+                <th>Buff Value</th>
+                <th>Duration</th>
+                <th>SP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">
+                ![Track and Field Team Loen](../assets/images/damage-formula/illust_inven_char003202_133.avif){.icon-portrait}
+                </td>
+                <td><strong>Track and Field Team<br>Loen</strong></td>
+                <td>$40\% \sim 80\%$</td>
+                <td>$4 \text{ Turns}$</td>
+                <td align="center">$5 \sim 4$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Beachside Justice Michaela](../assets/images/damage-formula/illust_inven_char067401_137.avif){.icon-portrait}
+                </td>
+                <td><strong>Beachside Justice<br>Michaela</strong></td>
+                <td>$200\%$</td>
+                <td>$2 \text{ Turns}$</td>
+                <td align="center">$5 \sim 4$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Apostle Olivier](../assets/images/damage-formula/illust_inven_char003602_176.avif){.icon-portrait}
+                </td>
+                <td><strong>Apostle<br>Olivier</strong></td>
+                <td>$50\% \sim 80\%$</td>
+                <td>$8 \sim 10 \text{ Turns}$</td>
+                <td align="center">$2 \sim 1$</td>
+            </tr>
+        </tbody>
+    </table>
     </div>
 
 === "$\text{Pressure}$"
     Pressure is a debuff that reduces stat-boosting buff efficiency. **It does not affect initial character stats, only buffs.**
-    
+
     It affects stats such as:
 
     * {{HP}} **HP%**{.orange}
@@ -646,8 +647,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ??? image "Pressure Effect in a fight"
         ![Pressure Effect in a fight](../assets/images/damage-formula/pressure.avif)
-=== "$\text{\textcolor{ffe8aa}{ATK\%} Debuffs}$"
 
+=== "$\text{\textcolor{ffe8aa}{ATK\%} Debuffs}$"
     {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Debuffs are straightforward: they reduce the character's {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}. 
 
     Because they stack with buffs additively, it is more or less not important unless you are in a fight where the boss doesn't gain any buffs.
@@ -714,6 +715,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tbody>
         </table>
     </div>
+    
     ---
         
     Costumes providing {{MATK}} $\text{\textcolor{ffa6ff}{MATK\%}}$ debuffs:
@@ -751,7 +753,6 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     </div>
 
 === "$\text{\textcolor{white}{CDMG}}$"
-
     {{CritDMG}} **Crit Damage** matters when a character **crits**, meaning it is essential to have a high {{CritRate}} **Crit Rate** or guarantee it via other methods.
 
     !!! example "{{CritRate}} Crit Rate"
@@ -1366,7 +1367,6 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     </div>
 
 === "$\text{DMG Increase\%}$"
-
     $\text{DMG Increase\%}$ Buffs are buffs that technically act as a reverse [**Vulnerability**](#__tabbed_1_8), increasing **your own characters'** damage instead of forcing the enemy to take more damage.
 
     So far, all these buffs are called **Augmentation**, which you can think of as a buff with conditions. The condition can be either related to chains, the number of times getting hit or the number of debuffs being removed from allies. 
@@ -1477,7 +1477,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         </table>
     </div>
 
-=== "$\text{\textcolor{8A9A5B}{Property}}$"
+=== "$\text{Property}}$"
     Property is another aspect of any character. There are a total of 6 Properties: ![Water](../assets/images/battle-system/icons/elementicon1_1.avif){.icon} Water, ![Fire](../assets/images/battle-system/icons/elementicon2_2.avif){.icon} Fire, ![Wind](../assets/images/battle-system/icons/elementicon3_3.avif){.icon} Wind, ![Light](../assets/images/battle-system/icons/elementicon4_4.avif){.icon} Light, ![Darkness](../assets/images/battle-system/icons/elementicon5_5.avif){.icon} Darkness and ![Neutral](../assets/images/battle-system/icons/elementicon6_6.avif){.icon} Neutral.
 
     Depending on the opponent, there can be 3 outcomes: 
@@ -1865,6 +1865,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tbody>
         </table>
     </div>
+    
     ---
 
     Costumes providing **Barrier** buff to **themselves only**:
@@ -2016,8 +2017,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             </tbody>
         </table>
-        </div>
-</div>
+    </div>
 
 ## The Example
 As an example, let's take this fight.
@@ -2026,14 +2026,12 @@ As an example, let's take this fight.
 All Costumes are upgraded to the max. 
 
 !!! abstract "Blade's Stats"
-
     * **Hit Multiplier**: $150\%$
     * {{ATK}} **ATK**: $2950$
     * {{CritDMG}} **Crit DMG**: $734.44\%$
     * **Darkness DMG**: $60\%$
 
 !!! abstract "Enemy Stats"
-
     * {{DEF}} **DEF**: $25\%$
 
 Liberta increases {{ATK}} **ATK** by $115\%$, Lathel increases {{ATK}} **ATK** by $160\%$, and Teresse increases **DMG Dealt** by $200\%$.

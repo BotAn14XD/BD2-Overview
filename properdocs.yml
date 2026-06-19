@@ -32,8 +32,6 @@ nav:
         - 'Gear System': progression/gear.md  
         - 'Potential Liberation': progression/potentials.md
     - 'Game Content':
-        - 'Season Events': content/events.md
-        - 'Fiend Hunter': content/fh.md
         - 'Content Packs':
             - 'Mirror Wars': content-packs/mirror-wars.md
             - 'Evil Castle': content-packs/evil-castle.md
@@ -42,6 +40,9 @@ nav:
             - 'Glupy Diner': content-packs/glupy-diner.md
             - 'Golden Colosseum': content-packs/golden-colosseum.md
             - 'Fantasia Square': content-packs/fantasia-square.md
+        - 'Fiend Hunter': content/fh.md
+        - 'Season Events': content/events.md
+        - 'Territory': content/territory.md
     - 'Miscellaneous':
         - 'Game Slang': misc/slang.md
     - 'Common Questions': FAQ.md
@@ -56,8 +57,7 @@ extra_css:
 extra_javascript:
   - javascripts/extra.js
   - javascripts/katex.js
-  - javascripts/custom.js:
-    async: true
+  - javascripts/custom.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 plugins:
@@ -76,6 +76,7 @@ plugins:
         - icon-header
         - icon-list
         - card-header-img
+        - tile-image
   - git-revision-date-localized:
       type: date
       timezone: UTC
