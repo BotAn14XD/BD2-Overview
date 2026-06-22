@@ -1,6 +1,4 @@
-.md-content, 
-.md-main,
-body {
+.md-content {
     overflow-x: hidden;
 }
 

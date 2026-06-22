@@ -77,6 +77,7 @@ comments: true
     * **Shadowed Dream Sonya ({{Darkness}} Darkness)** (until +4 or +5)
     * **Young Lady Blade ({{Darkness}} Darkness)** (until +5)
     * **Medical Club Teresse ({{Water}} Water)** (until +5)
+    * **Miracle Marine Mamonir ({{Water}} Water)** (until +5)
     * **Red Riding Hood Rou ({{Darkness}} Darkness)** (until +5)
     * **New Hire Seir ({{Darkness}} Darkness)** (until +5)
     * **Shadowed Bunny Eleaneer ({{Darkness}} Darkness)** (until +4)

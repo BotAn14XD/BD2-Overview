@@ -50,7 +50,7 @@ You can see the grade in the top right corner of each gear piece or to the right
 ---
 
 ## Gear Tier
-Each **Grade** can have different **Tiers**. There are a total of **4 Tiers** which are shown as **roman numbers** from {{I}} through {{IV}} for a crafted gear piece. The higher the number, the better.
+Each **Grade** can have different **Tiers**. There are a total of **4 Tiers** which are shown as **Roman numerals** from {{I}} through {{IV}} for a crafted gear piece. The higher the number, the better.
 
 * Exclusive Gear has no number, although its tier is {{IV}}.
 * Event Shop Gear has no number either, although its tier is {{III}}.
@@ -59,10 +59,10 @@ Each **Grade** can have different **Tiers**. There are a total of **4 Tiers** wh
     You can check the gear tier by checking the amount of **stars**.
 
     * **Zero silver** stars mean the tier is {{I}}.
-    * **One silver** star means tier is {{II}}.
-    * **Two silver** stars means tier is {{III}}.
-    * **Three silver** stars means tier is {{IV}}.
-    * **One <u>gold</u>** star means it is an exclusive gear. 
+    * **One silver** star means the tier is {{II}}.
+    * **Two silver** stars means the tier is {{III}}.
+    * **Three silver** stars means the tier is {{IV}}.
+    * **One <u>gold</u>** star means it is exclusive gear. 
 
 ??? image "Image Guide"
     ![Tiers Visual Explanation](../assets/images/gear-system/gear_tiers.avif)
@@ -83,7 +83,7 @@ Each **Grade** can have different **Tiers**. There are a total of **4 Tiers** wh
 
 The next layer of Gear investment is its **Level**. Each level enhances **Basic Attribute** values.
 
-Each Gear can be upgraded up to a total of 9 times, resulting in having a **+9 Gear piece**.
+Each Gear piece can be upgraded up to a total of 9 times, resulting in having a **+9 Gear piece**.
 
 Each upgrade costs {{Gold}} **Gold** (price depends on the Grade and Upgrade Level) and has **a chance to fail**. If the upgrade fails, there is **no penalty or downgrade risk**.
 
@@ -92,7 +92,7 @@ Each upgrade costs {{Gold}} **Gold** (price depends on the Grade and Upgrade Lev
     
     Alternatively, use [**Official Gitbook**](https://browndust2.gitbook.io/probabilitydetails_en/other-probabilities/gear-crafting-and-refining#upgrade-success-probability).
 
-On **+3**, **+6** and **+9 Level**, Option (Substats) slots are opened.<br>Aside from unlocking Option slot itself, they enhance **Basic Attribute values** via Upgrade Scores, similar to Levels, although the +9 slot has way more impact compared to the +3 one. Each slot also receives the letter {{C}},{{B}},{{A}} or {{S}}, the functionality of which will be covered in the [next chapter](#gear-refinement).
+On **+3**, **+6** and **+9 Levels**, Option (Substats) slots are opened.<br>Aside from unlocking the Option slot itself, they enhance **Basic Attribute values** via Upgrade Scores, similar to Levels, although the +9 slot has way more impact compared to the +3 one. Each slot also receives the letter {{C}},{{B}},{{A}} or {{S}}, the functionality of which will be covered in the [next chapter](#gear-refinement).
 
 
 !!! note ""
@@ -125,7 +125,7 @@ As was mentioned earlier, each following Option slot has a bigger impact towards
 
 ??? example "Detailed Score Explanation"
     * Each letter is assigned a number 1-4, with {{C}} receiving 1 and {{S}} 4 correspondingly.
-    * Second and third letter bonus is multiplied by 2 and 3 correspondingly.
+    * The second and third letter bonuses are multiplied by 2 and 3 respectively.
     * Each letter value is added towards the Total Score.
     !!! warning ""
         ![Gear Score Calculations](../assets/images/gear-system/score_calculation.avif)
@@ -149,7 +149,7 @@ You can change the Gear Score you have by a process called Refinement. It uses {
 !!! warning "Time saving feature"
     To prevent exhaustion and to do refinement much quicker, press the **Repeat** button, set the slider to the max (or use the MAX button), then hit the **Refinement** button, and, finally, press the {{Skip}} **Skip** button.
 
-    It is advised to have the **"Ends once refining succeeds"** feature ON as it prevents you from overspending the powder. Although it means that upgrading gear to Score 18 will take a few cycles. 
+    It is advised to have the **"Ends once refining succeeds"** feature ON as it prevents you from overspending the powder. However, it means that upgrading gear to Score 18 will take a few cycles. 
     ??? image "**Image Guide**"
         ![Refinement Guide](../assets/images/gear-system/refinement_guide.avif)
      
@@ -288,7 +288,7 @@ Except for things mentioned above, Gear is **identical** to the gear of the same
 ## ![Gear Crafting Icon](../assets/images/gear-system/icons/talent_bufficon_9_l.avif){.icon} **Crafting Gear**
 When it comes down to **crafting the gear**, you need to use **Fred's** or **Layla's Crafting Field Ability**.
 
-To do that, press the ![Field Ability](../assets/images/gear-system/icons/icon_fieldskill.avif "Field Ability"){.icon} **Field Ability** icon on the bottom of your screen and find either the characters mentioned above.
+To do that, press the ![Field Ability](../assets/images/gear-system/icons/icon_fieldskill.avif "Field Ability"){.icon} **Field Ability** icon on the bottom of your screen and find either ofthe characters mentioned above.
 
 ??? image "Image Guide"
     ![Field Ability Location](../assets/images/gear-system/crafting_ability.avif)
@@ -302,7 +302,7 @@ In the menu, you can see all the gear you can possibly craft, sorted by rarity. 
 ??? image "Gear Crafting Menu"
     ![Gear Crafting Menu](../assets/images/gear-system/crafting_menu.avif)
 
-To craft the Gear, you must have corresponding materials and {{Ability_Pill}} **Ability Pills**. You can check which resources are needed in the bottom left corner of the menu. In the same corner, you can also adjust the amount of the Gear you want to craft.
+To craft the Gear, you must have the corresponding materials and {{Ability_Pill}} **Ability Pills**. You can check which resources are needed in the bottom left corner of the menu. In the same corner, you can also adjust the amount of the Gear you want to craft.
 
 ??? image "Individual Gear Crafting Menu"
     ![Individual Gear Crafting Menu](../assets/images/gear-system/crafting_menu2.avif)
@@ -378,7 +378,7 @@ You can access all your gear via the Gear Menu, located in the **second** tab (!
 ??? image "Gear Menu Image"
     ![Gear Menu Image](../assets/images/gear-system/gear-location.avif)
 
-In this menu, you can check specifics about any gear you have, as well as access Refinement Menu etc. 
+In this menu, you can check specifics about any gear you have, as well as access the Refinement Menu etc. 
 
 ### See Details Feature
 The **See Details** feature is a toggle that allows you to see more information about gear on page, more particularly, its values. 
@@ -389,7 +389,7 @@ It can be useful but as time passes by, you start understanding the gear without
 ### Compare Feature
 The **Compare** feature allows you to compare stats of two gears of your choice. It displays the difference in the Options and / or Main Attributes values.
 
-First clicked gear becomes the "main" one, and any following gear is compared to the main. You can freely change compared gear by pressing different gear you want.
+The first clicked gear becomes the "main" one, and any following gear is compared to the main. You can freely change compared gear by pressing different gear you want.
 
 That being said, the inability to properly display a meaningful comparison, especially when it comes down to substats, makes it a nearly useless feature. 
 ??? image "Image of Compare Feature"
@@ -432,7 +432,7 @@ Possible Sorting options:
     ![Different Sortings](../assets/images/gear-system/sorting.avif)
 
 ### Upgrade All
-The **Upgrade All** feature allows you to bulk upgrade the gear **level**. To do that, select the gear needed, press $\checkmark$ and set up upgrade settings. 
+The **Upgrade All** feature allows you to bulk upgrade the gear's **level**. To do that, select the gear needed, press $\checkmark$ and set up upgrade settings. 
 ??? image "Image Guide"
     ![Upgrade All Feature](../assets/images/gear-system/upgrade_all.avif)
 
@@ -464,7 +464,7 @@ It behaves similarly to the **Upgrade All** feature.
 
 ## ![Dismantle Icon](../assets/images/gear-system/icons/icon_decomposition.avif){.icon-header} Gear Dismantle
 
-Dismantle is a process to get rid of gear pieces in exchange for {{Refining_Powder}} **Refining Powder**, {{Refining_Stone}} **Refining Stones** or {{Refining_Crystal}} **Refining Crystals**.
+Dismantling is a process to get rid of gear pieces in exchange for {{Refining_Powder}} **Refining Powder**, {{Refining_Stone}} **Refining Stones** or {{Refining_Crystal}} **Refining Crystals**.
 
 * {{Refining_Stone}} **Refining Stones** are obtained from {{R_Grade}} Gear only.
 * {{Refining_Crystal}} **Refining Crystals** are obtained from {{SR_Grade}} and {{UR_Grade}} Gear.
@@ -488,9 +488,9 @@ To do the dismantle, it is better to use the [**Upgrade All**](#upgrade-all) or 
 
 ## Crafting Guide
 
-As a new player, you should prioritize **offensive** gear instead of **defensive**. To put it simply, it is fine to run a glass cannon strategy for the story, as long as you evaporate everything on Turn 1. 
+As a new player, you should prioritize **offensive** gear instead of **defensive** pieces. To put it simply, it is fine to run a glass cannon strategy for the story, as long as you evaporate everything on Turn 1. 
 
-As was mentioned above, offensive gear is <u>**mostly**</u> {{Weapon}} **Weapon**, {{Accessory}}**Accessory** and {{Gloves}} **Gloves**. 
+As was mentioned above, offensive gear is <u>**mostly**</u> {{Weapon}} **Weapon**, {{Accessory}}**Accessory** and {{Gloves}} **Glove**. 
 
 The whole crafting guide essentially comes down to your current needs. Here's an example of what your progression can look like as a player who never touched crafting:
 
@@ -580,7 +580,7 @@ For all of these types the build you want is different.
 === "Fixed Damage DPS"
     Since Fixed Damage **cannot crit**, there is no reason to invest in {{CritDMG}} **Crit Damage**.
 
-    Although, it is worth mentioning that this type of DPS is heavily underperforming and **not worth building whatsoever**.
+    However, it is worth mentioning that this type of DPS is heavily underperforming and **not worth building whatsoever**.
 
     Therefore, the most used builds are the following:
 
@@ -665,7 +665,7 @@ For all of these types the build you want is different.
     Alternatively, use [Character Builds](https://dotgg.gg/brown-dust-2/characters/) made <u>**only**</u> by **IceKane**.
 </div>
 ## Gear Calculator 
-To use the Gear Calculator, use the [Souseha's Database](https://browndust2-wiki.souseha.com/en/option-calculator).
+To use the Gear Calculator, use [Souseha's Database](https://browndust2-wiki.souseha.com/en/option-calculator).
 
 This calculator is made to calculate the most efficient Options (substats), although it can somewhat work for general gear as well. 
 
@@ -695,7 +695,7 @@ It is worth mentioning that **Damage** isn't the actual Damage you will deal in-
 
 * {{Refining_Powder}} **Refining Powder**: **Events**, **Event Shop**, ![Dismantle Icon](../assets/images/gear-system/icons/icon_decomposition.avif){.icon} **Dismantling Gear** *(mostly {{N_Grade}} Grade)*.
     * Use [**Powder Calculator**](https://browndust2-wiki.souseha.com/en/powder-calculator) to calculate the most efficient way to grind the {{Refining_Powder}} **Refining Powder**.
-* {{Refining_Crystal}} **Refining Crystal**: **Event Shop**, **Golden Colloseum Shop**, ![Tower Of Salvation Icon](../assets/images/evil-castle/icon_roguelike.avif){ .icon } [**Tower of Salvation**](../content-packs/evil-castle.md#tower-of-salvation), ![Dismantle Icon](../assets/images/gear-system/icons/icon_decomposition.avif){.icon} Dismantling {{SR_Grade}} and {{UR_Grade}} Gear.
+* {{Refining_Crystal}} **Refining Crystal**: **Event Shop**, **Golden Colosseum Shop**, ![Tower Of Salvation Icon](../assets/images/evil-castle/icon_roguelike.avif){ .icon } [**Tower of Salvation**](../content-packs/evil-castle.md#tower-of-salvation), ![Dismantle Icon](../assets/images/gear-system/icons/icon_decomposition.avif){.icon} Dismantling {{SR_Grade}} and {{UR_Grade}} Gear.
 * {{Ancient_Crystal}} **Ancient Crystals**: **Events**, **Event Shop**, **Golden Colosseum Shop**, ![Tower Of Salvation Icon](../assets/images/evil-castle/icon_roguelike.avif){ .icon } [**Tower of Salvation**](../content-packs/evil-castle.md#tower-of-salvation), ![Tower Of Pride Icon](../assets/images/evil-castle/icon_devilcastle_2.avif){ .icon } [**Tower of Pride**](../content-packs/evil-castle.md#tower-of-pride), **Last Night**.
 * {{Gold_Ore}} **Gold Ore**: **Hunting Grounds**, **Map Absorption**, **Events**.
 * {{Hardwood}} **Hardwood**: **Hunting Grounds**, **Map Absorption**, **Events**.
