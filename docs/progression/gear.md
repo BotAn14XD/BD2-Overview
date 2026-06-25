@@ -60,8 +60,8 @@ Each **Grade** can have different **Tiers**. There are a total of **4 Tiers** wh
 
     * **Zero silver** stars mean the tier is {{I}}.
     * **One silver** star means the tier is {{II}}.
-    * **Two silver** stars means the tier is {{III}}.
-    * **Three silver** stars means the tier is {{IV}}.
+    * **Two silver** stars mean the tier is {{III}}.
+    * **Three silver** stars mean the tier is {{IV}}.
     * **One <u>gold</u>** star means it is exclusive gear. 
 
 ??? image "Image Guide"
@@ -288,7 +288,7 @@ Except for things mentioned above, Gear is **identical** to the gear of the same
 ## ![Gear Crafting Icon](../assets/images/gear-system/icons/talent_bufficon_9_l.avif){.icon} **Crafting Gear**
 When it comes down to **crafting the gear**, you need to use **Fred's** or **Layla's Crafting Field Ability**.
 
-To do that, press the ![Field Ability](../assets/images/gear-system/icons/icon_fieldskill.avif "Field Ability"){.icon} **Field Ability** icon on the bottom of your screen and find either ofthe characters mentioned above.
+To do that, press the ![Field Ability](../assets/images/gear-system/icons/icon_fieldskill.avif "Field Ability"){.icon} **Field Ability** icon on the bottom of your screen and find either of the characters mentioned above.
 
 ??? image "Image Guide"
     ![Field Ability Location](../assets/images/gear-system/crafting_ability.avif)
@@ -356,7 +356,7 @@ Upon clicking the individual item, you can set the desired amount of material yo
     
     You can follow the same steps as described above in [Crafting section](#crafting-gear).
     !!! tip "Best way to farm EXP"
-        For Alchemy, it does not really matter much since you're going to use almost every material eventually. Thus, try to craft the least expensive stuff first, for example: 
+        For Alchemy, it does not really matter much since you're going to use almost all materials eventually. Thus, try to craft the least expensive stuff first, for example: 
 
         * {{Plain_Leather}} **Plain Leather** into {{Fine_Leather}} **Fine Leather**.
         * {{Plain_Fabric}} **Plain Fabric** into {{Fine_Fabric}} **Fine Fabric**.
@@ -513,7 +513,7 @@ The whole crafting guide essentially comes down to your current needs. Here's an
 
             * {{ gear("God-King's Silver Arm") }} and {{ gear("Shackle of Treachery") }} are **generally better** for a **new player** and are still used for some DPS in late game, while {{ gear("Prime Authority") }} and {{ gear("Dragon Scales Protection") }} are used more in the **late game**, but could be **less powerful at the start**. 
             
-            Either way, you will use **both gloves types**, so it is **up to you what to choose**.
+            Either way, you will use **both glove types**, so it is **up to you what to choose**.
 
     4. Craft one more {{UR_Grade}} {{III}} {{ gear("Venomous Touch", "III") }}, {{Weapon}} **Weapon** and {{Gloves}} **Gloves** for the second DPS of the team.
     5. Move onto crafting one or two sets of the {{UR_Grade}} {{IV}} offensive gear, following the same pattern as in 4th point, starting from {{ gear("Venomous Touch") }}.
@@ -572,10 +572,10 @@ For all of these types the build you want is different.
     
     When it comes down to {{Armor}} **Armor**, and {{Helmet}} **Helmet**, there are a few combinations:
 
-    * {{ gear("Invulnerable Armor") }} $+$ {{ gear("Helm of Carnage") }} if enemy deals {{Physical}} **Physical**{.yellow} damage
-    * {{ gear("Fiend Guard") }} $+$ {{ gear("Radiant Wisdom") }} if enemy deals {{Magical}} **Magical**{.magenta} damage
-    * {{ gear("Immortal Golden Armor") }} $+$ {{ gear("Helm of Death") }} if enemy deals {{Physical}} **<u>Fixed, True or Consumed</u> Physical**{.yellow} damage
-    * {{ gear("Hellfire Robe") }} $+$ {{ gear("Crown of Galaxy") }} if enemy deals {{Magical}} **<u>Fixed, True or Consumed</u> Magical**{.magenta} damage
+    * {{ gear("Invulnerable Armor") }} $+$ {{ gear("Helm of Carnage") }} if the enemy deals {{Physical}} **Physical**{.yellow} damage
+    * {{ gear("Fiend Guard") }} $+$ {{ gear("Radiant Wisdom") }} if the enemy deals {{Magical}} **Magical**{.magenta} damage
+    * {{ gear("Immortal Golden Armor") }} $+$ {{ gear("Helm of Death") }} if the enemy deals {{Physical}} **<u>Fixed, True or Consumed</u> Physical**{.yellow} damage
+    * {{ gear("Hellfire Robe") }} $+$ {{ gear("Crown of Galaxy") }} if the enemy deals {{Magical}} **<u>Fixed, True or Consumed</u> Magical**{.magenta} damage
     
 === "Fixed Damage DPS"
     Since Fixed Damage **cannot crit**, there is no reason to invest in {{CritDMG}} **Crit Damage**.
@@ -597,8 +597,8 @@ For all of these types the build you want is different.
 
     Therefore, builds are:
 
-    * {{ gear("Immortal Golden Armor") }} $+$  {{ gear("Helm of Death") }} $+$ {{ gear("Venomous Touch") }} if enemy deals {{Physical}} **Physical**{.yellow} damage;
-    * {{ gear("Hellfire Robe") }} $+$ {{ gear("Crown of Galaxy") }} $+$ {{ gear("Venomous Touch") }} if enemy deals {{Magical}} **Magical**{.magenta} damage.
+    * {{ gear("Immortal Golden Armor") }} $+$  {{ gear("Helm of Death") }} $+$ {{ gear("Venomous Touch") }} if the enemy deals {{Physical}} **Physical**{.yellow} damage;
+    * {{ gear("Hellfire Robe") }} $+$ {{ gear("Crown of Galaxy") }} $+$ {{ gear("Venomous Touch") }} if the enemy deals {{Magical}} **Magical**{.magenta} damage.
 
     {{Weapon}} **Weapon** can be either {{ gear("Evil Dragon's Blade") }} or {{ gear("Travel God's Friend") }} regardless of damage type character deals, since its value is in the {{CritDMG}} **Crit DMG** only.
 
@@ -634,8 +634,8 @@ For all of these types the build you want is different.
     It is not hard to figure out the builds for either of them: 
 
     * {{ gear("Demon's Forbidden Book") }} $+$ {{ gear("Dragon Scales Protection") }} for **Diana**;
-    * {{ gear("Immortal Golden Armor") }} $+$  {{ gear("Helm of Death") }} $+$ {{ gear("Charming Gaze") }} if enemy deals {{Physical}} **Physical**{.yellow} damage for **Rou**;
-    * {{ gear("Hellfire Robe") }} $+$ {{ gear("Crown of Galaxy") }} $+$ {{ gear("Charming Gaze") }} if enemy deals {{Magical}} **Magical**{.magenta} damage for **Rou**.
+    * {{ gear("Immortal Golden Armor") }} $+$  {{ gear("Helm of Death") }} $+$ {{ gear("Charming Gaze") }} if the enemy deals {{Physical}} **Physical**{.yellow} damage for **Rou**;
+    * {{ gear("Hellfire Robe") }} $+$ {{ gear("Crown of Galaxy") }} $+$ {{ gear("Charming Gaze") }} if the enemy deals {{Magical}} **Magical**{.magenta} damage for **Rou**.
 
 === "Other Supports"
     

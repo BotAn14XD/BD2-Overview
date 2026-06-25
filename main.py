@@ -68,6 +68,7 @@ def define_env(env):
         "Blood_Cocktail": ["assets/images/icons/icon_resource60009_92.png", "Blood Cocktail"],
         "Blue_Slime": ["assets/images/icons/icon_resource9002_60.png", "Blue Slime"],
         "Charming_Gaze": ["assets/images/gear-system/icons/icon_equipment4506_90.avif", "Charming Gaze"],
+        "Cleft_Garlic": ["assets/images/territory/icons/icon_life_item_crop_013.avif", "Cleft Garlic"],
         "Coal": ["assets/images/icons/icon_resource214_35.png", "Coal"],
         "Cooked_Rice": ["assets/images/icons/cooked_rice.png", "Cooked Rice"],
         "Copper_Ore": ["assets/images/icons/icon_resource202_28.png", "Copper Ore"],
@@ -76,6 +77,7 @@ def define_env(env):
         "CritDMG": ["assets/images/gear-system/icons/icon_stats_criticalhit_l.avif", "Critical DMG"],
         "CritRate": ["assets/images/gear-system/icons/icon_stats_critical_l.avif", "Critical Rate"],
         "Crown_of_Galaxy": ["assets/images/gear-system/icons/icon_equipment4406_72.avif", "Crown of Galaxy"],
+        "Curvaceous_Paprika": ["assets/images/territory/icons/icon_life_item_crop_008.avif", "Curvaceous Paprika"],
         "Darkness": ["assets/images/battle-system/icons/elementicon5_5.avif", "Darkness Property"],
         "Darkness_Magic_Crystal": ["assets/images/icons/icon_resource115_19.png", "Darkness Magic Crystal"],
         "Dia": ["assets/images/icons/icon_resource60001_84.png", "Dia"],
@@ -91,12 +93,14 @@ def define_env(env):
         "Essence_of_Perseverance": ["assets/images/icons/icon_resource704_222.png", "Essence of Perseverance"],
         "Essence_of_Strength": ["assets/images/icons/icon_resource703_221.png", "Essence of Strength"],
         "Evil_Dragons_Blade": ["assets/images/gear-system/icons/icon_equipment4101_61.avif", "Evil Dragon's Blade"],
+        "Exposed_Corn": ["assets/images/territory/icons/icon_life_item_crop_005.avif", "Exposed Corn"],
         "Eye_of_the_Destroyer": ["assets/images/gear-system/icons/icon_equipment4105_65.avif", "Eye of the Destroyer"],
         "Fiend_Guard": ["assets/images/gear-system/icons/icon_equipment4304_76.avif", "Fiend Guard"],
         "Fine_Fabric": ["assets/images/icons/icon_resource411_43.png", "Fine Fabric"],
         "Fine_Leather": ["assets/images/icons/icon_resource311_40.png", "Fine Leather"],
         "Fire": ["assets/images/battle-system/icons/elementicon2_2.avif", "Fire Property"],
         "Fire_Magic_Crystal": ["assets/images/icons/icon_resource111_15.png", "Fire Magic Crystal"],
+        "Firm_Apple": ["assets/images/territory/icons/icon_life_item_crop_007.avif", "Firm Apple"],
         "Gloves": ["assets/images/gear-system/icons/popupicon_equip5.avif", "Gloves"],
         "Glupy_Star": ["assets/images/icons/glupy_star.png", "Glupy Star"],
         "God_Kings_Silver_Arm": ["assets/images/gear-system/icons/icon_equipment4201_79.avif", "God-King's Silver Arm"],
@@ -115,6 +119,7 @@ def define_env(env):
         "Immortal_Golden_Armor": ["assets/images/gear-system/icons/icon_equipment4303_75.avif", "Immortal Golden Armor"],
         "Iron_Ore": ["assets/images/icons/icon_resource201_27.png", "Iron Ore"],
         "Iron_Ore_T": ["assets/images/territory/icons/icon_life_item_consumption_003.avif", "Iron Ore"],
+        "Juicy_Onion": ["assets/images/territory/icons/icon_life_item_crop_003.avif", "Juicy Onion"],
         "Key_of_Salvation": ["assets/images/icons/icon_resource60024_212.png", "Key of Salvation"],
         "Knockback": ["assets/images/battle-system/icons/icon_stats_knockback.avif", "Knockback"],
         "Light": ["assets/images/battle-system/icons/elementicon4_4.avif", "Light Property"],
@@ -122,6 +127,7 @@ def define_env(env):
         "Local_Points": ["assets/images/icons/icon_resource90080_382.avif","Local Points"],
         "Lost_Silver": ["assets/images/icons/lost_silver.png", "Lost Silver"],
         "Lumber": ["assets/images/territory/icons/icon_life_item_consumption_007.avif","Lumber"],
+        "Lustful_Grape": ["assets/images/territory/icons/icon_life_item_crop_010.avif", "Lustful Grape"],
         "Magical": ["assets/images/icons/icon_stats_magical.png", "Magical Damage Type"],
         "MATK": ["assets/images/gear-system/icons/icon_stats_magical_l.avif", "MATK"],
         "Medal_of_the_Fighting_Spirit": ["assets/images/icons/Medals of the Fighting Spirit.png", "Medal of the Fighting Spirit"],
@@ -141,6 +147,7 @@ def define_env(env):
         "Prime_Authority": ["assets/images/gear-system/icons/icon_equipment4203_81.avif", "Prime Authority"],
         "Promise_of_Harmony": ["assets/images/gear-system/icons/icon_equipment4503_87.avif", "Promise of Harmony"],
         "Property_Selective_Draw_Exchange_Ticket": ["assets/images/icons/icon_resource40015_168.png", "Property Selective Draw Exchange Ticket"],
+        "Pulse_Saffron": ["assets/images/territory/icons/icon_life_item_crop_015.avif", "Pulse Suffron"],
         "R_Grade": ["assets/images/gear-system/icons/R_Grade.avif", "R Grade"],
         "Radiant_Wisdom": ["assets/images/gear-system/icons/icon_equipment4404_70.avif", "Radiant Wisdom"],
         "Rebellion": ["assets/images/gear-system/icons/icon_equipment4202_80.avif", "Rebellion"],
@@ -155,20 +162,28 @@ def define_env(env):
         "Scale_of_the_Sea_God": ["assets/images/gear-system/icons/icon_equipment4302_74.avif", "Scale of the Sea God"],
         "Selective_Exclusive_Draw_Ticket": ["assets/images/icons/icon_resource40021_267.png", "Selective Exclusive Draw Ticket"],
         "Shackle_of_Treachery": ["assets/images/gear-system/icons/icon_equipment4206_84.avif", "Shackle of Treachery"],
+        "Shapely_Potato": ["assets/images/territory/icons/icon_life_item_crop_002.avif", "Shapely Potato"],
         "Silver_Ore_T": ["assets/images/territory/icons/icon_life_item_consumption_004.avif", "Silver Ore"],
         "Skip": ["assets/images/icons/icon_skip.avif", "Skip Button"],
         "Solar_Brilliance": ["assets/images/gear-system/icons/icon_equipment4405_71.avif", "Solar Brilliance"],
+        "Spanking_Wheat": ["assets/images/territory/icons/icon_life_item_crop_001.avif", "Spanking Wheat"],
         "Spark_of_Rampage": ["assets/images/icons/icon_resource20045_383.avif", "Spark of Rampage"],
         "SR_Exclusive_Gear_Draw_Exchange_Ticket": ["assets/images/icons/icon_resource40008_130.png", "SR Exclusive Gear Draw Exchange Ticket"],
         "SR_Grade": ["assets/images/gear-system/icons/SR_Grade.avif", "SR Grade"],
+        "Stamina_Pepper": ["assets/images/territory/icons/icon_life_item_crop_012.avif", "Stamina Pepper"],
+        "Sticky_Melon": ["assets/images/territory/icons/icon_life_item_crop_014.avif", "Sticky Melon"],
+        "Sticky_Rice": ["assets/images/territory/icons/icon_life_item_crop_009.avif", "Sticky Rice"],
         "Sturdy_Lumber": ["assets/images/territory/icons/icon_life_item_consumption_008.avif","Sturdy Lumber"],
         "Tear_of_Goddess": ["assets/images/icons/icon_resource20005_156.png", "Tear of Goddess"],
         "Torch": ["assets/images/icons/icon_resource60023_163.png", "Torch"],
         "Travel_Gods_Friend": ["assets/images/gear-system/icons/icon_equipment4104_64.avif", "Travel God's Friend"],
+        "Twin_Beans": ["assets/images/territory/icons/icon_life_item_crop_006.avif", "Twin Beans"],
         "Undefeated_Glory": ["assets/images/gear-system/icons/icon_equipment4402_68.avif", "Undefeated Glory"],
         "UR_Exclusive_Gear_Guaranteed_Draw_Exchange_Ticket": ["assets/images/icons/icon_resource40007_129.png", "UR Exclusive Gear Guaranteed Draw Exchange Ticket"],
         "UR_Grade": ["assets/images/gear-system/icons/UR_Grade.avif", "UR Grade"],
         "Venomous_Touch": ["assets/images/gear-system/icons/icon_equipment4504_88.avif", "Venomous Touch"],
+        "Venus_Cacao": ["assets/images/territory/icons/icon_life_item_crop_011.avif", "Venus Cacao"],
+        "Virile_Mushroom": ["assets/images/territory/icons/icon_life_item_crop_004.avif", "Virile_Mushroom"],
         "Warmth_of_the_Brazier": ["assets/images/gear-system/icons/icon_equipment4501_85.avif", "Warmth of the Brazier"],
         "Water": ["assets/images/battle-system/icons/elementicon1_1.avif", "Water Property"],
         "Water_Magic_Crystal": ["assets/images/icons/icon_resource112_16.png", "Water Magic Crystal"],
@@ -781,6 +796,146 @@ def define_env(env):
         },
     }
 
+    CROPS_DB = {
+    "Spanking Wheat": {
+        "icon": "assets/images/territory/icons/icon_life_item_crop_001.avif",
+        "unlock_level": 1,
+        "seed_cost": 1,
+        "growth_time": "5 Minutes",
+        "exp": 1,
+        "sell_price": [1, 1, 2],
+        "desc": "A grain crop whose slender, elongated ears droop from the tips of their stalks, bending in a whip-like curve. When beaded with dew, they sway even more fluidly and take on a smooth sheen."
+    },
+    "Shapely Potato": {
+        "icon": "assets/images/territory/icons/icon_life_item_crop_002.avif",
+        "unlock_level": 1,
+        "seed_cost": 1,
+        "growth_time": "1 Minute",
+        "exp": 1,
+        "sell_price": [1, 1, 1],
+        "desc": "A root crop with a deep central cleft, split into a form uncannily reminiscent of rounded buttocks. The smooth curves revealed when the soil is brushed away invite no shortage of curious imaginings."
+    },
+    "Juicy Onion": {
+        "icon": "assets/images/territory/icons/icon_life_item_crop_003.avif",
+        "unlock_level": 2,
+        "seed_cost": 2,
+        "growth_time": "10 Minutes",
+        "exp": 2,
+        "sell_price": [2, 2, 3],
+        "desc": "A vegetable consisting of white inner flesh cleft into two halves, from which a transparent, viscous fluid endlessly oozes. Its many layers grow increasingly moist the more they are touched."
+    },
+    "Virile Mushroom": {
+        "icon": "assets/images/territory/icons/icon_life_item_crop_004.avif",
+        "unlock_level": 2,
+        "seed_cost": 3,
+        "growth_time": "15 Minutes",
+        "exp": 2,
+        "sell_price": [3, 3, 4],
+        "desc": "A fungus featuring a thick, smooth head atop a sturdy stalk. Beneath the cap, the reddish stem is marked by protruding, vein-like ridges."
+    },
+    "Exposed Corn": {
+        "icon": "assets/images/territory/icons/icon_life_item_crop_005.avif",
+        "unlock_level": 5,
+        "seed_cost": 30,
+        "growth_time": "5 Hours",
+        "exp": 15,
+        "sell_price": [33, 39, 45],
+        "desc": "A crop with rows of yellow kernels studded beneath long, drooping silk, taking a form reminiscent of a woman's curved figure. The more the husk is peeled back, the more nakedly its luscious form is revealed."
+    },
+    "Twin Beans": {
+        "icon": "assets/images/territory/icons/icon_life_item_crop_006.avif",
+        "unlock_level": 3,
+        "seed_cost": 6,
+        "growth_time": "30 Minutes",
+        "exp": 3,
+        "sell_price": [6, 7, 9],
+        "desc": "A pod in which two gently rounded beans, their shape evocative of a full bust, nestle snugly together within a thin shell. The pod, swollen taut as if about to burst, makes for quite the tantalizing sight."
+    },
+    "Firm Apple": {
+        "icon": "assets/images/territory/icons/icon_life_item_crop_007.avif",
+        "unlock_level": 5,
+        "seed_cost": 40,
+        "growth_time": "8 Hours",
+        "exp": 20,
+        "sell_price": [44, 52, 60],
+        "desc": "A fruit with a deep, soft groove running toward the center, evoking the rounded curves of a pair of buttocks. Its surface, flushed a deep red, is taut and firm to the touch—as if it might burst at any moment."
+    },
+    "Curvaceous Paprika": {
+        "icon": "assets/images/territory/icons/icon_life_item_crop_008.avif",
+        "unlock_level": 4,
+        "seed_cost": 20,
+        "growth_time": "3 Hours",
+        "exp": 10,
+        "sell_price": [22, 26, 30],
+        "desc": "A vegetable that consists of a smooth, leather-like peel over an empty space that resembles the voluptuous body of a woman. Cutting it in half reveals its sensual silhouette."
+    },
+    "Sticky Rice": {
+        "icon": "assets/images/territory/icons/icon_life_item_crop_009.avif",
+        "unlock_level": 4,
+        "seed_cost": 10,
+        "growth_time": "1 Hour",
+        "exp": 5,
+        "sell_price": [11, 13, 15],
+        "desc": "A grain with a slender tail at the tip of every kernel. Beneath the husk, the grains are remarkably white and possess a slippery, sticky quality."
+    },
+    "Lustful Grape": {
+        "icon": "assets/images/territory/icons/icon_life_item_crop_010.avif",
+        "unlock_level": 8,
+        "seed_cost": 70,
+        "growth_time": "15 Hours",
+        "exp": 33,
+        "sell_price": [77, 91, 105],
+        "desc": "A fruit where each grape takes the form of a perky breast. Each grape differs in size and shape."
+    },
+    "Venus Cacao": {
+        "icon": "assets/images/territory/icons/icon_life_item_crop_011.avif",
+        "unlock_level": 6,
+        "seed_cost": 50,
+        "growth_time": "10 Hours",
+        "exp": 25,
+        "sell_price": [55, 65, 75],
+        "desc": "A berry that consists of a coarse shell and a moist inner flesh. Breaking the shell open by force will reveal the hot and sticky seeds inside."
+    },
+    "Stamina Pepper": {
+        "icon": "assets/images/territory/icons/icon_life_item_crop_012.avif",
+        "unlock_level": 7,
+        "seed_cost": 60,
+        "growth_time": "12 Hours",
+        "exp": 30,
+        "sell_price": [66, 78, 90],
+        "desc": "A vegetable with a bluntly swollen tip and vivid vein-like lines tracing its surface. An intense heat emanates from its rigidly upright form."
+    },
+    "Cleft Garlic": {
+        "icon": "assets/images/territory/icons/icon_life_item_crop_013.avif",
+        "unlock_level": 3,
+        "seed_cost": 8,
+        "growth_time": "45 Minutes",
+        "exp": 4,
+        "sell_price": [8, 10, 12],
+        "desc": "A root vegetable with a thin skin that, once peeled, reveals a pair of white mounds. Its piquant aroma and smooth, supple flesh take on a provocative form that stimulates the imagination."
+    },
+    "Sticky Melon": {
+        "icon": "assets/images/territory/icons/icon_life_item_crop_014.avif",
+        "unlock_level": 80,
+        "seed_cost": 3,
+        "growth_time": "18 Hours",
+        "exp": 36,
+        "sell_price": [88, 104, 120],
+        "desc": "A round fruit with a hard shell, the crack from which oozes a sticky, white fluid. Squeezing the fruity flesh causes even more viscous liquids to seep from the fruit, wetting the floor."
+    },
+    "Pulse Saffron": {
+        "icon": "assets/images/territory/icons/icon_life_item_crop_015.avif",
+        "unlock_level": 100,
+        "seed_cost": 3,
+        "growth_time": "20 Hours",
+        "exp": 40,
+        "sell_price": [110, 130, 150],
+        "desc": "A flower with moist, red stamens that stretch out like tongues between its purple petals. When touched, the way they recoil makes the flower seem almost like a living creature."
+    }
+}
+
+
+
     @env.macro
     def territory_tile(name):
     
@@ -842,5 +997,55 @@ def define_env(env):
             f'<span class="territory-grid-tile gear-tooltip-wrapper">'
             f'<img src="{prefix}{icon}" class="tile-image" alt="{name}">'
             f'{tooltip_html}'
+            f'</span>'
+        )
+    
+
+    @env.macro
+    def crop_tile(name):
+        item = CROPS_DB.get(name, {})
+        icon = item.get("icon", "default_crop.png")
+        
+        html = (
+            f'<span class="gear-tooltip-box">'
+            f'<span class="tooltip-header">'
+            f'<img src="{prefix}{icon}" class="icon header-icon" alt="">'
+            f'<span class="header-title white bold">{name}</span>'
+            f'</span>'
+            f'<span class="tooltip-divider-line"></span>'
+        )
+
+        unlock = item.get("unlock_level", "?")
+        time = item.get("growth_time", "?")
+        seed_cost = item.get("seed_cost", "?")
+        exp = item.get("exp", "?")
+        
+        html += f'<span class="tooltip-line gray bold">Unlock: Lv. {unlock} | Growth: {time}</span>'
+        html += f'<span class="tooltip-line gray bold">Seed Cost: {seed_cost} | EXP: {exp}</span>'
+        html += f'<span class="tooltip-divider-line"></span>'
+        
+        prices = item.get("sell_price")
+        if isinstance(prices, list) and len(prices) == 3:
+            html += f'<span class="tooltip-line gray bold">Sell Price:</span>'
+            html += (
+                f'<span class="crop-price-row">'
+                f'<span class="price-normal">Normal: {prices[0]} <img src="{prefix}assets/images/icons/icon_resource90080_382.avif" class="icon" alt="Local Points"></span>'
+                f'<span class="price-high">Rare: {prices[1]} <img src="{prefix}assets/images/icons/icon_resource90080_382.avif" class="icon" alt="Local Points"></span>'
+                f'<span class="price-premium">Legendary: {prices[2]} <img src="{prefix}assets/images/icons/icon_resource90080_382.avif" class="icon" alt="Local Points"></span>'
+                f'</span>'
+            )
+            
+        desc = item.get("desc")
+        if desc:
+            if isinstance(prices, list):
+                html += f'<span class="tooltip-divider-line"></span>'
+            html += f'<span class="tooltip-line white">{desc}</span>'
+            
+        html += f'</span>'
+
+        return (
+            f'<span class="territory-grid-tile gear-tooltip-wrapper">'
+            f'<img src="{prefix}{icon}" class="tile-image" alt="{name}">'
+            f'{html}'
             f'</span>'
         )

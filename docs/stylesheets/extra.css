@@ -1028,3 +1028,41 @@ li.md-nav__item:has(a[href$="#"]) {
     flex-wrap: wrap;
     gap: 4px 12px;
 }
+
+.crop-price-row {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    padding-left: 8px;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.price-normal { 
+    color: #82d68b;
+}
+.price-high { 
+    color: #77c8f9; 
+}
+.price-premium {
+    background: linear-gradient(90deg, #cbc4fe 20%, #edfcff 50%, #f8fcb2 80%);
+    width: fit-content;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+/* TERRITORY RAINBOW PALETTE */
+
+.rainbow-text, .rainbow-text * {
+    font-weight: normal !important; 
+    background: linear-gradient(to right, #cbc4fe, #edfcff, #f8fcb2);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    display: inline; 
+    vertical-align: baseline;
+}
