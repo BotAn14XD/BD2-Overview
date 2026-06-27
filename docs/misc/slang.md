@@ -147,6 +147,13 @@ comments: true
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Glacia/Alice">Alice</a> is one of <a href="https://browndust2.miraheze.org/wiki/Glacia">Glacia's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Tank costume.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Amplifier</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+            </div>
+            <p>Amplifier is a Character or a Costume that increase the damage onto the target, mostly due to Vulnerability.</p>
+        </li>
         <li class="slang-item" data-keywords="crytals">
             <h3>Ancient Crystal</h3>
             <div class="alias-container">
@@ -470,6 +477,8 @@ comments: true
                 <span class="alias-tag">Boo Granhildr</span>
                 <span class="alias-tag">Ghost Granhildr</span>
                 <span class="alias-tag rare-tag">Halloween Gran</span>
+                <span class="alias-tag rare-tag">Boogran</span>
+                <span class="alias-tag rare-tag">Boohildr</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Granhildr/Boo_Ghost">Boo Ghost</a> is one of <a href="https://browndust2.miraheze.org/wiki/Granhildr">Granhildr's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvE')">PvE</span> <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
@@ -944,6 +953,7 @@ comments: true
             <h3>Essences</h3>
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
+                <span class="alias-tag">RGB</span>
             </div>
             <p>Essences is a collective term for <a href="https://browndust2.miraheze.org/wiki/Essence_of_Perseverance">Essence of Perseverance</a>, <a href="https://browndust2.miraheze.org/wiki/Essence_of_Strength">Essence of Strength</a> and <a href="https://browndust2.miraheze.org/wiki/Essence_of_Life">Essence of Life</a>, used to Engrave a Character.</p>
         </li>
@@ -1695,6 +1705,15 @@ comments: true
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Michaela">Michaela</a> is a playable Light Character.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Miracle Marine Mamonir</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Magical Liberta</span>
+                <span class="alias-tag rare-tag">MR Liberta</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Mamonir/Miracle_Marine">Miracle Marine</a> is one of <a href="https://browndust2.miraheze.org/wiki/Mamonir">Mamonir's</a> costumes. Used as <span class="cross-link" onclick="searchFor('Amplifier')">Amplifier</span>.</p>
+        </li>        
         <li class="slang-item" data-keywords="">
             <h3>Miracle Rose Liberta</h3>
             <div class="alias-container">
@@ -2455,6 +2474,7 @@ comments: true
                 <span class="alias-tag">Purple Tickets</span>
                 <span class="alias-tag">Selective Tix</span>
                 <span class="alias-tag">Selective Tickets</span>
+                <span class="alias-tag rare-tag">Pink Tickets</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Selective_Draw_Ticket">Selective Draw Ticket</a> is a Resource used to obtain Costumes or Gear from specific Banners.</p>
         </li>
@@ -2585,6 +2605,15 @@ comments: true
                 <span class="alias-tag">Spark</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Spark_of_Rampage">Spark of Rampage</a> is a Resource used to upgrade the <a href="https://botan14xd.github.io/BD2-Overview/progression/burst/">Burst</a> of Costumes.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>SR Exclusive Gear</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">SREX</span>
+                <span class="alias-tag">SR EX</span>
+            </div>
+            <p>SR [Exclusive Gear](../progression/gear.md#exclusive-gear) is a type of Gear that can be equipped only by specific Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Staller</h3>
@@ -2945,6 +2974,18 @@ comments: true
                 <span class="alias-tag rare-tag">DEF / HP Helm</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Undefeated_Glory">Undefeated Glory</a> is a UR Craftable Helmet.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>UR Exclusive Gear</h3>
+            <div class="alias-container">
+                <span class="alias-tag gear-tag ignore-exact">Gear</span>
+                <span class="alias-tag">UREX</span>
+                <span class="alias-tag">UR EX</span>
+                <span class="alias-tag">Signature Weapon</span>
+                <span class="alias-tag rare-tag">Signature Gear</span>
+                <span class="alias-tag rare-tag">Signa</span>
+            </div>
+            <p>UR [Exclusive Gear](../progression/gear.md#exclusive-gear) is a type of Gear that can be equipped only by specific Character.</p>
         </li>
     </ul>
 </div>

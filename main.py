@@ -932,9 +932,23 @@ def define_env(env):
         "sell_price": [110, 130, 150],
         "desc": "A flower with moist, red stamens that stretch out like tongues between its purple petals. When touched, the way they recoil makes the flower seem almost like a living creature."
     }
-}
+    }
 
-
+    DISHES_DB = {
+    "Vilire Gnocchi": {
+        "icon": "assets/images/territory/icons/icon_life_item_dish_003.avif",
+        "unlock_level": 1,
+        "sell_price": 44,
+        "bonus": "Logging Skill +8 | 10m",
+        # The ingredients map directly to crop names and amounts
+        "ingredients": {
+            "Shapely Potato": 5,
+            "Spanking Wheat": 3,
+            "Virile Mushroom": 2
+        },
+        "desc": "A dish where thick mushrooms are laid as if nestled atop soft gnocchi, each piece indented with a gentle hollow at its center. The tender, yielding flesh of the gnocchi and the firm texture of the mushroom meld together in a hot sauce, creating a strangely satisfying sense of unity."
+    }
+    }
 
     @env.macro
     def territory_tile(name):
@@ -1039,6 +1053,60 @@ def define_env(env):
         if desc:
             if isinstance(prices, list):
                 html += f'<span class="tooltip-divider-line"></span>'
+            html += f'<span class="tooltip-line white">{desc}</span>'
+            
+        html += f'</span>'
+
+        return (
+            f'<span class="territory-grid-tile gear-tooltip-wrapper">'
+            f'<img src="{prefix}{icon}" class="tile-image" alt="{name}">'
+            f'{html}'
+            f'</span>'
+        )
+    
+    @env.macro
+    def dish_tile(name):
+        item = DISHES_DB.get(name, {})
+        icon = item.get("icon", "default_dish.png")
+        
+        html = (
+            f'<span class="gear-tooltip-box">'
+            f'<span class="tooltip-header">'
+            f'<img src="{prefix}{icon}" class="icon header-icon" alt="">'
+            f'<span class="header-title white bold">{name}</span>'
+            f'</span>'
+            f'<span class="tooltip-divider-line"></span>'
+        )
+        
+        unlock = item.get("unlock_level", "?")
+        sell = item.get("sell_price", "?")
+        html += f'<span class="tooltip-line gray bold">Unlock: Lv. {unlock} | Sell Price: {sell}</span>'
+        
+        bonus = item.get("bonus")
+        if bonus:
+            html += f'<span class="tooltip-line green"><strong class="yellow">Bonus:</strong> {bonus}</span>'
+            
+        html += f'<span class="tooltip-divider-line"></span>'
+        
+        ingredients = item.get("ingredients")
+        if isinstance(ingredients, dict):
+            ing_html_parts = []
+            
+            for ing_name, amount in ingredients.items():
+                if ing_name in CROPS_DB:
+                    ing_icon = CROPS_DB[ing_name].get("icon", "default_crop.png")
+                else:
+                    ing_icon = MATERIALS_DB.get(ing_name, "default_mat.png")
+                    
+                ing_html = f'<span class="mat-cost-item"><img src="{prefix}{ing_icon}" class="inline-mat-icon icon" alt="{ing_name}"> {amount}x {ing_name}</span>'
+                ing_html_parts.append(ing_html)
+                
+            joined_ings = "".join(ing_html_parts)
+            html += f'<span class="tooltip-line gray bold cost-flex-line"><span class="cost-label">Recipe:</span> <span class="cost-items-wrap">{joined_ings}</span></span>'
+            
+        desc = item.get("desc")
+        if desc:
+            html += f'<span class="tooltip-divider-line"></span>'
             html += f'<span class="tooltip-line white">{desc}</span>'
             
         html += f'</span>'

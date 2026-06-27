@@ -57,7 +57,7 @@ Therefore, you should **always** chop down only the most grown trees to obtain t
 
 ### Mining
 
-Mining is done via the **Quarry**. It is the main source of {{Rock}} **Rock**, {{Copper_Ore_T}} **Copper Ore**, {{Iron_Ore_T}} **Iron Ore**, {{Silver_Ore_T}} **Silver Ore** and {{Gold_Ore_T}} **Gold Ore**. To obtain them {{Local_Points}}, you must mine the clusters with a **Pickaxe**.
+Mining is done via the **Quarry**. It is the main source of {{Rock}} **Rock**, {{Copper_Ore_T}} **Copper Ore**, {{Iron_Ore_T}} **Iron Ore**, {{Silver_Ore_T}} **Silver Ore** and {{Gold_Ore_T}} **Gold Ore**. To obtain them, you must mine the clusters with a **Pickaxe**.
 
 Ores have different chances to appear but, unlike trees, they have no growth, and therefore can be mined immediately as they are generated.
 
@@ -111,7 +111,6 @@ Farming is done via the **Fields**. It is the main source of **Crops**, which ca
 
 Each crop requires seeds that are purchasable at the moment of planting. Crops have different price and growth time.
 
-
 ??? example "Technical Details"
 
     * Similar to trees, crops have **3 stages of growth** that differ visually. That, however, isn't as functional as trees, because you cannot collect crops at Stage 1 or 2.
@@ -121,19 +120,19 @@ Each crop requires seeds that are purchasable at the moment of planting. Crops h
     ---
 
     ??? abstract "Crops Seeds Cost"
+        * {{Shapely_Potato}} **Shapely Potato**: $1$ {{Local_Points}} 
         * {{Spanking_Wheat}} **Spanking Wheat**: $1$ {{Local_Points}}
-        * {{Shapely_Potato}} **Shapely Potato**: $1$ {{Local_Points}}
         * {{Juicy_Onion}} **Juicy Onion**: $2$ {{Local_Points}}
         * {{Virile_Mushroom}} **Virile Mushroom**: $3$ {{Local_Points}}
-        * {{Exposed_Corn}} **Exposed Corn**: $30$ {{Local_Points}}
         * {{Twin_Beans}} **Twin Beans**: $6$ {{Local_Points}}
-        * {{Firm_Apple}} **Firm Apple**: $40$ {{Local_Points}}
-        * {{Curvaceous_Paprika}} **Curvaceous Paprika**: $20$ {{Local_Points}}
+        * {{Cleft_Garlic}} **Cleft Garlic**: $8$ {{Local_Points}}
         * {{Sticky_Rice}} **Sticky Rice**: $10$ {{Local_Points}}
-        * {{Lustful_Grape}} **Lustful Grape**: $70$ {{Local_Points}}
+        * {{Curvaceous_Paprika}} **Curvaceous Paprika**: $20$ {{Local_Points}}
+        * {{Exposed_Corn}} **Exposed Corn**: $30$ {{Local_Points}}
+        * {{Firm_Apple}} **Firm Apple**: $40$ {{Local_Points}}
         * {{Venus_Cacao}} **Venus Cacao**: $50$ {{Local_Points}}
         * {{Stamina_Pepper}} **Stamina Pepper**: $60$ {{Local_Points}}
-        * {{Cleft_Garlic}} **Cleft Garlic**: $8$ {{Local_Points}}
+        * {{Lustful_Grape}} **Lustful Grape**: $70$ {{Local_Points}}
         * {{Sticky_Melon}} **Sticky Melon**: $80$ {{Local_Points}}
         * {{Pulse_Saffron}} **Pulse Saffron**: $100$ {{Local_Points}}
 
@@ -141,132 +140,153 @@ Each crop requires seeds that are purchasable at the moment of planting. Crops h
     ---
 
     ??? abstract "Crops Growth Time"
-        * {{Spanking_Wheat}} **Spanking Wheat**: $5$ Minutes
         * {{Shapely_Potato}} **Shapely Potato**: $1$ Minute
+        * {{Spanking_Wheat}} **Spanking Wheat**: $5$ Minutes
         * {{Juicy_Onion}} **Juicy Onion**: $10$ Minutes
         * {{Virile_Mushroom}} **Virile Mushroom**: $15$ Minutes
-        * {{Exposed_Corn}} **Exposed Corn**: $5$ Hours
         * {{Twin_Beans}} **Twin Beans**: $30$ Minutes
-        * {{Firm_Apple}} **Firm Apple**: $8$ Hours
-        * {{Curvaceous_Paprika}} **Curvaceous Paprika**: $3$ Hours
+        * {{Cleft_Garlic}} **Cleft Garlic**: $45$ Minutes
         * {{Sticky_Rice}} **Sticky Rice**: $1$ Hour
-        * {{Lustful_Grape}} **Lustful Grape**: $15$ Hours
+        * {{Curvaceous_Paprika}} **Curvaceous Paprika**: $3$ Hours
+        * {{Exposed_Corn}} **Exposed Corn**: $5$ Hours
+        * {{Firm_Apple}} **Firm Apple**: $8$ Hours
         * {{Venus_Cacao}} **Venus Cacao**: $10$ Hours
         * {{Stamina_Pepper}} **Stamina Pepper**: $12$ Hours
-        * {{Cleft_Garlic}} **Cleft Garlic**: $45$ Minutes
+        * {{Lustful_Grape}} **Lustful Grape**: $15$ Hours
         * {{Sticky_Melon}} **Sticky Melon**: $18$ Hours
         * {{Pulse_Saffron}} **Pulse Saffron**: $20$ Hours
 
     --- 
 
     ??? abstract "Crops Sell Price"
-        * {{Spanking_Wheat}} **Spanking Wheat**: $\textcolor{82d68b}{1}$ {{Local_Points}}, $\textcolor{77c8f9}{1}$ {{Local_Points}}, <span class="rainbow-text">$2$ </span> {{Local_Points}}
         * {{Shapely_Potato}} **Shapely Potato**: $\textcolor{82d68b}{1}$ {{Local_Points}}, $\textcolor{77c8f9}{1}$ {{Local_Points}}, <span class="rainbow-text">$1$ </span> {{Local_Points}}
+        * {{Spanking_Wheat}} **Spanking Wheat**: $\textcolor{82d68b}{1}$ {{Local_Points}}, $\textcolor{77c8f9}{1}$ {{Local_Points}}, <span class="rainbow-text">$2$ </span> {{Local_Points}}
         * {{Juicy_Onion}} **Juicy Onion**: $\textcolor{82d68b}{2}$ {{Local_Points}}, $\textcolor{77c8f9}{2}$ {{Local_Points}}, <span class="rainbow-text">$3$ </span> {{Local_Points}}
         * {{Virile_Mushroom}} **Virile Mushroom**: $\textcolor{82d68b}{3}$ {{Local_Points}}, $\textcolor{77c8f9}{3}$ {{Local_Points}}, <span class="rainbow-text">$4$ </span> {{Local_Points}}
-        * {{Exposed_Corn}} **Exposed Corn**: $\textcolor{82d68b}{33}$ {{Local_Points}}, $\textcolor{77c8f9}{39}$ {{Local_Points}}, <span class="rainbow-text">$45$ </span> {{Local_Points}}
         * {{Twin_Beans}} **Twin Beans**: $\textcolor{82d68b}{6}$ {{Local_Points}}, $\textcolor{77c8f9}{7}$ {{Local_Points}}, <span class="rainbow-text">$9$ </span> {{Local_Points}}
-        * {{Firm_Apple}} **Firm Apple**: $\textcolor{82d68b}{44}$ {{Local_Points}}, $\textcolor{77c8f9}{52}$ {{Local_Points}}, <span class="rainbow-text">$60$ </span> {{Local_Points}}
-        * {{Curvaceous_Paprika}} **Curvaceous Paprika**: $\textcolor{82d68b}{22}$ {{Local_Points}}, $\textcolor{77c8f9}{26}$ {{Local_Points}}, <span class="rainbow-text">$30$ </span> {{Local_Points}}
+        * {{Cleft_Garlic}} **Cleft Garlic**: $\textcolor{82d68b}{8}$ {{Local_Points}}, $\textcolor{77c8f9}{10}$ {{Local_Points}}, <span class="rainbow-text">$12$ </span> {{Local_Points}}
         * {{Sticky_Rice}} **Sticky Rice**: $\textcolor{82d68b}{11}$ {{Local_Points}}, $\textcolor{77c8f9}{13}$ {{Local_Points}}, <span class="rainbow-text">$15$ </span> {{Local_Points}}
-        * {{Lustful_Grape}} **Lustful Grape**: $\textcolor{82d68b}{77}$ {{Local_Points}}, $\textcolor{77c8f9}{91}$ {{Local_Points}}, <span class="rainbow-text">$105$ </span> {{Local_Points}}
+        * {{Curvaceous_Paprika}} **Curvaceous Paprika**: $\textcolor{82d68b}{22}$ {{Local_Points}}, $\textcolor{77c8f9}{26}$ {{Local_Points}}, <span class="rainbow-text">$30$ </span> {{Local_Points}}
+        * {{Exposed_Corn}} **Exposed Corn**: $\textcolor{82d68b}{33}$ {{Local_Points}}, $\textcolor{77c8f9}{39}$ {{Local_Points}}, <span class="rainbow-text">$45$ </span> {{Local_Points}}
+        * {{Firm_Apple}} **Firm Apple**: $\textcolor{82d68b}{44}$ {{Local_Points}}, $\textcolor{77c8f9}{52}$ {{Local_Points}}, <span class="rainbow-text">$60$ </span> {{Local_Points}}
         * {{Venus_Cacao}} **Venus Cacao**: $\textcolor{82d68b}{55}$ {{Local_Points}}, $\textcolor{77c8f9}{65}$ {{Local_Points}}, <span class="rainbow-text">$75$ </span> {{Local_Points}}
         * {{Stamina_Pepper}} **Stamina Pepper**: $\textcolor{82d68b}{66}$ {{Local_Points}}, $\textcolor{77c8f9}{78}$ {{Local_Points}}, <span class="rainbow-text">$90$ </span> {{Local_Points}}
-        * {{Cleft_Garlic}} **Cleft Garlic**: $\textcolor{82d68b}{8}$ {{Local_Points}}, $\textcolor{77c8f9}{10}$ {{Local_Points}}, <span class="rainbow-text">$12$ </span> {{Local_Points}}
+        * {{Lustful_Grape}} **Lustful Grape**: $\textcolor{82d68b}{77}$ {{Local_Points}}, $\textcolor{77c8f9}{91}$ {{Local_Points}}, <span class="rainbow-text">$105$ </span> {{Local_Points}}
         * {{Sticky_Melon}} **Sticky Melon**: $\textcolor{82d68b}{88}$ {{Local_Points}}, $\textcolor{77c8f9}{104}$ {{Local_Points}}, <span class="rainbow-text">$120$ </span> {{Local_Points}}
         * {{Pulse_Saffron}} **Pulse Saffron**: $\textcolor{82d68b}{110}$ {{Local_Points}}, $\textcolor{77c8f9}{130}$ {{Local_Points}}, <span class="rainbow-text">$150$ </span> {{Local_Points}}
 
 
     ---
 
-    ??? abstract "Crops Rarity Chance"
-        * **Farming Skill 1**: $\textcolor{82d68b}{80\%}$, $\textcolor{77c8f9}{19.9\%}$, <span class="rainbow-text">$0.1\%$</span>
-        * **Farming Skill 2**: $\textcolor{82d68b}{79\%}$, $\textcolor{77c8f9}{20.8\%}$, <span class="rainbow-text">$0.2\%$</span>
-        * **Farming Skill 3**: $\textcolor{82d68b}{78\%}$, $\textcolor{77c8f9}{21.7\%}$, <span class="rainbow-text">$0.3\%$</span>
-        * **Farming Skill 4**: $\textcolor{82d68b}{77\%}$, $\textcolor{77c8f9}{22.6\%}$, <span class="rainbow-text">$0.4\%$</span>
-        * **Farming Skill 5**: $\textcolor{82d68b}{76\%}$, $\textcolor{77c8f9}{23.5\%}$, <span class="rainbow-text">$0.5\%$</span>
-        * **Farming Skill 6**: $\textcolor{82d68b}{75\%}$, $\textcolor{77c8f9}{24.3\%}$, <span class="rainbow-text">$0.7\%$</span>
-        * **Farming Skill 7**: $\textcolor{82d68b}{74\%}$, $\textcolor{77c8f9}{25.1\%}$, <span class="rainbow-text">$0.9\%$</span>
-        * **Farming Skill 8**: $\textcolor{82d68b}{73\%}$, $\textcolor{77c8f9}{25.9\%}$, <span class="rainbow-text">$1.1\%$</span>
-        * **Farming Skill 9**: $\textcolor{82d68b}{72\%}$, $\textcolor{77c8f9}{26.7\%}$, <span class="rainbow-text">$1.3\%$</span>
-        * **Farming Skill 10**: $\textcolor{82d68b}{71\%}$, $\textcolor{77c8f9}{27.5\%}$, <span class="rainbow-text">$1.5\%$</span>
-        * **Farming Skill 11**: $\textcolor{82d68b}{70\%}$, $\textcolor{77c8f9}{28.3\%}$, <span class="rainbow-text">$1.7\%$</span>
-        * **Farming Skill 12**: $\textcolor{82d68b}{69\%}$, $\textcolor{77c8f9}{29.1\%}$, <span class="rainbow-text">$1.9\%$</span>
-        * **Farming Skill 13**: $\textcolor{82d68b}{68\%}$, $\textcolor{77c8f9}{30\%}$, <span class="rainbow-text">$2\%$</span>
-        * **Farming Skill 14**: $\textcolor{82d68b}{67\%}$, $\textcolor{77c8f9}{30.9\%}$, <span class="rainbow-text">$2.1\%$</span>
-        * **Farming Skill 15**: $\textcolor{82d68b}{66\%}$, $\textcolor{77c8f9}{31.7\%}$, <span class="rainbow-text">$2.3\%$</span>
-        * **Farming Skill 16**: $\textcolor{82d68b}{65\%}$, $\textcolor{77c8f9}{32.5\%}$, <span class="rainbow-text">$2.5\%$</span>
-        * **Farming Skill 17**: $\textcolor{82d68b}{64\%}$, $\textcolor{77c8f9}{33.3\%}$, <span class="rainbow-text">$2.7\%$</span>
-        * **Farming Skill 18**: $\textcolor{82d68b}{63\%}$, $\textcolor{77c8f9}{34\%}$, <span class="rainbow-text">$3\%$</span>
-        * **Farming Skill 19**: $\textcolor{82d68b}{62\%}$, $\textcolor{77c8f9}{34.5\%}$, <span class="rainbow-text">$3.5\%$</span>
-        * **Farming Skill 20**: $\textcolor{82d68b}{61\%}$, $\textcolor{77c8f9}{34.8\%}$, <span class="rainbow-text">$4.2\%$</span>
-        * **Farming Skill 21**: $\textcolor{82d68b}{60\%}$, $\textcolor{77c8f9}{35\%}$, <span class="rainbow-text">$5\%$</span>
-        * **Farming Skill 22**: $\textcolor{82d68b}{59\%}$, $\textcolor{77c8f9}{35.8\%}$, <span class="rainbow-text">$5.2\%$</span>
-        * **Farming Skill 23**: $\textcolor{82d68b}{58\%}$, $\textcolor{77c8f9}{36.5\%}$, <span class="rainbow-text">$5.5\%$</span>
-        * **Farming Skill 24**: $\textcolor{82d68b}{57\%}$, $\textcolor{77c8f9}{37.1\%}$, <span class="rainbow-text">$5.9\%$</span>
-        * **Farming Skill 25**: $\textcolor{82d68b}{56\%}$, $\textcolor{77c8f9}{37.6\%}$, <span class="rainbow-text">$6.4\%$</span>
-        * **Farming Skill 26**: $\textcolor{82d68b}{55\%}$, $\textcolor{77c8f9}{38\%}$, <span class="rainbow-text">$7\%$</span>
-        * **Farming Skill 27**: $\textcolor{82d68b}{54\%}$, $\textcolor{77c8f9}{38.3\%}$, <span class="rainbow-text">$7.7\%$</span>
-        * **Farming Skill 28**: $\textcolor{82d68b}{53\%}$, $\textcolor{77c8f9}{38.5\%}$, <span class="rainbow-text">$8.5\%$</span>
-        * **Farming Skill 29**: $\textcolor{82d68b}{52\%}$, $\textcolor{77c8f9}{38.6\%}$, <span class="rainbow-text">$9.4\%$</span>
-        * **Farming Skill 30**: $\textcolor{82d68b}{51\%}$, $\textcolor{77c8f9}{39\%}$, <span class="rainbow-text">$10\%$</span>
-        * **Farming Skill 31**: $\textcolor{82d68b}{50\%}$, $\textcolor{77c8f9}{39\%}$, <span class="rainbow-text">$11\%$</span>
-    ---
-
     ??? abstract "Farming EXP"
-        * {{Spanking_Wheat}} **Spanking Wheat**: $1$ EXP
         * {{Shapely_Potato}} **Shapely Potato**: $1$ EXP
+        * {{Spanking_Wheat}} **Spanking Wheat**: $1$ EXP
         * {{Juicy_Onion}} **Juicy Onion**: $2$ EXP
         * {{Virile_Mushroom}} **Virile Mushroom**: $2$ EXP
-        * {{Exposed_Corn}} **Exposed Corn**: $15$ EXP
         * {{Twin_Beans}} **Twin Beans**: $3$ EXP
-        * {{Firm_Apple}} **Firm Apple**: $20$ EXP
-        * {{Curvaceous_Paprika}} **Curvaceous Paprika**: $10$ EXP
+        * {{Cleft_Garlic}} **Cleft Garlic**: $4$ EXP
         * {{Sticky_Rice}} **Sticky Rice**: $5$ EXP
-        * {{Lustful_Grape}} **Lustful Grape**: $33$ EXP
+        * {{Curvaceous_Paprika}} **Curvaceous Paprika**: $10$ EXP
+        * {{Exposed_Corn}} **Exposed Corn**: $15$ EXP
+        * {{Firm_Apple}} **Firm Apple**: $20$ EXP
         * {{Venus_Cacao}} **Venus Cacao**: $25$ EXP
         * {{Stamina_Pepper}} **Stamina Pepper**: $30$ EXP
-        * {{Cleft_Garlic}} **Cleft Garlic**: $4$ EXP
+        * {{Lustful_Grape}} **Lustful Grape**: $33$ EXP
         * {{Sticky_Melon}} **Sticky Melon**: $36$ EXP
         * {{Pulse_Saffron}} **Pulse Saffron**: $40$ EXP
 
 
 <!--
-* {{Spanking_Wheat}} **Spanking Wheat**
-* {{Shapely_Potato}} **Shapely Potato**
-* {{Juicy_Onion}} **Juicy Onion**
-* {{Virile_Mushroom}} **Virile Mushroom**
-* {{Exposed_Corn}} **Exposed Corn**
-* {{Twin_Beans}} **Twin Beans**
-* {{Firm_Apple}} **Firm Apple**
-* {{Curvaceous_Paprika}} **Curvaceous Paprika**
-* {{Sticky_Rice}} **Sticky Rice**
-* {{Lustful_Grape}} **Lustful Grape**
-* {{Venus_Cacao}} **Venus Cacao**
-* {{Stamina_Pepper}} **Stamina Pepper**
-* {{Cleft_Garlic}} **Cleft Garlic**
-* {{Sticky_Melon}} **Sticky Melon**
-* {{Pulse_Saffron}} **Pulse Saffron**
+* {{Shapely_Potato}} **Shapely Potato**         id--2--no--1--
+* {{Spanking_Wheat}} **Spanking Wheat**         id--1--no--2--
+* {{Juicy_Onion}} **Juicy Onion**               id--3--no--3--
+* {{Virile_Mushroom}} **Virile Mushroom**       id--4--no--4--
+* {{Twin_Beans}} **Twin Beans**                 id--6--no--5--
+* {{Cleft_Garlic}} **Cleft Garlic**             id--13--no--6--
+* {{Sticky_Rice}} **Sticky Rice**               id--9--no--7--
+* {{Curvaceous_Paprika}} **Curvaceous Paprika** id--8--no--8--
+* {{Exposed_Corn}} **Exposed Corn**             id--5--no--9--
+* {{Firm_Apple}} **Firm Apple**                 id--7--no--10--
+* {{Venus_Cacao}} **Venus Cacao**               id--11--no--11--
+* {{Stamina_Pepper}} **Stamina Pepper**         id--12--no--12--
+* {{Lustful_Grape}} **Lustful Grape**           id--10--no--13--
+* {{Sticky_Melon}} **Sticky Melon**             id--14--no--14--
+* {{Pulse_Saffron}} **Pulse Saffron**           id--15--no--15--
 -->
 
-### Crops List {.territory-inventory-grid}
+#### Crops List {.territory-inventory-grid}
 
+{{ crop_tile("Shapely Potato") }}
 {{ crop_tile("Spanking Wheat") }}
-{{ crop_tile("Shapely Potato") }}
-{{ crop_tile("Shapely Potato") }}
 {{ crop_tile("Juicy Onion") }}
 {{ crop_tile("Virile Mushroom") }}
-{{ crop_tile("Exposed Corn") }}
 {{ crop_tile("Twin Beans") }}
-{{ crop_tile("Firm Apple") }}
-{{ crop_tile("Curvaceous Paprika") }}
+{{ crop_tile("Cleft Garlic") }}
 {{ crop_tile("Sticky Rice") }}
-{{ crop_tile("Lustful Grape") }}
+{{ crop_tile("Curvaceous Paprika") }}
+{{ crop_tile("Exposed Corn") }}
+{{ crop_tile("Firm Apple") }}
 {{ crop_tile("Venus Cacao") }}
 {{ crop_tile("Stamina Pepper") }}
-{{ crop_tile("Cleft Garlic") }}
+{{ crop_tile("Lustful Grape") }}
 {{ crop_tile("Sticky Melon") }}
 {{ crop_tile("Pulse Saffron") }}
+
+## Player Stats
+
+There is a total of 3 stats: **Logging Skill**, **Mining Skill** and **Farming Skill**. You can check all them via Phone.
+
+??? image "Image Guide"
+    ![Skill Check](../assets/images/territory/stats.avif)
+
+* **Logging Skill** increases **damage** you deal to trees, effectively **reducing hits amount** to chop down a tree.
+* **Mining Skill** increases **damage** you deal to ore clusters, effectively **reducing hits amount** to mine down a cluster.
+* **Farming Skill** increases **crops rarity**, resulting in yielding higher rarity crops from the Fields.
+
+??? abstract "Crops Rarity Chance"
+    * **Farming Skill 1**: $\textcolor{82d68b}{80\%}$, $\textcolor{77c8f9}{19.9\%}$, <span class="rainbow-text">$0.1\%$</span>
+    * **Farming Skill 2**: $\textcolor{82d68b}{79\%}$, $\textcolor{77c8f9}{20.8\%}$, <span class="rainbow-text">$0.2\%$</span>
+    * **Farming Skill 3**: $\textcolor{82d68b}{78\%}$, $\textcolor{77c8f9}{21.7\%}$, <span class="rainbow-text">$0.3\%$</span>
+    * **Farming Skill 4**: $\textcolor{82d68b}{77\%}$, $\textcolor{77c8f9}{22.6\%}$, <span class="rainbow-text">$0.4\%$</span>
+    * **Farming Skill 5**: $\textcolor{82d68b}{76\%}$, $\textcolor{77c8f9}{23.5\%}$, <span class="rainbow-text">$0.5\%$</span>
+    * **Farming Skill 6**: $\textcolor{82d68b}{75\%}$, $\textcolor{77c8f9}{24.3\%}$, <span class="rainbow-text">$0.7\%$</span>
+    * **Farming Skill 7**: $\textcolor{82d68b}{74\%}$, $\textcolor{77c8f9}{25.1\%}$, <span class="rainbow-text">$0.9\%$</span>
+    * **Farming Skill 8**: $\textcolor{82d68b}{73\%}$, $\textcolor{77c8f9}{25.9\%}$, <span class="rainbow-text">$1.1\%$</span>
+    * **Farming Skill 9**: $\textcolor{82d68b}{72\%}$, $\textcolor{77c8f9}{26.7\%}$, <span class="rainbow-text">$1.3\%$</span>
+    * **Farming Skill 10**: $\textcolor{82d68b}{71\%}$, $\textcolor{77c8f9}{27.5\%}$, <span class="rainbow-text">$1.5\%$</span>
+    * **Farming Skill 11**: $\textcolor{82d68b}{70\%}$, $\textcolor{77c8f9}{28.3\%}$, <span class="rainbow-text">$1.7\%$</span>
+    * **Farming Skill 12**: $\textcolor{82d68b}{69\%}$, $\textcolor{77c8f9}{29.1\%}$, <span class="rainbow-text">$1.9\%$</span>
+    * **Farming Skill 13**: $\textcolor{82d68b}{68\%}$, $\textcolor{77c8f9}{30\%}$, <span class="rainbow-text">$2\%$</span>
+    * **Farming Skill 14**: $\textcolor{82d68b}{67\%}$, $\textcolor{77c8f9}{30.9\%}$, <span class="rainbow-text">$2.1\%$</span>
+    * **Farming Skill 15**: $\textcolor{82d68b}{66\%}$, $\textcolor{77c8f9}{31.7\%}$, <span class="rainbow-text">$2.3\%$</span>
+    * **Farming Skill 16**: $\textcolor{82d68b}{65\%}$, $\textcolor{77c8f9}{32.5\%}$, <span class="rainbow-text">$2.5\%$</span>
+    * **Farming Skill 17**: $\textcolor{82d68b}{64\%}$, $\textcolor{77c8f9}{33.3\%}$, <span class="rainbow-text">$2.7\%$</span>
+    * **Farming Skill 18**: $\textcolor{82d68b}{63\%}$, $\textcolor{77c8f9}{34\%}$, <span class="rainbow-text">$3\%$</span>
+    * **Farming Skill 19**: $\textcolor{82d68b}{62\%}$, $\textcolor{77c8f9}{34.5\%}$, <span class="rainbow-text">$3.5\%$</span>
+    * **Farming Skill 20**: $\textcolor{82d68b}{61\%}$, $\textcolor{77c8f9}{34.8\%}$, <span class="rainbow-text">$4.2\%$</span>
+    * **Farming Skill 21**: $\textcolor{82d68b}{60\%}$, $\textcolor{77c8f9}{35\%}$, <span class="rainbow-text">$5\%$</span>
+    * **Farming Skill 22**: $\textcolor{82d68b}{59\%}$, $\textcolor{77c8f9}{35.8\%}$, <span class="rainbow-text">$5.2\%$</span>
+    * **Farming Skill 23**: $\textcolor{82d68b}{58\%}$, $\textcolor{77c8f9}{36.5\%}$, <span class="rainbow-text">$5.5\%$</span>
+    * **Farming Skill 24**: $\textcolor{82d68b}{57\%}$, $\textcolor{77c8f9}{37.1\%}$, <span class="rainbow-text">$5.9\%$</span>
+    * **Farming Skill 25**: $\textcolor{82d68b}{56\%}$, $\textcolor{77c8f9}{37.6\%}$, <span class="rainbow-text">$6.4\%$</span>
+    * **Farming Skill 26**: $\textcolor{82d68b}{55\%}$, $\textcolor{77c8f9}{38\%}$, <span class="rainbow-text">$7\%$</span>
+    * **Farming Skill 27**: $\textcolor{82d68b}{54\%}$, $\textcolor{77c8f9}{38.3\%}$, <span class="rainbow-text">$7.7\%$</span>
+    * **Farming Skill 28**: $\textcolor{82d68b}{53\%}$, $\textcolor{77c8f9}{38.5\%}$, <span class="rainbow-text">$8.5\%$</span>
+    * **Farming Skill 29**: $\textcolor{82d68b}{52\%}$, $\textcolor{77c8f9}{38.6\%}$, <span class="rainbow-text">$9.4\%$</span>
+    * **Farming Skill 30**: $\textcolor{82d68b}{51\%}$, $\textcolor{77c8f9}{39\%}$, <span class="rainbow-text">$10\%$</span>
+    * **Farming Skill 31**: $\textcolor{82d68b}{50\%}$, $\textcolor{77c8f9}{39\%}$, <span class="rainbow-text">$11\%$</span>
+
+??? example "Technical Details"
+    * All the Skills can be increased via **Tools**, **Leveling Up** and **Consuming specific Food**.
+    * **Farming Skill** is hard-capped at 31.
+
+    !!! abstract "Skills Formula"
+        * $\text{Logging} = 4 + \text{Logging LVL Bonus} + \text{Tool Bonus}$
+        * $\text{Mining} = 4 + \text{Mining LVL Bonus} + \text{Tool Bonus}$
+        * $\text{Farming} = \text{Farming LVL Bonus} + \text{Tool Bonus}$
+    
+    * **Damage** for **Logging** and **Mining** is calculated as $\frac{1}{3.8} \times \text{Skill Value}$.
+        * This means if you have $145$ **Mining & Logging** Skills, you can instantly chop any tree or mine any ore cluster.
 
 ## Buildings
 
@@ -298,6 +318,10 @@ Hover over the icons below to learn more about each of the buildings.
 6. **Resident Mansion** x4 — Optional & Cosmetic Only.
 
 ## Dishes
+
+### Dishes List {.territory-inventory-grid}
+
+{{ dish_tile("Vilire Gnocchi") }}
 
 ## Missions
 
@@ -356,6 +380,10 @@ There is a total of $8$ Races:
     ---
 
     * **Cat Beastfolk** and **Unknown** (Yuridori) races have the best average Efficiency but both have a maximum value of $5$.
+
+    ---
+
+    * Helpers cannot obtain **Rare** and **Legendary** Crops, only **Normal** rarity ones.
 
 Upon recruiting a Helper, you can assign them to do one task. If the task is Farming, you can choose the crop to grow as well.
 
