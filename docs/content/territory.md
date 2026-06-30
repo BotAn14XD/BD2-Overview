@@ -29,9 +29,9 @@ Therefore, you should **always** chop down only the most grown trees to obtain t
 ??? example "Technical Details"
 
     * The Logging Site is a $3x3$ field, resulting in a possible $9$ trees.
-    * Whenever any tile is empty, the Logging Site will grow **one Stage 1** tree in $\bf{60}$ **seconds**. Therefore, if you chopped all trees, it will take $9$ minutes to replant them completely.
-    * A tree needs $\bf{120}$ seconds to grow into Stage 2 and $\bf{180}$ seconds to grow into Stage 3, therefore, it takes $\bf{5}$ **minutes** to get a fully grown tree after it appeared initially.
-    * Health of the tree determines how hard it is to destroy it, resulting in a different amount of hits depending on your progression.
+    * Whenever any tile is empty, the Logging Site will grow **one Stage 1** tree in $\bf{60}$ **seconds**. Therefore, if you chop all trees, it will take $9$ minutes to replant them completely.
+    * A tree needs $\bf{120}$ seconds to grow into Stage 2 and $\bf{180}$ seconds to grow into Stage 3; therefore, it takes it takes $\bf{5}$ **minutes** to get a fully grown tree after it appears initially.
+    * The health of the tree determines how hard it is to destroy it, resulting in a different number of hits depending on your progression.
 
     ---
 
@@ -67,7 +67,7 @@ Ores have different chances to appear but, unlike trees, they have no growth, an
 ??? example "Technical Details"
 
     * Similar to the Logging site, the Quarry is a $3x3$ field, resulting in a possible $9$ clusters. The positioning isn't fixed in place; therefore, clusters are spawned randomly within the Quarry.
-    * Whenever there are less than $9$ ore clusters at the given moment, the Quarry will generate 1 cluster in $\bf{60}$ **seconds**. Therefore, if you mined all clusters, it will take $9$ minutes to fill the Quarry again.
+    * Whenever there are fewer than $9$ ore clusters at any given moment, the Quarry will generate 1 cluster in $\bf{60}$ **seconds**. Therefore, if you mined all clusters, it will take $9$ minutes to fill the Quarry again.
 
     ---
 
@@ -107,15 +107,15 @@ Ores have different chances to appear but, unlike trees, they have no growth, an
 
 ### Farming
 
-Farming is done via the **Fields**. It is the main source of **Crops**, which can be turned into dishes with the help of a **Cooking Pot**. To gather crops, you need to use a **Scythe**.
+Farming is done via the **Fields**. It is the main source of **Crops**, which can be turned into dishes with the help of a **Cooking Pot**. To gather crops, you need to use a **Sickle**.
 
-Each crop requires seeds that are purchasable at the moment of planting. Crops have different price and growth time.
+Each crop requires seeds that are purchasable at the moment of planting. Crops have different price and growth times.
 
 ??? example "Technical Details"
 
-    * Similar to trees, crops have **3 stages of growth** that differ visually. That, however, isn't as functional as trees, because you cannot collect crops at Stage 1 or 2.
-    * Each crop has 3 rarities: **Normal**, **Rare** and **Legendary**. They differ by selling price and have different chance to be obtained from harvesting.
-    * Normally, you get 1 item per harvest. This, however, can be changed by obtaining **Crops Bonus** buff. Each **Crops Bonus** increases quantity of received crop by 1.
+    * Similar to trees, crops have **3 stages of growth** that differ visually. This, however, isn't as functional as trees, because you cannot collect crops at Stage 1 or 2.
+    * Each crop has 3 rarities: **Normal**, **Rare** and **Legendary**. They differ by selling price and have different chances to be obtained to be obtained from harvesting.
+    * Normally, you get 1 item per harvest. This, however, can be changed by obtaining the **Crops Bonus** buff. Each **Crops Bonus** increases the quantity of the received crop by 1.
 
     ---
 
@@ -234,14 +234,14 @@ Each crop requires seeds that are purchasable at the moment of planting. Crops h
 
 ## Player Stats
 
-There is a total of 3 stats: **Logging Skill**, **Mining Skill** and **Farming Skill**. You can check all them via Phone.
+There is a total of 3 stats: **Logging Skill**, **Mining Skill** and **Farming Skill**. You can check them all via Phone.
 
 ??? image "Image Guide"
     ![Skill Check](../assets/images/territory/stats.avif)
 
-* **Logging Skill** increases **damage** you deal to trees, effectively **reducing hits amount** to chop down a tree.
-* **Mining Skill** increases **damage** you deal to ore clusters, effectively **reducing hits amount** to mine down a cluster.
-* **Farming Skill** increases **crops rarity**, resulting in yielding higher rarity crops from the Fields.
+* **Logging Skill** increases **damage** you deal to trees, effectively **reducing the number of hits** to chop down a tree.
+* **Mining Skill** increases **damage** you deal to ore clusters, effectively **reducing the number of hits** to mine a cluster.
+* **Farming Skill** increases **crop rarity**, yielding higher rarity crops from the Fields.
 
 ??? abstract "Crops Rarity Chance"
     * **Farming Skill 1**: $\textcolor{82d68b}{80\%}$, $\textcolor{77c8f9}{19.9\%}$, <span class="rainbow-text">$0.1\%$</span>
@@ -290,7 +290,7 @@ There is a total of 3 stats: **Logging Skill**, **Mining Skill** and **Farming S
 
 ## Buildings
 
-There are 11 building types, each having its own purpose. Most of the Buildings cost resources to build and take some time to be built.
+There are 11 building types, each having its own purpose. Most of the buildings cost resources to build and take some time to be built.
 
 Hover over the icons below to learn more about each of the buildings.
 
@@ -319,13 +319,116 @@ Hover over the icons below to learn more about each of the buildings.
 
 ## Dishes
 
+Dishes are the items you can create using **Cooking Pot**. They can be consumed to obtain **temporary bonus** or be **sold** for {{Local_Points}} **Local Points**.
+
+Each dish provides different bonuses, but all have $10$ minutes duration. Consuming same dish extends the bonus duration, and different dishes bonuses stack.
+
+!!! abstract "An Example"
+    * If you consume **Virile Gnocchi**, you will get $+8$ Logging Skill for $10$ minutes.
+    * If you consume <u>**two**</u> **Virile Gnocchis**, you will get $+8$ Logging Skill for $\bf{20}$ minutes instead.
+    * If you consume **Virile Gnocchi** <u>**and**</u> **Curvaceous Fried Rice**, you will get $\bf{+18}$ Logging Skill and $+10$ Mining Skill for $10$ minutes instead.
+
+There is no difference in dishes depending on ingredient rarity you use; therefore, using Normal rarity for dishes only *can* be preferred to obtain the gain from higher rarities.
+
 ### Dishes List {.territory-inventory-grid}
 
-{{ dish_tile("Vilire Gnocchi") }}
+{{ dish_tile("Virile Gnocchi") }}
+{{ dish_tile("Bulbous Crepe") }}
+{{ dish_tile("Creamy Congee") }}
+{{ dish_tile("Curvaceous Fried Rice") }}
+{{ dish_tile("Milky Steak") }}
+{{ dish_tile("Venus Pudding") }}
+{{ dish_tile("Stamina Pasta") }}
+{{ dish_tile("Hormone Glass Noodles") }}
+{{ dish_tile("Lingerie Cookie") }}
+{{ dish_tile("Apple Tea") }}
+{{ dish_tile("Nude Salad") }}
+{{ dish_tile("Lustful Tart") }}
+{{ dish_tile("Libido Soup") }}
+
+### Cooking Guide
+
+There are several strategies when it comes to gaining {{Local_Points}} **Local Points**.
+
+They can be roughly divided by **Active (Early Game)**, **More Passive (Late Game)** and **Lazy**.
+
+<div class="tab-align" markdown>
+
+=== "Active (Early Game)"
+
+    The main income for the early game and active gameplay comes from {{Virile_Gnocchi}} **Virile Gnocchi**. 
+    
+    It is easy to mass-produce and is available immediately; however, this requires constantly playing the game, which is a significant downside on its own.
+
+=== "More Passive (Late Game)"
+
+    A more passive approach revolves around the **Crop Bonus** from dishes.
+
+    That involves three dishes:
+    
+    * {{Lingerie_Cookie}} **Lingerie Cookie**
+    * {{Lustful_Tart}} **Lustful Tart**
+    * {{Libido_Soup}} **Libido Soup**
+
+    The idea relies on **consuming** these three dishes before harvesting fully grown ingredients for them, such as {{Pulse_Saffron}} **Pulse Saffron**.
+
+    Therefore, you must always save $3$ of each dish listed above and cycle their production to maximize the **Crop Bonus**.
+
+    Alternatively, you can use grow {{Venus_Cacao}} **Venus Cacao**, {{Stamina_Pepper}} **Stamina Pepper**, {{Lustful_Grape}} **Lustful Grape**, {{Sticky_Melon}} **Sticky Melon** and {{Pulse_Saffron}} **Pulse Saffron** in a ratio of $3:3:3:3:88$.
+
+=== "Lazy"
+
+    Honestly, cooking any food results in a net positive. Therefore, you can ignore all advice and grow whatever you want based on what best fits your login schedule.
+    
+    Territory is not tied to the main gameplay; therefore, there is no reason to rush anything when it comes to this game mode.
+
+</div>
 
 ## Missions
 
 ## Tools
+
+Tools are created to speed up the efficiency of gathering resources. 
+
+There are $\bf{3}$ tools each having $\bf{4}$ rarities: **Stone**, **Copper**, **Silver** and **Gold**.
+
+While **Stone** tools are given on default, you can upgrade them in **Forge**. Each upgrade costs **Materials** and {{Local_Points}} **Local Points**.
+
+??? example "Technical Details"
+    * **Pickaxe** and **Axe** increase **Mining** and **Logging Skills**, as well as **Lumber** and **Mineral** Bonuses correspondingly.
+    * **Sickle**, in other hand, increases **Farming Skill** and **Simultaneous Harvesting Capacity** — amount of crops you can collect in one swing.
+
+### Tools List
+
+#### Axe {.territory-inventory-grid}
+
+{{ tool_tile("Stone Axe") }}
+{{ tool_tile("Copper Axe") }}
+{{ tool_tile("Silver Axe") }}
+{{ tool_tile("Gold Axe") }}
+
+#### Pickaxe {.territory-inventory-grid}
+
+{{ tool_tile("Stone Pickaxe") }}
+{{ tool_tile("Copper Pickaxe") }}
+{{ tool_tile("Silver Pickaxe") }}
+{{ tool_tile("Gold Pickaxe") }}
+
+#### Sickle {.territory-inventory-grid}
+
+{{ tool_tile("Stone Sickle") }}
+{{ tool_tile("Copper Sickle") }}
+{{ tool_tile("Silver Sickle") }}
+{{ tool_tile("Gold Sickle") }}
+
+### Tools Priority
+
+1. **Axe** and **Pickaxe**. Their upgrades will increase amount of items obtained, similar to **Pub** and **Warehouse**.
+2. **Sickle**. It will help you grow rarer crops and collect more of them within one swing, which can be crucial during [Late Game Cooking Strategy](#__tabbed_1_2).
+
+**Axe / Pickaxe** are slightly better due to increased item drop that you can use as additional income source from selling raw materials.
+
+You should prioritize Tools before [**Helpers**](#helpers).
 
 ## Helpers
 
@@ -344,9 +447,9 @@ Each helper has 3 stats:
 * **Mining Efficiency**: Amount of ores chopped per 4h.
 * **Farming Efficiency**: Amount of items harvested per 1 crop harvested.
 
-Each stat value can vary from 1 to 6, therefore getting the Helper with the highest Efficiency is preferred.
+Each stat value can vary from 1 to 6; therefore, getting the Helper with the highest Efficiency is preferred.
 
-There is a total of $8$ Races:
+There are a total of $8$ Races:
 
 * **Goblin**
 * **Orc**
@@ -359,17 +462,17 @@ There is a total of $8$ Races:
 
 ??? example "Technical Details"
 
-    * There are $180$ possible options that can appear during Recruit.
+    * There are $180$ possible options that can appear during Recruitment.
 
     ---
 
-    * Chance to get **Goblin** or **Orc**: $42\%$ each.
-    * Chance to get **Rabbit Beastfolk**, **Sheep Beastfolk**, **Puppy Beastfolk**, **Squirrel Beastfolk**, **Cat Beastfolk**: $3\%$ each.
-    * Chance to get **Unknown** (Yuridori): $1\%$.
+    * The Chance to get **Goblin** or **Orc**: $42\%$ each.
+    * The Chance to get **Rabbit Beastfolk**, **Sheep Beastfolk**, **Puppy Beastfolk**, **Squirrel Beastfolk**, **Cat Beastfolk**: $3\%$ each.
+    * The chance to get **Unknown** (Yuridori): $1\%$.
 
     ---
 
-    * There is a $40.7296\%$ chance to get at least one Beaskfolk or Yuridori from the selection.
+    * There is a $40.7296\%$ chance to get at least one Beastfolk or Yuridori from the selection.
 
     ---
 
@@ -384,16 +487,17 @@ There is a total of $8$ Races:
     ---
 
     * Helpers cannot obtain **Rare** and **Legendary** Crops, only **Normal** rarity ones.
+    * Helpers do not interact with your crop on fields; instead, they grow them in some "virtual" dimension, separate from yours.
 
 Upon recruiting a Helper, you can assign them to do one task. If the task is Farming, you can choose the crop to grow as well.
 
-You can also **Rename**, **Replace** them or **Terminate the Contract** with them, essentially deleting the Helper.
+You can also **Rename**, **Replace** them, or **Terminate the Contract** with them, essentially deleting the Helper.
 ??? image "Manage Helper Menu"
     ![Manage Helper Menu](../assets/images/territory/helper-3.avif)
 
-Resources gathered by Helpers are stored automatically with no player involvement. They have a cap of 24h, similar to **Diner Sales** or **Fish Trap**.
+Resources gathered by Helpers are stored automatically with no player involvement. They have a cap of 24h, similar to **Diner Sales** or the **Fish Trap**.
 
-To gather earned resources, press the **Business Management** in the main menu.
+To gather earned resources, press **Business Management** in the main menu.
 
 ??? image "Image Guide"
     ![Collecting Resources from Helpers](../assets/images/territory/helper-idle.avif)

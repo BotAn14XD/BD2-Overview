@@ -202,7 +202,7 @@ Each shop lasts for **28 days** instead of the usual 14, allowing you to spend w
     ---
 
     13.&nbsp;{{Gold}} **Gold x1M**{.yellow} — $2000$ **Event Currency**<br>
-    14.&nbsp;{{Ability_Pill}} **Ability Pill x30K**{.yellow} — $10000$ **Event Currency**<br>
+    14.&nbsp;{{Ability_Pill}} **Ability Pill x15K**{.yellow} — $10000$ **Event Currency**<br>
     15-16.&nbsp;*(Optional)* {{Red_Slime}} **Red Slime x250**{.yellow} — $1000$ **Event Currency**<br>
     15-16.&nbsp;*(Optional)* {{S4_Rank_up_Star}} **★4 Rank-up Star x8**{.yellow} — $800$ **Event Currency**<br>
 

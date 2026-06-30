@@ -195,7 +195,22 @@ def define_env(env):
         "S": ["assets/images/gear-system/icons/S_score.avif", "S Gear Score"],
         "A": ["assets/images/gear-system/icons/A_score.avif", "A Gear Score"],
         "B": ["assets/images/gear-system/icons/B_score.avif", "B Gear Score"],
-        "C": ["assets/images/gear-system/icons/C_score.avif", "C Gear Score"]
+        "C": ["assets/images/gear-system/icons/C_score.avif", "C Gear Score"],
+
+        "Virile_Gnocchi": ["assets/images/territory/icons/icon_life_item_dish_003.avif", "Virile Gnocchi"],
+        "Bulbous_Crepe": ["assets/images/territory/icons/icon_life_item_dish_013.avif", "Bulbous Crepe"],
+        "Creamy_Congee": ["assets/images/territory/icons/icon_life_item_dish_004.avif", "Creamy Congee"],
+        "Curvaceous_Fried_Rice": ["assets/images/territory/icons/icon_life_item_dish_002.avif", "Curvaceous Fried Rice"],
+        "Milky_Steak": ["assets/images/territory/icons/icon_life_item_dish_006.avif", "Milky Steak"],
+        "Venus_Pudding": ["assets/images/territory/icons/icon_life_item_dish_009.avif", "Venus Pudding"],
+        "Stamina_Pasta": ["assets/images/territory/icons/icon_life_item_dish_001.avif", "Stamina Pasta"],
+        "Hormone_Glass_Noodles": ["assets/images/territory/icons/icon_life_item_dish_005.avif", "Hormone Glass Noodles"],
+        "Lingerie_Cookie": ["assets/images/territory/icons/icon_life_item_dish_012.avif", "Lingerie Cookie"],
+        "Apple_Tea": ["assets/images/territory/icons/icon_life_item_dish_010.avif", "Apple Tea"],
+        "Nude_Salad":  ["assets/images/territory/icons/icon_life_item_dish_008.avif", "Nude Salad"],
+        "Lustful_Tart": ["assets/images/territory/icons/icon_life_item_dish_011.avif", "Lustful Tart"],
+        "Libido_Soup": ["assets/images/territory/icons/icon_life_item_dish_007.avif", "Libido Soup"],
+
     }
 
     GEAR_DB = {
@@ -935,20 +950,323 @@ def define_env(env):
     }
 
     DISHES_DB = {
-    "Vilire Gnocchi": {
+    "Virile Gnocchi": {
         "icon": "assets/images/territory/icons/icon_life_item_dish_003.avif",
         "unlock_level": 1,
         "sell_price": 44,
         "bonus": "Logging Skill +8 | 10m",
-        # The ingredients map directly to crop names and amounts
         "ingredients": {
             "Shapely Potato": 5,
             "Spanking Wheat": 3,
             "Virile Mushroom": 2
         },
         "desc": "A dish where thick mushrooms are laid as if nestled atop soft gnocchi, each piece indented with a gentle hollow at its center. The tender, yielding flesh of the gnocchi and the firm texture of the mushroom meld together in a hot sauce, creating a strangely satisfying sense of unity."
+    },
+    "Bulbous Crepe": {
+        "icon": "assets/images/territory/icons/icon_life_item_dish_013.avif",
+        "unlock_level": 2,
+        "sell_price": 57,
+        "bonus": "Mining Skill +8 | 10m",
+        "ingredients": {
+            "Spanking Wheat": 5,
+            "Juicy Onion": 3,
+            "Virile Mushroom": 2
+        },
+        "desc": "A dish featuring a dried, bulbous mushroom peeking its cap out of a smooth, thin layer of buckwheat crepe. The silhouette of the fungal head penetrating the slick membrane is a sight to behold."
+    },
+    "Creamy Congee": {
+        "icon": "assets/images/territory/icons/icon_life_item_dish_004.avif",
+        "unlock_level": 3,
+        "sell_price": 213,
+        "bonus": "Farming Skill +1 | 10m",
+        "ingredients": {
+            "Sticky Rice": 5,
+            "Cleft Garlic": 5,
+            "Twin Beans": 3
+        },
+        "desc": "A dish featuring thick, white congee oozing between two garlic cloves that protrude like a pair of exposed breasts. The savory richness of the beans mingles with the sticky texture to create a titillating flavor profile."
+    },
+    "Curvaceous Fried Rice": {
+        "icon": "assets/images/territory/icons/icon_life_item_dish_002.avif",
+        "unlock_level": 4,
+        "sell_price": 460,
+        "bonus": ["Logging Skill +10 | 10m", "Mining Skill +10 | 10m"],
+        "ingredients": {
+            "Sticky Rice": 10,
+            "Juicy Onion": 10,
+            "Curvaceous Paprika": 5
+        },
+        "desc": "Two lumps of fried rice placed side-by-side on an elongated plate. Finely sliced vegetables have been sprinkled over the perky curvature of the mounds, making for a tantalizing sight."
+    },
+    "Milky Steak": {
+        "icon": "assets/images/territory/icons/icon_life_item_dish_006.avif",
+        "unlock_level": 5,
+        "sell_price": 714,
+        "bonus": "Farming Skill +1 | 10m",
+        "ingredients": {
+            "Exposed Corn": 12,
+            "Twin Beans": 8,
+            "Juicy Onion": 10
+        },
+        "desc": "A hot, white sauce spurts out from between multiple layers of patties. As the milky white sauce seeps out from the creases of the succulent meat, it leaves behind a suggestive trace."
+    },
+    "Venus Pudding": {
+        "icon": "assets/images/territory/icons/icon_life_item_dish_009.avif",
+        "unlock_level": 6,
+        "sell_price": 926,
+        "bonus": ["Logging Skill +14 | 10m", "Mining Skill +14 | 10m", "Farming Skill +1 | 10m"],
+        "ingredients": {
+            "Venus Cacao": 6,
+            "Exposed Corn": 12,
+        },
+        "desc": "A jiggling plate of cacao pudding. The pudding trembles with every touch, evoking the seductive sight of tender flesh."
+    },
+    "Stamina Pasta": {
+        "icon": "assets/images/territory/icons/icon_life_item_dish_001.avif",
+        "unlock_level": 7,
+        "sell_price": 1395,
+        "bonus": ["Mineral Bonus +1 | 10m"],
+        "ingredients": {
+            "Spanking Wheat": 15,
+            "Cleft Garlic": 5,
+            "Stamina Pepper": 15,
+        },
+        "desc": "A dish where pasta noodles wrap tightly around a stiff, upright Stamina Pepper in a seamless cylindrical form. The oily curves of the glistening noodles and the bold silhouette of the chili create a strangely captivating tension."
+    },
+    "Hormone Glass Noodles": {
+        "icon": "assets/images/territory/icons/icon_life_item_dish_005.avif",
+        "unlock_level": 7,
+        "sell_price": 1605,
+        "bonus": ["Lumber Bonus +1 | 10m"],
+        "ingredients": {
+            "Virile Mushroom": 15,
+            "Stamina Pepper": 15,
+            "Curvaceous Paprika": 10
+        },
+        "desc": "A dish featuring a smattering of chili peppers and bulbous mushrooms over vermicelli noodles. The vegetables, tangled together in an oily heap, seem to evoke an image of lust."
+    },
+    "Lingerie Cookie": {
+        "icon": "assets/images/territory/icons/icon_life_item_dish_012.avif",
+        "unlock_level": 7,
+        "sell_price": 1665,
+        "bonus": ["Crops Bonus +1 | 10m"],
+        "ingredients": {
+            "Spanking Wheat": 15,
+            "Venus Cacao": 10,
+            "Stamina Pepper": 10
+        },
+        "desc": "A cookie with an icing flourish in the shape of lace underwear. There's something pleasing about the smooth finish of the sugar coating against the crisp texture of the biscuit."
+    },
+    "Apple Tea": {
+        "icon": "assets/images/territory/icons/icon_life_item_dish_010.avif",
+        "unlock_level": 8,
+        "sell_price": 1810,
+        "bonus": ["Logging Skill +16 | 10m", "Lumber Bonus +1 | 10m"],
+        "ingredients": {
+            "Firm Apple": 15,
+            "Lustful Grape": 10,
+        },
+        "desc": "A drink featuring large slices of apple over a cup of tea. From above, it almost looks as though a figure is swimming through the crimson brew."
+    },
+    "Nude Salad": {
+        "icon": "assets/images/territory/icons/icon_life_item_dish_008.avif",
+        "unlock_level": 8,
+        "sell_price": 1810,
+        "bonus": ["Mining Skill +16 | 10m", "Mineral Bonus +1 | 10m"],
+        "ingredients": {
+            "Firm Apple": 15,
+            "Lustful Grape": 5,
+            "Sticky Melon": 5,
+        },
+        "desc": "A dish consisting of an opaque, white sauce poured over curvaceous grapes and melon slices. The sight of the sticky sauce running down the smooth surface of the fruit evokes explicit fantasies."
+    },
+    "Lustful Tart": {
+        "icon": "assets/images/territory/icons/icon_life_item_dish_011.avif",
+        "unlock_level": 8,
+        "sell_price": 2220,
+        "bonus": ["Farming Skill +2 | 10m", "Crop Bonus +1 | 10m"],
+        "ingredients": {
+            "Spanking Wheat": 20,
+            "Sticky Melon": 10,
+            "Lustful Grape": 10
+        },
+        "desc": "A tart topped with a variety of round fruit. The sticky, transparent syrup coating gives off a tantalizing sheen."
+    },
+    "Libido Soup": {
+        "icon": "assets/images/territory/icons/icon_life_item_dish_007.avif",
+        "unlock_level": 8,
+        "sell_price": 2640,
+        "bonus": ["Mineral Bonus +1 | 10m", "Lumber Bonus +1 | 10m", "Crop Bonus +1 | 10m"],
+        "ingredients": {
+            "Shapely Potato": 40,
+            "Pulse Saffron": 20
+        },
+        "desc": "A creamy soup with the delicate scent of saffron. Each stir sends white silhouettes into dizzying swirls, leaving behind a lingering, sensual trail."
+    },
     }
+
+    TOOLS_DB = {
+    "Stone Pickaxe": {
+        "icon": "assets/images/territory/icons/icon_life_item_tool_001.avif",
+        "level": 1,
+        "local_points": "-",
+        "stats": [
+            "Mining Skill: 10"
+        ],
+        "materials": {
+        }
+    },
+    "Copper Pickaxe": {
+        "icon": "assets/images/territory/icons/icon_life_item_tool_002.avif",
+        "level": 2,
+        "local_points": 300,
+        "stats": [
+            "Mining Skill: 21"
+        ],
+        "materials": {
+            "Copper Ore": 8,
+            "Lumber": 20
+        }
+    },
+    "Silver Pickaxe": {
+        "icon": "assets/images/territory/icons/icon_life_item_tool_003.avif",
+        "level": 3,
+        "local_points": 5000,
+        "stats": [
+            "Mining Skill: 67",
+            "Mineral Bonus: 1"
+        ],
+        "materials": {
+            "Iron Ore": 50,
+            "Silver Ore": 40,
+            "Lumber": 200,
+            "Sturdy Lumber": 40
+        }
+    },
+    "Gold Pickaxe": {
+        "icon": "assets/images/territory/icons/icon_life_item_tool_004.avif",
+        "level": 4,
+        "local_points": 30000,
+        "stats": [
+            "Mining Skill: 100",
+            "Mineral Bonus: 2"
+        ],
+        "materials": {
+            "Iron Ore": 150,
+            "Gold Ore": 60,
+            "Lumber": 600,
+            "Sturdy Lumber": 200
+        }
+    },
+    "Stone Axe": {
+        "icon": "assets/images/territory/icons/icon_life_item_tool_005.avif",
+        "level": 1,
+        "local_points": "-",
+        "stats": [
+            "Logging Skill: 10"
+        ],
+        "materials": {
+        }
+    },
+    "Copper Axe": {
+        "icon": "assets/images/territory/icons/icon_life_item_tool_006.avif",
+        "level": 2,
+        "local_points": 300,
+        "stats": [
+            "Logging Skill: 21"
+        ],
+        "materials": {
+            "Copper Ore": 8,
+            "Lumber": 20
+        }
+    },
+    "Silver Axe": {
+        "icon": "assets/images/territory/icons/icon_life_item_tool_007.avif",
+        "level": 3,
+        "local_points": 5000,
+        "stats": [
+            "Logging Skill: 67",
+            "Lumber Bonus: 1"
+        ],
+        "materials": {
+            "Iron Ore": 50,
+            "Silver Ore": 40,
+            "Lumber": 200,
+            "Sturdy Lumber": 40
+        }
+    },
+    "Gold Axe": {
+        "icon": "assets/images/territory/icons/icon_life_item_tool_008.avif",
+        "level": 4,
+        "local_points": 30000,
+        "stats": [
+            "Logging Skill: 100",
+            "Lumber Bonus: 2"
+        ],
+        "materials": {
+            "Iron Ore": 150,
+            "Gold Ore": 60,
+            "Lumber": 600,
+            "Sturdy Lumber": 200
+        }
+    },
+    "Stone Sickle": {
+        "icon": "assets/images/territory/icons/icon_life_item_tool_009.avif",
+        "level": 1,
+        "local_points": "-",
+        "stats": [
+            "Farming Skill: 2",
+            "Simultaneous Harvesting Capacity: 2"
+        ],
+        "materials": {
+        }
+    },
+    "Copper Sickle": {
+        "icon": "assets/images/territory/icons/icon_life_item_tool_010.avif",
+        "level": 2,
+        "local_points": 300,
+        "stats": [
+            "Farming Skill: 5",
+            "Simultaneous Harvesting Capacity: 3"
+        ],
+        "materials": {
+            "Copper Ore": 8,
+            "Lumber": 20
+        }
+    },
+    "Silver Sickle": {
+        "icon": "assets/images/territory/icons/icon_life_item_tool_011.avif",
+        "level": 3,
+        "local_points": 5000,
+        "stats": [
+            "Farming Skill: 10",
+            "Simultaneous Harvesting Capacity: 4"
+        ],
+        "materials": {
+            "Iron Ore": 50,
+            "Silver Ore": 40,
+            "Lumber": 200,
+            "Sturdy Lumber": 40
+        }
+    },
+    "Gold Sickle": {
+        "icon": "assets/images/territory/icons/icon_life_item_tool_012.avif",
+        "level": 4,
+        "local_points": 30000,
+        "stats": [
+            "Farming Skill: 15",
+            "Simultaneous Harvesting Capacity: 5"
+        ],
+        "materials": {
+            "Iron Ore": 150,
+            "Gold Ore": 60,
+            "Lumber": 600,
+            "Sturdy Lumber": 200
+        }
+    },
     }
+
+
 
     @env.macro
     def territory_tile(name):
@@ -1083,7 +1401,10 @@ def define_env(env):
         html += f'<span class="tooltip-line gray bold">Unlock: Lv. {unlock} | Sell Price: {sell}</span>'
         
         bonus = item.get("bonus")
-        if bonus:
+        if isinstance(bonus, list):
+            joined_bonuses = "<br>".join(bonus)
+            html += f'<span class="tooltip-line green" style="align-items: flex-start;"><strong class="yellow">Bonus:</strong> <span>{joined_bonuses}</span></span>'
+        elif bonus:
             html += f'<span class="tooltip-line green"><strong class="yellow">Bonus:</strong> {bonus}</span>'
             
         html += f'<span class="tooltip-divider-line"></span>'
@@ -1115,5 +1436,56 @@ def define_env(env):
             f'<span class="territory-grid-tile gear-tooltip-wrapper">'
             f'<img src="{prefix}{icon}" class="tile-image" alt="{name}">'
             f'{html}'
+            f'</span>'
+        )
+    
+    @env.macro
+    def tool_tile(name):
+        item = TOOLS_DB.get(name, {})
+        icon = item.get("icon", "default_tool.png")
+        
+        tooltip_html = (
+            f'<span class="gear-tooltip-box">'
+            f'<span class="tooltip-header">'
+            f'<img src="{prefix}{icon}" class="icon header-icon" alt="">'
+            f'<span class="header-title white bold">{name}</span>'
+            f'</span>'
+            f'<span class="tooltip-divider-line"></span>'
+        )
+        
+        level = item.get("level", "?")
+        points = item.get("local_points", "?")
+        tooltip_html += f'<span class="tooltip-line gray bold">Level: {level} | Local Points: {points}</span>'
+        
+        stats = item.get("stats")
+        if stats:
+            tooltip_html += f'<span class="tooltip-divider-line"></span>'
+            if isinstance(stats, (list, tuple)):
+                joined_stats = "<br>".join(stats)
+                tooltip_html += f'<span class="tooltip-line green" style="align-items: flex-start;"><strong class="yellow">Stats:</strong> <span>{joined_stats}</span></span>'
+            else:
+                tooltip_html += f'<span class="tooltip-line green"><strong class="yellow">Stats:</strong> {stats}</span>'
+            
+        materials = item.get("materials")
+        if isinstance(materials, dict):
+            tooltip_html += f'<span class="tooltip-divider-line"></span>'
+            mat_html_parts = []
+            
+            for mat_name, amount in materials.items():
+                mat_icon = MATERIALS_DB.get(mat_name, "default_mat.png")
+                mat_html = f'<span class="mat-cost-item"><img src="{prefix}{mat_icon}" class="inline-mat-icon icon" alt="{mat_name}"> {amount}x {mat_name}</span>'
+                mat_html_parts.append(mat_html)
+                
+            joined_mats = "".join(mat_html_parts)
+            tooltip_html += f'<span class="tooltip-line gray bold cost-flex-line"><span class="cost-label">Cost:</span> <span class="cost-items-wrap">{joined_mats}</span></span>'
+            
+        # Close the tooltip container
+        tooltip_html += f'</span>'
+
+        # Return the final stitched HTML
+        return (
+            f'<span class="territory-grid-tile gear-tooltip-wrapper">'
+            f'<img src="{prefix}{icon}" class="tile-image" alt="{name}">'
+            f'{tooltip_html}'
             f'</span>'
         )
