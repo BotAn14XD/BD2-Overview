@@ -1,8 +1,10 @@
 ---
 comments: true
 image: assets/images/site-assets/territory-banner.png
+description: A technical guide to the Brown Dust 2 Territory management mode. Includes detailed information on resource generation, skill scaling formulas, building priorities, and optimization strategies for cooking and recruitment.
 ---
 ![Territory](../assets/images/site-assets/index-pc-nav-20.avif){: .card-header-img }
+
 #
 
 Territory is a cozy management mode where players gather resources through farming, logging, and mining to build, landscape, and customize their own town while populating it with character residents.
@@ -13,7 +15,7 @@ It is located in **Fantasia Square**. To access it, walk down the staircase at t
 
 ## Activities
 
-There are three main activities you need to do to progress in the Territory: **Logging**, **Mining** and **Farming**. While Logging and Mining give you resources to progress such as {{Rock}} **Rock** or {{Lumber}} **Lumber**, Farming essentially gives you {{Local_Points}} **Local Points**.
+There are three main activities you need to perform to progress in the Territory: **Logging**, **Mining** and **Farming**. While Logging and Mining provide progression resources such as {{Rock}} **Rock** or {{Lumber}} **Lumber**, Farming primarily provides {{Local_Points}} **Local Points**.
 
 ### Logging
 
@@ -21,7 +23,7 @@ Logging is done via the **Logging Site**. It is the main source of {{Wooden_Bran
 
 Each tree has 3 stages of growth, with a more grown version providing **more resources** and **Logging EXP** but taking **longer to chop down**.
 
-Therefore, you should **always** chop down only the most grown trees to obtain the biggest amount of resources.
+Therefore, you should **always** chop down only fully grown trees to obtain the maximum amount of resources.
 
 ??? image "Different Growth Stages"
     ![Different Growth Stages Image](../assets/images/territory/logging-1.avif)
@@ -29,9 +31,9 @@ Therefore, you should **always** chop down only the most grown trees to obtain t
 ??? example "Technical Details"
 
     * The Logging Site is a $3x3$ field, resulting in a possible $9$ trees.
-    * Whenever any tile is empty, the Logging Site will grow **one Stage 1** tree in $\bf{60}$ **seconds**. Therefore, if you chop all trees, it will take $9$ minutes to replant them completely.
-    * A tree needs $\bf{120}$ seconds to grow into Stage 2 and $\bf{180}$ seconds to grow into Stage 3; therefore, it takes it takes $\bf{5}$ **minutes** to get a fully grown tree after it appears initially.
-    * The health of the tree determines how hard it is to destroy it, resulting in a different number of hits depending on your progression.
+    * Whenever any tile is empty, the Logging Site will grow **one Stage 1** tree in $\bf{60}$ **seconds**. Therefore, if you chop down all the trees, it will take $9$ minutes to replenish them completely.
+    * A tree needs $\bf{120}$ seconds to grow into Stage 2 and $\bf{180}$ seconds to grow into Stage 3; therefore, it takes $\bf{5}$ **minutes** to get a fully grown tree after it appears initially.
+    * A tree's health determines how difficult it is to destroy, requiring a different number of hits depending on your progression.
 
     ---
 
@@ -59,7 +61,7 @@ Therefore, you should **always** chop down only the most grown trees to obtain t
 
 Mining is done via the **Quarry**. It is the main source of {{Rock}} **Rock**, {{Copper_Ore_T}} **Copper Ore**, {{Iron_Ore_T}} **Iron Ore**, {{Silver_Ore_T}} **Silver Ore** and {{Gold_Ore_T}} **Gold Ore**. To obtain them, you must mine the clusters with a **Pickaxe**.
 
-Ores have different chances to appear but, unlike trees, they have no growth, and therefore can be mined immediately as they are generated.
+Ores have different chances to appear; however, unlike trees, they do not grow and can be mined immediately upon spawning.
 
 ??? image "Different Ore Clusters Showcase"
     ![Different Ore Clusters Showcase](../assets/images/territory/mining-1.avif)
@@ -67,7 +69,7 @@ Ores have different chances to appear but, unlike trees, they have no growth, an
 ??? example "Technical Details"
 
     * Similar to the Logging site, the Quarry is a $3x3$ field, resulting in a possible $9$ clusters. The positioning isn't fixed in place; therefore, clusters are spawned randomly within the Quarry.
-    * Whenever there are fewer than $9$ ore clusters at any given moment, the Quarry will generate 1 cluster in $\bf{60}$ **seconds**. Therefore, if you mined all clusters, it will take $9$ minutes to fill the Quarry again.
+    * Whenever there are fewer than $9$ ore clusters at any given moment, the Quarry will generate 1 cluster in $\bf{60}$ **seconds**. Therefore, if you mine all clusters, it will take $9$ minutes to fill the Quarry again.
 
     ---
 
@@ -109,13 +111,13 @@ Ores have different chances to appear but, unlike trees, they have no growth, an
 
 Farming is done via the **Fields**. It is the main source of **Crops**, which can be turned into dishes with the help of a **Cooking Pot**. To gather crops, you need to use a **Sickle**.
 
-Each crop requires seeds that are purchasable at the moment of planting. Crops have different price and growth times.
+Each crop requires seeds that are purchasable at the moment of planting. Crops have different prices and growth times.
 
 ??? example "Technical Details"
 
-    * Similar to trees, crops have **3 stages of growth** that differ visually. This, however, isn't as functional as trees, because you cannot collect crops at Stage 1 or 2.
-    * Each crop has 3 rarities: **Normal**, **Rare** and **Legendary**. They differ by selling price and have different chances to be obtained to be obtained from harvesting.
-    * Normally, you get 1 item per harvest. This, however, can be changed by obtaining the **Crops Bonus** buff. Each **Crops Bonus** increases the quantity of the received crop by 1.
+    * Similar to trees, crops have **3 stages of growth** that differ visually. This growth cycle, however, is structurally different from trees, as you cannot harvest crops at Stage 1 or 2.
+    * Each crop has 3 rarities: **Normal**, **Rare** and **Legendary**. They differ by selling price and have different chances to be obtained from harvesting.
+    * Normally, you get 1 item per harvest. This, however, can be changed by obtaining the **Crops Bonus** buff. Each **Crops Bonus** stack increases the quantity of the harvested crop by 1.
 
     ---
 
@@ -232,15 +234,262 @@ Each crop requires seeds that are purchasable at the moment of planting. Crops h
 {{ crop_tile("Sticky Melon") }}
 {{ crop_tile("Pulse Saffron") }}
 
-## Player Stats
+## Player Levels
 
-There is a total of 3 stats: **Logging Skill**, **Mining Skill** and **Farming Skill**. You can check them all via Phone.
+As was stated previously, doing any activity grants EXP. Each activity, such as **Logging**, **Mining**, or **Farming**, has a separate progress bar. Once you gain enough EXP in some activity, you get a level up.
+
+Leveling up opens new crops and dishes (for **Farming**) and decorative items (for **Logging** and **Mining**). Additionally, each level up increases corresponding **Skill**.
+
+### Level Table
+
+The table below displays the level, EXP required to reach it (from the previous level), Cumulative EXP, and the bonus that specific level provides. There is a total of 10 levels for each activity.
+
+<div class="tab-align" markdown>
+
+=== "Logging"
+
+    <span class="responsive-table-wrapper">
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Level</th>
+                <th style="width:30%">EXP from previous Level</th>
+                <th>Cumulative EXP</th>
+                <th>Skill Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>$1$</td>
+                <td>$0$</td>
+                <td>$0$</td>
+                <td>$5$ **Logging Skill**</td>
+            </tr>
+            <tr>
+                <td>$2$</td>
+                <td>$15$</td>
+                <td>$15$</td>
+                <td>$11$ **Logging Skill**</td>
+            </tr>
+            <tr>
+                <td>$3$</td>
+                <td>$40$</td>
+                <td>$55$</td>
+                <td>$15$ **Logging Skill**</td>
+            </tr>
+            <tr>
+                <td>$4$</td>
+                <td>$100$</td>
+                <td>$155$</td>
+                <td>$20$ **Logging Skill**</td>
+            </tr>
+            <tr>
+                <td>$5$</td>
+                <td>$250$</td>
+                <td>$405$</td>
+                <td>$26$ **Logging Skill**</td>
+            </tr>
+            <tr>
+                <td>$6$</td>
+                <td>$500$</td>
+                <td>$905$</td>
+                <td>$32$ **Logging Skill**</td>
+            </tr>
+            <tr>
+                <td>$7$</td>
+                <td>$1000$</td>
+                <td>$1905$</td>
+                <td>$39$ **Logging Skill**</td>
+            </tr>
+            <tr>
+                <td>$8$</td>
+                <td>$1800$</td>
+                <td>$3705$</td>
+                <td>$46$ **Logging Skill**</td>
+            </tr>
+            <tr>
+                <td>$9$</td>
+                <td>$3000$</td>
+                <td>$6705$</td>
+                <td>$54$ **Logging Skill**</td>
+            </tr>
+            <tr>
+                <td>$10$</td>
+                <td>$5000$</td>
+                <td>$11705$</td>
+                <td>$62$ **Logging Skill**</td>
+            </tr>
+        </tbody>
+    </table>
+    </span>
+
+=== "Mining"
+
+    <span class="responsive-table-wrapper">
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Level</th>
+                <th style="width:30%">EXP from previous Level</th>
+                <th>Cumulative EXP</th>
+                <th>Skill Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>$1$</td>
+                <td>$0$</td>
+                <td>$0$</td>
+                <td>$5$ **Mining Skill**</td>
+            </tr>
+            <tr>
+                <td>$2$</td>
+                <td>$15$</td>
+                <td>$15$</td>
+                <td>$11$ **Mining Skill**</td>
+            </tr>
+            <tr>
+                <td>$3$</td>
+                <td>$40$</td>
+                <td>$55$</td>
+                <td>$15$ **Mining Skill**</td>
+            </tr>
+            <tr>
+                <td>$4$</td>
+                <td>$100$</td>
+                <td>$155$</td>
+                <td>$20$ **Mining Skill**</td>
+            </tr>
+            <tr>
+                <td>$5$</td>
+                <td>$250$</td>
+                <td>$405$</td>
+                <td>$26$ **Mining Skill**</td>
+            </tr>
+            <tr>
+                <td>$6$</td>
+                <td>$500$</td>
+                <td>$905$</td>
+                <td>$32$ **Mining Skill**</td>
+            </tr>
+            <tr>
+                <td>$7$</td>
+                <td>$1000$</td>
+                <td>$1905$</td>
+                <td>$39$ **Mining Skill**</td>
+            </tr>
+            <tr>
+                <td>$8$</td>
+                <td>$1800$</td>
+                <td>$3705$</td>
+                <td>$46$ **Mining Skill**</td>
+            </tr>
+            <tr>
+                <td>$9$</td>
+                <td>$3000$</td>
+                <td>$6705$</td>
+                <td>$54$ **Mining Skill**</td>
+            </tr>
+            <tr>
+                <td>$10$</td>
+                <td>$5000$</td>
+                <td>$11705$</td>
+                <td>$62$ **Mining Skill**</td>
+            </tr>
+        </tbody>
+    </table>
+    </span>
+
+=== "Farming"
+
+    <span class="responsive-table-wrapper">
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Level</th>
+                <th style="width:30%">EXP from previous Level</th>
+                <th>Cumulative EXP</th>
+                <th>Skill Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>$1$</td>
+                <td>$0$</td>
+                <td>$0$</td>
+                <td>$1$ **Farming Skill**</td>
+            </tr>
+            <tr>
+                <td>$2$</td>
+                <td>$9$</td>
+                <td>$9$</td>
+                <td>$2$ **Farming Skill**</td>
+            </tr>
+            <tr>
+                <td>$3$</td>
+                <td>$30$</td>
+                <td>$39$</td>
+                <td>$3$ **Farming Skill**</td>
+            </tr>
+            <tr>
+                <td>$4$</td>
+                <td>$80$</td>
+                <td>$119$</td>
+                <td>$4$ **Farming Skill**</td>
+            </tr>
+            <tr>
+                <td>$5$</td>
+                <td>$250$</td>
+                <td>$369$</td>
+                <td>$5$ **Farming Skill**</td>
+            </tr>
+            <tr>
+                <td>$6$</td>
+                <td>$600$</td>
+                <td>$969$</td>
+                <td>$6$ **Farming Skill**</td>
+            </tr>
+            <tr>
+                <td>$7$</td>
+                <td>$2000$</td>
+                <td>$2969$</td>
+                <td>$7$ **Farming Skill**</td>
+            </tr>
+            <tr>
+                <td>$8$</td>
+                <td>$6000$</td>
+                <td>$8969$</td>
+                <td>$8$ **Farming Skill**</td>
+            </tr>
+            <tr>
+                <td>$9$</td>
+                <td>$15000$</td>
+                <td>$23969$</td>
+                <td>$9$ **Farming Skill**</td>
+            </tr>
+            <tr>
+                <td>$10$</td>
+                <td>$43000$</td>
+                <td>$66969$</td>
+                <td>$10$ **Farming Skill**</td>
+            </tr>
+        </tbody>
+    </table>
+    </span>
+
+</div>
+
+## Player Bonuses
+
+### Skills
+
+There are a total of 3 stats: **Logging Skill**, **Mining Skill** and **Farming Skill**. You can check them all via Phone.
 
 ??? image "Image Guide"
     ![Skill Check](../assets/images/territory/stats.avif)
 
-* **Logging Skill** increases **damage** you deal to trees, effectively **reducing the number of hits** to chop down a tree.
-* **Mining Skill** increases **damage** you deal to ore clusters, effectively **reducing the number of hits** to mine a cluster.
+* **Logging Skill** increases the **damage** you deal to trees, effectively **reducing the number of hits** to chop down a tree.
+* **Mining Skill** increases the **damage** you deal to ore clusters, effectively **reducing the number of hits** to mine a cluster.
 * **Farming Skill** increases **crop rarity**, yielding higher rarity crops from the Fields.
 
 ??? abstract "Crops Rarity Chance"
@@ -277,16 +526,22 @@ There is a total of 3 stats: **Logging Skill**, **Mining Skill** and **Farming S
     * **Farming Skill 31**: $\textcolor{82d68b}{50\%}$, $\textcolor{77c8f9}{39\%}$, <span class="rainbow-text">$11\%$</span>
 
 ??? example "Technical Details"
-    * All the Skills can be increased via **Tools**, **Leveling Up** and **Consuming specific Food**.
+    * All skills can be increased via **Tools**, **Leveling Up** and **Consuming specific Food**.
     * **Farming Skill** is hard-capped at 31.
 
     !!! abstract "Skills Formula"
         * $\text{Logging} = 4 + \text{Logging LVL Bonus} + \text{Tool Bonus}$
         * $\text{Mining} = 4 + \text{Mining LVL Bonus} + \text{Tool Bonus}$
-        * $\text{Farming} = \text{Farming LVL Bonus} + \text{Tool Bonus}$
+        * $\text{Farming} = 1 + \text{Farming LVL Bonus} + \text{Tool Bonus}$
     
     * **Damage** for **Logging** and **Mining** is calculated as $\frac{1}{3.8} \times \text{Skill Value}$.
         * This means if you have $145$ **Mining & Logging** Skills, you can instantly chop any tree or mine any ore cluster.
+
+### Other Bonuses
+
+* **Lumber Bonus**: Increases obtained wood count from logging by 1 per bonus active.
+* **Mineral Bonus**: Increases obtained ores count from mining by 1 per bonus active.
+* **Crops Bonus**: Increases obtained crops count from farming by 1 per bonus active.
 
 ## Buildings
 
@@ -317,18 +572,215 @@ Hover over the icons below to learn more about each of the buildings.
 5. **Helper Lodging**
 6. **Resident Mansion** x4 — Optional & Cosmetic Only.
 
+## Territory Options & Expansion
+
+### Select Territory (Terrain)
+
+During the intro, you can choose $1$ of $4$ Territory layouts: **Plain Terrain**, **River Terrain 1**, **River Terrain 2** and **Coast Terrain**.
+
+Your chosen terrain does not affect your progression.
+
+You cannot place anything except **Bridges** on **Water Tiles**, which technically means that the **Plain Terrain** layout contains the most buildable tiles.
+
+??? image "Terrain Selection"
+    ![Terrain Selection](../assets/images/territory/select_territory.avif)
+
+You can change the Terrain at any given point via **Phone**, but doing so will:
+
+* Destroy all structures you've built, with a material refund.
+* Destroy all crops, trees and ores **without a refund**
+* Remove all expansions, with a {{Local_Points}} **Local Points** refund.
+
+This essentially means that for refunding, you should not have any active crops growing and be ready to spend time rebuilding all buildings from the scratch.
+
+??? image "Change Terrain Guide"
+    ![Change Terrain Guide](../assets/images/territory/swap_guide.avif)
+
+??? image "Confirmation Window"
+    ![Confirmation Window](../assets/images/territory/confirmation.avif)
+
+### Territory Expansion
+
+Each terrain layout contains locked regions, which you can unlock using {{Local_Points}} **Local Points**.
+
+You start with 9 unlocked regions and can expand up to 25 using the Territory Phone. To do so, use the Territory Phone.
+
+??? image "Image Guide"
+    ![Expand Guide](../assets/images/territory/expand_guide.avif)
+
+<span class="responsive-table-wrapper">
+<table class="data-table">
+    <thead>
+        <tr>
+            <th>Regions Unlocked</th>
+            <th style="width:30%">Cost for the next, {{Local_Points}}</th>
+            <th>Total Cost, {{Local_Points}}</th>
+            <th>Flooring, Mats & Fixtures Limit</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>$1$</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>$2$</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>$3$</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>$4$</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>$5$</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>$6$</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>$7$</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>$8$</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>$9$</td>
+            <td>$40$</td>
+            <td>$40$</td>
+            <td>$650$</td>
+        </tr>
+        <tr>
+            <td>$10$</td>
+            <td>$100$</td>
+            <td>$140$</td>
+            <td>$750$</td>
+        </tr>
+        <tr>
+            <td>$11$</td>
+            <td>$300$</td>
+            <td>$440$</td>
+            <td>$850$</td>
+        </tr>
+        <tr>
+            <td>$12$</td>
+            <td>$1000$</td>
+            <td>$1440$</td>
+            <td>$950$</td>
+        </tr>
+        <tr>
+            <td>$13$</td>
+            <td>$2500$</td>
+            <td>$3940$</td>
+            <td>$1050$</td>
+        </tr>
+        <tr>
+            <td>$14$</td>
+            <td>$5000$</td>
+            <td>$8940$</td>
+            <td>$1150$</td>
+        </tr>
+        <tr>
+            <td>$15$</td>
+            <td>$9000$</td>
+            <td>$17940$</td>
+            <td>$1250$</td>
+        </tr>
+        <tr>
+            <td>$16$</td>
+            <td>$15000$</td>
+            <td>$32940$</td>
+            <td>$1350$</td>
+        </tr>
+        <tr>
+            <td>$17$</td>
+            <td>$22000$</td>
+            <td>$54940$</td>
+            <td>$1450$</td>
+        </tr>
+        <tr>
+            <td>$18$</td>
+            <td>$32000$</td>
+            <td>$86940$</td>
+            <td>$1550$</td>
+        </tr>
+        <tr>
+            <td>$19$</td>
+            <td>$45000$</td>
+            <td>$131940$</td>
+            <td>$1650$</td>
+        </tr>
+        <tr>
+            <td>$20$</td>
+            <td>$60000$</td>
+            <td>$191940$</td>
+            <td>$1750$</td>
+        </tr>
+        <tr>
+            <td>$21$</td>
+            <td>$75000$</td>
+            <td>$266940$</td>
+            <td>$1850$</td>
+        </tr>
+        <tr>
+            <td>$22$</td>
+            <td>$85000$</td>
+            <td>$351940$</td>
+            <td>$1950$</td>
+        </tr>
+        <tr>
+            <td>$23$</td>
+            <td>$92000$</td>
+            <td>$443940$</td>
+            <td>$2050$</td>
+        </tr>
+        <tr>
+            <td>$24$</td>
+            <td>$100000$</td>
+            <td>$543940$</td>
+            <td>$2150$</td>
+        </tr>
+    </tbody>
+</table>
+</span>
+
+The **order** in which you expand the Territory **does not matter**. This also provides no real gain except increased space to put stuff on, therefore, expand only when you need more stuff or when you have good {{Local_Points}} **Local Points** income.
+
 ## Dishes
 
-Dishes are the items you can create using **Cooking Pot**. They can be consumed to obtain **temporary bonus** or be **sold** for {{Local_Points}} **Local Points**.
+Dishes are the items you can create using a **Cooking Pot**. They can be consumed to obtain a **temporary bonus** or be **sold** for {{Local_Points}} **Local Points**.
 
-Each dish provides different bonuses, but all have $10$ minutes duration. Consuming same dish extends the bonus duration, and different dishes bonuses stack.
+Each dish provides different bonuses, but all have $10$-minute duration. Consuming the same dish again extends the bonus duration, while bonuses from different dishes stack.
 
 !!! abstract "An Example"
     * If you consume **Virile Gnocchi**, you will get $+8$ Logging Skill for $10$ minutes.
     * If you consume <u>**two**</u> **Virile Gnocchis**, you will get $+8$ Logging Skill for $\bf{20}$ minutes instead.
     * If you consume **Virile Gnocchi** <u>**and**</u> **Curvaceous Fried Rice**, you will get $\bf{+18}$ Logging Skill and $+10$ Mining Skill for $10$ minutes instead.
 
-There is no difference in dishes depending on ingredient rarity you use; therefore, using Normal rarity for dishes only *can* be preferred to obtain the gain from higher rarities.
+There is no difference in dishes depending on the ingredient rarity you use; therefore, using Normal rarity for dishes only *can* be preferred to obtain the gain from higher rarities.
 
 ### Dishes List {.territory-inventory-grid}
 
@@ -350,7 +802,7 @@ There is no difference in dishes depending on ingredient rarity you use; therefo
 
 There are several strategies when it comes to gaining {{Local_Points}} **Local Points**.
 
-They can be roughly divided by **Active (Early Game)**, **More Passive (Late Game)** and **Lazy**.
+They can be roughly divided into **Active (Early Game)**, **More Passive (Late Game)** and **Lazy**.
 
 <div class="tab-align" markdown>
 
@@ -374,7 +826,7 @@ They can be roughly divided by **Active (Early Game)**, **More Passive (Late Gam
 
     Therefore, you must always save $3$ of each dish listed above and cycle their production to maximize the **Crop Bonus**.
 
-    Alternatively, you can use grow {{Venus_Cacao}} **Venus Cacao**, {{Stamina_Pepper}} **Stamina Pepper**, {{Lustful_Grape}} **Lustful Grape**, {{Sticky_Melon}} **Sticky Melon** and {{Pulse_Saffron}} **Pulse Saffron** in a ratio of $3:3:3:3:88$.
+    Alternatively, you can grow {{Venus_Cacao}} **Venus Cacao**, {{Stamina_Pepper}} **Stamina Pepper**, {{Lustful_Grape}} **Lustful Grape**, {{Sticky_Melon}} **Sticky Melon** and {{Pulse_Saffron}} **Pulse Saffron** in a ratio of $3:3:3:3:88$.
 
 === "Lazy"
 
@@ -384,19 +836,19 @@ They can be roughly divided by **Active (Early Game)**, **More Passive (Late Gam
 
 </div>
 
-## Missions
+<!-- ## Missions -->
 
 ## Tools
 
-Tools are created to speed up the efficiency of gathering resources. 
+Tools are designed to improve resource-gathering efficiency.
 
-There are $\bf{3}$ tools each having $\bf{4}$ rarities: **Stone**, **Copper**, **Silver** and **Gold**.
+There are $\bf{3}$ tools, each having $\bf{4}$ rarities: **Stone**, **Copper**, **Silver** and **Gold**.
 
-While **Stone** tools are given on default, you can upgrade them in **Forge**. Each upgrade costs **Materials** and {{Local_Points}} **Local Points**.
+While **Stone** tools are given by default, you can upgrade them in the **Forge**. Each upgrade costs **Materials** and {{Local_Points}} **Local Points**.
 
 ??? example "Technical Details"
-    * **Pickaxe** and **Axe** increase **Mining** and **Logging Skills**, as well as **Lumber** and **Mineral** Bonuses correspondingly.
-    * **Sickle**, in other hand, increases **Farming Skill** and **Simultaneous Harvesting Capacity** — amount of crops you can collect in one swing.
+    * **Pickaxe** and **Axe** increase **Mining** and **Logging Skills**, as well as **Lumber** and **Mineral** bonuses respectively.
+    * **Sickle**, on the other hand, increases **Farming Skill** and **Simultaneous Harvesting Capacity** — the amount of crops you can collect in one swing.
 
 ### Tools List
 
@@ -423,16 +875,16 @@ While **Stone** tools are given on default, you can upgrade them in **Forge**. E
 
 ### Tools Priority
 
-1. **Axe** and **Pickaxe**. Their upgrades will increase amount of items obtained, similar to **Pub** and **Warehouse**.
+1. **Axe** and **Pickaxe**. Their upgrades increase the quantity of items obtained, similar to the **Pub** and **Warehouse** buildings.
 2. **Sickle**. It will help you grow rarer crops and collect more of them within one swing, which can be crucial during [Late Game Cooking Strategy](#__tabbed_1_2).
 
-**Axe / Pickaxe** are slightly better due to increased item drop that you can use as additional income source from selling raw materials.
+**Axe / Pickaxe** are slightly better due to the increased item drop that you can use as an additional income source from selling raw materials.
 
 You should prioritize Tools before [**Helpers**](#helpers).
 
 ## Helpers
 
-To earn offline resources, you can hire **Helpers**. To do that, you need to build **Helper Lodging** first.
+To earn resources offline, you can hire **Helpers** by first constructing a **Helper Lodging** building.
 
 Recruiting a Helper costs $5000$ {{Local_Points}} **Local Points**.
 
@@ -441,13 +893,13 @@ After you press the "Start Recruiting" button, you will be allowed to choose one
 ??? image "Recruitment Menu"
     ![Helper Recruitment Menu](../assets/images/territory/helper-2.avif)
 
-Each helper has 3 stats:
+Each Helper has 3 stats:
 
-* **Logging Efficiency**: Amount of trees chopped per 4h.
-* **Mining Efficiency**: Amount of ores chopped per 4h.
-* **Farming Efficiency**: Amount of items harvested per 1 crop harvested.
+* **Logging Efficiency**: The quantity of trees chopped per 4 hours.
+* **Mining Efficiency**: The quantity of ore mined every 4 hours.
+* **Farming Efficiency**: The quantity of items harvested per 1 crop harvested.
 
-Each stat value can vary from 1 to 6; therefore, getting the Helper with the highest Efficiency is preferred.
+Each stat value can vary from 1 to 6; therefore, recruiting a Helper with the highest possible efficiency stats is ideal.
 
 There are a total of $8$ Races:
 
@@ -466,8 +918,8 @@ There are a total of $8$ Races:
 
     ---
 
-    * The Chance to get **Goblin** or **Orc**: $42\%$ each.
-    * The Chance to get **Rabbit Beastfolk**, **Sheep Beastfolk**, **Puppy Beastfolk**, **Squirrel Beastfolk**, **Cat Beastfolk**: $3\%$ each.
+    * The chance to get **Goblin** or **Orc**: $42\%$ each.
+    * The chance to get **Rabbit Beastfolk**, **Sheep Beastfolk**, **Puppy Beastfolk**, **Squirrel Beastfolk**, **Cat Beastfolk**: $3\%$ each.
     * The chance to get **Unknown** (Yuridori): $1\%$.
 
     ---
@@ -486,8 +938,8 @@ There are a total of $8$ Races:
 
     ---
 
-    * Helpers cannot obtain **Rare** and **Legendary** Crops, only **Normal** rarity ones.
-    * Helpers do not interact with your crop on fields; instead, they grow them in some "virtual" dimension, separate from yours.
+    * Helpers cannot harvest **Rare** or **Legendary** crops; they only gather items of **Normal** rarity.
+    * Helpers do not interact with the crops on your active fields; instead, they produce resources in a separate, virtual inventory space.
 
 Upon recruiting a Helper, you can assign them to do one task. If the task is Farming, you can choose the crop to grow as well.
 
@@ -502,5 +954,6 @@ To gather earned resources, press **Business Management** in the main menu.
 ??? image "Image Guide"
     ![Collecting Resources from Helpers](../assets/images/territory/helper-idle.avif)
 
+## Related Links
 
-# WORK IN PROGRESS
+* [Territory Codex | Brown Dust II Database by <u>Souseha</u>](https://browndust2-db.souseha.com/en/territory)

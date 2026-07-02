@@ -49,7 +49,7 @@ You can also check the tiles by inspecting the Boss info in the Fiend Hunter Men
 
 ### Boss Levels
 
-Fiend Hunter Bosses have $20$ initial Levels you can freely choose between in both **Normal** and **Practice** Battles. However, after defeating Level 21, you will face Level $22$ — meaning the Boss, in theory, has infinitely many Difficulty Levels.
+Fiend Hunter Bosses have $25$ initial Levels you can freely choose between in both **Normal** and **Practice** Battles. However, after defeating Level 25, you will face Level $26$ — meaning the Boss, in theory, has infinitely many Difficulty Levels.
 
 Each new Level is progressively harder thanks to scaling parameters such as  {{ HP }} **HP** and {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}.
 

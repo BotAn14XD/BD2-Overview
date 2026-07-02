@@ -150,7 +150,7 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
 Often considered to be a general content (until Floor 151+). 
 
 !!! info ""
-    * **Height:** 200 floors
+    * **Height:** 250 floors
     * **Enemy Property:** Enemies share one **Property** for 10 floors, then it changes.
     * **Progression:** To advance, you just need to win the battle. Completing the 2 optional challenges per floor grants extra resources.
 

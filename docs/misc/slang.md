@@ -104,7 +104,7 @@ comments: true
                 <span class="alias-tag">Books</span>
                 <span class="alias-tag">Ability S. Books</span>
             </div>
-            <p>Ability Books is a collective term for ★1 — ★4 Ability Skill Books, used for upgrading a Character's Field Ability.</p>
+            <p>Ability Books are a collective term for ★1 — ★4 Ability Skill Books, used for upgrading a Character's Field Ability.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Acting Archbishop Michaela</h3>
@@ -115,7 +115,7 @@ comments: true
                 <span class="alias-tag rare-tag">Arch Michaela</span>
                 <span class="alias-tag rare-tag">Arch Bish Mich</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Michaela/Acting_Archbishop">Acting Archbishop</a> is one of <a href="https://browndust2.miraheze.org/wiki/Michaela">Michaela's</a> costumes. Used as self-buff costume and weak <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Michaela/Acting_Archbishop">Acting Archbishop</a> is one of <a href="https://browndust2.miraheze.org/wiki/Michaela">Michaela's</a> costumes. Used as a self-buff costume and weak <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Admiral Sylvia</h3>
@@ -135,7 +135,7 @@ comments: true
                 <span class="alias-tag">Glasses Diana</span>
                 <span class="alias-tag rare-tag">AU Diana</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown">Adventurer of the Unknown</a> is one of <a href="https://browndust2.miraheze.org/wiki/Diana">Diana's</a> costumes. Used as Property Buffer (Support).</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown">Adventurer of the Unknown</a> is one of <a href="https://browndust2.miraheze.org/wiki/Diana">Diana's</a> costumes. Used as a Property Buffer (Support).</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Alice Glacia</h3>
@@ -152,7 +152,7 @@ comments: true
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
             </div>
-            <p>Amplifier is a Character or a Costume that increases the damage to the target, mostly due to Vulnerability.</p>
+            <p>An Amplifier is a Character or a Costume that increases the damage to the target, mostly due to Vulnerability.</p>
         </li>
         <li class="slang-item" data-keywords="crytals">
             <h3>Ancient Crystal</h3>
@@ -182,7 +182,7 @@ comments: true
                 <span class="alias-tag">Angel Teresse</span>
                 <span class="alias-tag rare-tag">Knockback Teresse</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Teresse/Angel_of_Destruction">Angel of Destruction</a> is one of <a href="https://browndust2.miraheze.org/wiki/Teresse">Teresse's</a> costumes. Used as Knockback unit and <span class="cross-link" onclick="searchFor('SP Battery')">SP Battery</span>.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Teresse/Angel_of_Destruction">Angel of Destruction</a> is one of <a href="https://browndust2.miraheze.org/wiki/Teresse">Teresse's</a> costumes. Used as a Knockback unit and <span class="cross-link" onclick="searchFor('SP Battery')">SP Battery</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Anonymous Sage Nartas</h3>
@@ -216,7 +216,7 @@ comments: true
                 <span class="alias-tag">Drunk Diana</span>
                 <span class="alias-tag rare-tag">Dystopia Diana</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Diana/Anti-Dystopia">Anti-Dystopia</a> is one of <a href="https://browndust2.miraheze.org/wiki/Diana">Diana's</a> costumes. Used as defensive Support.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Diana/Anti-Dystopia">Anti-Dystopia</a> is one of <a href="https://browndust2.miraheze.org/wiki/Diana">Diana's</a> costumes. Used as a defensive Support.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Apostle Blade</h3>
@@ -240,7 +240,7 @@ comments: true
                 <span class="alias-tag rare">Apo Morpeah</span>
                 <span class="alias-tag rare">Apo Morph</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Morpeah/Apostle">Apostle</a> is one of <a href="https://browndust2.miraheze.org/wiki/Morpeah">Morpeah's</a> costumes. Used as Self-Support Costume and Concentrated Fire Support.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Morpeah/Apostle">Apostle</a> is one of <a href="https://browndust2.miraheze.org/wiki/Morpeah">Morpeah's</a> costumes. Used as a Self-Support Costume and Concentrated Fire Support.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Apostle Olivier</h3>
@@ -248,7 +248,7 @@ comments: true
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
                 <span class="alias-tag rare-tag">AP Olivier</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Olivier/Apostle">Apostle</a> is one of <a href="https://browndust2.miraheze.org/wiki/Olivier">Olivier's</a> costumes. Used as Self-Buffer and <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Costume.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Olivier/Apostle">Apostle</a> is one of <a href="https://browndust2.miraheze.org/wiki/Olivier">Olivier's</a> costumes. Used as a Self-Buffer and <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Costume.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Area of Effect</h3>
@@ -256,7 +256,7 @@ comments: true
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
                 <span class="alias-tag">AoE</span>
             </div>
-            <p>Area of Effect are the tiles on the Field that are affected by skill.</p>
+            <p>Area of Effect refers to the tiles on the Field that are affected by skill.</p>
             <p>Alternatively, this term can specifically refer to large tile count from skill.</p>
         </li>
         <li class="slang-item" data-keywords="">
@@ -265,7 +265,7 @@ comments: true
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
                 <span class="alias-tag">ATK</span>
             </div>
-            <p>Attack is one of in-game stats used mostly by units with Physical damage type to deal damage.</p>
+            <p>Attack is one of the in-game stats used mostly by units with Physical damage type to deal damage.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Augmentation</h3>
@@ -274,7 +274,7 @@ comments: true
                 <span class="alias-tag">Aug</span>
                 <span class="alias-tag">Amp</span>
             </div>
-            <p>Augmentation is a type of Buff that increases Damage of allies, usually with some condition for activation or value.</p>
+            <p>Augmentation is a type of Buff that increases the Damage of allies, usually with some condition for activation or value.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Awakening Elixir</h3>
@@ -311,7 +311,7 @@ comments: true
                 <span class="alias-tag">BHelena</span>
                 <span class="alias-tag">Bidol Helena</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Helena/B-Rank_Idol">B-Rank Idol</a> is one of <a href="https://browndust2.miraheze.org/wiki/Helena">Helena's</a> costumes. Used as core Magic Support.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Helena/B-Rank_Idol">B-Rank Idol</a> is one of <a href="https://browndust2.miraheze.org/wiki/Helena">Helena's</a> costumes. Used as a core Magic Support.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>B-Rank Idol Seir</h3>
@@ -340,7 +340,7 @@ comments: true
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
                 <span class="alias-tag">Normal Attack</span>
             </div>
-            <p>Basic Attack is one of the possible actions that a Character can perform during the Turn. It is a single-tile attack with no Skill Multiplier.</p>
+            <p>Basic Attack is one of the possible actions that a Character can perform during a Turn. It is a single-tile attack with no Skill Multiplier.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Basic Skill</h3>
@@ -396,7 +396,7 @@ comments: true
                 <span class="alias-tag rare-tag">BJ Mich</span>
                 <span class="alias-tag rare-tag">BJ Michaela</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Michaela/Beachside_Justice">Beachside Justice</a> is one of <a href="https://browndust2.miraheze.org/wiki/Michaela">Michaela's</a> costumes. Used as a <span class="cross-link" onclick="searchFor('DPS')">DPS</span> and Self-Buffer.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Michaela/Beachside_Justice">Beachside Justice</a> is one of <a href="https://browndust2.miraheze.org/wiki/Michaela">Michaela's</a> costumes. Used as a <span class="cross-link" onclick="searchFor('DPS')">DPS</span> and a Self-Buffer.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Beatrice</h3>
@@ -543,7 +543,7 @@ comments: true
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
             </div>
-            <p>A Chainer is a Character / Costume that has a high <span class="cross-link" onclick="searchFor('Chain')">Chain</span> or Hit count. (For an example, <a href="https://browndust2.miraheze.org/wiki/Wilhelmina">Wilhelmina</a>).</p>
+            <p>A Chainer is a Character / Costume that has a high <span class="cross-link" onclick="searchFor('Chain')">Chain</span> or Hit count. (For example, <a href="https://browndust2.miraheze.org/wiki/Wilhelmina">Wilhelmina</a>).</p>
         </li>
         <li class="slang-item" data-keywords="chains">
             <h3>Chains</h3>
@@ -955,7 +955,7 @@ comments: true
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
                 <span class="alias-tag">RGB</span>
             </div>
-            <p>Essences is a collective term for <a href="https://browndust2.miraheze.org/wiki/Essence_of_Perseverance">Essence of Perseverance</a>, <a href="https://browndust2.miraheze.org/wiki/Essence_of_Strength">Essence of Strength</a> and <a href="https://browndust2.miraheze.org/wiki/Essence_of_Life">Essence of Life</a>, used to Engrave a Character.</p>
+            <p>Essences are a collective term for <a href="https://browndust2.miraheze.org/wiki/Essence_of_Perseverance">Essence of Perseverance</a>, <a href="https://browndust2.miraheze.org/wiki/Essence_of_Strength">Essence of Strength</a> and <a href="https://browndust2.miraheze.org/wiki/Essence_of_Life">Essence of Life</a>, used to Engrave a Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Esteemed Adventurer Eris</h3>
@@ -973,7 +973,7 @@ comments: true
                 <span class="alias-tag content-tag ignore-exact">Content</span>
                 <span class="alias-tag rare-tag">Epack</span>
             </div>
-            <p>Event Packs are a specific pack type, set in an alternative universe separate from the main story.</p>
+            <p>Event Packs are a specific pack type, set in an alternate universe separate from the main story.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Evil Castle</h3>
@@ -1109,7 +1109,7 @@ comments: true
                 <span class="alias-tag">Ice Queen Wilh</span>
                 <span class="alias-tag">Ice Queen Wilhelmina</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Wilhelmina/Frozen_Queen">Frozen Queen</a> is one of <a href="https://browndust2.miraheze.org/wiki/Wilhelmina">Wilhelmina's</a> costumes. Used as a Chainer and Self-Buff Costume.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Wilhelmina/Frozen_Queen">Frozen Queen</a> is one of <a href="https://browndust2.miraheze.org/wiki/Wilhelmina">Wilhelmina's</a> costumes. Used as a Chainer and a Self-Buff Costume.</p>
         </li>
     </ul>
 </div>
@@ -1285,7 +1285,7 @@ comments: true
                 <span class="alias-tag rare-tag">HoT Lathel</span>
                 <span class="alias-tag rare-tag">HT Lathel</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Lathel/Herb_of_Tracker">Herb of Tracker</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a low Chainer and Sub <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Lathel/Herb_Tracker">Herb Tracker</a> is one of <a href="https://browndust2.miraheze.org/wiki/Lathel">Lathel's</a> costumes. Primarily used as a low Chainer and Sub <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>High Elf Archer</h3>
@@ -1510,7 +1510,7 @@ comments: true
                 <span class="alias-tag content-tag ignore-exact">Content</span>
                 <span class="alias-tag">LN</span>
             </div>
-            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/last-night">Last Night</a> is a Content Pack, focused focused on <span class="cross-link" onclick="searchFor('PvE')">PvE</span> battles with the help of the entire roster.</p>
+            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/last-night">Last Night</a> is a Content Pack, focused on <span class="cross-link" onclick="searchFor('PvE')">PvE</span> battles with the help of the entire roster.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Lecliss</h3>
@@ -1629,7 +1629,7 @@ comments: true
                 <span class="alias-tag">MI Diana</span>
                 <span class="alias-tag rare-tag">Innovator Diana</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Diana/Magical_Innovator">Magical Innovator</a> is one of <a href="https://browndust2.miraheze.org/wiki/Diana">Diana's</a> costumes. Used as Property Buffer.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Diana/Magical_Innovator">Magical Innovator</a> is one of <a href="https://browndust2.miraheze.org/wiki/Diana">Diana's</a> costumes. Used as a Property Buffer.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Maid Bikini Rubia</h3>
@@ -1759,7 +1759,7 @@ comments: true
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
                 <span class="alias-tag">MRES</span>
             </div>
-            <p>Magical Resistance is one of Character's stats that reduces incoming damage from Magical Characters.</p>
+            <p>Magical Resistance is one of a Character's stats that reduces incoming damage from Magical Characters.</p>
         </li>
     </ul>
 </div>
@@ -1830,7 +1830,7 @@ comments: true
                 <span class="alias-tag">NH Seir</span>
                 <span class="alias-tag">Office Seir</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Seir/New_Hire">New Hire</a> is one of <a href="https://browndust2.miraheze.org/wiki/Seir">Seir's</a> costumes. Used as Support.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Seir/New_Hire">New Hire</a> is one of <a href="https://browndust2.miraheze.org/wiki/Seir">Seir's</a> costumes. Used as a Support.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Night of Death Mamonir</h3>
@@ -2212,7 +2212,7 @@ comments: true
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
             </div>
-            <p>Pulls is a collective term for [Draw Tickets](https://browndust2.miraheze.org/wiki/Draw_Ticket) and [Dia](https://browndust2.miraheze.org/wiki/Dia), used to obtain Costumes from Draw System.</p>
+            <p>Pulls are a collective term for [Draw Tickets](https://browndust2.miraheze.org/wiki/Draw_Ticket) and [Dia](https://browndust2.miraheze.org/wiki/Dia), used to obtain Costumes from Draw System.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Pure White Blessing Refithea</h3>
@@ -2299,7 +2299,7 @@ comments: true
                 <span class="alias-tag">R. Contract</span>
                 <span class="alias-tag">Scroll</span>
             </div>
-            <p>Recruitment Contract is a collective term for ★3, ★4 and ★5 Contracts, used for recruiting Costumes from the Pub.</p>
+            <p>Recruitment Contracts are a collective term for ★3, ★4 and ★5 Contracts, used for recruiting Costumes from the Pub.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Red Riding Hood Rou</h3>
@@ -2550,7 +2550,7 @@ comments: true
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
             </div>
-            <p>Slime is a collective term for Red, Blue, and Yellow Slimes, which are used as EXP consumables to level up Characters.</p>
+            <p>Slimes are a collective term for Red, Blue, and Yellow Slimes, which are used as EXP consumables to level up Characters.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Snow White Ventana</h3>
@@ -2596,7 +2596,7 @@ comments: true
                 <span class="alias-tag">Battery</span>
                 <span class="alias-tag rare-tag">SP Gen</span>
             </div>
-            <p>SP Generator is a costume that recovers <span class="cross-link" onclick="searchFor('SP)">SP</span> to the team.</p>
+            <p>An SP Generator is a costume that recovers <span class="cross-link" onclick="searchFor('SP)">SP</span> to the team.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Spark of Rampage</h3>
@@ -2613,7 +2613,7 @@ comments: true
                 <span class="alias-tag">SREX</span>
                 <span class="alias-tag">SR EX</span>
             </div>
-            <p>SR [Exclusive Gear](../progression/gear.md#exclusive-gear) is a type of Gear that can be equipped equipped only by a specific Character.</p>
+            <p>SR [Exclusive Gear](../progression/gear.md#exclusive-gear) is a type of Gear that can be equipped only by a specific Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Staller</h3>
@@ -2628,7 +2628,7 @@ comments: true
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
                 <span class="alias-tag">Stars</span>
             </div>
-            <p>Stars is a collective term for the different tiers of Rank-Up Stars (ranging from ★1 to ★4) used to increase a character's maximum level cap.</p>
+            <p>Stars are a collective term for the different tiers of Rank-Up Stars (ranging from ★1 to ★4) used to increase a character's maximum level cap.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Starlight Guardian Tyr</h3>
@@ -2659,7 +2659,7 @@ comments: true
                 <span class="alias-tag">Ch</span>
                 <span class="alias-tag rare-tag">SP</span>
             </div>
-            <p>Story Packs are a specific pack type, set in an original universe of the main story.</p>
+            <p>Story Packs are a specific pack type, set in the original universe of the main story.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Stray Cat Rou</h3>
@@ -2849,7 +2849,7 @@ comments: true
                 <span class="alias-tag">SQ Sylvia</span>
                 <span class="alias-tag rare-tag">SQ Sylv</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Sylvia/The_Sword_Queen">The Sword Queen</a> is one of <a href="https://browndust2.miraheze.org/wiki/Sylvia">Sylvia's</a> costumes. Used as Self-Buffer and <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Sylvia/The_Sword_Queen">The Sword Queen</a> is one of <a href="https://browndust2.miraheze.org/wiki/Sylvia">Sylvia's</a> costumes. Used as a Self-Buffer and <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>The Void Granhildr</h3>
@@ -2878,7 +2878,7 @@ comments: true
                 <span class="alias-tag">Base Helena</span>
                 <span class="alias-tag rare-tag">TI Helena</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Helena/Top_Idol">Top Idol</a> is one of <a href="https://browndust2.miraheze.org/wiki/Helena">Helena's</a> costumes. Used as Support.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Helena/Top_Idol">Top Idol</a> is one of <a href="https://browndust2.miraheze.org/wiki/Helena">Helena's</a> costumes. Used as a Support.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Tower of Desire</h3>
@@ -2945,7 +2945,7 @@ comments: true
                 <span class="alias-tag">TnF Loen</span>
                 <span class="alias-tag">Sports Loen</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Loen/Track_and_Field_Team">Track and Field Team</a> is one of <a href="https://browndust2.miraheze.org/wiki/Loen">Loen's</a> costumes. Used as Self-Buff Costume and <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Loen/Track_and_Field_Team">Track and Field Team</a> is one of <a href="https://browndust2.miraheze.org/wiki/Loen">Loen's</a> costumes. Used as a Self-Buff Costume and <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Travel God's Friend</h3>
@@ -2985,7 +2985,7 @@ comments: true
                 <span class="alias-tag rare-tag">Signature Gear</span>
                 <span class="alias-tag rare-tag">Signa</span>
             </div>
-            <p>UR [Exclusive Gear](../progression/gear.md#exclusive-gear) is a type of Gear that can be equipped equipped only by a specific Character.</p>
+            <p>UR [Exclusive Gear](../progression/gear.md#exclusive-gear) is a type of Gear that can be equipped only by a specific Character.</p>
         </li>
     </ul>
 </div>
@@ -3036,7 +3036,7 @@ comments: true
                 <span class="alias-tag">School Kry</span>
                 <span class="alias-tag rare-tag">VS Kry</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Kry/Violent_Student">Violent Student</a> is one of <a href="https://browndust2.miraheze.org/wiki/Kry">Kry's</a> costumes. Used as Knockback Costume.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Kry/Violent_Student">Violent Student</a> is one of <a href="https://browndust2.miraheze.org/wiki/Kry">Kry's</a> costumes. Used as a Knockback Costume.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Venaka</h3>

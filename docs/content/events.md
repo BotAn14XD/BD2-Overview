@@ -32,7 +32,7 @@ The Event Menu typically consists of:
 
 ---
 
-## Story
+## Story (OUTDATED WITH 02.07.2026 UPDATE, WILL BE REWRITTEN SHORTY AFTER)
 
 The Story of the Season Event consists of Episodes, with each Episode giving a reward upon completion, consisting of $80-100$ {{Dia}} **Dias** and $650-750$ **Event Currency**.
 
@@ -116,7 +116,7 @@ Each day, you have **5 Attempts**. They are refreshed daily at {{ time('00:00') 
 
 If you are stuck at one particular battle or won them all, you can retry the completed battle to obtain **Repeat Reward**.
 
-**Repeat Reward** gives **Event Currency**, although in a smaller amount compared to **Clear Rewards**. Similar to Clear ones, Repeat Reward is also affected by Event Currency Boost Gain.
+The **Repeat Reward** gives **Event Currency**, although in a smaller amount compared to **Clear Rewards**. Similar to Clear ones, Repeat Reward is also affected by Event Currency Boost Gain.
 
 ### Quick Battle
 
@@ -142,11 +142,11 @@ With this one, you can quickly spend your Event AP in order to get **Repeat Rewa
 
 ## Fiend Hunter
 
-Fiend Hunter is the activity revolving around defeating a Boss, that is stronger with each level.
+Fiend Hunter is the activity revolving around defeating a Boss that gets stronger with each level.
 
 During the event, the first week is called the **Preparation Period**, during which you can only test your damage and teams without getting any rewards via **Practice Battles**.
  
-The second week is called the **Hunting Period**, and it is the time you get rewards for engaging with the boss. 
+The second week is called the **Hunting Period**, and it is the time you get rewards for engaging with the Boss.
 
 ??? image "Event Schedule"
     ![Event Schedule](../assets/images/season-event/schedule.avif)
@@ -175,12 +175,12 @@ Missions are also available through the Event tab on the Home Screen (Main Menu)
 
 ## Event Shop
 
-Event Shop is a place where you spend earned Event Currency.
+The Event Shop is a place where you spend earned Event Currency.
 
 !!! image "Event Shop"
     ![Event Shop](../assets/images/season-event/eshop.avif)
 
-Each shop lasts for **28 days** instead of the usual 14, allowing you to spend whatever currency you forgot to spend during the last event.
+Each shop lasts for **28 days** instead of the usual 14, allowing you to spend whatever currency you forgot to spend during the previous event.
 
 !!! abstract "Event Shop Priority Guide <span id='eshop'></span>" 
     1.&nbsp;{{Tear_of_Goddess}} **Tear of Goddess x1**{.yellow} — $1000$ **Event Currency**<br>
@@ -202,7 +202,7 @@ Each shop lasts for **28 days** instead of the usual 14, allowing you to spend w
     ---
 
     13.&nbsp;{{Gold}} **Gold x1M**{.yellow} — $2000$ **Event Currency**<br>
-    14.&nbsp;{{Ability_Pill}} **Ability Pill x15K**{.yellow} — $10000$ **Event Currency**<br>
+    14.&nbsp;{{Ability_Pill}} **Ability Pill x150K**{.yellow} — $10000$ **Event Currency**<br>
     15-16.&nbsp;*(Optional)* {{Red_Slime}} **Red Slime x250**{.yellow} — $1000$ **Event Currency**<br>
     15-16.&nbsp;*(Optional)* {{S4_Rank_up_Star}} **★4 Rank-up Star x8**{.yellow} — $800$ **Event Currency**<br>
 
@@ -219,7 +219,7 @@ Each shop lasts for **28 days** instead of the usual 14, allowing you to spend w
     Generally speaking, **no**. The only exception is when you cannot afford the **Highest priority** items on the last day. Otherwise it is considered a waste of {{Dia}} **Dias**.
 
 !!! abstract "Previous Event Shop"
-    As previously stated, Event Shops remain open longer than the duration of the Event itself. This is designed to allow players to make exchanges after the Event ended.
+    As previously stated, Event Shops remain open longer than the duration of the Event itself. This is designed to allow players to make exchanges after the Event has ended.
 
     To do this, swipe the current Event logo to the left (or to the right) and pick the old Shop.
 
