@@ -197,7 +197,7 @@ comments: true
         ![Newbie Brown Dust 2 Team](assets/images/faq/newbie_team_Kit.avif)
 
 ??? q-battle "How to defeat [Specific Boss]? {{ share_btn('boss') }}"
-    For Single Target Bosses, the easiest solution (in most cases) is a {{Physical}} **Physical**{.yellow} team with [Zenith](https://browndust2.miraheze.org/wiki/Zenith) and [Ventana](https://browndust2.miraheze.org/wiki/Ventana) as your main [DPS](misc/slang.md/?term=DPS), which you can [borrow](https://botan14xd.github.io/BD2-Overview/game-mechanics/battle-system/#__tabbed_2_1) from friends.
+    For Single Target Bosses, the easiest solution (in most cases) is a {{Physical}} **Physical**{.yellow} team with [Zenith](https://browndust2.miraheze.org/wiki/Zenith) and [Ventana](https://browndust2.miraheze.org/wiki/Ventana) as your main [DPS](misc/slang.md/?term=DPS), which you can [borrow](https://botan14xd.github.io/BD2-Overview/mechanics/battle/#__tabbed_2_1) from friends.
 
     ??? image "Example of Ventana Team"
         ![Ventana Team for Bosses](assets/images/faq/solo_boss_kit.avif)

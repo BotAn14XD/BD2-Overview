@@ -262,7 +262,7 @@ As its name might suggest, this type of gear **can only be equipped on a specifi
 * Despite also not having a Roman number, each Exclusive gear inherits the stats of the {{IV}} Tier of a given Grade. That means, {{UR_Grade}} {{EX}} scales the same way {{UR_Grade}} {{IV}} does.
     * In very simple words, **{{EX}} Gear is the equivalent of an {{IV}}, but with an extra stat on top.**
 * There are {{R_Grade}} {{EX}}, {{SR_Grade}} {{EX}} and {{UR_Grade}} {{EX}} Gears. {{R_Grade}} {{EX}} only exists for 3-4★ Characters, while the rest exist for any character.
-* **There is exactly one exclusive gear for each character.** It can be any piece of gear, although *in most cases* it is {{Weapon}} **Weapon** / {{Accessory}} **Accessory** for DPS characters.
+* **There is exactly one exclusive gear for each character.** It can be any piece of gear, although *in most cases* it is {{Weapon}} **Weapon** / {{Accessory}} **Accessory** for [DPS](../misc/slang.md/?term=DPS) characters.
 
 * **Basic Attribute 1** of the {{EX}} Gear is **swappable between two options** with no cost, while **Basic Attribute 2** is **rerollable**, similar to Options.
 
@@ -505,11 +505,11 @@ The whole crafting guide essentially comes down to your current needs. Here's an
             * If you utilize both damage types, it is better to ask for the help in [**Discord**](https://discord.gg/browndust2), since it's most likely not a good one. 
             
             <br>
-            When it comes down to the {{Weapon}} **Weapon**, it means crafting {{ gear("Evil Dragon's Blade", "III") }} for the {{Physical}} **Physical**{.yellow} DPS and {{ gear("Travel God's Friend", "III") }} for the {{Magical}} **Magical**{.magenta} one. 
+            When it comes down to the {{Weapon}} **Weapon**, it means crafting {{ gear("Evil Dragon's Blade", "III") }} for the {{Physical}} **Physical**{.yellow} DPS and {{ gear("Travel God's Friend", "III") }} for the {{Magical}} **Magical**{.magenta} one.
             
-            Other weapons are usually niche ones and are not necessary for a new player to worry about.  
-            <br>
-            The same applies to the {{Gloves}} **Gloves**, meaning {{ gear("God-King's Silver Arm", "III") }} / {{ gear("Prime Authority", "III") }} for the {{Physical}} **Physical**{.yellow} DPS and {{ gear("Dragon Scales Protection", "III") }} / {{ gear("Shackle of Treachery", "III") }} for the **Magical**{.magenta} one.
+            They are slightly better for early game but lose to {{ gear("Peerless Javelin") }} / {{ gear("Demon's Forbidden Book") }} or {{ gear("Hammer of Thunder") }} / {{ gear("Eye of the Destroyer") }} as the game goes on.
+
+            For {{Gloves}} **Gloves**, you should craft {{ gear("God-King's Silver Arm", "III") }} / {{ gear("Prime Authority", "III") }} for the {{Physical}} **Physical**{.yellow} DPS and {{ gear("Dragon Scales Protection", "III") }} / {{ gear("Shackle of Treachery", "III") }} for the **Magical**{.magenta} one.
 
             * {{ gear("God-King's Silver Arm") }} and {{ gear("Shackle of Treachery") }} are **generally better** for a **new player** and are still used for some DPS in late game, while {{ gear("Prime Authority") }} and {{ gear("Dragon Scales Protection") }} are used more in the **late game**, but could be **less powerful at the start**. 
             
@@ -554,28 +554,30 @@ For all of these types the build you want is different.
 <div class="tab-align" markdown>
 
 === "Standard DPS"
-    Standard characters rely on a mix of {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and {{CritDMG}} **Crit DMG** to deal DMG. 
+    Standard characters rely on a mix of {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and {{CritDMG}} **Crit DMG** to deal DMG. Since extra {{CritRate}} **Crit Rate**{.white} converts to {{CritDMG}} **Crit DMG**{.white}, builds are heavily decided by amount of {{CritRate}} **Crit Rate**{.white} buffers you have and extra {{CritRate}} **Crit Rate**{.white} value as a whole.
 
     This usually means builds like:
 
-    * {{ gear("Evil Dragon's Blade") }} $+$ {{ gear("Venomous Touch") }} $+$ {{ gear("Prime Authority") }} ;
-    * {{ gear("Travel God's Friend") }} $+$ {{ gear("Venomous Touch") }} $+$ {{ gear("Dragon Scales Protection") }};
-    * {{ gear("Evil Dragon's Blade") }} $+$ {{ gear("Venomous Touch") }} $+$ {{ gear("God-King's Silver Arm") }};
-    * {{ gear("Travel God's Friend") }} $+$ {{ gear("Venomous Touch") }} $+$ {{ gear("Shackle of Treachery") }}.
+    * {{Weapon}} **Weapon**{.yellow} $+$ {{ gear("Venomous Touch") }} $+$ {{ gear("Prime Authority") }} ;
+    * {{Weapon}} **Weapon**{.magenta} $+$ {{ gear("Venomous Touch") }} $+$ {{ gear("Dragon Scales Protection") }};
+    * {{Weapon}} **Weapon**{.yellow} $+$ {{ gear("Venomous Touch") }} $+$ {{ gear("God-King's Silver Arm") }};
+    * {{Weapon}} **Weapon**{.magenta} $+$ {{ gear("Venomous Touch") }} $+$ {{ gear("Shackle of Treachery") }}.
 
     {{UR_Grade}} **Exclusive Gear** can replace any gear piece in these builds, as was mentioned earlier. 
 
     !!! question "Stats Amount"
-        You should aim for 2000 {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and 600 {{CritDMG}} **Crit DMG** as a baseline for this type of DPS.  
+        Stats vastly depend on your progression and team composition. Note that these numbers are **NOT** the division line between good and bad DPS, and just imply rough numbers for your DPS to be *decent*.
 
-    Some DPS like Eclipse *might* use another {{Weapon}} Weapon to achieve the best damage, but, generally speaking, it only matters for minmaxing.<br>If you still want to craft the best gear ever possible, check [Gear Calculator](#gear-calculator) section. 
+        * Early game: $2200+$ {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and $550\%+$ {{CritDMG}} **Crit DMG**
+        * Late game: $3000+$ {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and $450\%+$ {{CritDMG}} **Crit DMG**
+
+    Weapons, as was stated earlier, are roughly equal in the gains, with {{ gear("Evil Dragon's Blade") }} and {{ gear("Travel God's Friend") }} being better with **low** excess {{CritRate}} **Crit Rate** and rest being better with the **big** excess {{ CritRate }} **Crit Rate**. 
     
     When it comes down to {{Armor}} **Armor**, and {{Helmet}} **Helmet**, there are a few combinations:
 
     * {{ gear("Invulnerable Armor") }} $+$ {{ gear("Helm of Carnage") }} if the enemy deals {{Physical}} **Physical**{.yellow} damage
     * {{ gear("Fiend Guard") }} $+$ {{ gear("Radiant Wisdom") }} if the enemy deals {{Magical}} **Magical**{.magenta} damage
-    * {{ gear("Immortal Golden Armor") }} $+$ {{ gear("Helm of Death") }} if the enemy deals {{Physical}} **<u>Fixed, True or Consumed</u> Physical**{.yellow} damage
-    * {{ gear("Hellfire Robe") }} $+$ {{ gear("Crown of Galaxy") }} if the enemy deals {{Magical}} **<u>Fixed, True or Consumed</u> Magical**{.magenta} damage
+    * {{ gear("Immortal Golden Armor") }} $+$ {{ gear("Helm of Death") }} or {{ gear("Hellfire Robe") }} $+$ {{ gear("Crown of Galaxy") }} if the enemy deals **<u>Fixed, True or Consumed</u>** **Physical**{.yellow} or **Magical**{.magenta} damage, with no difference as to which set to use.
     
 === "Fixed Damage DPS"
     Since Fixed Damage **cannot crit**, there is no reason to invest in {{CritDMG}} **Crit Damage**.
@@ -597,18 +599,15 @@ For all of these types the build you want is different.
 
     Therefore, builds are:
 
-    * {{ gear("Immortal Golden Armor") }} $+$  {{ gear("Helm of Death") }} $+$ {{ gear("Venomous Touch") }} if the enemy deals {{Physical}} **Physical**{.yellow} damage;
-    * {{ gear("Hellfire Robe") }} $+$ {{ gear("Crown of Galaxy") }} $+$ {{ gear("Venomous Touch") }} if the enemy deals {{Magical}} **Magical**{.magenta} damage.
+    * {{ gear("Immortal Golden Armor") }} $+$  {{ gear("Helm of Death") }} $+$ {{ gear("Charming Gaze") }} $+$ if the enemy deals {{Physical}} **Physical**{.yellow} damage;
+    * {{ gear("Hellfire Robe") }} $+$ {{ gear("Crown of Galaxy") }} $+$ {{ gear("Charming Gaze") }} if the enemy deals {{Magical}} **Magical**{.magenta} damage.
 
-    {{Weapon}} **Weapon** can be either {{ gear("Evil Dragon's Blade") }} or {{ gear("Travel God's Friend") }} regardless of damage type character deals, since its value is in the {{CritDMG}} **Crit DMG** only.
+    {{Weapon}} **Weapon** can be either {{ gear("Evil Dragon's Blade") }} or {{ gear("Travel God's Friend") }} regardless of damage type character deals, since its value is in the {{CritDMG}} **Crit DMG**{.white} only.
 
-    {{Gloves}} **Gloves** have no impact on the character aside from Options (Substats), so using any is fine. 
+    Similarly, {{Gloves}} **Glove** can be either {{ gear("Ring of Fury") }} and {{ gear("Rebellion") }}, because their value is in the {{CritRate}} **CritRate**{.white}. 
 
-    !!! question "Wouldn't {{ gear("Charming Gaze") }} be a better {{Accessory}} Accessory?"
-        {{ gear("Charming Gaze") }} indeed provides both {{HP}} **HP** and {{CritDMG}} **Crit DMG**, however, due to diminishing returns, impact on {{HP}} **HP** is usually less compared to {{CritDMG}} **Crit DMG**.
-        
-        That means unless you have some heavy bonuses to {{CritDMG}} **Crit DMG** *(for example, Night of Death Mamonir self-buff combined with Red Riding Hood Rou and The Gluttonous Refithea for tremendous $+725\%$ {{CritDMG}} **Crit DMG**)*, {{ gear("Venomous Touch") }} is simply better. 
-
+    !!! question "How does {{ gear("Venomous Touch") }} perform instead?"
+        {{ gear("Venomous Touch") }} loses to {{ gear("Charming Gaze") }} with extra {{CritRate}} **Crit Rate**{.white} conversion. Nonetheless, it still can provide comparable damage to {{ gear("Charming Gaze") }} but requires Substats (Options) switching.
 
 === "Enemy HP-reliant DPS"
     Since this type of DPS relies on the enemy, there's nothing else to raise except {{CritDMG}} **Crit DMG** to gain extra damage. 
@@ -620,7 +619,9 @@ For all of these types the build you want is different.
 
     There is no difference which {{Weapon}} **Weapon** out of the two listed above you use, since the characters do not scale from {{ATK}} **ATK**{.yellow} or {{MATK}} **MATK**{.magenta}.
 
-    {{Gloves}} **Gloves** have no impact on the character except Options (Substats), and neither do {{Armor}} **Armor** and {{Helmet}} **Helmet**. Follow advice from [Standard DPS](#__tabbed_1_1) tab regarding armor. 
+    {{Gloves}} **Glove** should be either {{ gear("Ring of Fury") }} and {{ gear("Rebellion") }} with no difference, which one to use.
+    
+    {{Armor}} **Armor** and {{Helmet}} **Helmet** have no impact on the build. Follow advice from [Standard DPS](#__tabbed_1_1) tab regarding them. 
 
 === "Stat-Dependent Supports"
 
@@ -643,26 +644,22 @@ For all of these types the build you want is different.
 
     Overall, their build is similar to [Standard DPS](#__tabbed_1_1), with sole exception that both offensive and defensive gear equipped can be worse compared to the rest of the team.
 
-!!! question "What about {{CritRate}} Crit Rate? Is it useless?"
-    In PvE, yes. There are plenty of supports making your crit rate high enough, and game modes like **Fiend Hunter** have easy conditions to achieve 100% Crit.
-
-    The only PvE usage for {{CritRate}} **Crit Rate** is Floors 41-50 of the ![Tower of Jealousy Icon](../assets/images/evil-castle/icon_devilcastle_4.avif){.icon} [**Tower of Jealousy**](../content-packs/evil-castle.md#tower-of-jealousy) and the ![Tower Of Wrath Icon](../assets/images/evil-castle/icon_devilcastle_3.avif "Tower of Wrath"){.icon} [**Tower of Wrath**](../content-packs/evil-castle.md#tower-of-wrath).
-
 !!! question "What about Substats (Options)? Which do I want?"
     Generally speaking, it, again, depends on the type of character you're building.
 
-    * **Standard DPS** benefit from {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and {{CritDMG}} **Crit DMG** split;
+    * **Standard DPS** benefit mostly from {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}, and {{CritDMG}} **Crit DMG**{.white} or {{CritRate}} **Crit Rate**{.white} as additional substats to balance out ratios;
     * **Fixed Damage DPS** solely benefit from {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta};
-    * **HP-reliant DPS** rely on {{HP}} **HP** and {{CritDMG}} **Crit DMG**;
-    * **Enemy HP-reliant DPS** want only {{CritDMG}} **Crit DMG**;
+    * **HP-reliant DPS** rely on mostly {{HP}} **HP** and {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} as secondary option;
+    * **Enemy HP-reliant DPS** want only {{CritDMG}} **Crit DMG** or {{CritRate}} **Crit Rate**{.white};
     * **Stat-Dependent Supports** want corresponding stat;
     * **Other Supports** are fine with whatever.
 
     As for the split (ratio) of said Options, it's better to use [Gear Calculator](#gear-calculator) **if you want the precise answer**.
-    
-    If you, however, are fine with rough advice, setting up {{CritDMG}} **Crit DMG** on pieces that are swappable between DPS (mostly {{Armor}} **Armor**, {{Helmet}} **Helmet** and specifically {{ gear("Venomous Touch") }}) and filling the remaining Options with another stat isn't a bad choice.
 
-    Alternatively, use [Character Builds](https://dotgg.gg/brown-dust-2/characters/) made <u>**only**</u> by **IceKane**.
+    **For the {{Armor}} Armor**, you want to have two different types of sets: one that is stacked with {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and another one with all {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} substats. This way, you are benefitting way more from {{Physical}} **Physical** DPS wearing {{ gear("Invulnerable Armor") }} and {{ gear("Helm of Carnage") }} but also giving some benefit for **Magical**{.magenta} DPS otherwise.
+    
+    As a rough advice, getting {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} on {{Weapon}} **Weapon** and {{Gloves}} **Glove** is a go-to (for Standard DPS), and rest filling with either additional {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} or {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} isn't a bad choice.
+
 </div>
 ## Gear Calculator 
 To use the Gear Calculator, use [Souseha's Database](https://browndust2-wiki.souseha.com/en/option-calculator).
@@ -712,6 +709,6 @@ It is worth mentioning that **Damage** isn't the actual Damage you will deal in-
 * [Gear — Brown Dust 2 Wiki](https://browndust2.miraheze.org/wiki/Gear)
 * [Powder Calculator — Brown Dust 2 Database by <u>souseha</u>](https://browndust2-wiki.souseha.com/en/powder-calculator)
 * [Character Builds — dotgg.gg](https://dotgg.gg/brown-dust-2/characters/)
-* [Alternative Gear Calculator by <u>Kane</u>](https://docs.google.com/spreadsheets/d/1-NAV4NWIWbzjgljz04iG1i8AETjU_S9YPm4QzJ_NRCY/edit?usp=sharing) *(no longer maintained)*
+* [Alternative Gear Calculator by <u>Kane</u>](https://docs.google.com/spreadsheets/d/1-NAV4NWIWbzjgljz04iG1i8AETjU_S9YPm4QzJ_NRCY/edit?usp=sharing) *(no longer maintained, outdated after 02.07.2026 update)*
 * [BD2 - The Tourist's Sheet](https://docs.google.com/spreadsheets/d/1E8eaUt-rgjAdunxYQPMDgqdI3-vE1S3MGfg0e_uNFc0/edit?usp=sharing) *(no longer maintained)*
 * [Official Brown Dust II Discord](https://discord.gg/browndust2)

@@ -787,6 +787,14 @@ li.md-nav__item:has(a[href$="#"]) {
     flex-direction: column;
 }
 
+.custom-nav-card-1 {
+    border: 1px solid #2a2d32;
+    border-radius: 8px;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+}
+
 .card-image-wrapper {
     width: 100%;
     height: 100%;
@@ -941,7 +949,7 @@ li.md-nav__item:has(a[href$="#"]) {
 }
 
 .gear-name.neutral {
-    color: #9ca3af;
+    color: #ffffff;
 }
 
 .gear-tooltip-box.flipped-down {

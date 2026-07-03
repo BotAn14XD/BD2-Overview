@@ -639,8 +639,7 @@ def define_env(env):
         tooltip_html += f'<span class="header-title {item["type"]}">{name} {tier}</span>'
         tooltip_html += f'</span>'
         tooltip_html += '<span class="tooltip-divider-line"></span>'
-        
-        # 2. Build Stats Lines
+    
         for line in item["stats"]:
 
             text_with_icons = format_stat_line(line["text"], prefix)
@@ -1479,10 +1478,8 @@ def define_env(env):
             joined_mats = "".join(mat_html_parts)
             tooltip_html += f'<span class="tooltip-line gray bold cost-flex-line"><span class="cost-label">Cost:</span> <span class="cost-items-wrap">{joined_mats}</span></span>'
             
-        # Close the tooltip container
         tooltip_html += f'</span>'
 
-        # Return the final stitched HTML
         return (
             f'<span class="territory-grid-tile gear-tooltip-wrapper">'
             f'<img src="{prefix}{icon}" class="tile-image" alt="{name}">'

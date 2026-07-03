@@ -539,6 +539,103 @@ There are a total of 3 stats: **Logging Skill**, **Mining Skill** and **Farming 
     * **Damage** for **Logging** and **Mining** is calculated as $\frac{1}{3.8} \times \text{Skill Value}$.
         * This means if you have $145$ **Mining & Logging** Skills, you can instantly chop any tree or mine any ore cluster.
 
+<div class="custom-nav-card-1" style="padding: 20px; max-width: 100%; margin: 20px auto;">
+    <h3 class="letter-heading" style="margin-top: 0; text-align: center;">Gathering Breakpoint Calculator</h3>
+    
+    <div style="display: flex; gap: 15px; margin-bottom: 15px;">
+        <label class="white bold" style="flex: 1;">
+            Logging Skill:<br>
+            <input type="number" id="calc-log-skill" value="40" min="4" max="300" class="slang-search-box" style="margin-top: 8px; margin-bottom: 0;">
+        </label>
+        
+        <label class="white bold" style="flex: 1;">
+            Mining Skill:<br>
+            <input type="number" id="calc-mine-skill" value="40" min="4" max="300" class="slang-search-box" style="margin-top: 8px; margin-bottom: 0;">
+        </label>
+    </div>
+
+    <label class="white bold">
+        Select the Target:<br>
+        <select id="calc-target" class="slang-search-box" style="margin-top: 8px; margin-bottom: 0; cursor: pointer;">
+            <option value="small_tree">Small Tree</option>
+            <option value="medium_tree">Medium Tree</option>
+            <option value="large_tree">Large Tree</option>
+            <option value="rock">Rock Cluster</option>
+            <option value="copper_ore">Copper Ore Cluster</option>
+            <option value="iron_ore">Iron Ore Cluster</option>
+            <option value="silver_ore">Silver Ore Cluster</option>
+            <option value="gold_ore">Gold Ore Cluster</option>
+        </select>
+    </label>
+
+    <span class="tooltip-divider-line"></span>
+
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+        <span class="tooltip-line gray bold">
+            Relevant Skill Used: <strong class="white stat-num" id="calc-active-skill">0</strong>
+        </span>
+        <span class="tooltip-line gray bold">
+            Damage Per Hit: <strong class="yellow stat-num" id="calc-dmg">0.00</strong>
+        </span>
+        <span class="tooltip-line gray bold">
+            Hits to Clear: <strong class="magenta stat-num" id="calc-hits" style="font-size: 1.2em;">0</strong>
+        </span>
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const logInput = document.getElementById('calc-log-skill');
+    const mineInput = document.getElementById('calc-mine-skill');
+    const targetSelect = document.getElementById('calc-target');
+    
+    const activeSkillOut = document.getElementById('calc-active-skill');
+    const dmgOut = document.getElementById('calc-dmg');
+    const hitsOut = document.getElementById('calc-hits');
+    
+    const NODE_DATABASE = {
+        "small_tree": { type: "logging", hp: 20.00 },
+        "medium_tree": { type: "logging", hp: 29.00 },
+        "large_tree": { type: "logging", hp: 38.00 }, 
+        "rock": { type: "mining",  hp: 20.00 },
+        "copper_ore": { type: "mining",  hp: 30.00 },
+        "iron_ore":   { type: "mining",  hp: 25.00 },
+        "silver_ore":   { type: "mining",  hp: 34.00 },
+        "gold_ore":   { type: "mining",  hp: 38.00 } 
+    };
+
+    function updateCalc() {
+        const targetKey = targetSelect.value;
+        const nodeData = NODE_DATABASE[targetKey];
+        
+        let activeSkill = 0;
+        if (nodeData.type === "logging") {
+            activeSkill = parseInt(logInput.value) || 0;
+        } else if (nodeData.type === "mining") {
+            activeSkill = parseInt(mineInput.value) || 0;
+        }
+        
+        activeSkillOut.textContent = `${activeSkill} (${nodeData.type.charAt(0).toUpperCase() + nodeData.type.slice(1)})`;
+        
+        let dmg = activeSkill / 3.8; 
+        dmgOut.textContent = dmg.toFixed(2);
+        
+        if (dmg > 0) {
+            let hits = Math.ceil(nodeData.hp / dmg);
+            hitsOut.textContent = hits;
+        } else {
+            hitsOut.textContent = "∞";
+        }
+    }
+
+    logInput.addEventListener('input', updateCalc);
+    mineInput.addEventListener('input', updateCalc);
+    targetSelect.addEventListener('change', updateCalc);
+    
+    updateCalc();
+});
+</script>
+
 ### Other Bonuses
 
 * **Lumber Bonus**: Increases obtained wood count from logging by 1 per bonus active.
