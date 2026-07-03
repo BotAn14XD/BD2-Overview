@@ -1,7 +1,9 @@
 ---
+
+description: A technical guide to the Brown Dust 2 Territory management mode. Includes detailed information on resource generation, skill scaling formulas, building priorities, and optimization strategies for cooking and recruitment.
 comments: true
 image: assets/images/site-assets/territory-banner.png
-description: A technical guide to the Brown Dust 2 Territory management mode. Includes detailed information on resource generation, skill scaling formulas, building priorities, and optimization strategies for cooking and recruitment.
+
 ---
 ![Territory](../assets/images/site-assets/index-pc-nav-20.avif){: .card-header-img }
 
