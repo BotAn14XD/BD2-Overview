@@ -113,8 +113,16 @@ This site is a work in progress, focusing on high-quality explanations for every
     ---
 
     [View Page →](./content-packs/mirror-wars.md){: .md-button }
- 
 </div>
+<div class="grid cards center-content" markdown>
+-   ![The Soul Wager](assets/images/site-assets/index-pc-nav-21.avif){: .card-header-img }
+
+    ---
+
+    [View Page →](./content-packs/soul-wager.md){: .md-button }
+</div>
+
+
 
 ---
 

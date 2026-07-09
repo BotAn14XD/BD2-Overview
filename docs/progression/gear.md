@@ -604,7 +604,7 @@ For all of these types the build you want is different.
 
     {{Weapon}} **Weapon** can be either {{ gear("Evil Dragon's Blade") }} or {{ gear("Travel God's Friend") }} regardless of damage type character deals, since its value is in the {{CritDMG}} **Crit DMG**{.white} only.
 
-    Similarly, {{Gloves}} **Glove** can be either {{ gear("Ring of Fury") }} and {{ gear("Rebellion") }}, because their value is in the {{CritRate}} **CritRate**{.white}. 
+    Similarly, {{Gloves}} **Glove** can be either {{ gear("Ring of Fury") }} and {{ gear("Rebellion") }}, because their value is in the {{CritRate}} **Crit Rate**{.white}. 
 
     !!! question "How does {{ gear("Venomous Touch") }} perform instead?"
         {{ gear("Venomous Touch") }} loses to {{ gear("Charming Gaze") }} with extra {{CritRate}} **Crit Rate**{.white} conversion. Nonetheless, it still can provide comparable damage to {{ gear("Charming Gaze") }} but requires Substats (Options) switching.

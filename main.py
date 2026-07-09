@@ -1,3 +1,7 @@
+from ast import For
+import json
+import re
+
 def define_env(env):
 
     prefix = "/BD2-Overview/"
@@ -197,6 +201,8 @@ def define_env(env):
         "B": ["assets/images/gear-system/icons/B_score.avif", "B Gear Score"],
         "C": ["assets/images/gear-system/icons/C_score.avif", "C Gear Score"],
 
+        # TERRITORY 
+
         "Virile_Gnocchi": ["assets/images/territory/icons/icon_life_item_dish_003.avif", "Virile Gnocchi"],
         "Bulbous_Crepe": ["assets/images/territory/icons/icon_life_item_dish_013.avif", "Bulbous Crepe"],
         "Creamy_Congee": ["assets/images/territory/icons/icon_life_item_dish_004.avif", "Creamy Congee"],
@@ -211,6 +217,19 @@ def define_env(env):
         "Lustful_Tart": ["assets/images/territory/icons/icon_life_item_dish_011.avif", "Lustful Tart"],
         "Libido_Soup": ["assets/images/territory/icons/icon_life_item_dish_007.avif", "Libido Soup"],
 
+        # THE SOUL WAGER
+
+        "Soul_Token": ["assets/images/soul-wager/icons/icon_resource90087_395.avif", "Soul Token"],
+        "Life_Count": ["assets/images/soul-wager/icons/icon_life_count.avif", "Life Count"],
+        "Alea_Chip": ["assets/images/soul-wager/icons/icon_resource90088_396.avif", "Alea Chip"],
+        "Close_Range_Attack": ["assets/images/soul-wager/icons/icon_tag_012.avif","Close-Range Attack"],
+        "Defending": ["assets/images/soul-wager/icons/icon_tag_022.avif","Defending"],
+        "Support": ["assets/images/soul-wager/icons/icon_tag_015.avif","Support"],
+        "Heal": ["assets/images/soul-wager/icons/icon_tag_016.avif","Heal"],
+        "Curse": ["assets/images/soul-wager/icons/icon_tag_017.avif","Curse"],
+        "Long_Range_Attack": ["assets/images/soul-wager/icons/icon_tag_019.avif","Long-Range Attack"],
+        "Cleanse": ["assets/images/soul-wager/icons/icon_tag_020.avif","Cleanse"],
+        "Remove": ["assets/images/soul-wager/icons/icon_tag_021.avif","Remove"],
     }
 
     GEAR_DB = {
@@ -617,6 +636,7 @@ def define_env(env):
     }
     }
 
+
     def format_stat_line(text, prefix):
         text = text.replace("{{ATK}}", f'<img src="{prefix}assets/images/gear-system/icons/icon_stats_physical_l.avif" class="icon" alt="ATK">')
         text = text.replace("{{MATK}}", f'<img src="{prefix}assets/images/gear-system/icons/icon_stats_magical_l.avif" class="icon" alt="MATK">')
@@ -666,7 +686,11 @@ def define_env(env):
         
         env.macros[key] = html_payload
 
+
+    # -----------------------------------------------------------------------------------------------------#
+
     # TERRITORY STUFF 
+
     MATERIALS_DB = {
     "Rock": "assets/images/territory/icons/icon_life_item_consumption_001.avif",
     "Copper Ore": "assets/images/territory/icons/icon_life_item_consumption_002.avif",
@@ -1486,3 +1510,4 @@ def define_env(env):
             f'{tooltip_html}'
             f'</span>'
         )
+    
