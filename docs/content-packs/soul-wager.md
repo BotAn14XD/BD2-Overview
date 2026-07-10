@@ -9,7 +9,7 @@ image: assets/images/site-assets/the-soul-wager-banner.png
 
 #
 
-**The Soul Wager** is an Auto Battler Inventory Management Content Pack. In it, your goal is to clear set amount of **Boards** that consist of stages, in given amount of attempts.
+**The Soul Wager** is an Auto Battler Inventory Management Content Pack. In it, your goal is to clear a set amount of **Boards** that consist of stages, in a given amount of attempts.
 
 !!! image "The Soul Wager Screen"
     ![The Soul Wager Screen](../assets/images/soul-wager/soul-wager-menu.avif)
