@@ -48,6 +48,7 @@ nav:
         - 'Game Slang': misc/slang.md
     - 'Common Questions': FAQ.md
     - '---': '#'
+    - 'Survey': survey.md
     - 'Banner Recommendations': https://zormolo.github.io/BD2-Banner-Recommendation/
     - 'Our Discord Server': https://discord.gg/tays83ew3N
 repo_name: BotAn14XD/BD2-Overview

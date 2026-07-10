@@ -1206,3 +1206,27 @@ li.md-nav__item:has(a[href$="#"]) {
 #submit-btn:hover {
     background-color: #ca8a04;
 }
+
+#status-message {
+    margin-top: 16px;
+    padding: 12px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.95em;
+    transition: all 0.2s ease;
+}
+
+#status-message:empty {
+    display: none;
+}
+
+.status-success {
+    background-color: rgba(74, 222, 128, 0.1);
+    border: 1px solid #4ade80;
+}
+
+.status-error {
+    background-color: rgba(248, 113, 113, 0.1);
+    border: 1px solid #f87171;
+}
