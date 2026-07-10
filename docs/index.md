@@ -144,6 +144,15 @@ This site is a work in progress, focusing on high-quality explanations for every
 </div>
 
 <div class="grid cards center-content" markdown>
+-   ![Survey](assets/images/site-assets/index-pc-nav-22.avif){: .card-header-img }
+
+    ---
+
+    [Complete a Survey →](./survey.md){: .md-button }
+
+</div>
+
+<div class="grid cards center-content" markdown>
 -   ![Banner Recommendations](assets/images/site-assets/index-pc-nav-13.avif){: .card-header-img }
 
     ---
