@@ -649,6 +649,10 @@ There a total of $\bf{8}$ Tags:
 !!! image "Unit Description Explanation"
     ![Unit Description Explanation](../assets/images/soul-wager/codex_explanation.avif)
 
+### Gear
+
+Gear is equipable on Units that have **Gear Slots**.
+
 ## Shop
 
 The Shop provides resources such as {{Refining_Powder}} **Refining Powder**, {{Tear_of_Goddess}} **Tear of Goddess**, {{Gold}} **Gold**, {{S5_R_Contract}} **Scrolls** and {{Light_Magic_Crystal}} **Magic Crystals**.
