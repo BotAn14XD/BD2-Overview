@@ -14,11 +14,11 @@
 {% endblock %}
 
 {% block announce %}
-<div id="discord-announce-bar" class="discord-announce-bar" style="display: none;">
+<div id="survey-announce-bar" class="survey-announce-bar" style="display: none;">
     <div class="announce-content">
-        <span>Found a typo or have a suggestion? Or want to help with making the website? Join our <a href="https://discord.gg/tays83ew3N" target="_blank">Discord Server</a>.</span>
+        <span>Help us improve Compendium! Take a brief moment to share your thoughts in our <a href="{{ base_url }}/survey/" target="_blank">Feedback Survey</a>.</span>
     </div>
-    <button class="announce-close" onclick="closeAnnounceBar()" aria-label="Close Announcement">
+    <button class="announce-close" onclick="closeSurveyBar()" aria-label="Close Announcement">
         &times;
     </button>
 </div>

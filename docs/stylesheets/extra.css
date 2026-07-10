@@ -615,7 +615,7 @@ li.md-nav__item:has(a[href$="#"]) {
 
 /* DISCORD POP-UP STYLING */
 
-.discord-announce-bar {
+.survey-announce-bar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -628,13 +628,13 @@ li.md-nav__item:has(a[href$="#"]) {
     padding: 4px 40px;
 }
 
-.discord-announce-bar a {
+.survey-announce-bar a {
     color: white;
     font-weight: bold;
     text-decoration: underline;
 }
 
-.discord-announce-bar a:hover {
+.survey-announce-bar a:hover {
     color: #679ee5;
 }
 

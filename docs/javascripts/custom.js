@@ -1,7 +1,7 @@
-function manageDiscordBanner() {
-    if (localStorage.getItem("discordBannerClosed") !== "true") {
+function manageSurveyBanner() {
+    if (localStorage.getItem("surveyBannerClosed") !== "true") {
         let bannerWrapper = document.querySelector(".md-banner");
-        let innerBar = document.getElementById("discord-announce-bar");
+        let innerBar = document.getElementById("survey-announce-bar");
         
         if (bannerWrapper) bannerWrapper.style.display = "block";
         if (innerBar) innerBar.style.display = "flex";
@@ -9,18 +9,18 @@ function manageDiscordBanner() {
 }
 
 if (typeof document$ !== "undefined") {
-    document$.subscribe(manageDiscordBanner);
+    document$.subscribe(manageSurveyBanner);
 } else {
-    document.addEventListener("DOMContentLoaded", manageDiscordBanner);
+    document.addEventListener("DOMContentLoaded", manageSurveyBanner);
 }
 
-function closeAnnounceBar() {
+function closeSurveyBar() {
     let bannerWrapper = document.querySelector(".md-banner");
 
     if (bannerWrapper) {
         bannerWrapper.style.display = "none";
     }
-    localStorage.setItem("discordBannerClosed", "true");
+    localStorage.setItem("surveyBannerClosed", "true");
 }
 
 document.addEventListener("DOMContentLoaded", function () {
