@@ -807,4 +807,4 @@ You get enough {{Alea_Chip}} **Alea Chips** to buy everything from the shop if y
 ## Related Links
 
 * [Soul Wager | <u>Seji</u> | YouTube](https://www.youtube.com/playlist?list=PLMEahgjxdooQ)
-* [Soul Wager Guide | <u>ButtonBash Gaming</u> & <u>Haradeas</u>](https://www.youtube.com/watch?v=ByritmdGLTw)
+* [Soul Wager Guide | <u>ButtonBash Gaming</u> & <u>Haradeas</u> | YouTube](https://www.youtube.com/watch?v=ByritmdGLTw)
