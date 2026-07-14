@@ -782,6 +782,8 @@ Other good support units for this strategy are **Blade - Apostle**, **Arines - P
 
     ![Typical Ingrid Cheese](../assets/images/soul-wager/ingrid-cheese.avif)
 
+There are other possible ways to complete the Soul Wager, but these options are harder to execute, compared to the one described above.
+
 ---
 
 ## Shop
@@ -805,3 +807,4 @@ You get enough {{Alea_Chip}} **Alea Chips** to buy everything from the shop if y
 ## Related Links
 
 * [Soul Wager | <u>Seji</u> | YouTube](https://www.youtube.com/playlist?list=PLMEahgjxdooQ)
+* [Soul Wager Guide | <u>ButtonBash Gaming</u> & <u>Haradeas</u> | YouTube](https://www.youtube.com/watch?v=ByritmdGLTw)
