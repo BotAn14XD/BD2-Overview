@@ -222,6 +222,8 @@ def define_env(env):
         "Soul_Token": ["assets/images/soul-wager/icons/icon_resource90087_395.avif", "Soul Token"],
         "Life_Count": ["assets/images/soul-wager/icons/icon_life_count.avif", "Life Count"],
         "Alea_Chip": ["assets/images/soul-wager/icons/icon_resource90088_396.avif", "Alea Chip"],
+
+        "Cross": ["assets/images/soul-wager/icons/slot_icon_s_2.avif",""],
         "Close_Range_Attack": ["assets/images/soul-wager/icons/icon_tag_012.avif","Close-Range Attack"],
         "Defending": ["assets/images/soul-wager/icons/icon_tag_022.avif","Defending"],
         "Support": ["assets/images/soul-wager/icons/icon_tag_015.avif","Support"],
@@ -230,6 +232,30 @@ def define_env(env):
         "Long_Range_Attack": ["assets/images/soul-wager/icons/icon_tag_019.avif","Long-Range Attack"],
         "Cleanse": ["assets/images/soul-wager/icons/icon_tag_020.avif","Cleanse"],
         "Remove": ["assets/images/soul-wager/icons/icon_tag_021.avif","Remove"],
+
+        "Regeneration": ["assets/images/soul-wager/icons/icon_tag_001.avif","Regeneration"],
+        "Overheat": ["assets/images/soul-wager/icons/icon_tag_002.avif","Overheat"],
+        "Lifesteal": ["assets/images/soul-wager/icons/icon_tag_003.avif","Lifesteal"],
+        "Focus": ["assets/images/soul-wager/icons/icon_tag_004.avif","Focus"],
+        "SP": ["assets/images/soul-wager/icons/icon_tag_005.avif","SP"],
+        "Strength": ["assets/images/soul-wager/icons/icon_tag_006.avif","Strength"],
+        "Counter": ["assets/images/soul-wager/icons/icon_tag_007.avif","Counter"],
+        "Poison": ["assets/images/soul-wager/icons/icon_tag_008.avif","Poison"],
+        "Frost": ["assets/images/soul-wager/icons/icon_tag_009.avif","Frost"],
+        "Darkness": ["assets/images/soul-wager/icons/icon_tag_010.avif","Darkness"],
+        "Laceration": ["assets/images/soul-wager/icons/icon_tag_011.avif","Laceration"],
+
+        "Regeneration2": ["assets/images/soul-wager/icons/icon_buff_011.avif","Regeneration"],
+        "Overheat2": ["assets/images/soul-wager/icons/icon_buff_012.avif","Overheat"],
+        "Lifesteal2": ["assets/images/soul-wager/icons/icon_buff_013.avif","Lifesteal"],
+        "Focus2": ["assets/images/soul-wager/icons/icon_buff_014.avif","Focus"],
+        "SP2": ["assets/images/soul-wager/icons/icon_buff_015.avif","SP"],
+        "Strength2": ["assets/images/soul-wager/icons/icon_buff_016.avif","Strength"],
+        "Counter2": ["assets/images/soul-wager/icons/icon_buff_017.avif","Counter"],
+        "Poison2": ["assets/images/soul-wager/icons/icon_buff_018.avif","Poison"],
+        "Frost2": ["assets/images/soul-wager/icons/icon_buff_019.avif","Frost"],
+        "Darkness2": ["assets/images/soul-wager/icons/icon_buff_020.avif","Darkness"],
+        "Laceration2": ["assets/images/soul-wager/icons/icon_buff_021.avif","Laceration"],
     }
 
     GEAR_DB = {
