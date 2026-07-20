@@ -1,6 +1,6 @@
 ---
 
-description:
+description: A comprehensive strategic guide to The Soul Wager in Brown Dust II. Learn field grid placement, Battle Shop logic and cheese strategies to easily clear all seasonal boards.
 comments: true
 image: assets/images/site-assets/the-soul-wager-banner.png
 
