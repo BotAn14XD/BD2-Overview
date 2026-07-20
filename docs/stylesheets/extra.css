@@ -1230,3 +1230,8 @@ li.md-nav__item:has(a[href$="#"]) {
     background-color: rgba(248, 113, 113, 0.1);
     border: 1px solid #f87171;
 }
+
+.md-typeset .no-bullets ul li {
+    list-style-type: none !important;
+    margin-left: 0 !important;
+}

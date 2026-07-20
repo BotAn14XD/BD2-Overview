@@ -159,6 +159,7 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
 
 === "Low Priority"
     * **Fire Graffiti Anastasia** **Bursts 1-2**{.yellow}
+    * **Tricky Lover Dalvi** **Bursts 1-3**{.yellow}
     * **Prophetic Dream Darian** **Bursts 1-3**{.yellow}
     * **Beach Vacation Eclipse** **Bursts 1-2**{.yellow}
     * **Code Name O Elise** **Bursts 1-3**{.yellow}
@@ -169,6 +170,7 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Beachside Justice Michaela** **Bursts 1-2**{.yellow}
     * **New Hire Nebris** **Burst 1**{.yellow}
     * **Magical Violet Palette** **Bursts 2-3**{.yellow}
+    * **Steel Engine Rafina** **Bursts 1,3**{.yellow}
     * **Thorn of the Desert Rubia** **Bursts 1-3**{.yellow}
     * **Reclaimed Destiny Sacred Justia** **Bursts 1-3**{.yellow}
     * **Pool Party Scheherazade** **Burst 3**{.yellow}
@@ -181,6 +183,7 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Pool Party Justia** **Bursts 1-3**{.yellow}
     * **Deadeye Nekyndalia** **Bursts 2-3**{.yellow}
     * **Magical Violet Palette** **Burst 1**{.yellow}
+    * **Steel Engine Rafina** **Burst 2**{.yellow}
     * **Pool Party Scheherazade** **Bursts 1-2**{.yellow}
     * **The Lapis Witch Scheherazade** **Bursts 1-3**{.yellow}
 
