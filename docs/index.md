@@ -93,6 +93,12 @@ This site is a work in progress, focusing on high-quality explanations for every
     ---
 
     [View Page →](./content/territory.md){: .md-button }
+
+-   ![Rapport](assets/images/site-assets/index-pc-nav-23.avif){: .card-header-img }
+
+    ---
+
+    [View Page →](./content/rapport.md){: .md-button }
 </div>
 
 ---

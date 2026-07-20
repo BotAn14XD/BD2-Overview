@@ -24,7 +24,7 @@ image: assets/images/site-assets/the-soul-wager-banner.png
 
 ### Overview
 
-The Soul Wager is **seasonal** content, with each season lasting $\bf{8}$ weeks. During the season, you have unlimited attempts to clear all **Boards**, each containing a fixed number of **Phases** (battles). To complete the Board, you must complete all Phases.
+The Soul Wager is **seasonal** content, with each season lasting $\bf{8}$ weeks. During the season, you have unlimited attempts to clear all **Boards**, with each containing a fixed number of **Phases** (battles). To complete the Board, you must complete all Phases.
 
 To do that, you must purchase **Tiles**, **Units** and **Gear** from the **Soul Wager in-battle Shop**, place them on the **Main Field**, and start the **automated** battle.
 
@@ -44,7 +44,7 @@ The Phase Formation screen consists of three sections: **Storage**, **Main Field
 
 ### Main Field
 
-Main Field is a $7 \times 7$ field where you place your **Tiles**, **Units** and **Gear**.
+The Main Field is a $7 \times 7$ field where you place your **Tiles**, **Units**, and **Gear**.
 
 Each tile varies in size, ranging from $1 \times 1$ ($1$ square) to $2 \times 2$ or $1 \times 4$ ($4$ squares).
 
@@ -53,7 +53,7 @@ Units are placed on top of these tiles. Each unit has a unique footprint, varyin
 !!! example "Rotation"
     You can **rotate** your Tiles and Units.
 
-    * **PC**: Hold **LMB** and click **RMB** to rotate clock-wise by $90\degree$.
+    * **PC**: Hold **LMB** and click **RMB** to rotate clockwise by $90\degree$.
     * **Phone / Tablet:** Tap and hold with one finger, then tap with another to rotate clockwise by $90\degree$.
 
 ??? image "Main Field Grid"
@@ -61,12 +61,12 @@ Units are placed on top of these tiles. Each unit has a unique footprint, varyin
 
 ### Enemy Formation (View Formation)
 
-Before or during a run, you can press the **View Formation** button to inspect the enemy's active grid layout and Unit Actions, allowing you to develop a strategy to counter them.
+Before or during a run, you can press the **View Formation** button to inspect the enemy's active grid layout and Unit Actions, allowing you to develop strategies to counter them.
 
 ??? image "View Formation Screen"
     ![Image Guide](../assets/images/soul-wager/view-formation.avif)
 
-Using this tool is important for high-level play, as it allows you to build the strategy around enemy weaknesses.
+Using this tool is important for high-level play, as it allows you to build a strategy around the enemy's weaknesses.
 
 ### The Battle Shop
 
@@ -74,7 +74,7 @@ Using this tool is important for high-level play, as it allows you to build the 
 
 After each battle, the Battle Shop is refreshed, regardless of the outcome of the battle.
 
-Each board piece has an equal chance to appear within the **same Grade**; however, the chances of drawing a specific **Grade** heavily depend on **Stage Phase** and **Board**.
+Each board piece has an equal chance to appear within the **same Grade**; however, the chances of drawing a specific **Grade** heavily depend on the **Stage Phase** and the **Board**.
 
 * For example, **Tainted Hunting Grounds** *(Board 5)* **Stage Phase 1** can only have **Normal** and **Rare** Grades (with $83.33\%$ and $16.66\%$ respectively), while **Stage Phase 15** offers all $6$ Grades with equal chance of $16.66\%$.
 
@@ -595,7 +595,7 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
 !!! example "Discounts"
     Some deals may feature a **reduced** price.
 
-    * Chance for a discount is $10\%$.
+    * The Chance for a discount is $10\%$.
     * The discount is calculated as $\text{round}(0.5 \times \text{Price})$, providing roughly a $50\%$ discount.
     * Calculated prices are always rounded up.
         * For example, **Lathel - Homunculus** with the discount $(0.5 \times 5 = 2.5)$ will cost $\bf{3}$ instead.
@@ -608,7 +608,7 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
     ??? image "Reroll Button"
         ![Reroll Button](../assets/images/soul-wager/reroll.avif)
 
-    Rerolling costs $1$ {{ Soul_Token }} **Soul Tokens** and and increases by $1$ after every $4$ rolls within the same **Formation Phase**. Therefore, it is not recommended to reroll more than $4-5$ times per Phase.
+    Rerolling costs $1$ {{ Soul_Token }} **Soul Token** and increases by $1$ after every $4$ rolls within the same **Formation Phase**. Therefore, it is not recommended to reroll more than $4-5$ times per Phase.
 
 !!! example "Selling"
     You can sell existing Board Pieces to obtain some {{ Soul_Token }} **Soul Tokens** back. To do that, either select a board piece and click **Sell**, or directly **drag** the piece to the Sell button.
@@ -617,12 +617,12 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
         ![Different Selling Options](../assets/images/soul-wager/sell_options.avif)
 
     * Selling price is calculated as $\text{round}(0.5 \times \text{Purchase Price})$, which means Unit upgrades do not increase the Price.
-    * Rounding always is **down**, but the price cannot be less than $2$, with **Protection Tile** being the only exception —  having a selling price of $1$.
-        * For example, **Lathel - Homunculus** $(0.5 \times 5 = 2.5)$ will give $\bf{2}$ instead, but Arines - Priest of Vitality $(0.5 \times 3 = 1.5)$ will give $\bf{2}$, compared to $1$ she was supposed to give.
+    * Rounding is always **down**, but the price cannot be less than $2$, with the **Protection Tile** being the only exception, which has a selling price of $1$.
+        * For example, **Lathel - Homunculus** $(0.5 \times 5 = 2.5)$ will give $\bf{2}$ instead, but Arines - Priest of Vitality $(0.5 \times 3 = 1.5)$ will give $\bf{2}$, compared to the $1$ she was supposed to give.
 
 ### Storage
 
-Storage is a space where you can leave your purchased Board Pieces. They will not be used in a battle, and there is no penalty for storing them.
+The Storage section is a space where you can leave your purchased Board Pieces. They will not be used in battle, and there is no penalty for storing them.
 
 ??? "Storage Image"
     ![Storage Image](../assets/images/soul-wager/storage.avif)
@@ -635,7 +635,7 @@ Additionally, the Storage zone features a "gravity" system. Placing any stored p
 
 ## Codex
 
-The **Codex** is a place to learn more about **Tiles**, **Units** and **Gear**. To access it, you can press the corresponding icon on top of the screen pre-run, or, during the run, on the bottom of your screen.
+The **Codex** is a place to learn more about **Tiles**, **Units** and **Gear**. To access it, press the corresponding icon on top of the screen before a run, or at the bottom of the screen during a run.
 
 ??? image "Image Guide"
     ![Image Guide](../assets/images/soul-wager/codex.avif)
@@ -645,7 +645,7 @@ The **Codex** is a place to learn more about **Tiles**, **Units** and **Gear**. 
 
 ### Tiles
 
-There are a total of 5 different Tiles, each varying in shape, cost and abilities. They are required to place the Units on.
+There are a total of 5 different Tiles, each varying in shape, cost and abilities. They are required to place Units on.
 
 ??? image "Tile Codex"
     ![Tile Codex](../assets/images/soul-wager/gear-codex.avif)
@@ -655,7 +655,7 @@ There are a total of 5 different Tiles, each varying in shape, cost and abilitie
 
 Units can only be placed on top of the Tiles. To deploy and use a unit, you must have unoccupied tile space available.
 
-Each Unit has different **Grade** and **Tags**. While **Grade** determines a unit's shop appearance rarity, **Tags** briefly outline their gameplay role.
+Each Unit has different a distinct **Grade** and set of **Tags**. While a Unit's **Grade** determines its shop appearance rarity, its **Tags** briefly outline their gameplay role.
 
 !!! example "Tags List"
 
@@ -703,12 +703,12 @@ Additionally, certain Units generate **Buffs** for the team or **Debuffs** for t
 
     * {{Poison}} | {{Poison2}} **Poison**: For every stack, takes $1$ DMG every $2$s.
     * {{Frost}} | {{Frost2}} **Frost**: For every stack, reduces Action Speed of all Characters by $2\%$
-    * {{Darkness}} | {{Darkness2}} **Darkness**: For every stack, reduces Accuracy Rate of all Characters by $5\%$.
+    * {{DarknessSW}} | {{Darkness2}} **Darkness**: For every stack, reduces Accuracy Rate of all Characters by $5\%$.
     * {{Laceration}} | {{Laceration2}} **Laceration**: For every stack, increases Stamina Cost of Attacking Characters by $2\%$.
 
 !!! abstract "Units Upgrading"
 
-    You can **upgrade the Units**, which will improve their Action. Units can be upgraded to $+5$, similarly to the main game, with the exception that you **cannot upgrade a character higher than he is in your in-game roster.**
+    You can **upgrade Units**, which will improve their Actions. Units can be upgraded to $+5$, similarly to the main game, with the exception that you **cannot upgrade a Unit higher than their current rank in your main roster.**
 
     Each Upgrade level costs differently for each Unit.
 
@@ -737,7 +737,7 @@ While grid placement matters for triggering team synergy bonuses, spatial positi
 When a unit performs an Action that requires **Stamina**, the cost specified on its Unit card is deducted from the team's shared Stamina pool. **If the shared pool lacks enough Stamina to fund the action, the Unit cannot perform the move** *(displaying "Out of Stamina")* and will enter its cooldown cycle once again.
 
 !!! info "More about Stamina"
-    During the Preparation Phase, you can see the Stamina Cost on top. It is calculated as sum of Stamina average usage across all Units and does not account for Stamina restoring Actions.
+    During the Preparation Phase, you can see the Stamina Cost on top. It is calculated as the sum of average Stamina usage across all Units and does not account for Stamina restoring Actions.
 
     * ![Very Low Stamina Usage](../assets/images/soul-wager/icons/bg_stamina_eff_1.avif "Very Low Stamina Usage"){.icon} **Very Low:** $0.0$ — $4.9$ Stamina.
     * ![Low Stamina Usage](../assets/images/soul-wager/icons/bg_stamina_eff_2.avif "Low Stamina Usage"){.icon} **Low:** $5.0$ — $9.9$ Stamina.
@@ -755,7 +755,7 @@ The damage scales upward every 3 seconds according to the following logic:
 * **10 Damage and Above:** The value begins scaling by $11\%$ every $3$ seconds.
 
 ??? info "Exact Scaling Formula"
-    In reality, the system runs an exponential $11\%$ scaling curve in the background starting from second 1. To smoothen the damage curve from the beginning, the system uses $+1$ increments instead.
+    In reality, the system runs an exponential $11\%$ scaling curve in the background starting from second 1. To smooth the damage curve from the beginning, the system uses $+1$ increments instead.
 
     Once the background exponential curve naturally surpasses 10, the game switches from the flat $+1$ floor to the true calculated curve. Because the background curve does not land exactly on 10 before its next iteration, subsequent values are derived from the underlying unrounded formula rather than exactly $10 \times 1.11$. All final ticking damage values are rounded up to the nearest integer.
 
@@ -768,13 +768,13 @@ The damage scales upward every 3 seconds according to the following logic:
 
 ## Strategy
 
-Boards $1 — 3$ don't require specific strategy, since enemy isn't that strong. As long as you build decent synergy within the team, it should work well.
+Boards $1 — 3$ don't require a specific strategy, since the enemy isn't that strong. As long as you build decent synergy within the team, it should work well.
 
-When it comes to Boards $4 — 5$, the easiest strategy revolves around using $1-2$ **Ingrid - Kardis' Bullet** and **Lathel - Homunculus** to buff Ingrid.
+When it comes to Boards $4 — 5$, the easiest strategy revolves around using $1-2$ copies of **Ingrid - Kardis' Bullet** alongside **Lathel - Homunculus** to buff Ingrid.
 
 The goal is to burst down the enemy before passive effects like {{Lifesteal2}} **Lifesteal** or {{Poison2}} **Poison** can influence the match, thanks to Ingrid's very low cooldown and double attack each Cooldown.
 
-Since **Lathel - Homunculus** has **Rare** Grade, and **Ingrid - Kardis' Bullet** has **Basic** Grade, you can theoretically get both from the start of your run.
+Since **Lathel - Homunculus** is of **Rare** Grade, and **Ingrid - Kardis' Bullet** is of **Basic** Grade, you can theoretically get both from the start of your run.
 
 Other good support units for this strategy are **Blade - Apostle**, **Arines - Priest of Vitality**, **Sonya - Pumpkin Ghost** and **Elise - Code Name O**.
 
@@ -800,7 +800,7 @@ To access the shop, either visit the **Shop** tab, or use the shortcut inside th
 
 As mentioned earlier, this Shop uses {{Alea_Chip}} **Alea Chips** as currency.
 
-You get enough {{Alea_Chip}} **Alea Chips** to buy everything from the shop if you clear all the boards, although it is debatable whether {{S5_R_Contract}} Scrolls are worth purchasing for veteran players.
+You get enough {{Alea_Chip}} **Alea Chips** to buy everything from the shop if you clear all the Boards, although it is debatable whether {{S5_R_Contract}} Scrolls are worth purchasing for veteran players.
 
 ---
 

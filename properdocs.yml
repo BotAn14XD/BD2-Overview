@@ -42,6 +42,7 @@ nav:
             - 'Fantasia Square': content-packs/fantasia-square.md
             - 'The Soul Wager': content-packs/soul-wager.md
         - 'Fiend Hunter': content/fh.md
+        - 'Rapport': content/rapport.md
         - 'Season Events': content/events.md
         - 'Territory': content/territory.md
     - 'Miscellaneous':
@@ -55,11 +56,13 @@ repo_name: BotAn14XD/BD2-Overview
 repo_url: https://github.com/BotAn14XD/BD2-Overview
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/rapport.css
   - https://unpkg.com/katex@0/dist/katex.min.css
 extra_javascript:
   - javascripts/extra.js
   - javascripts/katex.js
   - javascripts/custom.js
+  - javascripts/rapport.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 plugins:
