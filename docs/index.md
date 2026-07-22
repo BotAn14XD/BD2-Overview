@@ -94,13 +94,20 @@ This site is a work in progress, focusing on high-quality explanations for every
 
     [View Page →](./content/territory.md){: .md-button }
 
+-   ![Taros Tactical Manual](assets/images/site-assets/index-pc-nav-24.avif){: .card-header-img }
+
+    ---
+
+    [View Page →](./content/ttm.md){: .md-button }
+</div>
+
+<div class="grid cards center-content" markdown>
 -   ![Rapport](assets/images/site-assets/index-pc-nav-23.avif){: .card-header-img }
 
     ---
 
     [View Page →](./content/rapport.md){: .md-button }
 </div>
-
 ---
 
 <div class="banner-container">
