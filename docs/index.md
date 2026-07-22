@@ -7,7 +7,7 @@ glightbox: false
 <div class="banner-container">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/images/site-assets/index-mobile-1.avif">
-    <img src="assets/images/site-assets/index-pc-1.avif" alt="Brown Dust II: Tactical Compendium" class="responsive-banner" fetchpriority="high">
+    <img src="assets/images/site-assets/index-pc-1.avif" alt="Brown Dust II: Tactical Compendium" class="responsive-banner-main" fetchpriority="high">
   </picture>
 </div>
 

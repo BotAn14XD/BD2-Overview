@@ -14,7 +14,7 @@ Path of Adventure is one of Content Packs, offering you daily income of useful m
 !!! info ""Paid Rice""
     Sometimes you will get {{ Cooked_Rice }} Rice from events, but you *(probably)* won't be able to use it. That Rice is called **Paid Cooked Rice**.<br>Unlike "normal" one, it doesn't get affected by daily refresh and can be saved as much as you want or need.<br><br>To use this rice in Quick Hunt menu, **uncheck "Use Free Cooked Rice Only" option** and adjust amount of rice you want to spend.
     ??? image "Image Guide"
-        ![Paid Rice enabling](../assets/images/path-of-adventure/PoA_7.png)
+        ![Paid Rice enabling](../assets/images/path-of-adventure/PoA_7.avif)
 
 <h1>WORK IN PROGRESS</h1>
 <!--This pack has the same requirements to be unlocked as Mirror Wars pack — clearing Normal Difficulty of Story Pack 3. It introduces you a way to gain three very essential resources on a daily basis — gold, slimes and property crystals. 

@@ -2,20 +2,20 @@
 description: "Brown Dust II Last Night Content Pack overview, strategy"
 ---
 # Last Night
-Last Night is a PvE mode where you are tasked with dealing as much damage to the boss as possible.
+Last Night is a [PvE](../misc/slang.md?term=PvE) mode where you are tasked with dealing as much damage to the boss as possible.
 
 
 !!! abstract "Unlock Requirement"
     Clear **Story Pack 3 "Mist Man" (Normal Difficulty)**.
 
 ## Overview
-In this mode, your team consists of **20** costumes instead of usual five. 
+In this mode, your team consists of **20** costumes instead of usual five.
 
 ??? info "Last Night Rewards"
     * **7,000,000,000 damage:** 374K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
     * **6,900,000,000 damage:** 372K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
     * **6,800,000,000 damage:** 370K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **6,700,000,000 damage:** 368K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }} 
+    * **6,700,000,000 damage:** 368K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
     * **6,600,000,000 damage:** 366K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
     * **6,500,000,000 damage:** 364K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
     * **6,400,000,000 damage:** 362K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
@@ -25,7 +25,7 @@ In this mode, your team consists of **20** costumes instead of usual five.
     * **6,000,000,000 damage:** 354K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
     * **5,900,000,000 damage:** 352K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
     * **5,800,000,000 damage:** 350K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **5,700,000,000 damage:** 348K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }} 
+    * **5,700,000,000 damage:** 348K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
     * **5,600,000,000 damage:** 346K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
     * **5,500,000,000 damage:** 344K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
     * **5,400,000,000 damage:** 342K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}

@@ -1,16 +1,17 @@
 ---
-description: Brown Dust II Potential Liberation & Bonding System explanation, overview and tips.
+description: Brown Dust II Potential Liberation & Bonding System explanation, overview, and tips.
 comments: true
+hero: assets/images/site-assets/index-pc-nav-5.avif
 ---
 
-![Potential Liberation](../assets/images/site-assets/index-pc-nav-5.avif){: .card-header-img }
+![Potential Liberation](../assets/images/site-assets/index-pc-nav-5.avif){: .card-header-img fetchpriority=high loading=eager }
 #
 
 Potential Liberation (often called **"Pots"**) is the system used to upgrade a costume's performance and a character's stats.
 
 ---
 
-## ![Bond](../assets/images/potential-liberation/popupicon_potential_connect.png){ .icon-header } **Costume Bonds**
+## ![Bond](../assets/images/potential-liberation/popupicon_potential_connect.avif){ .icon-header } **Costume Bonds**
 Beforehand, you must understand **Bonds**.
 
 * Each character can "Bond" with **one** specific costume at a time.
@@ -19,36 +20,36 @@ Beforehand, you must understand **Bonds**.
 !!! question "**How to switch bonds?**"
     Go to the Character screen and click the costume portrait on the right side.
     ??? note "Image Guide"
-        ![Bond Switch Guide](../assets/images/potential-liberation/bond-guide.png)
+        ![Bond Switch Guide](../assets/images/potential-liberation/bond-guide.avif)
 
-!!! example "**How to choose bond?**"
-    It is important to choose a proper bond. 
+!!! example "**How to choose a bond?**"
+    It is important to choose a proper bond.
 
     ---
 
     * **<u>If you are new, use the bond with the most potential liberation done.</u>**
-    * If you are not new, you should choose depending on enemy. 
-        * In **general content**, you tend to use same DPS, which means a lot of off-element fights. For that reason, you usually target bonds **with no Property *(Water, Light etc)* DMG Increase**. 
-        * In **property content** *(Fiend Hunter, Guild Raid)*, you need to understand the buffs occurring in a fight. For some fights with no extra Property DMG Increase from boss itself, it *may* be worth to pick bond **with Property DMG Increase**.<br>However, if boss offers additional buff or you have a lot of external buffs from supports, it *may* be worth to pick "general" bond instead.   
-        * For **defensive / support bonds**, pick depending on damage type you are facing. 
+    * If you are not new, you should choose depending on the enemy. 
+        * In **general content**, you tend to use the same [DPS](../misc/slang.md?term=DPS), which means a lot of off-element fights. For that reason, you usually target bonds **with no Property *(Water, Light etc)* DMG Increase**. 
+        * In **property content** *(Fiend Hunter, Guild Raid)*, you need to understand the buffs occurring in a fight. For some fights with no extra Property DMG Increase from the boss itself, it *may* be worth picking a bond **with Property DMG Increase**.<br>However, if the boss offers additional buffs or you have a lot of external buffs from supports, it *may* be worth picking a "general" bond instead.   
+        * For **defensive/support bonds**, pick depending on the damage type you are facing. 
     
-    Of course, there are rare exceptions to this generalized advice and you can always rely on different guides or **[calculator](https://browndust2-wiki.souseha.com/en/option-calculator)** in case you are not sure. 
+    Of course, there are rare exceptions to this generalized advice, and you can always rely on different guides or **[calculator](https://browndust2-wiki.souseha.com/en/option-calculator)** in case you are not sure. 
 
 ---
 
-## ![Liberation Icon](../assets/images/potential-liberation/icon_potential3_3.png){ .icon-header } **Liberation Nodes**
-To access this menu, select desired costume in Costume tab and press **Upgrade** in the bottom right.
+## ![Liberation Icon](../assets/images/potential-liberation/icon_potential3_3.avif){ .icon-header } **Liberation Nodes**
+To access this menu, select the desired costume in the Costume tab and press **Upgrade** in the bottom right.
 
 ??? note "Image Guide"
-    ![Accessing Potential Liberation Guide](../assets/images/potential-liberation/tree-access.png)
+    ![Accessing Potential Liberation Guide](../assets/images/potential-liberation/tree-access.avif)
 
 ???+ note "Potential Liberation Menu Image"
-    ![Potential Liberation Menu](../assets/images/potential-liberation/tree-view.png)
+    ![Potential Liberation Menu](../assets/images/potential-liberation/tree-view.avif)
 
 There are three types of nodes:
 
 !!! question ""
-    ![Small Node](../assets/images/potential-liberation/small-node.png){ width="200" align=right }
+    ![Small Node](../assets/images/potential-liberation/small-node.avif){ width="200" align=right }
     ### **1. Small Nodes (Permanent)**
 
     * **Effect:** Upgrades the character's **Base Stats**.
@@ -58,7 +59,7 @@ There are three types of nodes:
         * 50 Elemental Crystals
 
 !!! question ""
-    ![Medium Node](../assets/images/potential-liberation/medium-node.png){ width="200" align=right }
+    ![Medium Node](../assets/images/potential-liberation/medium-node.avif){ width="200" align=right }
     ### **2. Medium Nodes (Bond-Dependent)**
 
     * **Effect:** Grants significant stat boosts.
@@ -68,7 +69,7 @@ There are three types of nodes:
         * 0 ~ 350 Elemental Crystals
 
 !!! question ""
-    ![Large Node](../assets/images/potential-liberation/large-node.png){ width="200" align=right }
+    ![Large Node](../assets/images/potential-liberation/large-node.avif){ width="200" align=right }
     ### **3. Large Nodes (Skill Upgrades)**
 
     * **Effect:** Directly enhances the skill (e.g., **-1 SP Cost**, **+ Range**, **+ Damage %**).
@@ -86,7 +87,7 @@ There are three types of nodes:
 
 **TL;DR Priority List:**
 
-1.  **Buffers:** **SP Cost Reduction**, **Cooldown Reduction** are the highest priority, followed by **Duration Increase**, **AoE Expansion** and regular Buff Increases.
+1.  **Buffers:** **SP Cost Reduction**, **Cooldown Reduction** are the highest priority, followed by **Duration Increase**, **[AoE](../misc/slang.md?term=AoE) Expansion** and regular Buff Increases.
 
 2.  **DPS:** "Quality of Life" upgrades first (**SP Cost Reduction**, **Cooldown Reduction**, **AoE Expansion**). **<u>Do not target Damage nodes until you are done with most supports</u>**.
 
@@ -96,11 +97,11 @@ There are three types of nodes:
 ---
 
 !!! tip "QoL Thing You Should Know #1" 
-    You do not need to check every costume to check their Potential Liberation Status. Instead, you can check them freely in Companion Tab or during Battle, when selecting the costume.
+    You do not need to check every costume to check their Potential Liberation Status. Instead, you can check them freely in the Companion Tab or during Battle, when selecting the costume.
     ??? note "Image Guide"
-        ![Potential Liberaion Status Checks](../assets/images/potential-liberation/pots-shortcuts.png)
+        ![Potential Liberaion Status Checks](../assets/images/potential-liberation/pots-shortcuts.avif)
 
 !!! tip "QoL Thing You Should Know #2"
-    You can also check effect of all Potential Liberation Nodes at once. For that, go to Growth Preview Tab, select desired costume and press the switch on the right.
+    You can also check the effect of all Potential Liberation Nodes at once. For that, go to the Growth Preview Tab, select the desired costume, and press the switch on the right.
     ??? note "Image Guide"
-        ![Potential Liberation Preview](../assets/images/potential-liberation/pots-preview.png)
+        ![Potential Liberation Preview](../assets/images/potential-liberation/pots-preview.avif)

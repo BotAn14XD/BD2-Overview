@@ -3,9 +3,10 @@
 description: Learn how the Rapport system works in Brown Dust 2 — Diner Talks, Gifts, Costume leveling, Personal Story episodes, and the account-wide Rapport Buff to Crit Rate.
 comments: true
 image: assets/images/site-assets/rapport-banner.png
+hero: assets/images/site-assets/index-pc-nav-23.avif
 
 ---
-![Rapport](../assets/images/site-assets/index-pc-nav-23.avif){: .card-header-img }
+![Rapport](../assets/images/site-assets/index-pc-nav-23.avif){: .card-header-img fetchpriority=high loading=eager }
 
 #
 
@@ -20,7 +21,7 @@ Rapport is a system where you interact with specific Costumes via visual novel-s
 !!! image "Rapport Menu"
      ![Rapport Menu](../assets/images/rapport/main-menu.avif)
 
-To access the Rapport Menu, either click on the Rapport button on the Home Screen, or press the Talk button in the Companion tab for any Costume an existing Rapport. Alternatively, use [Glupy Diner](../content-packs/glupy-diner.md) to access the Rapport Feature as well.
+To access the Rapport Menu, either click on the Rapport button on the Home Screen or press the Talk button in the Companion tab for any Costume with an existing Rapport. Alternatively, use [Glupy Diner](../content-packs/glupy-diner.md) to access the Rapport Feature as well.
 
 ??? image "Access via Home Screen"
      ![Access via Home Screen](../assets/images/rapport/access-main-menu.avif)
@@ -62,7 +63,7 @@ Upon obtaining the maximum level for the Costume, you can talk an infinite numbe
 
 ### Quick Talk
 
-**Quick Talk** is a feature that allows you to skip the Talk, but gain only 80 EXP, similar to "standard" answer. It is available after completing **5 Talks** for a given Costume and behaves like a normal Talk, reducing your daily attempts by 1 for each Quick Talk used.
+**Quick Talk** is a feature that allows you to skip the Talk, but gain only 80 EXP, similar to a "standard" answer. It is available after completing **5 Talks** for a given Costume and behaves like a normal Talk, reducing your daily attempts by 1 for each Quick Talk used.
 
 ??? image "Quick Talk Button Location"
      ![Quick Talk Button Location](../assets/images/rapport/quick-talk.avif)
@@ -82,7 +83,7 @@ To fully upgrade the Costume's Rapport, you need 53 Gifts.
 !!! example "Better Strategy"
      Instead of gifting 53 Gifts, first **have a single Talk with the best answer**.
 
-     This way, the number of Gifts required is lowered to exactly 50, which makes it easier to progress with multiple Costumes at once (due to purchase limit 100 on any given Gift, except ![Special Drink](../assets/images/rapport/icons/icon_resource190007_401_2.avif "Special Drink"){.icon} Special Drink)
+     This way, the number of Gifts required is lowered to exactly 50, which makes it easier to progress with multiple Costumes at once (due to the purchase limit of 100 on any given Gift, except ![Special Drink](../assets/images/rapport/icons/icon_resource190007_401_2.avif "Special Drink"){.icon} Special Drink)
 
 ??? abstract "List of Gifts"
      <div class = "no-bullets">
@@ -98,9 +99,9 @@ To fully upgrade the Costume's Rapport, you need 53 Gifts.
      </div>
 
 !!! question "Are Gifts worth buying? Where to buy from?"
-     * Early game, **neither** of shops is good to purchase from.
-     * Later, the {{Golden_Thread}} **Golden Thread Shop** is ok to buy from, given you bought [**Unidupe**](../misc/slang.md?term=Unidupe), {{Spark_of_Rampage}} **Sparks of Rampage**, {{Tear_of_Goddess}} **Tears of Goddess** and *probably* {{Draw_Ticket}} **Draw Tickets**. This holds true until you max your {{CritRate}} **Crit Rate**{.white} bonus.
-     * After you obtained maximum {{CritRate}} **Crit Rate**{.white} bonus, Gifts value drops almost to zero, therefore no reason to buy from any shop once again.
+     * Early game, **neither** of the shops is good to purchase from.
+     * Later, the {{Golden_Thread}} **Golden Thread Shop** is ok to buy from, given you bought [**Unidupe**](../misc/slang.md?term=Unidupe), {{Spark_of_Rampage}} **Sparks of Rampage**, {{Tear_of_Goddess}} **Tears of Goddess** and *probably* {{Draw_Ticket}} **Draw Tickets**. This holds until you max your {{CritRate}} **Crit Rate**{.white} bonus.
+     * After you obtain the maximum {{CritRate}} **Crit Rate**{.white} bonus, Gifts value drops almost to zero, therefore no reason to buy from any shop once again.
 
 ## Costume Progression
 
@@ -225,7 +226,7 @@ Each Costume has its own EXP. By using Talks or Gifts on a specific Costume, you
      </table>
      </span>
 
-Each Costume has a separate **Level Cap** that limits what maximum level you can achieve for this costume. Level Cap depends on the Costume / Character upgrade progress.
+Each Costume has a separate **Level Cap** that limits the maximum level you can achieve for this costume. Level Cap depends on the Costume / Character upgrade progress.
 
 * Costume Acquired — **Level 10**
 * Character Awakening Complete — **Level 15**
@@ -236,7 +237,7 @@ Each Costume has a separate **Level Cap** that limits what maximum level you can
 
      This heavily impacts **Support characters**, who generally do not prioritize or benefit from Awakening as much as your [DPS](../misc/slang.md?term=DPS) units.
 
-Once you obtain Level 10, 15 and 20, you obtain a special Reward. For Level 10, it is a collection item related to the Costume, while for Levels 15 and 20, the rewards are stickers instead.
+Once you obtain Levels 10, 15, and 20, you obtain a special Reward. For Level 10, it is a collection item related to the Costume, while for Levels 15 and 20, the rewards are stickers instead.
 
 !!! abstract "Cost to Max a Costume's Rapport (2100 EXP)" 
 
@@ -267,7 +268,7 @@ Once you obtain Level 10, 15 and 20, you obtain a special Reward. For Level 10, 
 
 ## Story
 
-Personal Stories allow players to experience exclusive, visual-novel style lore chapters centered around the specific Costume.
+Personal Stories allow players to experience exclusive, visual-novel-style lore chapters centered around the specific Costume.
 
 There are 6 episodes in total, which unlock sequentially as you hit the specific level milestones. You also need to read the previous episode **to unlock** the next one.
 
@@ -290,7 +291,7 @@ Whenever the [Season Event](./events.md) revolves around a specific Costume, the
 
 The Rapport Buff is a buff that increases {{CritRate}} **Crit Rate**{.white} and acts like a **Collection Bonus**.
 
-This means the bonus is **global**, affects **all permanent Companions** and **cannot be reduced via Pressure Effects**.
+This means the bonus is **global**, affects **all permanent Companions**, and **cannot be reduced via Pressure Effects**.
 
 It has a maximum value of **50%** and is obtained via completing Missions. Each mission gives 2%.
 
@@ -306,7 +307,7 @@ It has a maximum value of **50%** and is obtained via completing Missions. Each 
      * Reach Rapport Level 20 for 5 / 10 / 20 / 30 Character(s)
 
 !!! info "In-Game Text Clarification"
-     The game's mission text uses the word **"Characters"**, but the system tracks **"Costumes"** instead. It is a bad translation that can cause confusion when the Rapport system adds more Costumes.
+     The game's mission text uses the word **"Characters"**, but the system tracks **"Costumes"** instead. It is a bad translation that can be confusing when the Rapport system adds more Costumes.
 
 It takes **10 Costumes** with Rapport Level 20 to obtain maximum Rapport Buff.
 
@@ -315,5 +316,5 @@ It takes **10 Costumes** with Rapport Level 20 to obtain maximum Rapport Buff.
 Search a Costume to see the "preferred" answer for each encounter and their favorite drink(s).
 
 <div class="rapport"
-     data-src="/BD2-Overview/data/rapport.json"
-     data-prefix="/BD2-Overview/"></div>
+     data-src="{{ prefix }}assets/data/rapport.json"
+     data-prefix="{{ prefix }}"></div>

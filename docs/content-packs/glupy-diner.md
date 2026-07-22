@@ -16,12 +16,12 @@ Glupy Diner is the lite version of idle incremental simulators. Your main resour
     * **Maximum passive income time:** 24 hours
     * **Maximum daily {{Deco_Coin}} Deco Coins**: 20
 
-![Glupy Diner image](../assets/images/glupy-diner/glupy_diner_1.webp)
+![Glupy Diner image](../assets/images/glupy-diner/glupy_diner_1.avif)
 
 !!! tip "Resources Gathering"
     In case you're interested in collecting {{Gold}} **Gold**, {{ Refining_Powder }} **Refining Powder** and {{Glupy_Star}} **Stars** only, you can use **Business Management** button in main menu to quickly grab accumulated stuff without checking Glupy Diner pack directly.<br><br>Otherwise it does not really matter, since you have to visit pack for {{Deco_Coin}} **Deco Coins** and {{Light_Magic_Crystal}} **Magic Crystals**.
     ??? image "Image Guide"
-        ![Glupy Collection Guide](../assets/images/glupy-diner/glupy_collecting_guide.webp)
+        ![Glupy Collection Guide](../assets/images/glupy-diner/glupy_collecting_guide.avif)
 
 ### **Fated Guests**
 <h1>WORK IN PROGRESS</h1>
