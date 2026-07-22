@@ -58,6 +58,7 @@ nav:
         - 'Fiend Hunter': content/fh.md
         - 'Rapport': content/rapport.md
         - 'Season Events': content/events.md
+        - 'Taros Tactical Manual': content/ttm.md
         - 'Territory': content/territory.md
     - 'Miscellaneous':
         - 'Game Slang': misc/slang.md
@@ -133,6 +134,7 @@ markdown_extensions:
       permalink: true
 
 extra:
+  social_image: assets/images/site-assets/banner.png
   analytics:
       provider: google
       property: G-K5ZWHH7K1V
