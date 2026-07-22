@@ -1084,6 +1084,6 @@ h1:has(> a.headerlink:only-child) {
     border-color: #4b5563;
 }
 
-[data-md-color-scheme="slate"] .gear-name.neutral {
+[data-md-color-scheme="slate"] .gear-name.neutral, .white {
     color: #ffffff;
 }
