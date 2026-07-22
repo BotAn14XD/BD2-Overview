@@ -647,6 +647,7 @@ li.md-nav__item:has(a[href$="#"]) {
     background-color: var(--bd-tooltip-bg); 
     border: 1px solid var(--bd-border-light);
     border-radius: 6px;
+    color: var(--bd-emphasis);
     font-size: 0.85rem;
     z-index: 2;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
@@ -919,12 +920,13 @@ li.md-nav__item:has(a[href$="#"]) {
   vertical-align: middle;
   transition: background-color 0.2s, border-color 0.2s ease-in-out;
   
-  color: var(--bd-muted);
+  color: var(--bd-emphasis);
   background-color: var(--bd-btn-bg);
+  border: 1px solid var(--bd-btn-border);
 }
 
 .share-btn:not(.copied):hover {
-  color: var(--bd-emphasis);
+  color: var(--bd-white);
   background-color: var(--bd-btn-hover);
   border-color: var(--bd-btn-hover-border);
 }
@@ -1046,4 +1048,42 @@ li.md-nav__item:has(a[href$="#"]) {
 h1:empty,
 h1:has(> a.headerlink:only-child) {
     display: none !important;
+}
+
+/* =========================================================================
+   DYNAMIC THEME DYNAMIC OVERRIDES (Tooltips & Buttons)
+   ========================================================================= */
+
+.tooltip-line.white,
+.header-title.white {
+    color: var(--bd-emphasis) !important;
+}
+
+.tooltip-line.gray {
+    color: var(--bd-muted) !important;
+}
+
+[data-md-color-scheme="slate"] .tooltip-line.gray {
+    color: #9ca3af !important;
+}
+
+[data-md-color-scheme="slate"] .tooltip-line.white,
+[data-md-color-scheme="slate"] .header-title.white {
+    color: #ffffff !important; 
+}
+
+[data-md-color-scheme="slate"] .share-btn {
+    color: #e5e7eb;
+    background-color: #1e2638;
+    border-color: #374151;
+}
+
+[data-md-color-scheme="slate"] .share-btn:not(.copied):hover {
+    color: #ffffff;
+    background-color: #2a354d;
+    border-color: #4b5563;
+}
+
+[data-md-color-scheme="slate"] .gear-name.neutral {
+    color: #ffffff;
 }
