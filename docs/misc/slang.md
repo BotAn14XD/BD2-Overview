@@ -2,9 +2,10 @@
 
 description: The Glossary of Slang used in the Brown Dust II Community.
 comments: true
+hero: assets/images/site-assets/index-pc-nav-9.avif
 ---
 
-![Game Slang](../assets/images/site-assets/index-pc-nav-9.avif){: .card-header-img }
+![Game Slang](../assets/images/site-assets/index-pc-nav-9.avif){: .card-header-img fetchpriority=high loading=eager }
 #
 
 <input type="text" id="slangSearch" onkeyup="filterSlang()" placeholder="Search for slang or full name..." class="slang-search-box">
@@ -256,8 +257,8 @@ comments: true
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
                 <span class="alias-tag">AoE</span>
             </div>
-            <p>Area of Effect refers to the tiles on the Field that are affected by skill.</p>
-            <p>Alternatively, this term can specifically refer to large tile count from skill.</p>
+            <p>Area of Effect refers to the tiles on the Field that are affected by a skill.</p>
+            <p>Alternatively, this term can specifically refer to a large tile count from a skill.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Attack</h3>
@@ -643,7 +644,7 @@ comments: true
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
                 <span class="alias-tag">Rice</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Cooked_Rice">Cooked Rice</a> is a Consumable Resource used to obtain Crafting Materials, Gold or Slimes.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Cooked_Rice">Cooked Rice</a> is a Consumable Resource used to obtain Crafting Materials, Gold, or Slimes.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Costume Collection</h3>
@@ -668,7 +669,7 @@ comments: true
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
             </div>
-            <p>Crit Fish is a mechanic where you restart the turn / battle in order to trigger <span class="cross-link" onclick="searchFor('Critical Damage')">Critical Damage</span>.</p>
+            <p>Crit Fish is a mechanic where you restart the turn/battle to trigger <span class="cross-link" onclick="searchFor('Critical Damage')">Critical Damage</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Critical Damage</h3>
@@ -983,7 +984,7 @@ comments: true
                 <span class="alias-tag">Castle</span>
                 <span class="alias-tag rare-tag">ECastle</span>
             </div>
-            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/evil-castle/">Evil Castle</a> is a Content Pack, featuring one time clear and repetitive roguelike content.</p>
+            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/evil-castle/">Evil Castle</a> is a Content Pack, featuring one-time clear and repetitive roguelike content.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Evil Dragon's Blade</h3>
@@ -1314,7 +1315,7 @@ comments: true
                 <span class="alias-tag">HP</span>
                 <span class="alias-tag rare-tag">Health</span>
             </div>
-            <p>Health Points represent the character Health. It is used for sustaining enemy damage.</p>
+            <p>Health Points represent the character's health. It is used for sustaining enemy damage.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Helm of Death</h3>
@@ -1450,7 +1451,7 @@ comments: true
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
                 <span class="alias-tag">KB</span>
             </div>
-            <p>Knockback is the one of available actions for a character, allowing to adjust enemy positioning.</p>
+            <p>Knockback is one of the available actions for a character, allowing you to adjust enemy positioning.</p>
         </li>
     </ul>
 </div>
@@ -1493,7 +1494,7 @@ comments: true
                 <span class="alias-tag">Robot</span>
                 <span class="alias-tag rare-tag">Lanc</span>
             </div>
-            <p>Lancelot is a Support Character in <span class="cross-link" onclick="searchFor('Guild Raid')">Guild Raid</span> that provides a unique set of Abilities for a limited amount of Turns.</p>
+            <p>Lancelot is a Support Character in <span class="cross-link" onclick="searchFor('Guild Raid')">Guild Raid</span> that provides a unique set of Abilities for a limited number of Turns.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Last Hope Loen</h3>
@@ -2091,7 +2092,7 @@ comments: true
                 <span class="alias-tag rare-tag">Potlib</span>
                 <span class="alias-tag rare-tag">Tree</span>
             </div>
-            <p><a href="https://botan14xd.github.io/BD2-Overview/progression/potential-liberation/">Potential Liberation</a> is a character progression feature offering a stats increase as well as direct skill enhancement.</p>
+            <p><a href="https://botan14xd.github.io/BD2-Overview/progression/potentials/">Potential Liberation</a> is a character progression feature offering a stats increase as well as direct skill enhancement.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Powder of Hope</h3>
@@ -2178,7 +2179,7 @@ comments: true
                 <span class="alias-tag">Light Crystal</span>
                 <span class="alias-tag">Dark Crystal</span>
             </div>
-            <p>Property Crystal is a collective term for the various elemental crystals (Water, Fire, Wind, Light, and Darkness) used for <a href="https://botan14xd.github.io/BD2-Overview/progression/potential-liberation/">Potential Liberation</a> of a Costume.</p>
+            <p>Property Crystal is a collective term for the various elemental crystals (Water, Fire, Wind, Light, and Darkness) used for <a href="https://botan14xd.github.io/BD2-Overview/progression/potentials/">Potential Liberation</a> of a Costume.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Property Damage</h3>
@@ -2729,7 +2730,7 @@ comments: true
                 <span class="alias-tag">Tear</span>
                 <span class="alias-tag">ToG</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Tear_of_Goddess">Tear of Goddess</a> is a Resource used to upgrade <a href="https://botan14xd.github.io/BD2-Overview/progression/potential-liberation/">Potential Liberation</a> of a Costume.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Tear_of_Goddess">Tear of Goddess</a> is a Resource used to upgrade <a href="https://botan14xd.github.io/BD2-Overview/progression/potentials/">Potential Liberation</a> of a Costume.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Teresse</h3>

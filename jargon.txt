@@ -1,0 +1,95 @@
+﻿Loaded 305 glossary terms (1050 incl. aliases).
+(hiding categories: character, costume - use --all to include)
+
+── content/events.md
+   [UNLINKED] Tower of Pride (content) [abbr] — "ToP" x1 (line 61)
+
+── content/fh.md
+   [UNLINKED] Attack (game) [abbr] — "ATK" x6 (line 55), full name x3 (line 27)
+   [UNLINKED] Magical Attack (game) [abbr] — "MATK" x6 (line 55)
+   [UNLINKED] Tower of Pride (content) [abbr] — "ToP" x6 (line 115)
+   [UNLINKED] Player vs. Environment Content (content) [abbr] — "PvE" x2 (line 235)
+
+── content/rapport.md
+   [UNLINKED] Damage Dealer (game) [abbr] — "DPS" x2 (line 238)
+   [UNLINKED] Tower of Pride (content) [abbr] — "ToP" x1 (line 286)
+
+── content/territory.md
+   [UNLINKED] Tower of Pride (content) [abbr] — "ToP" x4 (line 544)
+
+── content-packs/evil-castle.md
+   [UNLINKED] Attack (game) [abbr] — "ATK" x21 (line 214), full name x4 (line 391)
+   [UNLINKED] Damage Dealer (game) [abbr] — "DPS" x6 (line 86)
+   [UNLINKED] Defence (game) [abbr] — "DEF" x2 (line 523)
+   [UNLINKED] Magical Attack (game) [abbr] — "MATK" x1 (line 301)
+   [UNLINKED] Tower of Salvation (content) [abbr] — full name x30 (line 21), "ToS" x24 (line 303), "Roguelike" x2 (line 197), "Salvation" x1 (line 21)
+   [UNLINKED] Tower of Pride (content) [abbr] — full name x16 (line 21), "ToP" x5 (line 118), "Pride" x1 (line 21)
+   [UNLINKED] Tower of Wrath (content) [abbr] — full name x13 (line 21), "ToW" x2 (line 540), "Wrath" x1 (line 21)
+   [UNLINKED] Tower of Desire (content) [abbr] — full name x10 (line 21), "ToD" x2 (line 176), "Desire" x1 (line 21)
+   [UNLINKED] Tower of Jealousy (content) [abbr] — full name x9 (line 21), "ToJ" x2 (line 596), "Jealousy" x1 (line 21)
+   [UNLINKED] Player vs. Environment Content (content) [abbr] — "PvE" x1 (line 13)
+
+── content-packs/glupy-diner.md
+   [UNLINKED] Tower of Pride (content) [abbr] — "ToP" x1 (line 32)
+
+── content-packs/last-night.md
+   [UNLINKED] Damage Dealer (game) [abbr] — "DPS" x2 (line 206)
+   [UNLINKED] Player vs. Environment Content (content) [abbr] — "PvE" x1 (line 5)
+
+── content-packs/mirror-wars.md
+   [UNLINKED] Golden Colosseum (content) [abbr] — "PvP" x1 (line 10)
+   [UNLINKED] Player vs. Environment Content (content) [abbr] — "PvE" x1 (line 60)
+
+── content-packs/soul-wager.md
+   [UNLINKED] Damage Over Time (game) [abbr] — full name x1 (line 751), "DoT" x1 (line 751)
+   [UNLINKED] Damage Dealer (game) [abbr] — "DPS" x1 (line 736)
+   [UNLINKED] Tower of Pride (content) [abbr] — "ToP" x5 (line 52)
+
+── FAQ.md
+   [UNLINKED] Damage Dealer (game) [abbr] — "DPS" x16 (line 18)
+   [UNLINKED] Area of Effect (game) [abbr] — "AoE" x5 (line 195)
+   [UNLINKED] Attack (game) [abbr] — "ATK" x2 (line 196)
+   [UNLINKED] Tower of Pride (content) [abbr] — "ToP" x1 (line 305)
+
+── mechanics/battle.md
+   [UNLINKED] Attack (game) [abbr] — full name x14 (line 18), "ATK" x5 (line 68)
+   [UNLINKED] Defence (game) [abbr] — "DEF" x9 (line 75)
+   [UNLINKED] Area of Effect (game) [abbr] — "AoE" x4 (line 40), full name x1 (line 121)
+   [UNLINKED] Damage Dealer (game) [abbr] — "DPS" x5 (line 108)
+   [UNLINKED] Critical Damage (game) [abbr] — "CDMG" x3 (line 71)
+   [UNLINKED] Magical Attack (game) [abbr] — "MATK" x2 (line 68)
+   [UNLINKED] Magical Resistance (game) [abbr] — "MRES" x2 (line 168)
+   [UNLINKED] Damage Over Time (game) [abbr] — "DoT" x1 (line 412)
+   [UNLINKED] Tower of Pride (content) [abbr] — "ToP" x9 (line 121)
+   [UNLINKED] Player vs. Environment Content (content) [abbr] — "PvE" x1 (line 18)
+
+── mechanics/damage-formula.md
+   [UNLINKED] Attack (game) [abbr] — "ATK" x69 (line 10), full name x1 (line 201)
+   [UNLINKED] Magical Attack (game) [abbr] — "MATK" x48 (line 10)
+   [UNLINKED] Defence (game) [abbr] — "DEF" x35 (line 24)
+   [UNLINKED] Magical Resistance (game) [abbr] — "MRES" x20 (line 94)
+   [UNLINKED] Critical Damage (game) [abbr] — "CDMG" x13 (line 10), "Crit DMG" x5 (line 848)
+   [UNLINKED] Damage Over Time (game) [abbr] — "DoT" x4 (line 73)
+   [UNLINKED] Tower of Pride (content) [abbr] — "ToP" x11 (line 64)
+   [UNLINKED] Golden Colosseum (content) [abbr] — "PvP" x1 (line 664)
+
+── progression/burst.md
+   [UNLINKED] Damage Dealer (game) [abbr] — "DPS" x2 (line 128)
+   [UNLINKED] Tower of Pride (content) [abbr] — "ToP" x1 (line 92)
+
+── progression/gear.md
+   [UNLINKED] Damage Dealer (game) [abbr] — "DPS" x31 (line 3)
+   [UNLINKED] Attack (game) [abbr] — "ATK" x25 (line 174)
+   [UNLINKED] Magical Attack (game) [abbr] — "MATK" x23 (line 174)
+   [UNLINKED] Defence (game) [abbr] — "DEF" x1 (line 429)
+   [UNLINKED] Tower of Pride (content) [abbr] — "ToP" x3 (line 43), full name x2 (line 697), "Pride" x1 (line 697)
+
+── progression/potentials.md
+   [UNLINKED] Damage Dealer (game) [abbr] — "DPS" x2 (line 32)
+   [UNLINKED] Area of Effect (game) [abbr] — "AoE" x2 (line 90)
+
+── survey.md
+   [UNLINKED] Tower of Pride (content) [abbr] — "ToP" x1 (line 129)
+
+Total unlinked terms shown: 58
+Policy: link the cryptic form ([abbr]) on its FIRST line; leave plain full proper names unlinked. Try:  --unlinked --abbr-only

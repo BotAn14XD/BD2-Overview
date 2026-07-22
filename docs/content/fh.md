@@ -1,8 +1,9 @@
 ---
 comments: true
 image: assets/images/site-assets/fh-banner.png
+hero: assets/images/site-assets/index-pc-nav-19.avif
 ---
-![Fiend Hunter](../assets/images/site-assets/index-pc-nav-19.avif){: .card-header-img }
+![Fiend Hunter](../assets/images/site-assets/index-pc-nav-19.avif){: .card-header-img fetchpriority=high loading=eager }
 #
 
 Fiend Hunter is an activity revolving around defeating a Boss that becomes stronger with each level. Defeating the Boss successfully grants various rewards.
@@ -20,7 +21,7 @@ To access the game mode, press the [Season Event](events.md) logo, then click th
 ---
 ## Fiend Hunter Schedule
 
-Fiend Hunter is Seasonal, biweekly content. Each Fiend Hunter season is separated into $2$ phases, each lasting 1 week:
+Fiend Hunter is Seasonal, biweekly content. Each Fiend Hunter season is separated into 2 phases, each lasting 1 week:
     
 * **Preparation Period**, during which you can do **Practice battles** and **cannot** obtain Rewards.
 * **Hunting Period**, during which you attack the Boss directly and gain Rewards based on your performance.
@@ -49,9 +50,9 @@ You can also check the tiles by inspecting the Boss info in the Fiend Hunter Men
 
 ### Boss Levels
 
-Fiend Hunter Bosses have $25$ initial Levels you can freely choose between in both **Normal** and **Practice** Battles. However, after defeating Level 25, you will face Level $26$ — meaning the Boss, in theory, has infinitely many Difficulty Levels.
+Fiend Hunter Bosses have 25 initial Levels you can freely choose between in both **Normal** and **Practice** Battles. However, after defeating Level 25, you will face Level 26 — meaning the Boss, in theory, has infinitely many Difficulty Levels.
 
-Each new Level is progressively harder thanks to scaling parameters such as  {{ HP }} **HP** and {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}.
+Each new Level is progressively harder thanks to scaling parameters such as  {{ HP }} [**HP**{.white}](../misc/slang.md?term=Health) and {{ATK}} [**ATK**{.yellow}](../misc/slang.md?term=Attack) / {{MATK}} [**MATK**{.magenta}](../misc/slang.md?term=Magical Attack).
 
 ### Boss Stats
 Each Boss has its own predetermined **Base Value**, **Initial Growth** and **Scale Growth** parameters for {{ HP }} **HP** and {{ATK}} **ATK**{.yellow} or {{MATK}} **MATK**{.magenta}. These three parameters determine the Boss's **Health** and **Attack** potential on each Difficulty Level.
@@ -70,7 +71,7 @@ Each Boss has its own predetermined **Base Value**, **Initial Growth** and **Sca
     * **Rounding** in the formula works as follows:
         * For {{HP}} **HP**, **rounding down to 3 significant figures** is applied. 
         * For {{ATK}} **ATK**{.yellow} and {{MATK}} **MATK**{.magenta}, **rounding to the nearest integer** is applied instead.
-    * Parameters $\text{B}$ and $\text{S}$ never change based on the level. However, that does not apply to $\text{R}$, which *can* change at Levels $11$ and $14$.
+    * Parameters **B** and **S** never change based on the level. However, that does not apply to **R**, which *can* change at Levels 11 and 14.
 
 {{ redirect_btn('https://docs.google.com/spreadsheets/d/1c8SuOk7aAy2ZWZ13SjM-spg9YJ9zcN4g1lTWmpaQhYI/edit?gid=614503852#gid=614503852', 'Stats Data', '#e5b567') }}
 {{ redirect_btn('https://docs.google.com/spreadsheets/d/1c8SuOk7aAy2ZWZ13SjM-spg9YJ9zcN4g1lTWmpaQhYI/edit?gid=1989714867#gid=1989714867', 'Parameters Data', '#e5b567') }}
@@ -87,13 +88,13 @@ All Bosses have two types of skills: **Basic** and **Conditional** Skills. Each 
     * Conditional Skills can only be triggered a **fixed number of times per battle** or a **fixed number of times per team**.
     * This type of Skill will be used instead of the next scheduled Basic Skill as soon as its condition is met, delaying the latter.
 
-It is essential to understand the Skills in order to maximize your damage.
+It is essential to understand the Skills to maximize your damage.
 
 ### Weak Points
 
 **Weak Points** are specific body parts that may or may not be present.
 
-Each Weak Point takes additional damage and is displayed as text reading $\textbf{WEAK}$ along with a Damage Increase multiplier.
+Each Weak Point takes additional damage and is displayed as text reading **WEAK** along with a Damage Increase multiplier.
 
 ??? image "Weak Points Display"
     ![Weak Points Display](../assets/images/fiend-hunter/weak-points.avif)
@@ -106,12 +107,12 @@ For the Battle, you can deploy up to **3** teams with **5** Companions in each. 
 
 You are also free to choose any difficulty you want to face, up to Level 25.
 
-Once the Battle starts and Team $1$ perishes, Team $2$ replaces it; this continues until every team has perished.
+Once the Battle starts and Team 1 perishes, Team 2 replaces it; this continues until every team has perished.
 
 !!! image "Fiend Hunter Battle" 
     ![Fiend Hunter Battle Image](../assets/images/fiend-hunter/FH_battle.avif)
 
-As mentioned earlier, the Boss has a set Skill pattern, which is displayed on the right side of the screen. You can also see the next Skill having the $\textbf{NEXT}$ label. Skills are used from top to bottom, with the exception of Conditional Skills.
+As mentioned earlier, the Boss has a set Skill pattern, which is displayed on the right side of the screen. You can also see the next Skill having the **NEXT** label. Skills are used from top to bottom, except for Conditional Skills.
 ??? image "Boss Skill Order"
     ![Boss Skill Order](../assets/images/fiend-hunter/fh-skillset.avif)
 
@@ -123,7 +124,7 @@ As mentioned earlier, the Boss has a set Skill pattern, which is displayed on th
 
 ### Team Switch
 
-You have the ability to quickly switch teams in Fiend Hunter. Switching only goes forward from Team $1$ to Team $2$ to Team $3$, with no option to bring a previous team back.
+You can quickly switch teams in Fiend Hunter. Switching only goes forward from Team 1 to Team 2 to Team 3, with no option to bring a previous team back.
 
 Switching acts as an external Instant Death mechanic; therefore, it **does not refresh** the Boss's Skills.
 
@@ -141,25 +142,25 @@ Since you can challenge any Difficulty Level, it is possible that you won't deal
 If this happens, you will automatically defeat all levels whose HP thresholds are lower than the damage you dealt. Your full damage score will then carry over and be applied to the next level.
 
 !!! example "Example"
-    Assume the Boss named Baywatcher has $487\text{M}$ {{HP}} **HP** at Level $10$, and $714\text{M}$ {{HP}} **HP** at Level $11$.
+    Assume the Boss named Baywatcher has 487M {{HP}} **HP** at Level 10, and 714M {{HP}} **HP** at Level 11.
 
-    If you challenge Level $15$ but only manage to deal a total of $\bf{500\textbf{M}}$ **damage**:
+    If you challenge Level 15 but only manage to deal a total of **500M** **damage**:
     
-    * You will completely defeat **Levels $\bf{1}$ through $\bf{10}$** (since $500\text{M}$ is greater than $487\text{M}$).
-    * You will deal that same $500\text{M}$ damage to **Level 11**, leaving it with $214\text{M}$ {{HP}} **HP**.
+    * You will completely defeat **Levels 1 through 10** (since 500M is greater than 487M).
+    * You will deal that same 500M damage to **Level 11**, leaving it with 214M {{HP}} **HP**.
 
 Any subsequent attempts to deal damage **during the same day** will have no impact, unless your new damage is higher than your previous record.
 
 You can continue dealing damage to the Boss the **following day**, either by attacking manually or by using the **Quick Battle** feature.
 
 !!! abstract "Quick Battle" 
-    **Quick Battle** allows you to instantly apply your highest recorded damage from the previous day. However, the system only saves this damage record for the **highest level your damage actually reached**, not the level you originally clicked on.
+    **Quick Battle** allows you to instantly apply your most serious recorded damage from the previous day. However, the system only saves this damage record for the **highest level your damage actually reached**, not the level you originally clicked on.
 
-    Using the example from above, even though you challenged Level 15 on Day 1, your damage only reached Level 11. Therefore, on Day $2$, you will have Quick Battle unlocked **only for Level** $\bf{11}$.
+    Using the example from above, even though you challenged Level 15 on Day 1, your damage only reached Level 11. Therefore, on Day 2, you will have Quick Battle unlocked **only for Level** 11.
     
-    Once you use Quick Battle, you will deal that same $500\text{M}$ damage and **defeat** Level $11$. 
+    Once you use Quick Battle, you will deal that same 500M damage and **defeat** Level 11. 
 
-    However, **you will no longer be able to Quick Battle** **Level $\bf{12}$** because your damage history never successfully reached it on Day 1, meaning you must challenge it manually.
+    However, **you will no longer be able to Quick Battle** **Level 12** because your damage history never successfully reached it on Day 1, meaning you must challenge it manually.
 
     ??? image "Quick Battle Button Location"
         ![Quick Battle Button Location](../assets/images/fiend-hunter/quick_battle.avif)
@@ -181,49 +182,50 @@ Similar to Season Events, Fiend Hunter has **Clear** (Kill) Rewards and **Challe
 * **Clear Rewards** contain {{Draw_Ticket}} **Draw Tickets**, {{Tear_of_Goddess}} **Tears of Goddess**, {{Refining_Powder}} **Refining Powder** and {{Gold}} **Gold**.
 * **Challenge Rewards** contain **Event Currency**.
 
-Similar to the Damage behavior, you can obtain Challenge Rewards once per day per Difficulty Level. This means you automatically gain the Challenge Rewards for Levels $1 - 10$ upon clearing them all at once, alongside the Level $11$ reward on the first day, as shown in the previous example.
+Similar to the Damage behavior, you can obtain Challenge Rewards once per day per Difficulty Level. This means you automatically gain the Challenge Rewards for Levels 1 - 10 upon clearing them all at once, alongside the Level 11 reward on the first day, as shown in the previous example.
 
 <div class="tab-align" markdown>
 
 === "Clear Rewards"
 
-    * Level $1$: $3$ {{Draw_Ticket}} **Draw Tickets**
-    * Level $2$: $3$ {{Draw_Ticket}} **Draw Tickets**
-    * Level $3$: $3$ {{Draw_Ticket}} **Draw Tickets**
-    * Level $4$: $3$ {{Draw_Ticket}} **Draw Tickets**
-    * Level $5$: $3$ {{Draw_Ticket}} **Draw Tickets**
-    * Level $6$: $3$ {{Draw_Ticket}} **Draw Tickets**
-    * Level $7$: $3$ {{Draw_Ticket}} **Draw Tickets**
-    * Level $8$: $3$ {{Draw_Ticket}} **Draw Tickets**
-    * Level $9$: $3$ {{Draw_Ticket}} **Draw Tickets**
-    * Level $10$: $3$ {{Draw_Ticket}} **Draw Tickets** & 1 {{Tear_of_Goddess}} **Tear of Goddess**
-    * Level $11$: $50\text{K}$ {{Gold}} **Gold** & $30\text{K}$ {{Refining_Powder}} **Refining Powder**
-    * Level $12$: $50\text{K}$ {{Gold}} **Gold** & $30\text{K}$ {{Refining_Powder}} **Refining Powder**
-    * Level $13$: $50\text{K}$ {{Gold}} **Gold** & $30\text{K}$ {{Refining_Powder}} **Refining Powder**
-    * Level $14$: $50\text{K}$ {{Gold}} **Gold** & $30\text{K}$ {{Refining_Powder}} **Refining Powder**
-    * Level $15$: $50\text{K}$ {{Gold}} **Gold** & $30\text{K}$ {{Refining_Powder}} **Refining Powder**
+    * Level 1: 3 {{Draw_Ticket}} **Draw Tickets**
+    * Level 2: 3 {{Draw_Ticket}} **Draw Tickets**
+    * Level 3: 3 {{Draw_Ticket}} **Draw Tickets**
+    * Level 4: 3 {{Draw_Ticket}} **Draw Tickets**
+    * Level 5: 3 {{Draw_Ticket}} **Draw Tickets**
+    * Level 6: 3 {{Draw_Ticket}} **Draw Tickets**
+    * Level 7: 3 {{Draw_Ticket}} **Draw Tickets**
+    * Level 8: 3 {{Draw_Ticket}} **Draw Tickets**
+    * Level 9: 3 {{Draw_Ticket}} **Draw Tickets**
+    * Level 10: 3 {{Draw_Ticket}} **Draw Tickets** & 1 {{Tear_of_Goddess}} **Tear of Goddess**
+    * Level 11: 50K {{Gold}} **Gold** & 30K {{Refining_Powder}} **Refining Powder**
+    * Level 12: 50K {{Gold}} **Gold** & 30K {{Refining_Powder}} **Refining Powder**
+    * Level 13: 50K {{Gold}} **Gold** & 30K {{Refining_Powder}} **Refining Powder**
+    * Level 14: 50K {{Gold}} **Gold** & 30K {{Refining_Powder}} **Refining Powder**
+    * Level 15: 50K {{Gold}} **Gold** & 30K {{Refining_Powder}} **Refining Powder**
 
     ---
 
-    * Total: 
-        * $30$ {{Draw_Ticket}} **Draw Tickets**
-        * $150\text{K}$ {{Refining_Powder}} **Refining Powder**
-        * 1 {{Tear_of_Goddess}} **Tear of Goddess**
-        * $250\text{K}$ {{Gold}} **Gold**
+    Total: 
+
+    * 30 {{Draw_Ticket}} **Draw Tickets**
+    * 150K {{Refining_Powder}} **Refining Powder**
+    * 1 {{Tear_of_Goddess}} **Tear of Goddess**
+    * 250K {{Gold}} **Gold**
 
     ---
 
-    * Level $16$: $50\text{K}$ {{Gold}} **Gold**
-    * Level $17$: $50\text{K}$ {{Gold}} **Gold**
-    * $\dots$
+    * Level 16: 50K {{Gold}} **Gold**
+    * Level 17: 50K {{Gold}} **Gold**
+    * ...
 
 === "Challenge Rewards"
 
-    * Level $1$: $1000$ **Event Currency**
-    * Level $2$: $1100$ **Event Currency**
-    * Level $3$: $1200$ **Event Currency**
-    * Level $4$: $1300$ **Event Currency**
-    * $\dots$
+    * Level 1: 1000 **Event Currency**
+    * Level 2: 1100 **Event Currency**
+    * Level 3: 1200 **Event Currency**
+    * Level 4: 1300 **Event Currency**
+    * ...
 </div>
 
 ---
@@ -232,18 +234,18 @@ Similar to the Damage behavior, you can obtain Challenge Rewards once per day pe
 
 Since Fiend Hunter is a competitive [PvE](../misc/slang.md/?term=PvE) game mode, it features a ranking system.
 
-Rankings are determined by the **remaining Boss HP percentage**, accurate up to $0.01\%$, and rewards are distributed once the season is over.
+Rankings are determined by the **remaining Boss HP percentage**, accurate up to 0.01%, and rewards are distributed once the season is over.
 
 !!! abstract "Ranking Rewards"
-    * Rank $1$: $5$ {{Draw_Ticket}} **Draw Tickets** & $300$ {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 4"** sticker & **Boss Gold Trophy**
-    * Rank $2 - 10$: $5$ {{Draw_Ticket}} **Draw Tickets** & $300$ {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 3"** sticker & **Boss Silver Trophy**
-    * Rank $11 - 100$: $5$ {{Draw_Ticket}} **Draw Tickets** & $300$ {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 2"** sticker & **Boss Bronze Trophy**
-    * Rank $101 - 1000$: $4$ {{Draw_Ticket}} **Draw Tickets** & $300$ {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 1"** sticker & **Boss Tarnished Bronze Trophy**
-    * Rank $101 -$ Top $5\%$: $3$ {{Draw_Ticket}} **Draw Tickets** & $250$ {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 1"** sticker
-    * Top $5.1\% - 10\%$: $3$ {{Draw_Ticket}} **Draw Tickets** & $200$ {{Refining_Crystal}} **Refining Crystals**
-    * Top $10.1\% - 30\%$: $3$ {{Draw_Ticket}} **Draw Tickets** & $150$ {{Refining_Crystal}} **Refining Crystals**
-    * Top $30.1\% - 50\%$: $3$ {{Draw_Ticket}} **Draw Tickets** & $100$ {{Refining_Crystal}} **Refining Crystals**
-    * Top $50.1\% - 100\%$: $3$ {{Draw_Ticket}} **Draw Tickets** & $50$ {{Refining_Crystal}} **Refining Crystals**
+    * Rank 1: 5 {{Draw_Ticket}} **Draw Tickets** & 300 {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 4"** sticker & **Boss Gold Trophy**
+    * Rank 2 - 10: 5 {{Draw_Ticket}} **Draw Tickets** & 300 {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 3"** sticker & **Boss Silver Trophy**
+    * Rank 11 - 100: 5 {{Draw_Ticket}} **Draw Tickets** & 300 {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 2"** sticker & **Boss Bronze Trophy**
+    * Rank 101 - 1000: 4 {{Draw_Ticket}} **Draw Tickets** & 300 {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 1"** sticker & **Boss Tarnished Bronze Trophy**
+    * Rank 101 - Top 5\%: 3 {{Draw_Ticket}} **Draw Tickets** & 250 {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 1"** sticker
+    * Top 5.1\% - 10%: 3 {{Draw_Ticket}} **Draw Tickets** & 200 {{Refining_Crystal}} **Refining Crystals**
+    * Top 10.1\% - 30%: 3 {{Draw_Ticket}} **Draw Tickets** & 150 {{Refining_Crystal}} **Refining Crystals**
+    * Top 30.1\% - 50%: 3 {{Draw_Ticket}} **Draw Tickets** & 100 {{Refining_Crystal}} **Refining Crystals**
+    * Top 50.1\% - 100%: 3 {{Draw_Ticket}} **Draw Tickets** & 50 {{Refining_Crystal}} **Refining Crystals**
 
 ---
 
@@ -263,7 +265,7 @@ You can spot a Break Season by checking in-game notifications or noticing the "B
 After some time, a **Return Season** will be introduced, featuring the same Boss.
 
 !!! tip "...Even if this is a Break Season..."
-    ...you still should fight the Boss on a daily basis.
+    ...you still should fight the Boss daily.
 
     * You still get all resources from **Clear Rewards**.
     * You also gain **Event Currency** that will **not** be obtainable during the **Return Season**, so you will want to clear out the [Event Shop](events.md/#event-shop).
@@ -274,7 +276,7 @@ The **Return Season** is a rerun of the **Break Season** after the bug fix.
 
 There is no fixed amount of time between the Break and Return Seasons. It also runs independently of the regular Fiend Hunter cycle. That means you should check **Maintenance / Developer Notes** for their schedule (if any).
 
-Similar to the Break Season, the Return one also has a label in the menu. Additionally, you can access the rerun season via the **Home Screen**.
+Similar to the Break Season, the Return Season also has a label in the menu. Additionally, you can access the rerun season via the **Home Screen**.
 
 !!! image "Return Season & Access Guide"
     ![Return Season](../assets/images/fiend-hunter/return-season.avif)
@@ -282,7 +284,7 @@ Similar to the Break Season, the Return one also has a label in the menu. Additi
 
 Since this is a rerun, **no Preparation Period is given**; instead, it starts directly from the **Hunting Period** and lasts **for the entire duration of the current Fiend Hunter Boss's Preparation Period**.
 
-This ensures you do not have two Boss fights on a daily basis, but essentially forces you to attack different Bosses for three weeks straight *(Hunting Period of the Boss №1 &rarr; Preparation Period of the Boss №2 & Hunting Period for the Return Season &rarr; Hunting Period of the Boss №2)*.
+This ensures you do not have two Boss fights daily, but essentially forces you to attack different Bosses for three weeks straight *(Hunting Period of the Boss №1 &rarr; Preparation Period of the Boss №2 & Hunting Period for the Return Season &rarr; Hunting Period of the Boss №2)*.
 
 #### Ban System
 
@@ -301,7 +303,7 @@ If all of a Companion's costumes are banned, they cannot be deployed for battle.
     ![Ban System in Action](../assets/images/fiend-hunter/ban_system_1.avif)
 
 !!! tip "...Even if this is a Return Season..."
-    ...you still should fight the Boss on a daily basis.
+    ...you still should fight the Boss daily.
 
     * You still get all resources from **Clear Rewards**, **even if you claimed them during the Break Season**.
 

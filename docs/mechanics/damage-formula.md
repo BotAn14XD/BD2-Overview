@@ -1,12 +1,15 @@
 ---
 comments: true
+hero: assets/images/site-assets/index-pc-nav-3.avif
 ---
-# Damage Formula — Brown Dust II
+
+![Damage Formula](../assets/images/site-assets/index-pc-nav-3.avif){: .card-header-img fetchpriority=high loading=eager }
+#
 
 !!! abstract "TL;DR"
     The Damage Formula consists of a few multipliers, the main of which are {{ATK}} $\text{\textcolor{ffe8aa}{ATK}}$ / {{MATK}} $\text{\textcolor{ffa6ff}{MATK}}$ and its Buffs, {{CritDMG}} $\text{\textcolor{white}{CDMG}}$ and its buffs, $\text{\textcolor{8A9A5B}{Property Damage}}$, $\text{Vulnerability}$ with $\text{DMG Increase}$ Buffs, and, lastly, $\text{Chains}$.
 
-    Within each of these multipliers, buffs are additive, meaning, if you want to reach more damage, you must **use different buff categories**. 
+    Within each of these multipliers, buffs are additive, meaning if you want to reach more damage, you must **use different buff categories**. 
 
     Stacking a lot of {{ATK}} **ATK**{.yellow} buffs generally loses to a single {{ATK}} **ATK**{.yellow} buff combined with $\text{Vulnerability}$ and some $\text{Chains}$. Keep this in mind when constructing a team.
 
@@ -90,7 +93,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     $\vec{\tilde{\text{v}}} = \begin{pmatrix}\text{\textcolor{ffe8aa}{DEF}} & \text{\textcolor{ffa6ff}{MRES}} \end{pmatrix}$
 
-    $\vec{\tilde{\text{s}} = \begin{pmatrix}\delta\text{\textcolor{ffe8aa}{Physical}} & \delta\text{\textcolor{ffa6ff}{Magical}} \end{pmatrix}$
+    $\vec{\tilde{\text{s}}} = \begin{pmatrix}\delta\text{\textcolor{ffe8aa}{Physical}} & \delta\text{\textcolor{ffa6ff}{Magical}} \end{pmatrix}$
 
     $\vec{\text{b}}_\text{i}^{\text{(def)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{DEF}}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MRES}}}\end{pmatrix}$
 
@@ -103,7 +106,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     $\text{PR} = \begin{pmatrix}0 & 1 & -1 & 0 & 0 & 0 \\ -1 & 0 & 1 & 0 & 0 & 0 \\ 1 & -1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 & 0\end{pmatrix}$
     
     $\vec{\text{pr}}^\text{(off)} = \begin{pmatrix}\delta\text{Water} & \delta\text{Fire} & \delta\text{Wind} & \delta\text{Light} & \delta\text{Darkness} & \delta\text{Neutral}\end{pmatrix} \\\\
-    \vec{\text{pr}}^\text{(def)} = \begin{pmatrix}\text{\delta\text{Water}} & \delta\text{Fire} & \delta\text{Wind} & \delta\text{Light} & \delta\text{Darkness} & \delta\text{Neutral}\end{pmatrix}$
+    \vec{\text{pr}}^\text{(def)} = \begin{pmatrix}\delta\text{Water} & \delta\text{Fire} & \delta\text{Wind} & \delta\text{Light} & \delta\text{Darkness} & \delta\text{Neutral}\end{pmatrix}$
 
     $\vec{\text{b}}_\text{i}^{\text{(pr)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{Water}} & \text{b}_{\text{i}}^{\text{Fire}} & \text{b}_{\text{i}}^{\text{Wind}} & \text{b}_{\text{i}}^{\text{Light}} & \text{b}_{\text{i}}^{\text{Darkness}} & \text{b}_{\text{i}}^{\text{Neutral}} \equiv 0 \end{pmatrix}$
 
@@ -660,7 +663,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     ---
     As mentioned above, these debuffs are not very widely used, especially since a lot of bosses have Weakening immunity or you can sustain just fine, while in PvP there are buffs pretty much nullifying your debuffs. 
 
-    However, it is worth mentioning that there are Story Pack fights such as **Partan** (Story Pack 11) and **Nox** (Story Pack 12), where you can use **Gynt** and **Remnunt** to extend fight to Death Time, where you will deal increased damage to the boss.
+    However, it is worth mentioning that there are Story Pack fights such as **Partan** (Story Pack 11) and **Nox** (Story Pack 12), where you can use **Gynt** and **Remnunt** to extend the fight to Death Time, where you will deal increased damage to the boss.
 
     ---
         
@@ -756,7 +759,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     {{CritDMG}} **Crit Damage** matters when a character **crits**, meaning it is essential to have a high {{CritRate}} **Crit Rate** or guarantee it via other methods.
 
     !!! example "{{CritRate}} Crit Rate"
-        {{CritRate}} **Crit Rate** is additive, similar to other buffs within same multiplier: 
+        {{CritRate}} **Crit Rate** is additive, similar to other buffs within the same multiplier: 
 
         $\text{\textcolor{white}{Crit Rate\%} Total Buff =  \textcolor{white}{Crit Rate\%} Inherent + \textcolor{white}{Crit Rate\%} Gear} + [\text{\textcolor{white}{Crit Rate\%} Buff 1} + \dots] \times [100\% - \text{Pressure\%}] $
 
@@ -764,7 +767,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ---
 
-    $\text{\textcolor{white}{CDMG\%}}$ addend refers to the sum of inherent, gear and bonding {{CritDMG}} **Crit Damage**:
+    $\text{\textcolor{white}{CDMG\%}}$ addend refers to the sum of inherent, gear, and bonding {{CritDMG}} **Crit Damage**:
     
     $\text{\textcolor{white}{CDMG\%}} = \text{Character's Base \textcolor{white}{CDMG\%}} + \text{Gear \textcolor{white}{CDMG\%}} + \text{ Potential \textcolor{white}{CDMG\%}}$
 
@@ -1030,15 +1033,15 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     </div>
 
 === "$\text{Chains}$"
-    The **Chain** system is a mechanic that increases damage with each repetitive hit on the same tile / enemy.
+    The **Chain** system is a mechanic that increases damage with each repetitive hit on the same tile/enemy.
     
-    Generally speaking, each hit generates 1 chain by default, with the possibility to increase the amount by applying **Chain Reinforcement** status effect:
+    Generally speaking, each hit generates 1 chain by default, with the possibility to increase the amount by applying the **Chain Reinforcement** status effect:
 
     $\text{Chain Per Hit} = 1 + \text{Amount of Applied Chain Reinforcements}$
 
     ---
 
-    Each **Chain** increases damage by 10% by default, however there is an effect called **Increased Chain DMG**, which increases that value further.
+    Each **Chain** increases damage by 10% by default; however, there is an effect called **Increased Chain DMG**, which increases that value further.
 
     ---
 
@@ -1369,19 +1372,19 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 === "$\text{DMG Increase\%}$"
     $\text{DMG Increase\%}$ Buffs are buffs that technically act as a reverse [**Vulnerability**](#__tabbed_1_8), increasing **your own characters'** damage instead of forcing the enemy to take more damage.
 
-    So far, all these buffs are called **Augmentation**, which you can think of as a buff with conditions. The condition can be either related to chains, the number of times getting hit or the number of debuffs being removed from allies. 
+    So far, all these buffs are called **Augmentation**, which you can think of as a buff with conditions. The condition can be either related to chains, the number of times getting hit, or the number of debuffs being removed from allies. 
 
     In other words, it is similar to Conditional [$\text{Skill\%}$](#__tabbed_1_2) in a way.
 
     ---
 
-    As always, this type of buffs from different sources is additive:
+    As always, this type of buff from different sources is additive:
 
     $ \text{Total DMG Increase\%} = \text{DMG Increase\% 1} + \text{DMG Increase\% 2} + \dots$
 
     ---
 
-    However, since these buffs belong to the same bracket as **Vulnerability**, note that high Vulnerability will decrease efficiency of these buffs. 
+    However, since these buffs belong to the same bracket as **Vulnerability**, note that high Vulnerability will decrease the efficiency of these buffs. 
 
     ---
 
@@ -1477,7 +1480,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         </table>
     </div>
 
-=== "$\text{Property}}$"
+=== "$\text{Property}$"
     Property is another aspect of any character. There are a total of 6 Properties: ![Water](../assets/images/battle-system/icons/elementicon1_1.avif){.icon} Water, ![Fire](../assets/images/battle-system/icons/elementicon2_2.avif){.icon} Fire, ![Wind](../assets/images/battle-system/icons/elementicon3_3.avif){.icon} Wind, ![Light](../assets/images/battle-system/icons/elementicon4_4.avif){.icon} Light, ![Darkness](../assets/images/battle-system/icons/elementicon5_5.avif){.icon} Darkness and ![Neutral](../assets/images/battle-system/icons/elementicon6_6.avif){.icon} Neutral.
 
     Depending on the opponent, there can be 3 outcomes: 
@@ -1493,7 +1496,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ---
 
-    $\text{\textcolor{8A9A5B}{Property Damage\%}}$ in the formula refers to the **character's own** Property Damage. Usually it consists of the initial, awakening and [bond](../progression/potentials.md) ones:
+    $\text{\textcolor{8A9A5B}{Property Damage\%}}$ in the formula refers to the **character's own** Property Damage. Usually it consists of the initial, awakening, and [bond](../progression/potentials.md) ones:
 
     $\text{\textcolor{8A9A5B}{Property Damage\%}} = 50\% + \text{\textcolor{8A9A5B}{Property Damage\%} from Awakening} + \text{\textcolor{8A9A5B}{Property Damage\%} from Bond}$
 
@@ -1809,9 +1812,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     </div>
 
 === "$\text{DMG Reduction}$"
-    $\text{DMG Reduction}$ is a separate buff that decreases incoming damage, similar to {{DEF}} $\text{\textcolor{ffe8aa}{DEF}}$ and {{MRES}} $\text{\textcolor{ffa6ff}{MRES}}$, but working in a different way.
+    $\text{DMG Reduction}$ is a separate buff that decreases incoming damage, similar to {{DEF}} $\text{\textcolor{ffe8aa}{DEF}}$ and {{MRES}} $\text{\textcolor{ffa6ff}{MRES}}$, but working differently.
 
-    It's more known as a **Barrier** buff, being part of the skillset for multiple costumes in the game.
+    It's more commonly known as a **Barrier** buff, being part of the skillset for multiple costumes in the game.
 
     ---
 
@@ -1822,7 +1825,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     = (100\% - \text{Target's DMG Reduction\% Buff 1}) \times \\\\
     \times \; (100\% - \text{Target's DMG Reduction\% Buff 2}) \times \dots$
 
-    For example, combining 2 Barriers of $70\%$ and $50\%$ will essentially give you $85\%$ Barrier.
+    For example, combining 2 Barriers of $70\%$ and $50\%$ will essentially give you an $85\%$ Barrier.
 
     This system ensures that a barrier can never achieve $100\%$, meaning some damage will go through anyway. 
 
@@ -2070,6 +2073,6 @@ Every 2 turns, each side receives
 These (de)buffs follow the exact rules as described above, going into each of the brackets seamlessly.
 
 ### Environmental Effects
-In [**Evil Castle**](../content-packs/evil-castle.md), especially **Tower of Jealousy** and **Tower of Wrath**, there are effects taking place that affect some stats, such as  **Pressure**, {{CritRate}} **Crit Rate** and more.
+In [**Evil Castle**](../content-packs/evil-castle.md), especially **Tower of Jealousy** and **Tower of Wrath**, there are effects taking place that affect some stats, such as  **Pressure**, {{CritRate}} **Crit Rate**, and more.
 
-Refer to the [**Evil Castle**](../content-packs/evil-castle.md) page for the more detailed explanation.
+Refer to the [**Evil Castle**](../content-packs/evil-castle.md) page for a more detailed explanation.
