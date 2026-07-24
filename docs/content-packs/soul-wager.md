@@ -668,7 +668,7 @@ Each Unit has a distinct **Grade** and set of **Tags**. While a Unit's **Grade**
     * {{Heal}} **Heal**: Heal Characters have the ability to restore HP.
     * {{Curse}} **Curse**: Curse Characters apply Debuffs to the opponent.
     * {{Long_Range_Attack}} **Long-Range Attack**: This Character performs a long-range attack upon every cooldown reset.
-    * {{Cleanse}} **Cleanse**: Cleanse Characters remove Debuffs from themselves.
+    * {{Cleanse}} **Cleanse**: Cleanse Characters remove Debuffs on yourself.
     * {{Remove}} **Remove**: Remove Characters remove Buffs on the opponent.
 
 Every **attacking** unit has a few key stats:
