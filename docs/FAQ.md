@@ -87,7 +87,7 @@ card_type: summary
     * **New Hire Seir ({{Darkness}} Darkness)** (until +5)
     * **Shadowed Bunny Eleaneer ({{Darkness}} Darkness)** (until +4)
 
-    By the time you need more replacements, better to ask for personal advice in the [Discord Server](https://discord.gg/browndust2).
+    By the time you need more replacements, better to ask for personal advice in the [Discord Server](https://discord.gg/pHtsuymd3c).
 
 ??? question "Who to pick from Recommended ★5 Costume Selective Ticket? {{ share_btn('str') }}"
     Generally, it depends on who you have from those tickets beforehand.
@@ -115,7 +115,7 @@ card_type: summary
 
     ---
      
-    If you are not sure, it is always better to ask in a [Discord Server](https://discord.gg/browndust2).
+    If you are not sure, it is always better to ask in a [Discord Server](https://discord.gg/pHtsuymd3c).
 
 ??? question "How do Property Tickets work? Who do I pick? {{ share_btn('proptix') }}" 
     [Property Selective Draw Exchange Ticket](misc/slang.md/?term=Property Selective Draw Exchange Ticket) allows you to choose a [Property](misc/slang.md/?term=Property) and receive a **random** ★5 Costume from the chosen Property. 
@@ -154,7 +154,7 @@ card_type: summary
     * **[The Curse Celia](https://browndust2.miraheze.org/wiki/Celia/The_Curse) — Random Appearance**
 
     The remaining Costumes are either [DPS](misc/slang.md/?term=DPS) or Low Priority / Niche picks. It's up to you what to follow afterwards. 
-    Alternatively, ask in a [Discord Server](https://discord.gg/browndust2) or follow the $/ \text{pub}$ command there.
+    Alternatively, ask in a [Discord Server](https://discord.gg/pHtsuymd3c).
 
 ??? question "What to buy from Event Shop? {{ share_btn('eshop') }}"
     ![Event Shop Recommendations](assets/images/season-event/eshop_prio.avif)

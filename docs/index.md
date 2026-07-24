@@ -174,6 +174,14 @@ This site is a work in progress, focusing on high-quality explanations for every
 
 </div>
 
+<div class="grid cards center-content" markdown>
+-   ![Compendium Discord](assets/images/site-assets/index-pc-nav-12.avif){: .card-header-img }
+
+    ---
+
+    [Go to Compendium Discord →](https://discord.gg/pHtsuymd3c){: .md-button }
+
+</div>
 
 <div class="grid cards center-content" markdown>
 -   ![GitHub Repository](assets/images/site-assets/index-pc-nav-10.avif){: .card-header-img }
@@ -188,11 +196,11 @@ This site is a work in progress, focusing on high-quality explanations for every
 
     [Check the Game Data →](https://docs.google.com/spreadsheets/d/14S1ry3hblNeOZgmkk3VLdjNv8LERnrdzQ26V-ecc5Yk/edit?gid=0#gid=0){: .md-button }
 
--   ![Official Discord](assets/images/site-assets/index-pc-nav-11.avif){: .card-header-img }
+<!-- -   ![Official Discord](assets/images/site-assets/index-pc-nav-11.avif){: .card-header-img }
 
     ---
 
-    [Go to Official Discord →](https://discord.gg/browndust2){: .md-button }
+    [Go to Official Discord →](https://discord.gg/browndust2){: .md-button } -->
 
 -   ![Wiki](assets/images/site-assets/index-pc-nav-15.avif){: .card-header-img }
 
@@ -206,6 +214,10 @@ This site is a work in progress, focusing on high-quality explanations for every
 
     [Check the Database →](https://browndust2-db.souseha.com/en){: .md-button }
 
+</div>
+
+<div class="grid cards center-content" markdown>
+
 -   ![Cymmina's Website](assets/images/site-assets/index-pc-nav-17.avif){: .card-header-img }
 
     ---
@@ -215,14 +227,7 @@ This site is a work in progress, focusing on high-quality explanations for every
 
 </div>
 
-<div class="grid cards center-content" markdown>
--   ![Compendium Discord](assets/images/site-assets/index-pc-nav-12.avif){: .card-header-img }
 
-    ---
-
-    [Go to Compendium Discord →](https://discord.gg/pHtsuymd3c){: .md-button }
-
-</div>
 
 <style>
 .md-typeset a[target="_blank"]::after,
