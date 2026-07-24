@@ -503,7 +503,7 @@ The whole crafting guide essentially comes down to your current needs. Here's an
         !!! question "How do I decide what exactly to craft?"
             Decide by the team you're running. A proper team utilizes either {{Physical}} **Physical**{.yellow} or {{Magical}} **Magical**{.magenta} Damage type.
 
-            * If you utilize both damage types, it is better to ask for help in [**Discord**](https://discord.gg/browndust2), since it's most likely not a good one. 
+            * If you utilize both damage types, it is better to ask for help in [**Discord**](https://discord.gg/pHtsuymd3c), since it's most likely not a good one. 
             
             <br>
             When it comes down to the {{Weapon}} **Weapon**, it means crafting {{ gear("Evil Dragon's Blade", "III") }} for the {{Physical}} **Physical**{.yellow} DPS and {{ gear("Travel God's Friend", "III") }} for the {{Magical}} **Magical**{.magenta} one.
@@ -712,6 +712,5 @@ It is worth mentioning that **Damage** isn't the actual Damage you will deal in-
 * [Character Builds — dotgg.gg](https://dotgg.gg/brown-dust-2/characters/) *(no longer maintained, outdated after 02.07.2026 update)*
 * [Alternative Gear Calculator by <u>Kane</u>](https://docs.google.com/spreadsheets/d/1-NAV4NWIWbzjgljz04iG1i8AETjU_S9YPm4QzJ_NRCY/edit?usp=sharing) *(no longer maintained)*
 * [BD2 - The Tourist's Sheet](https://docs.google.com/spreadsheets/d/1E8eaUt-rgjAdunxYQPMDgqdI3-vE1S3MGfg0e_uNFc0/edit?usp=sharing) *(no longer maintained)*
-* [Official Brown Dust II Discord](https://discord.gg/browndust2)
 
 <!--{{ gear_table() }}-->

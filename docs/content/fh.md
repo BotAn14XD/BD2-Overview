@@ -346,4 +346,3 @@ Since figuring out the best strategy for Fiend Hunter can be tricky for the aver
 * [<u>Shimonami しもなみ</u> | YouTube](https://www.youtube.com/@Shimonami)
 * [Formation Templates | Brown Dust II Database by <u>Souseha</u>](https://browndust2-db.souseha.com/en/formation/list)
 * [Arca Live Forum](https://arca.live/b/browndust2/)
-* [Official Brown Dust II Discord](https://discord.gg/browndust2)
