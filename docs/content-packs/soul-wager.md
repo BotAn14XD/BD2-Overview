@@ -29,7 +29,7 @@ The Soul Wager is **seasonal** content, with each season lasting **8** weeks. Du
 
 To do that, you must purchase **Tiles**, **Units** and **Gear** from the **Soul Wager in-battle Shop**, place them on the **Main Field**, and start the **automated** battle.
 
-For any Victory or Defeat, you receive {{ Soul_Token }} **Soul Tokens** to continue your run (10 {{Soul_Token}} for a loss and 14 {{Soul_Token}} for a victory).
+For any Victory or Defeat, you receive {{ Soul_Token }} **Soul Tokens** to continue your run (10 {{ Soul_Token }} for a loss and 14 {{ Soul_Token }} for a victory).
 
 If you are defeated, the Battle Shop refreshes and the reroll counter resets, giving you a clean slate of options to try on your next attempt. However, if you lose all 5 of your {{ Life_Count }} Attempts (Defeats), the current Board completely resets, sending you back to Phase 1.
 
@@ -77,7 +77,7 @@ After each battle, the Battle Shop is refreshed, regardless of the outcome of th
 
 Each board piece has an equal chance to appear within the **same Grade**; however, the chances of drawing a specific **Grade** heavily depend on the **Stage Phase** and the **Board**.
 
-* For example, **Tainted Hunting Grounds** *(Board 5)* **Stage Phase 1** can only have **Normal** and **Rare** Grades (with 83.33% and 16.66% respectively), while **Stage Phase 15** offers all 6 Grades with equal chance of 16.66%.
+* For example, **Tainted Hunting Grounds** *(Board 5)* **Stage Phase 1** can only have **Normal** and **Rare** Grades (with 83.33% and 16.66% respectively), while **Stage Phase 15** offers all 6 Grades with an equal chance of 16.66%.
 
 ??? image "The Battle Shop Image"
     ![The Battle Shop Image](../assets/images/soul-wager/shop.avif)
@@ -597,12 +597,12 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
     Some deals may feature a **reduced** price.
 
     * The chance of a discount is 10%.
-    * The discount is calculated as $\text{round}(0.5 x \text{Price})$, providing roughly a 50% discount.
+    * The discount is calculated as $\text{round}(0.5 \times \text{Price})$, providing roughly a 50% discount.
     * Calculated prices are always rounded up.
-        * For example, **Lathel - Homunculus** with the discount (0.5 x 5 = 2.5) will cost **3** instead.
+        * For example, **Lathel - Homunculus** with the discount (0.5 × 5 = 2.5) will cost **3** instead.
 
 !!! abstract "Reroll"
-    If you don't like the shop deals, you can **Reroll** the shop, using {{ Soul_Token }} **Soul Tokens**.
+    If you don't like the shop deals, you can **Reroll** the shop using {{ Soul_Token }} **Soul Tokens**.
     
     The Reroll button is located at the bottom right part of the screen.
 
@@ -617,9 +617,9 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
     ??? image "Different Selling Options"
         ![Different Selling Options](../assets/images/soul-wager/sell_options.avif)
 
-    * Selling price is calculated as $\text{round}(0.5 x \text{Purchase Price})$, which means Unit upgrades do not increase the Price.
+    * Selling price is calculated as $\text{round}(0.5 \times \text{Purchase Price})$, which means Unit upgrades do not increase the Price.
     * Rounding is always **down**, but the price cannot be less than 2, with the **Protection Tile** being the only exception, which has a selling price of 1.
-        * For example, **Lathel - Homunculus** (0.5 x 5 = 2.5) will give **2** instead, but Arines - Priest of Vitality (0.5 x 3 = 1.5) will give **2**, compared to the 1 she was supposed to give.
+        * For example, **Lathel - Homunculus** (0.5 × 5 = 2.5) will give **2** instead, but Arines - Priest of Vitality (0.5 × 3 = 1.5) will give **2**, compared to the 1 she was supposed to give.
 
 ### Storage
 
@@ -704,8 +704,8 @@ Additionally, certain Units generate **Buffs** for the team or **Debuffs** for t
 
     * {{Poison}} | {{Poison2}} **Poison**: For every stack, takes 1 DMG every 2s.
     * {{Frost}} | {{Frost2}} **Frost**: For every stack, reduces Action Speed of all Characters by 2%
-    * {{DarknessSW}} | {{Darkness2}} **Darkness**: For every stack, reduces Accuracy Rate of all Characters by 5%.
-    * {{Laceration}} | {{Laceration2}} **Laceration**: For every stack, increases Stamina Cost of Attacking Characters by 2%.
+    * {{DarknessSW}} | {{Darkness2}} **Darkness**: For every stack, reduces the Accuracy Rate of all Characters by 5%.
+    * {{Laceration}} | {{Laceration2}} **Laceration**: For every stack, increases the Stamina Cost of Attacking Characters by 2%.
 
 !!! abstract "Units Upgrading"
 
@@ -762,7 +762,7 @@ The damage scales every 3 seconds upward according to the following logic:
 
     $$
     \text{Damage} = \left\lfloor\frac{\text{Current Battle Time}}{3}\right\rfloor - 6, \: 20 \le \text{Current Battle Time} \le 48 \\
-    \text{Damage} = \left\lceil 1.11^{\left\lfloor\frac{\text{Current Battle Time}}{3}\right\rfloor + 6}\right\rceil, \text{Current Battle Time} \ge 48
+    \text{Damage} = \left\lceil 1.11^{\left\lfloor\frac{\text{Current Battle Time}}{3}\right\rfloor + 6}\right\rceil, \: \text{Current Battle Time} \ge 48
     $$
 
 ---
@@ -773,7 +773,7 @@ Boards 1 — 3 don't require a specific strategy, since the enemy isn't that str
 
 When it comes to Boards 4 — 5, the easiest strategy revolves around using 1-2 copies of **Ingrid - Kardis' Bullet** alongside **Lathel - Homunculus** to buff Ingrid.
 
-The goal is to burst down the enemy before passive effects like {{Lifesteal2}} **Lifesteal** or {{Poison2}} **Poison** can influence the match, thanks to Ingrid's very low cooldown and double attack each Cooldown.
+The goal is to burst down the enemy before passive effects like {{Lifesteal2}} **Lifesteal** or {{Poison2}} **Poison** can influence the match, thanks to Ingrid's very low cooldown and double attack per cooldown.
 
 Since **Lathel - Homunculus** is of **Rare** Grade, and **Ingrid - Kardis' Bullet** is of **Basic** Grade, you can theoretically get both from the start of your run.
 
