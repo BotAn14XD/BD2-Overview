@@ -203,7 +203,7 @@ To do the reroll, press the **Option Refinement** button. After that, you're giv
 !!! example "Locking Stats"
     Rerolling and praying to get 3 or 4 desired stats at once can be a lot to ask. With that in mind, you can **lock** the desired stat to prevent it from being rerolled. 
     
-    To do that, press the[Lock Icon](../assets/images/gear-system/icons/icon_lock.avif){.icon} **Lock Icon** on the left of the stat. Keep in mind that **this will increase currency consumption by the base amount for each stat locked, reaching x4 the price for 3 stats locked**.
+    To do that, press the ![Lock Icon](../assets/images/gear-system/icons/icon_lock.avif){.icon} **Lock Icon** on the left of the stat. Keep in mind that **this will increase currency consumption by the base amount for each stat locked, reaching x4 the price for 3 stats locked**.
     ??? image "**Price Dependency based on the amount of locked stats**"
         ![Price Dependency](../assets/images/gear-system/price_dependency.avif)
 
@@ -230,7 +230,7 @@ In the **Season Event Shop**, you can obtain special gear. It is essentially {{U
 ??? image "**Event Shop Menu; White border shows gears, yellow shows Upgrading material**"
     ![Eshop Menu](../assets/images/gear-system/eshop.avif)
 
-* Event Gear has no Roman number representing tier, but, as established earlier, it is Tier {{III}} due to the number of stars.
+* Event Gear has no Roman numeral representing tier, but, as established earlier, it is Tier {{III}} due to the number of stars.
 * Event Gear does **not** require {{Gold}} **Gold** for upgrading its level. Instead, it uses a **corresponding Upgrading material** (different for each gear), and **has no fail chance**.
     * {{UR_Grade}} **Gear** uses **3** currency per level upgrade. (Total: **27**)
     * {{SR_Grade}} **Gear** uses **1** currency per level upgrade. (Total: **9**)
@@ -248,7 +248,7 @@ Except for things mentioned above, Gear is **identical** to the gear of the same
     materials**. 
 
     You can keep buying them until the end game since they are better than craftable {{UR_Grade}} {{III}} for **Support Bonus** of **Last Night**.
-    ??? image "**Quick Event Shop Priority Guide**."
+    ??? image "**Quick Event Shop Priority Guide**"
         ![Event Shop Reccomendations](../assets/images/season-event/eshop_prio.avif)
     {{ redirect_btn('content/events/', 'Learn more about Season Event', '#5ad7d7') }} 
 
@@ -260,7 +260,7 @@ Except for things mentioned above, Gear is **identical** to the gear of the same
 As its name might suggest, this type of gear **can only be equipped on a specific character this gear is suitable for**. Similar to Event Gear, it also slightly differs from craftable gear. 
 
 * <u>Each Exclusive gear gets an **Exclusive Attribute**, an **additional stat**.</u> Its value depends only on the **Grade** of the gear.
-* Despite also not having a Roman number, each Exclusive gear inherits the stats of the {{IV}} Tier of a given Grade. That means, {{UR_Grade}} {{EX}} scales the same way {{UR_Grade}} {{IV}} does.
+* Despite also not having a Roman numeral, each Exclusive gear inherits the stats of the {{IV}} Tier of a given Grade. That means, {{UR_Grade}} {{EX}} scales the same way {{UR_Grade}} {{IV}} does.
     * In very simple words, **{{EX}} Gear is the equivalent of an {{IV}}, but with an extra stat on top.**
 * There are {{R_Grade}} {{EX}}, {{SR_Grade}} {{EX}} and {{UR_Grade}} {{EX}} Gears. {{R_Grade}} {{EX}} only exists for 3-4★ Characters, while the rest exist for any character.
 * **There is exactly one exclusive gear for each character.** It can be any piece of gear, although *in most cases* it is {{Weapon}} **Weapon** / {{Accessory}} **Accessory** for [DPS](../misc/slang.md/?term=DPS) characters.
@@ -491,7 +491,7 @@ To do the dismantle, it is better to use the [**Upgrade All**](#upgrade-all) or 
 
 As a new player, you should prioritize **offensive** gear instead of **defensive** pieces. To put it simply, it is fine to run a glass cannon strategy for the story, as long as you evaporate everything on Turn 1. 
 
-As was mentioned above, offensive gear is <u>**mostly**</u> {{Weapon}} **Weapon**, {{Accessory}}**Accessory** and {{Gloves}} **Glove**. 
+As was mentioned above, offensive gear is <u>**mostly**</u> {{Weapon}} **Weapon**, {{Accessory}} **Accessory** and {{Gloves}} **Gloves**. 
 
 The whole crafting guide essentially comes down to your current needs. Here's an example of what your progression can look like as a player who never touched crafting:
 
@@ -529,7 +529,7 @@ The whole crafting guide essentially comes down to your current needs. Here's an
 
     7. Craft {{UR_Grade}} {{IV}} Gear of the opposite Damage type for the second team.
     8. Craft whatever you feel necessary. 
-        * {{Accessory}} **Accessory**, in particular {{ gear("Venomous Touch") }} should be the highest priority overall, followed by {{Gloves}} **Gloves**, then {{Weapon}} **Weapon** and {{Armor}} **Armor**.
+        * {{Accessory}} **Accessory**, in particular {{ gear("Venomous Touch") }}, should be the highest priority overall, followed by {{Gloves}} **Gloves**, then {{Weapon}} **Weapon** and {{Armor}} **Armor**.
             * Note that {{Weapon}} **Weapons** take less priority later in the game due to being mostly replaced by **Exclusive Gear**, so you will not need that much of it compared to {{Gloves}} **Gloves**. On the contrary, {{Armor}} **Armor** and {{Helmet}} **Helmets** are required in large numbers when it comes down to 3 teams in **Fiend Hunter** on great difficulty levels.
 
 ---
@@ -555,7 +555,7 @@ For all of these types, the build you want is different.
 <div class="tab-align" markdown>
 
 === "Standard DPS"
-    Standard characters rely on a mix of {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and {{CritDMG}} **Crit DMG** to deal DMG. Since extra {{CritRate}} **Crit Rate**{.white} converts to {{CritDMG}} **Crit DMG**{.white}, builds are heavily decided by the amount of {{CritRate}} **Crit Rate**{.white} buffers you have and the extra {{CritRate}} **Crit Rate**{.white} value as a whole.
+    Standard characters rely on a mix of {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and {{CritDMG}} **Crit DMG** to deal DMG. Since extra {{CritRate}} **Crit Rate**{.white} converts to {{CritDMG}} **Crit DMG**{.white}, builds are heavily decided by the number of {{CritRate}} **Crit Rate**{.white} buffers you have and the extra {{CritRate}} **Crit Rate**{.white} value as a whole.
 
     This usually means builds like:
 
@@ -572,7 +572,7 @@ For all of these types, the build you want is different.
         * Early game: 2200+ {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and 550%+ {{CritDMG}} **Crit DMG**
         * Late game: 3000+ {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and 450%+ {{CritDMG}} **Crit DMG**
 
-    Weapons, as was stated earlier, are roughly equal in the gains, with {{ gear("Evil Dragon's Blade") }} and {{ gear("Travel God's Friend") }} being better with **low** excess {{CritRate}} **Crit Rate** and rest being better with the **big** excess {{ CritRate }} **Crit Rate**. 
+    Weapons, as was stated earlier, are roughly equal in the gains, with {{ gear("Evil Dragon's Blade") }} and {{ gear("Travel God's Friend") }} being better with **low** excess {{CritRate}} **Crit Rate** and the rest being better with a **big** excess {{CritRate}} **Crit Rate**. 
     
     When it comes down to {{Armor}} **Armor**, and {{Helmet}} **Helmet**, there are a few combinations:
 
@@ -605,7 +605,7 @@ For all of these types, the build you want is different.
 
     {{Weapon}} **Weapon** can be either {{ gear("Evil Dragon's Blade") }} or {{ gear("Travel God's Friend") }} regardless of the damage type the character deals, since its value is in the {{CritDMG}} **Crit DMG**{.white} only.
 
-    Similarly, {{Gloves}} **Glove** can be either {{ gear("Ring of Fury") }} and {{ gear("Rebellion") }}, because their value is in the {{CritRate}} **Crit Rate**{.white}. 
+    Similarly, {{Gloves}} **Gloves** can be either {{ gear("Ring of Fury") }} or {{ gear("Rebellion") }}, because their value is in the {{CritRate}} **Crit Rate**{.white}. 
 
     !!! question "How does {{ gear("Venomous Touch") }} perform instead?"
         {{ gear("Venomous Touch") }} loses to {{ gear("Charming Gaze") }} with extra {{CritRate}} **Crit Rate**{.white} conversion. Nonetheless, it still can provide comparable damage to {{ gear("Charming Gaze") }} but requires Substats (Options) switching.
@@ -620,7 +620,7 @@ For all of these types, the build you want is different.
 
     There is no difference in which {{Weapon}} **Weapon** out of the two listed above you use, since the characters do not scale from {{ATK}} **ATK**{.yellow} or {{MATK}} **MATK**{.magenta}.
 
-    {{Gloves}} **Glove** should be either {{ gear("Ring of Fury") }} and {{ gear("Rebellion") }} with no difference, which one to use.
+    {{Gloves}} **Gloves** should be either {{ gear("Ring of Fury") }} or {{ gear("Rebellion") }} with no difference which one to use.
     
     {{Armor}} **Armor** and {{Helmet}} **Helmet** have no impact on the build. Follow advice from the [Standard DPS](#__tabbed_1_1) tab regarding them. 
 
@@ -655,11 +655,11 @@ For all of these types, the build you want is different.
     * **Stat-Dependent Supports** want corresponding stat;
     * **Other Supports** are fine with whatever.
 
-    As for the split (ratio) of said Options, it's better to use [Gear Calculator](#gear-calculator) **if you want the precise answer**.
+    As for the split (ratio) of said Options, it's better to use the [Gear Calculator](#gear-calculator) **if you want the precise answer**.
 
     **For the {{Armor}} Armor**, you want to have two different types of sets: one that is stacked with {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and another one with all {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} substats. This way, you are benefiting way more from {{Physical}} **Physical** DPS wearing {{ gear("Invulnerable Armor") }} and {{ gear("Helm of Carnage") }} but also giving some benefit for **Magical**{.magenta} DPS otherwise.
     
-    As a rough advice, getting {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} on {{Weapon}} **Weapon** and {{Gloves}} **Glove** is a go-to (for Standard DPS), and rest filling with either additional {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} or {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} isn't a bad choice.
+    As rough advice, getting {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} on {{Weapon}} **Weapon** and {{Gloves}} **Gloves** is a go-to (for Standard DPS), and filling the rest with either additional {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} or {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} isn't a bad choice.
 
 </div>
 ## Gear Calculator 
