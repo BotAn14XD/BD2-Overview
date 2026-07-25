@@ -3,6 +3,8 @@
 description: The Glossary of Slang used in the Brown Dust II Community.
 comments: true
 hero: assets/images/site-assets/index-pc-nav-9.avif
+icon: material/book-search
+
 ---
 
 ![Game Slang](../assets/images/site-assets/index-pc-nav-9.avif){: .card-header-img fetchpriority=high loading=eager }
@@ -1195,7 +1197,7 @@ hero: assets/images/site-assets/index-pc-nav-9.avif
                 <span class="alias-tag rare-tag">Gcolo</span>
                 <span class="alias-tag rare-tag">Coloss</span>
             </div>
-            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/golden-colosseum/">Golden Colosseum</a> is a Content Pack, focusing on the <span class="cross-link" onclick="searchFor('PvP')">PvP</span> experience.</p>
+            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/gc/">Golden Colosseum</a> is a Content Pack, focusing on the <span class="cross-link" onclick="searchFor('PvP')">PvP</span> experience.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Golden Thread</h3>
@@ -1995,7 +1997,7 @@ hero: assets/images/site-assets/index-pc-nav-9.avif
                 <span class="alias-tag content-tag ignore-exact">Content</span>
                 <span class="alias-tag">PvP</span>
             </div>
-            <p>Player vs. Player Content revolves around players competing amongst each other directly. Consists of <a href="https://botan14xd.github.io/BD2-Overview/content-packs/mirror-wars">Mirror Wars</a> and <a href="https://botan14xd.github.io/BD2-Overview/content-packs/golden-colosseum/">Golden Colosseum</a>.</p>
+            <p>Player vs. Player Content revolves around players competing amongst each other directly. Consists of <a href="https://botan14xd.github.io/BD2-Overview/content-packs/mirror-wars">Mirror Wars</a> and <a href="https://botan14xd.github.io/BD2-Overview/content-packs/gc/">Golden Colosseum</a>.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Pool Party Angelica</h3>

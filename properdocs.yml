@@ -40,7 +40,6 @@ nav:
     - 'Game Mechanics':
         - 'Battle System': mechanics/battle.md
         - 'Damage Formula': mechanics/damage-formula.md
-
     - 'Characters Progression':
         - 'Burst System': progression/burst.md
         - 'Gear System': progression/gear.md  
@@ -52,7 +51,7 @@ nav:
             # - 'Path of Adventure': content-packs/path-of-adventure.md
             # - 'Last Night': content-packs/last-night.md
             # - 'Glupy Diner': content-packs/glupy-diner.md
-            # - 'Golden Colosseum': content-packs/golden-colosseum.md
+            - 'Golden Colosseum': content-packs/gc.md
             # - 'Fantasia Square': content-packs/fantasia-square.md
             - 'The Soul Wager': content-packs/soul-wager.md
         - 'Fiend Hunter': content/fh.md
@@ -132,6 +131,9 @@ markdown_extensions:
   - toc:
       separator: "-"
       permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
 
 extra:
   social_image: assets/images/site-assets/banner.png

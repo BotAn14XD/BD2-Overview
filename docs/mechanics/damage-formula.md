@@ -1,6 +1,8 @@
 ---
 comments: true
 hero: assets/images/site-assets/index-pc-nav-3.avif
+icon: material/calculator
+
 ---
 
 ![Damage Formula](../assets/images/site-assets/index-pc-nav-3.avif){: .card-header-img fetchpriority=high loading=eager }

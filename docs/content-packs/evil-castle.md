@@ -2,7 +2,7 @@
 description: Brown Dust II Evil Castle Content Pack overview and tips.
 comments: true
 hero: assets/images/site-assets/index-pc-nav-7.avif
-
+icon: material/castle
 ---
 
 ![Evil Castle](../assets/images/site-assets/index-pc-nav-7.avif){: .card-header-img fetchpriority=high loading=eager }

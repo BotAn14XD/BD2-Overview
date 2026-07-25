@@ -4,6 +4,8 @@ description: A comprehensive guide to the Gear and Crafting systems in Brown Dus
 comments: true
 image: assets/images/site-assets/gear-system-banner.png
 hero: assets/images/site-assets/index-pc-nav-4.avif
+icon: material/magic-staff
+
 
 ---
 

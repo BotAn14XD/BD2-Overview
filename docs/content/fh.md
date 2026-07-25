@@ -2,6 +2,8 @@
 comments: true
 image: assets/images/site-assets/fh-banner.png
 hero: assets/images/site-assets/index-pc-nav-19.avif
+icon: fontawesome/solid/spaghetti-monster-flying
+
 ---
 ![Fiend Hunter](../assets/images/site-assets/index-pc-nav-19.avif){: .card-header-img fetchpriority=high loading=eager }
 #

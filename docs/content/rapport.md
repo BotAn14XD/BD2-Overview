@@ -4,6 +4,7 @@ description: Learn how the Rapport system works in Brown Dust 2 — Diner Talks,
 comments: true
 image: assets/images/site-assets/rapport-banner.png
 hero: assets/images/site-assets/index-pc-nav-23.avif
+icon: material/heart
 
 ---
 ![Rapport](../assets/images/site-assets/index-pc-nav-23.avif){: .card-header-img fetchpriority=high loading=eager }

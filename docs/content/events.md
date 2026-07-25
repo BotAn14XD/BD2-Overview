@@ -2,7 +2,7 @@
 comments: true
 image: assets/images/site-assets/events-banner.png
 hero: assets/images/site-assets/index-pc-nav-18.avif
-
+icon: material/clock-time-ten
 ---
 ![Season Event](../assets/images/site-assets/index-pc-nav-18.avif){: .card-header-img fetchpriority=high loading=eager}
 #

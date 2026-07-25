@@ -2,6 +2,8 @@
 comments: true
 description: Brown Dust II Mirror Wars Content Pack Overview and tips.
 Hero: assets/images/site-assets/index-pc-nav-8.avif
+icon: material/sword-cross
+
 ---
 
 ![Mirror Wars](../assets/images/site-assets/index-pc-nav-8.avif){: .card-header-img fetchpriority=high loading=eager }

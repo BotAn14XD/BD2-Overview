@@ -4,6 +4,7 @@ description: A technical guide to the Brown Dust 2 Territory management mode. In
 comments: true
 image: assets/images/site-assets/territory-banner.png
 hero: assets/images/site-assets/index-pc-nav-20.avif
+icon: material/terrain
 
 ---
 ![Territory](../assets/images/site-assets/index-pc-nav-20.avif){: .card-header-img fetchpriority=high loading=eager }
@@ -11,6 +12,12 @@ hero: assets/images/site-assets/index-pc-nav-20.avif
 #
 
 Territory is a cozy management mode where players gather resources through farming, logging, and mining to build, landscape, and customize their own town while populating it with character residents.
+
+!!! tip "TL;DR"
+
+     * This is a game mode that does not impact your game progress in any way. Think of it as an optional time killer.  
+     * To generate the currency, {{Local_Points}} **Local Points**, you need to actively farm and sell the cooked dishes. Refer to the [guide below](#cooking-guide) for more information.
+     * Start by heavily investing in **Farming**, while upgrading your **Axe** and **Pickaxe** to increase resource yields and unlock decorations.
 
 It is located in **Fantasia Square**. To access it, walk down the staircase at the bottom of the Square.
 ??? image "Image Guide"
@@ -926,7 +933,9 @@ They can be roughly divided into **Active (Early Game)**, **More Passive (Late G
 
     Therefore, you must always save 3 of each dish listed above and cycle their production to maximize the **Crop Bonus**.
 
-    Alternatively, you can grow {{Venus_Cacao}} **Venus Cacao**, {{Stamina_Pepper}} **Stamina Pepper**, {{Lustful_Grape}} **Lustful Grape**, {{Sticky_Melon}} **Sticky Melon** and {{Pulse_Saffron}} **Pulse Saffron** in a ratio of 3:3:3:3:88.
+    Alternatively, you can grow {{Venus_Cacao}} **Venus Cacao**, {{Stamina_Pepper}} **Stamina Pepper**, {{Lustful_Grape}} **Lustful Grape**, {{Sticky_Melon}} **Sticky Melon** and {{Pulse_Saffron}} **Pulse Saffron** in a ratio of 3:3:3:3:88 (3 {{Venus_Cacao}} **Venus Cacao**, 3 {{Stamina_Pepper}} **Stamina Pepper**, 3 {{Lustful_Grape}} **Lustful Grape**, 3 {{Sticky_Melon}} **Sticky Melon** and 88 {{Pulse_Saffron}} **Pulse Saffron** placed at the same time).
+
+    If you have [Helpers](#helpers) with high Farming Efficiency, you can manually grow {{Pulse_Saffron}} **Pulse Saffron** only and let Helpers grow rest necessary crops.
 
 === "Lazy"
 

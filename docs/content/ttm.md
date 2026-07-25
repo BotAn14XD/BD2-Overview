@@ -4,6 +4,7 @@ description: Learn what the Taros Tactical Manual is in Brown Dust 2 and how to 
 comments: true
 image: assets/images/site-assets/ttm-banner.png
 hero: assets/images/site-assets/index-pc-nav-24.avif
+icon: material/puzzle
 
 ---
 ![Taros Tactical Manual](../assets/images/site-assets/index-pc-nav-24.avif){: .card-header-img fetchpriority=high loading=eager }
