@@ -4,6 +4,8 @@ description: A comprehensive strategic guide to The Soul Wager in Brown Dust II.
 comments: true
 image: assets/images/site-assets/the-soul-wager-banner.png
 hero: assets/images/site-assets/index-pc-nav-21.avif
+icon: material/chess-bishop
+
 
 ---
 ![The Soul Wager](../assets/images/site-assets/index-pc-nav-21.avif){: .card-header-img fetchpriority=high loading=eager }

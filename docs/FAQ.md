@@ -6,6 +6,8 @@ image_width: 300
 image_height: 300
 image_type: image/png
 card_type: summary
+icon: material/frequently-asked-questions
+
 ---
 
 ![Commonly Asked Questions](assets/images/site-assets/index-pc-nav-1.avif){: .card-header-img }

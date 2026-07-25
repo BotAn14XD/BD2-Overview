@@ -3,6 +3,7 @@
 description:
 comments: false
 image: assets/images/site-assets/survey-banner.png
+icon: material/poll
 
 ---
 ![Survey](assets/images/site-assets/index-pc-nav-22.avif){: .card-header-img }

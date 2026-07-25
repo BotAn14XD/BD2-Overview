@@ -1,5 +1,8 @@
 ---
 glightbox: false
+comments: false
+icon: material/home
+
 ---
 
 # Brown Dust II: Tactical Compendium

@@ -2,6 +2,8 @@
 description: Brown Dust II Battle System Overview
 comments: true
 hero: assets/images/site-assets/index-pc-nav-2.avif
+icon: material/sword
+
 ---
 ![Battle System](../assets/images/site-assets/index-pc-nav-2.avif){: .card-header-img fetchpriority=high loading=eager }
 #
@@ -85,7 +87,7 @@ Brown Dust II is a turn-based strategy in which you can position your characters
     **Every time the enemy or boss tile is hit, 1 chain stack is applied.** Chains increase damage by 10% for each chain stacked on the enemy (considering that base damage without any chains is 100%).<br>**Chains are very important for content such as Fiend Hunter and Guild Raid.**
 
     * Poolside Guardian Zenith increases those 10% to a maximum of 20% for the single tile.
-    * Chains last for 1 turn and are reset after, except some seasons of [**Golden Colosseum**](../content-packs/golden-colosseum.md).
+    * Chains last for 1 turn and are reset after, except some seasons of [**Golden Colosseum**](../content-packs/gc.md).
     * Chains have cap of 100, except [**Last Night**](../content-packs/last-night.md).
     * Chain increases are added to the same multiplier; thus, it is a buff with diminishing returns.<br><br>
     * Effect called **Chain Reinforcement** <u>**adds +1 chain per hit**</u>. 

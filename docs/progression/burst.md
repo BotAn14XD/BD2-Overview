@@ -4,6 +4,8 @@ description: A technical guide to the Brown Dust 2 Burst System. Includes detail
 comments: true
 image: assets/images/site-assets/burst-system-banner.avif
 hero: assets/images/site-assets/index-pc-nav-6.avif
+icon: simple/sparkpost
+
 ---
 ![Burst System](../assets/images/site-assets/index-pc-nav-6.avif){: .card-header-img fetchpriority=high loading=eager }
 #
@@ -105,7 +107,7 @@ The [Auto Battle](../mechanics/battle.md#__tabbed_1_3) feature enables Auto Burs
 ## Unique Game Mode Behaviors
 
 * In [**Last Night**](../content-packs/last-night.md), the maximum possible Burst is applied automatically to the costume whenever the costume was upgraded beforehand.
-* In [**Golden Colosseum**](../content-packs/golden-colosseum.md), the maximum possible Burst is used **based on your SP**.
+* In [**Golden Colosseum**](../content-packs/gc.md), the maximum possible Burst is used **based on your SP**.
     * If Rules grant infinite (∞) SP, Burst is applied similar to [**Last Night**](../content-packs/last-night.md). Otherwise, Burst is applied after all costumes have activated their Abilities.
 
 ## Burst view in Collection
