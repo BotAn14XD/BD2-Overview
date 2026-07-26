@@ -15,7 +15,7 @@ Rapport is a system where you interact with specific Costumes via visual novel-s
 
 !!! tip "TL;DR" 
 
-     * You get **3 Talks a day** total (not per Costume) to spend on owned Costumes; picking the **preferred answer** or gifting a **Costume's favorite Drink** **gives the most EXP**.
+     * You get **3 Talks a day** total (not per Costume) to spend on owned Costumes; picking the **preferred answer** or gifting a **Costume's favorite Drink** gives the most EXP.
      * Leveling a Costume's Rapport unlocks its **Personal Story** and works toward the **Rapport Buff**, a permanent, global {{CritRate}} **Crit Rate**{.white} bonus (up to 50%, reached at 10 maxed Costumes).
      * A Costume's max Level Cap depends on its own upgrade progress: 10 on acquisition, 15 after Awakening, 20 after Potential Liberation — Awakening is mandatory for Level 15 even if Potential Liberation is already done.
 
@@ -53,7 +53,7 @@ Each Talk is a situation where you have to pick an answer.
 * If you use the "preferred" answer, you will receive 100 EXP.
 * If you use the "standard" answer, you will receive only 80 EXP.
 
-There are a total of **15** Talks for each Costume, with each Talk being labeled as **Visit** and shown in **Talk Archives**. Pressing the **Talk** button always grants EXP: while any Visits remain unseen, it picks one of them at **random**; once all 15 have been seen, it repeats one instead, still for full EXP. After all 15 Visits are acquired for the first time, you additionally receive 100 {{Dia}} **Dias** as a one-time reward.
+There are a total of **15** Talks for each Costume, with each Talk being labeled as a **Visit** and shown in the **Talk Archives**. Pressing the **Talk** button always grants EXP: while any Visits remain unseen, it picks one of them at **random**; once all 15 have been seen, it repeats one instead, still for full EXP. After all 15 Visits are acquired for the first time, you additionally receive 100 {{Dia}} **Dias** as a one-time reward.
 
 The Talk Archives let you review any Visit you've already completed, with its "preferred" / "standard" answers displayed more clearly — this is for reference only and grants no EXP or other reward.
 
@@ -64,7 +64,7 @@ Upon obtaining the maximum level for the Costume, you can talk an infinite numbe
 
 ### Quick Talk
 
-**Quick Talk** is a feature that allows you to skip the Talk, but gain only 80 EXP, similar to a "standard" answer. It is available after completing **5 Talks** for a given Costume and behaves like a normal Talk, reducing your daily attempts by 1 for each Quick Talk used.
+**Quick Talk** is a feature that allows you to skip the Talk but gain only 80 EXP, similar to a "standard" answer. It is available after completing **5 Talks** for a given Costume and behaves like a normal Talk, reducing your daily attempts by 1 for each Quick Talk used.
 
 ??? image "Quick Talk Button Location"
      ![Quick Talk Button Location](../assets/images/rapport/quick-talk.avif)
@@ -84,10 +84,10 @@ To fully upgrade the Costume's Rapport, you need 53 Gifts.
 !!! example "Better Strategy"
      Instead of gifting 53 Gifts, first **have a single Talk with the best answer**.
 
-     This way, the number of Gifts required is lowered to exactly 50, which makes it easier to progress with multiple Costumes at once (due to the purchase limit of 100 on any given Gift, except ![Special Drink](../assets/images/rapport/icons/icon_resource190007_401_2.avif "Special Drink"){.icon} Special Drink)
+     This way, the number of Gifts required is lowered to exactly 50, which makes it easier to progress with multiple Costumes at once (due to the purchase limit of 100 on any given Gift, except ![Special Drink](../assets/images/rapport/icons/icon_resource190007_401_2.avif "Special Drink"){.icon} Special Drink).
 
 ??? abstract "List of Gifts"
-     <div class = "no-bullets">
+     <div class="no-bullets">
 
      * ![Creamy Milk](../assets/images/rapport/icons/icon_resource190001_395_3.avif "Creamy Milk"){.icon-portrait} **Creamy Milk**
      * ![Cold Beer](../assets/images/rapport/icons/icon_resource190002_396_3.avif "Cold Beer"){.icon-portrait} **Cold Beer**
@@ -101,8 +101,8 @@ To fully upgrade the Costume's Rapport, you need 53 Gifts.
 
 !!! question "Are Gifts worth buying? Where to buy from?"
      * Early game, **neither** of the shops is good to purchase from.
-     * Later, the {{Golden_Thread}} **Golden Thread Shop** is ok to buy from, given you bought [**Unidupe**](../misc/slang.md?term=Unidupe), {{Spark_of_Rampage}} **Sparks of Rampage**, {{Tear_of_Goddess}} **Tears of Goddess** and *probably* {{Draw_Ticket}} **Draw Tickets**. This holds until you max your {{CritRate}} **Crit Rate**{.white} bonus.
-     * After you obtain the maximum {{CritRate}} **Crit Rate**{.white} bonus, Gifts value drops almost to zero, therefore no reason to buy from any shop once again.
+     * Later, the {{Golden_Thread}} **Golden Thread Shop** is okay to buy from, provided you have bought [**Unidupe**](../misc/slang.md?term=Unidupe), {{Spark_of_Rampage}} **Sparks of Rampage**, {{Tear_of_Goddess}} **Tears of Goddess** and *probably* {{Draw_Ticket}} **Draw Tickets**. This holds until you max your {{CritRate}} **Crit Rate**{.white} bonus.
+     * After you obtain the maximum {{CritRate}} **Crit Rate**{.white} bonus, Gifts value drops almost to zero, therefore, there is no reason to buy from either shop anymore.
 
 ## Costume Progression
 
@@ -310,7 +310,7 @@ It has a maximum value of **50%** and is obtained via completing Missions. Each 
 !!! info "In-Game Text Clarification"
      The game's mission text uses the word **"Characters"**, but the system tracks **"Costumes"** instead. It is a bad translation that can be confusing when the Rapport system adds more Costumes.
 
-It takes **10 Costumes** with Rapport Level 20 to obtain maximum Rapport Buff.
+It takes **10 Costumes** with Rapport Level 20 to obtain the maximum Rapport Buff.
 
 ## Costume List
 

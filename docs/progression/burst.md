@@ -87,7 +87,7 @@ When you choose the skill with upgraded Burst, you can press the little arrow to
 Aside from the animation, the Skill Card will now have a light blue border and extra SP shown in orange, and burst effects will be highlighted.
 
 ??? image "Image Demonstration" 
-    ![Burst Demostration](../assets/images/burst/burst_display.avif)
+    ![Burst Demonstration](../assets/images/burst/burst_display.avif)
 
 ### Auto Burst
 
@@ -126,7 +126,7 @@ Since {{Spark_of_Rampage}} **Sparks of Rampage** is a limited resource, it is im
 !!! example "General Advice"
     * This system is **very expensive** for a new player. It is better not to heavily invest in it since it is a gold sink.
     * Despite it being a gold sink, you **really should** accumulate Sparks even if you do not plan on spending them. The scarcity of the resource sets high pressure for a player, and missing Sparks is a bad move. 
-        * That isn't really applied to {{Powder_of_Hope}} **Powder of Hope** / {{Golden_Thread}} **Golden Thread** shops, because while you can afford to start buying Sparks from the latter, Powder Shop non-costume purchases are still for whales.
+        * That doesn't really apply to {{Powder_of_Hope}} **Powder of Hope** / {{Golden_Thread}} **Golden Thread** shops, because while you can afford to start buying Sparks from the latter, Powder Shop non-costume purchases are still for whales.
     * The whole Burst System is more designed for **Fiend Hunter** / **Guild Raid** than it is for the story, meaning competition-wise, [DPS](../misc/slang.md?term=DPS) **can be** more beneficial to upgrade. However, that extremely narrows down the amount of content you would benefit from since it will come down to "good" seasons very quickly.<br><br>The less "dangerous route" is going for generic core supports for both types of damage, before investing into "generally good" DPS that can shine even outside of the corresponding seasons.<br><br>Aside from that, each costume has different Burst Effects which makes the whole priority a bit more subjective and situational.<br><br><u>**Author of this Compendium thinks that going the less dangerous route is overall better for securing most of the content.**</u>
 
 !!! warning "DISCLAIMER"
@@ -157,7 +157,7 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Beachside Justice Michaela** **Burst 3**{.yellow}
     * **New Hire Nebris** **Bursts 2-3**{.yellow}
     * **Deadeye Nekyndalia** **Burst 1**{.yellow}
-    * **Bikini Sylvia** **Bursts 1-3**
+    * **Bikini Sylvia** **Bursts 1-3**{.yellow}
     * **Starlight Guardian Tyr** **Bursts 1-2**{.yellow}
 
 === "Low Priority"
@@ -166,14 +166,14 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Prophetic Dream Darian** **Bursts 1-3**{.yellow}
     * **Beach Vacation Eclipse** **Bursts 1-2**{.yellow}
     * **Code Name O Elise** **Bursts 1-3**{.yellow}
-    * **Naive Lady Elise** **Burst 1,3**{.yellow}
+    * **Naive Lady Elise** **Bursts 1, 3**{.yellow}
     * **Night of Jealousy Levia** **Bursts 2-3**{.yellow}
     * **Ocean Vanguard Luvencia** **Bursts 1-2**{.yellow}
     * **Wild Dog Luvencia** **Bursts 1-3**{.yellow}
     * **Beachside Justice Michaela** **Bursts 1-2**{.yellow}
     * **New Hire Nebris** **Burst 1**{.yellow}
     * **Magical Violet Palette** **Bursts 2-3**{.yellow}
-    * **Steel Engine Rafina** **Bursts 1,3**{.yellow}
+    * **Steel Engine Rafina** **Bursts 1, 3**{.yellow}
     * **Thorn of the Desert Rubia** **Bursts 1-3**{.yellow}
     * **Reclaimed Destiny Sacred Justia** **Bursts 1-3**{.yellow}
     * **Pool Party Scheherazade** **Burst 3**{.yellow}

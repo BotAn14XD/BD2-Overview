@@ -22,7 +22,7 @@ icon: material/puzzle
 
 Each season lasts for **28 days**, giving you nearly a month to clear at most 25 short stages. After the season ends, the board and missions reset.
 
-Each battle has a trivial **difficulty**: **Easy**, **Normal** or **Hard**. They roughly reflect the fight's difficulty and grant different amounts of {{Gold}} **Gold** per clear.
+Each battle has a set **difficulty**: **Easy**, **Normal**, or **Hard**. They roughly reflect the fight's difficulty and grant different amounts of {{Gold}} **Gold** per clear.
 
 !!! abstract "Clear Rewards"
     * **Easy** Battle: 12500 {{Gold}} **Gold**
@@ -52,31 +52,31 @@ Missions are located at the bottom left corner of the Taros Tactical Manual menu
         <tbody>
             <tr>
                     <td>Win 1 Battle</td>
-                    <td>1M {{Gold}} Gold</td>
+                    <td>1M {{Gold}} **Gold**</td>
             </tr>
             <tr>
                     <td>Win 2 Battles</td>
-                    <td>1M {{Gold}} Gold</td>
+                    <td>1M {{Gold}} **Gold**</td>
             </tr>
             <tr>
                     <td>Win 3 Battles</td>
-                    <td>100K {{Refining_Powder}} Refining Powder</td>
+                    <td>100K {{Refining_Powder}} **Refining Powder**</td>
             </tr>
             <tr>
                     <td>Complete 1 Bingo</td>
-                    <td>200K {{Refining_Powder}} Refining Powder</td>
+                    <td>200K {{Refining_Powder}} **Refining Powder**</td>
             </tr>
             <tr>
                     <td>Complete 2 Bingos</td>
-                    <td>20 {{Spark_of_Rampage}} Sparks of Rampage</td>
+                    <td>20 {{Spark_of_Rampage}} **Sparks of Rampage**</td>
             </tr>
             <tr>
                     <td>Complete 3 Bingos</td>
-                    <td>10 {{Spark_of_Rampage}} Sparks of Rampage</td>
+                    <td>10 {{Spark_of_Rampage}} **Sparks of Rampage**</td>
             </tr>
             <tr>
                     <td>Complete Bingo Board</td>
-                    <td>Well Done, Mamonir Sticker</td>
+                    <td>**"Well Done, Mamonir" Sticker**</td>
             </tr>                
         </tbody>
     </table>
@@ -84,13 +84,13 @@ Missions are located at the bottom left corner of the Taros Tactical Manual menu
 
 ## Guide
 
-This game mode is oriented towards new players, because it does not require any progression to be completed. It is also a great way for a new player to learn game mechanics.
+This game mode is oriented towards new players because it does not require any progression to be completed. It is also a great way for a new player to learn game mechanics.
 
 It is strongly advised to **try your best** in these fights without seeking help.
 
 However, if you struggle in some specific battle or want a quick solution, refer to YouTube videos by [Seji](https://www.youtube.com/playlist?list=PLSWDlsPYyQpjuIB9eTL0hrJSj56fXzDdj) or [Shimonami しもなみ](https://www.youtube.com/@Shimonami).
 
-Alternatively, refer to the [Souseha's Database](https://browndust2-db.souseha.com/en/articles?lang=all&page=1&category=guide&search=Taros+Tactical+Manual) for picture format instead.
+Alternatively, refer to [Souseha's Database](https://browndust2-db.souseha.com/en/articles?lang=all&page=1&category=guide&search=Taros+Tactical+Manual) for a visual guide instead.
 
 ## Related Links
 

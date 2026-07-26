@@ -25,7 +25,7 @@ It is located in **Fantasia Square**. To access it, walk down the staircase at t
 
 ## Activities
 
-There are three main activities you need to perform to progress in the Territory: **Logging**, **Mining** and **Farming**. While Logging and Mining provide progression resources such as {{Rock}} **Rock** or {{Lumber}} **Lumber**, Farming primarily provides {{Local_Points}} **Local Points**.
+There are three main activities you need to perform to progress in the Territory: **Logging**, **Mining**, and **Farming**. While Logging and Mining provide progression resources such as {{Rock}} **Rock** or {{Lumber}} **Lumber**, Farming primarily provides {{Local_Points}} **Local Points**.
 
 ### Logging
 
@@ -40,10 +40,10 @@ Therefore, you should **always** chop down only fully grown trees to obtain the 
 
 ??? example "Technical Details"
 
-    * The Logging Site is a 3x3 field, resulting in a possible 9 trees.
+    * The Logging Site is a 3x3 field, resulting in a maximum of 9 trees.
     * Whenever any tile is empty, the Logging Site will grow **one Stage 1** tree in **60 seconds**. Therefore, if you chop down all the trees, it will take 9 minutes to replenish them completely.
     * A tree needs **120** seconds to grow into Stage 2 and **180** seconds to grow into Stage 3; therefore, it takes **5 minutes** to get a fully grown tree after it appears initially.
-    * A tree's health determines how difficult it is to destroy, requiring a different number of hits depending on your progression.
+    * A tree's health determines how difficult it is to chop down, requiring a different number of hits depending on your progression.
 
     ---
 
@@ -78,7 +78,7 @@ Ores have different chances to appear; however, unlike trees, they do not grow a
 
 ??? example "Technical Details"
 
-    * Similar to the Logging site, the Quarry is a 3x3 field, resulting in a possible 9 clusters. The positioning isn't fixed in place; therefore, clusters are spawned randomly within the Quarry.
+    * Similar to the Logging site, the Quarry is a 3x3 field, resulting in a maximum of 9 clusters. The positioning isn't fixed in place; therefore, clusters are spawned randomly within the Quarry.
     * Whenever there are fewer than 9 ore clusters at any given moment, the Quarry will generate 1 cluster in **60** **seconds**. Therefore, if you mine all clusters, it will take 9 minutes to fill the Quarry again.
 
     ---
@@ -171,21 +171,21 @@ Each crop requires seeds that are purchasable at the moment of planting. Crops h
     --- 
 
     ??? abstract "Crop Sell Price"
-        * {{Shapely_Potato}} **Shapely Potato**: <span class="price-normal">1</span> {{Local_Points}}, <span class="price-high">1 {{Local_Points}}, <span class="rainbow-text">1 {{Local_Points}}
-        * {{Spanking_Wheat}} **Spanking Wheat**: <span class="price-normal">1 {{Local_Points}}, <span class="price-high">1 {{Local_Points}}, <span class="rainbow-text">2 {{Local_Points}}
-        * {{Juicy_Onion}} **Juicy Onion**: <span class="price-normal">2 {{Local_Points}}, <span class="price-high">2 {{Local_Points}}, <span class="rainbow-text">3 {{Local_Points}}
-        * {{Virile_Mushroom}} **Virile Mushroom**: <span class="price-normal">3 {{Local_Points}}, <span class="price-high">3 {{Local_Points}}, <span class="rainbow-text">4 {{Local_Points}}
-        * {{Twin_Beans}} **Twin Beans**: <span class="price-normal">6 {{Local_Points}}, <span class="price-high">7 {{Local_Points}}, <span class="rainbow-text">9 {{Local_Points}}
-        * {{Cleft_Garlic}} **Cleft Garlic**: <span class="price-normal">8 {{Local_Points}}, <span class="price-high">10 {{Local_Points}}, <span class="rainbow-text">12 {{Local_Points}}
-        * {{Sticky_Rice}} **Sticky Rice**: <span class="price-normal">11 {{Local_Points}}, <span class="price-high">13 {{Local_Points}}, <span class="rainbow-text">15 {{Local_Points}}
-        * {{Curvaceous_Paprika}} **Curvaceous Paprika**: <span class="price-normal">22 {{Local_Points}}, <span class="price-high">26 {{Local_Points}}, <span class="rainbow-text">30 {{Local_Points}}
-        * {{Exposed_Corn}} **Exposed Corn**: <span class="price-normal">33 {{Local_Points}}, <span class="price-high">39 {{Local_Points}}, <span class="rainbow-text">45 {{Local_Points}}
-        * {{Firm_Apple}} **Firm Apple**: <span class="price-normal">44 {{Local_Points}}, <span class="price-high">52 {{Local_Points}}, <span class="rainbow-text">60 {{Local_Points}}
-        * {{Venus_Cacao}} **Venus Cacao**: <span class="price-normal">55 {{Local_Points}}, <span class="price-high">65 {{Local_Points}}, <span class="rainbow-text">75 {{Local_Points}}
-        * {{Stamina_Pepper}} **Stamina Pepper**: <span class="price-normal">66 {{Local_Points}}, <span class="price-high">78 {{Local_Points}}, <span class="rainbow-text">90 {{Local_Points}}
-        * {{Lustful_Grape}} **Lustful Grape**: <span class="price-normal">77 {{Local_Points}}, <span class="price-high">91 {{Local_Points}}, <span class="rainbow-text">105 {{Local_Points}}
-        * {{Sticky_Melon}} **Sticky Melon**: <span class="price-normal">88 {{Local_Points}}, <span class="price-high">104 {{Local_Points}}, <span class="rainbow-text">120 {{Local_Points}}
-        * {{Pulse_Saffron}} **Pulse Saffron**: <span class="price-normal">110 {{Local_Points}}, <span class="price-high">130} {{Local_Points}}, <span class="rainbow-text">150 {{Local_Points}}
+        * {{Shapely_Potato}} **Shapely Potato**: <span class="price-normal">1</span> {{Local_Points}}, <span class="price-high">1</span> {{Local_Points}}, <span class="rainbow-text">1</span> {{Local_Points}}
+        * {{Spanking_Wheat}} **Spanking Wheat**: <span class="price-normal">1</span> {{Local_Points}}, <span class="price-high">1</span> {{Local_Points}}, <span class="rainbow-text">2</span> {{Local_Points}}
+        * {{Juicy_Onion}} **Juicy Onion**: <span class="price-normal">2</span> {{Local_Points}}, <span class="price-high">2</span> {{Local_Points}}, <span class="rainbow-text">3</span> {{Local_Points}}
+        * {{Virile_Mushroom}} **Virile Mushroom**: <span class="price-normal">3</span> {{Local_Points}}, <span class="price-high">3</span> {{Local_Points}}, <span class="rainbow-text">4</span> {{Local_Points}}
+        * {{Twin_Beans}} **Twin Beans**: <span class="price-normal">6</span> {{Local_Points}}, <span class="price-high">7</span> {{Local_Points}}, <span class="rainbow-text">9</span> {{Local_Points}}
+        * {{Cleft_Garlic}} **Cleft Garlic**: <span class="price-normal">8</span> {{Local_Points}}, <span class="price-high">10</span> {{Local_Points}}, <span class="rainbow-text">12</span> {{Local_Points}}
+        * {{Sticky_Rice}} **Sticky Rice**: <span class="price-normal">11</span> {{Local_Points}}, <span class="price-high">13</span> {{Local_Points}}, <span class="rainbow-text">15</span> {{Local_Points}}
+        * {{Curvaceous_Paprika}} **Curvaceous Paprika**: <span class="price-normal">22</span> {{Local_Points}}, <span class="price-high">26</span> {{Local_Points}}, <span class="rainbow-text">30</span> {{Local_Points}}
+        * {{Exposed_Corn}} **Exposed Corn**: <span class="price-normal">33</span> {{Local_Points}}, <span class="price-high">39</span> {{Local_Points}}, <span class="rainbow-text">45</span> {{Local_Points}}
+        * {{Firm_Apple}} **Firm Apple**: <span class="price-normal">44</span> {{Local_Points}}, <span class="price-high">52</span> {{Local_Points}}, <span class="rainbow-text">60</span> {{Local_Points}}
+        * {{Venus_Cacao}} **Venus Cacao**: <span class="price-normal">55</span> {{Local_Points}}, <span class="price-high">65</span> {{Local_Points}}, <span class="rainbow-text">75</span> {{Local_Points}}
+        * {{Stamina_Pepper}} **Stamina Pepper**: <span class="price-normal">66</span> {{Local_Points}}, <span class="price-high">78</span> {{Local_Points}}, <span class="rainbow-text">90</span> {{Local_Points}}
+        * {{Lustful_Grape}} **Lustful Grape**: <span class="price-normal">77</span> {{Local_Points}}, <span class="price-high">91</span> {{Local_Points}}, <span class="rainbow-text">105</span> {{Local_Points}}
+        * {{Sticky_Melon}} **Sticky Melon**: <span class="price-normal">88</span> {{Local_Points}}, <span class="price-high">104</span> {{Local_Points}}, <span class="rainbow-text">120</span> {{Local_Points}}
+        * {{Pulse_Saffron}} **Pulse Saffron**: <span class="price-normal">110</span> {{Local_Points}}, <span class="price-high">130</span> {{Local_Points}}, <span class="rainbow-text">150</span> {{Local_Points}}
 
 
     ---
@@ -248,7 +248,7 @@ Each crop requires seeds that are purchasable at the moment of planting. Crops h
 
 As was stated previously, doing any activity grants EXP. Each activity, such as **Logging**, **Mining**, or **Farming**, has a separate progress bar. Once you gain enough EXP in some activity, you get a level up.
 
-Leveling up opens new crops and dishes (for **Farming**) and decorative items (for **Logging** and **Mining**). Additionally, each level up increases the corresponding **Skill**.
+Leveling up unlocks new crops and dishes (for **Farming**) and decorative items (for **Logging** and **Mining**). Additionally, each level up increases the corresponding **Skill**.
 
 ### Level Table
 
@@ -695,7 +695,7 @@ You cannot place anything except **Bridges** on **Water Tiles**, which technical
 You can change the Terrain at any given point via **Phone**, but doing so will:
 
 * Destroy all structures you've built, with a material refund.
-* Destroy all crops, trees, and ores **without a refund**
+* Destroy all crops, trees, and ores **without a refund**.
 * Remove all expansions, with a {{Local_Points}} **Local Points** refund.
 
 This essentially means that for refunding, you should not have any active crops growing and be ready to spend time rebuilding all buildings from scratch.
@@ -710,7 +710,7 @@ This essentially means that for refunding, you should not have any active crops 
 
 Each terrain layout contains locked regions, which you can unlock using {{Local_Points}} **Local Points**.
 
-You start with 9 unlocked regions and can expand up to 25 using the Territory Phone. To do so, use the Territory Phone.
+You start with 9 unlocked regions and can expand up to 25 using the Territory Phone.
 
 ??? image "Image Guide"
     ![Expand Guide](../assets/images/territory/expand_guide.avif)
@@ -874,7 +874,7 @@ You start with 9 unlocked regions and can expand up to 25 using the Territory Ph
 </table>
 </span>
 
-The **order** in which you expand the Territory **does not matter**. This also provides no real gain except increased space to put stuff on; therefore, expand only when you need more stuff or when you have good {{Local_Points}} **Local Points** income.
+The **order** in which you expand the Territory **does not matter**. This also provides no real gain except increased space for placement; therefore, expand only when you need more room or when you have good {{Local_Points}} **Local Points** income.
 
 ## Dishes
 
@@ -887,7 +887,7 @@ Each dish provides different bonuses, but all have a 10-minute duration. Consumi
     * If you consume <u>**two**</u> **Virile Gnocchis**, you will get +8 Logging Skill for **20** minutes instead.
     * If you consume **Virile Gnocchi** <u>**and**</u> **Curvaceous Fried Rice**, you will get **+18** Logging Skill and +10 Mining Skill for 10 minutes instead.
 
-There is no difference in dishes depending on the ingredient rarity you use; therefore, using Normal rarity for dishes only *can* be preferred to obtain the gain from higher rarities.
+There is no difference in dishes depending on the ingredient rarity you use; therefore, using Normal rarity ingredients exclusively is preferred, allowing you to sell higher rarity crops for more profit.
 
 ### Dishes List {.territory-inventory-grid}
 
@@ -935,7 +935,7 @@ They can be roughly divided into **Active (Early Game)**, **More Passive (Late G
 
     Alternatively, you can grow {{Venus_Cacao}} **Venus Cacao**, {{Stamina_Pepper}} **Stamina Pepper**, {{Lustful_Grape}} **Lustful Grape**, {{Sticky_Melon}} **Sticky Melon** and {{Pulse_Saffron}} **Pulse Saffron** in a ratio of 3:3:3:3:88 (3 {{Venus_Cacao}} **Venus Cacao**, 3 {{Stamina_Pepper}} **Stamina Pepper**, 3 {{Lustful_Grape}} **Lustful Grape**, 3 {{Sticky_Melon}} **Sticky Melon** and 88 {{Pulse_Saffron}} **Pulse Saffron** placed at the same time).
 
-    If you have [Helpers](#helpers) with high Farming Efficiency, you can manually grow {{Pulse_Saffron}} **Pulse Saffron** only and let Helpers grow rest necessary crops.
+    If you have [Helpers](#helpers) with high Farming Efficiency, you can manually grow {{Pulse_Saffron}} **Pulse Saffron** only and let Helpers grow the rest of the necessary crops.
 
 === "Lazy"
 
@@ -951,7 +951,7 @@ They can be roughly divided into **Active (Early Game)**, **More Passive (Late G
 
 Tools are designed to improve resource-gathering efficiency.
 
-There are **3** tools, each having **4** rarities: **Stone**, **Copper**, **Silver** and **Gold**.
+There are **3** tools, each having **4** rarities: **Stone**, **Copper**, **Silver**, and **Gold**.
 
 While **Stone** tools are given by default, you can upgrade them in the **Forge**. Each upgrade costs **Materials** and {{Local_Points}} **Local Points**.
 

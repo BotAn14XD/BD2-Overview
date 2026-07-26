@@ -19,7 +19,7 @@ icon: material/poll
 
 <hr>
 
-<p>Where did you first hear about Compendium?</p>
+<p>Where did you first hear about the Compendium?</p>
 <label class="survey-choice-box"><input type="radio" name="source" value="Discord" required>Discord</label>
 <label class="survey-choice-box"><input type="radio" name="source" value="Web Search">Web Search</label>
 <label class="survey-choice-box"><input type="radio" name="source" value="Reddit">Reddit</label>
@@ -35,7 +35,7 @@ icon: material/poll
 
 <hr>
 
-<p>Rate the quality and usefulness of Compendium's content.</p>
+<p>Rate the quality and usefulness of the Compendium's content.</p>
 <span class="subtext-label">(5 — Excellent, 1 — Very poor)</span>
 <div class="rating-row">
 <label class="rating-cell"><input type="radio" name="content" value="5" required>5</label>
@@ -46,11 +46,11 @@ icon: material/poll
 </div>
 
 <p>Do you have any suggestions or thoughts regarding our content? (Optional)</p>
-<textarea name="content_thoughts" rows="3" placeholder="Share your feedback on guides, mechanics writeups etc..."></textarea>
+<textarea name="content_thoughts" rows="3" placeholder="Share your feedback on guides, mechanics write-ups, etc..."></textarea>
 
 <hr>
 
-<p>How easy is it to navigate and find information on Compendium?</p>
+<p>How easy is it to navigate and find information on the Compendium?</p>
 <span class="subtext-label">(5 — Very easy, 1 — Very frustrating)</span>
 <div class="rating-row">
 <label class="rating-cell"><input type="radio" name="accessibility" value="5" required>5</label>
@@ -66,7 +66,7 @@ icon: material/poll
 <hr>
 
 <p>How comfortable is the Compendium to read? (Font size, contrast, colors, mobile layout)</p>
-<span class="subtext-label">(5 — Perfect, 1 — Hurtful for my eyes)</span>
+<span class="subtext-label">(5 — Perfect, 1 — Hard on the eyes)</span>
 <div class="rating-row">
   <label class="rating-cell"><input type="radio" name="readability" value="5" required>5</label>
   <label class="rating-cell"><input type="radio" name="readability" value="4">4</label>
@@ -80,7 +80,7 @@ icon: material/poll
 
 <hr>
 
-<p>Rate the quality of Compendium's <b>text</b>.</p>
+<p>Rate the quality of the Compendium's <b>text</b>.</p>
 <span class="subtext-label">(5 — Excellent, 1 — Very poor)</span>
 <div class="rating-row">
 <label class="rating-cell"><input type="radio" name="text" value="5" required>5</label>
@@ -101,7 +101,7 @@ icon: material/poll
 <p>Name <b>one</b> Article that is, in your opinion, the worst.</p>
 <textarea name="worst_article" rows="1" placeholder="Mirror Wars..."></textarea>
 
-<p>Name <b>one</b> Content / Article that is missing and you want to have the most.</p>
+<p>Name <b>one</b> Topic / Article that is missing and you want to see the most.</p>
 <textarea name="awaiting_stuff" rows="1" placeholder="The Soul Wager..."></textarea>
 
 <hr>
@@ -111,7 +111,7 @@ icon: material/poll
 <label class="survey-choice-box"><input type="radio" name="ads" value="No">No</label>
 <label class="survey-choice-box"><input type="radio" name="ads" value="No Preference">No Preference / Whatever</label>
 
-<p>If there was a Patreon subscription, would you pay for it and if yes, is there anything you would like to have as a "reward" for a subscription?</p>
+<p>If there were a Patreon subscription, would you pay for it, and if yes, is there anything you would like to have as a "reward" for a subscription?</p>
 
 <label class="survey-choice-box">
 <div class="survey-choice-other-wrapper">
@@ -119,8 +119,8 @@ icon: material/poll
     <span>Yes:</span>
     <input type="text" id="other-text-patreon" placeholder="Please specify..." disabled>
 </div></label>
-<label class="survey-choice-box"><input type="radio" name="patreon" value="No"> No</label>
-<label class="survey-choice-box"><input type="radio" name="patreon" value="Not Interested">Not interested</label>
+<label class="survey-choice-box"><input type="radio" name="patreon" value="No">No</label>
+<label class="survey-choice-box"><input type="radio" name="patreon" value="Not Interested">Not Interested</label>
 
 <hr>
 
