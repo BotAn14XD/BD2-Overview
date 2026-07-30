@@ -100,6 +100,7 @@ plugins:
         - card-header-img
         - tile-image
         - table-icon
+        - colo-icon
   - git-revision-date-localized:
       type: date
       timezone: UTC

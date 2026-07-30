@@ -21,7 +21,7 @@ try {
     python scripts/check_assets.py   # advisory only - we don't check its exit code
 
     Write-Host "==> Building site..." -ForegroundColor Cyan
-    properdocs build
+    py -m properdocs build
     if ($LASTEXITCODE -ne 0) { throw "properdocs build failed." }
 
     if ($Quick) {
