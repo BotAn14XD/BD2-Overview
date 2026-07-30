@@ -297,7 +297,8 @@ icon: material/frequently-asked-questions
         ![Silhouette Mode Removal Brown Dust 2](assets/images/faq/censor.avif)
 
 ??? q-tc "Is there censorship in this game? {{ share_btn('censorship') }}"
-    * The only active form of censorship is for German citizens. There, a *few* game sprites have altered appearance, as well as some **Ability cutscenes**, **Medical Club Teresse Fated Guest**, and **Slap Pop Pop! Minigame** were removed. 
+    * One active form of censorship is for German citizens. There, a *few* game sprites have altered appearance, as well as some **Ability cutscenes**, **Medical Club Teresse Fated Guest**, and **Slap Pop Pop! Minigame** were removed.
+    * Another active form of censorship is for Korean citizens, where **Shattered Dream Palette** and **Retired Legend Olivier** cutscenes were modified, as well as **Retired Legend Olivier Fated Guest** was modified as well.
     * The game is not legally accessible in **Vietnam** and **Netherlands**, but there are workarounds to download the game from there.
     
 ??? q-tc "How to display my own collection when asking for a team build? {{ share_btn('box') }}"

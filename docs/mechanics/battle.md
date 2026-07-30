@@ -189,7 +189,7 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
         ![Targeting Lines display](../assets/images/battle-system/target_lines.avif) 
 
 !!! example "Tombstones"
-    ** A tombstone is created when a character on the field dies (becomes fatigued) in the place of that character.**
+    **A tombstone is created when a character on the field dies (becomes fatigued) in the place of that character.**
 
     * Tombstones are created only for initial units on the battlefield. That means that summons do not create tombstones.
         * The only exception to this rule is explosives, which do not leave a tombstone upon being destroyed.
