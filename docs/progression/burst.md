@@ -144,6 +144,7 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
 
 === "High Priority"
     * **Adventurer of the Unknown Diana** **Bursts 1-3**{.yellow}
+    * **Heavenly Guardian Successor Glacia** **Bursts 1-3**{.yellow}
     * **Homunculus Lathel** **Bursts 1-2**{.yellow}
     * **Onsen Manager Liberta** **Bursts 1-3**{.yellow}
     * **Miracle Marine Mamonir** **Bursts 1-3**{.yellow}
@@ -159,6 +160,7 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Deadeye Nekyndalia** **Burst 1**{.yellow}
     * **Bikini Sylvia** **Bursts 1-3**{.yellow}
     * **Starlight Guardian Tyr** **Bursts 1-2**{.yellow}
+    * **Comeback Idol Yuri** **Burst 3**{.yellow}
 
 === "Low Priority"
     * **Fire Graffiti Anastasia** **Bursts 1-2**{.yellow}
@@ -180,6 +182,7 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Starlight Guardian Tyr** **Burst 3**{.yellow}
     * **DJ Venaka** **Bursts 1-3**{.yellow}
     * **Frozen Queen Wilhelmina** **Bursts 1-3**{.yellow}
+    * **Comeback Idol Yuri** **Bursts 1-2**{.yellow}
 
 === "Complete Skip"
     * **Blood Glutton Justia** **Bursts 1-3**{.yellow}

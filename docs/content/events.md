@@ -63,7 +63,7 @@ The Story of the Season Event is a [Rapport](./rapport.md) Story of the specific
 Before the Rapport update, each Story was usually split between **2 Season Events**. It meant that *typically* half of the story was given in the first two weeks (first Season Event), and the other half of the story was given in the second two weeks (second Season Event).
 
 !!! question "Stories from previous Events"
-    You can read old Stories via the **Story** tab from the main menu, but you **will not** receive any rewards from doing so. Rapport Stories **do not** appear there, since it will get locked behind Rapport Level once the Season Event ends.
+    You can read old Stories via the **Story** tab from the main menu, but you **will not** receive any rewards from doing so. Rapport Stories **do not** appear there, since they will get locked behind Rapport Level once the Season Event ends.
 
     * Currently, **Going Home** and **Operation M.O.E.** Season Events are not available due to certain circumstances; you can find records of those on YouTube.
 
@@ -159,6 +159,16 @@ With this one, you can quickly spend your Event AP to get **Repeat Rewards**.
     * **Challenge Battles** (1 - 15) &rarr; **Normal Battles** (1 - 15) &rarr; **Repeat Challenge Battle** 15 until the last day
     * ...
 
+### Auto-Play
+
+You can automatically clear Normal and Challenge Stages using the **Auto-play** feature. This feature uses [Auto Battle](../progression/gear.md#__tabbed_1_4), as well as auto progression between stages.
+
+The feature stops when you reach a set number of attempts used, you cancel manually, or your team dies, unable to complete a stage.
+
+To enable the feature, press the **Auto-Play** button in the bottom right corner.
+
+??? image "Image Guide"
+    ![Auto-Play Feature](../assets/images/season-event/auto-battle.avif)
 
 ---
 
