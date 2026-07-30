@@ -52,32 +52,32 @@ Missions are located at the bottom left corner of the Taros Tactical Manual menu
         <tbody>
             <tr>
                     <td>Win 1 Battle</td>
-                    <td>1M {{Gold}} **Gold**</td>
+                    <td>1M {{Gold}} Gold</td>
             </tr>
             <tr>
                     <td>Win 2 Battles</td>
-                    <td>1M {{Gold}} **Gold**</td>
+                    <td>1M {{Gold}} Gold</td>
             </tr>
             <tr>
                     <td>Win 3 Battles</td>
-                    <td>100K {{Refining_Powder}} **Refining Powder**</td>
+                    <td>100K {{Refining_Powder}} Refining Powder</td>
             </tr>
             <tr>
                     <td>Complete 1 Bingo</td>
-                    <td>200K {{Refining_Powder}} **Refining Powder**</td>
+                    <td>200K {{Refining_Powder}} Refining Powder</td>
             </tr>
             <tr>
                     <td>Complete 2 Bingos</td>
-                    <td>20 {{Spark_of_Rampage}} **Sparks of Rampage**</td>
+                    <td>20 {{Spark_of_Rampage}} Sparks of Rampage</td>
             </tr>
             <tr>
                     <td>Complete 3 Bingos</td>
-                    <td>10 {{Spark_of_Rampage}} **Sparks of Rampage**</td>
+                    <td>10 {{Spark_of_Rampage}} Sparks of Rampage</td>
             </tr>
             <tr>
                     <td>Complete Bingo Board</td>
-                    <td>**"Well Done, Mamonir" Sticker**</td>
-            </tr>                
+                    <td>"Well Done, Mamonir" Sticker</td>
+            </tr>
         </tbody>
     </table>
 </div>

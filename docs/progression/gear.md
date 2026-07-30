@@ -113,7 +113,7 @@ On **+3**, **+6** and **+9 Levels**, Option (Substats) slots are opened.<br>Asid
      
 ---
 
-## ![Gear Refinement](../assets/images/gear-system/icons/score_system.avif){.icon-header} **Gear Refinement**
+## ![Gear Refinement](../assets/images/gear-system/icons/score_system.avif){.icon-header} [WIP] **Gear Refinement**
 
 Gear Refinement comes right after Upgrades. When you reach +9 and all Options are unlocked, the **star with the number inside** will be unlocked as well. 
 

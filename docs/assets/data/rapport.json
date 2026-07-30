@@ -1472,6 +1472,331 @@
           "wrong": "Pour her a glass of the restaurant's most popular liqueur, on the house"
         }
       ]
+    },
+    {
+      "id": "heavenly-guardian-successor-glacia",
+      "costume": "Heavenly Guardian Successor Glacia",
+      "character": "Glacia",
+      "drinks": [
+        { "name": "Warm Black Tea", "icon": "assets/images/rapport/icons/icon_resource190005_399_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Glacia sips her tea with quiet, effortless grace.",
+            "The Heavenly Guardian Qi Art isn't just an internal cultivation technique. It's a way to understand the fabric of creation itself, and a path meant to bring us closer to the heavens.",
+            "To break down the wall between yourself and the world, and become one with all things... Every disciple in our Palace trains day in and day out to reach that state."
+          ],
+          "correct": "It sounds like a profoundly deep martial art.",
+          "wrong": "It sounds a bit over my head."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Glacia frowns slightly, complaining about how often trouble has been breaking out in Dragonhaven lately.",
+            "The moment the Golden Dragon Festival gets close, every third-rate martial artist comes pouring into town. They all make up some petty excuse to start a duel wherever they please.",
+            "I punish those fools whenever I see them, but it feels like trying to sweep away the ocean... The chaos of the Jianghu never truly ends."
+          ],
+          "correct": "Dragonhaven is lucky to have you keeping the peace.",
+          "wrong": "Sounds like your punishments aren't quite sticking."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Glacia takes a slow sip of her black tea, clearly enjoying the flavor.",
+            "I really like the fresh aroma of this black tea.",
+            "Though compared to the white tea we usually drink at the Palace, the finish is a little lacking. Maybe it's because it was brewed in a foreign style?"
+          ],
+          "correct": "Ask if the Heavenly Guardian Palace has a special way of brewing tea",
+          "wrong": "Ask if the Heavenly Guardian Palace uses different tea leaves"
+        },
+        {
+          "n": 4,
+          "intro": [
+            "As we chat, my eyes drift to the sweeping sleeves of her martial robes.",
+            "Why are you staring at me like that? Is there something wrong with my clothes?",
+            "...I think I know exactly what's crossing your mind. Don't keep it to yourself. Go ahead and say it."
+          ],
+          "correct": "You look stunning in that outfit.",
+          "wrong": "It looks fancy and expensive."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "I ask Glacia about the fan she always carries.",
+            "This? It's just an ordinary fan. It caught my eye at the market during the last Golden Dragon Festival, so I picked it up.",
+            "...You look a bit disappointed. What did you think I used it for?"
+          ],
+          "correct": "As a cultivation tool",
+          "wrong": "As a secret weapon"
+        },
+        {
+          "n": 6,
+          "intro": [
+            "I ask Glacia about her favorite food.",
+            "I like fruit, but I won't touch it unless it's strictly in season. My tastes are pretty particular.",
+            "I also have a pretty small appetite, so I get full after only a few bites... But peaches are the one exception. I wish I could eat them forever."
+          ],
+          "correct": "Make her a peach drink",
+          "wrong": "Peel a plateful of peaches for her"
+        },
+        {
+          "n": 7,
+          "intro": [
+            "I ask Glacia why her inner Qi radiates with a blue light.",
+            "I was born with a condition called the Nine Yin Blocked Meridians. My innate yin energy was so powerful that it completely blocked my pathways. It's an incurable disease that should have killed me before I turned ten.",
+            "Learning the Heavenly Guardian Qi Art saved me from an early death... but because only yin energy built up in my dantian, my martial art transformed into a blue-hued ice art."
+          ],
+          "correct": "Ask if it's still life-threatening",
+          "wrong": "Say that it must've been difficult to live with"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Glacia speaks, a conflicted look shadowing her eyes.",
+            "My Shifu was completely blinded by the dream of ascending to immortality and suffered a Qi deviation. I know now that her noble nature was tarnished long ago, but...",
+            "Even so, I just can't bring myself to hate her."
+          ],
+          "correct": "Sounds like you truly respected the Palace Lord.",
+          "wrong": "I understand your bond, but the Palace Lord was still evil."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Glacia talks about her childhood, her expression turning cold.",
+            "You can tell just by looking at me that I'm not from Dragonhaven. I came from a martial realm far beyond the Central Plains, known as the Northern Sea Ice Palace.",
+            "I don't have a single fond memory of that place. And I will never go back there."
+          ],
+          "correct": "Dragonhaven is your home now",
+          "wrong": "A part of you must still miss the place you grew up."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "I ask Glacia if she and Helena are still getting along well these days.",
+            "We meet up often, but I'm not sure I would call it getting along.",
+            "Helena's personality, her martial arts, and her constitution are the exact opposite of mine. We have absolutely nothing in common."
+          ],
+          "correct": "Opposites attract.",
+          "wrong": "If you hang out enough, you'll start finding things in common."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Glacia and I talk about Sylvia's martial arts.",
+            "The martial arts Sylvia displayed were anything but ordinary. To think she could wield swords so freely with her Qi...",
+            "I plan to challenge her to a friendly spar someday, partly as an exchange between our sects. Tell me, who do you think would win?"
+          ],
+          "correct": "I think you would win",
+          "wrong": "I think Sylvia would win"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "We start talking about Dalvi and Yuri.",
+            "Humans aren't the only ones who visit the Golden Dragon Festival. Terrorfiends come as well, and unlike other towns, Dragonhaven doesn't turn them away.",
+            "Under the Golden Dragon's blessing, all life is equal. Everyone deserves respect, no matter where they come from."
+          ],
+          "correct": "Let's invite them to the next festival too.",
+          "wrong": "Let's ask them to bring more Terrorfiends next time."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Glacia makes it clear that she doesn't respect just anyone as a true practitioner.",
+            "I despise people who learn a few basic techniques and strut around like they're superior. It's even worse when they use that power to trample the weak.",
+            "Fools who train themselves just to chase after something as empty as fame... people like that have absolutely no right to call themselves practitioners."
+          ],
+          "correct": "I agree",
+          "wrong": "I'm not so sure"
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Glacia and I talk about everything that has happened since she became the new Palace Lord.",
+            "Dalvi managed to spread a comforting story for the public, but the disciples who know the absolute truth are still in total turmoil.",
+            "The Palace Lord they all revered fell into madness... It's only natural that they've begun to doubt our entire sect."
+          ],
+          "correct": "You are their leader now. Guide them forward.",
+          "wrong": "Maybe a little punishment will straighten them out."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "I ask why the folk of Dragonhaven look up to Glacia so much.",
+            "Some drunken fools once tried to draw their blades on the townsfolk. I punished them to make a clear example out of them.",
+            "After that, no one dared draw a weapon in town without a damn good reason. The townsfolk started treating me with real warmth and thanking me for it."
+          ],
+          "correct": "It's admirable how fiercely you stand up for the weak.",
+          "wrong": "I'm impressed by how ruthlessly you crush evil."
+        }
+      ]
+    },
+    {
+      "id": "the-sword-queen-sylvia",
+      "costume": "The Sword Queen Sylvia",
+      "character": "Sylvia",
+      "drinks": [
+        { "name": "Fragrant Whiskey", "icon": "assets/images/rapport/icons/icon_resource190004_398_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "I ask Sylvia why she chose to take Yuri under her wing.",
+            "To be honest, I wasn't planning to take on a disciple back then.",
+            "Looking back now, I think I was just afraid of losing someone precious to me again."
+          ],
+          "correct": "You have to move past that fear.",
+          "wrong": "I know what it's like to carry that kind of fear."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Sylvia looks over the menu with a slight frown, so I suggest a glass of whiskey.",
+            "Whiskey...? I'm not familiar with it, but if it's your recommendation, Master...",
+            "Is there a specific way to drink it?"
+          ],
+          "correct": "Pour it neat into an empty glass",
+          "wrong": "Pour it over ice"
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Sylvia beams, a proud smile breaking across her face the moment she mentions Yuri.",
+            "I'm not saying this just because she is my disciple, but Yuri really only needs to see a form once to master it.",
+            "What do you think of her talent, Master?"
+          ],
+          "correct": "She has what it takes to succeed you one day.",
+          "wrong": "She has the potential to become the next Peerless Swordsman Under Heaven."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "I ask Sylvia how to improve my focus.",
+            "Why not try meditation?",
+            "Close your eyes, relax your muscles, and let go of the day's clutter.",
+            "Would you like to try it now? I can guide you."
+          ],
+          "correct": "Relax and meditate",
+          "wrong": "Meditate with focus"
+        },
+        {
+          "n": 5,
+          "intro": [
+            "I strike up a conversation with Sylvia about animals.",
+            "Yuri's so cute, I often forget she's a tiger Terrorfiend.",
+            "Fufu, sometimes I wonder if she's actually a <i>cat</i> Terrorfiend."
+          ],
+          "correct": "A crane.",
+          "wrong": "A wildcat."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Sylvia and I strike a friendly wager, putting our foreheads on the line for a sharp flick.",
+            "...It seems I lost.",
+            "There is no need to hold back. Go ahead whenever you are ready."
+          ],
+          "correct": "Give her forehead a light flick",
+          "wrong": "Flick her forehead with absolutely everything you've got"
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Sylvia raises a lazy hand toward a bottle across the room, and it snaps straight into her palm.",
+            "Fufu. This isn't Sword Qi Manipulation Arts. It's called the Void Grasp—a minor trick for pulling distant objects through the air.",
+            "It's quite convenient, though."
+          ],
+          "correct": "Ask if she can lift people too",
+          "wrong": "Ask her to help organize the storage room next time"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "I tell Sylvia that children must surely listen to her.",
+            "Not quite. They don't throw fits—but that doesn't mean they always listen.",
+            "Personally, I prefer it that way. It feels more child-like.",
+            "Fufu, but why did you think they'd listen to me?"
+          ],
+          "correct": "Because you're so pretty.",
+          "wrong": "Because you're scary."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Sylvia gestures toward the potted greenery by the window, a small smile playing on her lips.",
+            "There is a beautiful grove near my home that is lovely to wander through. Would you like to visit sometime?",
+            "Fufu. If you can guess what kind of trees grow there, I'll take you with me on my next trip."
+          ],
+          "correct": "A bamboo forest",
+          "wrong": "A pine forest"
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Sylvia and I talk about the art of the blade.",
+            "One of the young children I teach told me he wants to learn dual-wielding. I suppose children always think carrying more swords looks flashier and more imposing.",
+            "Do you also believe that wielding more steel makes a better martial artist, Master?"
+          ],
+          "correct": "A single blade is more than enough.",
+          "wrong": "I want to hold one sword in my mouth and use three at once."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Sylvia chuckles, a warm light in her eyes as she speaks.",
+            "I played that game of tag you taught me with my disciples today. Yuri and the rest of the children had so much fun.",
+            "Could you teach me a few other games?"
+          ],
+          "correct": "Teach her how to play baseball",
+          "wrong": "Teach her how to play soccer"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Sylvia gently traces the edge of her hairpin, a wistful smile softening her lips.",
+            "This hairpin was a precious gift from Rubia.",
+            "It's a little old now, but it still suits me well, doesn't it?"
+          ],
+          "correct": "It looks nice, but I would love to pick out a new one for you too.",
+          "wrong": "It suits you so perfectly that it would be hard to ever find anything better."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "I ask Sylvia what true righteousness means to her, and she pauses for a thoughtful moment before answering.",
+            "In the end, righteousness is simply the conviction you choose to uphold. My purpose now is to live quietly here and protect the people around me.",
+            "Do you have a path of righteousness you wish to pursue, Master?"
+          ],
+          "correct": "I want to save as many people as I can.",
+          "wrong": "I want to help the people around me."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "I ask Sylvia about her sword art.",
+            "My sword art? Its core is deeply tied to flowers.",
+            "Once fully mastered, it can even cause petals to bloom directly from the sharp edge of the blade. The fascinating part is that the color of those flowers differs from person to person.",
+            "My Shifu always made purple flowers bloom. Can you guess what color mine are?"
+          ],
+          "correct": "Pink",
+          "wrong": "White"
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Sylvia steps into the kitchen, a confident smirk playing on her lips.",
+            "I always feel terrible having you cook for me every single time I visit.",
+            "So today, I thought I would step in and cook for you instead."
+          ],
+          "correct": "You don't have to.",
+          "wrong": "Well, if you insist..."
+        }
+      ]
     }
   ]
 }
