@@ -95,7 +95,7 @@ Each upgrade costs {{Gold}} **Gold** (price depends on the Grade and Upgrade Lev
     
     Alternatively, use [**Official Gitbook**](https://browndust2.gitbook.io/probabilitydetails_en/other-probabilities/gear-crafting-and-refining#upgrade-success-probability).
 
-On **+3**, **+6** and **+9 Levels**, Option (Substats) slots are opened.<br>Aside from unlocking the Option slot itself, they enhance **Basic Attribute values** via Upgrade Scores, similar to Levels, although the +9 slot has way more impact compared to the +3 one. Each slot also receives the letter {{C}},{{B}},{{A}} or {{S}}, the functionality of which will be covered in the [next chapter](#gear-refinement).
+On **+3**, **+6** and **+9 Levels**, Option (Substats) slots are opened.<br>Aside from unlocking the Option slot itself, they enhance **Basic Attribute values** via Upgrade Scores, similar to Levels, although the +9 slot has way more impact compared to the +3 one. <!--Each slot also receives the letter {{C}},{{B}},{{A}} or {{S}}, the functionality of which will be covered in the [next chapter](#gear-refinement).-->
 
 
 !!! note ""
@@ -113,14 +113,16 @@ On **+3**, **+6** and **+9 Levels**, Option (Substats) slots are opened.<br>Asid
      
 ---
 
-## ![Gear Refinement](../assets/images/gear-system/icons/score_system.avif){.icon-header} [WIP] **Gear Refinement**
+## ![Gear Refinement](../assets/images/gear-system/icons/score_system.avif){.icon-header} **Gear Refinement**
 
-Gear Refinement comes right after Upgrades. When you reach +9 and all Options are unlocked, the **star with the number inside** will be unlocked as well. 
+Gear Refinement comes right after Upgrades. When you reach +9 and all Options are unlocked, the **star with the number inside** will be unlocked as well.
 
 It is the so-called **Gear Score**, which represents the most important layer of enhancing values given by the gear.
-Each of the refinement scores is represented by the letters {{C}}, {{B}}, {{A}} and {{S}}, with {{S}} being the best possible one.
+Each of the refinement scores is represented by a number from 6 to 24. The higher the number, the better bonus the gear gives, but it is also harder to obtain via refinement.
 
-As was mentioned earlier, each following Option slot has a bigger impact on the overall score. **The weighted sum of slots gives the final score.**
+<!--the letters {{C}}, {{B}}, {{A}} and {{S}}, with {{S}} being the best possible one.-->
+
+<!--As was mentioned earlier, each following Option slot has a bigger impact on the overall score. **The weighted sum of slots gives the final score.**
 
 * The Minimum Total Score is **6**, being {{C}}{{C}}{{C}}.
 * The Maximum Total Score is **24**, being {{S}}{{S}}{{S}}.
@@ -131,7 +133,7 @@ As was mentioned earlier, each following Option slot has a bigger impact on the 
     * The second and third letter bonuses are multiplied by 2 and 3, respectively.
     * Each letter value is added towards the Total Score.
     !!! warning ""
-        ![Gear Score Calculations](../assets/images/gear-system/score_calculation.avif)
+        ![Gear Score Calculations](../assets/images/gear-system/score_calculation.avif)-->
 
 ??? tip "Interesting yet totally useless fact"
     * Scores from **6 to 11** are displayed with ![6-11 Score Star](../assets/images/gear-system/icons/score_6_11.avif "6-11 Score Star"){.icon} star.
@@ -139,15 +141,16 @@ As was mentioned earlier, each following Option slot has a bigger impact on the 
     * Scores from **17 to 20** are displayed with ![17-20 Score Star](../assets/images/gear-system/icons/score_17_20.avif "17-20 Score Star"){.icon} star.
     * Scores from **21 to 24** are displayed with ![21-24 Score Star](../assets/images/gear-system/icons/score_21_24.avif "21-24 Score Star"){.icon} star.
 
-You can change the Gear Score you have by a process called Refinement. It uses {{Gold}} **Gold** and {{Refining_Powder}} **Refining Powder** to roll one of 81 possible scores ({{C}}{{C}}{{C}}, {{B}}{{C}}{{C}}, ... , {{S}}{{S}}{{S}}).
+You can change the Gear Score you have by a process called Refinement. It uses {{Gold}} **Gold** and {{Refining_Powder}} **Refining Powder** to roll one of 19 possible scores (6, 7, ..., 24).
 
 * <u>**You keep the best score obtained, meaning there is no possible downgrade for the gear**</u>.
 * The higher the score, the lower the chances of it appearing. This becomes especially noticeable after score 18, when the chances decrease significantly, making maxed gear a whale-level challenge.
-* Despite multiple possible letter combinations for the same score, they have no difference in Base Attributes value increase.
+<!--* Despite multiple possible letter combinations for the same score, they have no difference in Base Attributes value increase.-->
 
-??? info "Probability Chances (for UR gear)"
-    ![Gear Refinement](../assets/images/gear-system/bbs.avif)
-    **Alternatively, use [Official Gitbook](https://browndust2.gitbook.io/probabilitydetails_en/other-probabilities/gear-crafting-and-refining#refinement-probability-by-upgrade-level), although keep in mind it uses a different way to describe the same percentages.**
+??? info "Probability Chances"
+    ![Gear Refinement](../assets/images/gear-system/bbs-2.avif)
+
+    (From [Official Gitbook](https://browndust2.gitbook.io/probabilitydetails_en/other-probabilities/gear-crafting-and-refining#refinement-probability-by-upgrade-level))<!--, although keep in mind it uses a different way to describe the same percentages.**-->
 
 !!! warning "Time-saving feature"
     To prevent exhaustion and to do refinement much quicker, press the **Repeat** button, set the slider to the max (or use the MAX button), then hit the **Refinement** button, and, finally, press the {{Skip}} **Skip** button.
@@ -156,6 +159,14 @@ You can change the Gear Score you have by a process called Refinement. It uses {
     ??? image "**Image Guide**"
         ![Refinement Guide](../assets/images/gear-system/refinement_guide.avif)
      
+You can also check the stats the Gear will provide at a specific Score by pressing a question mark near the **Gear Score** words.
+
+??? image "Image Guide"
+    ![Gear Stats Preview Guide](../assets/images/gear-system/stats-preview-guide.avif)
+
+!!! image "Gear Stats Preview"
+    ![Gear Stats Preview](../assets/images/gear-system/gear-score-stats-preview.avif)
+
 ---
 
 ## Gear Stats
@@ -176,8 +187,8 @@ You can check possible stats for each gear piece by pressing the ? in the refine
 Similar to Basic Attributes, you can obtain mostly "relevant" stats only, although their variety is bigger compared to Basic Attributes; for example, defensive gear can roll offensive stats of the **same damage type** (DEF armor can roll ATK, MRES armor can roll MATK).
 
 * Option **values** depend on the **Grade** and **Tier** of the gear.
-* Option **values** DO NOT depend on the **Gear (Total) Score**.
-* Option **values** DO NOT depend on the **Individual Refinement Score** of each **Option slot**. *(Having either {{C}} or {{S}} will **not** change the values)*
+* Option **values** DO NOT depend on the **Gear <!--(Total)--> Score**.
+<!--* Option **values** DO NOT depend on the **Individual Refinement Score** of each **Option slot**. <!--*(Having either {{C}} or {{S}} will **not** change the values)*-->
 
 You can check the possible Option stats for each gear piece by pressing the ? in the refinement menu. 
 ??? image "Image Guide"
@@ -236,7 +247,7 @@ In the **Season Event Shop**, you can obtain special gear. It is essentially {{U
 * Event Gear does **not** require {{Gold}} **Gold** for upgrading its level. Instead, it uses a **corresponding Upgrading material** (different for each gear), and **has no fail chance**.
     * {{UR_Grade}} **Gear** uses **3** currency per level upgrade. (Total: **27**)
     * {{SR_Grade}} **Gear** uses **1** currency per level upgrade. (Total: **9**)
-* Event Gear does **not** have a Refinement process at all; instead, the **Gear automatically gets a {{S}} Score for each Option slot**, resulting in a **Gear Score of 24**.
+* Event Gear does **not** have a Refinement process at all; instead, the **Gear automatically gets a <!--{{S}} Score for each Option slot**, resulting in a-->**Gear Score of 24**.
 
 ??? image "Visual Demonstration"
     ![Event Gear Upgrading Screen](../assets/images/gear-system/event_gear_upgrade2.avif)
@@ -403,7 +414,7 @@ The Custom Marks feature allows you to mark specific gear. To do that, press "Cu
 ??? image "Image Guide"
     ![Custom Mark Guide](../assets/images/gear-system/custom_mark1.avif)
 
-This Mark is customizable, allowing you to choose 15 icons, 110 numbers (0, 1, ... , 100 & 00, 01, ... , 09), and 6 colors, resulting in 750 different unique combinations. 
+This Mark is customizable, allowing you to choose 15 icons, 110 numbers (0, 1, ..., 100 & 00, 01, ..., 09), and 6 colors, resulting in 750 different unique combinations. 
 
 ??? image "Custom Mark Settings Menu"
     ![Custom Mark Settings Menu](../assets/images/gear-system/custom_mark2.avif)
@@ -605,7 +616,7 @@ For all of these types, the build you want is different.
     * {{ gear("Immortal Golden Armor") }} +  {{ gear("Helm of Death") }} + {{ gear("Charming Gaze") }} + if the enemy deals {{Physical}} **Physical**{.yellow} damage;
     * {{ gear("Hellfire Robe") }} + {{ gear("Crown of Galaxy") }} + {{ gear("Charming Gaze") }} if the enemy deals {{Magical}} **Magical**{.magenta} damage.
 
-    {{Weapon}} **Weapon** can be either {{ gear("Evil Dragon's Blade") }} or {{ gear("Travel God's Friend") }} regardless of the damage type the character deals, since its value is in the {{CritDMG}} **Crit DMG**{.white} only.
+    {{Weapon}} **Weapon** can be either {{ gear("Evil Dragon's Blade") }} or {{ gear("Travel God's Friend") }}, regardless of the damage type the character deals, since its value is in the {{CritDMG}} **Crit DMG**{.white} only.
 
     Similarly, {{Gloves}} **Gloves** can be either {{ gear("Ring of Fury") }} or {{ gear("Rebellion") }}, because their value is in the {{CritRate}} **Crit Rate**{.white}. 
 
@@ -659,7 +670,7 @@ For all of these types, the build you want is different.
 
     As for the split (ratio) of said Options, it's better to use the [Gear Calculator](#gear-calculator) **if you want the precise answer**.
 
-    **For the {{Armor}} Armor**, you want to have two different types of sets: one that is stacked with {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and another one with all {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} substats. This way, you are benefiting way more from {{Physical}} **Physical** DPS wearing {{ gear("Invulnerable Armor") }} and {{ gear("Helm of Carnage") }} but also giving some benefit for **Magical**{.magenta} DPS otherwise.
+    **For the {{Armor}} Armor**, you want to have two different types of sets: one that is stacked with {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and another one with all {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} substats. This way, you are benefiting way more from {{Physical}} **Physical** DPS wearing {{ gear("Invulnerable Armor") }} and {{ gear("Helm of Carnage") }}, but also giving some benefit for **Magical**{.magenta} DPS otherwise.
     
     As rough advice, getting {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} on {{Weapon}} **Weapon** and {{Gloves}} **Gloves** is a go-to (for Standard DPS), and filling the rest with either additional {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} or {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} isn't a bad choice.
 

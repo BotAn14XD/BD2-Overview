@@ -31,7 +31,7 @@ Beforehand, you must understand **Bonds**.
 
     * **<u>If you are new, use the bond with the most potential liberation done.</u>**
     * If you are not new, you should choose depending on the enemy. 
-        * In **general content**, you tend to use the same [DPS](../misc/slang.md?term=DPS), which means a lot of off-element fights. For that reason, you usually target bonds **with no Property *(Water, Light etc)* DMG Increase**. 
+        * In **general content**, you tend to use the same [DPS](../misc/slang.md?term=DPS), which means a lot of off-element fights. For that reason, you usually target bonds **with no Property *(Water, Light, etc)* DMG Increase**. 
         * In **property content** *(Fiend Hunter, Guild Raid)*, you need to understand the buffs occurring in a fight. For some fights with no extra Property DMG Increase from the boss itself, it *may* be worth picking a bond **with Property DMG Increase**.<br>However, if the boss offers additional buffs or you have a lot of external buffs from supports, it *may* be worth picking a "general" bond instead.   
         * For **defensive/support bonds**, pick depending on the damage type you are facing. 
     
@@ -79,6 +79,37 @@ There are three types of nodes:
         * 500 Elemental Crystals
         * 1 {{ Tear_of_Goddess }} **Tear of Goddess**.
 
+---
+
+## Bulk Liberate
+
+To save time, you can upgrade part of the tree or even the whole Potential Liberation with only a few clicks.
+
+To upgrade a full tree, press **Bulk Liberate** in the bottom right corner. To upgrade the tree partially, select the node you want before pressing the same button. All nodes before the chosen one will be upgraded automatically. 
+
+??? image "Image Guide"
+    ![Bulk Liberate Guide](../assets/images/potential-liberation/bulk-lib-guide.avif)
+
+!!! image "Bulk Liberation"
+    ![Bulk Liberation](../assets/images/potential-liberation/bulk-liberate.avif)
+
+---
+
+## Toggle Potential
+
+You can **disable** upgraded Potentials (Large Nodes). Disabled Potentials will not take effect during battles.
+
+To do it, press the desired Potential and press the **Disable** button in the bottom right corner. To revert the changes, repeat the same process, pressing the **Enable** button instead. 
+
+A disabled Potential will have a lock icon, indicating it is not used at the moment.
+
+!!! image "Disabled Potential"
+    ![Disabled Potential](../assets/images/potential-liberation/lock-pots.avif)
+
+!!! warning "Important"
+    Toggle Potential feature **is not applicable in [Tower of Salvation](../content-packs/evil-castle.md#tower-of-salvation), [Mirror Wars](../content-packs/mirror-wars.md), [Last Night](../content-packs/last-night.md) and [Golden Colosseum](../content-packs/gc.md)**.
+
+    It is designed to avoid incidents where additional effects such as **Barrier** may actually **harm** the Character instead of helping.
 ---
 
 ## **Liberation Priority**
