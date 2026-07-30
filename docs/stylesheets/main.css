@@ -1087,3 +1087,7 @@ h1:has(> a.headerlink:only-child) {
 [data-md-color-scheme="slate"] .gear-name.neutral, .white {
     color: #ffffff;
 }
+
+.colo-icon {
+      pointer-events: none;
+}

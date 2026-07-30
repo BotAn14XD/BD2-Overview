@@ -36,7 +36,15 @@ document.addEventListener("DOMContentLoaded", function() {
         const hours = parseInt(matches[1], 10);
         const minutes = parseInt(matches[2], 10);
 
-        const dummyDate = new Date(Date.UTC(2026, 0, 1, hours, minutes, 0));
+        const now = new Date();
+        const dummyDate = new Date(Date.UTC(
+            now.getUTCFullYear(), 
+            now.getUTCMonth(), 
+            now.getUTCDate(), 
+            hours, 
+            minutes, 
+            0
+        ));
 
         const localTime = dummyDate.toLocaleTimeString([], {
             hour: '2-digit',

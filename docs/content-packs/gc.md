@@ -24,7 +24,7 @@ icon: material/sword-cross
     * Completing missions and ranking up rewards {{Aurum_Coin}} **Aurum Coins**, which can be spent in the Golden Colosseum Shop.
 
 !!! image "Golden Colosseum Main Menu"
-    ![Golden Colosseum Main Menu](../assets/images/gc/gc.avif)
+    ![Golden Colosseum Main Menu](../assets/images/golden-colosseum/gc.avif)
 
 ## Basics
 
@@ -33,6 +33,17 @@ icon: material/sword-cross
 To fight, you set up a **team** and **Blessings** tailored to the active season's [Rules](#rules). While core combat mechanics remain stable across most seasons, specific parameters (like grid size, unit limits, and bans) rotate regularly.
 
 Similarly to [Mirror Wars](./mirror-wars.md), the battles are automatic and do not require an active input from a player.
+
+Winning against the opponent grants Points, and losing decreases Points, correspondingly. Unlike the Mirror Wars, though, losing in **Defense** does **not** affect your points; only your offense matters.
+
+!!! tip "Repeat Battle"
+
+    To save your time, you can use **Repeat Battle** feature. It will automatically start the battles and skip them after first Costume's Action until the set number of attempts is exhausted.
+
+    To activate it, press **Repeat Battle** at the bottom right corner of the Golden Colosseum Menu.
+
+    ??? image "Image Guide"
+        ![Repeat Battle Guide](../assets/images/golden-colosseum/repeat-battle.avif)
 
 ## Team
 
@@ -43,7 +54,7 @@ Each Costume is separate, which means you can put multiple Costumes of the same 
 To set the team, press the **Formation** button, then **Replace**, pick the needed Costume, and, finally, place it on the field and save the changes.
 
 ??? image "Image Guide"
-    ![Setting up Formation](../assets/images/gc/Setup-Costumes.avif)
+    ![Setting up Formation](../assets/images/golden-colosseum/Setup-Costumes.avif)
 
 Additionally, in the **Formation** tab, you can freely change the order of your Costumes, similar to the regular [battles](../mechanics/battle.md#__tabbed_2_2).
 
@@ -54,10 +65,10 @@ Blessings are effects that impact you or your enemy. They are separated into thr
 To access the Blessings menu, press the **Formation** button followed by **Settings** on the right.
 
 ??? image "Image Guide"
-    ![Blessings Settings location](../assets/images/gc/blessings-access.avif)
+    ![Blessings Settings location](../assets/images/golden-colosseum/blessings-access.avif)
 
 !!! image "Blessings Menu"
-    ![Blessings Menu](../assets/images/gc/blessings.avif)
+    ![Blessings Menu](../assets/images/golden-colosseum/blessings.avif)
 
 Each Blessing costs a specific amount of **Blessing Points**, based on how impactful the Blessing is. You can equip a limited number of Blessings, dictated by the total Blessing Points available. You also have to make two separate Blessing builds for going **First** or **Second**, with going second granting extra points to compensate for turn order.
 
@@ -77,13 +88,13 @@ Every 2 Seasons, a new set of Rules is released. They dictate how the season goe
 To check the Rules of current and previous Seasons, press the corresponding menu.
 
 ??? image "Image Guide"
-    ![Rulebook Access](../assets/images/gc/rulebook-access.avif)
+    ![Rulebook Access](../assets/images/golden-colosseum/rulebook-access.avif)
 
 !!! image "Rules Menu"
-    ![Rules Menu](../assets/images/gc/rules.avif)
+    ![Rules Menu](../assets/images/golden-colosseum/rules.avif)
     
 ??? abstract "Rules List"
-    <div class="responsive-table-wrapper">
+    <div class="responsive-table-wrapper colo-table">
     <table class="data-table">
         <thead>
             <tr>
@@ -185,10 +196,10 @@ Missions are tasks that you can complete once per season. Completing missions gr
 To get them, press the corresponding icon in the Golden Colosseum menu.
 
 ??? image "Image Guide"
-    ![Missions Access](../assets/images/gc/missions-access.avif)
+    ![Missions Access](../assets/images/golden-colosseum/missions-access.avif)
 
 !!! image "Missions"
-    ![Missions Menu](../assets/images/gc/missions.avif)
+    ![Missions Menu](../assets/images/golden-colosseum/missions.avif)
 
 ??? abstract "Mission List"
     <div class="responsive-table-wrapper">
@@ -254,14 +265,300 @@ To get them, press the corresponding icon in the Golden Colosseum menu.
 
     However, you still can **claim rewards** during the **Settlement Period**, given you satisfied the conditions beforehand.
 
-    It is useful when you are completing the Colosseum at the last minute or just forget to claim before the period kicks in. 
+    This is helpful if you complete your battles right before the deadline or forget to claim your rewards before settlement begins.
     
 ## Ranking
 
-## Guide
+Similarly to the [Mirror Wars](../content-packs/mirror-wars.md), there are 29 Rankings. Reaching a specific Rank awards you with a different amount of {{Aurum_Coin}} **Aurum Coins** at the end of the Season.
+
+The Season lasts for a **week** with a Settlement Period that starts at {{time('15:00')}} on the last day. It happens on Wednesday (UTC), the last day of the game week. During the Settlement Period, you cannot perform any Attacks, so be sure to use your Attempts before the period.
+
+Golden Colosseum ranks players strictly by **relative percentile brackets** across the active player base. At the end of the season, all active players are sorted by their final Rating Points and divided into percentage cutoffs (e.g., Top 1%, Top 5%, Top 10%, etc.).
+
+!!! info "Understanding Game Wording"
+    The game UI uses inverted wording for the ranking system. Here are some examples of how to translate the brackets:
+
+    * **Within the Top 0.1%:** You performed better than at least **99.9%** of players.
+    * **Above Top 10% - Below Top 12.5%:** You performed worse than **10%** of players but still better than **87.5%**. In other words, you are within the Top 10% — 12.5% bracket of players. 
+
+??? abstract "Ranks & Rewards List"
+    <div class="responsive-table-wrapper">
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th colspan="2">Rank</th>
+                <th>Percentile Bracket</th>
+                <th>Seasonal Reward</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bronze</td>
+                <td>![Bronze_Colo](../assets/images/golden-colosseum/icons/bronze.avif){.colo-icon}</td>
+                <td>90% — 100%</td>
+                <td>900 {{Aurum_Coin}}</td>
+            </tr>
+            <tr>
+                <td>Silver III</td>
+                <td>![Silver3_Colo](../assets/images/golden-colosseum/icons/silver3.avif){.colo-icon}</td>
+                <td>85% — 90%</td>
+                <td>920 {{Aurum_Coin}}</td>
+            </tr>
+            <tr>
+                <td>Silver II</td>
+                <td>![Silver2_Colo](../assets/images/golden-colosseum/icons/silver2.avif){.colo-icon}</td>
+                <td>80% — 85%</td>
+                <td>960 {{Aurum_Coin}}</td>
+            </tr>
+            <tr>
+                <td>Silver I</td>
+                <td>![Silver1_Colo](../assets/images/golden-colosseum/icons/silver1.avif){.colo-icon}</td>
+                <td>75% — 80%</td>
+                <td>1000 {{Aurum_Coin}}</td>
+            </tr>
+            <tr>
+                <td>Gold III</td>
+                <td>![Gold3_Colo](../assets/images/golden-colosseum/icons/gold3.avif){.colo-icon}</td>
+                <td>70% — 75%</td>
+                <td>1040 {{Aurum_Coin}}</td>
+            </tr>
+            <tr>
+                <td>Gold II</td>
+                <td>![Gold2_Colo](../assets/images/golden-colosseum/icons/gold2.avif){.colo-icon}</td>
+                <td>65% — 70%</td>
+                <td>1080 {{Aurum_Coin}}</td>
+            </tr>
+            <tr>
+                <td>Gold I</td>
+                <td>![Gold1_Colo](../assets/images/golden-colosseum/icons/gold1.avif){.colo-icon}</td>
+                <td>60% — 65%</td>
+                <td>1120 {{Aurum_Coin}}</td>
+            </tr>
+            <tr>
+                <td>Platinum III</td>
+                <td>![Platinum3_Colo](../assets/images/golden-colosseum/icons/platinum3.avif){.colo-icon}</td>
+                <td>55% — 60%</td>
+                <td>1160 {{Aurum_Coin}}</td>
+            </tr>
+            <tr>
+                <td>Platinum II</td>
+                <td>![Platinum2_Colo](../assets/images/golden-colosseum/icons/platinum2.avif){.colo-icon}</td>
+                <td>50% — 55%</td>
+                <td>1200 {{Aurum_Coin}}</td>
+            </tr>
+            <tr>
+                <td>Platinum I</td>
+                <td>![Platinum1_Colo](../assets/images/golden-colosseum/icons/platinum1.avif){.colo-icon}</td>
+                <td>45% — 50%</td>
+                <td>1240 {{Aurum_Coin}}</td>
+            </tr>
+            <tr>
+                <td>Ruby III</td>
+                <td>![Ruby3_Colo](../assets/images/golden-colosseum/icons/ruby3.avif){.colo-icon}</td>
+                <td>40% — 45%</td>
+                <td>1280 {{Aurum_Coin}}</td>
+            </tr>
+            <tr>
+                <td>Ruby II</td>
+                <td>![Ruby2_Colo](../assets/images/golden-colosseum/icons/ruby2.avif){.colo-icon}</td>
+                <td>35% — 40%</td>
+                <td>1320 {{Aurum_Coin}}</td>
+            </tr>
+            <tr>
+                <td>Ruby I</td>
+                <td>![Ruby1_Colo](../assets/images/golden-colosseum/icons/ruby1.avif){.colo-icon}</td>
+                <td>30% — 35%</td>
+                <td>1360 {{Aurum_Coin}}</td>
+            </tr>
+            <tr>
+                <td>Dia III</td>
+                <td>![Dia3_Colo](../assets/images/golden-colosseum/icons/dia3.avif){.colo-icon}</td>
+                <td>25% — 30%</td>
+                <td>1400 {{Aurum_Coin}}</td>
+            </tr>
+            <tr>
+                <td>Dia II</td>
+                <td>![Dia2_Colo](../assets/images/golden-colosseum/icons/dia2.avif){.colo-icon}</td>
+                <td>20% — 25%</td>
+                <td>1440 {{Aurum_Coin}}<br>"Not Bad Greta 1" sticker</td>
+            </tr>
+            <tr>
+                <td>Dia I</td>
+                <td>![Dia1_Colo](../assets/images/golden-colosseum/icons/dia1.avif){.colo-icon}</td>
+                <td>17.5% — 20%</td>
+                <td>1480 {{Aurum_Coin}}<br>"Not Bad Greta 1" sticker</td>
+            </tr>
+            <tr>
+                <td>Sapphire III</td>
+                <td>![Sapphire3_Colo](../assets/images/golden-colosseum/icons/sapphire3.avif){.colo-icon}</td>
+                <td>15% — 17.5%</td>
+                <td>1520 {{Aurum_Coin}}<br>"Not Bad Greta 1" sticker</td>
+            </tr>
+            <tr>
+                <td>Sapphire II</td>
+                <td>![Sapphire2_Colo](../assets/images/golden-colosseum/icons/sapphire2.avif){.colo-icon}</td>
+                <td>12.5% — 15%</td>
+                <td>1560 {{Aurum_Coin}}<br>"Not Bad Greta 1" sticker</td>
+            </tr>
+            <tr>
+                <td>Sapphire I</td>
+                <td>![Sapphire1_Colo](../assets/images/golden-colosseum/icons/sapphire1.avif){.colo-icon}</td>
+                <td>10% — 12.5%</td>
+                <td>1600 {{Aurum_Coin}}<br>"Not Bad Greta 1" sticker</td>
+            </tr>
+            <tr>
+                <td>Master III</td>
+                <td>![Master3_Colo](../assets/images/golden-colosseum/icons/master3.avif){.colo-icon}</td>
+                <td>7.5% — 10%</td>
+                <td>1640 {{Aurum_Coin}}<br>"Not Bad Greta 1" sticker</td>
+            </tr>
+            <tr>
+                <td>Master II</td>
+                <td>![Master2_Colo](../assets/images/golden-colosseum/icons/master2.avif){.colo-icon}</td>
+                <td>5% — 7.5%</td>
+                <td>1680 {{Aurum_Coin}}<br>"Not Bad Greta 1" sticker</td>
+            </tr>
+            <tr>
+                <td>Master I</td>
+                <td>![Master1_Colo](../assets/images/golden-colosseum/icons/master1.avif){.colo-icon}</td>
+                <td>3% — 5%</td>
+                <td>1720 {{Aurum_Coin}}<br>"Not Bad Greta 1" sticker</td>
+            </tr>
+            <tr>
+                <td>Grandmaster III</td>
+                <td>![Grandmaster3_Colo](../assets/images/golden-colosseum/icons/grandmaster3.avif){.colo-icon}</td>
+                <td>2% — 3%</td>
+                <td>1760 {{Aurum_Coin}}<br>"Not Bad Greta 2" sticker</td>
+            </tr>
+            <tr>
+                <td>Grandmaster II</td>
+                <td>![Grandmaster2_Colo](../assets/images/golden-colosseum/icons/grandmaster2.avif){.colo-icon}</td>
+                <td>1.5% — 2%</td>
+                <td>1800 {{Aurum_Coin}}<br>"Not Bad Greta 2" sticker</td>
+            </tr>
+            <tr>
+                <td>Grandmaster I</td>
+                <td>![Grandmaster1_Colo](../assets/images/golden-colosseum/icons/grandmaster1.avif){.colo-icon}</td>
+                <td>1% — 1.5%</td>
+                <td>1840 {{Aurum_Coin}}<br>"Not Bad Greta 2" sticker</td>
+            </tr>
+            <tr>
+                <td>Challenger III</td>
+                <td>![Challenger3_Colo](../assets/images/golden-colosseum/icons/challenger3.avif){.colo-icon}</td>
+                <td>0.5% — 1%</td>
+                <td>1880 {{Aurum_Coin}}<br>"Not Bad Greta 2" sticker</td>
+            </tr>
+            <tr>
+                <td>Challenger II</td>
+                <td>![Challenger2_Colo](../assets/images/golden-colosseum/icons/challenger2.avif){.colo-icon}</td>
+                <td>0.25% — 0.5%</td>
+                <td>1920 {{Aurum_Coin}}<br>"Not Bad Greta 2" sticker</td>
+            </tr>
+            <tr>
+                <td>Challenger I</td>
+                <td>![Challenger1_Colo](../assets/images/golden-colosseum/icons/challenger1.avif){.colo-icon}</td>
+                <td>0.1% — 0.25%</td>
+                <td>1960 {{Aurum_Coin}}<br>"Not Bad Greta 2" sticker</td>
+            </tr>
+            <tr>
+                <td>Champion</td>
+                <td>![Champion_Colo](../assets/images/golden-colosseum/icons/champion.avif){.colo-icon}</td>
+                <td><0.1%</td>
+                <td>2000 {{Aurum_Coin}}<br>"Not Bad Greta 3" sticker</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+## Guides
+
+If you do not care about [PvP](../misc/slang.md?term=PvP) to the degree you want to actually climb the ladder, **copying someone's teams** will do. This will give you decent Rank and 40 wins easily to complete all missions.
+
+For that, you have plenty of options:
+
+* [Gamekee Encyclopedia (Chinese)](https://www.gamekee.com/zsca2/684719.html)
+* pennyosa's videos on [Bilibili](https://space.bilibili.com/577152165/lists/5118625?type=series) or [YouTube](https://www.youtube.com/@pennyosa)
+* [Arca Live Forum](https://arca.live/b/breaking?keyword=+%ED%99%A9%ED%88%AC)
+* [GemMog's Youtube Channel](https://www.youtube.com/@GemMog)
+* [VioletRose's YouTube Channel](https://www.youtube.com/playlist?list=PLjh8VmDQJsQqQuAMTfTyIa4YePbQlKBMU)
+
+If you want to **actually climb the ladder** (or want to have slightly different explanations for basics), refer to [blanketninja's Colosseum Guide](https://docs.google.com/spreadsheets/d/e/2PACX-1vQEYjBPz0-tkhGwtgEyTm4cj0lVhgItaFXBVqcRxZ8wPoZne94QWnfz2nLJwRoBmEh_JCRZtNYqpObE/pubhtml#gid=2089793421).
+
+!!! tip "Small advice"
+    Since Costumes rely on progression, it would make sense to pick the options that include your better upgraded Costumes.
+
+    Search for the one you're comfortable with.
 
 ## Shop
+
+Shop is a place where you can spend earned {{Aurum_Coin}} **Aurum Coins**. To access it, either press the Shop icon directly from the Golden Colosseum Pack or find the Golden Colosseum Shop in a Content Shop section of a regular Shop.
+
+??? image "Image Guide"
+    ![Golden Colosseum Shop Access Guide](../assets/images/golden-colosseum/gc-shop-access.avif)
+
+!!! image "Golden Colosseum Shop"
+    ![Golden Colosseum Shop](../assets/images/golden-colosseum/colo-shop.avif)
+
+### Shop Priority
+
+<div class="tab-align" markdown>
+
+=== "New Player Priority"
+    
+    Assuming you are reaching **Platinum II** (55% — 50% bracket) and completing all Missions, you will receive 2100 {{Aurum_Coin}} **Aurum Coins** per season, which translates to 8400 {{Aurum_Coin}} **Aurum Coins** per 4 weeks (roughly a month).
+
+    1. {{Property_Selective_Draw_Exchange_Ticket}} **Property Selective Draw Exchange Ticket**{.yellow} x2 — 2000 {{Aurum_Coin}} **Aurum Coins**
+    2. {{Spark_of_Rampage}} **Spark of Rampage**{.yellow} x55 — 550 {{Aurum_Coin}} **Aurum Coins**
+    3. {{Draw_Ticket}} **Draw Ticket**{.yellow} x10 — 2000 {{Aurum_Coin}} **Aurum Coins**
+    4. {{Refining_Crystal}} **Refining Crystals**{.yellow} x1000 — 2000 {{Aurum_Coin}} **Aurum Coins**
+    5. {{Ancient_Crystal}} **Ancient Crystals**{.yellow} x50 — on leftovers — 1000 {{Aurum_Coin}} **Aurum Coins**
+
+    ---
+
+    Optional (if you have extra {{Aurum_Coin}} **Aurum Coins**):
+
+    1. {{Awakening_Elixir}} **Awakening Elixir x100**{.yellow} — 1000 {{Aurum_Coin}} **Aurum Coins**
+    2. {{Gold}} **Gold**{.yellow} x2M — 2000 {{Aurum_Coin}} **Aurum Coins**
+    3. {{Refining_Powder}} **Refining Powder**{.yellow} x40K — 1000 {{Aurum_Coin}} **Aurum Coins**
+
+    --- 
+
+    * Total without optional: 7550 {{Aurum_Coin}} **Aurum Coins**
+    * Total with optional: 11550 {{Aurum_Coin}} **Aurum Coins**
+
+=== "Old Player Priority"
+
+    Assuming you are reaching **Sapphire I** (10% — 12.5% bracket) and completing all Missions, you will receive 2500 {{Aurum_Coin}} **Aurum Coins** per season, which translates to 10000 {{Aurum_Coin}} **Aurum Coins** per 4 weeks (roughly a month).
+
+    1. {{Spark_of_Rampage}} **Spark of Rampage**{.yellow} x55 — 550 {{Aurum_Coin}} **Aurum Coins**
+    2. {{Refining_Crystal}} **Refining Crystals**{.yellow} x1000 — 2000 {{Aurum_Coin}} **Aurum Coins**
+    3. {{Draw_Ticket}} **Draw Ticket**{.yellow} x10 — 2000 {{Aurum_Coin}} **Aurum Coins**
+    4. {{Gold}} **Gold**{.yellow} x2M — 2000 {{Aurum_Coin}} **Aurum Coins**
+
+    ---
+
+    Optional: 
+    
+    1. {{Awakening_Elixir}} **Awakening Elixir x100**{.yellow} — if necessary — 1000 {{Aurum_Coin}} **Aurum Coins**
+    2. {{Ancient_Crystal}} **Ancient Crystals**{.yellow} x50 — on leftovers — 1000 {{Aurum_Coin}} **Aurum Coins**
+    3. {{Property_Selective_Draw_Exchange_Ticket}} **Property Selective Draw Exchange Ticket**{.yellow} x2 — if necessary — 2000 {{Aurum_Coin}} **Aurum Coins**
+    4. {{Refining_Powder}} **Refining Powder**{.yellow} x40K — on leftovers — 1000 {{Aurum_Coin}} **Aurum Coins**
+
+    --- 
+
+    * Total without optional: 6550 {{Aurum_Coin}} **Aurum Coins**
+    * Total with spending on leftovers items: 8550 {{Aurum_Coin}} **Aurum Coins**
+    * Total with optional: 11550 {{Aurum_Coin}} **Aurum Coins**
+
+</div>
 
 ## Related Links
 
 * [Blessing Codex | Brown Dust II Database by <u>Souseha</u>](https://browndust2-db.souseha.com/en/blessings)
+* [Brown Dust 2 Wiki | Gamekee](https://www.gamekee.com/zsca2/684719.html)
+* [系列·黄金竞技场 by <u>pennyosa</u> | Bilibili](https://space.bilibili.com/577152165/lists/5118625?type=series)
+* [<u>pennyosa</u> | YouTube](https://www.youtube.com/@pennyosa)
+* [Arca Live Forum](https://arca.live/b/browndust2/)
+* [<u>GemMog</u> | YouTube](https://www.youtube.com/@GemMog)
+* [<u>VioletRose</u> | YouTube](https://www.youtube.com/playlist?list=PLjh8VmDQJsQqQuAMTfTyIa4YePbQlKBMU)
+* [Colden Colosseum: Champion Guide by <u>blanketninja</u>](https://docs.google.com/spreadsheets/d/e/2PACX-1vQEYjBPz0-tkhGwtgEyTm4cj0lVhgItaFXBVqcRxZ8wPoZne94QWnfz2nLJwRoBmEh_JCRZtNYqpObE/pubhtml#gid=2089793421)
