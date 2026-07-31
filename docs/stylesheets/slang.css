@@ -221,3 +221,34 @@
 .md-typeset a[href*="slang"][href*="?term="]:hover {
     color: var(--bd-emphasis) !important;
 }
+
+[data-md-color-scheme="slate"] .quick-filters button {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.7);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+[data-md-color-scheme="slate"] .quick-filters button:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .quick-filters button.active-filter {
+    background-color: var(--bd-accent-blue) !important;
+    color: #000000 !important;
+    border-color: var(--bd-accent-blue);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .rare-tag {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.45);
+    border: 1px dashed rgba(255, 255, 255, 0.2);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .slang-counter {
+    color: rgba(255, 255, 255, 1);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .miscellaneous-tag {
+    color: rgba(255, 255, 255, 1);
+}

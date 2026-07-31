@@ -566,6 +566,14 @@ icon: material/book-search
             <p><a href="https://browndust2.miraheze.org/wiki/Charming_Gaze">Charming Gaze</a> is a UR Craftable Accessory.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>Cheerleading Team</h3>
+            <div class="alias-container">
+                <span class="alias-tag miscellaneous-tag ignore-exact">Miscellaneous</span>
+                <span class="alias-tag rare-tag">Cheerleading Squad</span>
+            </div>
+            <p>A Cheerleading Team is one of the teams in <a href="https://botan14xd.github.io/BD2-Overview/content/fh/">Fiend Hunter</a> that deals very little damage, focusing on providing bonuses to the next team instead.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Code Name A Rafina</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -598,6 +606,16 @@ icon: material/book-search
                 <span class="alias-tag">Spy Scheherazade</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Scheherazade/Code_Name_S">Code Name S</a> is one of <a href="https://browndust2.miraheze.org/wiki/Scheherazade">Scheherazade's</a> costumes. Used as a <span class="cross-link" onclick="searchFor('PvP')">PvP</span> Costume.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Combat Medic Granhildr</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag">Medic Gran</span>
+                <span class="alias-tag rare-tag">CM Granhildr</span>
+                <span class="alias-tag rare-tag">Summer Gran</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Granhildr/Combat_Medic">Combat Medic</a> is one of <a href="https://browndust2.miraheze.org/wiki/Granhildr">Granhildr's</a> costumes. Used as a Self-Buffer.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Comeback Idol Granhildr</h3>
@@ -1771,6 +1789,14 @@ icon: material/book-search
     <h2 class="letter-heading">N</h2>
     <ul class="slang-list">
         <li class="slang-item" data-keywords="">
+            <h3>Naive Lady Elise</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag rare-tag">NL Elise</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Elise/Naive_Lady">Naive Lady</a> is one of <a href="https://browndust2.miraheze.org/wiki/Elise">Elise's</a> costumes. Used as a <span class="cross-link" onclick="searchFor('DPS')">DPS</span> and Self-Buffer.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>Naked Character</h3>
             <div class="alias-container">
                 <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
@@ -1793,6 +1819,15 @@ icon: material/book-search
                 <span class="alias-tag">Nebi</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Nebris">Nebris</a> is a playable Wind Character.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Nekyndalia</h3>
+            <div class="alias-container">
+                <span class="alias-tag character-tag ignore-exact">Character</span>
+                <span class="alias-tag">Nekyn</span>
+                <span class="alias-tag rare-tag">Nek</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Nekyndalia">Nekyndalia</a> is a playable Wind Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Neon Savior Angelica</h3>
@@ -1887,6 +1922,18 @@ icon: material/book-search
 <div class="alpha-group"> <!-- O -->
     <h2 class="letter-heading">O</h2>
     <ul class="slang-list">
+        <li class="slang-item" data-keywords="">
+            <h3>Ocean Vanguard Luvencia</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag rare-tag">OV Luv</span>
+                <span class="alias-tag rare-tag">OV Luvencia</span>
+                <span class="alias-tag rare-tag">Vanguard Luv</span>
+                <span class="alias-tag rare-tag">Vanguard Luvencia</span>
+                <span class="alias-tag rare-tag">Ocean Luv</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Luvencia/Ocean_Vanguard">Ocean Vanguard</a> is one of <a href="https://browndust2.miraheze.org/wiki/Luvencia">Luvencia's</a> costumes. Used as a <span class="cross-link" onclick="searchFor('DPS')">DPS</span> and Self-Buffer.</p>
+        </li>
         <li class="slang-item" data-keywords="">
             <h3>Olivier</h3>
             <div class="alias-container">
@@ -2215,7 +2262,7 @@ icon: material/book-search
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
             </div>
-            <p>Pulls are a collective term for [Draw Tickets](https://browndust2.miraheze.org/wiki/Draw_Ticket) and [Dia](https://browndust2.miraheze.org/wiki/Dia), used to obtain Costumes from Draw System.</p>
+            <p>Pulls are a collective term for <a href="https://browndust2.miraheze.org/wiki/Draw_Ticket">Draw Tickets</a> and <a href="https://browndust2.miraheze.org/wiki/Dia">Dia</a>, used to obtain Costumes from Draw System.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Pure White Blessing Refithea</h3>
@@ -2616,7 +2663,7 @@ icon: material/book-search
                 <span class="alias-tag">SREX</span>
                 <span class="alias-tag">SR EX</span>
             </div>
-            <p>SR [Exclusive Gear](../progression/gear.md#exclusive-gear) is a type of Gear that can be equipped only by a specific Character.</p>
+            <p>SR <a href="https://botan14xd.github.io/BD2-Overview/progression/gear/#exclusive-gear">Exclusive Gear</a> is a type of Gear that can be equipped only by a specific Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Staller</h3>
@@ -2845,6 +2892,16 @@ icon: material/book-search
             <p><a href="https://browndust2.miraheze.org/wiki/Gray/The_Sharpshooter_of_the_Mist">The Sharpshooter of the Mist</a> is one of <a href="https://browndust2.miraheze.org/wiki/Gray">Gray's</a> costumes. Used as a <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
         </li>
         <li class="slang-item" data-keywords="">
+            <h3>The Soul Wager</h3>
+            <div class="alias-container">
+                <span class="alias-tag content-tag ignore-exact">Content</span>
+                <span class="alias-tag">Soul Wager</span>
+                <span class="alias-tag rare-tag">TSW</span>
+                <span class="alias-tag rare-tag">SW</span>
+            </div>
+            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/soul-wager/">The Soul Wager</a> is a auto battler inventory management Content Pack.
+        </li>
+        <li class="slang-item" data-keywords="">
             <h3>The Sword Queen Sylvia</h3>
             <div class="alias-container">
                 <span class="alias-tag costume-tag ignore-exact">Costume</span>
@@ -2962,6 +3019,14 @@ icon: material/book-search
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Travel_God's_Friend">Travel God's Friend</a> is a UR Craftable Weapon.</p>
         </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Tricky Lover Dalvi</h3>
+            <div class="alias-container">
+                <span class="alias-tag costume-tag ignore-exact">Costume</span>
+                <span class="alias-tag rare-tag">TL Dalvi</span>
+            </div>
+            <p><a href="https://browndust2.miraheze.org/wiki/Dalvi/Tricky_Lover">Tricky Lover</a> is one of <a href="https://browndust2.miraheze.org/wiki/Dalvi">Dalvi's</a> costumes. Used as a <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
     </ul>
 </div>
 
@@ -2988,7 +3053,7 @@ icon: material/book-search
                 <span class="alias-tag rare-tag">Signature Gear</span>
                 <span class="alias-tag rare-tag">Signa</span>
             </div>
-            <p>UR [Exclusive Gear](../progression/gear.md#exclusive-gear) is a type of Gear that can be equipped only by a specific Character.</p>
+            <p>UR <a href="https://botan14xd.github.io/BD2-Overview/progression/gear/#exclusive-gear">Exclusive Gear</a> is a type of Gear that can be equipped only by a specific Character.</p>
         </li>
     </ul>
 </div>
