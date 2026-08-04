@@ -204,7 +204,7 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
 
 ## **Battle UI**
 ![Top Part of UI](../assets/images/battle-system/UI_top.avif)
-<div class="tab-align" markdown>
+
 === "![Environmental Icon](../assets/images/battle-system/icons/icon_environment.avif){ .icon-list }"
     ### **Environmental Effects** { #__tabbed_1_1 }
     This icon itself does not mean anything, but next to this icon, all **environmental effects** are listed. They can be (but are not limited to): 
@@ -282,7 +282,6 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
 ---
 
 ![Bottom Part of UI](../assets/images/battle-system/UI_bottom.avif)
-<div class="tab-align" markdown>
 === "![Replace](../assets/images/battle-system/icons/icon_pictorialbook1.avif){ .icon-list }"
     ### **Replace Feature** { #__tabbed_2_1 }
     Feature allowing you to replace your characters during battle preparation.
@@ -374,7 +373,6 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
     This feature allows you to rotate the field, changing your and enemy visual positioning while keeping the aesthetics of the surroundings. This can be useful for distinguishing grouped enemies, but [**Rotate View**]( #__tabbed_2_5 ) is better for this matter.<br>You cannot rotate the field with special bosses on it like Fiend Hunter or Guild Raid ones.
     ??? image "Feature Showcase"
         ![Rotate Feature Showcase](../assets/images/battle-system/rotation_comparison.avif)
-</div>
 
 ---
 

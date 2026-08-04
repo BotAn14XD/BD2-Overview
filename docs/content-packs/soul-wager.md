@@ -86,8 +86,6 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
 
 ??? abstract "Shop Prices"
 
-    <div class="tab-align" markdown>
-
     === "Tiles"
 
         <span class="responsive-table-wrapper">
@@ -584,8 +582,6 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
         </tbody>
         </table>
         </span>
-
-    </div>
 
 !!! warning "Reserving"
     If you want a board piece to stay in the shop until the next Formation Stage, you can **click on the price tag** to **reserve it**. This way, it will not be refreshed after the next battle.
