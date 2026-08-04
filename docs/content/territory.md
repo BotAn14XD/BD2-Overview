@@ -254,8 +254,6 @@ Leveling up unlocks new crops and dishes (for **Farming**) and decorative items 
 
 The table below displays the level, EXP required to reach it (from the previous level), Cumulative EXP, and the bonus that specific level provides. There is a total of 10 levels for each activity.
 
-<div class="tab-align" markdown>
-
 === "Logging"
 
     <span class="responsive-table-wrapper">
@@ -487,7 +485,7 @@ The table below displays the level, EXP required to reach it (from the previous 
     </table>
     </span>
 
-</div>
+---
 
 ## Player Bonuses
 
@@ -706,6 +704,8 @@ This essentially means that for refunding, you should not have any active crops 
 ??? image "Confirmation Window"
     ![Confirmation Window](../assets/images/territory/confirmation.avif)
 
+Worth mentioning that despite **Helper Lodging** will be destroyed as well, **Helpers** you recruited before can be recruited back for free.
+
 ### Territory Expansion
 
 Each terrain layout contains locked regions, which you can unlock using {{Local_Points}} **Local Points**.
@@ -911,8 +911,6 @@ There are several strategies when it comes to gaining {{Local_Points}} **Local P
 
 They can be roughly divided into **Active (Early Game)**, **More Passive (Late Game)**, and **Lazy**.
 
-<div class="tab-align" markdown>
-
 === "Active (Early Game)"
 
     The main income for the early game and active gameplay comes from {{Virile_Gnocchi}} **Virile Gnocchi**. 
@@ -943,7 +941,7 @@ They can be roughly divided into **Active (Early Game)**, **More Passive (Late G
     
     Territory is not tied to the main gameplay; therefore, there is no reason to rush anything when it comes to this game mode.
 
-</div>
+---
 
 <!-- ## Missions -->
 

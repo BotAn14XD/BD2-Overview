@@ -62,10 +62,14 @@ nav:
     - 'Miscellaneous':
         - 'Game Slang': misc/slang.md
     - 'Common Questions': FAQ.md
+    - 'New Player Guide & To-Do List [WIP]': new.md
     - '---': '#'
     - 'Survey': survey.md
     - 'Banner Recommendations': https://zormolo.github.io/BD2-Banner-Recommendation/
     - 'Our Discord Server': https://discord.gg/tays83ew3N
+    - 'P2W Efficiency Spreadsheet': https://docs.google.com/spreadsheets/d/19X4TjCjyrl6XV1jCh6kRoChubKjL9xBZbfyh9SB2egg/edit
+    - '---': '#'
+    - 'My position regarding The Official Brown Dust 2 Server': assets/misc/My position regarding The Official Brown Dust 2 Server.pdf
 repo_name: BotAn14XD/BD2-Overview
 repo_url: https://github.com/BotAn14XD/BD2-Overview
 extra_css:
@@ -74,11 +78,13 @@ extra_css:
   - stylesheets/survey.css
   - stylesheets/rapport.css
   - stylesheets/slang.css
+  - stylesheets/checklists.css
   - stylesheets/print.css
   - assets/katex/katex.min.css
 extra_javascript:
   - javascripts/main.js
   - javascripts/rapport.js
+  - javascripts/checklist.js
   - assets/katex/katex.min.js
   - assets/katex/contrib/auto-render.min.js
   - javascripts/katex-config.js

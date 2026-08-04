@@ -20,8 +20,14 @@ This site is a work in progress, focusing on high-quality explanations for every
 
 ---
 
-<div class="banner-container">
-    <img src="assets/images/site-assets/index-pc-2.avif" alt="Fundamentals" class="responsive-banner">
+<span class="index-greeting">New to the game? Check the pages below!</span>
+
+<div class="grid cards center-content" markdown>
+-   ![New Player Guide](assets/images/site-assets/index-pc-nav-26.avif){: .card-header-img }
+
+    ---
+
+    [View Page [WIP] →](./new.md){: .md-button}
 </div>
 
 <div class="grid cards center-content" markdown>
@@ -30,6 +36,12 @@ This site is a work in progress, focusing on high-quality explanations for every
     ---
 
     [View Page →](./FAQ.md){: .md-button}
+</div>
+
+---
+
+<div class="banner-container">
+    <img src="assets/images/site-assets/index-pc-2.avif" alt="Fundamentals" class="responsive-banner">
 </div>
 
 <div class="grid cards center-content" markdown>
@@ -136,6 +148,12 @@ This site is a work in progress, focusing on high-quality explanations for every
     ---
 
     [View Page →](./content-packs/soul-wager.md){: .md-button }
+
+-   ![Golden Colosseum](assets/images/site-assets/index-pc-nav-25.avif){: .card-header-img }
+
+    ---
+
+    [View Page →](./content-packs/gc.md){: .md-button }
 </div>
 
 

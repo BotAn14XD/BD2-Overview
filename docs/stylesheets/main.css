@@ -41,6 +41,14 @@
 
     --bd-emphasis: var(--md-default-fg-color);                                   /* was hard white */
     --bd-muted:    color-mix(in srgb, var(--md-default-fg-color) 58%, transparent);
+    /* --bd-muted's 58% mix reads fine in light mode but is too dim in dark
+       mode (light-on-dark needs more headroom than dark-on-light for the
+       same felt legibility) — same gap .tooltip-line.gray already hit
+       below. Falls back to --bd-muted here; the slate scheme block near
+       the bottom overrides it with the exact value already proven to work
+       for .tooltip-line.gray, so any secondary/muted text can opt into
+       this instead of quietly staying too dim in dark mode. */
+    --bd-muted-strong: var(--bd-muted);
     --bd-hairline: color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
     --bd-fill-2:   color-mix(in srgb, var(--md-default-fg-color) 3%,  transparent);
     --bd-fill-5:   color-mix(in srgb, var(--md-default-fg-color) 6%,  transparent);
@@ -1067,6 +1075,13 @@ h1:has(> a.headerlink:only-child) {
     color: #9ca3af !important;
 }
 
+/* Shared stronger-muted token (see --bd-muted-strong definition above) —
+   same value as .tooltip-line.gray above, since that's already the
+   established fix for this exact 58%-mix-too-dim-in-dark-mode gap. */
+[data-md-color-scheme="slate"] {
+    --bd-muted-strong: #9ca3af;
+}
+
 [data-md-color-scheme="slate"] .tooltip-line.white,
 [data-md-color-scheme="slate"] .header-title.white {
     color: #ffffff !important; 
@@ -1090,4 +1105,18 @@ h1:has(> a.headerlink:only-child) {
 
 .colo-icon {
       pointer-events: none;
+}
+
+.index-greeting {
+    font-size: 2em;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: var(--bd-gold);
+}
+
+.md-typeset .tabbed-set > .tabbed-labels {
+    justify-content: safe center !important;
+    display: flex !important;
 }

@@ -12,10 +12,6 @@ icon: material/sword-cross
 
 #
 
-!!! warning "WORK IN PROGRESS"
-    ![Sad Glupy](../assets/images/site-assets/illust_npcface0013210114_74.avif){.icon-portrait align=left}
-    **This page is currently under construction and will be completed soon. Thank you for your patience!**
-
 **Golden Colosseum** is a weekly seasonal [PvP](../misc/slang.md?term=PvP) content.
 
 !!! tip "TL;DR"
@@ -45,6 +41,8 @@ Winning against the opponent grants Points, and losing decreases Points, corresp
     ??? image "Image Guide"
         ![Repeat Battle Guide](../assets/images/golden-colosseum/repeat-battle.avif)
 
+---
+
 ## Team
 
 The team consists of **Costumes, not Characters**. You set up one team for both offense and defense, as well as for going first or second.
@@ -57,6 +55,8 @@ To set the team, press the **Formation** button, then **Replace**, pick the need
     ![Setting up Formation](../assets/images/golden-colosseum/Setup-Costumes.avif)
 
 Additionally, in the **Formation** tab, you can freely change the order of your Costumes, similar to the regular [battles](../mechanics/battle.md#__tabbed_2_2).
+
+---
 
 ## Blessings
 
@@ -75,11 +75,13 @@ Each Blessing costs a specific amount of **Blessing Points**, based on how impac
 To check each Blessing, refer to the Blessing Menu mentioned above. Alternatively, check [Souseha's Database](https://browndust2-db.souseha.com/en/blessings).
 
 !!! question "What Blessings to choose?"
-    It comes down to the used team and the strategy. Check the [Guide](#guide) section below. 
+    It comes down to the used team and the strategy. Check the [Guide](#guides) section below. 
 
     If you want to use Blessings of the other person but have only a list for going first or second, you can usually adjust it by picking higher/lower potency Blessings for more/less points.
     
     For example, if the person has Curse of Limits I in their "going first" lineup, you can try picking **both** Curse of Limits I and **Curse of Limits II** for when you go second.
+
+---
 
 ## Rules
 
@@ -175,6 +177,8 @@ To check the Rules of current and previous Seasons, press the corresponding menu
     </table>
     </div>
 
+---
+
 ### "Consistent" Rules
 
 While parameters labeled as <span class="yellow">(Consistent)</span> can technically be altered by developers in future seasons, they have remained stable defaults throughout 34 seasons:
@@ -267,6 +271,8 @@ To get them, press the corresponding icon in the Golden Colosseum menu.
 
     This is helpful if you complete your battles right before the deadline or forget to claim your rewards before settlement begins.
     
+---
+
 ## Ranking
 
 Similarly to the [Mirror Wars](../content-packs/mirror-wars.md), there are 29 Rankings. Reaching a specific Rank awards you with a different amount of {{Aurum_Coin}} **Aurum Coins** at the end of the Season.
@@ -470,6 +476,8 @@ Golden Colosseum ranks players strictly by **relative percentile brackets** acro
     </table>
     </div>
 
+---
+
 ## Guides
 
 If you do not care about [PvP](../misc/slang.md?term=PvP) to the degree you want to actually climb the ladder, **copying someone's teams** will do. This will give you decent Rank and 40 wins easily to complete all missions.
@@ -489,6 +497,8 @@ If you want to **actually climb the ladder** (or want to have slightly different
 
     Search for the one you're comfortable with.
 
+---
+
 ## Shop
 
 Shop is a place where you can spend earned {{Aurum_Coin}} **Aurum Coins**. To access it, either press the Shop icon directly from the Golden Colosseum Pack or find the Golden Colosseum Shop in a Content Shop section of a regular Shop.
@@ -499,9 +509,9 @@ Shop is a place where you can spend earned {{Aurum_Coin}} **Aurum Coins**. To ac
 !!! image "Golden Colosseum Shop"
     ![Golden Colosseum Shop](../assets/images/golden-colosseum/colo-shop.avif)
 
-### Shop Priority
+---
 
-<div class="tab-align" markdown>
+### Shop Priority
 
 === "New Player Priority"
     
@@ -550,7 +560,7 @@ Shop is a place where you can spend earned {{Aurum_Coin}} **Aurum Coins**. To ac
     * Total with spending on leftovers items: 8550 {{Aurum_Coin}} **Aurum Coins**
     * Total with optional: 11550 {{Aurum_Coin}} **Aurum Coins**
 
-</div>
+---
 
 ## Related Links
 

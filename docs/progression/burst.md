@@ -136,8 +136,6 @@ Costumes within each category are **not sorted** in priority, but rather **alpha
 
 When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burst 1 provides a small benefit on its own. For these costumes, you should save your Sparks of Rampage and wait to upgrade until you can afford to unlock up to Burst 2 or 3 all at once.
 
-<div class="tab-align" markdown>
-
 === "Highest Priority"
     * **B-Rank Idol Helena** **Bursts 1-3**{.yellow}
     * **Homunculus Lathel** **Burst 3**{.yellow}
@@ -193,4 +191,3 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Pool Party Scheherazade** **Bursts 1-2**{.yellow}
     * **The Lapis Witch Scheherazade** **Bursts 1-3**{.yellow}
 
-</div>  

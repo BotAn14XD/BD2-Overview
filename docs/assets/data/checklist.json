@@ -1,0 +1,136 @@
+{
+  "anchor_date": "2026-07-30T00:00:00Z",
+  "patch_cycle_days": 28,
+
+  "_schema_note": "permanent = manual-reset-only trackers, never auto-cleared. repeating = cadence-based tasks (daily/weekly/biweekly/monthly/seasonal/biseasonal), auto-reset per cadence. id only needs to be unique WITHIN its cadence (or within 'permanent') — storage key is auto-built as '<cadence-prefix><id>'. priority: 'high' (default) or 'low' — high-priority items render first within a tab, then sorted by id.",
+
+  "permanent": [
+    { "id": 1, "priority": "high", "name": "TEST CHECKLISTBOX" }
+  ],
+
+  "repeating": [
+    {
+      "id": 1, "cadence": "daily", "priority": "high",
+      "name": "Spent all daily {icon} <strong>Cooked Rice</strong> (Quick Hunt / Path of Adventure / Hunting Grounds)",
+      "icon_path": "../assets/images/icons/cooked_rice.avif",
+      "icon_label": "Cooked Rice"
+    },
+    {
+      "id": 2, "cadence": "daily", "priority": "high",
+      "name": "Spent all daily {icon} <strong>Torches</strong> (Quick Hunt / Path of Adventure)",
+      "icon_path": "../assets/images/icons/icon_resource60023_163.avif",
+      "icon_label": "Torch"
+    },
+    {
+      "id": 3, "cadence": "daily", "priority": "high",
+      "name": "Spent all daily {icon} <strong>Blood Cocktails</strong> (<a href=\"../content-packs/mirror-wars/\">Mirror Wars</a>)",
+      "icon_path": "../assets/images/icons/icon_resource60009_92.avif",
+      "icon_label": "Blood Cocktail",
+      "settlement_day": 0, "settlement_hour": 15
+    },
+    {
+      "id": 4, "cadence": "daily", "priority": "high",
+      "name": "Used all free <strong>Attempts</strong> in Normal / Challenge Battles (<a href=\"../content/events/\">Season Event</a>)"
+    },
+    {
+      "id": 5, "cadence": "daily", "priority": "high",
+      "name": "Used all banners <strong>Free Draws</strong> (Gacha)"
+    },
+    {
+      "id": 6, "cadence": "daily", "priority": "low",
+      "name": "Used all daily Absorption attempts (Character Ability, Map)"
+    },
+    {
+      "id": 1, "cadence": "weekly", "priority": "high",
+      "name": "Fought in <strong>Golden Colosseum</strong> (<a href=\"../content-packs/gc.md\">Golden Colosseum</a>)",
+      "settlement_day": 3, "settlement_hour": 15
+    },
+    {
+      "id": 1, "cadence": "biweekly", "priority": "high",
+      "name": "Bought desired Costumes from <strong>Powder of Hope Shop</strong> (Shop)"
+    },
+    {
+      "id": 2, "cadence": "biweekly", "priority": "high",
+      "name": "Collected Event Currency from reading Story in <strong>Season Event</strong> (<a href=\"../content/events/\">Season Event</a>)"
+    },
+    {
+      "id": 3, "cadence": "biweekly", "priority": "high",
+      "name": "Bought resources in <strong>Season Event Shop</strong> (<a href=\"../content/events/#event-shop\">Season Event</a>)"
+    },    
+    {
+      "id": 1, "cadence": "seasonal", "priority": "high",
+      "name": "Completed a Board in <strong>Taros Tactical Manual</strong> (<a href=\"../content/ttm/\">Taros Tactical Manual</a>)"
+    },
+    {
+      "id": 2, "cadence": "seasonal", "priority": "high",
+      "name": "Completed the <strong>Tower of Salvation</strong> (<a href=\"../content-packs/evil-castle/#tower-of-salvation\">Evil Castle</a>)"
+    },
+    {
+      "id": 1, "cadence": "biseasonal", "priority": "high",
+      "name": "Checked in on <strong>The Soul Wager</strong> (<a href=\"../content-packs/soul-wager/\">The Soul Wager</a>)"
+    },
+
+    {
+      "id": 1, "cadence": "monthly", "priority": "high",
+      "name": "Bought unidupe in <strong>Golden Thread Shop</strong> (Shop)"
+    }
+  ],
+
+  "cycle_template": {
+    "week_1": {
+      "events": [
+        {
+          "id": "guild_raid",
+          "name": "Attacked Guild Raid Boss (Guild Raid)",
+          "offset_start_days": 0,
+          "offset_end_days": 6,
+          "settlement_utc_hour": 15,
+          "is_daily_reset": false,
+          "target_tab": "weekly"
+        }
+      ]
+    },
+    "week_2": {
+      "events": [
+        {
+          "id": "fiend_hunter",
+          "name": "Attacked Fiend Hunter Boss (<a href='https://botan14xd.github.io/BD2-Overview/content/fh/'>Fiend Hunter</a>)",
+          "offset_start_days": 0,
+          "offset_end_days": 6,
+          "settlement_utc_hour": 15,
+          "is_daily_reset": true,
+          "target_tab": "daily",
+          "link": "../content/fh.md"
+        }
+      ]
+    },
+    "week_3": { "events": [] },
+    "week_4": {
+      "events": [
+        {
+          "id": "fiend_hunter",
+          "name": "Attacked Fiend Hunter Boss (<a href='https://botan14xd.github.io/BD2-Overview/content/fh/'>Fiend Hunter</a>)",
+          "offset_start_days": 0,
+          "offset_end_days": 6,
+          "settlement_utc_hour": 15,
+          "is_daily_reset": true,
+          "target_tab": "daily",
+          "link": "../content/fh.md"
+        }
+      ]
+    }
+  },
+
+  "overrides": [
+    {
+      "comment": "Fiend Hunter Error Season Rerun",
+      "id": "fiend-hunter-error-rerun",
+      "name": "Attacked Fiend Hunter Boss (Error Season Rerun) (<a href='https://botan14xd.github.io/BD2-Overview/content/fh/'>Fiend Hunter</a>)",
+      "start": "2026-07-30T00:00:00Z",
+      "end": "2026-08-05T15:00:00Z",
+      "is_daily_reset": true,
+      "target_tab": "daily",
+      "suppress_default_cycle": true
+    }
+  ]
+}

@@ -186,8 +186,6 @@ Similar to Season Events, Fiend Hunter has **Clear** (Kill) Rewards and **Challe
 
 Similar to the Damage behavior, you can obtain Challenge Rewards once per day per Difficulty Level. This means you automatically gain the Challenge Rewards for Levels 1 - 10 upon clearing them all at once, alongside the Level 11 reward on the first day, as shown in the previous example.
 
-<div class="tab-align" markdown>
-
 === "Clear Rewards"
 
     * Level 1: 3 {{Draw_Ticket}} **Draw Tickets**
@@ -228,7 +226,6 @@ Similar to the Damage behavior, you can obtain Challenge Rewards once per day pe
     * Level 3: 1200 **Event Currency**
     * Level 4: 1300 **Event Currency**
     * ...
-</div>
 
 ---
 

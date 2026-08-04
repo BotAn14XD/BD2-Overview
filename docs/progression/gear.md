@@ -565,7 +565,6 @@ When it comes down to gearing a character, you should understand that there are 
     * *Example: Liberta, Refithea, Helena.*
 
 For all of these types, the build you want is different.
-<div class="tab-align" markdown>
 
 === "Standard DPS"
     Standard characters rely on a mix of {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and {{CritDMG}} **Crit DMG** to deal DMG. Since extra {{CritRate}} **Crit Rate**{.white} converts to {{CritDMG}} **Crit DMG**{.white}, builds are heavily decided by the number of {{CritRate}} **Crit Rate**{.white} buffers you have and the extra {{CritRate}} **Crit Rate**{.white} value as a whole.
@@ -674,7 +673,8 @@ For all of these types, the build you want is different.
     
     As rough advice, getting {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} on {{Weapon}} **Weapon** and {{Gloves}} **Gloves** is a go-to (for Standard DPS), and filling the rest with either additional {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} or {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} isn't a bad choice.
 
-</div>
+---
+
 ## Gear Calculator 
 To use the Gear Calculator, use [Souseha's Database](https://browndust2-wiki.souseha.com/en/option-calculator).
 
