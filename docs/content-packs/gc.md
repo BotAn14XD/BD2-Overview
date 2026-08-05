@@ -75,12 +75,16 @@ Each Blessing costs a specific amount of **Blessing Points**, based on how impac
 To check each Blessing, refer to the Blessing Menu mentioned above. Alternatively, check [Souseha's Database](https://browndust2-db.souseha.com/en/blessings).
 
 !!! question "What Blessings to choose?"
+
     It comes down to the used team and the strategy. Check the [Guide](#guides) section below. 
 
     If you want to use Blessings of the other person but have only a list for going first or second, you can usually adjust it by picking higher/lower potency Blessings for more/less points.
     
     For example, if the person has Curse of Limits I in their "going first" lineup, you can try picking **both** Curse of Limits I and **Curse of Limits II** for when you go second.
 
+!!! warning "Blessing Order"
+
+    Blessing order **matters**. They activate in order from the **top** to the **bottom**. That means, using **Grace** before **Barrier of Life** will provide more **Energy Guard** compared to using **Barrier of Life** before **Grace**.
 ---
 
 ## Rules
