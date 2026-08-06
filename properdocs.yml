@@ -62,7 +62,8 @@ nav:
     - 'Miscellaneous':
         - 'Game Slang': misc/slang.md
     - 'Common Questions': FAQ.md
-    - 'New Player Guide & To-Do List [WIP]': new.md
+    - 'New Player Guide [WIP]': new.md
+    - 'Game Routine Checklists [WIP]': checklists.md 
     - '---': '#'
     - 'Survey': survey.md
     - 'Banner Recommendations': https://zormolo.github.io/BD2-Banner-Recommendation/
@@ -135,6 +136,9 @@ markdown_extensions:
       generic: true
   - pymdownx.tabbed:
       alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - toc:
       separator: "-"
       permalink: true

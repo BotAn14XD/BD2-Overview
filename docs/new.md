@@ -61,31 +61,9 @@ This team is designed to clear battle with a lot of enemies.
     
     On the image and in the list, **Costumes** are provided as a **Turn 1** option. If you use these Costumes (Skills) on Turn 1, you have more chances to finish the battle in a single turn. 
 
-## Progression List
+## Progression To-Do List
 
 <div class="checklist-group" id="checklist-permanent" markdown="0"></div>
-
-## To-Do Lists
-
-=== "Daily List"
-
-    <div class="checklist-group" id="checklist-daily" markdown="0"></div>
-
-=== "Weekly List"
-
-    <div class="checklist-group" id="checklist-weekly" markdown="0"></div>
-
-=== "Biweekly List"
-
-    <div class="checklist-group" id="checklist-biweekly" markdown="0"></div>
-
-=== "Season List"
-
-    <div class="checklist-group" id="checklist-seasonal" markdown="0"></div>
-
-=== "Monthly List"
-
-    <div class="checklist-group" id="checklist-monthly" markdown="0"></div>
 
 <style>
 .md-typeset a[target="_blank"]::after,

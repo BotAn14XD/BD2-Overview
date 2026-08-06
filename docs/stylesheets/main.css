@@ -455,11 +455,16 @@ li.md-nav__item:has(a[href$="#"]) {
     padding: 0 !important;
     margin-top: 1.2em !important;
     margin-bottom: 1.2em !important;
-
 }
+
 .md-nav__item:has(a[href$="#"]) {
     background: transparent !important;
 }
+
+[data-md-color-scheme="slate"] .md-nav__link[href$="#"]{
+    background-color: #ffffff80;
+}
+
 
 /* INDEX.MD CARDS SCAFFOLDING */
 

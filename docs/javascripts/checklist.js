@@ -93,11 +93,12 @@ async function initChecklist() {
   // Every item — permanent, repeating, or template/override-driven —
   // goes through here, so markup shape (and thus styling, restore
   // behavior, lock behavior) is identical regardless of origin.
-  function renderItem(container, storageId, item, { locked, badge } = {}) {
+  function renderItem(container, storageId, item, { locked, badge, priority } = {}) {
     if (!container || document.getElementById(storageId)) return;
 
     const wrapper = document.createElement("div");
     wrapper.className = "checklist-item";
+    wrapper.dataset.priority = priority || item.priority || "high";
 
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
@@ -176,22 +177,58 @@ async function initChecklist() {
     });
 
     // --- Repeating (daily/weekly/biweekly/monthly/seasonal/biseasonal) ---
-    const byTab = {};
-    sortItems(data.repeating || []).forEach((item) => (byTab[item.cadence] ||= []).push(item));
-    Object.keys(byTab).forEach((cadence) => {
-      const container = document.getElementById(`checklist-${cadence}`);
-      const prefix = CADENCE_PREFIX[cadence] || "x_";
-      byTab[cadence].forEach((item) => {
-        const locked = isLockedByDayHour(item.settlement_day, item.settlement_hour);
-        renderItem(container, `${prefix}${item.id}`, item, { locked });
-      });
+    sortItems(data.repeating || []).forEach((item) => {
+      // Allow item.target_tab to override where it renders, default to item.cadence
+      const targetTab = item.target_tab || item.cadence;
+      const container = document.getElementById(`checklist-${targetTab}`);
+      
+      // Keep the cadence prefix (e.g., "bs_" for biseasonal) so storage resets independently!
+      const prefix = CADENCE_PREFIX[item.cadence] || "x_";
+      const locked = isLockedByDayHour(item.settlement_day, item.settlement_hour);
+
+      renderItem(container, `${prefix}${item.id}`, item, { locked });
     });
 
     // --- Week-templated events & overrides (cycle_template / overrides) ---
     injectDynamicEvents(data);
   }
 
+  // Priority separation: run AFTER everything (repeating + dynamic events)
+  // has been rendered into every container, since dynamic events append
+  // later and would otherwise land under the wrong heading if we tried to
+  // insert dividers as items rendered instead of doing one final pass.
+  document.querySelectorAll(".checklist-group").forEach(finalizeContainerPriority);
+
   bindCheckboxes();
+
+  function finalizeContainerPriority(container) {
+    const rank = { high: 0, low: 1 };
+    const items = Array.from(container.querySelectorAll(":scope > .checklist-item"));
+    if (items.length === 0) return;
+
+    // Stable sort — items with equal priority keep their existing relative
+    // order (repeating items are already id-ordered from sortItems()).
+    items.sort((a, b) => (rank[a.dataset.priority] ?? 0) - (rank[b.dataset.priority] ?? 0));
+
+    const distinctPriorities = new Set(items.map((i) => i.dataset.priority || "high"));
+    container.querySelectorAll(":scope > .priority-divider").forEach((d) => d.remove());
+
+    let lastPriority = null;
+    items.forEach((item) => {
+      const p = item.dataset.priority || "high";
+      // Skip headers entirely if every item in this tab shares one
+      // priority — a "High Priority" label on a tab with nothing else is
+      // just noise.
+      if (distinctPriorities.size > 1 && p !== lastPriority) {
+        const divider = document.createElement("div");
+        divider.className = "priority-divider";
+        divider.textContent = p === "high" ? "High Priority" : "Low Priority";
+        container.appendChild(divider);
+        lastPriority = p;
+      }
+      container.appendChild(item); // re-appending an existing node MOVES it
+    });
+  }
 
   function injectDynamicEvents(schedule) {
     const anchor = new Date(schedule.anchor_date);
@@ -267,7 +304,7 @@ async function initChecklist() {
       const prefix = prefixMap[targetTab] || "s_";
       const storageId = `${prefix}dyn_${evt.id}`;
       renderItem(container, storageId, { id: evt.id, name: evt.name }, {
-        locked: evt.is_settlement_locked, badge: evt.tag
+        locked: evt.is_settlement_locked, badge: evt.tag, priority: evt.priority || "high"
       });
     });
   }

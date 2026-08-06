@@ -38,6 +38,14 @@ This site is a work in progress, focusing on high-quality explanations for every
     [View Page →](./FAQ.md){: .md-button}
 </div>
 
+<div class="grid cards center-content" markdown>
+-   ![Game Routine Checklists](assets/images/site-assets/index-pc-nav-28.avif){: .card-header-img }
+
+    ---
+
+    [View Page [WIP] →](./checklists.md){: .md-button}
+</div>
+
 ---
 
 <div class="banner-container">

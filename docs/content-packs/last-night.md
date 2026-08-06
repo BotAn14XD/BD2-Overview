@@ -1,6 +1,11 @@
 ---
 description: "Brown Dust II Last Night Content Pack overview, strategy"
 ---
+
+!!! warning "WORK IN PROGRESS"
+    ![Sad Glupy](../assets/images/site-assets/illust_npcface0013210114_74.avif){.icon-portrait align=left}
+    **This page is currently under construction and will be completed soon. Thank you for your patience!**
+
 # Last Night
 Last Night is a [PvE](../misc/slang.md?term=PvE) mode where you are tasked with dealing as much damage to the boss as possible.
 
@@ -200,7 +205,6 @@ In this mode, your team consists of **20** costumes instead of usual five.
     * **20,000 damage:** 4,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
     * **10,000 damage:** 2,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
 
-<h1>WORK IN PROGRESS</h1>
 <!--Last Night is the fourth of the content packs, having the same requirements as the previous one. In this mode, your goal is to deal as much damage to a single boss as possible. Your team consists of 20 costumes (not companions!) in a specific order set by you, and you have only one turn.
 Aside from that, buffs you receive are halved, as you can see here [video?], and the boss effectively has only one tile. 
 With all that in mind, the general strategy for Last Night is getting 7-8 buffers (both magical and physical), then using 5-7 high chainers and finishing your team with DPS to deal massive damage.

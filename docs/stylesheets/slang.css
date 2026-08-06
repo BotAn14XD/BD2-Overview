@@ -209,6 +209,11 @@
     color: var(--bd-emphasis);
 }
 
+[data-md-color-scheme="slate"] .cross-link:hover {
+    color: #ADD8E6;
+}
+
+
 .md-typeset a[href*="slang"][href*="?term="] {
     color: var(--bd-button) !important;
     cursor: pointer;
@@ -219,7 +224,11 @@
 }
 
 .md-typeset a[href*="slang"][href*="?term="]:hover {
-    color: var(--bd-emphasis) !important;
+    color: var(--bd-emphasis);
+}
+
+[data-md-color-scheme="slate"] .md-typeset a[href*="slang"][href*="?term="]:hover {
+    color: #ADD8E6 !important;
 }
 
 [data-md-color-scheme="slate"] .quick-filters button {
