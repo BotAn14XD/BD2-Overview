@@ -16,7 +16,7 @@
 
   margin: 1.2rem 0;
   font-size: 0.9rem;
-  min-height: 23rem;
+  min-height: 4rem;
 }
 
 [data-md-color-scheme="slate"]    .rapport { --rp-text: #e8ecf3; }
@@ -187,4 +187,62 @@
 
 @media (prefers-reduced-motion: reduce) {
   .rapport__input { transition: none; }
+}
+
+.rapport__back-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 90;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.6rem 1rem;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: var(--rp-accent);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.38);
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+              opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.2s ease;
+}
+
+.rapport__back-btn[hidden] {
+  display: none !important;
+}
+
+.rapport__back-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.48);
+}
+
+.rapport__back-btn:active {
+  transform: translateY(0);
+}
+
+.rapport__back-btn svg {
+  display: block;
+  fill: currentColor;
+}
+
+@media (max-width: 600px) {
+  .rapport__back-btn {
+    bottom: 1.2rem;
+    right: 1.2rem;
+    padding: 0.6rem 0.8rem;
+  }
+  .rapport__back-btn span {
+    display: none; /* Icon-only view on narrow mobile screens */
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rapport__back-btn {
+    transition: none;
+  }
 }

@@ -6,8 +6,6 @@
       ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])
     );
 
-  // escape everything, then re-permit ONLY these inline tags (italics/bold).
-  // Anything else stays escaped, so stray "<" or "<script>" remain inert.
   const fmt = (s) =>
     esc(s).replace(/&lt;(\/?)(i|em|b|strong)&gt;/g, "<$1$2>");
 
@@ -22,7 +20,6 @@
     );
   }
 
-  // intro may be an array, a string, or missing -> always normalise to array
   function introLines(intro) {
     if (Array.isArray(intro)) return intro.filter((l) => String(l).trim() !== "");
     if (typeof intro === "string" && intro.trim()) return [intro];
@@ -89,15 +86,55 @@
         'role="combobox" aria-expanded="false" aria-autocomplete="list">' +
         '<ul class="rapport__list" role="listbox" hidden></ul>' +
       "</div>" +
-      '<div class="rapport__panel" hidden></div>';
+      '<div class="rapport__panel" hidden></div>' +
+      '<button type="button" class="rapport__back-btn" aria-label="Back to search" hidden>' +
+        '<svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>' +
+        '<span>Search</span>' +
+      '</button>';
 
     const input = root.querySelector(".rapport__input");
     const list = root.querySelector(".rapport__list");
     const panel = root.querySelector(".rapport__panel");
+    const searchBox = root.querySelector(".rapport__search");
+    const backBtn = root.querySelector(".rapport__back-btn");
 
     let data = [];
     let matches = [];
     let active = -1;
+    let isSearchIntersecting = true;
+
+    // Visibility Evaluator for Back-to-Search Button
+    function updateBackBtn() {
+      const shouldShow = !isSearchIntersecting && !panel.hidden;
+      backBtn.hidden = !shouldShow;
+    }
+
+    // Observer to track if the search box is on screen
+    let isScrolledPast = false;
+
+    // Visibility Evaluator for Back-to-Search Button
+    function updateBackBtn() {
+      const shouldShow = isScrolledPast && !panel.hidden;
+      backBtn.hidden = !shouldShow;
+    }
+
+    // Observer to track if the search box has been scrolled ABOVE the viewport
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          // Only treat as "scrolled past" if it's out of view AND its top position is above the viewport (< 0)
+          isScrolledPast = !entry.isIntersecting && entry.boundingClientRect.top < 0;
+          updateBackBtn();
+        });
+      },
+      { threshold: 0 }
+    );
+    observer.observe(searchBox);
+
+    backBtn.addEventListener("click", () => {
+      input.scrollIntoView({ behavior: "smooth", block: "center" });
+      input.focus({ preventScroll: true });
+    });
 
     fetch(src)
       .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
@@ -107,6 +144,7 @@
         panel.innerHTML =
           '<div class="rapport__placeholder">Couldn\u2019t load costume data. ' +
           "Check the path in <code>data-src</code>.</div>";
+        updateBackBtn();
       });
 
     function closeList() {
@@ -156,6 +194,7 @@
       input.value = c.costume;
       closeList();
       renderPanel(panel, c, prefix);
+      updateBackBtn();
     }
 
     input.addEventListener("input", () => openList(input.value));
@@ -173,7 +212,6 @@
       if (li) { e.preventDefault(); choose(+li.dataset.i); }
     });
 
-    // remember this input's list so the single global click handler can close it
     root._rpClose = closeList;
   }
 
@@ -181,7 +219,6 @@
     document.querySelectorAll(".rapport").forEach(initOne);
   }
 
-  // one document-level click handler total (avoids leaking listeners across SPA nav)
   if (!window.__rapportClickBound) {
     window.__rapportClickBound = true;
     document.addEventListener("click", (e) => {
@@ -193,7 +230,6 @@
 
   window.rapportInit = initAll;
 
-  // Material instant loading fires document$ on every page swap; else plain load
   if (typeof document$ !== "undefined" && document$.subscribe) {
     document$.subscribe(initAll);
   } else if (document.readyState !== "loading") {

@@ -2648,7 +2648,7 @@ icon: material/book-search
             </div>
             <p>An SP Generator is a costume that recovers <span class="cross-link" onclick="searchFor('SP)">SP</span> to the team.</p>
         </li>
-        <li class="slang-item" data-keywords="">
+        <li class="slang-item" data-keywords="sparks">
             <h3>Spark of Rampage</h3>
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>

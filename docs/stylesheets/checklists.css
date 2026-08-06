@@ -10,6 +10,35 @@
     margin: 20px 0;
 }
 
+/* Icon rendered from an item's icon_path (real image, e.g. matching your
+   MATERIALS_DB/DISHES_DB asset paths) — sizing only, the image itself
+   comes from the src set per-item in checklist.json. */
+.checklist-icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    vertical-align: -3px;
+    margin-right: 4px;
+}
+
+/* Priority section headers within a tab. Only inserted when a tab
+   actually mixes high/low priority items — see finalizeContainerPriority
+   in checklist.js. Reuses --bd-muted-strong (the dark-mode-safe token
+   from the settlement-lock-note fix) rather than a new one-off color. */
+.checklist-group .priority-divider {
+    margin: 10px 0 2px;
+    padding: 0 2px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--bd-muted-strong, var(--bd-muted, #9ca3af));
+}
+.checklist-group .priority-divider:first-child {
+    margin-top: 0;
+}
+
 /* Individual Checklist Card */
 .checklist-item {
     display: flex;

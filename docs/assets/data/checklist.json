@@ -49,12 +49,36 @@
     },
     {
       "id": 6, "cadence": "daily", "priority": "low",
-      "name": "Used all daily Absorption attempts (Character Ability, Map)"
+      "name": "Used all daily <strong>Absorption</strong> attempts (Character Ability, Map)"
+    },
+    {
+      "id": 7, "cadence": "daily", "priority": "low",
+      "name": "Used all daily <strong>Assembly</strong> attempts (Character Ability, Map)"
+    },
+    {
+      "id": 8, "cadence": "daily", "priority": "low",
+      "name": "Used all daily <strong>Overpower</strong> attempts (Character Ability, Map)"
+    },
+    {
+      "id": 9, "cadence": "daily", "priority": "high",
+      "name": "Completed <strong>Daily Missions</strong> (Missions)"
+    },
+    {
+      "id": 10, "cadence": "daily", "priority": "high",
+      "name": "Completed <strong>Pass Tasks</strong> (Pass)"
+    },
+    {
+      "id": 11, "cadence": "daily", "priority": "high",
+      "name": "Collected Daily Rewards from Dispatch, <a href=\"../content-packs/last-night/\">Last Night</a> and <a href=\"../content-packs/evil-castle/\">Evil Castle</a> (Field Menu)"
     },
     {
       "id": 1, "cadence": "weekly", "priority": "high",
       "name": "Fought in <strong>Golden Colosseum</strong> (<a href=\"../content-packs/gc.md\">Golden Colosseum</a>)",
       "settlement_day": 3, "settlement_hour": 15
+    },
+    {
+      "id": 2, "cadence": "weekly", "priority": "high",
+      "name": "Completed <strong>Weekly Missions</strong> (Missions)"
     },
     {
       "id": 1, "cadence": "biweekly", "priority": "high",
@@ -77,13 +101,51 @@
       "name": "Completed the <strong>Tower of Salvation</strong> (<a href=\"../content-packs/evil-castle/#tower-of-salvation\">Evil Castle</a>)"
     },
     {
-      "id": 1, "cadence": "biseasonal", "priority": "high",
-      "name": "Checked in on <strong>The Soul Wager</strong> (<a href=\"../content-packs/soul-wager/\">The Soul Wager</a>)"
+      "id": 3, "cadence": "seasonal", "priority": "high",
+      "name": "Bought the featured Costume in the <strong><a href=\"../content-packs/mirror-wars/\">Mirror Wars</a> Shop</strong> (unless the Costume is +5)"
+    },
+    {
+      "id": 4, "cadence": "seasonal", "priority": "high",
+      "name": "Bought the premium pass with 1k {icon} <strong>Dia</strong> (Pass)",
+      "icon_path": "../assets/images/icons/icon_resource60001_84.avif",
+      "icon_label": "Dia"
+    },
+    {
+      "id": 1, "cadence": "biseasonal", "priority": "high", "target_tab": "seasonal",
+      "name": "Completed all the boards in the <strong>The Soul Wager</strong> & bought resources in the Shop (<a href=\"../content-packs/soul-wager/\">The Soul Wager</a>)"
     },
 
     {
       "id": 1, "cadence": "monthly", "priority": "high",
-      "name": "Bought unidupe in <strong>Golden Thread Shop</strong> (Shop)"
+      "name": "Bought <a href=\"../misc/slang/?term=unidupe\">unidupe</a> & <a href=\"../misc/slang/?term=sparks\">sparks</a> in <strong>Golden Thread Shop</strong> (Shop)"
+    },
+    {
+      "id": 2, "cadence": "monthly", "priority": "high",
+      "name": "Bought <a href=\"../misc/slang/?term=sparks\">sparks</a> in <strong>Refinement Remnunt Shop</strong> (Shop)"
+    },
+    {
+      "id": 3, "cadence": "monthly", "priority": "high",
+      "name": "Bought all resources in <strong>Guild Shop</strong> (Shop)"
+    },
+    {
+      "id": 4, "cadence": "monthly", "priority": "high",
+      "name": "Bought necessary resources in <strong><a href=\"../content-packs/evil-castle\">Evil Castle</a> Shop</strong> (Shop)"
+    },
+    {
+      "id": 5, "cadence": "monthly", "priority": "high",
+      "name": "Bought all resources in <strong>Fishing Shop</strong> (Shop)"
+    },
+    {
+      "id": 6, "cadence": "monthly", "priority": "high",
+      "name": "Bought necessary resources in <strong><a href=\"../content-packs/gc\">Golden Colosseum</a> Shop</strong> (Shop)"
+    },
+    {
+      "id": 7, "cadence": "monthly", "priority": "low",
+      "name": "Bought rest of necessary resources in <strong>Golden Thread Shop</strong> (Shop)"
+    },
+    {
+      "id": 8, "cadence": "monthly", "priority": "low",
+      "name": "Bought necessary resources in <strong><a href=\"../content-packs/mirror-wars\">Mirror Wars</a> Shop</strong> (Shop)"
     }
   ],
 
