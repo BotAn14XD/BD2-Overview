@@ -23,7 +23,7 @@ Rapport is a system where you interact with specific Costumes via visual novel-s
 !!! image "Rapport Menu"
      ![Rapport Menu](../assets/images/rapport/main-menu.avif)
 
-To access the Rapport Menu, either click on the Rapport button on the Home Screen or press the Talk button in the Companion tab for any Costume with an existing Rapport. Alternatively, use [Glupy Diner](../content-packs/glupy-diner.md) to access the Rapport Feature as well.
+To access the Rapport Menu, either click on the Rapport button on the Home Screen or press the Talk button in the Companion tab for any Costume with an existing Rapport. Alternatively, use [Glupy Diner](../life-sim/diner.md) to access the Rapport Feature as well.
 
 ??? image "Access via Home Screen"
      ![Access via Home Screen](../assets/images/rapport/access-main-menu.avif)

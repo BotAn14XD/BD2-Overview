@@ -115,7 +115,7 @@ This site is a work in progress, focusing on high-quality explanations for every
 
     ---
 
-    [View Page →](./content/territory.md){: .md-button }
+    [View Page →](./life-sim/territory.md){: .md-button }
 
 -   ![Taros Tactical Manual](assets/images/site-assets/index-pc-nav-24.avif){: .card-header-img }
 
