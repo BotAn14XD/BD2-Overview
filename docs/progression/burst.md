@@ -2,7 +2,7 @@
 
 description: A technical guide to the Brown Dust 2 Burst System. Includes detailed information on skill enhancement costs, unlock requirements, and optimal usage strategies for high-level play
 comments: true
-image: assets/images/site-assets/burst-system-banner.avif
+image: assets/images/site-assets/burst-system-banner.png
 hero: assets/images/site-assets/index-pc-nav-6.avif
 icon: simple/sparkpost
 
@@ -143,14 +143,17 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
 === "High Priority"
     * **Adventurer of the Unknown Diana** **Bursts 1-3**{.yellow}
     * **Heavenly Guardian Successor Glacia** **Bursts 1-3**{.yellow}
+    * **Sunny Inn Hand Helena** **Bursts 1-2**{.yellow}
     * **Homunculus Lathel** **Bursts 1-2**{.yellow}
     * **Onsen Manager Liberta** **Bursts 1-3**{.yellow}
     * **Miracle Marine Mamonir** **Bursts 1-3**{.yellow}
 
 === "Medium Priority"
     * **Fire Graffiti Anastasia** **Burst 3**{.yellow}
+    * **The Fallen Angelica** **Burst 1**{.yellow}
     * **Beach Vacation Eclipse** **Burst 3**{.yellow}
     * **Naive Lady Elise** **Burst 2**{.yellow}
+    * **Sunny Inn Hand Helena** **Burst 3**{.yellow}
     * **Night of Jealousy Levia** **Burst 1**{.yellow}
     * **Ocean Vanguard Luvencia** **Burst 3**{.yellow}
     * **Beachside Justice Michaela** **Burst 3**{.yellow}
@@ -162,6 +165,7 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
 
 === "Low Priority"
     * **Fire Graffiti Anastasia** **Bursts 1-2**{.yellow}
+    * **The Fallen Angelica** **Burst 2-3**{.yellow}
     * **Tricky Lover Dalvi** **Bursts 1-3**{.yellow}
     * **Prophetic Dream Darian** **Bursts 1-3**{.yellow}
     * **Beach Vacation Eclipse** **Bursts 1-2**{.yellow}
