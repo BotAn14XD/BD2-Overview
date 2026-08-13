@@ -125,6 +125,7 @@ plugins:
         'miscellaneous/game-slang.md': 'misc/slang.md'
         'content/territory.md': 'life-sim/territory.md'
         'content-packs/glupy-diner.md': 'life-sim/diner.md'
+        'content/fantasia-square.md': 'life-sim/plaza.md'
 
 markdown_extensions:
   - attr_list

@@ -1059,7 +1059,7 @@ icon: material/book-search
                 <span class="alias-tag">FS</span>
                 <span class="alias-tag">Plaza</span>
             </div>
-            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/fantasia-square">Fantasia Square</a> is one of the content packs, focused on player interaction with one another, as well as different events taking place.</p>
+            <p><a href="https://botan14xd.github.io/BD2-Overview/life-sim/plaza">Fantasia Square</a> is one of the content packs, focused on player interaction with one another, as well as different events taking place.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Fated Guest</h3>
