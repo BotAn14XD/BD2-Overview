@@ -85,6 +85,17 @@ def define_env(env):
         prefix += "/"
     env.variables["prefix"] = prefix 
 
+    json_path = os.path.join(env.project_dir, 'docs', 'assets' , 'data', 'battles.json')
+    
+    battles_db = {}
+    if os.path.exists(json_path):
+        with open(json_path, 'r', encoding='utf-8') as f:
+            battles_db = json.load(f)
+    else:
+        print(f"[WARNING] Battle DB file not found at: {json_path}")
+
+    env.variables['data'] = battles_db
+
     @env.macro
     def time(t):
         t_clean = t.strip()
@@ -176,9 +187,7 @@ def define_env(env):
 
 
 
-    # -----------------------------------------------------------------------------------------------------#
-
-    # TERRITORY STUFF
+    # ----------------------------------------- TERRITORY STUFF ----------------------------------------- #
 
     @env.macro
     def territory_tile(name):
@@ -386,3 +395,68 @@ def define_env(env):
                 f'<td>{_mats_inline(item.get("materials"), _mat_icon)}</td>'
             )
         return _data_table(["", "Tool", "Level", "Local Pts", "Stats", "Materials"], rows)
+
+    # ----------------------------------------- BATTLES STUFF ----------------------------------------- #
+
+    @env.macro
+    def battle_card(pack_key, stage_id):
+        # 1. Clean inputs
+        pack_key = str(pack_key).strip()
+        stage_id = str(stage_id).strip()
+
+        pack = battles_db.get(pack_key)
+
+        print("DEBUG BATTLES DB KEYS:", list(battles_db.keys()))
+        print("DEBUG MP-01 CONTENT:", battles_db.get("mp-01"))
+        
+        if pack is None:
+            return f"> **Error:** Pack `{pack_key}` not found in database."
+
+        battle = None
+
+        # 2. Handle if pack is a LIST: [{"id": "1-1", ...}]
+        if isinstance(pack, list):
+            battle = next((b for b in pack if str(b.get('id', '')).strip() == stage_id), None)
+
+        # 3. Handle if pack is a DICT: {"1-1": {...}}
+        elif isinstance(pack, dict):
+            battle = pack.get(stage_id)
+
+        if not battle:
+            return f"> **Error:** Battle `{stage_id}` not found in `{pack_key}`."
+
+        # Build collapsible block
+        md = [f'??? info "Stage {battle["id"]}: {battle.get("name", "")}"\n']
+
+        if battle.get("img_infographic"):
+            path = battle["img_infographic"]
+            if not path.startswith("/") and not path.startswith("http"):
+                path = "/BD2-Overview/" + path
+            md.append('    === "Infographic"')
+            md.append(f'        <div align="center">\n')
+            md.append(f'          ![Stage {battle["id"]} Infographic]({path})\n')
+            md.append(f'        </div>\n')
+
+        if battle.get("img_battle"):
+            path = battle["img_battle"]
+            if not path.startswith("/") and not path.startswith("http"):
+                path = "/BD2-Overview/" + path
+            md.append('    === "Battle"')
+            md.append(f'        ![Stage {battle["id"]} Infographic]({path})\n')
+
+
+        if battle.get("img_gear"):
+            path = battle["img_gear"]
+            if not path.startswith("/") and not path.startswith("http"):
+                path = "/BD2-Overview/" + path
+            md.append('    === "Gear & Stats"')
+            md.append(f'        ![Stage {battle["id"]} Gear]({path})\n')
+
+        if battle.get("img_collection"):
+            path = battle["img_collection"]
+            if not path.startswith("/") and not path.startswith("http"):
+                path = "/BD2-Overview/" + path
+            md.append('    === "Collection Bonus"')
+            md.append(f'        ![Stage {battle["id"]} Collection]({path})\n')
+
+        return "\n".join(md)

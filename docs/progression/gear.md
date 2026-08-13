@@ -14,6 +14,14 @@ icon: material/magic-staff
 
 The Gear System is an important character progression system. It increases a character's stats, improving damage output or improving sustain on the battlefield.
 
+!!! tip "TL;DR"
+
+    * There are total of **5 Gear Slots:** {{Weapon}} **Weapon**, {{Armor}} **Armor**, {{Helmet}} **Helmet**, {{Accessory}} **Accessory**, and {{Gloves}} **Gloves**.
+    * Gear strength is defined by its **Grade** (N to UR), **Tier** (I to IV), **Upgrade Level** (+1 to +9), and **Refinement Score** (6 to 24).
+    * Options (substats) can be rerolled using {{Refining_Stone}} **Refining Stones** or {{Refining_Crystal}} **Refining Crystals**, with an option to lock specific stats.
+    * Prioritize **offensive gear** (Weapons, Gloves, Accessories) and upgrade your **Crafting Ability** to **Legendary** before crafting UR Gear.
+    * **Jump straight to the [Crafting Guide](#crafting-guide) or [Gearing Guide](#gearing-guide)** if you are searching for ones.
+
 There are **5 gear slots** available for your characters: {{Weapon}} **Weapon**, {{Armor}} **Armor**, {{Helmet}} **Helmet**, {{Accessory}} **Accessory** and {{Gloves}} **Gloves**.
 
 Generally speaking, {{Weapon}} **Weapon**, {{Accessory}} **Accessory** and {{Gloves}} **Gloves** are considered to be offensive gear, while {{Armor}} **Armor** and {{Helmet}} **Helmet** are considered to be defensive gear.
@@ -604,7 +612,7 @@ For all of these types, the build you want is different.
 
     {{Accessory}} **Accessory** can be {{ gear("Ring of the Lake") }} or {{ gear("Charming Gaze") }}, since it provides at least something more valuable such as {{HP}} HP, compared to {{ gear("Venomous Touch") }} with {{CritDMG}} **Crit DMG** stats only.
 
-    {{Armor}} **Armor** and {{Helmet}} **Helmet** choices follow the same logic as for [Standard DPS](#__tabbed_1_1).
+    {{Armor}} **Armor** and {{Helmet}} **Helmet** choices follow the same logic as for [Standard DPS](#standard-dps).
 
 === "HP-reliant DPS"
 
@@ -634,7 +642,7 @@ For all of these types, the build you want is different.
 
     {{Gloves}} **Gloves** should be either {{ gear("Ring of Fury") }} or {{ gear("Rebellion") }} with no difference which one to use.
     
-    {{Armor}} **Armor** and {{Helmet}} **Helmet** have no impact on the build. Follow advice from the [Standard DPS](#__tabbed_1_1) tab regarding them. 
+    {{Armor}} **Armor** and {{Helmet}} **Helmet** have no impact on the build. Follow advice from the [Standard DPS](#standard-dps) tab regarding them. 
 
 === "Stat-Dependent Supports"
 
@@ -655,7 +663,7 @@ For all of these types, the build you want is different.
     
     Most supports **do not** scale with gear. That means their main job is to survive rather than deal some damage.
 
-    Overall, their build is similar to [Standard DPS](#__tabbed_1_1), with the sole exception that both offensive and defensive gear equipped can be worse compared to the rest of the team.
+    Overall, their build is similar to [Standard DPS](#standard-dps), with the sole exception that both offensive and defensive gear equipped can be worse compared to the rest of the team.
 
 !!! question "What about Substats (Options)? Which do I want?"
     Generally speaking, it, again, depends on the type of character you're building.

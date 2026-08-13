@@ -54,7 +54,7 @@ To set the team, press the **Formation** button, then **Replace**, pick the need
 ??? image "Image Guide"
     ![Setting up Formation](../assets/images/golden-colosseum/Setup-Costumes.avif)
 
-Additionally, in the **Formation** tab, you can freely change the order of your Costumes, similar to the regular [battles](../mechanics/battle.md#__tabbed_2_2).
+Additionally, in the **Formation** tab, you can freely change the order of your Costumes, similar to the regular [battles](../mechanics/battle.md#_10).
 
 ---
 

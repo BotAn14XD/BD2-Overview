@@ -103,7 +103,7 @@ Brown Dust II is a turn-based strategy in which you can position your characters
 As said above, you can freely change the positioning of characters and their order before your turn. These are important features to maximize your damage while minimizing the enemy's.
 
 * To change the position, drag the chibi model of a character to the desired tile.
-* To change the order of characters, use the [Swap Order]( #__tabbed_2_2 ) feature, or it's quick ![Replace Shorcut Icon](../assets/images/battle-system/icons/icon_change_shortcut.avif "Replace Shortcut"){ .icon } shortcut
+* To change the order of characters, use the [Swap Order]( #_11) feature, or it's quick ![Replace Shorcut Icon](../assets/images/battle-system/icons/icon_change_shortcut.avif "Replace Shortcut"){ .icon } shortcut
 
 !!! question "Why does it matter?"
     * Some supports have **limited Range / Aura**, meaning you need to fit other units within that range to receive buff *(like Medical Club Teresse, Adventure of the Unknown Diana, Refithea)*
@@ -206,7 +206,8 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
 ![Top Part of UI](../assets/images/battle-system/UI_top.avif)
 
 === "![Environmental Icon](../assets/images/battle-system/icons/icon_environment.avif){ .icon-list }"
-    ### **Environmental Effects** { #__tabbed_1_1 }
+    **Environmental Effects**
+
     This icon itself does not mean anything, but next to this icon, all **environmental effects** are listed. They can be (but are not limited to): 
 
     * ![Collection Bonus Icon](../assets/images/battle-system/icons/bufficon_1000.avif){ .icon } **Collection Bonus**
@@ -214,7 +215,8 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
     * ![Evil Castle Environmental Effects](../assets/images/battle-system/icons/bufficon_81.avif){ .icon } **[Evil Castle](../content-packs/evil-castle.md) Environmental effects**
 
 === "![Burst Icon](../assets/images/battle-system/icons/spark_temp.avif){ .icon-list }"
-    ### **Auto Burst** { #__tabbed_1_2 }
+    **Auto Burst**
+
     This feature automatically enables the [Burst](../progression/burst.md) for your Costumes.
 
     !!! example ""
@@ -225,7 +227,8 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
 
 
 === "![Auto Skill Icon](../assets/images/battle-system/icons/icon_autoskill.avif){ .icon-list }"
-    ### **Auto Skill** { #__tabbed_1_3 }
+    **Auto Skill**
+
     This feature automatically picks the costume to activate in the following turn.
 
     !!! example ""
@@ -239,7 +242,8 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
     Overall, this feature is considered to be a time-saver, since setting up skills yourself is a much bigger hustle. Aside from that, it is a flexible feature which doesn't lock your selected skill order, so you should have no issues.
 
 === "![Auto Battle Icon](../assets/images/battle-system/icons/icon_autobattle.avif){ .icon-list }"
-    ### **Auto Battle Feature** { #__tabbed_1_4 }
+    **Auto Battle Feature**
+
     This feature allows you to complete battles automatically. 
 
     !!! example ""
@@ -253,19 +257,22 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
     * <u>**Auto Battle does not teach you how to be a good player.**</u>
 
 === "![Game Speed Icon](../assets/images/battle-system/icons/icon_speed.avif){ .icon-list }"
-    ### **Game Speed Feature** { #__tabbed_1_5 }
+    **Game Speed Feature**
+
     With that button, you can change the speed your battles are going at.<br>**Minimum is x1, maximum is x3**.
     
     To switch, simply press the button a few times.
 
 === "![Autofeed Icon](../assets/images/battle-system/icons/icon_autofood.avif){ .icon-list }"
-    ### **Autofeed Feature** { #__tabbed_1_6 }
+    **Autofeed Feature**
+
     This feature allows you to heal minor damage by consuming cooked (and raw) food
 
     While it sounds good on paper and no longer requires people to go to the Inn, it is simply not worth the result. 
 
 === "![Pause Icon](../assets/images/battle-system/icons/icon_pause.avif){ .icon-list }"
-    ### **Pause Feature** { #__tabbed_1_7 }
+    **Pause Feature**
+
     Quite a self-explanatory feature allowing you to pause during your battle.
 
     Here, you can:
@@ -283,7 +290,8 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
 
 ![Bottom Part of UI](../assets/images/battle-system/UI_bottom.avif)
 === "![Replace](../assets/images/battle-system/icons/icon_pictorialbook1.avif){ .icon-list }"
-    ### **Replace Feature** { #__tabbed_2_1 }
+    **Replace Feature**
+
     Feature allowing you to replace your characters during battle preparation.
     
     To replace a character, pick it from the list and tap on the character you want to replace.
@@ -294,7 +302,9 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
         * In case you need **specific knockback**, you can check it via icon ({{ Knockback }}) on each character.
         * You can also **add characters instead of replacing** in case you do not have the maximum amount in the field. In this case, **click on an empty grid cell** with the chosen character to place them.
         * **You cannot replace characters on Turn 3 onwards, except [Tower of Salvation](../content-packs/evil-castle.md#tower-of-salvation).**
-    ### **Borrow Feature** { #__tabbed_2_1 }
+
+    **Borrow Feature**
+    
     In some fights, you can use your Friend Support units to help you beat the fight.<br>
     The idea is completely the same, except for pressing one more button (![Support Character Icon](../assets/images/battle-system/icons/icon_mercenary.avif "Support Character"){.icon}).
     ??? image "Image Guide" 
@@ -310,7 +320,8 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
         * You can borrow **only 1 character per fight**.
 
 === "![SwapOrder](../assets/images/battle-system/icons/icon_sequence1.avif){ .icon-list }"
-    ### **Swap Order Feature** { #__tabbed_2_2 }
+    **Swap Order Feature**
+
     This feature allows you to adjust the order in which your characters act.<br>It has 2 modes: ![Insert Icon](../assets/images/battle-system/icons/icon_insert.avif "Insert"){.icon} **Insert** and ![Replace Icon](../assets/images/battle-system/icons/icon_change.avif "Replace"){.icon} **Replace**.
     
     * ![Insert Icon](../assets/images/battle-system/icons/icon_insert.avif "Insert"){.icon} **Insert mode** allows you to alter your order by inserting a desired character in a sequence. To do that, drag a character onto others.
@@ -332,7 +343,8 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
             ![Replace Shortcut Guide](../assets/images/battle-system/replace_shortcut.avif)
 
 === "![Preset](../assets/images/battle-system/icons/icon_preset.avif){ .icon-list }"
-    ### **Preset Feature** { #__tabbed_2_3 }
+    **Preset Feature**
+
     This feature allows you to quickly load pre-saved teams.
     !!! example ""
         * **This includes characters, gear, order, and positioning.**
@@ -340,13 +352,14 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
         * Preset name and icon can be customized for your needs.
         * You can delete or rewrite old presets in case you do not need them anymore.
         * There are a total of 12 preset slots.
-    In addition to presets, you can use ** your own recently used teams** in the second tab of the preset menu.
+    In addition to presets, you can use **your own recently used teams** in the second tab of the preset menu.
 
     ---
 
     ![Preset Screen](../assets/images/battle-system/preset_screen.avif)
 === "![SP](../assets/images/battle-system/icons/icon_sp.avif){ .icon-list }"
-    ### **SP Bar** { #__tabbed_2_4}
+    **SP Bar**
+
     SP bar displays your Skill Points, which you use for using costumes' abilities.
 
     !!! example ""
@@ -358,7 +371,8 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
         * ![Used SP](../assets/images/battle-system/icons/icon_used_sp.avif "Used SP"){.icon} are Skill Points which will be used in the following turn, if you press Battle.
         * ![Missing SP](../assets/images/battle-system/icons/icon_missing_sp.avif "Missing SP"){.icon} are Skill Points which are not available for use, or, in other words, you do not have them.
 === "![Rotate View](../assets/images/battle-system/icons/icon_rotateview.avif){ .icon-list }"
-    ### **Rotate View Feature** { #__tabbed_2_5 }
+    **Rotate View Feature**
+
     This feature allows you to change the battlefield view to the top one and replace surrounding backgrounds, allowing you to easily distinguish otherwise grouped enemies or allies.<br>In this mode, your units are always on the left side, while enemies are on the right.
             
     ---
@@ -369,8 +383,9 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
 
     To go back to the original view, simply press the same button once again.
 === "![Rotate](../assets/images/battle-system/icons/icon_rotate.avif){ .icon-list }"
-    ### **Rotate Feature** { #__tabbed_2_6 }
-    This feature allows you to rotate the field, changing your and enemy visual positioning while keeping the aesthetics of the surroundings. This can be useful for distinguishing grouped enemies, but [**Rotate View**]( #__tabbed_2_5 ) is better for this matter.<br>You cannot rotate the field with special bosses on it like Fiend Hunter or Guild Raid ones.
+    **Rotate Feature**
+
+    This feature allows you to rotate the field, changing your and enemy visual positioning while keeping the aesthetics of the surroundings. This can be useful for distinguishing grouped enemies, but [**Rotate View**]( #_13 ) is better for this matter.<br>You cannot rotate the field with special bosses on it like Fiend Hunter or Guild Raid ones.
     ??? image "Feature Showcase"
         ![Rotate Feature Showcase](../assets/images/battle-system/rotation_comparison.avif)
 

@@ -100,7 +100,7 @@ When active, Burst will be activated automatically; however, it will take **a lo
 
 That means if you do not have enough SP to activate Burst and Costume at the same time, Costume will be activated only.
 
-The [Auto Battle](../mechanics/battle.md#__tabbed_1_3) feature enables Auto Burst automatically.
+The [Auto Battle](../mechanics/battle.md#_5) feature enables Auto Burst automatically.
 
 ---
 

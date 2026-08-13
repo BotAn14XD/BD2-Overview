@@ -17,6 +17,21 @@ icon: material/book
 
 ---
 
+## Battle System
+
+Battle System is made in a form of **Turn-based strategy**.
+
+!!! image "Battle Screen"
+    ![Battle Screen](./assets/images/battle-system/battle_system_1.avif)
+
+You attack on odd turns, while the enemy attacks on even turns. Before any of your turns, you are allowed to freely position your **Characters** on a **grid** and pick used **Costumes** **(Skills)**{.yellow}.
+
+Each **Character** can use only 1 **Costume (Skill)** per turn.
+
+{{ redirect_btn('mechanics/battle', 'More about Battle System', '#e5b567') }}
+
+---
+
 ## Pack System
 
 Almost all content is divided into **Packs**. To switch the Packs, press the Cartridge in **Home Screen**.
@@ -31,6 +46,37 @@ Almost all content is divided into **Packs**. To switch the Packs, press the Car
 
     !!! image ""
         ![Not Story tab](assets/images/new-player-guide/no-archive.avif)
+
+## Guide Pass
+
+The **Guide Pass** is a Newbie Pass which goal is to make a player used with the game more, additionally giving out resources to start the game easier.
+
+It is located in the top right corner of the Home Screen in the Pass tab. Additionally, while it's active, it will be displayed above the Pass button.
+
+??? image "Image Guide"
+    ![Guide Pass Access](./assets/images/new-player-guide/guide-pass-access.avif)
+
+!!! image "Guide Pass Image"
+    ![Guide Pass](./assets/images/new-player-guide/guide-pass.avif)
+
+There are a total of 2 Guide Passes, with 4 Steps for each.
+
+It is incredible powerful tool to learn the game. Follow tasks and try to remember things. 
+
+!!! warning "Common Pass Problems"
+    * **Proceed with Hunting Grounds Battle...**{.yellow} — use a shortcut for Hunting Grounds, located near a minimap.
+
+    !!! image "Image Guide"
+
+    **If there are no enemies in Hunting Grounds, cancel the active quest**.
+
+    !!! image "Image Guide"
+
+    * **Proceed with Companion awakening Growth**{.yellow} — Task wants you to do **full engraving** (3 nodes) and **Awakening upgrade itself** (in the middle).
+
+    !!! image "Image Guide" 
+
+---
 
 ## Teams
 
@@ -60,6 +106,22 @@ This team is designed to clear battle with a lot of enemies.
     To clarify things, in a battle you use **Characters**.
     
     On the image and in the list, **Costumes** are provided as a **Turn 1** option. If you use these Costumes (Skills) on Turn 1, you have more chances to finish the battle in a single turn. 
+
+---
+
+## Gear System
+
+Gear is important to increase damage output and sustain of the Characters. Proper gear can increase your damage roughly up to tenfold, if not more.
+
+There are two main types of the Gear — **Offensive** and **Defensive**. For most of the Characters that rely on {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}, {{Weapon}} **Weapon**, {{Accessory}} **Accessory** and {{Gloves}} **Glove** are considered to be offensive ones. {{Armor}} **Armor** and {{Helmet}} **Helmet** for these Characters are considered to be a defensive ones.
+
+Gear have different **Rarity** ({{N_Grade}} — {{UR_Grade}}), **Tier** (I — IV), **Upgrade Level** (+1 — +9), and **Refinement Score** (6 — 24). The higher the number everywhere, the better.
+
+Focus on your Offensive Gear first, running glass cannon setup.
+
+{{ redirect_btn('progression/gear', 'More about Gear System & Crafting / Gearing Guide', '#e5b567') }}
+
+---
 
 ## Progression To-Do List
 

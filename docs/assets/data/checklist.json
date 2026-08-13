@@ -5,18 +5,19 @@
   "_schema_note": "permanent = manual-reset-only trackers, never auto-cleared. repeating = cadence-based tasks (daily/weekly/biweekly/monthly/seasonal/biseasonal), auto-reset per cadence. id only needs to be unique WITHIN its cadence (or within 'permanent') — storage key is auto-built as '<cadence-prefix><id>'. priority: 'high' (default) or 'low' — high-priority items render first within a tab, then sorted by id.",
 
   "permanent": [
-    { "id": 1, "priority": "high", "name": "Completed <strong>Master Pack 1</strong>" },
-    { "id": 2, "priority": "high", "name": "Obtained <strong>Free Costumes</strong> from the <strong>Events</strong> tab (<a href=\"https://browndust2.miraheze.org/wiki/Eclipse/Dream_Bride\"><strong>Eclipse</strong></a> & <a href=\"https://browndust2.miraheze.org/wiki/Dalvi/Summer_Vacation\"><strong>Dalvi</strong></a> — highest priority for <strong>leveling up</strong>)" },
-    { "id": 3, "priority": "high", "name": "Completed <strong>Story Pack 3 (Mist Man)</strong> on Normal Difficulty — Unlocks <a href=\"../content-packs/last-night/\"><strong>Last Night</strong></a>, <strong>Path of Adventure</strong>, <a href=\"../content-packs/mirror-wars/\"><strong>Mirror Wars</strong></a>" },
-    { "id": 4, "priority": "high", "name": "Set up the team and fought in <a href=\"../content-packs/last-night/\"><strong>Last Night</strong></a> — To start receive Daily Rewards" },
-    { "id": 5, "priority": "high", "name": "Cleared <strong>Goblin Cave</strong>, <strong>Slime Emprire</strong> and <strong>Magic Crystal Caves</strong> on Normal Diffulty" },
-    { "id": 6, "priority": "high", "name": "Completed <strong>Story Pack 4 (Cat Daddy)</strong> on Normal Difficulty — Unlocks <a href=\"../content-packs/evil-castle/\"><strong>Evil Castle</strong></a>" },
-    { "id": 7, "priority": "high", "name": "Fought in <a href=\"../content-packs/evil-castle/#tower-of-pride\"><strong>Tower of Pride</strong></a> (as much Floors as possible) — To start receive Daily Rewards"},
-    { "id": 8, "priority": "high", "name": "Completed <strong>Story Pack 7 (Fury Angel)</strong> on Normal Difficulty — Unlocks <strong>Hunting Grounds 7</strong>"},
-    { "id": 9, "priority": "high", "name": "Completed <strong>Story Pack 9 (Bloody Rhapsody)</strong> on Normal Difficulty — Unlocks <a href=\"../content-packs/evil-castle/#tower-of-pride\"><strong>Tower of Salvation</strong></a>, <strong>Hunting Grounds 9</strong>"},
-    { "id": 10, "priority": "high", "name": "Completed <a href=\"../content-packs/evil-castle/#tower-of-salvation\"><strong>Tower of Salvation</strong></a> on Level 1 or higher — Secures Seasonal Rewards"},
-    { "id": 11, "priority": "high", "name": "Completed <strong>Story Pack 10 (Homunculus)</strong> on Normal Difficulty — Unlocks Diana recruit in Pub"},
-    { "id": 12, "priority": "high", "name": "Recruited <a href=\"https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown\"><strong>Adventurer of the Unknown Diana</strong></a> from Story Pack 10 Pub"}
+    { "id": 1, "priority": "high", "name": "Completed <strong>Master Pack 1 (Edge of Dimensions)</strong>" },
+    { "id": 2, "priority": "high", "name": "Obtained <a href=\"https://browndust2.miraheze.org/wiki/Celia/The_Curse\">The Curse Celia</a> from <strong>Newbie Infinite Draw" },
+    { "id": 3, "priority": "high", "name": "Obtained <strong>Free Costumes</strong> from the <strong>Events</strong> tab (<a href=\"https://browndust2.miraheze.org/wiki/Eclipse/Dream_Bride\"><strong>Eclipse</strong></a> & <a href=\"https://browndust2.miraheze.org/wiki/Dalvi/Summer_Vacation\"><strong>Dalvi</strong></a> — highest priority for <strong>leveling up</strong>)" },
+    { "id": 4, "priority": "high", "name": "Completed <strong>Story Pack 3 (Mist Man)</strong> on Normal Difficulty — Unlocks <a href=\"../content-packs/last-night/\"><strong>Last Night</strong></a>, <strong>Path of Adventure</strong>, <a href=\"../content-packs/mirror-wars/\"><strong>Mirror Wars</strong></a>" },
+    { "id": 5, "priority": "high", "name": "Set up the team and fought in <a href=\"../content-packs/last-night/\"><strong>Last Night</strong></a> — To start receive Daily Rewards" },
+    { "id": 6, "priority": "high", "name": "Cleared <strong>Goblin Cave</strong>, <strong>Slime Emprire</strong> and <strong>Magic Crystal Caves</strong> on Normal Diffulty" },
+    { "id": 7, "priority": "high", "name": "Completed <strong>Story Pack 4 (Cat Daddy)</strong> on Normal Difficulty — Unlocks <a href=\"../content-packs/evil-castle/\"><strong>Evil Castle</strong></a>" },
+    { "id": 8, "priority": "high", "name": "Fought in <a href=\"../content-packs/evil-castle/#tower-of-pride\"><strong>Tower of Pride</strong></a> (as much Floors as possible) — To start receive Daily Rewards"},
+    { "id": 9, "priority": "high", "name": "Completed <strong>Story Pack 7 (Fury Angel)</strong> on Normal Difficulty — Unlocks <strong>Hunting Grounds 7</strong>"},
+    { "id": 10, "priority": "high", "name": "Completed <strong>Story Pack 9 (Bloody Rhapsody)</strong> on Normal Difficulty — Unlocks <a href=\"../content-packs/evil-castle/#tower-of-pride\"><strong>Tower of Salvation</strong></a>, <strong>Hunting Grounds 9</strong>"},
+    { "id": 11, "priority": "high", "name": "Completed <a href=\"../content-packs/evil-castle/#tower-of-salvation\"><strong>Tower of Salvation</strong></a> on Level 1 or higher — Secures Seasonal Rewards"},
+    { "id": 12, "priority": "high", "name": "Completed <strong>Story Pack 10 (Homunculus)</strong> on Normal Difficulty — Unlocks Diana recruit in Pub"},
+    { "id": 13, "priority": "high", "name": "Recruited <a href=\"https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown\"><strong>Adventurer of the Unknown Diana</strong></a> from Story Pack 10 Pub"}
   ],
 
   "repeating": [
@@ -70,6 +71,10 @@
     {
       "id": 11, "cadence": "daily", "priority": "high",
       "name": "Collected Daily Rewards from Dispatch, <a href=\"../content-packs/last-night/\">Last Night</a> and <a href=\"../content-packs/evil-castle/\">Evil Castle</a> (Field Menu)"
+    },
+    {
+      "id": 12, "cadence": "daily", "priority": "low",
+      "name": "Collected Daily Attendance Reward from the <a href=\"https://webshop.browndust2.global/en-US/\">Web Shop</a>"
     },
     {
       "id": 1, "cadence": "weekly", "priority": "high",
