@@ -161,7 +161,7 @@ With this one, you can quickly spend your Event AP to get **Repeat Rewards**.
 
 ### Auto-Play
 
-You can automatically clear Normal and Challenge Stages using the **Auto-play** feature. This feature uses [Auto Battle](../progression/gear.md#__tabbed_1_4), as well as auto progression between stages.
+You can automatically clear Normal and Challenge Stages using the **Auto-play** feature. This feature uses [Auto Battle](../mechanics/battle.md#_5), as well as auto progression between stages.
 
 The feature stops when you reach a set number of attempts used, you cancel manually, or your team dies, unable to complete a stage.
 

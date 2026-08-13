@@ -2,7 +2,7 @@
 
 description: 
 comments: true
-image: assets/images/site-assets/checklist-banner.png
+image: assets/images/site-assets/checklists-banner.png
 hero: assets/images/site-assets/index-pc-nav-28.avif
 icon: octicons/checklist-24
 ---

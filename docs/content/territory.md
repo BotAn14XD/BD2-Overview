@@ -983,7 +983,7 @@ While **Stone** tools are given by default, you can upgrade them in the **Forge*
 ### Tools Priority
 
 1. **Axe** and **Pickaxe**. Their upgrades increase the quantity of items obtained, similar to the **Pub** and **Warehouse** buildings.
-2. **Sickle**. It will help you grow rarer crops and collect more of them within one swing, which can be crucial during [Late Game Cooking Strategy](#__tabbed_1_2).
+2. **Sickle**. It will help you grow rarer crops and collect more of them within one swing, which can be crucial during [Late Game Cooking Strategy](#more-passive-late-game).
 
 **Axe / Pickaxe** are slightly better due to the increased item drop that you can use as an additional income source from selling raw materials.
 
@@ -1025,19 +1025,19 @@ There are a total of 8 Races:
 
     ---
 
-    * The chance to get **Goblin** or **Orc**: 42% each.
-    * The chance to get **Rabbit Beastfolk**, **Sheep Beastfolk**, **Puppy Beastfolk**, **Squirrel Beastfolk**, **Cat Beastfolk**: 3% each.
+    * The chance to get **Goblin** or **Orc**: 37% each.
+    * The chance to get **Rabbit Beastfolk**, **Sheep Beastfolk**, **Puppy Beastfolk**, **Squirrel Beastfolk**, **Cat Beastfolk**: 5% each.
     * The chance to get **Unknown** (Yuridori): 1%.
 
     ---
 
-    * There is a 40.7296% chance to get at least one Beastfolk or Yuridori from the selection.
+    * There is a 59.4776% chance to get at least one Beastfolk or Yuridori from the selection.
 
     ---
 
-    * **Squirrel Beastfolk** is the only race that can get **Logging Efficiency** of 6 (Chance: 0.15%).
-    * **Sheep Beastfolk** is the only race that can get **Mining Efficiency** of 6 (Chance: 0.15%).
-    * **Rabbit Beastfolk** is the only race that can get **Farming Efficiency** of 6 (Chance: 0.15%).
+    * **Squirrel Beastfolk** is the only race that can get **Logging Efficiency** of 6 (Chance: 0.2%).
+    * **Sheep Beastfolk** is the only race that can get **Mining Efficiency** of 6 (Chance: 0.2%).
+    * **Rabbit Beastfolk** is the only race that can get **Farming Efficiency** of 6 (Chance: 0.2%).
 
     ---
 

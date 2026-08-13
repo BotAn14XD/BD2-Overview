@@ -1,0 +1,12 @@
+{
+  "mp-01": [
+    {
+      "id": "27",
+      "name": "Defeat the Fallen Angels",
+      "img_infographic": "assets/images/battles/mp1-1.avif",
+      "img_battle": "assets/images/battles/mp1-1-p.avif",
+      "img_gear": "assets/images/battles/mp1-1-g.avif",
+      "img_collection": "assets/images/battles/mp1-1-c.avif"
+    }
+  ]
+}

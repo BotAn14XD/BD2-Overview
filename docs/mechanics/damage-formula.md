@@ -34,7 +34,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ${\textcolor{AFDBF5}{[2]}}$: **Energy Guard** damage (from Boo Ghost Granhildr) counts as {{HP}} **HP**{.orange} damage, but **has no cap value**.
 
-    ${\textcolor{AFDBF5}{[3]}}$: The necessary attribute depends on the Costume ability. Refer to [this](#__tabbed_1_1) section to learn more.
+    ${\textcolor{AFDBF5}{[3]}}$: The necessary attribute depends on the Costume ability. Refer to [this](#atk) section to learn more.
 
     ${\textcolor{AFDBF5}{[4]}}$: {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Buffs are **irrelevant** when a character deals damage based on their **own / the enemy's** {{HP}} **HP**{.orange}.
 
@@ -126,7 +126,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
 ## Damage Formula Details {.tab-align}
 
-=== "$\text{\textcolor{ffe8aa}{ATK}}$"
+=== "<span class="yellow">ATK</span>"
     This corresponds to the character's {{ATK}} **ATK**{.yellow}, {{MATK}} **MATK**{.magenta}, own or enemy {{HP}} **HP**{.orange}, or, rarely, enemy {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}. To understand what's being used in each case, find words like "**of your** **ATK**{.yellow}" in the costume skill description.  
     ??? image "Image Showcase"
         ![Base stat dependency Showcase](../assets/images/damage-formula/based_of_desc.avif)
@@ -143,7 +143,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ---
 
-=== "$\text{Skill\%}$"
+=== "Skill%"
     The Skill% mostly represents the percent (%) mentioned in the Skill Description. 
 
     ??? image "Image Showcase"
@@ -292,7 +292,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ---
 
-=== "$\text{\textcolor{ffe8aa}{ATK\%} Buffs}$"
+=== "<span class="yellow">ATK%</span> Buffs"
     The {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} buff is the most common type of buff. It directly increases the character's stat.
 
     These buffs are **additive** if coming from different sources (parts of the skills or different skills): 
@@ -633,7 +633,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     </table>
     </div>
 
-=== "$\text{Pressure}$"
+=== "Pressure"
     Pressure is a debuff that reduces stat-boosting buff efficiency. **It does not affect initial character stats, only buffs.**
 
     It affects stats such as:
@@ -653,7 +653,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     ??? image "Pressure Effect in a fight"
         ![Pressure Effect in a fight](../assets/images/damage-formula/pressure.avif)
 
-=== "$\text{\textcolor{ffe8aa}{ATK\%} Debuffs}$"
+=== "<span class="yellow">ATK%</span> Debuffs"
     {{ATK}} **ATK%**{.yellow} / {{MATK}} **MATK%**{.magenta} Debuffs are straightforward: they reduce the character's {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}. 
 
     Because they stack with buffs additively, it is more or less not important unless you are in a fight where the boss doesn't gain any buffs.
@@ -757,7 +757,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         </table>
     </div>
 
-=== "$\text{\textcolor{white}{CDMG}}$"
+=== "<span class="white">CDMG</span>"
     {{CritDMG}} **Crit Damage** matters when a character **crits**, meaning it is essential to have a high {{CritRate}} **Crit Rate** or guarantee it via other methods.
 
     !!! example "{{CritRate}} Crit Rate"
@@ -1034,7 +1034,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         </table>
     </div>
 
-=== "$\text{Chains}$"
+=== "Chains"
     The **Chain** system is a mechanic that increases damage with each repetitive hit on the same tile/enemy.
     
     Generally speaking, each hit generates 1 chain by default, with the possibility to increase the amount by applying the **Chain Reinforcement** status effect:
@@ -1130,7 +1130,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         </table>
     </div>
 
-=== "$\text{Vulnerability}$"
+=== "Vulnerability"
     Vulnerability is a **debuff** that increases damage received by the enemy. There are 5 types of Vulnerability: 
 
     * **General**, which increases damage in every instance
@@ -1371,12 +1371,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         </table>
     </div>
 
-=== "$\text{DMG Increase\%}$"
-    $\text{DMG Increase\%}$ Buffs are buffs that technically act as a reverse [**Vulnerability**](#__tabbed_1_8), increasing **your own characters'** damage instead of forcing the enemy to take more damage.
+=== "DMG Increase%"
+    $\text{DMG Increase\%}$ Buffs are buffs that technically act as a reverse [**Vulnerability**](#vulnerability), increasing **your own characters'** damage instead of forcing the enemy to take more damage.
 
     So far, all these buffs are called **Augmentation**, which you can think of as a buff with conditions. The condition can be either related to chains, the number of times getting hit, or the number of debuffs being removed from allies. 
 
-    In other words, it is similar to Conditional [$\text{Skill\%}$](#__tabbed_1_2) in a way.
+    In other words, it is similar to Conditional [$\text{Skill\%}$](#skill) in a way.
 
     ---
 
@@ -1482,7 +1482,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         </table>
     </div>
 
-=== "$\text{Property}$"
+=== "Property"
     Property is another aspect of any character. There are a total of 6 Properties: ![Water](../assets/images/battle-system/icons/elementicon1_1.avif){.icon} Water, ![Fire](../assets/images/battle-system/icons/elementicon2_2.avif){.icon} Fire, ![Wind](../assets/images/battle-system/icons/elementicon3_3.avif){.icon} Wind, ![Light](../assets/images/battle-system/icons/elementicon4_4.avif){.icon} Light, ![Darkness](../assets/images/battle-system/icons/elementicon5_5.avif){.icon} Darkness and ![Neutral](../assets/images/battle-system/icons/elementicon6_6.avif){.icon} Neutral.
 
     Depending on the opponent, there can be 3 outcomes: 
@@ -1601,7 +1601,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         </table>
     </div>
 
-=== "$\text{\textcolor{ffe8aa}{DEF}}$"
+=== "<span class="yellow">DEF</span>"
     {{DEF}} $\text{\textcolor{ffe8aa}{DEF}}$ / {{MRES}} $\text{\textcolor{ffa6ff}{MRES}}$ are two main stats of a character. They reduce damage from the enemy. 
 
     * $\text{\textcolor{ffe8aa}{DEF}}$ decreases all incoming {{Physical}} **Physical**{.yellow} Damage.
@@ -1813,7 +1813,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         </table>
     </div>
 
-=== "$\text{DMG Reduction}$"
+=== "DMG Reduction"
     $\text{DMG Reduction}$ is a separate buff that decreases incoming damage, similar to {{DEF}} $\text{\textcolor{ffe8aa}{DEF}}$ and {{MRES}} $\text{\textcolor{ffa6ff}{MRES}}$, but working differently.
 
     It's more commonly known as a **Barrier** buff, being part of the skillset for multiple costumes in the game.

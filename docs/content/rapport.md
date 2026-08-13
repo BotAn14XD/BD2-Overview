@@ -13,11 +13,12 @@ icon: material/heart
 
 Rapport is a system where you interact with specific Costumes via visual novel-style 'Diner Talks,' unlocking personal character stories and a global account buff that permanently boosts your team's Crit Rate.
 
-!!! tip "TL;DR" 
+!!! tip "TL;DR"
 
      * You get **3 Talks a day** total (not per Costume) to spend on owned Costumes; picking the **preferred answer** or gifting a **Costume's favorite Drink** gives the most EXP.
      * Leveling a Costume's Rapport unlocks its **Personal Story** and works toward the **Rapport Buff**, a permanent, global {{CritRate}} **Crit Rate**{.white} bonus (up to 50%, reached at 10 maxed Costumes).
      * A Costume's max Level Cap depends on its own upgrade progress: 10 on acquisition, 15 after Awakening, 20 after Potential Liberation — Awakening is mandatory for Level 15 even if Potential Liberation is already done.
+     * Jump straight to the [Rapport Answers & Gifts List](#costume-list) if you're searching for one.
 
 !!! image "Rapport Menu"
      ![Rapport Menu](../assets/images/rapport/main-menu.avif)

@@ -1797,6 +1797,841 @@
           "wrong": "Well, if you insist..."
         }
       ]
+    },
+    {
+      "id": "heavenly-guardian-successor-glacia",
+      "costume": "Heavenly Guardian Successor Glacia",
+      "character": "Glacia",
+      "drinks": [
+        { "name": "Warm Black Tea", "icon": "assets/images/rapport/icons/icon_resource190005_399_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Glacia sips her tea with quiet, effortless grace.",
+            "The Heavenly Guardian Qi Art isn't just an internal cultivation technique. It's a way to understand the fabric of creation itself, and a path meant to bring us closer to the heavens.",
+            "To break down the wall between yourself and the world, and become one with all things... Every disciple in our Palace trains day in and day out to reach that state."
+          ],
+          "correct": "It sounds like a profoundly deep martial art.",
+          "wrong": "It sounds a bit over my head."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Glacia frowns slightly, complaining about how often trouble has been breaking out in Dragonhaven lately.",
+            "The moment the Golden Dragon Festival gets close, every third-rate martial artist comes pouring into town. They all make up some petty excuse to start a duel wherever they please.",
+            "I punish those fools whenever I see them, but it feels like trying to sweep away the ocean... The chaos of the Jianghu never truly ends."
+          ],
+          "correct": "Dragonhaven is lucky to have you keeping the peace.",
+          "wrong": "Sounds like your punishments aren't quite sticking."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Glacia takes a slow sip of her black tea, clearly enjoying the flavor.",
+            "I really like the fresh aroma of this black tea.",
+            "Though compared to the white tea we usually drink at the Palace, the finish is a little lacking. Maybe it's because it was brewed in a foreign style?"
+          ],
+          "correct": "Ask if the Heavenly Guardian Palace has a special way of brewing tea",
+          "wrong": "Ask if the Heavenly Guardian Palace uses different tea leaves"
+        },
+        {
+          "n": 4,
+          "intro": [
+            "As we chat, my eyes drift to the sweeping sleeves of her martial robes.",
+            "Why are you staring at me like that? Is there something wrong with my clothes?",
+            "...I think I know exactly what's crossing your mind. Don't keep it to yourself. Go ahead and say it."
+          ],
+          "correct": "You look stunning in that outfit.",
+          "wrong": "It looks fancy and expensive."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "I ask Glacia about the fan she always carries.",
+            "This? It's just an ordinary fan. It caught my eye at the market during the last Golden Dragon Festival, so I picked it up.",
+            "...You look a bit disappointed. What did you think I used it for?"
+          ],
+          "correct": "As a cultivation tool",
+          "wrong": "As a secret weapon"
+        },
+        {
+          "n": 6,
+          "intro": [
+            "I ask Glacia about her favorite food.",
+            "I like fruit, but I won't touch it unless it's strictly in season. My tastes are pretty particular.",
+            "I also have a pretty small appetite, so I get full after only a few bites... But peaches are the one exception. I wish I could eat them forever."
+          ],
+          "correct": "Make her a peach drink",
+          "wrong": "Peel a plateful of peaches for her"
+        },
+        {
+          "n": 7,
+          "intro": [
+            "I ask Glacia why her inner Qi radiates with a blue light.",
+            "I was born with a condition called the Nine Yin Blocked Meridians. My innate yin energy was so powerful that it completely blocked my pathways. It's an incurable disease that should have killed me before I turned ten.",
+            "Learning the Heavenly Guardian Qi Art saved me from an early death... but because only yin energy built up in my dantian, my martial art transformed into a blue-hued ice art."
+          ],
+          "correct": "Ask if it's still life-threatening",
+          "wrong": "Say that it must've been difficult to live with"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Glacia speaks, a conflicted look shadowing her eyes.",
+            "My Shifu was completely blinded by the dream of ascending to immortality and suffered a Qi deviation. I know now that her noble nature was tarnished long ago, but...",
+            "Even so, I just can't bring myself to hate her."
+          ],
+          "correct": "Sounds like you truly respected the Palace Lord.",
+          "wrong": "I understand your bond, but the Palace Lord was still evil."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Glacia talks about her childhood, her expression turning cold.",
+            "You can tell just by looking at me that I'm not from Dragonhaven. I came from a martial realm far beyond the Central Plains, known as the Northern Sea Ice Palace.",
+            "I don't have a single fond memory of that place. And I will never go back there."
+          ],
+          "correct": "Dragonhaven is your home now",
+          "wrong": "A part of you must still miss the place you grew up."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "I ask Glacia if she and Helena are still getting along well these days.",
+            "We meet up often, but I'm not sure I would call it getting along.",
+            "Helena's personality, her martial arts, and her constitution are the exact opposite of mine. We have absolutely nothing in common."
+          ],
+          "correct": "Opposites attract.",
+          "wrong": "If you hang out enough, you'll start finding things in common."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Glacia and I talk about Sylvia's martial arts.",
+            "The martial arts Sylvia displayed were anything but ordinary. To think she could wield swords so freely with her Qi...",
+            "I plan to challenge her to a friendly spar someday, partly as an exchange between our sects. Tell me, who do you think would win?"
+          ],
+          "correct": "I think you would win",
+          "wrong": "I think Sylvia would win"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "We start talking about Dalvi and Yuri.",
+            "Humans aren't the only ones who visit the Golden Dragon Festival. Terrorfiends come as well, and unlike other towns, Dragonhaven doesn't turn them away.",
+            "Under the Golden Dragon's blessing, all life is equal. Everyone deserves respect, no matter where they come from."
+          ],
+          "correct": "Let's invite them to the next festival too.",
+          "wrong": "Let's ask them to bring more Terrorfiends next time."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Glacia makes it clear that she doesn't respect just anyone as a true practitioner.",
+            "I despise people who learn a few basic techniques and strut around like they're superior. It's even worse when they use that power to trample the weak.",
+            "Fools who train themselves just to chase after something as empty as fame... people like that have absolutely no right to call themselves practitioners."
+          ],
+          "correct": "I agree",
+          "wrong": "I'm not so sure"
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Glacia and I talk about everything that has happened since she became the new Palace Lord.",
+            "Dalvi managed to spread a comforting story for the public, but the disciples who know the absolute truth are still in total turmoil.",
+            "The Palace Lord they all revered fell into madness... It's only natural that they've begun to doubt our entire sect."
+          ],
+          "correct": "You are their leader now. Guide them forward.",
+          "wrong": "Maybe a little punishment will straighten them out."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "I ask why the folk of Dragonhaven look up to Glacia so much.",
+            "Some drunken fools once tried to draw their blades on the townsfolk. I punished them to make a clear example out of them.",
+            "After that, no one dared draw a weapon in town without a damn good reason. The townsfolk started treating me with real warmth and thanking me for it."
+          ],
+          "correct": "It's admirable how fiercely you stand up for the weak.",
+          "wrong": "I'm impressed by how ruthlessly you crush evil."
+        }
+      ]
+    },
+    {
+      "id": "bright-moon-dalvi",
+      "costume": "Bright Moon Dalvi",
+      "character": "Dalvi",
+      "drinks": [
+        { "name": "Velvety Wine", "icon": "assets/images/rapport/icons/icon_resource190003_397_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Dalvi traces the tip of her tongue across her lips as she turns to me.",
+            "Master, you got a spot that... catches fire at the slightest touch?",
+            "A secret, sensitive spot..."
+          ],
+          "correct": "Not sure I do.",
+          "wrong": "Nope."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Mischief lights up Dalvi's face as she looks at me.",
+            "Master, I just had a fun thought...",
+            "Could you close your eyes for a sec?",
+            "I do as Dalvi asks and shut my eyes—and a heartbeat later, something soft brushes against my lips."
+          ],
+          "correct": "Snap my eyes open in surprise",
+          "wrong": "Calmly open my eyes"
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Dalvi gives her wine glass a gentle tilt as she turns to me with a question.",
+            "They say a person can live on forever... as long as someone out there still remembers them.",
+            "It's a nice thought, but... part of me wonders if it actually means anything.",
+            "What do you think, Master?"
+          ],
+          "correct": "I think it's a beautiful expression.",
+          "wrong": "I don't think it means much."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Dalvi stares straight at me and asks.",
+            "I hear humans think of the nine-tailed fox as some terrifying creature that eats people's livers.",
+            "So... what if I asked you for yours, Master?",
+            "What would you do?"
+          ],
+          "correct": "I'd give you half, honestly. Livers grow back anyway.",
+          "wrong": "I'd run and never look back."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Beyond the window, cherry blossoms scatter through the air—Dalvi watches them for a moment, then turns to me with a question.",
+            "They say cherry blossoms bloom in spring and wilt after about a week to ten days.",
+            "So... say I asked you to come see them with me, Master...",
+            "How many of those ten days would you spare for me?"
+          ],
+          "correct": "I could manage one day.",
+          "wrong": "I could do all ten."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Dalvi shivers slightly as she asks me a question.",
+            "Brr... It's spring, but it's still a bit cold.",
+            "Master, got anything to warm me up?"
+          ],
+          "correct": "Drape a blanket over her",
+          "wrong": "Bring her a brazier"
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Dalvi gives her wine glass a gentle tilt as she turns to me with a question.",
+            "A daytime drink under a languid, creeping sun—petals drifting into your glass, each sip fragrant with their scent.",
+            "Or... a late-night drink beneath a star-strewn sky—with nothing but the soft gleam of moonlight on your glass for company?",
+            "If you could only pick one... which would you pick?"
+          ],
+          "correct": "A fragrant drink in the afternoon sun.",
+          "wrong": "An evening drink, with nothing but the moonlight for company."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Dalvi turns away from me—then bares her pale shoulders.",
+            "Oooh, servant! Come here and massage my shoulders!"
+          ],
+          "correct": "Yes, ma'am!",
+          "wrong": "Silently massage her shoulders"
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Beyond the window, cherry blossoms scatter through the air—Dalvi watches them for a moment, then turns to me with a question.",
+            "Humans have this saying, don't they—that the dead are eventually reborn into this world as another form of life?",
+            "I used to think it was foolish...",
+            "But those cherry blossoms—fleeting as they are—still bloom again every spring. Maybe humans are the same way.",
+            "What do you think, Master?"
+          ],
+          "correct": "That's not very realistic.",
+          "wrong": "There's a possibility."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Dalvi's tails sway gently behind her as she asks me a question.",
+            "I've heard humans bond in two ways—physically, and emotionally...",
+            "So, Master—which do you lean toward?"
+          ],
+          "correct": "Emotionally.",
+          "wrong": "Physically."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Dalvi's nine tails sway gently as she turns to me with a question.",
+            "These tails of mine are immaculate—even other nine-tailed foxes praise them as the finest around.",
+            "I don't let just anyone touch them... but you always find a way to amuse me, Master.",
+            "So, as a special exception, I'll allow you to touch them.",
+            "With an alluring twist of her hips, Dalvi gently extends her nine tails toward me."
+          ],
+          "correct": "Touch the base of her tail",
+          "wrong": "Touch the tip of her tail"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Dalvi rests her chin on her hand, a quiet sigh slipping from her lips as she asks me a question.",
+            "Long-lived races sometimes go through stretches where everything in the world just feels... monotonous. Seems like it's finally caught up with me.",
+            "Any good ideas for shaking this off?"
+          ],
+          "correct": "Recommend picking up a hobby",
+          "wrong": "Recommend making some new friends"
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Dalvi stares me down—then, in a flash, lunges straight at me.",
+            "Gotcha!",
+            "<i>GLOMP!</i>",
+            "Dalvi throws her arms around me and presses close, rubbing against me without a shred of restraint."
+          ],
+          "correct": "What are you doing?",
+          "wrong": "Gently push her away"
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Dalvi gazes at the flowers beyond the window and turns to me with a question.",
+            "Say there were two flowers. One with a blinding beauty, and the other with a fragrance so sweet it makes your heart ache...",
+            "Which one would you choose, Master?"
+          ],
+          "correct": "The one with the sweet fragrance.",
+          "wrong": "The beautiful one."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Dalvi stares straight at me and asks.",
+            "Say, Master—when you eat, do you go for the best part first?",
+            "Or do you save it for last?"
+          ],
+          "correct": "I save the best for last.",
+          "wrong": "I eat the best part first."
+        }
+      ]
+    },
+    {
+      "id": "sunny-inn-hand-helena",
+      "costume": "Sunny Inn Hand Helena",
+      "character": "Helena",
+      "drinks": [
+        { "name": "Sweet Soda", "icon": "assets/images/rapport/icons/icon_resource190006_400_2.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "I ask Helena why she became an inn hand.",
+            "I love making people happy. Seeing people smile always brightens my day!",
+            "There are plenty of jobs that bring joy to others, but cooking and serving guests suited me best, so this is the path I chose!"
+          ],
+          "correct": "Sounds like you found your calling.",
+          "wrong": "Doesn't it feel like a waste of your talent?"
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Helena and I talk about Dragonhead Inn.",
+            "Our inn is one of the most famous in the Jianghu! The view is beautiful, and the head chef's cooking is second to none!",
+            "The only downside is that outsiders can only visit during the Golden Dragon Festival, so we don't get as many guests for most of the year."
+          ],
+          "correct": "You could offer delivery outside of town.",
+          "wrong": "You could open a branch outside of town."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Helena tells me about the unique ingredients found in Dragonhaven.",
+            "Dragonhaven has tons of rare ingredients you won't find anywhere else. They don't just taste amazing—they can actually help clear your meridians.",
+            "But ingredients grown here have properties tied to yin, yang, and the five elements, so eating them carelessly can make you really sick."
+          ],
+          "correct": "Ask how to eat them safely",
+          "wrong": "Ask if they are really edible"
+        },
+        {
+          "n": 4,
+          "intro": [
+            "I casually ask Helena just how strong she really is.",
+            "Honestly... I'm not sure. I haven't gone all out since I was little.",
+            "Back then, I didn't know how to control my strength and caused a huge accident... After the elders scolded me, I've held myself back ever since."
+          ],
+          "correct": "Say it must be hard holding back all the time",
+          "wrong": "Ask what kind of accident she caused"
+        },
+        {
+          "n": 5,
+          "intro": [
+            "I ask Helena what she does on her days off.",
+            "Sometimes I chat with the townspeople, but I usually spend my time testing recipes and training my external qi.",
+            "Swinging a heavy pot around while wearing stone weights on my arms and legs lets me train and cook at the same time, so it's a lot of fun!"
+          ],
+          "correct": "Sounds like your work is your hobby.",
+          "wrong": "It doesn't sound like you're really resting."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Helena tells me about the place where she was born and raised.",
+            "My hometown is a village of hunters. People there make a living hunting ferocious beasts, and since they don't want to damage the pelts, they train their external Qi to take them down barehanded.",
+            "Before I came here, I helped the elders with their hunts too. They took me in after I was orphaned, so I wanted to repay them however I could."
+          ],
+          "correct": "It sounds like you were happy there.",
+          "wrong": "That sounds dangerous and difficult."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "I notice that Helena seems to cherish her clothes.",
+            "These were a gift from the elders before I left home. They're made from fabric tough enough to withstand a tiger's claws!",
+            "Of course, I'd like to try other outfits too... but I can't really wear anything that wasn't brought from my hometown."
+          ],
+          "correct": "Tell Helena her outfit suits her",
+          "wrong": "Ask why she can't wear other clothes"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "I ask Helena why she always carries steamed buns around.",
+            "These are a new recipe I came up with! I've been handing them out to people and asking for their honest feedback!",
+            "I keep tweaking the recipe every day, trying to figure out how to make them taste even better and bring bigger smiles to people's faces!"
+          ],
+          "correct": "Say it must help her improve her cooking",
+          "wrong": "Ask if the head chef won't get mad for giving food away"
+        },
+        {
+          "n": 9,
+          "intro": [
+            "While Helena and I are chatting about food, her stomach suddenly growls loudly.",
+            "Haha... how embarrassing! I guess talking about food all this time made me hungry...",
+            "Food never seems to stay with me for long. I ate a full dinner earlier, but I'm already starving again."
+          ],
+          "correct": "Add a chewy topping to her drink",
+          "wrong": "Make her a generous plate of snacks"
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Helena gulps down her soda in one go and orders another.",
+            "Whew! This soda stuff is amazing! It's sweet, and I love that fizzy feeling going down my throat!",
+            "A drink this good needs a great dish to go with it. What do you usually pair with it?"
+          ],
+          "correct": "Savory food.",
+          "wrong": "Spicy food."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "I ask Helena where her incredible strength comes from.",
+            "I was born with Nine Yang Blocked Meridians, so I suffered from terrible fevers as a child. The elders taught me an external martial art called Beast-Hunting Fist to help me grow stronger.",
+            "But... maybe it worked too well with my body, because I ended up way too strong!"
+          ],
+          "correct": "Ask if she is fully recovered now",
+          "wrong": "Ask if her strength would fade if she stopped training her external Qi"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "I ask Helena if she and Glacia have been getting along.",
+            "Yup! We always have a nice chat whenever she comes to our inn for a meal!",
+            "But... every time I give her extra spring rolls, she just quietly stares at me without saying a word. What do you think that means?"
+          ],
+          "correct": "She's thanking you.",
+          "wrong": "She's telling you to stop giving her spring rolls."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "I ask Helena how she became friends with Dalvi.",
+            "I met Dalvi at last year's Golden Dragon Festival. She came to our inn asking for directions, and that's how it all started!",
+            "I was in a bit of trouble at the time, but she helped me clear it up right away, and we became close really fast!"
+          ],
+          "correct": "Ask what she likes about Dalvi",
+          "wrong": "Ask how Dalvi helped her"
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Helena seems curious about Sylvia and Yuri.",
+            "Sylvia and Yuri look so close. They seem like the ideal shifu and disciple!",
+            "It almost feels like looking at the head chef and me back at our inn."
+          ],
+          "correct": "Ask if she feels a strong bond with the head chef",
+          "wrong": "Ask if the head chef scolds her often"
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Helena looks around my restaurant, her eyes filled with curiosity.",
+            "Your inn has such a unique atmosphere, Master! And I've never seen dishes like these before!",
+            "Do you have a different philosophy when running your inn? I'd love to know what mindset you have when managing this place!"
+          ],
+          "correct": "I heal people's hearts with warm hospitality.",
+          "wrong": "I offer guests a gourmet experience with delicious food."
+        }
+      ]
+    },
+    {
+      "id": "comeback-idol-yuri",
+      "costume": "Comeback Idol Yuri",
+      "character": "Yuri",
+      "drinks": [
+        { "name": "Creamy Milk", "icon": "assets/images/rapport/icons/icon_resource190001_395_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Yuri drops by the restaurant and proudly shows off her stage greeting.",
+            "One, two, three! Hello! Your fairies have arrived—E. Fairy!"
+          ],
+          "correct": "Ask for an autograph",
+          "wrong": "Ask for a handshake"
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Yuri tells me about her favorite snacks.",
+            "After a rough day, I just gotta have a snack.",
+            "And the one I go for the most? Pudding!",
+            "It's sooo soft and sweet.",
+            "Just one bite and I feel sooo happy!",
+            "Do you like pudding too, Master?"
+          ],
+          "correct": "Yep.",
+          "wrong": "I prefer making it over eating it."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Yuri walks into the restaurant, looking completely down.",
+            "Aw, man... I fell during practice."
+          ],
+          "correct": "Ask if she's hurt",
+          "wrong": "Ask how practice went"
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Yuri bounces around, boasting proudly.",
+            "So I was out on my day off...",
+            "...and guess what—a fan recognized me!",
+            "Moments like that just make me so happy!"
+          ],
+          "correct": "Tell her the fan must've been happy too",
+          "wrong": "Tell her she's a superstar"
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Yuri talks to me, eyes sparkling.",
+            "I just saw A.twist perform!",
+            "They were sooo cool... and adorable too!",
+            "But I especially liked their powerful, hard-hitting choreography!",
+            "Do you think a dance like that would suit me?"
+          ],
+          "correct": "Absolutely.",
+          "wrong": "Something cute would suit you better."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Yuri tells me about her next concert venue.",
+            "We're performing at Brown Marina Resort Beach this time!",
+            "I wanna try a new stage greeting for the fans...",
+            "Any good ideas?"
+          ],
+          "correct": "Brown-derful day, everyone!",
+          "wrong": "The usual greeting works fine."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Yuri shows up at the restaurant, scared stiff.",
+            "I went to see a movie with the girls...",
+            "The poster had this dreamy, fairy tale look to it...",
+            "...but turns out there was a really scary ghost in it!",
+            "Ugh... The scenes of the ghost messing with people keep playing in my head.",
+            "What if a ghost comes after me?!"
+          ],
+          "correct": "Ghosts don't mess with cute people.",
+          "wrong": "Ghosts aren't real."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Yuri tells me about the signature colors idols have.",
+            "Every idol has their own signature color!",
+            "What color do you think represents me?",
+            "Go on, take a guess!"
+          ],
+          "correct": "A bubbly orange.",
+          "wrong": "A crisp white."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "I ask Yuri about the origins of E. Fairy's mascot.",
+            "You mean our mascot?",
+            "Hehe... Cute, right?"
+          ],
+          "correct": "It looks a lot like you.",
+          "wrong": "You're cuter."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Yuri brings up her dreams.",
+            "When I drift off to a nice, sweet sleep after a really great day...",
+            "...I envision it—",
+            "E. Fairy, soaring above the rest.",
+            "Every single fan in the world cheering for us.",
+            "Hehe... I know... It sounds ridiculous, doesn't it?"
+          ],
+          "correct": "Tell her it doesn't sound ridiculous at all",
+          "wrong": "Tell her it might take some time"
+        },
+        {
+          "n": 11,
+          "intro": [
+            "A nervous Yuri comes over to talk.",
+            "We got invited to perform at a really big concert hall!",
+            "This is the perfect chance to boost E. Fairy's popularity...!",
+            "But that's exactly why I'm so nervous... What do I do?"
+          ],
+          "correct": "Tell her if she makes a mistake, she can always try again",
+          "wrong": "Suggest pushing back the schedule"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Yuri suddenly bursts out from under the table.",
+            "Surprise!"
+          ],
+          "correct": "Whoa, that scared me.",
+          "wrong": "Saw it coming."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Yuri tells me about her favorite season.",
+            "My favorite season is spring!",
+            "When the spring breeze drifts in all soft and gentle...",
+            "...you fall into the best sleep ever!",
+            "What season do <i>you</i> like, Master?"
+          ],
+          "correct": "Winter.",
+          "wrong": "Summer."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Fans at my autograph sessions always bring me tons of gifts.",
+            "I'm super grateful for every one of them, but...",
+            "...how come so many are snacks?"
+          ],
+          "correct": "Hand her a glass of milk",
+          "wrong": "Tell her they're probably hoping she'll grow taller"
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Hey, check this out!",
+            "Yuri puts on her fiercest look and stares straight at me.",
+            "The look on my face! What do you think?"
+          ],
+          "correct": "You look really cool.",
+          "wrong": "You're so cute."
+        }
+      ]
+    },
+    {
+      "id": "starlight-guardian-tyr",
+      "costume": "Starlight Guardian Tyr",
+      "character": "Tyr",
+      "drinks": [
+        { "name": "Creamy Milk", "icon": "assets/images/rapport/icons/icon_resource190001_395_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Eyes fixed on the array of snacks spread before her, Tyr gasps in awe.",
+            "Wow...! So many different kinds of snacks!",
+            "Are you more of an eat-your-favorites-first style, Master?",
+            "Or a save-them-for-last style?"
+          ],
+          "correct": "I save the best for last.",
+          "wrong": "I eat my favorites first."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Tyr tips the cup back and takes a long, steady drink of milk.",
+            "<i>Gulp, gulp...</i> That hits the spot...!",
+            "Why does the milk you give me always taste so good?",
+            "It makes me sad every time I take a sip because there's less left.",
+            "Oh...! I already drank half of it."
+          ],
+          "correct": "There's plenty more milk.",
+          "wrong": "Drinking that fast might upset your stomach."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Tyr turns to me with a question, a serious look on her face.",
+            "I feel like my understanding of cooking has gotten so much better after eating your cooking—and Justia's!",
+            "Before, I was just... eating to fill my stomach, but... lately I feel like I can appreciate the flavors and aromas a little more...",
+            "So, um...",
+            "Master, when you cook, what do you focus on the most?"
+          ],
+          "correct": "The aroma.",
+          "wrong": "The flavor."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Tyr mumbles to herself in a low voice, her face sullen.",
+            "Ugh... At dinner earlier, Aya went and sat next to Justia.",
+            "She used to stick right by my side, at least when we ate...",
+            "S-surely she doesn't like Justia more than me now... right?!"
+          ],
+          "correct": "She still seems to like you more, Tyr.",
+          "wrong": "She seems to like Justia more now."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Tyr takes a sip of her milk, then—suddenly serious—turns to me with a question.",
+            "Master, what would you do if you got into a fight with a friend?",
+            "Say it happened, not because someone did something wrong, but...",
+            "...because you just couldn't see eye to eye."
+          ],
+          "correct": "I'd be the first to apologize.",
+          "wrong": "I wouldn't apologize if I didn't do anything wrong."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Tyr approaches, a loose, carefree grin across her face.",
+            "Hehe, Veila told me you're working on a special meal for tomorrow night, Master!",
+            "Any chance you could let me in on what's on the menu? Just between us?"
+          ],
+          "correct": "Meat—your favorite.",
+          "wrong": "A wholesome vegetable dish."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Tyr lets out a long, lazy yawn as she settles into her seat.",
+            "<i>Yaaawn...</i>",
+            "Maybe it's because I've been getting up so early in the mornings... I just can't stop yawning."
+          ],
+          "correct": "Suggest going to bed a little earlier",
+          "wrong": "Suggest sleeping in"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Tyr perks her ears up and leans her head toward me.",
+            "Hehehe..."
+          ],
+          "correct": "Pet her head",
+          "wrong": "Rub her belly"
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Tyr sneaks a furtive glance around the room before asking me a question.",
+            "Master, you said you've been running a restaurant for a long time, right?",
+            "What did you do when you had employees who weren't... that great at their job?"
+          ],
+          "correct": "I comfort them and encourage them to do better.",
+          "wrong": "I give them a firm talking to."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Tyr murmurs to herself in a low voice, a languid look on her face.",
+            "I can't help but notice every time I'm here... Glupy Diner always feels so warm and cozy...!",
+            "When we used to camp out in the Night World, everyone was always shivering!",
+            "Master, do you get cold easily too?"
+          ],
+          "correct": "I can't handle the cold.",
+          "wrong": "I can't handle the heat."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Between sips of milk, Tyr turns to me with a question.",
+            "You know, some days, the sad memories from long ago just... hit me out of nowhere.",
+            "Even after all this time, I never get used to them... Every time, they still make me wanna cry...",
+            "Master, how do you deal with memories like that?"
+          ],
+          "correct": "I try to smile through it.",
+          "wrong": "I cry it out."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Waaah! Master!",
+            "Liberta said I look like I've gained even more weight...",
+            "Do you think so too?"
+          ],
+          "correct": "Not at all.",
+          "wrong": "Maybe you gained just a little."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Tyr stares at me with an inscrutable look on her face.",
+            "Master, guess what I'm thinking right now...!"
+          ],
+          "correct": "What's for dinner tomorrow.",
+          "wrong": "I can't tell."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Tyr's ears perk up as she turns to me with a question.",
+            "Wolves are pack animals, so we're really particular about rules and discipline...!",
+            "That said, it's not like we follow <i>all</i> rules... We don't follow the ones that make no sense."
+          ],
+          "correct": "Rules that make no sense need to be challenged and changed.",
+          "wrong": "Rules are rules. Better to follow them."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Tyr mumbles to herself in a low voice, her face sullen.",
+            "<i>Sigh...</i> I'm a wolf, but lately I feel like more and more people keep thinking I'm a puppy.",
+            "Master, do you think I look like a puppy, too?"
+          ],
+          "correct": "You look like a proper wolf.",
+          "wrong": "You look like a wolf-like puppy."
+        }
+      ]
     }
   ]
 }
