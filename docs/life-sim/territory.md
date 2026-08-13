@@ -1,6 +1,6 @@
 ---
 
-description: A technical guide to the Brown Dust 2 Fantasia Territory management mode. Includes detailed information on resource generation, skill scaling formulas, building priorities, and optimization strategies for cooking and recruitment.
+description: A technical guide to the Brown Dust 2 Territory management mode. Includes detailed information on resource generation, skill scaling formulas, building priorities, and optimization strategies for cooking and recruitment.
 comments: true
 image: assets/images/site-assets/territory-banner.png
 hero: assets/images/site-assets/index-pc-nav-20.avif
@@ -11,7 +11,7 @@ icon: material/terrain
 
 #
 
-**Fantasia Territory** is a cozy management mode where players gather resources through farming, logging, and mining to build, landscape, and customize their own town while populating it with character residents.
+Territory is a cozy management mode where players gather resources through farming, logging, and mining to build, landscape, and customize their own town while populating it with character residents.
 
 !!! tip "TL;DR"
 
