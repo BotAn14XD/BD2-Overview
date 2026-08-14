@@ -66,15 +66,40 @@ It is incredible powerful tool to learn the game. Follow tasks and try to rememb
 !!! warning "Common Pass Problems"
     * **Proceed with Hunting Grounds Battle...**{.yellow} — use a shortcut for Hunting Grounds, located near a minimap.
 
-    !!! image "Image Guide"
-
+    ??? image "Image Guide"
+        ![Hunting Ground Access Guide](./assets/images/new-player-guide/hunting-grounds-access.avif)
     **If there are no enemies in Hunting Grounds, cancel the active quest**.
 
-    !!! image "Image Guide"
+    ??? image "Image Guide"
+        ![Hunting Grounds Quest Cancellation Guide](./assets/images/new-player-guide/hgnomob.avif)
 
     * **Proceed with Companion awakening Growth**{.yellow} — Task wants you to do **full engraving** (3 nodes) and **Awakening upgrade itself** (in the middle).
 
-    !!! image "Image Guide" 
+    ??? image "Image Guide" 
+        ![Awakening Guide](./assets/images/new-player-guide/engraving-guide.avif)
+---
+
+## Gacha
+
+### Infinite Draw
+
+**Infinite Draw** is a banner that allows you to obtain free ★5 Costume within some pool. You can roll the banner infinitely, but keep in mind that only 1 ★5 Costume is possible from it.
+
+??? image "Infinite Draw Image"
+    ![Infinite Draw Image](./assets/images/new-player-guide/infinite-draw.avif)
+
+As soon as you claim your draw, you will have the access to the rest active banners.
+
+For the Infinite Draw, go for [The Curse Celia](https://browndust2.miraheze.org/wiki/The_Curse_Celia) Costume. Rest, such as Gear or ★4 Costumes, does not matter.
+
+Nowadays, there are some other viable choices like [Gentle Maid Anastasia](https://browndust2.miraheze.org/wiki/Anastasia/Gentle_Maid) and [Top Idol Helena](https://browndust2.miraheze.org/wiki/Top_Idol_Helena), but since game is support-heavy, Celia is still recommended over [DPS](./misc/slang.md/?term=DPS) or defensive Supports.
+
+!!! image "Good Infinite Draw"
+    ![Good Infinite Draw](./assets/images/new-player-guide/inf-draw-celia.avif)
+
+### Active Banners
+
+For current Active Banners, refer to [Banner Recommendations](https://zormolo.github.io/BD2-Banner-Recommendation/).
 
 ---
 

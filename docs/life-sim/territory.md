@@ -681,7 +681,7 @@ Hover over the icons below to learn more about each of the buildings.
 
 ### Select Territory (Terrain)
 
-During the intro, you can choose 1 of 4 Territory layouts: **Plain Terrain**, **River Terrain 1**, **River Terrain 2** and **Coast Terrain**.
+During the intro, you can choose 1 of 6 Territory layouts: **Plain Terrain**, **River Terrain 1**, **River Terrain 2**, **Coast Terrain**, **Beach Terrain I**, and **Beach Terrain II**.
 
 Your chosen terrain does not affect your progression.
 
