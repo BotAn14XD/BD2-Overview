@@ -405,9 +405,6 @@ def define_env(env):
         stage_id = str(stage_id).strip()
 
         pack = battles_db.get(pack_key)
-
-        print("DEBUG BATTLES DB KEYS:", list(battles_db.keys()))
-        print("DEBUG MP-01 CONTENT:", battles_db.get("mp-01"))
         
         if pack is None:
             return f"> **Error:** Pack `{pack_key}` not found in database."

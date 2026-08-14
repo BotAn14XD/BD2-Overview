@@ -81,11 +81,12 @@ icon: material/frequently-asked-questions
     
     * **Poolside Guardian Zenith ({{Wind}} Wind)** (until +5)
     * **Iron Monarch Wilhelmina ({{Water}} Water)** (until +4)
-    * **Shadowed Dream Sonya ({{Darkness}} Darkness)** (until +4 or +5)
+    * **Red Riding Hood Rou ({{Darkness}} Darkness)** (until +5)
     * **Young Lady Blade ({{Darkness}} Darkness)** (until +5)
     * **Medical Club Teresse ({{Water}} Water)** (until +5)
+    * **Shadowed Dream Sonya ({{Darkness}} Darkness)** (until +4 or +5)
     * **Miracle Marine Mamonir ({{Water}} Water)** (until +5)
-    * **Red Riding Hood Rou ({{Darkness}} Darkness)** (until +5)
+    * **Heavenly Guardian Successor Glacia ({{Water}} Water)** (until +4)
     * **New Hire Seir ({{Darkness}} Darkness)** (until +5)
     * **Shadowed Bunny Eleaneer ({{Darkness}} Darkness)** (until +4)
 
