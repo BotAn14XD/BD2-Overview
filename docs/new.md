@@ -72,7 +72,7 @@ Each **Character** can use only 1 **Costume (Skill)** per turn.
 
     * **Jukebox** — Select background music from the unlocked soundtrack collection.
     * **Draw (Gacha)** — Summon on rate-up banners, standard banners, and claim daily free pulls.
-    * **Companion** — Manage your character roster: level up, equip costumes, upgrade gear, awaken, allocate [Potential Liberation](./progression/potential.md) nodes, Awakening and [Burst](./progression/burst.md) upgrades.
+    * **Companion** — Manage your character roster: level up, equip costumes, upgrade gear, awaken, allocate [Potential Liberation](./progression/potentials.md) nodes, Awakening and [Burst](./progression/burst.md) upgrades.
     * **Bag** — View your inventory of consumables, gear and collection.
     * **Story (Archive)** — Story replay archive for main story chapters, seasonal events, and cutscenes. *(Note: Reading stories here does not progress the actual game).*
     * **Collection** — Track collected costumes, weapons and items to get permanent account-wide Collection stat bonuses.
