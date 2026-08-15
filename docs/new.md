@@ -52,7 +52,7 @@ Each **Character** can use only 1 **Costume (Skill)** per turn.
 === "2 — Currencies, System & Shortcuts (Top-Right)"
 
     * **Current Currencies** — Displays current totals for {{Dia}} **Dia**, {{Gold}} **Gold**, and {{Ability_Pill}} **Ability Pills**.
-    * **Notices** — Official patch notes, maitenance alerts, update announcements, and player feedback surveys.
+    * **Notices** — Official patch notes, maintenance alerts, update announcements, and player feedback surveys.
     * **Mailbox** — Collect login bonuses, maintenance compensation, package purchases, pass rewards, and coupon code redemptions.
     * **Wallpaper Editor** — Customize lobby artwork.
     * **Settings & ETC (Grid Icon)** — Account linking/switching, settings, customer support, and the official in-game Guidebook.
