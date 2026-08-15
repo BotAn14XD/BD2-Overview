@@ -32,6 +32,58 @@ Each **Character** can use only 1 **Costume (Skill)** per turn.
 
 ---
 
+## Home Screen Layout
+
+!!! image "Home Screen Layout"
+    ![Home Screen Layout](./assets/images/new-player-guide/main-menu-explanation.avif)
+
+=== "1 — Social & Daily Management (Top-Left)"
+
+    * **Profile / Account** — View player rank, Combat Power, and account level. Tapping the plus icon displays your **Player ID** and detailed account statistics.
+    * **My Room** — Customize and decorate a personal dormitory that can be visited by other players.
+    * **Friends** — Manage your friend list and set your shared **Support Character**.
+    * **Guild** — Access daily Guild check-ins and participate in seasonal **Guild Raids**.
+    * **Business Management** — Quick-claim shortcuts for passive resource generation from **Glupy Diner**, **Fishing Voyage**, and [**Territory**](./life-sim/territory.md) Helpers.
+    * **GluTalk** — Text message conversations with unlocked characters to trigger unique interactions and affinity moments.
+    * **Rapport** — Deepen affinity with specific characters via gifts/dialogue to earn permanent global stat buffs and {{Dia}} **Dia**.
+    * **Arcade** — Access standalone mini-games.
+    * **Secret Events / View Mode** — Trigger special interactive cutscenes with specific Costumes, or hide the UI for a clean background view.
+
+=== "2 — Currencies, System & Shortcuts (Top-Right)"
+
+    * **Current Currencies** — Displays current totals for {{Dia}} **Dia**, {{Gold}} **Gold**, and {{Ability_Pill}} **Ability Pills**.
+    * **Notices** — Official patch notes, maintenance alerts, update announcements, and player feedback surveys.
+    * **Mailbox** — Collect login bonuses, maintenance compensation, package purchases, pass rewards, and coupon code redemptions.
+    * **Wallpaper Editor** — Customize lobby artwork.
+    * **Settings & ETC (Grid Icon)** — Account linking/switching, settings, customer support, and the official in-game Guidebook.
+    * **News Ticker** — Scrolling banner alerting you of banners or events ending soon.
+    * **Return Season** — Special event button that appears during [**Fiend Hunter**](./content/fh.md) rerun seasons.
+    * **Tactical Manual** — Shortcut to [**Taros Tactical Manual**](./content/ttm.md), a monthly tactical puzzle mode with clearance rewards.
+    * **Pass** — Central hub for the **Guide Pass**, **Season Pass**, **Character Pass** and seasonal passes.
+    * **Quick Hunt** — Instantly sweeps unlocked **Hunting Grounds** and **Path of Adventure** stages without having to load into the map.
+
+=== "3 — Cartridges & Event Shortcuts (Right Side)"
+
+    * **Prestige & Special Skins** — View active cosmetic skins offers (purely visual overhauls with no gameplay stat bonuses).
+    * [**Seasonal Event**](./content/events.md) — Shortcut to the current limited-time event hub (Event Story, Mini-game, Fiend Hunter, and Event Shop).
+    * **Pack Selection (Cartridges)** — Switch between Main Story Packs, Character Packs, and Special Content Packs (e.g., [Evil Castle](./content-packs/evil-castle.md), [Mirror Wars](./content-packs/mirror-wars.md)).
+
+=== "4 — Navigation Dock (Bottom Bar)"
+
+    * **Jukebox** — Select background music from the unlocked soundtrack collection.
+    * **Draw (Gacha)** — Summon on rate-up banners, standard banners, and claim daily free pulls.
+    * **Companion** — Manage your character roster: level up, equip costumes, upgrade gear, awaken, allocate [Potential Liberation](./progression/potential.md) nodes, Awakening and [Burst](./progression/burst.md) upgrades.
+    * **Bag** — View your inventory of consumables, gear and collection.
+    * **Story (Archive)** — Story replay archive for main story chapters, seasonal events, and cutscenes. *(Note: Reading stories here does not progress the actual game).*
+    * **Collection** — Track collected costumes, weapons and items to get permanent account-wide Collection stat bonuses.
+    * **Missions** — Track Daily and Weekly tasks for regular {{Dia}} **Dia** and other resources income.
+    * **Achv (Achievements)** — Long-term account milestones, trophy achievements, and title rewards.
+    * **Event** — Special check-ins, Pickup Missions and ongoing reward campaigns.
+    * **Shop** — In-game exchange shops using earned gameplay currencies (Golden Thread, Mirror Wars medals, Powder of Hope).
+    * **Premium Shop** — Cash shop for Dia bundles, subscription packs, and special paid packages.
+
+---
+
 ## Pack System
 
 Almost all content is divided into **Packs**. To switch the Packs, press the Cartridge in **Home Screen**.
@@ -118,7 +170,7 @@ This team is designed to clear battle with a lot of enemies.
 !!! image "Newbie AoE Team"
     ![Newbie Brown Dust 2 Team](assets/images/faq/newbie_team_Kit.avif)
 
-* **Slot 1**{.yellow} — [B-Rank Idol Helena](https://browndust2.miraheze.org/wiki/Helena/B-Rank_Idol) — 5★ Support — from [Recommended ★5 Costume Selective Ticket](http://127.0.0.1:8000/BD2-Overview/FAQ/#str).
+* **Slot 1**{.yellow} — [B-Rank Idol Helena](https://browndust2.miraheze.org/wiki/Helena/B-Rank_Idol) — 5★ Support — from [Recommended ★5 Costume Selective Ticket](https://botan14xd.github.io/BD2-Overview/FAQ/#str).
 * **Slot 2**{.yellow} — [Hand of Salvation Elpis](https://browndust2.miraheze.org/wiki/Elpis/Hand_of_Salvation) — 4★ Support — from any Gacha banner.
 * **Slot 3**{.yellow} — [Kind Student Samay](https://browndust2.miraheze.org/wiki/Samay/Kind_Student) — 4★ Support — from any Gacha banner.
     * **Substitute**{.yellow} — [Queen of Gluttis Grandair](https://browndust2.miraheze.org/wiki/Granadair/Queen_of_Gluttis) — 5★ Support — from random Pub Recruit.
