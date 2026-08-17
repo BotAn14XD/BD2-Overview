@@ -43,7 +43,7 @@ This site is a work in progress, focusing on high-quality explanations for every
 
     ---
 
-    [View Page [WIP] →](./checklists.md){: .md-button}
+    [View Page →](./checklists.md){: .md-button}
 </div>
 
 ---

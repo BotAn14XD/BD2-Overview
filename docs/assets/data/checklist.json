@@ -74,6 +74,31 @@
     },
     {
       "id": 12, "cadence": "daily", "priority": "low",
+      "name": "Obtained <strong>Guild Daily Attendance Reward</strong> (Guild)"
+    },
+    {
+      "id": 13, "cadence": "daily", "priority": "low",
+      "name": "Collected daily <strong>Magic Crystals</strong> and {icon} <strong>Deco Coins</strong> (Glupy Diner)",
+      "icon_path": "../assets/images/icons/icon_resource180001_349.avif"
+    },
+    {
+      "id": 14, "cadence": "daily", "priority": "low",
+      "name": "Bought ingredients, cooked & sold <strong>dishes</strong> (Cooking Field Ability / Shops)"
+    },
+    {
+      "id": 15, "cadence": "daily", "priority": "low",
+      "name": "Used all <strong>Talk Attempts</strong> (Rapport)"
+    },
+    {
+      "id": 16, "cadence": "daily", "priority": "low",
+      "name": "Prayed at <strong>Goddess Statue</strong> (Fantasia Square)"
+    },
+    {
+      "id": 17, "cadence": "daily", "priority": "low",
+      "name": "Obtained rewards from Glupy Diner, Fishing Voyage and <a href=\"https://botan14xd.github.io/BD2-Overview/life-sim/territory/\">Fantasia Territory</a> Helpers (Business Management — Home Screen)"
+    },  
+    {
+      "id": 18, "cadence": "daily", "priority": "low",
       "name": "Collected Daily Attendance Reward from the <a href=\"https://webshop.browndust2.global/en-US/\">Web Shop</a>"
     },
     {
@@ -84,6 +109,18 @@
     {
       "id": 2, "cadence": "weekly", "priority": "high",
       "name": "Completed <strong>Weekly Missions</strong> (Missions)"
+    },
+    {
+      "id": 3, "cadence": "weekly", "priority": "low",
+      "name": "Used all weekly <strong>Stealing</strong> Attempts (Character Ability, Map)"
+    },
+    {
+      "id": 4, "cadence": "weekly", "priority": "low",
+      "name": "Completed <strong>Weekly Quests</strong> (Map)"
+    },
+    {
+      "id": 5, "cadence": "weekly", "priority": "low",
+      "name": "Visited <strong>Champion Statues</strong> (Fantasia Square, <a href=\"../content-packs/mirror-wars/\">Mirror Wars</a>)"
     },
     {
       "id": 1, "cadence": "biweekly", "priority": "high",
@@ -202,10 +239,20 @@
   "overrides": [
     {
       "comment": "Fiend Hunter Error Season Rerun",
-      "id": "fiend-hunter-error-rerun",
+      "id": "fiend-hunter-error-rerun-1",
       "name": "Attacked Fiend Hunter Boss (Error Season Rerun) (<a href='https://botan14xd.github.io/BD2-Overview/content/fh/'>Fiend Hunter</a>)",
       "start": "2026-07-30T00:00:00Z",
       "end": "2026-08-05T15:00:00Z",
+      "is_daily_reset": true,
+      "target_tab": "daily",
+      "suppress_default_cycle": true
+    },
+    {
+      "comment": "Fiend Hunter Error Season Rerun",
+      "id": "fiend-hunter-error-rerun-2",
+      "name": "Attacked Fiend Hunter Boss (Error Season Rerun) (<a href='https://botan14xd.github.io/BD2-Overview/content/fh/'>Fiend Hunter</a>)",
+      "start": "2026-08-13T00:00:00Z",
+      "end": "2026-08-19T15:00:00Z",
       "is_daily_reset": true,
       "target_tab": "daily",
       "suppress_default_cycle": true

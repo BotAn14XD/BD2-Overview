@@ -17,6 +17,42 @@ icon: material/book
 
 ---
 
+## Field Menu Layout
+
+!!! image "Field Menu Layout"
+    ![Field Menu Layout](./assets/images/new-player-guide/field-menu-guide.avif)
+
+=== "1 — Minimap & Map Info (Top-Left)"
+
+    * **Collection & Rapport & Other Bonuses** — View active global stat bonuses applied to the current Pack.
+    * **Minimap & Enlarging Button ([+] Icon)** — Shows immediate surroundings; tap the **[+]** icon to expand into the bigger version of itself, tap the minimap directly to expand into the full area map.
+    * **Shortcut Menu** — Fast-travel to key landmarks, such as the Inn or Hunting Grounds.
+    * **Rewards & Exploration Info** — Tracks remaining collectibles (glimmers), search objects, and field monsters left in the area.
+    * **Health Bar & Food Option** — Track HP of the first Character and enable restoring HP with Food. 
+
+=== "2 — Resources, Shortcuts & Quests (Top-Right)"
+
+    * **Current Currencies** — Displays current totals for {{Dia}} **Dia**, {{Gold}} **Gold**, and {{Ability_Pill}} **Ability Pills**.
+    * **Companion** — Manage your **character roster**: level up, equip costumes, upgrade gear, allocate [Potential Liberation](./progression/potentials.md) nodes, Awakening and [Burst](./progression/burst.md) upgrades.
+    * **Bag** — View your **inventory** of consumables, gear and collection.
+    * **Home** — Return directly to the **Home Screen**.
+    * **Quest Tracker** — Displays **active quest goals**. Tap the tracker to activate **Auto-Move** pathfinding, or tap the **[+]** icon to view full quest details.
+
+=== "3 — Interaction, Field Abilities & Movement (Bottom-Right)"
+
+    * **Interaction Button** — Interact with objects on the map. 
+    * **Field Abilities Shortcut** — Quick-cast equipped **Field Abilities** (Search, Absorption, Assemble, Overpower, Danger Detection etc.) using {{Ability_Pill}} Ability Pills.
+    * **Dash** — Sprint to move faster in fast motion. 
+    * **Field Abilities Presets** — Cycle between 3 customizable sets of assigned Field Abilities.
+
+=== "4 — Miscellaneous (Bottom)"
+
+    * **Pack Selection (Cartridges)** — Switch between Main Story Packs, Character Packs, and Special Content Packs (e.g., [Evil Castle](./content-packs/evil-castle.md), [Mirror Wars](./content-packs/mirror-wars.md)).
+    * **Field Character** — Toggle field sprite appearance between the Story Team, Custom Character, or active Battle Team. 
+    * **Field Ability Menu** — Use Field Abilities of Characters or create a Shortcut / Presets.
+
+---
+
 ## Battle System
 
 Battle System is made in a form of **Turn-based strategy**.
@@ -39,13 +75,13 @@ Each **Character** can use only 1 **Costume (Skill)** per turn.
 
 === "1 — Social & Daily Management (Top-Left)"
 
-    * **Profile / Account** — View player rank, Combat Power, and account level. Tapping the plus icon displays your **Player ID** and detailed account statistics.
+    * **Profile / Account** — View player Profile & Combat Power. Tapping the plus icon displays your **Player ID** and detailed account statistics.
     * **My Room** — Customize and decorate a personal dormitory that can be visited by other players.
     * **Friends** — Manage your friend list and set your shared **Support Character**.
     * **Guild** — Access daily Guild check-ins and participate in seasonal **Guild Raids**.
     * **Business Management** — Quick-claim shortcuts for passive resource generation from **Glupy Diner**, **Fishing Voyage**, and [**Territory**](./life-sim/territory.md) Helpers.
-    * **GluTalk** — Text message conversations with unlocked characters to trigger unique interactions and affinity moments.
-    * **Rapport** — Deepen affinity with specific characters via gifts/dialogue to earn permanent global stat buffs and {{Dia}} **Dia**.
+    * **GluTalk** — Text message conversations with specific Costumes to obtain special wallpapers and interactions (Secret Events).
+    * **Rapport** — Deepen affinity with specific Costumes / Characters via gifts / dialogue to earn permanent global stat buffs and {{Dia}} **Dia**.
     * **Arcade** — Access standalone mini-games.
     * **Secret Events / View Mode** — Trigger special interactive cutscenes with specific Costumes, or hide the UI for a clean background view.
 
@@ -53,26 +89,26 @@ Each **Character** can use only 1 **Costume (Skill)** per turn.
 
     * **Current Currencies** — Displays current totals for {{Dia}} **Dia**, {{Gold}} **Gold**, and {{Ability_Pill}} **Ability Pills**.
     * **Notices** — Official patch notes, maintenance alerts, update announcements, and player feedback surveys.
-    * **Mailbox** — Collect login bonuses, maintenance compensation, package purchases, pass rewards, and coupon code redemptions.
+    * **Mailbox** — Collect login bonuses, maintenance compensation, package purchases, pass and coupon codes rewards.
     * **Wallpaper Editor** — Customize lobby artwork.
     * **Settings & ETC (Grid Icon)** — Account linking/switching, settings, customer support, and the official in-game Guidebook.
     * **News Ticker** — Scrolling banner alerting you of banners or events ending soon.
     * **Return Season** — Special event button that appears during [**Fiend Hunter**](./content/fh.md) rerun seasons.
     * **Tactical Manual** — Shortcut to [**Taros Tactical Manual**](./content/ttm.md), a monthly tactical puzzle mode with clearance rewards.
-    * **Pass** — Central hub for the **Guide Pass**, **Season Pass**, **Character Pass** and seasonal passes.
-    * **Quick Hunt** — Instantly sweeps unlocked **Hunting Grounds** and **Path of Adventure** stages without having to load into the map.
+    * **Pass** — Central hub for the **Guide Pass**, **Season Pass**, **Character Pass** and other seasonal passes.
+    * **Quick Hunt** — Instantly sweep unlocked **Hunting Grounds** and **Path of Adventure** stages without having to load into the map.
 
-=== "3 — Cartridges & Event Shortcuts (Right Side)"
+=== "3 — Cartridges & Event Shortcuts (Bottom-Right)"
 
     * **Prestige & Special Skins** — View active cosmetic skins offers (purely visual overhauls with no gameplay stat bonuses).
     * [**Seasonal Event**](./content/events.md) — Shortcut to the current limited-time event hub (Event Story, Mini-game, Fiend Hunter, and Event Shop).
     * **Pack Selection (Cartridges)** — Switch between Main Story Packs, Character Packs, and Special Content Packs (e.g., [Evil Castle](./content-packs/evil-castle.md), [Mirror Wars](./content-packs/mirror-wars.md)).
 
-=== "4 — Navigation Dock (Bottom Bar)"
+=== "4 — Navigation Dock (Bottom)"
 
     * **Jukebox** — Select background music from the unlocked soundtrack collection.
     * **Draw (Gacha)** — Summon on rate-up banners, standard banners, and claim daily free pulls.
-    * **Companion** — Manage your character roster: level up, equip costumes, upgrade gear, awaken, allocate [Potential Liberation](./progression/potentials.md) nodes, Awakening and [Burst](./progression/burst.md) upgrades.
+    * **Companion** — Manage your character roster: level up, equip costumes, upgrade gear, allocate [Potential Liberation](./progression/potentials.md) nodes, Awakening and [Burst](./progression/burst.md) upgrades.
     * **Bag** — View your inventory of consumables, gear and collection.
     * **Story (Archive)** — Story replay archive for main story chapters, seasonal events, and cutscenes. *(Note: Reading stories here does not progress the actual game).*
     * **Collection** — Track collected costumes, weapons and items to get permanent account-wide Collection stat bonuses.
@@ -152,6 +188,14 @@ Nowadays, there are some other viable choices like [Gentle Maid Anastasia](https
 ### Active Banners
 
 For current Active Banners, refer to [Banner Recommendations](https://zormolo.github.io/BD2-Banner-Recommendation/).
+
+### Tickets & Dia Usage
+
+As a general rule, 
+
+* {{Selective_Exclusive_Draw_Ticket}} **Selective Exclusive Draw Tickets** *(Purple tickets)* — for **12-Pick Banner**.
+* {{Draw_Ticket}} **Draw Tickets** *(Red Tickets)* — for **regular banners**. Sometimes using in 12-Pick banner is fine, but keep it balanced.
+* {{Dia}} **Dia** — **treat them as Red Tickets**, but always have 1k {{Dia}} for purchasing a **Seasonal Pass**.
 
 ---
 
