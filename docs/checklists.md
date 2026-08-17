@@ -1,6 +1,6 @@
 ---
 
-description: 
+description: A beginner-friendly guide and interactive checklist for Brown Dust II daily, weekly, and seasonal routines.
 comments: true
 image: assets/images/site-assets/checklists-banner.png
 hero: assets/images/site-assets/index-pc-nav-28.avif
@@ -11,9 +11,14 @@ icon: octicons/checklist-24
 
 #
 
-!!! warning "WORK IN PROGRESS"
-    ![Sad Glupy](./assets/images/site-assets/illust_npcface0013210114_74.avif){.icon-portrait align=left}
-    **This page is currently under construction and will be completed soon. Thank you for your patience!**
+This checklist helps you track Brown Dust II **Daily**, **Weekly**, **Biweekly**, **Seasonal**, and **Monthly** resets.
+
+Keep in mind that none of these tasks are **mandatory** — play at your own pace. Nonetheless, some tasks are divided into High and Low priority.
+
+* **High Priority** tasks usually have high resources gain with moderate amount of time spent.
+* **Low Priority** tasks that either require more effort or provide minor gains.
+
+Pick any tasks that match your schedule and playstyle.
 
 === "Daily List"
 
@@ -27,7 +32,7 @@ icon: octicons/checklist-24
 
     <div class="checklist-group" id="checklist-biweekly" markdown="0"></div>
 
-=== "Season List"
+=== "Seasonal List"
 
     <div class="checklist-group" id="checklist-seasonal" markdown="0"></div>
 
