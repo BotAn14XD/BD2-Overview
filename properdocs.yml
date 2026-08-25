@@ -62,6 +62,7 @@ nav:
         - 'Taros Tactical Manual': content/ttm.md
         
     - 'Miscellaneous':
+        - 'Fiend Hunter Calculator': misc/fh-calc.md
         - 'Game Slang': misc/slang.md
     - 'Common Questions': FAQ.md
     - 'New Player Guide [WIP]': new.md
@@ -83,14 +84,17 @@ extra_css:
   - stylesheets/slang.css
   - stylesheets/checklists.css
   - stylesheets/print.css
+  - stylesheets/fiend-hunter-bosses.css
   - assets/katex/katex.min.css
 extra_javascript:
   - javascripts/main.js
   - javascripts/rapport.js
   - javascripts/checklist.js
+  - javascripts/fiend-hunter-bosses.js
   - assets/katex/katex.min.js
   - assets/katex/contrib/auto-render.min.js
   - javascripts/katex-config.js
+  - https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js
 plugins:
   - search
   - minify:

@@ -266,8 +266,8 @@ CROPS_DB = {
     },
     "Sticky Melon": {
         "icon": "assets/images/territory/icons/icon_life_item_crop_014.avif",
-        "unlock_level": 80,
-        "seed_cost": 3,
+        "unlock_level": 8,
+        "seed_cost": 80,
         "growth_time": "18 Hours",
         "exp": 36,
         "sell_price": [88, 104, 120],
@@ -275,8 +275,8 @@ CROPS_DB = {
     },
     "Pulse Saffron": {
         "icon": "assets/images/territory/icons/icon_life_item_crop_015.avif",
-        "unlock_level": 100,
-        "seed_cost": 3,
+        "unlock_level": 8,
+        "seed_cost": 100,
         "growth_time": "20 Hours",
         "exp": 40,
         "sell_price": [110, 130, 150],

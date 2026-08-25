@@ -101,8 +101,13 @@ Each **Character** can use only 1 **Costume (Skill)** per turn.
 === "3 — Cartridges & Event Shortcuts (Bottom-Right)"
 
     * **Prestige & Special Skins** — View active cosmetic skins offers (purely visual overhauls with no gameplay stat bonuses).
-    * [**Seasonal Event**](./content/events.md) — Shortcut to the current limited-time event hub (Event Story, Mini-game, Fiend Hunter, and Event Shop).
+    * [**Season Event**](./content/events.md) — Shortcut to the current limited-time event hub (Event Story, Mini-game, Fiend Hunter, and Event Shop).
     * **Pack Selection (Cartridges)** — Switch between Main Story Packs, Character Packs, and Special Content Packs (e.g., [Evil Castle](./content-packs/evil-castle.md), [Mirror Wars](./content-packs/mirror-wars.md)).
+
+    !!! warning "You Need to Know This"
+        **Season Event** button is **scrollable**. Doing so will give you the access to the previous Seasonal Event **Shop**, allowing you to spend the currency.
+        
+        {{ redirect_btn('content/events/#event-shop', 'More about Season Event Shop', '#e5b567') }}
 
 === "4 — Navigation Dock (Bottom)"
 
@@ -130,7 +135,7 @@ Almost all content is divided into **Packs**. To switch the Packs, press the Car
 
 !!! warning "A Common Mistake"
 
-    **Story** tab serves for an **Archive**, not progressing down the Story. You can read stuff from there, but it will not grand any progress.
+    **Story** tab serves for an **Archive**, not progressing down the Story. You can read stuff from there, but it will not grant any progress.
 
     !!! image ""
         ![Not Story tab](assets/images/new-player-guide/no-archive.avif)
@@ -217,7 +222,7 @@ This team is designed to clear battle with a lot of enemies.
 * **Slot 1**{.yellow} — [B-Rank Idol Helena](https://browndust2.miraheze.org/wiki/Helena/B-Rank_Idol) — 5★ Support — from [Recommended ★5 Costume Selective Ticket](https://botan14xd.github.io/BD2-Overview/FAQ/#str).
 * **Slot 2**{.yellow} — [Hand of Salvation Elpis](https://browndust2.miraheze.org/wiki/Elpis/Hand_of_Salvation) — 4★ Support — from any Gacha banner.
 * **Slot 3**{.yellow} — [Kind Student Samay](https://browndust2.miraheze.org/wiki/Samay/Kind_Student) — 4★ Support — from any Gacha banner.
-    * **Substitute**{.yellow} — [Queen of Gluttis Grandair](https://browndust2.miraheze.org/wiki/Granadair/Queen_of_Gluttis) — 5★ Support — from random Pub Recruit.
+    * **Substitute**{.yellow} — [Queen of Gluttis Granadair](https://browndust2.miraheze.org/wiki/Granadair/Queen_of_Gluttis) — 5★ Support — from random Pub Recruit.
     * **Substitute**{.yellow} — [Adventurer of the Unknown Diana](https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown) — 5★ Support — from Story Pack 10 Pub Recruit — **if enemy is Light or Fire**{.yellow}.
 * **Slot 4**{.yellow} — [Dream Bride Eclipse](https://browndust2.miraheze.org/wiki/Eclipse/Dream Bride) — 5★ DPS — from Events Tab.
 * **Slot 5**{.yellow} — [Summer Vacation Dalvi](https://browndust2.miraheze.org/wiki/Dalvi/Summer_Vacation) — 5★ DPS — from Events Tab.
