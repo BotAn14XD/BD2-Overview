@@ -1,7 +1,7 @@
 ---
 description: A utility tool that displays Brown Dust II Fiend Hunter data and threshold damage required to clear a specific level.
 comments: true
-image: assets/images/site-assets/fh-banner.png
+image: assets/images/site-assets/fh-calc-banner.png
 hero: assets/images/site-assets/index-pc-nav-29.avif
 icon: material/calculator-variant
 
