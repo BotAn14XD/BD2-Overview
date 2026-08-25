@@ -52,9 +52,7 @@ Effects from all Bursts **stack**, meaning **if you activate Burst 3, you will h
 
 For each Costume, the **SP Cost** and **Effects** are different. 
 
-* **To see the Costs and Effects for all costumes, check [this sheet](https://docs.google.com/spreadsheets/d/14S1ry3hblNeOZgmkk3VLdjNv8LERnrdzQ26V-ecc5Yk/edit?gid=449956328#gid=449956328)**.
-
-
+* **To see all the Costumes with Burst, check [the Miraheze Wiki](https://browndust2.miraheze.org/wiki/Costume/Costumes_with_burst)**.
 
 !!! example "{{Spark_of_Rampage}} **Sparks of Rampage**"
     To upgrade the Bursts, you need the currency called {{Spark_of_Rampage}} **Spark of Rampage**. It is obtained from many sources:
@@ -77,14 +75,19 @@ For each Costume, the **SP Cost** and **Effects** are different.
 
 ## Burst in a Battle
 
-If you upgraded your Burst, you can use that in your battle. 
+If you upgraded your Burst, you can use that in your battle.
 
-When you choose the skill with upgraded Burst, you can press the little arrow to choose the Burst Tier, after which an animation and screen distortion will be visible for a brief period of time, indicating Burst has been activated. 
+When you choose the skill with upgraded Burst, you can press the little arrow to choose the Burst Tier, after which an animation and screen distortion will be visible for a brief period of time, indicating Burst has been activated.
 
 ??? image "Image Guide"
     ![Burst Switch](../assets/images/burst/switch_burst.avif)
-    
-Aside from the animation, the Skill Card will now have a light blue border and extra SP shown in orange, and burst effects will be highlighted.
+
+<!-- Additionally, active Burst will be displayed in their own Cards.
+
+??? image "Image Guide"
+    ![Burst Demonstration v2](../assets/images/burst/PLACEHOLDER) -->
+
+Aside from the animation <!--things mentioned above-->, the Skill Card will now have a light blue border and extra SP shown in orange, and burst effects will be highlighted.
 
 ??? image "Image Demonstration" 
     ![Burst Demonstration](../assets/images/burst/burst_display.avif)
@@ -126,8 +129,9 @@ Since {{Spark_of_Rampage}} **Sparks of Rampage** is a limited resource, it is im
 !!! example "General Advice"
     * This system is **very expensive** for a new player. It is better not to heavily invest in it since it is a gold sink.
     * Despite it being a gold sink, you **really should** accumulate Sparks even if you do not plan on spending them. The scarcity of the resource sets high pressure for a player, and missing Sparks is a bad move. 
-        * That doesn't really apply to {{Powder_of_Hope}} **Powder of Hope** / {{Golden_Thread}} **Golden Thread** shops, because while you can afford to start buying Sparks from the latter, Powder Shop non-costume purchases are still for whales.
-    * The whole Burst System is more designed for **Fiend Hunter** / **Guild Raid** than it is for the story, meaning competition-wise, [DPS](../misc/slang.md?term=DPS) **can be** more beneficial to upgrade. However, that extremely narrows down the amount of content you would benefit from since it will come down to "good" seasons very quickly.<br><br>The less "dangerous route" is going for generic core supports for both types of damage, before investing into "generally good" DPS that can shine even outside of the corresponding seasons.<br><br>Aside from that, each costume has different Burst Effects which makes the whole priority a bit more subjective and situational.<br><br><u>**Author of this Compendium thinks that going the less dangerous route is overall better for securing most of the content.**</u>
+        * That doesn't really apply to {{Powder_of_Hope}} **Powder of Hope** / {{Golden_Thread}} **Golden Thread** shops, because while you can afford to start buying Sparks from the latter, non-costume purchases in the {{Powder_of_Hope}} **Powder of Hope** shop remain mostly end-game territory.
+    * The whole Burst System is more designed for **Fiend Hunter** / **Guild Raid** than it is for the story. Since the introduction of the Burst system, meta trends show that, similar to [Potential Liberation](./potentials.md), Supports have higher priority over [DPS](../misc/slang.md?term=DPS). That does **not** mean that DPS should be ignored completely, since there are some good effects from it, but you should be wise when investing in property-specific or situational units like DPS.
+    * Each costume has different Burst Effects which makes the whole priority a bit more subjective and situational, so you **do not have to follow the list 1 to 1** and should invest based on your own progress instead.
 
 !!! warning "DISCLAIMER"
     **Anything below represents the author's personal opinion. You may see different opinions compared to this one on different sources. See General Advice admonition to understand the reasoning behind the priority offered.**
@@ -195,3 +199,75 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Pool Party Scheherazade** **Bursts 1-2**{.yellow}
     * **The Lapis Witch Scheherazade** **Bursts 1-3**{.yellow}
 
+<!-- NEW LIST 
+=== "Highest Priority"
+    * **Adventurer of the Unknown Diana** **Bursts 1-3**{.yellow}
+    * **B-Rank Idol Helena** **Bursts 1-3**{.yellow}
+    * **Homunculus Lathel** **Burst 1**{.yellow}
+    * **Onsen Manager Liberta** **Bursts 1-3**{.yellow}
+
+=== "High Priority"
+    * **Heavenly Guardian Successor Glacia** **Bursts 1-3**{.yellow}
+    * **Sunny Inn Hand Helena** **Bursts 1-2**{.yellow}
+    * **Homunculus Lathel** **Burst 2-3**{.yellow}
+    * **Miracle Marine Mamonir** **Bursts 1-3**{.yellow}
+
+=== "Medium Priority"
+    * **Fire Graffiti Anastasia** **Burst 3**{.yellow}
+    * **The Fallen Angelica** **Burst 1**{.yellow}
+    * **Young Lady Blade** **Burst 1**{.yellow}
+    * **Prophetic Dream Darian** **Burst 1**{.yellow}
+    * **Beach Vacation Eclipse** **Bursts 1**{.yellow}
+    * **Code Name O Elise** **Burst 1**{.yellow}
+    * **Naive Lady Elise** **Burst 3**{.yellow}
+    * **Sunny Inn Hand Helena** **Burst 3**{.yellow}
+    * **Night of Jealousy Levia** **Burst 1**{.yellow}
+    * **Ocean Vanguard Luvencia** **Bursts 1**{.yellow}
+    * **Beachside Justice Michaela** **Bursts 1**{.yellow}
+    * **New Hire Nebris** **Bursts 1-2**{.yellow}
+    * **Deadeye Nekyndalia** **Bursts 1-2**{.yellow}
+    * **Thorn of the Desert Rubia** **Bursts 1,3**{.yellow}
+    * **Reclaimed Destiny Sacred Justia** **Burst 1**{.yellow}
+    * **Magical Violet Palette** **Burst 1**{.yellow}
+    * **Pool Party Scheherazade** **Bursts 1,3**{.yellow}
+    * **Bikini Agent Sylvia** **Bursts 1,3**{.yellow}
+    * **Starlight Guardian Tyr** **Bursts 1-2**{.yellow}
+    * **DJ Venaka** **Burst 1**{.yellow}
+    * **Frozen Queen Wilhelmina** **Burst 1**{.yellow}
+    * **Comeback Idol Yuri** **Bursts 1,3**{.yellow}
+
+=== "Low Priority"
+    * **Fire Graffiti Anastasia** **Bursts 1-2**{.yellow}
+    * **The Fallen Angelica** **Bursts 2-3**{.yellow}
+    * **Savage Warrior Aquila** **Bursts 1-3**{.yellow}
+    * **Young Lady Blade** **Bursts 2-3**{.yellow}
+    * **Tricky Lover Dalvi** **Bursts 1-3**{.yellow}
+    * **Prophetic Dream Darian** **Bursts 2-3**{.yellow}
+    * **Beach Vacation Eclipse** **Bursts 2-3**{.yellow}
+    * **Code Name O Elise** **Bursts 2-3**{.yellow}
+    * **Naive Lady Elise** **Bursts 1,2**{.yellow}
+    * **Night of Jealousy Levia** **Bursts 2-3**{.yellow}
+    * **Ocean Vanguard Luvencia** **Bursts 2-3**{.yellow}
+    * **Wild Dog Luvencia** **Bursts 1-3**{.yellow}
+    * **Beachside Justice Michaela** **Bursts 2-3**{.yellow}
+    * **New Hire Nebris** **Burst 3**{.yellow}
+    * **Deadeye Nekyndalia** **Burst 3**{.yellow}
+    * **Magical Violet Palette** **Bursts 2-3**{.yellow}
+    * **Steel Engine Rafina** **Burst 3**{.yellow}
+    * **Thorn of the Desert Rubia** **Burst 2**{.yellow}
+    * **Reclaimed Destiny Sacred Justia** **Bursts 2-3**{.yellow}
+    * **Pool Party Scheherazade** **Burst 2**{.yellow}
+    * **The Lapis Witch Scheherazade** **Burst 1**{.yellow}
+    * **Bikini Agent Sylvia** **Burst 2**{.yellow}
+    * **Starlight Guardian Tyr** **Burst 3**{.yellow}
+    * **DJ Venaka** **Bursts 2-3**{.yellow}
+    * **Frozen Queen Wilhelmina** **Bursts 2-3**{.yellow}
+    * **Comeback Idol Yuri** **Burst 2**{.yellow}
+
+=== "Complete Skip"
+    * **Blood Glutton Justia** **Bursts 1-3**{.yellow}
+    * **Pool Party Justia** **Bursts 1-3**{.yellow}
+    * **Steel Engine Rafina** **Bursts 1-2**{.yellow}
+    * **The Lapis Witch Scheherazade** **Bursts 2-3**{.yellow}
+
+-->

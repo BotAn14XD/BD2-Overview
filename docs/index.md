@@ -179,6 +179,12 @@ This site is a work in progress, focusing on high-quality explanations for every
 
     [View Page →](./misc/slang.md){: .md-button }
 
+-   ![Fiend Hunter Calculator](assets/images/site-assets/index-pc-nav-29.avif){: .card-header-img }
+
+    ---
+
+    [View Page →](./misc/fh-calc.md){: .md-button }
+
 </div>
 ---
 <div class="banner-container">

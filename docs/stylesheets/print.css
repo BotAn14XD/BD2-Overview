@@ -4,51 +4,104 @@
    ONLY apply when the reader prints or "Save as PDF" - zero effect on screen.
    Goal: a clean, ink-friendly, fully-expanded reference page.
    ========================================================================= */
+@page {
+    margin: 0;
+    size: auto;
+}
+
 @media print {
 
-    /* --- hide site chrome + screen-only / interactive bits --- */
+    /* Force background colors and exact graphics rendering */
+    *, *::before, *::after {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    /* --- Hide navigation, headers, and UI widgets --- */
     .md-header, .md-tabs, .md-sidebar, .md-footer, .md-banner,
     .survey-announce-bar, .md-content__button, .md-top,
     .share-link-wrapper, .redirect-btn-wrap,
-    .gear-tooltip-box, #custom-survey {
+    .gear-tooltip-box, #custom-survey,
+    .search, .quick-boss-shortcut, .toolbar, .actions {
         display: none !important;
     }
 
-    /* --- use the full page width --- */
-    .md-grid { max-width: none !important; }
-    .md-main__inner { margin-top: 0 !important; }
-    .md-content { margin: 0 !important; }
-
-    /* --- ink-friendly: force the dark theme to black-on-white --- */
-    [data-md-color-scheme] {
-        --md-default-bg-color: #ffffff;
-        --md-default-fg-color: #000000;
-        --md-typeset-color: #000000;
-    }
-    body, .md-typeset { background: #ffffff !important; color: #000000 !important; }
-    .md-typeset a { color: #000000 !important; text-decoration: underline; }
-
-    /* Utility colours that vanish on white (white text, pale gold/magenta) or
-       render as transparent gradient fills - force them to readable ink. */
-    .md-typeset .white { color: #000000 !important; }
-    .md-typeset .yellow { color: #7a5c00 !important; }
-    .md-typeset .magenta { color: #8a008a !important; }
-    .md-typeset .rainbow-text, .md-typeset .rainbow-text *,
-    .md-typeset .price-premium {
-        background: none !important;
-        -webkit-text-fill-color: #000000 !important;
-        color: #000000 !important;
+    /* =====================================================================
+       DARK / SLATE THEME (Matches body[data-md-color-scheme="slate"])
+       ===================================================================== */
+    body[data-md-color-scheme="slate"],
+    [data-md-color-scheme="slate"] {
+        background-color: #161616 !important;
+        --md-default-bg-color: #161616 !important;
+        --md-default-fg-color: #f5f7fa !important;
+        --md-typeset-color: #f5f7fa !important;
     }
 
-    /* --- reveal collapsed ??? admonitions/details so nothing hides on paper --- */
-    .md-typeset details:not([open]) > *:not(summary) { display: block !important; }
+    body[data-md-color-scheme="slate"] {
+        padding: 16mm 14mm !important;
+        box-sizing: border-box !important;
+    }
 
-    /* --- keep blocks from splitting across page breaks where possible --- */
-    .md-typeset table, .md-typeset .admonition, .md-typeset details,
-    .md-typeset figure, .territory-grid-tile, .gallery figure {
+    body[data-md-color-scheme="slate"] .md-typeset {
+        color: #f5f7fa !important;
+    }
+
+    body[data-md-color-scheme="slate"] .md-typeset p,
+    body[data-md-color-scheme="slate"] .md-typeset li,
+    body[data-md-color-scheme="slate"] .md-typeset span {
+        color: #e5e7eb !important;
+    }
+
+    body[data-md-color-scheme="slate"] .md-typeset a {
+        color: #7db4ff !important;
+        text-decoration: underline;
+    }
+
+    /* Cards, Admonitions & Containers */
+    body[data-md-color-scheme="slate"] .fh-calc .card,
+    body[data-md-color-scheme="slate"] .md-typeset .admonition,
+    body[data-md-color-scheme="slate"] .md-typeset details {
+        background-color: #1e2124 !important;
+        border-color: #2a2d32 !important;
+        color: #f5f7fa !important;
+    }
+
+    body[data-md-color-scheme="slate"] .fh-calc .card-head,
+    body[data-md-color-scheme="slate"] .md-typeset .admonition-title,
+    body[data-md-color-scheme="slate"] .md-typeset summary {
+        background-color: #24292e !important;
+        color: var(--bd-gold, #ffe8aa) !important;
+    }
+
+    /* =====================================================================
+       LIGHT THEME (Fallback / when light mode is explicitly selected)
+       ===================================================================== */
+    body[data-md-color-scheme="default"] {
+        background-color: #ffffff !important;
+        padding: 16mm 14mm !important;
+    }
+
+    /* --- General Structural Resets --- */
+    .md-container,
+    .md-main,
+    .md-main__inner,
+    .md-grid,
+    .md-content {
+        max-width: 100% !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: transparent !important;
+        overflow: visible !important;
+    }
+
+    .md-typeset table,
+    .md-typeset figure,
+    .territory-grid-tile {
         break-inside: avoid;
     }
 
-    /* --- images shouldn't overflow the page --- */
-    .md-typeset img { max-width: 100% !important; }
+    .md-typeset details:not([open]) > *:not(summary) {
+        display: block !important;
+    }
 }

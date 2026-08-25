@@ -39,22 +39,23 @@
     --bd-btn-hover-border: #4f5d75;
     --bd-accent-blue:  #AFDBF5;  /* slang headings / tags */
 
-    --bd-emphasis: var(--md-default-fg-color);                                   /* was hard white */
-    --bd-muted:    color-mix(in srgb, var(--md-default-fg-color) 58%, transparent);
-    /* --bd-muted's 58% mix reads fine in light mode but is too dim in dark
-       mode (light-on-dark needs more headroom than dark-on-light for the
-       same felt legibility) — same gap .tooltip-line.gray already hit
-       below. Falls back to --bd-muted here; the slate scheme block near
-       the bottom overrides it with the exact value already proven to work
-       for .tooltip-line.gray, so any secondary/muted text can opt into
-       this instead of quietly staying too dim in dark mode. */
+    /* --bd-emphasis used to chain through var(--md-default-fg-color) on the
+       assumption that Material's own fg variable tracks the active scheme
+       here. It doesn't (see the --md-primary-fg-color override two lines up
+       for proof this fork already overrides Material vars directly, and the
+       --bd-muted-strong slate fix further down where we already hit and
+       fixed this exact issue once). --bd-emphasis/--bd-muted now get real
+       per-scheme values the same way every other token in this block does,
+       so nothing consuming them needs a local workaround. */
+    --bd-emphasis: var(--bd-white, #f5f7fa);
+    --bd-muted:    color-mix(in srgb, var(--bd-emphasis) 58%, transparent);
     --bd-muted-strong: var(--bd-muted);
-    --bd-hairline: color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
-    --bd-fill-2:   color-mix(in srgb, var(--md-default-fg-color) 3%,  transparent);
-    --bd-fill-5:   color-mix(in srgb, var(--md-default-fg-color) 6%,  transparent);
-    --bd-fill-8:   color-mix(in srgb, var(--md-default-fg-color) 8%,  transparent);
-    --bd-fill-10:  color-mix(in srgb, var(--md-default-fg-color) 10%, transparent);
-    --bd-fill-15:  color-mix(in srgb, var(--md-default-fg-color) 15%, transparent);
+    --bd-hairline: color-mix(in srgb, var(--bd-emphasis) 12%, transparent);
+    --bd-fill-2:   color-mix(in srgb, var(--bd-emphasis) 3%,  transparent);
+    --bd-fill-5:   color-mix(in srgb, var(--bd-emphasis) 6%,  transparent);
+    --bd-fill-8:   color-mix(in srgb, var(--bd-emphasis) 8%,  transparent);
+    --bd-fill-10:  color-mix(in srgb, var(--bd-emphasis) 10%, transparent);
+    --bd-fill-15:  color-mix(in srgb, var(--bd-emphasis) 15%, transparent);
 }
 
 /* LIGHT scheme: explicit values for the opaque/branded tokens only. */
@@ -79,10 +80,28 @@
     --bd-button:  #8a5e00;
     --bd-survey-accent: #b07d00;
     --bd-accent-blue: #24688f;
+
+    --bd-emphasis:     #1a1f2c;
+    --bd-muted:        #5f6b7c;
+    --bd-muted-strong: #475467;
+    --bd-hairline:     rgba(26, 31, 44, 0.12);
+    --bd-fill-2:       rgba(26, 31, 44, 0.03);
+    --bd-fill-5:       rgba(26, 31, 44, 0.05);
+    --bd-fill-8:       rgba(26, 31, 44, 0.08);
+    --bd-fill-10:      rgba(26, 31, 44, 0.10);
+    --bd-fill-15:      rgba(26, 31, 44, 0.15);
 }
 
 .md-content {
-    overflow-x: hidden;
+    /* overflow-x: hidden previously paired-forced overflow-y to compute as
+       'auto' (per the CSS overflow spec, a non-'visible' overflow-x forces
+       the other axis off 'visible' too), turning .md-content into a
+       clipping box sized to its in-flow content only. Anything
+       position:absolute that extends past that — e.g. the boss-search
+       dropdown before the (in-flow) results table exists — got visually
+       cropped at that boundary. overflow-x: clip keeps the "no horizontal
+       scrollbar" behavior without triggering that axis-pairing rule. */
+    overflow-x: clip;
 }
 
 html {
@@ -1104,7 +1123,8 @@ h1:has(> a.headerlink:only-child) {
     border-color: #4b5563;
 }
 
-[data-md-color-scheme="slate"] .gear-name.neutral, .white {
+[data-md-color-scheme="slate"] .gear-name.neutral,
+[data-md-color-scheme="slate"] .white {
     color: #ffffff;
 }
 

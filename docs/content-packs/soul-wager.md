@@ -31,7 +31,7 @@ The Soul Wager is **seasonal** content, with each season lasting **8** weeks. Du
 
 To do that, you must purchase **Tiles**, **Units** and **Gear** from the **Soul Wager in-battle Shop**, place them on the **Main Field**, and start the **automated** battle.
 
-For any Victory or Defeat, you receive {{ Soul_Token }} **Soul Tokens** to continue your run (10 {{ Soul_Token }} for a loss and 14 {{ Soul_Token }} for a victory).
+For any Victory or Defeat, you receive {{ Soul_Token }} **Soul Tokens** to continue your run (10 {{ Soul_Token }} for a loss and 14<!--16--> {{ Soul_Token }} for a victory).
 
 If you are defeated, the Battle Shop refreshes and the reroll counter resets, giving you a clean slate of options to try on your next attempt. However, if you lose all 5 of your {{ Life_Count }} Attempts (Defeats), the current Board completely resets, sending you back to Phase 1.
 
@@ -607,7 +607,7 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
     ??? image "Reroll Button"
         ![Reroll Button](../assets/images/soul-wager/reroll.avif)
 
-    Rerolling costs 1 {{ Soul_Token }} **Soul Token** and increases by 1 after every 4 rolls within the same **Formation Phase**. Therefore, it is not recommended to reroll more than 4-5 times per Phase.
+    Rerolling costs 1 {{ Soul_Token }} **Soul Token** and increases by 1 after every 4 <!--5--> rolls within the same **Formation Phase**. Therefore, it is not recommended to reroll more than 4-5<!--5-6--> times per Phase.
 
 !!! example "Selling"
     You can sell existing Board Pieces to obtain some {{ Soul_Token }} **Soul Tokens** back. To do that, either select a board piece and click **Sell**, or directly **drag** the piece to the Sell button.
@@ -799,7 +799,9 @@ To access the shop, either visit the **Shop** tab or use the shortcut inside the
 
 As mentioned earlier, this Shop uses {{Alea_Chip}} **Alea Chips** as currency.
 
-You get enough {{Alea_Chip}} **Alea Chips** to buy everything from the shop if you clear all the Boards, although it is debatable whether {{S5_R_Contract}} Scrolls are worth purchasing for veteran players.
+You get enough {{Alea_Chip}} **Alea Chips** to buy everything from the shop if you clear all the Boards.
+
+Since excessive {{Alea_Chip}} **Alea Chips** are removed at the end of the season, you should purchase everything from the shop, including {{S5_R_Contract}} **Scrolls**, even if you are a veteran player.
 
 ---
 

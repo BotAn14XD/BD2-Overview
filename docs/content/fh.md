@@ -5,6 +5,7 @@ hero: assets/images/site-assets/index-pc-nav-19.avif
 icon: fontawesome/solid/spaghetti-monster-flying
 
 ---
+
 ![Fiend Hunter](../assets/images/site-assets/index-pc-nav-19.avif){: .card-header-img fetchpriority=high loading=eager }
 #
 
@@ -61,22 +62,25 @@ Each Boss has its own predetermined **Base Value**, **Initial Growth** and **Sca
 
 **Initial Growth** is responsible for scaling immediately, starting from Level 2, while **Scale Growth** has a much greater impact at higher difficulties.
 
+Additionally, Bosses have 3 stages, with **State 2** and **Stage 3** potentially carrying multiplier to adjust the parameters.
 !!! example "Stat Formula"
-    $\text{Value} = \text{round}[B \cdot (1+(L-1) \cdot R \cdot 0.01 \cdot L^S)]$
+    $\text{Value} = \text{round}\left[\text{Base} \cdot 1.1 \cdot \left(1 + (\text{Level}-1) \cdot \text{Rate} \cdot 0.01 \cdot \text{Level}^\text{Slope} \cdot \text{Stage Ratio}\right)\right]$
 
-    * $\text{B} \rightarrow \text{Base Value}$
-    * $\text{L} \rightarrow \text{Boss Level}$
-    * $\text{R} \rightarrow \text{Initial Growth Parameter}$
-    * $\text{S} \rightarrow \text{Scale Growth Parameter}$
+    * $\text{Base} \rightarrow \text{Base Value}$
+    * $\text{Level} \rightarrow \text{Boss Level}$
+    * $\text{Rate} \rightarrow \text{Initial Growth Parameter}$
+    * $\text{Slope} \rightarrow \text{Scale Growth Parameter}$
+    * $\text{Stage Ratio} \rightarrow \text{Level Related Multiplier}$
 
 ??? example "Formula Explanations & Limitations"
     * **Rounding** in the formula works as follows:
         * For {{HP}} **HP**, **rounding down to 3 significant figures** is applied. 
-        * For {{ATK}} **ATK**{.yellow} and {{MATK}} **MATK**{.magenta}, **rounding to the nearest integer** is applied instead.
-    * Parameters **B** and **S** never change based on the level. However, that does not apply to **R**, which *can* change at Levels 11 and 14.
+        * For {{ATK}} **ATK**{.yellow} and {{MATK}} **MATK**{.magenta}, **rounding to the nearest integer** is applied instead, with 0.5 being rounded **down**.
+    * Parameters **do not change** with level. However, boss has specific **levels**, after which a new **Stage** is applied. That *can* modify the final stat value, although recently (for at least 11 hunts) it has no impact. 
 
-{{ redirect_btn('https://docs.google.com/spreadsheets/d/1c8SuOk7aAy2ZWZ13SjM-spg9YJ9zcN4g1lTWmpaQhYI/edit?gid=614503852#gid=614503852', 'Stats Data', '#e5b567') }}
-{{ redirect_btn('https://docs.google.com/spreadsheets/d/1c8SuOk7aAy2ZWZ13SjM-spg9YJ9zcN4g1lTWmpaQhYI/edit?gid=1989714867#gid=1989714867', 'Parameters Data', '#e5b567') }}
+{{ redirect_btn('misc/fh-calc/', 'Stats Data', '#e5b567') }}
+{{ redirect_btn('https://github.com/BotAn14XD/BD2-Overview/blob/main/docs/assets/data/fiend-hunter-bosses.json', 'Parameters Data', '#e5b567') }}
+
 
 ### Boss Skills
 

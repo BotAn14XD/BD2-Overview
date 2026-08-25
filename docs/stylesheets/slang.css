@@ -121,7 +121,7 @@
 
 .slang-search-box:focus {
     outline: none;
-    border-color: var(--md-primary-fg-color);
+    border-color: var(--accent)
 }   
 
 .alpha-group:not(:has(.slang-item)) {
