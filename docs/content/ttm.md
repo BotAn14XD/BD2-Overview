@@ -86,7 +86,7 @@ Missions are located at the bottom left corner of the Taros Tactical Manual menu
 
 This game mode is oriented towards new players because it does not require any progression to be completed. It is also a great way for a new player to learn game mechanics.
 
-It is strongly advised to **try your best** in these fights without seeking help.
+It is strongly advised to **try your best**{.yellow} in these fights **without seeking help**{.yellow}.
 
 However, if you struggle in some specific battle or want a quick solution, refer to YouTube videos by [Seji](https://www.youtube.com/playlist?list=PLSWDlsPYyQpjuIB9eTL0hrJSj56fXzDdj) or [Shimonami しもなみ](https://www.youtube.com/@Shimonami).
 

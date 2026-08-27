@@ -147,12 +147,17 @@ function eventDayCount(dateStart, dateEnd) {
 // Elements
 // ---------------------------------------------------------------------------
 async function init() {
+  const calcContainer = document.querySelector('.fh-calc');
+  if (!calcContainer) return;
+
   try {
     await loadBosses();
   } catch (err) {
     console.error(err);
-    document.getElementById('placeholder').textContent =
-      'Could not load boss data. Check that fiend-hunter-bosses.json is next to this page.';
+    const placeholder = document.getElementById('placeholder');
+    if (placeholder) {
+      placeholder.textContent = 'Could not load boss data. Check that fiend-hunter-bosses.json is next to this page.';
+    }
     return;
   }
 
@@ -171,7 +176,7 @@ let selectedBoss = null;
   const latestChip = document.getElementById('latest-boss-chip');
   if (latestChip && SORTED_BOSSES.length > 0) {
     const latestBoss = SORTED_BOSSES[0];
-    latestChip.textContent = `${latestBoss.name} (${latestBoss.property})`;
+    latestChip.textContent = `${latestBoss.name}`;
     latestChip.addEventListener('click', () => {
       selectBoss(latestBoss);
     });
@@ -548,4 +553,10 @@ document.getElementById('save-btn').addEventListener('click', async () => {
 
 }
 
-init();
+if (typeof document$ !== 'undefined') {
+  document$.subscribe(() => {
+    init();
+  });
+} else {
+  document.addEventListener('DOMContentLoaded', init);
+}

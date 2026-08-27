@@ -423,7 +423,7 @@ def define_env(env):
             return f"> **Error:** Battle `{stage_id}` not found in `{pack_key}`."
 
         # Build collapsible block
-        md = [f'??? info "Stage {battle["id"]}: {battle.get("name", "")}"\n']
+        md = [f'??? info "Episode {battle["id"]}: {battle.get("name", "")}"\n']
 
         if battle.get("img_infographic"):
             path = battle["img_infographic"]

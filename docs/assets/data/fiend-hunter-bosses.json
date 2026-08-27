@@ -1,1940 +1,1901 @@
 [
   {
-    "season": 1,
+    "season": "1",
     "name": "Darkness Devourer",
     "property": "Darkness",
-    "id": 9201,
-    "defaultCostumeID": 920100,
+    "id": "9201",
+    "defaultCostumeID": "920100",
     "dateStart": "2023-10-12",
     "dateEnd": "2023-10-18",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 6000,
-      "rate": 400,
-      "slope": 2.6,
+      "base": "6000",
+      "rate": "400",
+      "slope": "2.60",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 80,
-      "rate": 4,
-      "slope": 1.65
+      "base": "80",
+      "rate": "4",
+      "slope": "1.65"
     }
   },
   {
-    "season": 2,
+    "season": "2",
     "name": "Parakyr Rex",
     "property": "Water",
-    "id": 9202,
-    "defaultCostumeID": 920200,
+    "id": "9202",
+    "defaultCostumeID": "920200",
     "dateStart": "2023-11-16",
     "dateEnd": "2023-11-22",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 5800,
-      "rate": 150,
-      "slope": 3,
+      "base": "5800",
+      "rate": "150",
+      "slope": "3.00",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 30,
-      "rate": 2,
-      "slope": 2.1
+      "base": "30",
+      "rate": "2",
+      "slope": "2.1"
     }
   },
   {
-    "season": 3,
+    "season": "3",
     "seasonEvent": "Windy Cat",
     "name": "Fiery Tiger - YuKwang",
     "property": "Fire",
-    "id": 9203,
-    "defaultCostumeID": 920300,
+    "id": "9203",
+    "defaultCostumeID": "920300",
     "dateStart": "2023-12-14",
     "dateEnd": "2023-12-20",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 4000,
-      "rate": 375,
-      "slope": 3.15,
+      "base": "4000",
+      "rate": "375",
+      "slope": "3.15",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 80,
-      "rate": 2,
-      "slope": 1.75
+      "base": "80",
+      "rate": "2",
+      "slope": "1.75"
     }
   },
   {
-    "season": 4,
+    "season": "4",
     "seasonEvent": "Fireworks Memories",
     "name": "E.O.N",
     "property": "Light",
-    "id": 9204,
-    "defaultCostumeID": 920404,
+    "id": "9204",
+    "defaultCostumeID": "920404",
     "dateStart": "2024-01-11",
     "dateEnd": "2024-01-17",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 7500,
-      "rate": 200,
-      "slope": 2.75,
+      "base": "7500",
+      "rate": "200",
+      "slope": "2.75",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 45,
-      "rate": 3,
-      "slope": 1.75
+      "base": "45",
+      "rate": "3",
+      "slope": "1.75"
     }
   },
   {
-    "season": 5,
+    "season": "5",
     "seasonEvent": "Idol Fantasm",
     "name": "Gridlin",
     "property": "Darkness",
-    "id": 9205,
-    "defaultCostumeID": 920500,
+    "id": "9205",
+    "defaultCostumeID": "920500",
     "dateStart": "2024-02-08",
     "dateEnd": "2024-02-14",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 13000,
-      "rate": 120,
-      "slope": 3.2,
+      "base": "13000",
+      "rate": "120",
+      "slope": "3.20",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 100,
-      "rate": 2,
-      "slope": 2
+      "base": "100",
+      "rate": "2",
+      "slope": "2"
     }
   },
   {
-    "season": 6,
+    "season": "6",
     "seasonEvent": "Maid Impossible",
     "name": "Procyon 001",
     "property": "Wind",
-    "id": 9206,
-    "defaultCostumeID": 920604,
+    "id": "9206",
+    "defaultCostumeID": "920604",
     "dateStart": "2024-02-22",
     "dateEnd": "2024-02-28",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 8000,
-      "rate": 400,
-      "slope": 2.85,
+      "base": "8000",
+      "rate": "400",
+      "slope": "2.85",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 35,
-      "rate": 4,
-      "slope": 1.65
+      "base": "35",
+      "rate": "4",
+      "slope": "1.65"
     }
   },
   {
-    "season": 7,
+    "season": "7",
     "seasonEvent": "Android Soul",
     "name": "Parakyr Rex Slayer (Wind)",
     "property": "Wind",
-    "id": 9207,
-    "defaultCostumeID": 920705,
+    "id": "9207",
+    "defaultCostumeID": "920705",
     "dateStart": "2024-03-07",
     "dateEnd": "2024-03-13",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 7800,
-      "rate": 240,
-      "slope": 3,
+      "base": "7800",
+      "rate": "240",
+      "slope": "3.00",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 30,
-      "rate": 2,
-      "slope": 2.1
+      "base": "30",
+      "rate": "2",
+      "slope": "2.1"
     }
   },
   {
-    "season": 8,
+    "season": "8",
     "seasonEvent": "School Crisis",
     "name": "Cherry Blossom Evil Spirit",
     "property": "Fire",
-    "id": 9208,
-    "defaultCostumeID": 920800,
+    "id": "9208",
+    "defaultCostumeID": "920800",
     "dateStart": "2024-03-21",
     "dateEnd": "2024-03-27",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 5000,
-      "rate": 13,
-      "slope": 4.3,
+      "base": "5000",
+      "rate": "13",
+      "slope": "4.30",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 50,
-      "rate": 4.5,
-      "slope": 2
+      "base": "50",
+      "rate": "4.5",
+      "slope": "2"
     }
   },
   {
-    "season": 9,
+    "season": "9",
     "seasonEvent": "Operation M.O.E",
     "name": "Darkness Devourer (Fire)",
     "property": "Fire",
-    "id": 9209,
-    "defaultCostumeID": 920900,
+    "id": "9209",
+    "defaultCostumeID": "920900",
     "dateStart": "2024-04-04",
     "dateEnd": "2024-04-10",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 11000,
-      "rate": 150,
-      "slope": 3.2,
+      "base": "11000",
+      "rate": "150",
+      "slope": "3.20",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 35,
-      "rate": 2,
-      "slope": 2.5
+      "base": "35",
+      "rate": "2",
+      "slope": "2.5"
     }
   },
   {
-    "season": 10,
+    "season": "10",
     "seasonEvent": "Windy Cat",
     "name": "Fiery Tiger - YuKwang (Water)",
     "property": "Water",
-    "id": 9210,
-    "defaultCostumeID": 921000,
+    "id": "9210",
+    "defaultCostumeID": "921000",
     "dateStart": "2024-04-18",
     "dateEnd": "2024-04-24",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 4500,
-      "rate": 100,
-      "slope": 3.2,
+      "base": "4500",
+      "rate": "100",
+      "slope": "3.20",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 50,
-      "rate": 2,
-      "slope": 2
-    },
-    "field25": 100
+      "base": "50",
+      "rate": "2",
+      "slope": "2"
+    }
   },
   {
-    "season": 11,
+    "season": "11",
     "seasonEvent": "Marry Me!",
     "name": "Blue Beard",
     "property": "Darkness",
-    "id": 9211,
-    "defaultCostumeID": 921107,
+    "id": "9211",
+    "defaultCostumeID": "921107",
     "dateStart": "2024-05-02",
     "dateEnd": "2024-05-08",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 10000,
-      "rate": 14,
-      "slope": 4.3,
+      "base": "10000",
+      "rate": "14",
+      "slope": "4.30",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 80,
-      "rate": 1.7,
-      "slope": 2
-    },
-    "field25": 14
+      "base": "80",
+      "rate": "1.7",
+      "slope": "2"
+    }
   },
   {
-    "season": 12,
+    "season": "12",
     "seasonEvent": "Idol Fantasm",
     "name": "Gridlin (Light)",
     "property": "Light",
-    "id": 9212,
-    "defaultCostumeID": 921200,
+    "id": "9212",
+    "defaultCostumeID": "921200",
     "dateStart": "2024-05-16",
     "dateEnd": "2024-05-22",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 12000,
-      "rate": 290,
-      "slope": 3.1,
+      "base": "12000",
+      "rate": "290",
+      "slope": "3.10",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 70,
-      "rate": 3.5,
-      "slope": 1.8
-    },
-    "field25": 290
+      "base": "70",
+      "rate": "3.5",
+      "slope": "1.8"
+    }
   },
   {
-    "season": 13,
+    "season": "13",
     "seasonEvent": "Ultimate Magic",
     "name": "Talos",
     "property": "Fire",
-    "id": 9213,
-    "defaultCostumeID": 921303,
+    "id": "9213",
+    "defaultCostumeID": "921303",
     "dateStart": "2024-05-29",
     "dateEnd": "2024-06-04",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 13000,
-      "rate": 200,
-      "slope": 3.3,
+      "base": "13000",
+      "rate": "200",
+      "slope": "3.30",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 100,
-      "rate": 2.2,
-      "slope": 1.7
-    },
-    "field25": 200
+      "base": "100",
+      "rate": "2.2",
+      "slope": "1.7"
+    }
   },
   {
-    "season": 14,
+    "season": "14",
     "seasonEvent": "Scarlet Sword",
     "name": "Berserker",
     "property": "Wind",
-    "id": 9214,
-    "defaultCostumeID": 921400,
+    "id": "9214",
+    "defaultCostumeID": "921400",
     "dateStart": "2024-06-13",
     "dateEnd": "2024-06-19",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 1000,
-      "rate": 1.2,
-      "slope": 6.5,
+      "base": "1000",
+      "rate": "1.2",
+      "slope": "6.50",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 100,
-      "rate": 3,
-      "slope": 2
-    },
-    "field25": 1.2
+      "base": "100",
+      "rate": "3",
+      "slope": "2"
+    }
   },
   {
-    "season": 15,
+    "season": "15",
     "seasonEvent": "Post: Summer Knight",
     "name": "Octovious I",
     "property": "Water",
-    "id": 9215,
-    "defaultCostumeID": 921500,
+    "id": "9215",
+    "defaultCostumeID": "921500",
     "dateStart": "2024-06-27",
     "dateEnd": "2024-07-03",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 4000,
-      "rate": 3,
-      "slope": 5.75,
+      "base": "4000",
+      "rate": "3",
+      "slope": "5.75",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 100,
-      "rate": 13,
-      "slope": 1
-    },
-    "field25": 3
+      "base": "100",
+      "rate": "13",
+      "slope": "1"
+    }
   },
   {
-    "season": 16,
+    "season": "16",
     "seasonEvent": "Maid Impossible",
     "name": "Procyon 001 (Dark)",
     "property": "Darkness",
-    "id": 9216,
-    "defaultCostumeID": 921602,
+    "id": "9216",
+    "defaultCostumeID": "921602",
     "dateStart": "2024-07-11",
     "dateEnd": "2024-07-17",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 8000,
-      "rate": 300,
-      "slope": 3.45,
+      "base": "8000",
+      "rate": "300",
+      "slope": "3.45",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 50,
-      "rate": 4,
-      "slope": 1.65
-    },
-    "field25": 300
+      "base": "50",
+      "rate": "4",
+      "slope": "1.65"
+    }
   },
   {
-    "season": 17,
+    "season": "17",
     "seasonEvent": "Diet Rush",
     "name": "Giant Rou",
     "property": "Wind",
-    "id": 9217,
-    "defaultCostumeID": 921700,
+    "id": "9217",
+    "defaultCostumeID": "921700",
     "dateStart": "2024-07-25",
     "dateEnd": "2024-07-31",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 10000,
-      "rate": 400,
-      "slope": 3.2,
+      "base": "10000",
+      "rate": "400",
+      "slope": "3.20",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 150,
-      "rate": 2,
-      "slope": 1.5
-    },
-    "field25": 400
+      "base": "150",
+      "rate": "2",
+      "slope": "1.5"
+    }
   },
   {
-    "season": 18,
+    "season": "18",
     "seasonEvent": "School Crisis",
     "name": "Cherry Blossom Evil Spirit (Light)",
     "property": "Light",
-    "id": 9218,
-    "defaultCostumeID": 921800,
+    "id": "9218",
+    "defaultCostumeID": "921800",
     "dateStart": "2024-08-07",
     "dateEnd": "2024-08-13",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 5000,
-      "rate": 0.2,
-      "slope": 6.52,
+      "base": "5000",
+      "rate": "0.2",
+      "slope": "6.52",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 50,
-      "rate": 4.5,
-      "slope": 2
-    },
-    "field25": 0.2
+      "base": "50",
+      "rate": "4.5",
+      "slope": "2"
+    }
   },
   {
-    "season": 19,
+    "season": "19",
     "seasonEvent": "Click! Click! Summer",
     "name": "Crab Mother",
     "property": "Fire",
-    "id": 9219,
-    "defaultCostumeID": 921901,
+    "id": "9219",
+    "defaultCostumeID": "921901",
     "dateStart": "2024-08-22",
     "dateEnd": "2024-08-28",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 8000,
-      "rate": 400,
-      "slope": 3.2,
+      "base": "8000",
+      "rate": "400",
+      "slope": "3.20",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 100,
-      "rate": 2,
-      "slope": 2
-    },
-    "field25": 400
+      "base": "100",
+      "rate": "2",
+      "slope": "2"
+    }
   },
   {
-    "season": 20,
+    "season": "20",
     "seasonEvent": "Android Soul",
     "name": "Parakyr Rex (Dark)",
     "property": "Darkness",
-    "id": 9220,
-    "defaultCostumeID": 922000,
+    "id": "9220",
+    "defaultCostumeID": "922000",
     "dateStart": "2024-09-05",
     "dateEnd": "2024-09-11",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 12000,
-      "rate": 5.1,
-      "slope": 5.1,
+      "base": "12000",
+      "rate": "5.1",
+      "slope": "5.10",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 80,
-      "rate": 2,
-      "slope": 2.1
-    },
-    "field25": 5.1
+      "base": "80",
+      "rate": "2",
+      "slope": "2.1"
+    }
   },
   {
-    "season": 21,
+    "season": "21",
     "seasonEvent": "Windy Cat",
     "name": "Fiery Tiger - YuKwang (Wind)",
     "property": "Wind",
-    "id": 9221,
-    "defaultCostumeID": 922100,
+    "id": "9221",
+    "defaultCostumeID": "922100",
     "dateStart": "2024-09-19",
     "dateEnd": "2024-09-25",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 8000,
-      "rate": 330,
-      "slope": 4.1,
+      "base": "8000",
+      "rate": "330",
+      "slope": "4.10",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 50,
-      "rate": 2,
-      "slope": 2
-    },
-    "field25": 330
+      "base": "50",
+      "rate": "2",
+      "slope": "2"
+    }
   },
   {
-    "season": 22,
+    "season": "22",
     "seasonEvent": "Berserker of Night",
     "name": "Berserker",
     "property": "Wind",
-    "id": 9214,
-    "defaultCostumeID": 921400,
+    "id": "9214",
+    "defaultCostumeID": "921400",
     "dateStart": "2024-09-26",
     "dateEnd": "2024-10-02",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 1000,
-      "rate": 1.2,
-      "slope": 6.5,
+      "base": "1000",
+      "rate": "1.2",
+      "slope": "6.50",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 100,
-      "rate": 3,
-      "slope": 2
+      "base": "100",
+      "rate": "3",
+      "slope": "2"
     },
-    "isBreakSeason": true,
-    "field25": 1.2
+    "isBreakSeason": "TRUE"
   },
   {
-    "season": 23,
+    "season": "23",
     "seasonEvent": "Shinobi Road",
     "name": "True Orochi (Water)",
     "property": "Water",
-    "id": 9223,
-    "defaultCostumeID": 922300,
+    "id": "9223",
+    "defaultCostumeID": "922300",
     "dateStart": "2024-10-10",
     "dateEnd": "2024-10-16",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 10000,
-      "rate": 50,
-      "slope": 4.07,
+      "base": "10000",
+      "rate": "50",
+      "slope": "4.07",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 30,
-      "rate": 2,
-      "slope": 2
-    },
-    "field25": 50
+      "base": "30",
+      "rate": "2",
+      "slope": "2"
+    }
   },
   {
-    "season": 24,
+    "season": "24",
     "seasonEvent": "Akatsuki",
     "name": "True Orochi (Fire)",
     "property": "Fire",
-    "id": 9224,
-    "defaultCostumeID": 922400,
+    "id": "9224",
+    "defaultCostumeID": "922400",
     "dateStart": "2024-10-24",
     "dateEnd": "2024-10-30",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 9000,
-      "rate": 430,
-      "slope": 3.2,
+      "base": "9000",
+      "rate": "430",
+      "slope": "3.20",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 90,
-      "rate": 1.5,
-      "slope": 2
-    },
-    "field25": 430
+      "base": "90",
+      "rate": "1.5",
+      "slope": "2"
+    }
   },
   {
-    "season": 25,
+    "season": "25",
     "seasonEvent": "Carta War Z",
     "name": "Abomination",
     "property": "Light",
-    "id": 9225,
-    "defaultCostumeID": 922500,
+    "id": "9225",
+    "defaultCostumeID": "922500",
     "dateStart": "2024-11-07",
     "dateEnd": "2024-11-13",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 12000,
-      "rate": 470,
-      "slope": 3.2,
+      "base": "12000",
+      "rate": "470",
+      "slope": "3.20",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 70,
-      "rate": 2.6,
-      "slope": 1.8
-    },
-    "field25": 470
+      "base": "70",
+      "rate": "2.6",
+      "slope": "1.8"
+    }
   },
   {
-    "season": 26,
+    "season": "26",
     "seasonEvent": "Click! Click! Summer",
     "name": "Crab Mother",
     "property": "Fire",
-    "id": 9219,
-    "defaultCostumeID": 921901,
+    "id": "9219",
+    "defaultCostumeID": "921901",
     "dateStart": "2024-11-14",
     "dateEnd": "2024-11-20",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 8000,
-      "rate": 400,
-      "slope": 3.2,
+      "base": "8000",
+      "rate": "400",
+      "slope": "3.20",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 100,
-      "rate": 2,
-      "slope": 2
+      "base": "100",
+      "rate": "2",
+      "slope": "2"
     },
-    "isBreakSeason": true,
-    "field25": 400
+    "isBreakSeason": "TRUE"
   },
   {
-    "season": 27,
+    "season": "27",
     "seasonEvent": "Marry Me!",
     "name": "Blue Beard",
     "property": "Darkness",
-    "id": 9226,
-    "defaultCostumeID": 921107,
+    "id": "9226",
+    "defaultCostumeID": "921107",
     "dateStart": "2024-11-28",
     "dateEnd": "2024-12-04",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 14000,
-      "rate": 580,
-      "slope": 3,
+      "base": "14000",
+      "rate": "580",
+      "slope": "3.00",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 80,
-      "rate": 1.7,
-      "slope": 2
-    },
-    "field25": 580
+      "base": "80",
+      "rate": "1.7",
+      "slope": "2"
+    }
   },
   {
-    "season": 28,
+    "season": "28",
     "seasonEvent": "Fireworks Memories",
     "name": "E.O.N (Water)",
     "property": "Water",
-    "id": 9227,
-    "defaultCostumeID": 922704,
+    "id": "9227",
+    "defaultCostumeID": "922704",
     "dateStart": "2024-12-10",
     "dateEnd": "2024-12-16",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 7500,
-      "rate": 2.8,
-      "slope": 5.7,
+      "base": "7500",
+      "rate": "2.8",
+      "slope": "5.70",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 45,
-      "rate": 2.6,
-      "slope": 1.8
-    },
-    "field25": 2.8
+      "base": "45",
+      "rate": "2.6",
+      "slope": "1.8"
+    }
   },
   {
-    "season": 29,
+    "season": "29",
     "seasonEvent": "Goodbye Freedom",
     "name": "Talos (Wind)",
     "property": "Wind",
-    "id": 9228,
-    "defaultCostumeID": 922803,
+    "id": "9228",
+    "defaultCostumeID": "922803",
     "dateStart": "2024-12-26",
     "dateEnd": "2025-01-01",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 8000,
-      "rate": 11,
-      "slope": 5,
+      "base": "8000",
+      "rate": "11",
+      "slope": "5.00",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 50,
-      "rate": 2,
-      "slope": 1.5
-    },
-    "field25": 11
+      "base": "50",
+      "rate": "2",
+      "slope": "1.5"
+    }
   },
   {
-    "season": 30,
+    "season": "30",
     "seasonEvent": "Goodbye Freedom - Overheat",
     "name": "CYBORG TYPE-B01",
     "property": "Light",
-    "id": 9229,
-    "defaultCostumeID": 922900,
+    "id": "9229",
+    "defaultCostumeID": "922900",
     "dateStart": "2025-01-09",
     "dateEnd": "2025-01-15",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 13000,
-      "rate": 380,
-      "slope": 3.27,
+      "base": "13000",
+      "rate": "380",
+      "slope": "3.27",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 100,
-      "rate": 2,
-      "slope": 1.5
-    },
-    "field25": 380
+      "base": "100",
+      "rate": "2",
+      "slope": "1.5"
+    }
   },
   {
-    "season": 31,
+    "season": "31",
     "seasonEvent": "Onsen Training - Legendary Graduate",
     "name": "Giant Rou (Dark)",
     "property": "Darkness",
-    "id": 9230,
-    "defaultCostumeID": 923000,
+    "id": "9230",
+    "defaultCostumeID": "923000",
     "dateStart": "2025-01-23",
     "dateEnd": "2025-01-30",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 10000,
-      "rate": 360,
-      "slope": 3.6,
+      "base": "10000",
+      "rate": "360",
+      "slope": "3.60",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 150,
-      "rate": 2,
-      "slope": 1.5
-    },
-    "field25": 360
+      "base": "150",
+      "rate": "2",
+      "slope": "1.5"
+    }
   },
   {
-    "season": 32,
+    "season": "32",
     "seasonEvent": "Onsen Training - Beyond Legend",
     "name": "Snowy Mountain Tyrant",
     "property": "Fire",
-    "id": 9231,
-    "defaultCostumeID": 923100,
+    "id": "9231",
+    "defaultCostumeID": "923100",
     "dateStart": "2025-02-06",
     "dateEnd": "2025-02-12",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 8000,
-      "rate": 60,
-      "slope": 4.7,
+      "base": "8000",
+      "rate": "60",
+      "slope": "4.70",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 100,
-      "rate": 2.7,
-      "slope": 1.7
-    },
-    "field25": 60
+      "base": "100",
+      "rate": "2.7",
+      "slope": "1.7"
+    }
   },
   {
-    "season": 33,
+    "season": "33",
     "seasonEvent": "Crimson Destiny - Veil of Twilight",
     "name": "Darkness Devourer (Water)",
     "property": "Water",
-    "id": 9232,
-    "defaultCostumeID": 923200,
+    "id": "9232",
+    "defaultCostumeID": "923200",
     "dateStart": "2025-02-20",
     "dateEnd": "2025-02-26",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 11000,
-      "rate": 400,
-      "slope": 3.43,
+      "base": "11000",
+      "rate": "400",
+      "slope": "3.43",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 50,
-      "rate": 2,
-      "slope": 2
-    },
-    "field25": 400
+      "base": "50",
+      "rate": "2",
+      "slope": "2"
+    }
   },
   {
-    "season": 34,
+    "season": "34",
     "seasonEvent": "Crimson Destiny - The Awakening",
     "name": "Basilisk",
     "property": "Light",
-    "id": 9233,
-    "defaultCostumeID": 923300,
+    "id": "9233",
+    "defaultCostumeID": "923300",
     "dateStart": "2025-03-06",
     "dateEnd": "2025-03-12",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 10000,
-      "rate": 300,
-      "slope": 4,
+      "base": "10000",
+      "rate": "300",
+      "slope": "4.00",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 42,
-      "rate": 1,
-      "slope": 2.5
-    },
-    "field25": 300
+      "base": "42",
+      "rate": "1",
+      "slope": "2.5"
+    }
   },
   {
-    "season": 35,
+    "season": "35",
     "seasonEvent": "DELIGHT - Sin to Ashes",
     "name": "Cherry Blossom Evil Spirit (Wind)",
     "property": "Wind",
-    "id": 9234,
-    "defaultCostumeID": 923400,
+    "id": "9234",
+    "defaultCostumeID": "923400",
     "dateStart": "2025-03-20",
     "dateEnd": "2025-03-26",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 13000,
-      "rate": 390,
-      "slope": 3.3,
+      "base": "13000",
+      "rate": "390",
+      "slope": "3.30",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 100,
-      "rate": 4,
-      "slope": 2
-    },
-    "field25": 390
+      "base": "100",
+      "rate": "4",
+      "slope": "2"
+    }
   },
   {
-    "season": 36,
+    "season": "36",
     "seasonEvent": "DELIGHT - Complex",
     "name": "The Conspired",
     "property": "Darkness",
-    "id": 9235,
-    "defaultCostumeID": 923500,
+    "id": "9235",
+    "defaultCostumeID": "923500",
     "dateStart": "2025-04-03",
     "dateEnd": "2025-04-09",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 10000,
-      "rate": 1500,
-      "slope": 2.6,
+      "base": "10000",
+      "rate": "1500",
+      "slope": "2.60",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 100,
-      "rate": 24,
-      "slope": 1.1
-    },
-    "field25": 1500
+      "base": "100",
+      "rate": "24",
+      "slope": "1.1"
+    }
   },
   {
-    "season": 37,
+    "season": "37",
     "seasonEvent": "Innocent Full Moon",
     "name": "Gridlin (Fire)",
     "property": "Fire",
-    "id": 9236,
-    "defaultCostumeID": 923600,
+    "id": "9236",
+    "defaultCostumeID": "923600",
     "dateStart": "2025-04-17",
     "dateEnd": "2025-04-23",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 12000,
-      "rate": 33,
-      "slope": 4.4,
+      "base": "12000",
+      "rate": "33",
+      "slope": "4.40",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 70,
-      "rate": 2.5,
-      "slope": 1.8
-    },
-    "field25": 33
+      "base": "70",
+      "rate": "2.5",
+      "slope": "1.8"
+    }
   },
   {
-    "season": 38,
+    "season": "38",
     "seasonEvent": "Black New Moon",
     "name": "Abyssal Moon Shadow Tanya",
     "property": "Water",
-    "id": 9237,
-    "defaultCostumeID": 923700,
+    "id": "9237",
+    "defaultCostumeID": "923700",
     "dateStart": "2025-05-01",
     "dateEnd": "2025-05-07",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 10000,
-      "rate": 300,
-      "slope": 3.59,
+      "base": "10000",
+      "rate": "300",
+      "slope": "3.59",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 100,
-      "rate": 2.7,
-      "slope": 2
-    },
-    "field25": 300
+      "base": "100",
+      "rate": "2.7",
+      "slope": "2"
+    }
   },
   {
-    "season": 39,
+    "season": "39",
     "seasonEvent": "Journey to Another World",
     "name": "Gronvar",
     "property": "Wind",
-    "id": 9238,
-    "defaultCostumeID": 923800,
+    "id": "9238",
+    "defaultCostumeID": "923800",
     "dateStart": "2025-05-15",
     "dateEnd": "2025-05-21",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 10000,
-      "rate": 300,
-      "slope": 3.59,
+      "base": "10000",
+      "rate": "300",
+      "slope": "3.59",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 100,
-      "rate": 2,
-      "slope": 2
-    },
-    "field25": 300
+      "base": "100",
+      "rate": "2",
+      "slope": "2"
+    }
   },
   {
-    "season": 40,
+    "season": "40",
     "seasonEvent": "Goblin Doomsday",
     "name": "Master of the Fiend Den",
     "property": "Darkness",
-    "id": 9239,
-    "defaultCostumeID": 923900,
+    "id": "9239",
+    "defaultCostumeID": "923900",
     "dateStart": "2025-05-29",
     "dateEnd": "2025-06-04",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 10000,
-      "rate": 1800,
-      "slope": 3.1,
+      "base": "10000",
+      "rate": "1800",
+      "slope": "3.10",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 25,
-      "rate": 1,
-      "slope": 2.8
-    },
-    "field25": 1800
+      "base": "25",
+      "rate": "1",
+      "slope": "2.8"
+    }
   },
   {
-    "season": 41,
+    "season": "41",
     "seasonEvent": "Post: Summer Knight",
     "name": "Octovius I",
     "property": "Water",
-    "id": 9240,
-    "defaultCostumeID": 921500,
+    "id": "9240",
+    "defaultCostumeID": "921500",
     "dateStart": "2025-06-12",
     "dateEnd": "2025-06-18",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 10000,
-      "rate": 380,
-      "slope": 3.9,
+      "base": "10000",
+      "rate": "380",
+      "slope": "3.90",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 100,
-      "rate": 9,
-      "slope": 1.4
-    },
-    "field25": 380
+      "base": "100",
+      "rate": "9",
+      "slope": "1.4"
+    }
   },
   {
-    "season": 42,
+    "season": "42",
     "seasonEvent": "Midsummer Dream",
     "name": "Procyon 001 (Fire)",
     "property": "Fire",
-    "id": 9241,
-    "defaultCostumeID": 924102,
+    "id": "9241",
+    "defaultCostumeID": "924102",
     "dateStart": "2025-06-26",
     "dateEnd": "2025-07-02",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 20000,
-      "rate": 580,
-      "slope": 3.2,
+      "base": "20000",
+      "rate": "580",
+      "slope": "3.20",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 100,
-      "rate": 2.7,
-      "slope": 1.8
-    },
-    "field25": 580
+      "base": "100",
+      "rate": "2.7",
+      "slope": "1.8"
+    }
   },
   {
-    "season": 43,
+    "season": "43",
     "seasonEvent": "Flamingo Rush",
     "name": "Trauma Flamingo",
     "property": "Light",
-    "id": 9242,
-    "defaultCostumeID": 924200,
+    "id": "9242",
+    "defaultCostumeID": "924200",
     "dateStart": "2025-07-10",
     "dateEnd": "2025-07-16",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 20000,
-      "rate": 700,
-      "slope": 3.1,
+      "base": "20000",
+      "rate": "700",
+      "slope": "3.10",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 100,
-      "rate": 2.5,
-      "slope": 1.7
-    },
-    "field25": 700
+      "base": "100",
+      "rate": "2.5",
+      "slope": "1.7"
+    }
   },
   {
-    "season": 44,
+    "season": "44",
     "seasonEvent": "Going Home",
     "name": "Blue Beard (Wind)",
     "property": "Wind",
-    "id": 9243,
-    "defaultCostumeID": 924307,
+    "id": "9243",
+    "defaultCostumeID": "924307",
     "dateStart": "2025-07-24",
     "dateEnd": "2025-07-30",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 15000,
-      "rate": 1400,
-      "slope": 2.8,
+      "base": "15000",
+      "rate": "1400",
+      "slope": "2.80",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 80,
-      "rate": 2.5,
-      "slope": 1.7
-    },
-    "field25": 1400
+      "base": "80",
+      "rate": "2.5",
+      "slope": "1.7"
+    }
   },
   {
-    "season": 45,
+    "season": "45",
     "seasonEvent": "White Sorrow",
     "name": "Chimera of Resentment",
     "property": "Darkness",
-    "id": 9244,
-    "defaultCostumeID": 924400,
+    "id": "9244",
+    "defaultCostumeID": "924400",
     "dateStart": "2025-08-07",
     "dateEnd": "2025-08-13",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 35000,
-      "rate": 1200,
-      "slope": 2.75,
+      "base": "35000",
+      "rate": "1200",
+      "slope": "2.75",
       "roundingMode": "integer"
     },
     "MATK": {
-      "base": 100,
-      "rate": 2.4,
-      "slope": 1.7
-    },
-    "field25": 1200
+      "base": "100",
+      "rate": "2.4",
+      "slope": "1.7"
+    }
   },
   {
-    "season": 46,
+    "season": "46",
     "seasonEvent": "Beauty on Duty",
     "name": "Crab Mother",
     "property": "Fire",
-    "id": 9245,
-    "defaultCostumeID": 924503,
+    "id": "9245",
+    "defaultCostumeID": "924503",
     "dateStart": "2025-08-21",
     "dateEnd": "2025-08-27",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 35000,
-      "rate": 1200,
-      "slope": 2.75,
+      "base": "35000",
+      "rate": "1200",
+      "slope": "2.75",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 100,
-      "rate": 2.2,
-      "slope": 1.7
-    },
-    "field25": 1200
+      "base": "100",
+      "rate": "2.2",
+      "slope": "1.7"
+    }
   },
   {
-    "season": 47,
+    "season": "47",
     "seasonEvent": "Bikini Impossible",
     "name": "Baywatcher",
     "property": "Wind",
-    "id": 9246,
-    "defaultCostumeID": 924603,
+    "id": "9246",
+    "defaultCostumeID": "924603",
     "dateStart": "2025-09-04",
     "dateEnd": "2025-09-10",
-    "stage2Level": 12,
-    "stage2Ratio": 1.02,
-    "stage3Level": 14,
-    "stage3Ratio": 0.86,
+    "stage2Level": "12",
+    "stage2Ratio": "1.02",
+    "stage3Level": "14",
+    "stage3Ratio": "0.86",
     "HP": {
-      "base": 40000,
-      "rate": 2880,
-      "slope": 2.28,
+      "base": "40000",
+      "rate": "2880",
+      "slope": "2.28",
       "roundingMode": "integer"
     },
     "ATK": {
-      "base": 50,
-      "rate": 2,
-      "slope": 2
-    },
-    "field25": 2880
+      "base": "50",
+      "rate": "2",
+      "slope": "2"
+    }
   },
   {
-    "season": 48,
+    "season": "48",
     "seasonEvent": "Stigma of Dreams",
     "name": "Abyssal Moon Shadow Tanya (Light)",
     "property": "Light",
-    "id": 9247,
-    "defaultCostumeID": 924700,
+    "id": "9247",
+    "defaultCostumeID": "924700",
     "dateStart": "2025-09-18",
     "dateEnd": "2025-09-24",
-    "stage2Level": 10,
-    "stage2Ratio": 0.95,
-    "stage3Level": 13,
-    "stage3Ratio": 0.92,
+    "stage2Level": "10",
+    "stage2Ratio": "0.95",
+    "stage3Level": "13",
+    "stage3Ratio": "0.92",
     "HP": {
-      "base": 30000,
-      "rate": 2550,
-      "slope": 2.3
+      "base": "30000",
+      "rate": "2550",
+      "slope": "2.30"
     },
     "MATK": {
-      "base": 100,
-      "rate": 7,
-      "slope": 1.3
-    },
-    "field25": 2550
+      "base": "100",
+      "rate": "7",
+      "slope": "1.3"
+    }
   },
   {
-    "season": 49,
+    "season": "49",
     "seasonEvent": "Starlight Child",
     "name": "Frenzied Wolf",
     "property": "Water",
-    "id": 9248,
-    "defaultCostumeID": 924800,
+    "id": "9248",
+    "defaultCostumeID": "924800",
     "dateStart": "2025-10-02",
     "dateEnd": "2025-10-09",
-    "stage2Level": 10,
-    "stage2Ratio": 0.88,
-    "stage3Level": 13,
-    "stage3Ratio": 0.95,
+    "stage2Level": "10",
+    "stage2Ratio": "0.88",
+    "stage3Level": "13",
+    "stage3Ratio": "0.95",
     "HP": {
-      "base": 30000,
-      "rate": 2550,
-      "slope": 2.2
+      "base": "30000",
+      "rate": "2550",
+      "slope": "2.20"
     },
     "ATK": {
-      "base": 100,
-      "rate": 7,
-      "slope": 1.3
-    },
-    "field25": 2550
+      "base": "100",
+      "rate": "7",
+      "slope": "1.3"
+    }
   },
   {
-    "season": 50,
+    "season": "50",
     "seasonEvent": "Mushoku Tensei Season 2",
     "name": "Berserker (Fire)",
     "property": "Fire",
-    "id": 9249,
-    "defaultCostumeID": 924900,
+    "id": "9249",
+    "defaultCostumeID": "924900",
     "dateStart": "2025-10-16",
     "dateEnd": "2025-10-22",
-    "stage2Level": 10,
-    "stage2Ratio": 0.95,
-    "stage3Level": 13,
-    "stage3Ratio": 0.9,
+    "stage2Level": "10",
+    "stage2Ratio": "0.95",
+    "stage3Level": "13",
+    "stage3Ratio": "0.9",
     "HP": {
-      "base": 30000,
-      "rate": 3890,
-      "slope": 2.3
+      "base": "30000",
+      "rate": "3890",
+      "slope": "2.30"
     },
     "ATK": {
-      "base": 100,
-      "rate": 3,
-      "slope": 2
-    },
-    "field25": 3890
+      "base": "100",
+      "rate": "3",
+      "slope": "2"
+    }
   },
   {
-    "season": 51,
+    "season": "51",
     "seasonEvent": "Halloween Night",
     "name": "Talos (Dark)",
     "property": "Darkness",
-    "id": 9250,
-    "defaultCostumeID": 925003,
+    "id": "9250",
+    "defaultCostumeID": "925003",
     "dateStart": "2025-10-30",
     "dateEnd": "2025-11-05",
-    "stage2Level": 10,
-    "stage2Ratio": 0.8,
-    "stage3Level": 13,
-    "stage3Ratio": 0.85,
+    "stage2Level": "10",
+    "stage2Ratio": "0.8",
+    "stage3Level": "13",
+    "stage3Ratio": "0.85",
     "HP": {
-      "base": 30000,
-      "rate": 4500,
-      "slope": 2.28
+      "base": "30000",
+      "rate": "4500",
+      "slope": "2.28"
     },
     "ATK": {
-      "base": 100,
-      "rate": 7,
-      "slope": 1.3
-    },
-    "field25": 4500
+      "base": "100",
+      "rate": "7",
+      "slope": "1.3"
+    }
   },
   {
-    "season": 52,
+    "season": "52",
     "seasonEvent": "Magic for Wishes",
     "name": "Pumpkin Ghost Tanya",
     "property": "Light",
-    "id": 9251,
-    "defaultCostumeID": 925100,
+    "id": "9251",
+    "defaultCostumeID": "925100",
     "dateStart": "2025-11-13",
     "dateEnd": "2025-11-19",
-    "stage2Level": 10,
-    "stage2Ratio": 0.8,
-    "stage3Level": 13,
-    "stage3Ratio": 0.85,
+    "stage2Level": "10",
+    "stage2Ratio": "0.8",
+    "stage3Level": "13",
+    "stage3Ratio": "0.85",
     "HP": {
-      "base": 30000,
-      "rate": 5400,
-      "slope": 2.3
+      "base": "30000",
+      "rate": "5400",
+      "slope": "2.30"
     },
     "MATK": {
-      "base": 100,
-      "rate": 7,
-      "slope": 1.3
-    },
-    "field25": 5400
+      "base": "100",
+      "rate": "7",
+      "slope": "1.3"
+    }
   },
   {
-    "season": 53,
+    "season": "53",
     "seasonEvent": "Crossroads",
     "name": "Basilisk (Water)",
     "property": "Water",
-    "id": 9252,
-    "defaultCostumeID": 925200,
+    "id": "9252",
+    "defaultCostumeID": "925200",
     "dateStart": "2025-11-27",
     "dateEnd": "2025-12-03",
-    "stage2Level": 10,
-    "stage2Ratio": 0.8,
-    "stage3Level": 13,
-    "stage3Ratio": 0.85,
+    "stage2Level": "10",
+    "stage2Ratio": "0.8",
+    "stage3Level": "13",
+    "stage3Ratio": "0.85",
     "HP": {
-      "base": 30000,
-      "rate": 5050,
-      "slope": 2.3
+      "base": "30000",
+      "rate": "5050",
+      "slope": "2.30"
     },
     "ATK": {
-      "base": 100,
-      "rate": 7,
-      "slope": 1.3
-    },
-    "field25": 5050
+      "base": "100",
+      "rate": "7",
+      "slope": "1.3"
+    }
   },
   {
-    "season": 54,
+    "season": "54",
     "seasonEvent": "Fireworks Memories",
     "name": "E.O.N (Wind)",
     "property": "Wind",
-    "id": 9253,
-    "defaultCostumeID": 925304,
+    "id": "9253",
+    "defaultCostumeID": "925304",
     "dateStart": "2025-12-09",
     "dateEnd": "2025-12-15",
-    "stage2Level": 10,
-    "stage2Ratio": 0.82,
-    "stage3Level": 13,
-    "stage3Ratio": 0.82,
+    "stage2Level": "10",
+    "stage2Ratio": "0.82",
+    "stage3Level": "13",
+    "stage3Ratio": "0.82",
     "HP": {
-      "base": 30000,
-      "rate": 6000,
-      "slope": 2.3
+      "base": "30000",
+      "rate": "6000",
+      "slope": "2.30"
     },
     "MATK": {
-      "base": 100,
-      "rate": 8,
-      "slope": 1.35
-    },
-    "field25": 6000
+      "base": "100",
+      "rate": "8",
+      "slope": "1.35"
+    }
   },
   {
-    "season": 55,
+    "season": "55",
     "seasonEvent": "Ready, Set, Hop!",
     "name": "Ashen Salamander",
     "property": "Fire",
-    "id": 9254,
-    "defaultCostumeID": 925401,
+    "id": "9254",
+    "defaultCostumeID": "925401",
     "dateStart": "2025-12-23",
     "dateEnd": "2025-12-29",
-    "stage2Level": 10,
-    "stage2Ratio": 0.8,
-    "stage3Level": 13,
-    "stage3Ratio": 0.85,
+    "stage2Level": "10",
+    "stage2Ratio": "0.8",
+    "stage3Level": "13",
+    "stage3Ratio": "0.85",
     "HP": {
-      "base": 30000,
-      "rate": 6800,
-      "slope": 2.3
+      "base": "30000",
+      "rate": "6800",
+      "slope": "2.30"
     },
     "MATK": {
-      "base": 100,
-      "rate": 7,
-      "slope": 1.3
-    },
-    "field25": 6800
+      "base": "100",
+      "rate": "7",
+      "slope": "1.3"
+    }
   },
   {
-    "season": 56,
+    "season": "56",
     "seasonEvent": "Ash&Dash",
     "name": "Frost Spirit",
     "property": "Water",
-    "id": 9255,
-    "defaultCostumeID": 925500,
+    "id": "9255",
+    "defaultCostumeID": "925500",
     "dateStart": "2026-01-08",
     "dateEnd": "2026-01-14",
-    "stage2Level": 10,
-    "stage2Ratio": 0.83,
-    "stage3Level": 13,
-    "stage3Ratio": 0.88,
+    "stage2Level": "10",
+    "stage2Ratio": "0.83",
+    "stage3Level": "13",
+    "stage3Ratio": "0.88",
     "HP": {
-      "base": 30000,
-      "rate": 3570,
-      "slope": 2.2
+      "base": "30000",
+      "rate": "3570",
+      "slope": "2.20"
     },
     "ATK": {
-      "base": 100,
-      "rate": 9,
-      "slope": 1.3
-    },
-    "field25": 3570
+      "base": "100",
+      "rate": "9",
+      "slope": "1.3"
+    }
   },
   {
-    "season": 57,
+    "season": "57",
     "seasonEvent": "Golden Tamago",
     "name": "Snowy Mountain Tyrant (Dark)",
     "property": "Darkness",
-    "id": 9256,
-    "defaultCostumeID": 925600,
+    "id": "9256",
+    "defaultCostumeID": "925600",
     "dateStart": "2026-01-22",
     "dateEnd": "2026-01-28",
-    "stage2Level": 10,
-    "stage2Ratio": 0.9,
-    "stage3Level": 13,
-    "stage3Ratio": 0.9,
+    "stage2Level": "10",
+    "stage2Ratio": "0.9",
+    "stage3Level": "13",
+    "stage3Ratio": "0.9",
     "HP": {
-      "base": 23000,
-      "rate": 1800,
-      "slope": 2.8
+      "base": "23000",
+      "rate": "1800",
+      "slope": "2.80"
     },
     "ATK": {
-      "base": 100,
-      "rate": 3,
-      "slope": 2
-    },
-    "field25": 1800
+      "base": "100",
+      "rate": "3",
+      "slope": "2"
+    }
   },
   {
-    "season": 58,
+    "season": "58",
     "seasonEvent": "Chicken or the Egg",
     "name": "Mother Bird Yokai",
     "property": "Light",
-    "id": 9257,
-    "defaultCostumeID": 925700,
+    "id": "9257",
+    "defaultCostumeID": "925700",
     "dateStart": "2026-02-05",
     "dateEnd": "2026-02-11",
-    "stage2Level": 10,
-    "stage2Ratio": 0.9,
-    "stage3Level": 13,
-    "stage3Ratio": 0.9,
+    "stage2Level": "10",
+    "stage2Ratio": "0.9",
+    "stage3Level": "13",
+    "stage3Ratio": "0.9",
     "HP": {
-      "base": 20000,
-      "rate": 1750,
-      "slope": 2.8
+      "base": "20000",
+      "rate": "1750",
+      "slope": "2.80"
     },
     "MATK": {
-      "base": 100,
-      "rate": 7,
-      "slope": 1.3
-    },
-    "field25": 1750
+      "base": "100",
+      "rate": "7",
+      "slope": "1.3"
+    }
   },
   {
-    "season": 59,
+    "season": "59",
     "seasonEvent": "Mart War",
     "name": "Abomination (Wind)",
     "property": "Wind",
-    "id": 9259,
-    "defaultCostumeID": 925900,
+    "id": "9259",
+    "defaultCostumeID": "925900",
     "dateStart": "2026-02-19",
     "dateEnd": "2026-02-25",
-    "stage2Level": 10,
-    "stage2Ratio": 0.9,
-    "stage3Level": 13,
-    "stage3Ratio": 0.9,
+    "stage2Level": "10",
+    "stage2Ratio": "0.9",
+    "stage3Level": "13",
+    "stage3Ratio": "0.9",
     "HP": {
-      "base": 24000,
-      "rate": 1630,
-      "slope": 2.8
+      "base": "24000",
+      "rate": "1630",
+      "slope": "2.80"
     },
     "ATK": {
-      "base": 100,
-      "rate": 8,
-      "slope": 1.34
-    },
-    "field25": 1630
+      "base": "100",
+      "rate": "8",
+      "slope": "1.34"
+    }
   },
   {
-    "season": 60,
+    "season": "60",
     "seasonEvent": "Magical & Lyrical",
     "name": "GNR-GH01",
     "property": "Water",
-    "id": 9260,
-    "defaultCostumeID": 926000,
+    "id": "9260",
+    "defaultCostumeID": "926000",
     "dateStart": "2026-03-05",
     "dateEnd": "2026-03-11",
-    "stage2Level": 10,
-    "stage2Ratio": 0.9,
-    "stage3Level": 13,
-    "stage3Ratio": 0.9,
+    "stage2Level": "10",
+    "stage2Ratio": "0.9",
+    "stage3Level": "13",
+    "stage3Ratio": "0.9",
     "HP": {
-      "base": 25000,
-      "rate": 1500,
-      "slope": 2.5
+      "base": "25000",
+      "rate": "1500",
+      "slope": "2.50"
     },
     "ATK": {
-      "base": 100,
-      "rate": 7,
-      "slope": 1.2
-    },
-    "field25": 1500
+      "base": "100",
+      "rate": "7",
+      "slope": "1.2"
+    }
   },
   {
-    "season": 61,
+    "season": "61",
     "seasonEvent": "Psyche Artist",
     "name": "Abyssal Moon Shadow Tanya (Dark)",
     "property": "Darkness",
-    "id": 9258,
-    "defaultCostumeID": 925800,
+    "id": "9258",
+    "defaultCostumeID": "925800",
     "dateStart": "2026-03-19",
     "dateEnd": "2026-03-25",
-    "stage2Level": 10,
-    "stage2Ratio": 0.9,
-    "stage3Level": 13,
-    "stage3Ratio": 0.9,
+    "stage2Level": "10",
+    "stage2Ratio": "0.9",
+    "stage3Level": "13",
+    "stage3Ratio": "0.9",
     "HP": {
-      "base": 10000,
-      "rate": 3700,
-      "slope": 2.2
+      "base": "10000",
+      "rate": "3700",
+      "slope": "2.20"
     },
     "MATK": {
-      "base": 100,
-      "rate": 3,
-      "slope": 1.4
-    },
-    "field25": 3700
+      "base": "100",
+      "rate": "3",
+      "slope": "1.4"
+    }
   },
   {
-    "season": 62,
+    "season": "62",
     "seasonEvent": "The Erosion",
     "name": "Frost Spirit",
     "property": "Water",
-    "id": 9255,
-    "defaultCostumeID": 925500,
+    "id": "9255",
+    "defaultCostumeID": "925500",
     "dateStart": "2026-03-26",
     "dateEnd": "2026-04-01",
-    "stage2Level": 10,
-    "stage2Ratio": 0.83,
-    "stage3Level": 13,
-    "stage3Ratio": 0.88,
+    "stage2Level": "10",
+    "stage2Ratio": "0.83",
+    "stage3Level": "13",
+    "stage3Ratio": "0.88",
     "HP": {
-      "base": 30000,
-      "rate": 3570,
-      "slope": 2.2
+      "base": "30000",
+      "rate": "3570",
+      "slope": "2.20"
     },
     "ATK": {
-      "base": 100,
-      "rate": 9,
-      "slope": 1.3
+      "base": "100",
+      "rate": "9",
+      "slope": "1.3"
     },
-    "isBreakSeason": true
+    "isBreakSeason": "TRUE"
   },
   {
-    "season": 63,
+    "season": "63",
     "seasonEvent": "The Erosion",
     "name": "Complex",
     "property": "Fire",
-    "id": 9261,
-    "defaultCostumeID": 926100,
+    "id": "9261",
+    "defaultCostumeID": "926100",
     "dateStart": "2026-04-02",
     "dateEnd": "2026-04-08",
-    "stage2Level": 10,
-    "stage2Ratio": 0.9,
-    "stage3Level": 13,
-    "stage3Ratio": 0.9,
+    "stage2Level": "10",
+    "stage2Ratio": "0.9",
+    "stage3Level": "13",
+    "stage3Ratio": "0.9",
     "HP": {
-      "base": 9000,
-      "rate": 3300,
-      "slope": 2.8
+      "base": "9000",
+      "rate": "3300",
+      "slope": "2.80"
     },
     "MATK": {
-      "base": 100,
-      "rate": 3,
-      "slope": 1.6
-    },
-    "field25": 3300
+      "base": "100",
+      "rate": "3",
+      "slope": "1.6"
+    }
   },
   {
-    "season": 64,
+    "season": "64",
     "seasonEvent": "Shinobi Road",
     "name": "True Orochi (Light)",
     "property": "Light",
-    "id": 9262,
-    "defaultCostumeID": 926200,
+    "id": "9262",
+    "defaultCostumeID": "926200",
     "dateStart": "2026-04-16",
     "dateEnd": "2026-04-22",
-    "stage2Level": 10,
-    "stage2Ratio": 0.9,
-    "stage3Level": 13,
-    "stage3Ratio": 0.9,
+    "stage2Level": "10",
+    "stage2Ratio": "0.9",
+    "stage3Level": "13",
+    "stage3Ratio": "0.9",
     "HP": {
-      "base": 10000,
-      "rate": 4800,
-      "slope": 3
+      "base": "10000",
+      "rate": "4800",
+      "slope": "3.00"
     },
     "ATK": {
-      "base": 30,
-      "rate": 3,
-      "slope": 2
-    },
-    "field25": 4800
+      "base": "30",
+      "rate": "3",
+      "slope": "2"
+    }
   },
   {
-    "season": 65,
+    "season": "65",
     "seasonEvent": "Akatsuki",
     "name": "Abomination (Wind)",
     "property": "Wind",
-    "id": 9259,
-    "defaultCostumeID": 925900,
+    "id": "9259",
+    "defaultCostumeID": "925900",
     "dateStart": "2026-04-23",
     "dateEnd": "2026-04-29",
-    "stage2Level": 10,
-    "stage2Ratio": 0.9,
-    "stage3Level": 13,
-    "stage3Ratio": 0.9,
+    "stage2Level": "10",
+    "stage2Ratio": "0.9",
+    "stage3Level": "13",
+    "stage3Ratio": "0.9",
     "HP": {
-      "base": 24000,
-      "rate": 1630,
-      "slope": 2.8
+      "base": "24000",
+      "rate": "1630",
+      "slope": "2.80"
     },
     "ATK": {
-      "base": 100,
-      "rate": 8,
-      "slope": 1.34
+      "base": "100",
+      "rate": "8",
+      "slope": "1.34"
     },
-    "isBreakSeason": true
+    "isBreakSeason": "TRUE"
   },
   {
-    "season": 66,
+    "season": "66",
     "seasonEvent": "Akatsuki",
     "name": "True Orochi (Wind)",
     "property": "Wind",
-    "id": 9263,
-    "defaultCostumeID": 926301,
+    "id": "9263",
+    "defaultCostumeID": "926301",
     "dateStart": "2026-04-30",
     "dateEnd": "2026-05-06",
-    "stage2Level": 10,
-    "stage2Ratio": 1,
-    "stage3Level": 13,
-    "stage3Ratio": 1,
+    "stage2Level": "10",
+    "stage2Ratio": "1",
+    "stage3Level": "13",
+    "stage3Ratio": "1",
     "HP": {
-      "base": 7000,
-      "rate": 3900,
-      "slope": 2.9
+      "base": "7000",
+      "rate": "3900",
+      "slope": "2.90"
     },
     "MATK": {
-      "base": 100,
-      "rate": 1.5,
-      "slope": 2
-    },
-    "field25": 3900
+      "base": "100",
+      "rate": "1.5",
+      "slope": "2"
+    }
   },
   {
-    "season": 67,
+    "season": "67",
     "seasonEvent": "Strange Request",
     "name": "Giant Rou (Water)",
     "property": "Water",
-    "id": 9264,
-    "defaultCostumeID": 926400,
+    "id": "9264",
+    "defaultCostumeID": "926400",
     "dateStart": "2026-05-14",
     "dateEnd": "2026-05-20",
-    "stage2Level": 10,
-    "stage2Ratio": 1,
-    "stage3Level": 13,
-    "stage3Ratio": 1,
+    "stage2Level": "10",
+    "stage2Ratio": "1",
+    "stage3Level": "13",
+    "stage3Ratio": "1",
     "HP": {
-      "base": 7000,
-      "rate": 4000,
-      "slope": 2.9
+      "base": "7000",
+      "rate": "4000",
+      "slope": "2.90"
     },
     "ATK": {
-      "base": 100,
-      "rate": 3,
-      "slope": 1.5
-    },
-    "field25": 4000
+      "base": "100",
+      "rate": "3",
+      "slope": "1.5"
+    }
   },
   {
-    "season": 68,
+    "season": "68",
     "seasonEvent": "Dark Magica",
     "name": "Dark Magica",
     "property": "Fire",
-    "id": 9265,
-    "defaultCostumeID": 926500,
+    "id": "9265",
+    "defaultCostumeID": "926500",
     "dateStart": "2026-05-28",
     "dateEnd": "2026-06-03",
-    "stage2Level": 10,
-    "stage2Ratio": 1,
-    "stage3Level": 13,
-    "stage3Ratio": 1,
+    "stage2Level": "10",
+    "stage2Ratio": "1",
+    "stage3Level": "13",
+    "stage3Ratio": "1",
     "HP": {
-      "base": 5000,
-      "rate": 4000,
-      "slope": 2.9
+      "base": "5000",
+      "rate": "4000",
+      "slope": "2.90"
     },
     "MATK": {
-      "base": 100,
-      "rate": 1.5,
-      "slope": 2
-    },
-    "field25": 4000
+      "base": "100",
+      "rate": "1.5",
+      "slope": "2"
+    }
   },
   {
-    "season": 69,
+    "season": "69",
     "seasonEvent": "Casino Party",
     "name": "Baywatcher (Light)",
     "property": "Light",
-    "id": 9266,
-    "defaultCostumeID": 926603,
+    "id": "9266",
+    "defaultCostumeID": "926603",
     "dateStart": "2026-06-11",
     "dateEnd": "2026-06-17",
-    "stage2Level": 10,
-    "stage2Ratio": 1,
-    "stage3Level": 13,
-    "stage3Ratio": 1,
+    "stage2Level": "10",
+    "stage2Ratio": "1",
+    "stage3Level": "13",
+    "stage3Ratio": "1",
     "HP": {
-      "base": 1550,
-      "rate": 4000,
-      "slope": 2.9
+      "base": "1550",
+      "rate": "4000",
+      "slope": "2.90"
     },
     "ATK": {
-      "base": 100,
-      "rate": 1.7,
-      "slope": 2
-    },
-    "field25": 4000
+      "base": "100",
+      "rate": "1.7",
+      "slope": "2"
+    }
   },
   {
-    "season": 70,
+    "season": "70",
     "seasonEvent": "End of Gamble",
     "name": "Mermaid Princess",
     "property": "Darkness",
-    "id": 9267,
-    "defaultCostumeID": 926750,
+    "id": "9267",
+    "defaultCostumeID": "926750",
     "dateStart": "2026-06-25",
     "dateEnd": "2026-07-01",
-    "stage2Level": 10,
-    "stage2Ratio": 1,
-    "stage3Level": 13,
-    "stage3Ratio": 1,
+    "stage2Level": "10",
+    "stage2Ratio": "1",
+    "stage3Level": "13",
+    "stage3Ratio": "1",
     "HP": {
-      "base": 2400,
-      "rate": 4000,
-      "slope": 2.9
+      "base": "2400",
+      "rate": "4000",
+      "slope": "2.90"
     },
     "ATK": {
-      "base": 120,
-      "rate": 1.5,
-      "slope": 2
-    },
-    "field25": 4000
+      "base": "120",
+      "rate": "1.5",
+      "slope": "2"
+    }
   },
   {
-    "season": 71,
+    "season": "71",
     "seasonEvent": "Serendipity Party",
     "name": "Octovius I (Wind)",
     "property": "Wind",
-    "id": 9268,
-    "defaultCostumeID": 926800,
+    "id": "9268",
+    "defaultCostumeID": "926800",
     "dateStart": "2026-07-09",
     "dateEnd": "2026-07-15",
-    "stage2Level": 10,
-    "stage2Ratio": 1,
-    "stage3Level": 13,
-    "stage3Ratio": 1,
+    "stage2Level": "10",
+    "stage2Ratio": "1",
+    "stage3Level": "13",
+    "stage3Ratio": "1",
     "HP": {
-      "base": 1600,
-      "rate": 4000,
-      "slope": 2.9
+      "base": "1600",
+      "rate": "4000",
+      "slope": "2.90"
     },
     "MATK": {
-      "base": 100,
-      "rate": 3,
-      "slope": 1.5
-    },
-    "field25": 4000
+      "base": "100",
+      "rate": "3",
+      "slope": "1.5"
+    }
   },
   {
-    "season": 72,
+    "season": "72",
     "seasonEvent": "Fox's Gambit",
     "name": "Octoqueen",
     "property": "Water",
-    "id": 9269,
-    "defaultCostumeID": 926900,
+    "id": "9269",
+    "defaultCostumeID": "926900",
     "dateStart": "2026-07-23",
     "dateEnd": "2026-07-29",
-    "stage2Level": 10,
-    "stage2Ratio": 1,
-    "stage3Level": 13,
-    "stage3Ratio": 1,
+    "stage2Level": "10",
+    "stage2Ratio": "1",
+    "stage3Level": "13",
+    "stage3Ratio": "1",
     "HP": {
-      "base": 7500,
-      "rate": 4000,
-      "slope": 2.9
+      "base": "7500",
+      "rate": "4000",
+      "slope": "2.90"
     },
     "ATK": {
-      "base": 50,
-      "rate": 3,
-      "slope": 1.5
-    },
-    "field25": 4000
+      "base": "50",
+      "rate": "3",
+      "slope": "1.5"
+    }
   },
   {
-    "season": 73,
+    "season": "73",
     "seasonEvent": "The Successor",
     "name": "Octovius I (Wind)",
     "property": "Wind",
-    "id": 9268,
-    "defaultCostumeID": 926800,
+    "id": "9268",
+    "defaultCostumeID": "926800",
     "dateStart": "2026-07-30",
     "dateEnd": "2026-08-05",
-    "stage2Level": 10,
-    "stage2Ratio": 1,
-    "stage3Level": 13,
-    "stage3Ratio": 1,
+    "stage2Level": "10",
+    "stage2Ratio": "1",
+    "stage3Level": "13",
+    "stage3Ratio": "1",
     "HP": {
-      "base": 1600,
-      "rate": 4000,
-      "slope": 2.9
+      "base": "1600",
+      "rate": "4000",
+      "slope": "2.90"
     },
     "MATK": {
-      "base": 100,
-      "rate": 3,
-      "slope": 1.5
+      "base": "100",
+      "rate": "3",
+      "slope": "1.5"
     },
-    "isBreakSeason": true
+    "isBreakSeason": "TRUE"
   },
   {
-    "season": 74,
+    "season": "74",
     "seasonEvent": "The Successor",
     "name": "Basilisk (Fire)",
     "property": "Fire",
-    "id": 9270,
-    "defaultCostumeID": 927007,
+    "id": "9270",
+    "defaultCostumeID": "927007",
     "dateStart": "2026-08-06",
     "dateEnd": "2026-08-12",
-    "stage2Level": 10,
-    "stage2Ratio": 1,
-    "stage3Level": 13,
-    "stage3Ratio": 1,
+    "stage2Level": "10",
+    "stage2Ratio": "1",
+    "stage3Level": "13",
+    "stage3Ratio": "1",
     "HP": {
-      "base": 2900,
-      "rate": 4000,
-      "slope": 2.9
+      "base": "2900",
+      "rate": "4000",
+      "slope": "2.90"
     },
     "ATK": {
-      "base": 100,
-      "rate": 3,
-      "slope": 1.5
-    },
-    "field25": 4000
+      "base": "100",
+      "rate": "3",
+      "slope": "1.5"
+    }
   },
   {
-    "season": 75,
+    "season": "75",
     "seasonEvent": "The Sunny Smile",
     "name": "Dark Magica",
     "property": "Fire",
-    "id": 9265,
-    "defaultCostumeID": 926500,
+    "id": "9265",
+    "defaultCostumeID": "926500",
     "dateStart": "2026-08-13",
     "dateEnd": "2026-08-19",
-    "stage2Level": 10,
-    "stage2Ratio": 1,
-    "stage3Level": 13,
-    "stage3Ratio": 1,
+    "stage2Level": "10",
+    "stage2Ratio": "1",
+    "stage3Level": "13",
+    "stage3Ratio": "1",
     "HP": {
-      "base": 5000,
-      "rate": 4000,
-      "slope": 2.9
+      "base": "5000",
+      "rate": "4000",
+      "slope": "2.90"
     },
     "MATK": {
-      "base": 100,
-      "rate": 1.5,
-      "slope": 2
+      "base": "100",
+      "rate": "1.5",
+      "slope": "2"
     },
-    "isBreakSeason": true
+    "isBreakSeason": "TRUE"
   },
   {
-    "season": 76,
+    "season": "76",
     "seasonEvent": "The Sunny Smile",
     "name": "Wrathful Lion Mask",
     "property": "Darkness",
-    "id": 9271,
-    "defaultCostumeID": 927100,
+    "id": "9271",
+    "defaultCostumeID": "927100",
     "dateStart": "2026-08-20",
     "dateEnd": "2026-08-26",
-    "stage2Level": 10,
-    "stage2Ratio": 1,
-    "stage3Level": 13,
-    "stage3Ratio": 1,
+    "stage2Level": "10",
+    "stage2Ratio": "1",
+    "stage3Level": "13",
+    "stage3Ratio": "1",
     "HP": {
-      "base": 2900,
-      "rate": 4000,
-      "slope": 2.9
+      "base": "2900",
+      "rate": "4000",
+      "slope": "2.90"
     },
     "ATK": {
-      "base": 100,
-      "rate": 3,
-      "slope": 1.5
+      "base": "100",
+      "rate": "3",
+      "slope": "1.5"
+    }
+  },
+  {
+    "season": "77",
+    "seasonEvent": "Untamed",
+    "name": "Chimera of Resentment (Wind)",
+    "property": "Wind",
+    "id": "9272",
+    "defaultCostumeID": "927100",
+    "dateStart": "2026-09-03",
+    "dateEnd": "2026-09-09",
+    "stage2Level": "10",
+    "stage2Ratio": "1",
+    "stage3Level": "13",
+    "stage3Ratio": "1",
+    "HP": {
+      "base": "5800",
+      "rate": "4000",
+      "slope": "2.90"
     },
-    "field25": 4000
+    "MATK": {
+      "base": "100",
+      "rate": "3",
+      "slope": "1.5"
+    }
   }
 ]
