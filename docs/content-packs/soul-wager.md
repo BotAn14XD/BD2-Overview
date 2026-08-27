@@ -31,7 +31,7 @@ The Soul Wager is **seasonal** content, with each season lasting **8** weeks. Du
 
 To do that, you must purchase **Tiles**, **Units** and **Gear** from the **Soul Wager in-battle Shop**, place them on the **Main Field**, and start the **automated** battle.
 
-For any Victory or Defeat, you receive {{ Soul_Token }} **Soul Tokens** to continue your run (10 {{ Soul_Token }} for a loss and 14<!--16--> {{ Soul_Token }} for a victory).
+For any Victory or Defeat, you receive {{ Soul_Token }} **Soul Tokens** to continue your run (10 {{ Soul_Token }} for a loss and 16 {{ Soul_Token }} for a victory).
 
 If you are defeated, the Battle Shop refreshes and the reroll counter resets, giving you a clean slate of options to try on your next attempt. However, if you lose all 5 of your {{ Life_Count }} Attempts (Defeats), the current Board completely resets, sending you back to Phase 1.
 
@@ -134,7 +134,7 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
         <tbody>
             <tr>
                 <td>Alec - The Destruction</td>
-                <td>14<!--@ 12--></td>
+                <td>12</td>
             </tr>
             <tr>
                 <td>Anastasia - Fire Graffiti</td>
@@ -184,18 +184,14 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>Cynthia - Warmth within the Severe Cold</td>
                 <td>4</td>
             </tr>
-            <!--@
             <tr>
                 <td>Dalvi - Bright Moon</td>
-                <td></td>
+                <td>6</td>
             </tr>
-            -->
-            <!--@
             <tr>
                 <td>Dalvi - Tricky Lover</td>
-                <td></td>
+                <td>10</td>
             </tr>
-            -->
             <tr>
                 <td>Dalvi - Summer Vacation</td>
                 <td>7</td>
@@ -238,7 +234,7 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             </tr>
             <tr>
                 <td>Elpis - Hand of Salvation</td>
-                <td>9<!--@ 8 --></td>
+                <td>8</td>
             </tr>
             <tr>
                 <td>Emma - School Queen</td>
@@ -258,24 +254,20 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             </tr>
             <tr>
                 <td>Granhildr - Comeback Idol</td>
-                <td>15<!--@ 13--></td>
+                <td>13</td>
             </tr>
-            <!--@
             <tr>
                 <td>Granhildr - The Void</td>
-                <td></td>
+                <td>8</td>
             </tr>
-            -->
             <tr>
                 <td>Gray - Mist Man</td>
                 <td>7</td>
             </tr>
-            <!--@
             <tr>
                 <td>Gray - Vanguard</td>
-                <td></td>
+                <td>5</td>
             </tr>
-            -->
             <tr>
                 <td>Gynt - Lugo Hunter</td>
                 <td>3</td>
@@ -296,12 +288,10 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>Julie - Healer</td>
                 <td>4</td>
             </tr>
-            <!--@
             <tr>
                 <td>Justia - Blood Glutton</td>
-                <td></td>
+                <td>8</td>
             </tr>
-            -->
             <tr>
                 <td>Justia - Knight of Blood</td>
                 <td>9</td>
@@ -320,7 +310,7 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             </tr>
             <tr>
                 <td>Lathel - Homunculus</td>
-                <td>5<!--@ 4--></td>
+                <td>4</td>
             </tr>
             <tr>
                 <td>Layla - Anvil of Creation</td>
@@ -332,11 +322,11 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             </tr>
             <tr>
                 <td>Levia - Overheat</td>
-                <td>8<!--@6--></td>
+                <td>6</td>
             </tr>
             <tr>
                 <td>Liatris - Neon Stalker</td>
-                <td>12<!--@ 8--></td>
+                <td>8</td>
             </tr>
             <tr>
                 <td>Liatris - Rodev's Star</td>
@@ -344,7 +334,7 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             </tr>
             <tr>
                 <td>Liberta - Onsen Manager</td>
-                <td>7<!--@6--></td>
+                <td>6</td>
             </tr>
             <tr>
                 <td>Lisianne - Wandering Priest</td>
@@ -352,7 +342,7 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             </tr>
             <tr>
                 <td>Loen - Last Hope</td>
-                <td>9<!--@8--></td>
+                <td>8</td>
             </tr>
             <tr>
                 <td>Loen - Track and Field Team</td>
@@ -376,7 +366,7 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             </tr>
             <tr>
                 <td>Maria - Archmage</td>
-                <td>7<!--@ 6--></td>
+                <td>6</td>
             </tr>
             <tr>
                 <td>Michaela - Beachside Justice</td>
@@ -388,15 +378,15 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             </tr>
             <tr>
                 <td>Morpeah - Beach Vacation</td>
-                <td>8<!--@10--></td>
+                <td>10</td>
             </tr>
             <tr>
                 <td>Morpeah - Daydream Bunny</td>
-                <td>4<!--@3--></td>
+                <td>3</td>
             </tr>
             <tr>
                 <td>Nebris - Labyrinth Gatekeeper</td>
-                <td>10<!--@8--></td>
+                <td>8</td>
             </tr>
             <tr>
                 <td>Nebris - Laid-back Lifeguard</td>
@@ -422,19 +412,17 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>Rafina - Code Name A</td>
                 <td>8</td>
             </tr>
-            <!--@
             <tr>
                 <td>Rafina - Steel Engine</td>
-                <td></td>
+                <td>5</td>
             </tr>
-            -->
             <tr>
                 <td>Refithea - Poolside Fairy</td>
-                <td>5<!--@4--></td>
+                <td>4</td>
             </tr>
             <tr>
                 <td>Refithea - Pure White Blessing</td>
-                <td>5<!--@4--></td>
+                <td>4</td>
             </tr>
             <tr>
                 <td>Rigenette - Little Hunter</td>
@@ -478,18 +466,16 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             </tr>
             <tr>
                 <td>Scheherazade - Lapis Witch</td>
-                <td>10<!--@ 6--></td>
+                <td>6</td>
             </tr>
             <tr>
                 <td>Scheherazade - Magic School Professor</td>
                 <td>9</td>
             </tr>
-            <!--@
             <tr>
                 <td>Scheherazade - Pool Party</td>
-                <td></td>
+                <td>6</td>
             </tr>
-            -->
             <tr>
                 <td>Seir - B-Rank Idol</td>
                 <td>5</td>
@@ -512,25 +498,23 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             </tr>
             <tr>
                 <td>Sylvia - Sword Queen</td>
-                <td>9<!--@ 7--></td>
+                <td>7</td>
             </tr>
             <tr>
                 <td>Teresse - Angel of Destruction</td>
-                <td>12<!--@ 10--></td>
+                <td>10</td>
             </tr>
             <tr>
                 <td>Teresse - Beachside Angel</td>
                 <td>8</td>
             </tr>
-            <!--@
             <tr>
                 <td>Teresse - Medical Club</td>
-                <td></td>
+                <td>7</td>
             </tr>
-            -->
             <tr>
                 <td>Tyr - Starlight Guardian</td>
-                <td>11<!--@7--></td>
+                <td>7</td>
             </tr>
             <tr>
                 <td>Venaka - DJ</td>
@@ -556,12 +540,10 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>Yuri - Comeback Idol</td>
                 <td>5</td>
             </tr>
-            <!--@
             <tr>
                 <td>Yuri - Whitebolt</td>
-                <td></td>
+                <td>9</td>
             </tr>
-            -->
             <tr>
                 <td>Zenith - Robin Hood</td>
                 <td>5</td>

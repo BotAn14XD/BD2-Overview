@@ -2471,6 +2471,340 @@
           "wrong": "You look like a wolf-like puppy."
         }
       ]
+    },
+    {
+      "id": "night-of-jealousy-levia",
+      "costume": "Night of Jealousy Levia",
+      "character": "Levia",
+      "drinks": [
+        { "name": "Fragrant Whiskey", "icon": "assets/images/rapport/icons/icon_resource190004_398_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Levia stresses the importance of reading, time and again.",
+            "Books are treasure chests filled with knowledge—the finest teachers you could ask for. A single good book can teach you a great deal.",
+            "I've heard that on the surface, there are many who read and enjoy books as I do... Do you enjoy books?"
+          ],
+          "correct": "I do.",
+          "wrong": "Not really."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Levia tells me about a recent visit to a bookshop in Ghenar.",
+            "Most Demons don't read much. There are few bookshops, and the booksellers handle their books terribly.",
+            "The one I visited today had books piled carelessly in a damp room. Dreadful, don't you think?"
+          ],
+          "correct": "All books should be handled with care.",
+          "wrong": "It shouldn't matter as long as the book can still be read."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "While discussing Ghenar's cuisine, the conversation turns to what Levia's favorite food might be.",
+            "Anything I can eat quickly. The less time I spend on meals, the more time I have for reading and research.",
+            "...Come to think of it, I skip meals more often these days. It feels like a waste of time—even chewing and swallowing."
+          ],
+          "correct": "Share a simple grab-and-go recipe",
+          "wrong": "Tell her about a drink that helps with staying up at night"
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Levia toys with an ember between her fingers as she speaks.",
+            "Once I've recovered my strength, I intend to reclaim the throne. I have no intention of handing over my crown to some lackey of the False Mother.",
+            "No objections to my decision, I trust?"
+          ],
+          "correct": "No one is more suited than you.",
+          "wrong": "You don't necessarily have to take that risk."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "She swirls the glass, savoring the aroma of the whiskey as she speaks.",
+            "Demons value pride as much as they do strength. That's why they flaunt their power every chance they get, trying to cow others with sheer force of presence.",
+            "...It's absolutely pathetic. That's not how one achieves true pride."
+          ],
+          "correct": "Agreed.",
+          "wrong": "I wouldn't know."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Levia vents her frustrations about the history books published in Ghenar.",
+            "Every book on Ancient Ghenar is worthless. It's as though someone deliberately excised all knowledge from certain eras.",
+            "So much information is missing, my research has hit a wall. If you have a worthwhile idea, would you share it?"
+          ],
+          "correct": "You should reference the history books of other kingdoms.",
+          "wrong": "You should look for more history books."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "I ask Levia what she usually researches.",
+            "Mainly, I study the history of Ghenar. Beyond that, I dabble in every discipline the Night World has to offer—magic, philosophy, and the like.",
+            "It might seem unfocused, but it gets results. You find connections between fields that seem unrelated."
+          ],
+          "correct": "Not sure I follow, but sounds impressive.",
+          "wrong": "Tell her she's not like other Demons"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "I ask Levia what she does in her spare time.",
+            "Reading, obviously. Papers, novels—doesn't matter. If it's in print, I can't rest until I've finished it.",
+            "Once I start, I can't stop midway. It gets me into trouble sometimes."
+          ],
+          "correct": "It seems like you really love books.",
+          "wrong": "Ask what kind of trouble she's had"
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Levia looks troubled lately, as though her research hasn't been going well.",
+            "Suppose you were forced to develop a new recipe. On a strict deadline, no less... and expected to deliver perfect results every time.",
+            "But you're running out of time and energy, and it doesn't look like you'll make the deadline... How would you deal with a situation like that?"
+          ],
+          "correct": "Might as well try to enjoy it.",
+          "wrong": "I would find an assistant to help with the research."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Levia holds the whiskey bottle in her hand, turning it in various angles as she examines it.",
+            "This is my first time seeing a surface-world bottle up close. Rather than pulling the stopper, you twist it open... How very strange.",
+            "I... gave it a light turn, but it won't budge. Is there some particular reason it's sealed so tightly?"
+          ],
+          "correct": "To preserve the aroma.",
+          "wrong": "Your grip is weak."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Levia traces the rim of the glass with one finger and asks...",
+            "There is a saying—that pride and self-worth are not the same thing. The difference is in how one preserves their dignity.",
+            "A Demon I know carries great pride, yet lacks self-worth... and it weighs on them. If it were you... what would you tell them?"
+          ],
+          "correct": "Look for your own strengths.",
+          "wrong": "Stop caring about what others think."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Levia sets down the glass and asks me, serious.",
+            "There's a saying—everything has its limits. An invisible ceiling you can never break through, no matter how hard you try.",
+            "If you realize you can never reach your goal through effort alone... what would you do?"
+          ],
+          "correct": "Accept that there are limits and find another way.",
+          "wrong": "Keep pushing until I break through."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Levia soundlessly chews at some dried fruit, before speaking up in a low voice.",
+            "A certain Demon got their hands on immense power, thanks to a patron they happened upon by sheer luck. Though the power wasn't truly theirs, they used it to climb up the ranks.",
+            "Without that borrowed power, they'd be a nobody... Could you defend them?"
+          ],
+          "correct": "The ability to use what you've borrowed is a skill in itself.",
+          "wrong": "I don't think I could defend that."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Levia stares at the ancient tome resting on the table, and speaks.",
+            "Long ago, there was a Demon who believed they could achieve anything with enough effort. But no matter how hard they tried, there was no progress... In the end, they wound up abandoning that belief.",
+            "What do you think of their decision?"
+          ],
+          "correct": "They may have failed once, but that doesn't mean it's over.",
+          "wrong": "The Demon should have tried harder."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Levia asks me, noticeably tenser than usual.",
+            "In Demon society, strength is both rank and order. The weak have no dignity—they must bow down to the strong.",
+            "But if there were someone who had no power, yet still refused to swallow their pride... would you call them a fool?"
+          ],
+          "correct": "Not really.",
+          "wrong": "Probably."
+        }
+      ]
+    },
+    {
+      "id": "savage-warrior-aquila",
+      "costume": "Savage Warrior Aquila",
+      "character": "Aquila",
+      "drinks": [
+        { "name": "Cold Beer", "icon": "assets/images/rapport/icons/icon_resource190002_396_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Aquila stares right at me and asks...",
+            "Gotta say, you've got a real pretty face, you know that?",
+            "You ever cursed before?"
+          ],
+          "correct": "****!",
+          "wrong": "You shouldn't curse."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Aquila lets out a sigh and asks...",
+            "I just love throwing down with strong opponents at the Colosseum. But damn, it pisses me off that I don't get to pick who I face in the qualifiers...",
+            "The playoffs at least have some opponents that get me fired up, but the qualifiers are boring as hell.",
+            "<i>Sigh...</i> I know, that's just how qualifiers are...",
+            "But come on, there's gotta be some way to make 'em at least a little fun, right?"
+          ],
+          "correct": "Suggest fighting with a handicap",
+          "wrong": "Suggest taunting opponents to fire them up"
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Aquila gives her glass a slight tilt and asks...",
+            "Say you're in the middle of a fight, and you realize there's no way in hell you can win...",
+            "What do you do?"
+          ],
+          "correct": "Fight to the end, even if it kills me.",
+          "wrong": "Quickly concede defeat and give up."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Aquila flashes a sly grin as she turns to me with a question.",
+            "Trading bloody blows on a battlefield where it's either kill or be killed—",
+            "—that's the only pleasure that makes me feel alive.",
+            "When do you feel real pleasure?"
+          ],
+          "correct": "It's a secret.",
+          "wrong": "When a customer enjoys my food."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Aquila holds out her hand to me as she asks me a question.",
+            "When I grab someone's hand, I can size them up right away—whether they've got what it takes to be a gladiator.",
+            "So go on, take my hand.",
+            "Let's see what you're made of. I myself will be the judge."
+          ],
+          "correct": "Gently take her hand",
+          "wrong": "Grip her hand hard"
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Aquila locks eyes on something, then shoots her arm out at the empty glass.",
+            "Why you little...!",
+            "<i>CRASH!</i>",
+            "<i>Bzzz...</i>",
+            "The glass shatters, but the bug drifts lazily into the air without a care. Blood runs down Aquila's hand, torn up by the broken shards."
+          ],
+          "correct": "You okay?",
+          "wrong": "Can't believe you missed <i>that</i>..."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Aquila gives her glass a slight tilt and asks...",
+            "I overheard the other slave gladiators whining about their futures the other day.",
+            "Damn future hasn't even come yet, and they're all looking like they're about to have a funeral.",
+            "What about you? You normally worry about the future and all that?"
+          ],
+          "correct": "I don't.",
+          "wrong": "I do."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Aquila asks me a question while cleaning her greatsword.",
+            "The efficiency of a gladiator's weapon depends on the wielder's strength and the weapon's weight.",
+            "For the strong ones, heavy weapons usually have more advantages—but I've seen some go for lighter weapons to boost their attack speed.",
+            "So, what kind of weapon do you think suits me better?"
+          ],
+          "correct": "A heavy weapon.",
+          "wrong": "A light weapon."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Aquila gives her glass a slight tilt and asks...",
+            "Your crew might've used some cheap tricks, but it doesn't change the fact that I lost.",
+            "So tell me... If I went up against your crew again...",
+            "...you think they would beat me again?"
+          ],
+          "correct": "Yep.",
+          "wrong": "Hard to say."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Aquila stretches and asks...",
+            "Damn, I'm bored out of my mind.",
+            "Got anything fun to do?"
+          ],
+          "correct": "Offer to tell her a cool story",
+          "wrong": "Tell her that life needs its moments of dullness"
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Mid-swig, Aquila turns to me with a question.",
+            "Booze here's great, but the size of this glass bugs me.",
+            "Got anything bigger?"
+          ],
+          "correct": "Hand her the bottle",
+          "wrong": "Hand her a slightly bigger glass"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Aquila stares right at me and says...",
+            "Y'know, seems like everything you do here is nothing but boring work.",
+            "If I had to work a place like this, I'd have bolted before the first day was over.",
+            "Not that any of the jobs here suit me anyway."
+          ],
+          "correct": "You could take out the trash.",
+          "wrong": "You might have a knack for dealing with customers."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Aquila tips her glass slightly and speaks to me.",
+            "Saw some bastards causing a scene at Ghenar Restaurant the other day, and out of nowhere, you popped into my head.",
+            "If a bunch of lowlifes like that showed up here and started wrecking the place...",
+            "...what would you do?"
+          ],
+          "correct": "Throw them out by force, right then and there.",
+          "wrong": "Calmly talk them down."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Aquila tips her glass slightly and speaks to me.",
+            "Hey, you doing anything tomorrow?",
+            "I'm heading out to hunt some fiends. It's been a while...",
+            "If you've got nothing going on, you should come with me."
+          ],
+          "correct": "You sure you want me along?",
+          "wrong": "I don't think I can if it's just the two of us..."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Aquila lets out a sigh and asks...",
+            "Days I don't get a good fight? Drives me damn crazy. Can't sleep at night.",
+            "What should I do on days like that?"
+          ],
+          "correct": "Read a book.",
+          "wrong": "Work out."
+        }
+      ]
     }
   ]
 }

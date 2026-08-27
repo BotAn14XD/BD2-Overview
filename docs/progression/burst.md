@@ -82,15 +82,20 @@ When you choose the skill with upgraded Burst, you can press the little arrow to
 ??? image "Image Guide"
     ![Burst Switch](../assets/images/burst/switch_burst.avif)
 
-<!-- Additionally, active Burst will be displayed in their own Cards.
+Additionally, active Burst will be displayed in their own Cards.
 
-??? image "Image Guide"
-    ![Burst Demonstration v2](../assets/images/burst/PLACEHOLDER) -->
+??? image "Image Demonstration"
+    ![Burst Demonstration v2](../assets/images/burst/burst_active.avif)
 
-Aside from the animation <!--things mentioned above-->, the Skill Card will now have a light blue border and extra SP shown in orange, and burst effects will be highlighted.
+Aside from the things mentioned above, the Skill Card will now have a light blue border and extra SP shown in orange, and burst effects will be highlighted.
 
-??? image "Image Demonstration" 
+??? image "Image Demonstration"
     ![Burst Demonstration](../assets/images/burst/burst_display.avif)
+
+When Burst is used directly, special pop-up appears for a brief moment as well.
+
+??? image "Image Demonstration"
+    ![Burst Banner Demonstration](../assets/images/burst/burst_banner.avif)
 
 ### Auto Burst
 
@@ -140,66 +145,6 @@ Costumes within each category are **not sorted** in priority, but rather **alpha
 
 When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burst 1 provides a small benefit on its own. For these costumes, you should save your Sparks of Rampage and wait to upgrade until you can afford to unlock up to Burst 2 or 3 all at once.
 
-=== "Highest Priority"
-    * **B-Rank Idol Helena** **Bursts 1-3**{.yellow}
-    * **Homunculus Lathel** **Burst 3**{.yellow}
-
-=== "High Priority"
-    * **Adventurer of the Unknown Diana** **Bursts 1-3**{.yellow}
-    * **Heavenly Guardian Successor Glacia** **Bursts 1-3**{.yellow}
-    * **Sunny Inn Hand Helena** **Bursts 1-2**{.yellow}
-    * **Homunculus Lathel** **Bursts 1-2**{.yellow}
-    * **Onsen Manager Liberta** **Bursts 1-3**{.yellow}
-    * **Miracle Marine Mamonir** **Bursts 1-3**{.yellow}
-
-=== "Medium Priority"
-    * **Fire Graffiti Anastasia** **Burst 3**{.yellow}
-    * **The Fallen Angelica** **Burst 1**{.yellow}
-    * **Beach Vacation Eclipse** **Burst 3**{.yellow}
-    * **Naive Lady Elise** **Burst 2**{.yellow}
-    * **Sunny Inn Hand Helena** **Burst 3**{.yellow}
-    * **Night of Jealousy Levia** **Burst 1**{.yellow}
-    * **Ocean Vanguard Luvencia** **Burst 3**{.yellow}
-    * **Beachside Justice Michaela** **Burst 3**{.yellow}
-    * **New Hire Nebris** **Bursts 2-3**{.yellow}
-    * **Deadeye Nekyndalia** **Burst 1**{.yellow}
-    * **Bikini Sylvia** **Bursts 1-3**{.yellow}
-    * **Starlight Guardian Tyr** **Bursts 1-2**{.yellow}
-    * **Comeback Idol Yuri** **Burst 3**{.yellow}
-
-=== "Low Priority"
-    * **Fire Graffiti Anastasia** **Bursts 1-2**{.yellow}
-    * **The Fallen Angelica** **Burst 2-3**{.yellow}
-    * **Tricky Lover Dalvi** **Bursts 1-3**{.yellow}
-    * **Prophetic Dream Darian** **Bursts 1-3**{.yellow}
-    * **Beach Vacation Eclipse** **Bursts 1-2**{.yellow}
-    * **Code Name O Elise** **Bursts 1-3**{.yellow}
-    * **Naive Lady Elise** **Bursts 1, 3**{.yellow}
-    * **Night of Jealousy Levia** **Bursts 2-3**{.yellow}
-    * **Ocean Vanguard Luvencia** **Bursts 1-2**{.yellow}
-    * **Wild Dog Luvencia** **Bursts 1-3**{.yellow}
-    * **Beachside Justice Michaela** **Bursts 1-2**{.yellow}
-    * **New Hire Nebris** **Burst 1**{.yellow}
-    * **Magical Violet Palette** **Bursts 2-3**{.yellow}
-    * **Steel Engine Rafina** **Bursts 1, 3**{.yellow}
-    * **Thorn of the Desert Rubia** **Bursts 1-3**{.yellow}
-    * **Reclaimed Destiny Sacred Justia** **Bursts 1-3**{.yellow}
-    * **Pool Party Scheherazade** **Burst 3**{.yellow}
-    * **Starlight Guardian Tyr** **Burst 3**{.yellow}
-    * **DJ Venaka** **Bursts 1-3**{.yellow}
-    * **Frozen Queen Wilhelmina** **Bursts 1-3**{.yellow}
-    * **Comeback Idol Yuri** **Bursts 1-2**{.yellow}
-
-=== "Complete Skip"
-    * **Blood Glutton Justia** **Bursts 1-3**{.yellow}
-    * **Pool Party Justia** **Bursts 1-3**{.yellow}
-    * **Deadeye Nekyndalia** **Bursts 2-3**{.yellow}
-    * **Magical Violet Palette** **Burst 1**{.yellow}
-    * **Steel Engine Rafina** **Burst 2**{.yellow}
-    * **Pool Party Scheherazade** **Bursts 1-2**{.yellow}
-    * **The Lapis Witch Scheherazade** **Bursts 1-3**{.yellow}
-
-<!-- NEW LIST 
 === "Highest Priority"
     * **Adventurer of the Unknown Diana** **Bursts 1-3**{.yellow}
     * **B-Rank Idol Helena** **Bursts 1-3**{.yellow}
@@ -269,5 +214,3 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Pool Party Justia** **Bursts 1-3**{.yellow}
     * **Steel Engine Rafina** **Bursts 1-2**{.yellow}
     * **The Lapis Witch Scheherazade** **Bursts 2-3**{.yellow}
-
--->

@@ -81,6 +81,7 @@ icon: material/frequently-asked-questions
     
     * **Poolside Guardian Zenith ({{Wind}} Wind)** (until +5)
     * **Iron Monarch Wilhelmina ({{Water}} Water)** (until +4)
+    * **Sunny Inn Hand Helena ({{Light}} Light**) (until +5)
     * **Red Riding Hood Rou ({{Darkness}} Darkness)** (until +5)
     * **Young Lady Blade ({{Darkness}} Darkness)** (until +5)
     * **Medical Club Teresse ({{Water}} Water)** (until +5)

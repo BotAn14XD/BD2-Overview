@@ -68,6 +68,20 @@ Each **Character** can use only 1 **Costume (Skill)** per turn.
 
 ---
 
+## Master Pack 1 Battle Solution
+
+Since Master Pack 1, Edge of Dimensions, mostly relies on using Temporary Units for clears, it can be tricky for a new player to find out good strategies immediately. Therefore, below, solutions to 4 battles are listed if you have troubles clearing the pack and unlocking most of the content in the game.
+
+{{ battle_card('mp-01', '27') }}
+
+{{ battle_card('mp-02', '28') }}
+
+{{ battle_card('mp-03', '30') }}
+
+{{ battle_card('mp-04', '32') }}
+
+---
+
 ## Home Screen Layout
 
 !!! image "Home Screen Layout"
@@ -140,6 +154,8 @@ Almost all content is divided into **Packs**. To switch the Packs, press the Car
     !!! image ""
         ![Not Story tab](assets/images/new-player-guide/no-archive.avif)
 
+---
+
 ## Guide Pass
 
 The **Guide Pass** is a Newbie Pass which goal is to make a player used with the game more, additionally giving out resources to start the game easier.
@@ -170,6 +186,44 @@ It is incredible powerful tool to learn the game. Follow tasks and try to rememb
 
     ??? image "Image Guide" 
         ![Awakening Guide](./assets/images/new-player-guide/engraving-guide.avif)
+
+---
+
+## Recommended ★5 Costume Selective Tickets
+
+**Recommended ★5 Costume Selective Tickets** are the ones that are given as a reward in a [Guide Pass](#guide-pass), as well as some Paid Packages.
+
+Each Ticket allows you to pick 1 Costume amongst 12 suggested.
+
+To use tickets, head to the bag and press corresponding button.
+
+??? image "Image Guide"
+    ![Recommended ★5 Costume Selective Tickets Usage Access](./assets/images/new-player-guide/str-access.avif)
+
+!!! image "Selection Menu"
+    ![Recommended ★5 Costume Selective Tickets Menu](./assets/images/new-player-guide/str-menu.avif)
+
+Guide Pass gives you **12** tickets. **Mega SALE!!! First Time Countdown Package!** (Paid Package) gives another 5. Occasional other Paid Packages can give you 3 tickets as well.
+
+Assuming you have no one, you should pick
+    
+* **Adventurer of the Unknown Diana +2** (3 tickets)
+* **B-Rank Idol Helena +1** (2 tickets)
+* **Homunculus Lathel +2** (3 tickets)
+* **New Hire Seir +0** (1 ticket)
+* **Track and Field Captain Levia +0** (1 ticket)
+* **Robin Hood Zenith +0** (1 ticket)
+* **Game Club Rafina +0** (1 ticket)
+
+Assuming you also bought **Mega SALE!!! First Time Countdown Package!**, your choice changes to:
+
+* **Adventurer of the Unknown Diana +4** (5 tickets)
+* **B-Rank Idol Helena +3** (4 tickets)
+* **Homunculus Lathel +3** (4 tickets)
+* ...
+
+Order, generally speaking, does not matter since at the end you will have the same costume set either way. Nonetheless, you can start by picking **B-Rank Idol Helena +1** first to comfortably run your starting team.
+
 ---
 
 ## Gacha
@@ -196,11 +250,14 @@ For current Active Banners, refer to [Banner Recommendations](https://zormolo.gi
 
 ### Tickets & Dia Usage
 
-As a general rule, 
+As a general rule,
 
 * {{Selective_Exclusive_Draw_Ticket}} **Selective Exclusive Draw Tickets** *(Purple tickets)* — for **12-Pick Banner**.
 * {{Draw_Ticket}} **Draw Tickets** *(Red Tickets)* — for **regular banners**. Sometimes using in 12-Pick banner is fine, but keep it balanced.
-* {{Dia}} **Dia** — **treat them as Red Tickets**, but always have 1k {{Dia}} for purchasing a **Seasonal Pass**.
+* {{Dia}} **Dia** — **treat them as Red Tickets**, but always have 1k {{Dia}} for purchasing a **Seasonal Pass**.<br>1 {{Draw_Ticket}} **Draw Ticket** is equal to 200 {{Dia}} **Dia**, with 10x Draw costing 1000 {{Dia}} **Dia**, respectively.
+
+{{ redirect_btn('FAQ/#12pick', 'View 12-Pick Recommendations', '#4caf50') }}
+{{ redirect_btn('https://zormolo.github.io/BD2-Banner-Recommendation/', 'Active Banners Recommendations', '#4caf50') }}
 
 ---
 
@@ -212,6 +269,13 @@ However, for simplification, in a story you tend to run the same core stuff with
 
 The general idea is **1-3 DPS**, with rest being **Supports**. **3 Supports** and **2 DPS** is author's preferred team composition for simple fights, although it can vary.
 
+!!! warning "Damage Types Are Not Good to Mix!"
+    Keep your buffers within same damage type, unless you know what you are doing. 
+
+    * {{ATK}} **ATK Buffers**{.yellow} (Arines, Homunculus Lathel) only buff {{Physical}} **Physical**{.yellow} damage.
+    * {{MATK}} **MATK Buffers**{.magenta} (B-Rank Idol Helena, Elpis) only buff {{Magical}} **Magical**{.magenta} damage.
+    * **Universal Buffers**{.white} (Kind Student Samay, Adventurer of the Unknown Diana) buff both damage types.
+
 ### General Content AoE Team
 
 This team is designed to clear battle with a lot of enemies.
@@ -219,13 +283,14 @@ This team is designed to clear battle with a lot of enemies.
 !!! image "Newbie AoE Team"
     ![Newbie Brown Dust 2 Team](assets/images/faq/newbie_team_Kit.avif)
 
-* **Slot 1**{.yellow} — [B-Rank Idol Helena](https://browndust2.miraheze.org/wiki/Helena/B-Rank_Idol) — 5★ Support — from [Recommended ★5 Costume Selective Ticket](https://botan14xd.github.io/BD2-Overview/FAQ/#str).
-* **Slot 2**{.yellow} — [Hand of Salvation Elpis](https://browndust2.miraheze.org/wiki/Elpis/Hand_of_Salvation) — 4★ Support — from any Gacha banner.
-* **Slot 3**{.yellow} — [Kind Student Samay](https://browndust2.miraheze.org/wiki/Samay/Kind_Student) — 4★ Support — from any Gacha banner.
-    * **Substitute**{.yellow} — [Queen of Gluttis Granadair](https://browndust2.miraheze.org/wiki/Granadair/Queen_of_Gluttis) — 5★ Support — from random Pub Recruit.
-    * **Substitute**{.yellow} — [Adventurer of the Unknown Diana](https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown) — 5★ Support — from Story Pack 10 Pub Recruit — **if enemy is Light or Fire**{.yellow}.
-* **Slot 4**{.yellow} — [Dream Bride Eclipse](https://browndust2.miraheze.org/wiki/Eclipse/Dream Bride) — 5★ DPS — from Events Tab.
-* **Slot 5**{.yellow} — [Summer Vacation Dalvi](https://browndust2.miraheze.org/wiki/Dalvi/Summer_Vacation) — 5★ DPS — from Events Tab.
+??? example "Text Version"
+    * **Slot 1**{.yellow} — [B-Rank Idol Helena](https://browndust2.miraheze.org/wiki/Helena/B-Rank_Idol) — 5★ Support — from [Recommended ★5 Costume Selective Ticket](https://botan14xd.github.io/BD2-Overview/FAQ/#str).
+    * **Slot 2**{.yellow} — [Hand of Salvation Elpis](https://browndust2.miraheze.org/wiki/Elpis/Hand_of_Salvation) — 4★ Support — from any Gacha banner.
+    * **Slot 3**{.yellow} — [Kind Student Samay](https://browndust2.miraheze.org/wiki/Samay/Kind_Student) — 4★ Support — from any Gacha banner.
+        * **Substitute** — [Queen of Gluttis Granadair](https://browndust2.miraheze.org/wiki/Granadair/Queen_of_Gluttis) — 5★ Support — from random Pub Recruit.
+        * **Substitute** — [Adventurer of the Unknown Diana](https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown) — 5★ Support — from Story Pack 10 Pub Recruit — **if enemy is {{Light}} Light or {{Fire}} Fire**{.yellow}.
+    * **Slot 4**{.yellow} — [Dream Bride Eclipse](https://browndust2.miraheze.org/wiki/Eclipse/Dream Bride) — 5★ DPS — from Events Tab.
+    * **Slot 5**{.yellow} — [Summer Vacation Dalvi](https://browndust2.miraheze.org/wiki/Dalvi/Summer_Vacation) — 5★ DPS — from Events Tab.
 
 !!! abstract "Costumes vs Characters"
 
@@ -233,6 +298,34 @@ This team is designed to clear battle with a lot of enemies.
     
     On the image and in the list, **Costumes** are provided as a **Turn 1** option. If you use these Costumes (Skills) on Turn 1, you have more chances to finish the battle in a single turn. 
 
+### General Content Single Target Team
+
+This team is suitable for fights against a single targets, like Apostle Partan.
+
+!!! image "Newbie Single Target Team"
+    ![Newbie Brown Dust 2 Team](assets/images/faq/solo_boss_kit.avif)
+
+??? example "Text Version"
+    * **Slot 1**{.yellow} — [Priest of Vitality Arines](https://browndust2.miraheze.org/wiki/Arines/Priest_of_Vitality) — 3★ Support — from any Gacha banner.
+        * **Substitute** — [Dark Saintess Liberta](https://browndust2.miraheze.org/wiki/Liberta/Dark_Saintess) — 5★ Support — from Story Pack 15 Pub Recruit — **if she is +2 or higher**{.yellow}.
+    * **Slot 2**{.yellow} — [Homunculus Lathel](https://browndust2.miraheze.org/wiki/Lathel/Homunculus) — 5★ Support — [Recommended ★5 Costume Selective Ticket](https://botan14xd.github.io/BD2-Overview/FAQ/#str).
+        * **Substitute** — [Dark Saintess Liberta](https://browndust2.miraheze.org/wiki/Liberta/Dark_Saintess) — 5★ Support — from Story Pack 15 Pub Recruit.
+    * **Slot 3**{.yellow} — [Robin Hood Zenith](https://browndust2.miraheze.org/wiki/Zenith/Robin_Hood) — 5★ Support — from [Recommended ★5 Costume Selective Ticket](https://botan14xd.github.io/BD2-Overview/FAQ/#str).
+        * **Substitute** — [Little Hunter Rigenette](https://browndust2.miraheze.org/wiki/Rigenette/Little_Hunter) — 3★ Support — from any Gacha banner.
+        * **Substitute** — [Apostle Morpeah](https://browndust2.miraheze.org/wiki/Morpeah/Apostle) — 5★ Support — from Story Pack 17 Pub Recruit.
+    * **Slot 4**{.yellow} — [Kind Student Samay](https://browndust2.miraheze.org/wiki/Samay/Kind_Student) — 4★ Support — from any Gacha banner.
+        * **Substitute** — [Adventurer of the Unknown Diana](https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown) — 5★ Support — from Story Pack 10 Pub Recruit — **if enemy is {{Darkness}} Darkness**{.yellow}.
+        * **Substitute** — [The Curse Celia](https://browndust2.miraheze.org/wiki/Celia/The_Curse) — 5★ Support — from [Infinite Draw Gacha Banner](#infinite-draw).
+        * **Substitute** — [Frozen Queen Wilhelmina](https://browndust2.miraheze.org/wiki/Wilhelmina/Frozen_Queen) — 5★ Support/DPS — from Events Tab.
+        * **Substitute** — [Night of Death Mamonir](https://browndust2.miraheze.org/wiki/Mamonir/Night_of_Death) — 5★ Support/DPS — from random Pub Recruit.
+    * **Slot 5**{.yellow} — [Comeback Idol Ventana](https://browndust2.miraheze.org/wiki/Ventana/Comeback_Idol) — 5★ DPS — **borrow** from Friends.
+
+!!! question "How to Borrow?"
+    1. Find a person with the unit you need, either via social media, in-game or via other means.
+    2. Send request and get accepted. 
+    3. Head into the battle, then press **Replace** → **Hand symbol** in the top right corner → Pick the desired unit.
+
+    {{ redirect_btn('mechanics/battle/#_9', 'More about Borrow Feature', '#e5b567') }}
 ---
 
 ## Gear System
@@ -250,6 +343,10 @@ Focus on your Offensive Gear first, running glass cannon setup.
 ---
 
 ## Progression To-Do List
+
+Given list can help you to not miss anything for a game progression.
+
+Do keep in mind that you **do not have to strictly follow the order**, but the list is ordered in a way that makes sense during a playthrough.
 
 <div class="checklist-group" id="checklist-permanent" markdown="0"></div>
 
