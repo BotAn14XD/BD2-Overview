@@ -326,6 +326,26 @@ This team is suitable for fights against a single targets, like Apostle Partan.
     3. Head into the battle, then press **Replace** → **Hand symbol** in the top right corner → Pick the desired unit.
 
     {{ redirect_btn('mechanics/battle/#_9', 'More about Borrow Feature', '#e5b567') }}
+
+
+---
+
+## Hunting Grounds, Path of Adventure & Quick Hunt
+
+**Quick Hunt** you can see on the Home Screen and Field Screen is **combined menu** for **Hunting Grounds** and **Path of Adventure**.
+
+!!! image "Quick Hunt Menu"
+    ![Quick Hunt Menu](./assets/images/new-player-guide/quick-hunt.avif)
+
+It serves as a **shortcut**, in which you do not have to manually do 6 fights in order to clear a dungeon. Yet, all **unlock** requirements remain the same: 
+
+* **Story Pack 3 Cleared** for {{Gold}} **Goblin Cave**, {{Red_Slime}} **Slime Empire** and {{Light_Magic_Crystal}} **Magic Crystal Caves**
+* **Story Pack 1 — 10 Normal Difficulty Cleared** for **Hunting Grounds 1 — 10** correspondingly.
+
+!!! question "How should I use {{ Cooked_Rice }} Rice and {{ Torch }} Torches?"
+    * For {{ Cooked_Rice }} Rice, use **6 rice** *(equivalent to 1 Quick Hunt)* on **Hunting Grounds** for the pass task, rest **84** — on {{ Gold }} **Gold** (Goblin Cave) or {{ Red_Slime }} **Slimes** (Slime Empire) depending on the bonus day.
+    * For {{ Torch }} Torches, do whatever Property you need crystals for.
+
 ---
 
 ## Gear System
@@ -350,6 +370,15 @@ Do keep in mind that you **do not have to strictly follow the order**, but the l
 
 <div class="checklist-group" id="checklist-permanent" markdown="0"></div>
 
+---
+
+!!! question "Still Have a Question?"
+    If so, check [FAQ](FAQ.md) page. If it does not help you either, that means it either is not new player question or it is explained elsewhere.
+
+    Either way, feel free to experiment with your progress and do not hesitate to search for any info you seem necessary.
+
+    {{ redirect_btn('FAQ/', 'Frequently Asked Questions', '#e5b567') }}
+
 <style>
 .md-typeset a[target="_blank"]::after,
 .md-typeset a[href^="http://"]::after,
@@ -357,3 +386,4 @@ Do keep in mind that you **do not have to strictly follow the order**, but the l
     display: none !important;
 }
 </style>
+
