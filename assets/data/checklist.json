@@ -1,0 +1,278 @@
+{
+  "anchor_date": "2026-07-30T00:00:00Z",
+  "patch_cycle_days": 28,
+
+  "_schema_note": "permanent = manual-reset-only trackers, never auto-cleared. repeating = cadence-based tasks (daily/weekly/biweekly/monthly/seasonal/biseasonal), auto-reset per cadence. id only needs to be unique WITHIN its cadence (or within 'permanent') — storage key is auto-built as '<cadence-prefix><id>'. priority: 'high' (default) or 'low' — high-priority items render first within a tab, then sorted by id.",
+
+  "permanent": [
+    { "id": 1, "priority": "high", "name": "Completed <strong>Master Pack 1 (Edge of Dimensions)</strong>" },
+    { "id": 2, "priority": "high", "name": "Obtained <a href=\"https://browndust2.miraheze.org/wiki/Celia/The_Curse\">The Curse Celia</a> from <strong>Newbie Infinite Draw" },
+    { "id": 3, "priority": "high", "name": "Used available <strong><a href=\"https://thebd2pulse.com/en/\">Coupon Codes</a></strong>" },
+    { "id": 4, "priority": "high", "name": "Obtained <strong>Free Costumes</strong> from the <strong>Events</strong> tab (<a href=\"https://browndust2.miraheze.org/wiki/Eclipse/Dream_Bride\"><strong>Eclipse</strong></a> & <a href=\"https://browndust2.miraheze.org/wiki/Dalvi/Summer_Vacation\"><strong>Dalvi</strong></a> — highest priority for <strong>leveling up</strong>)" },
+    { "id": 5, "priority": "high", "name": "Completed <strong>Story Pack 3 (Mist Man)</strong> on Normal Difficulty — Unlocks <a href=\"../content-packs/last-night/\"><strong>Last Night</strong></a>, <strong>Path of Adventure</strong>, <a href=\"../content-packs/mirror-wars/\"><strong>Mirror Wars</strong></a>" },
+    { "id": 6, "priority": "high", "name": "<strong>Joined</strong> a <strong>Guild</strong>" },
+    { "id": 7, "priority": "high", "name": "Upgraded <strong>Eclipse</strong> and <strong>Dalvi</strong> to the level 100" },
+    { "id": 8, "priority": "high", "name": "Upgraded <strong>Crafting Ability Skill</strong> to <strong>Advanced</strong> Level" },
+    { "id": 9, "priority": "high", "name": "Set up the team and fought in <a href=\"../content-packs/last-night/\"><strong>Last Night</strong></a> — To start receive Daily Rewards" },
+    { "id": 10, "priority": "high", "name": "Cleared <strong>Goblin Cave</strong>, <strong>Slime Emprire</strong> and <strong>Magic Crystal Caves</strong> on Normal Diffulty" },
+    { "id": 11, "priority": "high", "name": "Cleared <strong>Goblin Cave</strong>, <strong>Slime Emprire</strong> and <strong>Magic Crystal Caves</strong> on Hard Diffulty" },
+    { "id": 12, "priority": "high", "name": "Cleared <strong>Goblin Cave</strong>, <strong>Slime Emprire</strong> and <strong>Magic Crystal Caves</strong> on Very Hard Diffulty" },
+    { "id": 12, "priority": "high", "name": "Completed <strong>Story Pack 4 (Cat Daddy)</strong> on Normal Difficulty — Unlocks <a href=\"../content-packs/evil-castle/\"><strong>Evil Castle</strong></a>" },
+    { "id": 13, "priority": "high", "name": "Fought in <a href=\"../content-packs/evil-castle/#tower-of-pride\"><strong>Tower of Pride</strong></a> (as much Floors as possible) — To start receive Daily Rewards"},
+    { "id": 14, "priority": "high", "name": "Upgraded <strong>Crafting Ability Skill</strong> to <strong>Expert</strong> Level" },
+    { "id": 15, "priority": "high", "name": "Completed <strong>Story Pack 6 (Pagan Tower)</strong> on Normal Difficulty — Unlocks <strong>Golden Colosseum</strong>"},   
+    { "id": 16, "priority": "high", "name": "Completed <strong>Story Pack 7 (Fury Angel)</strong> on Normal Difficulty — Unlocks <strong>Hunting Grounds 7</strong>"},
+    { "id": 17, "priority": "high", "name": "Completed <strong>Story Pack 7 (Fury Angel)</strong> on Hard Difficulty — Unlocks <strong>Hunting Grounds 7 Hard Difficulty</strong>"},
+    { "id": 18, "priority": "high", "name": "Completed <strong>Story Pack 7 (Fury Angel)</strong> on Very Hard Difficulty — Unlocks <strong>Hunting Grounds 7 Very Hard Difficulty</strong>"},
+    { "id": 19, "priority": "high", "name": "Completed <strong>Story Pack 9 (Bloody Rhapsody)</strong> on Normal Difficulty — Unlocks <a href=\"../content-packs/evil-castle/#tower-of-pride\"><strong>Tower of Salvation</strong></a>, <strong>Hunting Grounds 9</strong>"},
+    { "id": 20, "priority": "high", "name": "Completed <strong>Story Pack 9 (Bloody Rhapsody)</strong> on Hard Difficulty — Unlocks <strong>Hunting Grounds 9 Hard Difficulty</strong>"},
+    { "id": 21, "priority": "high", "name": "Completed <strong>Story Pack 9 (Bloody Rhapsody)</strong> on Very Hard Difficulty — Unlocks <strong>Hunting Grounds 9 Very Hard Difficulty</strong>"},
+    { "id": 22, "priority": "high", "name": "Completed <a href=\"../content-packs/evil-castle/#tower-of-salvation\"><strong>Tower of Salvation</strong></a> on Level 1 or higher — Secures Seasonal Rewards"},
+    { "id": 23, "priority": "high", "name": "Completed <strong>Story Pack 10 (Homunculus)</strong> on Normal Difficulty — Unlocks Diana recruit in Pub"},
+    { "id": 24, "priority": "high", "name": "Recruited <a href=\"https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown\"><strong>Adventurer of the Unknown Diana</strong></a> from Story Pack 10 Pub"},
+    { "id": 25, "priority": "high", "name": "Upgraded <strong>Crafting Ability Skill</strong> to <strong>Legendary</strong> Level" },
+    { "id": 26, "priority": "high", "name": "Upgraded <strong>Alchemy Ability Skill</strong> to <strong>Legendary</strong> Level" },
+    { "id": 27, "priority": "high", "name": "Completed <strong>Story Pack 15 (Promise of Vengeance)</strong> on Normal Difficulty — Unlocks Liberta recruit in Pub"},
+    { "id": 28, "priority": "high", "name": "Recruited <a href=\"https://browndust2.miraheze.org/wiki/Liberta/Dark_Saintess\"><strong>Dark Saintess Liberta</strong></a> from Story Pack 15 Pub"}
+  ],
+
+  "repeating": [
+    {
+      "id": 1, "cadence": "daily", "priority": "high",
+      "name": "Spent all daily {icon} <strong>Cooked Rice</strong> (Quick Hunt / Path of Adventure / Hunting Grounds)",
+      "icon_path": "../assets/images/icons/cooked_rice.avif",
+      "icon_label": "Cooked Rice"
+    },
+    {
+      "id": 2, "cadence": "daily", "priority": "high",
+      "name": "Spent all daily {icon} <strong>Torches</strong> (Quick Hunt / Path of Adventure)",
+      "icon_path": "../assets/images/icons/icon_resource60023_163.avif",
+      "icon_label": "Torch"
+    },
+    {
+      "id": 3, "cadence": "daily", "priority": "high",
+      "name": "Spent all daily {icon} <strong>Blood Cocktails</strong> (<a href=\"../content-packs/mirror-wars/\">Mirror Wars</a>)",
+      "icon_path": "../assets/images/icons/icon_resource60009_92.avif",
+      "icon_label": "Blood Cocktail",
+      "settlement_day": 0, "settlement_hour": 15
+    },
+    {
+      "id": 4, "cadence": "daily", "priority": "high",
+      "name": "Used all free <strong>Attempts</strong> in Normal / Challenge Battles (<a href=\"../content/events/\">Season Event</a>)"
+    },
+    {
+      "id": 5, "cadence": "daily", "priority": "high",
+      "name": "Used all banners <strong>Free Draws</strong> (Gacha)"
+    },
+    {
+      "id": 6, "cadence": "daily", "priority": "low",
+      "name": "Used all daily <strong>Absorption</strong> attempts (Character Ability, Map)"
+    },
+    {
+      "id": 7, "cadence": "daily", "priority": "low",
+      "name": "Used all daily <strong>Assembly</strong> attempts (Character Ability, Map)"
+    },
+    {
+      "id": 8, "cadence": "daily", "priority": "low",
+      "name": "Used all daily <strong>Overpower</strong> attempts (Character Ability, Map)"
+    },
+    {
+      "id": 9, "cadence": "daily", "priority": "high",
+      "name": "Completed <strong>Daily Missions</strong> (Missions)"
+    },
+    {
+      "id": 10, "cadence": "daily", "priority": "high",
+      "name": "Completed <strong>Pass Tasks</strong> (Pass)"
+    },
+    {
+      "id": 11, "cadence": "daily", "priority": "high",
+      "name": "Collected Daily Rewards from Dispatch, <a href=\"../content-packs/last-night/\">Last Night</a> and <a href=\"../content-packs/evil-castle/\">Evil Castle</a> (Field Menu)"
+    },
+    {
+      "id": 12, "cadence": "daily", "priority": "low",
+      "name": "Obtained <strong>Guild Daily Attendance Reward</strong> (Guild)"
+    },
+    {
+      "id": 13, "cadence": "daily", "priority": "low",
+      "name": "Collected daily <strong>Magic Crystals</strong> and {icon} <strong>Deco Coins</strong> (Glupy Diner)",
+      "icon_path": "../assets/images/icons/icon_resource180001_349.avif"
+    },
+    {
+      "id": 14, "cadence": "daily", "priority": "low",
+      "name": "Bought ingredients, cooked & sold <strong>dishes</strong> (Cooking Field Ability / Shops)"
+    },
+    {
+      "id": 15, "cadence": "daily", "priority": "low",
+      "name": "Used all <strong>Talk Attempts</strong> (Rapport)"
+    },
+    {
+      "id": 16, "cadence": "daily", "priority": "low",
+      "name": "Prayed at <strong>Goddess Statue</strong> (Fantasia Square)"
+    },
+    {
+      "id": 17, "cadence": "daily", "priority": "low",
+      "name": "Obtained rewards from Glupy Diner, Fishing Voyage and <a href=\"https://botan14xd.github.io/BD2-Overview/life-sim/territory/\">Fantasia Territory</a> Helpers (Business Management — Home Screen)"
+    },  
+    {
+      "id": 18, "cadence": "daily", "priority": "low",
+      "name": "Collected Daily Attendance Reward from the <a href=\"https://webshop.browndust2.global/en-US/\">Web Shop</a>"
+    },
+    {
+      "id": 1, "cadence": "weekly", "priority": "high",
+      "name": "Fought in <strong>Golden Colosseum</strong> (<a href=\"../content-packs/gc.md\">Golden Colosseum</a>)",
+      "settlement_day": 3, "settlement_hour": 15
+    },
+    {
+      "id": 2, "cadence": "weekly", "priority": "high",
+      "name": "Completed <strong>Weekly Missions</strong> (Missions)"
+    },
+    {
+      "id": 3, "cadence": "weekly", "priority": "low",
+      "name": "Used all weekly <strong>Stealing</strong> Attempts (Character Ability, Map)"
+    },
+    {
+      "id": 4, "cadence": "weekly", "priority": "low",
+      "name": "Completed <strong>Weekly Quests</strong> (Map)"
+    },
+    {
+      "id": 5, "cadence": "weekly", "priority": "low",
+      "name": "Visited <strong>Champion Statues</strong> (Fantasia Square, <a href=\"../content-packs/mirror-wars/\">Mirror Wars</a>)"
+    },
+    {
+      "id": 1, "cadence": "biweekly", "priority": "high",
+      "name": "Bought desired Costumes from <strong>Powder of Hope Shop</strong> (Shop)"
+    },
+    {
+      "id": 2, "cadence": "biweekly", "priority": "high",
+      "name": "Collected Event Currency from reading Story in <strong>Season Event</strong> (<a href=\"../content/events/\">Season Event</a>)"
+    },
+    {
+      "id": 3, "cadence": "biweekly", "priority": "high",
+      "name": "Bought resources in <strong>Season Event Shop</strong> (<a href=\"../content/events/#event-shop\">Season Event</a>)"
+    },    
+    {
+      "id": 1, "cadence": "seasonal", "priority": "high",
+      "name": "Completed a Board in <strong>Taros Tactical Manual</strong> (<a href=\"../content/ttm/\">Taros Tactical Manual</a>)"
+    },
+    {
+      "id": 2, "cadence": "seasonal", "priority": "high",
+      "name": "Completed the <strong>Tower of Salvation</strong> (<a href=\"../content-packs/evil-castle/#tower-of-salvation\">Evil Castle</a>)"
+    },
+    {
+      "id": 3, "cadence": "seasonal", "priority": "high",
+      "name": "Bought the featured Costume in the <strong><a href=\"../content-packs/mirror-wars/\">Mirror Wars</a> Shop</strong> (unless the Costume is +5)"
+    },
+    {
+      "id": 4, "cadence": "seasonal", "priority": "high",
+      "name": "Bought the premium pass with 1k {icon} <strong>Dia</strong> (Pass)",
+      "icon_path": "../assets/images/icons/icon_resource60001_84.avif",
+      "icon_label": "Dia"
+    },
+    {
+      "id": 1, "cadence": "biseasonal", "priority": "high", "target_tab": "seasonal",
+      "name": "Completed all the boards in the <strong>The Soul Wager</strong> & bought resources in the Shop (<a href=\"../content-packs/soul-wager/\">The Soul Wager</a>)",
+      "settlement_hours_before_reset": 9
+    },
+
+    {
+      "id": 1, "cadence": "monthly", "priority": "high",
+      "name": "Bought <a href=\"../misc/slang/?term=unidupe\">unidupe</a> & <a href=\"../misc/slang/?term=sparks\">sparks</a> in <strong>Golden Thread Shop</strong> (Shop)"
+    },
+    {
+      "id": 2, "cadence": "monthly", "priority": "high",
+      "name": "Bought <a href=\"../misc/slang/?term=sparks\">sparks</a> in <strong>Refinement Remnant Shop</strong> (Shop)"
+    },
+    {
+      "id": 3, "cadence": "monthly", "priority": "high",
+      "name": "Bought all resources in <strong>Guild Shop</strong> (Shop)"
+    },
+    {
+      "id": 4, "cadence": "monthly", "priority": "high",
+      "name": "Bought necessary resources in <strong><a href=\"../content-packs/evil-castle\">Evil Castle</a> Shop</strong> (Shop)"
+    },
+    {
+      "id": 5, "cadence": "monthly", "priority": "high",
+      "name": "Bought all resources in <strong>Fishing Shop</strong> (Shop)"
+    },
+    {
+      "id": 6, "cadence": "monthly", "priority": "high",
+      "name": "Bought necessary resources in <strong><a href=\"../content-packs/gc\">Golden Colosseum</a> Shop</strong> (Shop)"
+    },
+    {
+      "id": 7, "cadence": "monthly", "priority": "low",
+      "name": "Bought rest of necessary resources in <strong>Golden Thread Shop</strong> (Shop)"
+    },
+    {
+      "id": 8, "cadence": "monthly", "priority": "low",
+      "name": "Bought necessary resources in <strong><a href=\"../content-packs/mirror-wars\">Mirror Wars</a> Shop</strong> (Shop)"
+    }
+  ],
+
+  "cycle_template": {
+    "week_1": {
+      "events": [
+        {
+          "id": "guild_raid",
+          "name": "Attacked Guild Raid Boss (Guild Raid)",
+          "offset_start_days": 0,
+          "offset_end_days": 6,
+          "settlement_utc_hour": 15,
+          "is_daily_reset": false,
+          "target_tab": "weekly"
+        }
+      ]
+    },
+    "week_2": {
+      "events": [
+        {
+          "id": "fiend_hunter",
+          "name": "Attacked Fiend Hunter Boss (<a href='https://botan14xd.github.io/BD2-Overview/content/fh/'>Fiend Hunter</a>)",
+          "offset_start_days": 0,
+          "offset_end_days": 6,
+          "settlement_utc_hour": 15,
+          "is_daily_reset": true,
+          "target_tab": "daily",
+          "link": "../content/fh.md"
+        }
+      ]
+    },
+    "week_3": { "events": [] },
+    "week_4": {
+      "events": [
+        {
+          "id": "fiend_hunter",
+          "name": "Attacked Fiend Hunter Boss (<a href='https://botan14xd.github.io/BD2-Overview/content/fh/'>Fiend Hunter</a>)",
+          "offset_start_days": 0,
+          "offset_end_days": 6,
+          "settlement_utc_hour": 15,
+          "is_daily_reset": true,
+          "target_tab": "daily",
+          "link": "../content/fh.md"
+        }
+      ]
+    }
+  },
+
+  "overrides": [
+    {
+      "comment": "Fiend Hunter Error Season Rerun",
+      "id": "fiend-hunter-error-rerun-1",
+      "name": "Attacked Fiend Hunter Boss (Error Season Rerun) (<a href='https://botan14xd.github.io/BD2-Overview/content/fh/'>Fiend Hunter</a>)",
+      "start": "2026-07-30T00:00:00Z",
+      "end": "2026-08-05T15:00:00Z",
+      "is_daily_reset": true,
+      "target_tab": "daily",
+      "suppress_default_cycle": true
+    },
+    {
+      "comment": "Fiend Hunter Error Season Rerun",
+      "id": "fiend-hunter-error-rerun-2",
+      "name": "Attacked Fiend Hunter Boss (Error Season Rerun) (<a href='https://botan14xd.github.io/BD2-Overview/content/fh/'>Fiend Hunter</a>)",
+      "start": "2026-08-13T00:00:00Z",
+      "end": "2026-08-19T15:00:00Z",
+      "is_daily_reset": true,
+      "target_tab": "daily",
+      "suppress_default_cycle": true
+    }
+  ]
+}

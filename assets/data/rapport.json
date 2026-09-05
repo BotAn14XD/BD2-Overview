@@ -1,0 +1,2810 @@
+{
+  "_schema": {
+    "costume":   "display name shown in the header + search",
+    "character": "base character, also searchable",
+    "drinks":    "1-2 favourite drinks; icon optional (path relative to site root)",
+    "encounters": "15 per costume; each has n, intro (array of lines, may be empty), correct (green), wrong (red)"
+  },
+
+  "costumes": [
+    {
+      "id": "tricky-lover-dalvi",
+      "costume": "Tricky Lover Dalvi",
+      "character": "Dalvi",
+      "drinks": [
+        { "name": "Velvety Wine", "icon": "assets/images/rapport/icons/icon_resource190003_397_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Dalvi strokes her tails as she asks me a question.",
+            "Hmm, maybe it's from being out at sea, but my tails have gotten all frizzy.",
+            "Would you brush them for me?"
+          ],
+          "correct": "Use a wide-toothed comb",
+          "wrong": "Use a fine-tooth comb"
+        },
+        {
+          "n": 2,
+          "intro": [
+            "I chat with Dalvi while playing cards.",
+            "Card games are actually rather fun once you get into them.",
+            "What do you like about card games?"
+          ],
+          "correct": "Watching the loser get mad.",
+          "wrong": "The thrill of a close match."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Dalvi stands up and shows off her outfit as she asks me a question.",
+            "This is the outfit I wore to the casino party.",
+            "What do you think? Do you like it?"
+          ],
+          "correct": "It's pretty.",
+          "wrong": "Your hairpin is pretty."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Dalvi lightly swirls her glass with a tired look on her face.",
+            "I'm feeling a little tired today.",
+            "Would you comfort me?"
+          ],
+          "correct": "Stroke her ears",
+          "wrong": "Stroke her tail"
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Dalvi swishes her tails as she asks me a question.",
+            "The other day, I was playing a game when my opponent got upset and accused me of cheating.",
+            "Do you think it's unfair of me to use my powers?"
+          ],
+          "correct": "Deception is part of the game.",
+          "wrong": "It does seem a little unfair."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Dalvi yawns as she asks me a question.",
+            "I'm starting to feel like trying another game. Is there anything you'd recommend?"
+          ],
+          "correct": "Tell her about Old Maid",
+          "wrong": "Tell her about a board game"
+        },
+        {
+          "n": 7,
+          "intro": [
+            "After drinking some wine, Dalvi hesitates slightly before asking me a question.",
+            "If I said I needed your vital energy...",
+            "Would you share some with me?"
+          ],
+          "correct": "Of course.",
+          "wrong": "I'd think about it."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "While we're playing cards, Dalvi empties her glass in one go before turning to speak.",
+            "Mmm, maybe it's the drink, but I'm feeling a little hot...",
+            "Dalvi tugs lightly at her outfit and fans herself with her hand."
+          ],
+          "correct": "Sneak a glance at Dalvi",
+          "wrong": "Focus on the game"
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Dalvi gently swirls a glass of red wine as she speaks.",
+            "Do you know why people swirl wine like this?"
+          ],
+          "correct": "To check the wine's body.",
+          "wrong": "To take in the wine's aroma."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Dalvi turns to me while toying with a chip.",
+            "I got this chip at the casino. It used to be full of desire from the play who had it before.",
+            "What do <i>you</i> think \"desire\" is?"
+          ],
+          "correct": "The thing that drives you to reach for a goal.",
+          "wrong": "Desire can drive people down the wrong path."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Dalvi sets down her glass of red wine and picks up a piece of cheese.",
+            "Red wine with a piece of cheese. My favorite pairing.",
+            "What kind of wine do you like?"
+          ],
+          "correct": "Red wine.",
+          "wrong": "White wine."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "During a card game, Dalvi's eyes sharpen as she asks me a question.",
+            "This game taught me how important it is not to let your opponent figure out your tells.",
+            "What do you do to keep yours from showing?"
+          ],
+          "correct": "I stay calm and keep my bets consistent.",
+          "wrong": "I keep a poker face and make aggressive bets."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Dalvi shows off her new camera as she turns to me with a question.",
+            "Even a nine-tailed fox needs to earn money to survive in this day and age.",
+            "So I was thinking of filming videos and posting them online. What kind of concept do you think would suit me?"
+          ],
+          "correct": "ASMR with a sexy voice.",
+          "wrong": "A vlog showing off the real you."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Dalvi turns to me as she shuffles a deck of cards.",
+            "Want to see a magic trick? Pick a card—I'll guess which one you picked.",
+            "I take a card from Dalvi's hand. It's a Queen of Hearts."
+          ],
+          "correct": "How could you tell?",
+          "wrong": "You're wrong."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Dalvi and I kicked off a game of chip flicking.",
+            "After going neck-and-neck, I finally spot my chance to clinch the game.",
+            "Master, can't you go easy on me? Just this once?",
+            "Pretty please? With a cherry on top?"
+          ],
+          "correct": "A man's gotta know when to go easy.",
+          "wrong": "A game's a game. I'm going all out."
+        }
+      ]
+    },
+    {
+      "id": "white-cat-rou",
+      "costume": "White Cat Rou",
+      "character": "Rou",
+      "drinks": [
+        { "name": "Creamy Milk", "icon": "assets/images/rapport/icons/icon_resource190001_395_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Rou asks a question, her eyes completely lighting up.",
+            "Nyah! Rou found the coolest spot ever on a walk!",
+            "There's a pretty grass field, and an awesome cave too!",
+            "Wanna come play with Rou?"
+          ],
+          "correct": "I want to go to the grassy field.",
+          "wrong": "I want to go to the cave."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "I see Rou stretching her whole body out in a cat pose.",
+            "Nyaaah..."
+          ],
+          "correct": "Try copying her",
+          "wrong": "Praise Rou for being flexible"
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Rou asks me a question, her eyes sparkling with curiosity.",
+            "Rou loves hunting!",
+            "Rou catches super fast mice! Rou even beat a fiend way bigger than Rou before!",
+            "Have you ever gone hunting?"
+          ],
+          "correct": "I've gone fishing before.",
+          "wrong": "I catch mosquitoes in the summer."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "A loud growl comes from Rou's stomach, so I bring out a little snack.",
+            "Nyah! Yummy snacks!",
+            "B-But... Rou promised Olstein no eating late at night..."
+
+          ],
+          "correct": "Tell her Olstein will never find out",
+          "wrong": "Tell her she should keep her promise to Olstein"
+        },
+        {
+          "n": 5,
+          "intro": [
+            "I ask Rou about her cat friends.",
+            "Yeah! Rou has lots and lots of cat friends!",
+            "Rou will tell you all about Rou's cat friends!",
+            "There's Ratshu, Catshu, and Matshu!"
+
+          ],
+          "correct": "Ask about Ratshu",
+          "wrong": "Ask about Matshu"
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Rou is nodding off, her head bobbing gently.",
+            "Nyah... Nyah..."
+          ],
+          "correct": "Give her a soft cushion",
+          "wrong": "Cover her with a warm blanket"
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Rou takes a sip of warm milk and turns to me with a question.",
+            "Rou dreams all the time! Rou's absolute favorite ones are...",
+            "Eating a mountain of salmon cutlets! And flying through the sky with Rou's cat friends!",
+            "What kind of dreams do you like?"
+          ],
+          "correct": "Dream about playing together with Rou",
+          "wrong": "Dreaming about eating delicious food"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Rou takes a sip of warm milk and turns to me with a question.",
+            "People... when they're feeling down, they cheer themselves up... At least, that's what Rou heard.",
+            "How do you cheer yourself up...?"
+          ],
+          "correct": "I have some good food.",
+          "wrong": "I get some exercise."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "I ask Rou about the gloves she always wears.",
+            "Nyah! Olstein gave these to Rou! Olstein said they keep Rou from getting too wild.",
+            "Are you curious about Rou's gloves?"
+          ],
+          "correct": "Ask if they are uncomfortable to wear",
+          "wrong": "Ask if they ever make her hands itchy"
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Rou pokes her tongue out just a little as she speaks.",
+            "Uuugh... Rou burned her tongue on hot water...",
+            "Tongue's all tingly... It huuurts...!"
+
+          ],
+          "correct": "Spread a little honey",
+          "wrong": "Give her some ice"
+        },
+        {
+          "n": 11,
+          "intro": [
+            "I hear Rou humming along to the soft song drifting through the shop.",
+            "Hmm-hmm-hmm! Nyah!"
+          ],
+          "correct": "Invite Rou to dance along",
+          "wrong": "Hum along with Rou's melody"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Rou hands me a piece of candy and says—",
+            "Nyah... Rou can't get this candy wrapper open.",
+            "Can you help Rou open it?"
+          ],
+          "correct": "Unwrap the candy for her",
+          "wrong": "Eat Rou's candy"
+        },
+        {
+          "n": 13,
+          "intro": [
+            "I look away for a second, and Rou is gone.",
+            "Then, a pair of cat ears peeks up over the bar table—and Rou springs up with a bright grin.",
+            "Nyaaah! Scared you!"
+          ],
+          "correct": "React with exaggerated shock",
+          "wrong": "Pat her on the head and call her cute"
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Rou takes a sip of warm milk and turns to me with a question.",
+            "Rou... wants to make lunchboxes for Rou's friends.",
+            "Can you teach Rou to cook...?"
+          ],
+          "correct": "Teach her",
+          "wrong": "Tell her it might not be easy"
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Rou rolls up her sleeves and says—",
+            "Arm wrestle with Rou!"
+          ],
+          "correct": "Tell her to go easy",
+          "wrong": "Tell her to go all out"
+        }
+      ]
+    },
+    {
+      "id": "apostle-blade",
+      "costume": "Apostle Blade",
+      "character": "Blade",
+      "drinks": [
+        { "name": "Fragrant Whiskey", "icon": "assets/images/rapport/icons/icon_resource190004_398_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+          "Gently swirling a clear martini glass, Blade begins to speak.",
+          "Quite a bother, aren't you?",
+          "Are you that curious about my past?"
+          ],
+          "correct": "I am.",
+          "wrong": "I won't ask anymore."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Blade asks a question, unprompted.",
+            "That revenge begets revenge.",
+            "That revenge is meaningless and empty.",
+            "Do you think so too?"
+          ],
+          "correct": "No.",
+          "wrong": "Yes."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "When asked what she thinks of Justia, Blade answers.",
+            "Justia?",
+            "I can't say I've given her much thought.",
+            "What do <i>you</i> think of her?"
+          ],
+          "correct": "She's reliable.",
+          "wrong": "I'm worried about her."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "When asked what she thinks of Liberta, Blade answers.",
+            "Liberta?",
+            "I only have one word for that one.",
+            "Fanatic.",
+            "Do you believe in gods?"
+          ],
+          "correct": "I don't.",
+          "wrong": "I do."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Gently swirling a clear martini glass, Blade begins to speak.",
+            "I appreciate your help.",
+            "But I still do not trust you.",
+            "Who are you?"
+          ],
+          "correct": "I'm the owner of this restaurant.",
+          "wrong": "I don't know either."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Gently swirling a clear martini glass, Blade begins to speak.",
+            "I'm in a decent mood today.",
+            "You may ask me a question, if you wish."
+          ],
+          "correct": "I have nothing to ask.",
+          "wrong": "Ask about her revenge"
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Gently swirling a clear martini glass, Blade begins to speak.",
+            "What do I fight for, you ask?",
+            "Revenge, of course.",
+            "What about you?"
+          ],
+          "correct": "I fight for myself.",
+          "wrong": "I fight for everyone."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Gently swirling a clear martini glass, Blade begins to speak.",
+            "My eyes.",
+            "Are they hard to look at?"
+          ],
+          "correct": "They're pretty, like jewels.",
+          "wrong": "They look reptilian."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Looking over at Blade seated at the table, I ask about her name.",
+            "Correct.",
+            "My name is Blade.",
+            "Is there a problem?"
+          ],
+          "correct": "I feel like you have a real name.",
+          "wrong": "Does it hold some special meaning?"
+        },
+        {
+          "n": 10,
+          "intro": [
+            "I ask Blade if there's anything she wants to eat.",
+            "Something I want to eat?",
+            "Are you being serious?"
+          ],
+          "correct": "I want to know what food you like.",
+          "wrong": "I was just asking."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Gently swirling a clear martini glass, Blade begins to speak.",
+            "What will I do after I get my revenge, you ask?",
+            "I've never thought about it."
+          ],
+          "correct": "Suggest that she work at the restaurant",
+          "wrong": "Suggest that she go home"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Gently swirling a clear martini glass, Blade begins to speak.",
+            "I cast everything aside for the sake of revenge.",
+            "What are you willing to sacrifice for your goal?"
+          ],
+          "correct": "Everything.",
+          "wrong": "Nothing."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Blade's voice, sharp with killing intent, breaks the silence.",
+            "I wish to kill her.",
+            "That is my one desire."
+          ],
+          "correct": "Stay silent",
+          "wrong": "Don't let revenge blind you."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Gently swirling a clear martini glass, Blade begins to speak.",
+            "If I must cut someone down for my goal...",
+            "I will not hesitate."
+          ],
+          "correct": "I understand.",
+          "wrong": "Will you cut me down as well?"
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Blade's lips move slightly as she mutters to herself.",
+            "Life throws plenty of things at you that you will never understand.",
+            "I used to struggle to make sense of them.",
+            "But I don't waste my time on that anymore.",
+            "I just cut them down."
+          ],
+          "correct": "Cutting things down isn't the only answer.",
+          "wrong": "Ask her if there's no other way"
+        }
+      ]
+    },
+    {
+      "id": "dark-saintess-liberta",
+      "costume": "Dark Saintess Liberta",
+      "character": "Liberta",
+      "drinks": [
+        { "name": "Fragrant Whiskey", "icon": "assets/images/rapport/icons/icon_resource190004_398_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Liberta takes a sip of her whiskey and asks a question, her voice sounding bright and animated.",
+            "Ah... that hits the spot. I really needed that.",
+            "Hey, Master... think I could just stay here forever? Lounging around and drinking free whiskey all day?"
+          ],
+          "correct": "You can stay as long as you want.",
+          "wrong": "That might be a little difficult."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Liberta eyes me over her glass with a knowing look.",
+            "The \"you\" that you believe in... and the \"you\" everyone else sees.",
+            "Which one do you think is closer to the real thing?"
+          ],
+          "correct": "The one I see myself as.",
+          "wrong": "The one other people see."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Liberta poses a question, her voice turning quiet and steady.",
+            "The second people find out you're a servant of the faith, they start acting like you're supposed to be some perfect saint.",
+            "What do you think about holy workers, Master?"
+          ],
+          "correct": "They're just regular people.",
+          "wrong": "They're kind, special people."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Liberta pouts slightly as she asks a question.",
+            "You've had those days where absolutely everything goes to hell, right?",
+            "What do you usually do to snap yourself out of it?"
+          ],
+          "correct": "Something to change the mood.",
+          "wrong": "I just keep moving like normal."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Liberta lets out a long sigh before looking me in the eye to ask a question.",
+            "You know, I don't think people really trust me very much.",
+            "What about you, Master? Do you trust me?"
+          ],
+          "correct": "I trust you.",
+          "wrong": "You're a little hard to trust."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Liberta asks with a mischievous grin.",
+            "Master, have you ever pulled a prank on a friend just for the hell of it?"
+          ],
+          "correct": "I have.",
+          "wrong": "I haven't."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Liberta eyes me curiously and asks a question.",
+            "Master, have you ever prayed for something so hard that it actually came true?"
+          ],
+          "correct": "I haven't.",
+          "wrong": "I have."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Liberta leans in with a slight pout as she asks a question.",
+            "Let's say there's someone you absolutely, 100% cannot stand.",
+            "What would you want to do to them?"
+          ],
+          "correct": "Secretly ruin their day.",
+          "wrong": "Nothing."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Liberta leans in and drops her voice to a whisper.",
+            "Let's say someone offers you a hundred thousand gold. But the person you hate most gets a million.",
+            "Would you still take the money?"
+          ],
+          "correct": "I wouldn't.",
+          "wrong": "I would."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Liberta's face turns unusually serious as she looks at me.",
+            "Master.",
+            "Do you think I'm even capable of genuinely wishing for someone else's happiness?"
+          ],
+          "correct": "Of course.",
+          "wrong": "It'd be difficult."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Liberta leans in, her eyes sparkling with mischief.",
+            "Justia and Blade both fall into a river.",
+            "Who do you think I'd save first?"
+          ],
+          "correct": "Whoever's closer.",
+          "wrong": "I can't choose."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Liberta flashes you a playful grin.",
+            "Hey, want to play rock-paper-scissors?",
+            "I'm going scissors. Ready? Rock, paper..."
+          ],
+          "correct": "Throw rock",
+          "wrong": "Throw paper"
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Liberta leans in and drops her voice to a whisper.",
+            "So, I've finally run out of the emergency cash I keep on me.",
+            "Master, any chance you could lend me some cash?"
+          ],
+          "correct": "Give her some",
+          "wrong": "Refuse"
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Liberta looks at me curiously before asking a question.",
+            "Hmm, I'm curious. What's your real impression of me?",
+            "What kind of family do you think I came from back on the surface?"
+          ],
+          "correct": "A high noble house.",
+          "wrong": "An ordinary family."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Liberta takes a sip of her whiskey and asks a question, her voice sounding bright and animated.",
+            "No wrong answers here.",
+            "When you look at me, what's the first thing that comes to mind?"
+          ],
+          "correct": "You seem empty inside.",
+          "wrong": "You seem cheerful."
+        }
+      ]
+    },
+    {
+      "id": "deadeye-nekyndalia",
+      "costume": "Deadeye Nekyndalia",
+      "character": "Nekyndalia",
+      "drinks": [
+        { "name": "Warm Black Tea", "icon": "assets/images/rapport/icons/icon_resource190005_399_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Nekyndalia drifts into silence for a moment before speaking.",
+            "Snipers are trained to stay perfectly detached, no matter the situation.",
+            "Master, what do you think is the real purpose of that training?"
+          ],
+          "correct": "To keep from moving.",
+          "wrong": "To keep from feeling bad for the target."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "We casually chat about a movie Luvencia recommended.",
+            "Luvencia recently lent me a collection of action movies.",
+            "Since I had no orders against entertainment, I used my free time to watch the whole series."
+          ],
+          "correct": "Ask her which scene stood out to her the most",
+          "wrong": "I ask her if there were any parts she didn't like."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Nekyndalia starts talking about sniping mechanics and ballistics.",
+            "Hitting a target requires a lot of math. But once you've mastered it, you know the result before you even pull the trigger.",
+            "Would you be interested in learning how to snipe, Master?"
+          ],
+          "correct": "I'd love to learn.",
+          "wrong": "It sounds way too hard for me."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Nekyndalia talks about an op she ran alongside Granhildr.",
+            "Granhildr seems to lose her way constantly, even in the middle of a mission.",
+            "I'd like your advice, Master. How can we fix this problem?"
+          ],
+          "correct": "Signs only Team R can recognize.",
+          "wrong": "A map and a compass."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Nekyndalia insists that a tier-one sniper must possess absolute command over their sleep cycle.",
+            "When you're on a sniping mission, sometimes you have to stay awake for days.",
+            "Master, how do you usually push through when you're exhausted?"
+          ],
+          "correct": "Pure willpower.",
+          "wrong": "Caffeine."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Nekyndalia speaks while keeping her eyes locked onto the shaker behind the counter.",
+            "Luvencia seems to enjoy your cocktails quite often.",
+            "Do you like to drink, Master?"
+          ],
+          "correct": "I don't.",
+          "wrong": "I do."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Nekyndalia and I casually chat about hobbies.",
+            "Granhildr suggested that I should find a hobby.",
+            "The problem is, I don't really know what I'm supposed to be interested in."
+          ],
+          "correct": "Recommend training",
+          "wrong": "Recommend cooking"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "I ask Nekyndalia if she has a favorite drink.",
+            "I love black tea.",
+            "Especially when it is sweet enough to give you a headache."
+          ],
+          "correct": "I didn't know black tea was supposed to be that sweet.",
+          "wrong": "It sounds like you just like the taste of sugar, not the tea."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Nekyndalia asks me how to display more natural expressions.",
+            "I don't show much expression. Luvencia says I'm like a doll and calls me cute, but...",
+            "What kind of face should I make to look more natural?"
+          ],
+          "correct": "Smiling is enough.",
+          "wrong": "Try mimicking others."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Nekyndalia tells me about the hardest parts of pulling long-term surveillance as a sniper.",
+            "Sometimes a sniper has to stay in the exact same spot for days.",
+            "I can handle the physical strain of staying still, but when bugs start crawling over me..."
+          ],
+          "correct": "I'm not a fan of bugs either.",
+          "wrong": "There's a spider on your shoulder!"
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Nekyndalia talks about the training she went through to become a sniper.",
+            "The Commander taught me how to survive in the wild with nothing but my bare hands.",
+            "I was dropped in the jungle with nothing but a knife and told to survive."
+          ],
+          "correct": "That sounds rough.",
+          "wrong": "Sounds like she was just picking on you."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Nekyndalia tilts her head, her expression remaining entirely blank.",
+            "My teammates seemed really shocked when they saw me putting sugar cubes in my drink.",
+            "Do you have any idea why they reacted like that, Master?"
+          ],
+          "correct": "Ask how many she put in",
+          "wrong": "Maybe they just wanted you to share."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Nekyndalia asks me a question between quiet sips of her black tea.",
+            "Granhildr rarely speaks, and she does a lot of things that are hard to wrap my head around.",
+            "As the Captain, I want to understand her better. Do you have any advice?"
+          ],
+          "correct": "You could try talking to her about dolphins.",
+          "wrong": "Why not try talking over a fresh cup of tea?"
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Nekyndalia brings up a joint maritime operation she ran with Luvencia.",
+            "Luvencia is a natural on a jet ski, but her driving is a bit reckless.",
+            "I rode with her during the last sea mission, and the seasickness became so bad I could barely continue."
+          ],
+          "correct": "Just look at it as training.",
+          "wrong": "You should just ride separately."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Nekyndalia talks about a recent update she received from the Commander.",
+            "The Commander told me to do a good job now that I'm the Captain of Team R.",
+            "It's a bit embarrassing, but I'm not sure how to interpret the order to \"do a good job.\""
+          ],
+          "correct": "It means you should get along with the team.",
+          "wrong": "She wants to see more results."
+        }
+      ]
+    },
+    {
+      "id": "naive-lady-elise",
+      "costume": "Naive Lady Elise",
+      "character": "Elise",
+      "drinks": [
+        { "name": "Fragrant Whiskey", "icon": "assets/images/rapport/icons/icon_resource190004_398_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Twirling a strand of her hair around her finger, Elise leans in with a question.",
+            "People say changing your hairstyle can completely change your image.",
+            "What kind of hairstyle do you think would suit me?"
+          ],
+          "correct": "Your current hairstyle.",
+          "wrong": "Short hair."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Elise seems lost in thought for a moment before speaking up.",
+            "I'm not very good at being friendly with people the way Nebris is.",
+            "Got any tips?"
+          ],
+          "correct": "I'll help you practice.",
+          "wrong": "Not in this life."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "After taking a sip of her cocktail, Elise turns to me with a question.",
+            "Say there's an outfit I personally like, and another outfit people say looks good on me.",
+            "Which one do you think I should go with?"
+          ],
+          "correct": "The one you like.",
+          "wrong": "The one people say looks good on you."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Elise gives me a playful look as she asks me a question.",
+            "If I wore something sexy and tried to seduce you...",
+            "Think you'd be able to resist me?"
+          ],
+          "correct": "Would be hard not to fall.",
+          "wrong": "Seduction wouldn't work on me."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Elise holds out a photo as she asks me a question.",
+            "This is a picture I took with everyone from the cruise party.",
+            "Who do you think looks the prettiest here?"
+          ],
+          "correct": "You look the prettiest.",
+          "wrong": "Everyone looks pretty."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Elise starts doodling something on a piece of paper.",
+            "All done! Here, take a look!",
+            "Well? Pretty cool, right?"
+          ],
+          "correct": "Wow, that's a cool signature!",
+          "wrong": "Wow, that's a cool worm!"
+        },
+        {
+          "n": 7,
+          "intro": [
+            "After taking a sip of her cocktail, Elise turns to me with a question.",
+            "You know how people say even bitter drinks taste good at times?",
+            "Do you think they really mean that?"
+          ],
+          "correct": "It means the day was memorable enough to make it taste good.",
+          "wrong": "You'll understand when you're older."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Elise picks up her cocktail and starts taking pictures.",
+            "Click! Click!",
+            "Hmm... No, that's not it..."
+          ],
+          "correct": "Offer to take the picture",
+          "wrong": "Offer to change the lighting"
+        },
+        {
+          "n": 9,
+          "intro": [
+            "While looking around the restaurant, Elise asks me a question.",
+            "Feels like there are a lot of female customers here.",
+            "Why's that?"
+          ],
+          "correct": "They just come here to relax.",
+          "wrong": "They come here to see me."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Elise opens her purse and asks me a question.",
+            "Let's say I showed up here completely broke and asked you to lend me some money...",
+            "Would you actually lend me some?"
+          ],
+          "correct": "I would.",
+          "wrong": "You should go haul bricks or something."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Looking through photos from the cruise party, Elise speaks up.",
+            "Summer really is all about the ocean!",
+            "So? Got any plans to hit the beach or anything?"
+          ],
+          "correct": "I'm planning to take a vacation soon.",
+          "wrong": "The restaurant is too busy for that."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "After taking a sip of her cocktail, Elise turns to me with a question.",
+            "When you play games, what's the thing you care about most?"
+          ],
+          "correct": "Having fun.",
+          "wrong": "Winning."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "While looking at the bottles displayed in the restaurant, Elise asks me a question.",
+            "If I were a drink, what would I be?",
+            "A seductive red wine? A fancy champagne?"
+          ],
+          "correct": "A fruit cocktail.",
+          "wrong": "Beer."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Elise suddenly jumps to her feet and strikes a pose.",
+            "Well? I look super sexy, right?",
+            "Behold, my newest seduction pose!"
+          ],
+          "correct": "It's incredibly sexy.",
+          "wrong": "Are you drunk?"
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Elise seems lost in thought for a moment before speaking up.",
+            "When I was playing against Schera, it didn't even feel like there was that much of a gap between us skill-wise.",
+            "So where do you think I fell behind?"
+          ],
+          "correct": "Staying calm.",
+          "wrong": "Momentum."
+        }
+      ]
+    },
+    {
+      "id": "combat-medic-granhildr",
+      "costume": "Combat Medic Granhildr",
+      "character": "Granhildr",
+      "drinks": [
+        { "name": "Warm Black Tea", "icon": "assets/images/rapport/icons/icon_resource190005_399_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Sipping her black tea, Granhildr asks me with a completely deadpan expression.",
+            "I followed the path exactly.",
+            "But the destination... wasn't there.",
+            "Do you think someone... moved it while I wasn't looking?"
+          ],
+          "correct": "That's probably it.",
+          "wrong": "I don't think so."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "I ask her when she first started working as a mercenary.",
+            "Hmm.",
+            "It's been too long. Can't remember."
+          ],
+          "correct": "I ask if being a mercenary was always her dream.",
+          "wrong": "Ask her if there's anything else anything else she wants to do in life"
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Granhildr speaks up, her face dead serious.",
+            "Since I joined Team R...",
+            "I've found my true calling.",
+            "Do you know what it is?"
+          ],
+          "correct": "I have no idea.",
+          "wrong": "To protect those you care about."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Granhildr brings up Team R.",
+            "Luvencia is strong, but she can be reckless.",
+            "Nekyndalia is serious, but she can be a bit eccentric.",
+            "So I have to look after them."
+          ],
+          "correct": "That's true.",
+          "wrong": "Don't answer"
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Granhildr starts talking about something that happened on a recent mission.",
+            "During the op, I got separated from the squad. I was left all alone.",
+            "That's when the enemy showed up.",
+            "But like a good medic... I wiped them all out.",
+            "Not bad, right?"
+          ],
+          "correct": "Right.",
+          "wrong": "That's not very medic-like of you."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Granhildr asks a question while protectively hugging her medical bag.",
+            "Inside my medical bag...",
+            "What do you think is the most precious thing in there?"
+          ],
+          "correct": "Bandages.",
+          "wrong": "Combat Stimulants."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "I offer to mix her a cocktail, but Granhildr shakes her head.",
+            "I don't really like drinking alcohol.",
+            "It smells too much like disinfectant.",
+            "Do you like it, Master?"
+          ],
+          "correct": "I prefer tea.",
+          "wrong": "I like to drink."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Granhildr brings up the topic of CPR.",
+            "Everyone should learn CPR. It's useful.",
+            "Do you know... how to do it?"
+          ],
+          "correct": "I do.",
+          "wrong": "I don't know it."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "I ask Granhildr what she finds hardest about being a medic.",
+            "Medical theory is too hard.",
+            "There is too much to study.",
+            "Even now, there's still a mountain of things left to learn."
+          ],
+          "correct": "You're a veteran medic.",
+          "wrong": "You still have a long way to go."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Granhildr snaps her book shut and speaks up out of nowhere.",
+            "Red is passion, blue is calm, and yellow is hope.",
+            "Do you have a favorite color?"
+          ],
+          "correct": "Silver.",
+          "wrong": "Red."
+        },
+        {
+          "n": 11,
+          "intro": [
+          "Granhildr suddenly speaks up, her voice sounding stern.",
+          "I didn't have any comrades in the past.",
+          "True comrades, I mean. The kind you can trust with your back.",
+          "Now, I have them."
+          ],
+          "correct": "I ask her who she would save first if they were all drowning.",
+          "wrong": "Ask her who she thinks would save her if she were drowning"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Granhildr snaps her book shut and rushes over in a hurry.",
+            "Master.",
+            "Sometimes, even perfect first aid isn't enough.",
+            "When do you think a person actually dies?"
+          ],
+          "correct": "When they eat a Fire Coral mushroom.",
+          "wrong": "When they're forgotten."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Granhildr takes a sip of her tea and begins telling a story about a certain medic.",
+            "I heard there was once a legendary medic.",
+            "They supposedly saved a hundred people in a single battle."
+          ],
+          "correct": "It's possible if we all work together.",
+          "wrong": "Yep."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Granhildr gives her tea a soft blow and hums a little tune to herself.",
+            "Black tea is red.",
+            "Apples are also red.",
+            "And apples are good.",
+            "What else is good...?"
+          ],
+          "correct": "A banana.",
+          "wrong": "This tea."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Granhildr mutters under her breath while staring into her swirling cup.",
+            "When I look at the ocean...",
+            "I feel good.",
+            "That vast horizon... it makes me feel like I'm soaring."
+          ],
+          "correct": "The sea is mysterious.",
+          "wrong": "Have you ever flown?"
+        }
+      ]
+    },
+    {
+      "id": "ocean-vanguard-luvencia",
+      "costume": "Ocean Vanguard Luvencia",
+      "character": "Luvencia",
+      "drinks": [
+        { "name": "Cold Beer", "icon": "assets/images/rapport/icons/icon_resource190002_396_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Luvencia holds out her gun as if to show it off.",
+            "Hey, Rookie. Ever used a gun?",
+            "Aren't you curious? Wanna give mine a whirl?"
+          ],
+          "correct": "You should never hand a personal firearm to anyone.",
+          "wrong": "I want to give it a try."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Luvencia asks me a question, as if the thought just occurred to her.",
+            "I'm planning a field training exercise with the other Team R members. Wanna come with?",
+            "It'll be a simple exercise—we'll be marching, training for mountain warfare, practicing local supply procurement, setting up camps, and standing night watch."
+          ],
+          "correct": "Accept the offer",
+          "wrong": "Gently turn her down"
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Luvencia asks me a question over a cold beer.",
+            "Hey. You want to know the one thing that actually makes me lose my cool on a job?"
+          ],
+          "correct": "Teammates who hold you back.",
+          "wrong": "When the mission is about to fail."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Luvencia asks a question out of nowhere, like a random thought just hit her.",
+            "So, the rumor is that I'm a bit \"too much.\" Shameless. Brash. You know the vibe.",
+            "Be real, Rookie. Do you think I'm as bad as they say?"
+          ],
+          "correct": "You're pretty shameless.",
+          "wrong": "Not at all."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Luvencia slurs her words slightly as she asks me something.",
+            "Heyyy, Rookie...",
+            "Wanna play a game? Guess if I'm totally hammered or just faking it."
+          ],
+          "correct": "You're sober.",
+          "wrong": "You're wasted."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Luvencia tilts her head, tossing a question my way.",
+            "Granhildr and I were at each other's throats again today. Same old story.",
+            "I just don't get it. What is her damage? Why does she hate my guts so much?"
+          ],
+          "correct": "Maybe she actually likes you.",
+          "wrong": "You're a bit of a loose cannon."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Luvencia fiddles with her hair as she poses a question.",
+            "Hmm... My hair's really starting to get in the way. It's high time I cut it.",
+            "I should probably get it trimmed."
+          ],
+          "correct": "Ask her if she's going to a hair salon",
+          "wrong": "Ask her if she's going to cut it herself"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Luvencia complains to me, her voice full of irritation.",
+            "The food at camp has been absolute garbage lately. Like eating flavored sawdust.",
+            "Man, I'd kill for some of your cooking right about now."
+          ],
+          "correct": "You're welcome here anytime.",
+          "wrong": "I'll head over and cook for you."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Luvencia asks me a question over a cold beer.",
+            "How do you think I ended up flat broke this time?"
+          ],
+          "correct": "You spend money like water.",
+          "wrong": "You're probably in deep debt."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Luvencia smirks playfully before asking me a question.",
+            "Hey, Rookie. I've got a burning question for you.",
+            "If Granhildr and I actually threw down, who do you think would be walking away?"
+          ],
+          "correct": "You'd leave her in the dust.",
+          "wrong": "My money's on Granhildr."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Luvencia speaks up, her voice full of excitement.",
+            "Rookie! Rookie! Can I brag for a second? Please?",
+            "I just got this tactical vest, and it's got a secret that'll blow your mind. You want the inside scoop?"
+          ],
+          "correct": "Go ahead and brag.",
+          "wrong": "Not really interested."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Luvencia asks me a question over a cold beer.",
+            "You've seen the front lines, Rookie. You know how quickly things go sideways.",
+            "When the air is thick with lead, what's the one thing that actually keeps you breathing?"
+          ],
+          "correct": "Speed and reflexes.",
+          "wrong": "Good judgment."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Luvencia asks me a question with a mischievous smirk.",
+            "Hey, Rookie. If you ever decided to actually join the fray...",
+            "If you weren't stuck in the kitchen, what role would you pick?"
+          ],
+          "correct": "An assault trooper.",
+          "wrong": "A combat medic."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Luvencia throws out a loaded question, testing my reaction.",
+            "Hey, Rookie. Think fast.",
+            "What do you think would happen if they actually made me the team leader?"
+          ],
+          "correct": "You'd be a total wildcard.",
+          "wrong": "You'd be a strict leader."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Luvencia flashes a mischievous grin and asks a question.",
+            "Say, Rookie. If I hadn't ended up carrying a gun for a living...",
+            "What do you think I'd be doing with my life right now?"
+          ],
+          "correct": "A professional racer.",
+          "wrong": "A school nurse."
+        }
+      ]
+    },
+    {
+      "id": "night-of-death-mamonir",
+      "costume": "Night of Death Mamonir",
+      "character": "Mamonir",
+      "drinks": [
+        { "name": "Fragrant Whiskey", "icon": "assets/images/rapport/icons/icon_resource190004_398_3.avif" }, 
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Mamonir swirled the whiskey in her glass before turning a sharp gaze toward me.",
+            "There's a famous military proverb I live by: \"Winning the battle is not the same as winning the war.\"",
+            "I assume you've heard it at least once, Master?"
+          ],
+          "correct": "I've heard of it.",
+          "wrong": "Never heard of it."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Mamonir keeps glancing down at the floor, clearly bothered by the fact that the chair is taller than she is.",
+            "Is it just me, or is this chair... unnecessarily high? I feel a bit nervous when my feet can't touch the ground.",
+            "Ahem! Not that I'm critiquing the restaurant's choice of furniture. Please, don't take it as a slight."
+          ],
+          "correct": "Bring over a smaller chair",
+          "wrong": "Offer a glass of milk to help her grow"
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Mamonir holds up an antique piece of jewelry, looking for a second opinion.",
+            "My aide found this necklace in the old royal treasury and insisted I have it. She says a ruler needs to maintain an air of \"majesty\" at all times.",
+            "I've never really been one for accessories, so I'm out of my depth here. Master, do you think I need to look more... imposing?"
+          ],
+          "correct": "You're fine just the way you are.",
+          "wrong": "You should look more dignified"
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Mamonir begins telling a story about her days as a minor warlord, long before she became King.",
+            "The road to the throne of Taros was... anything but easy. I was in a constant state of war against other Undead warlords who were all circling the empty seat.",
+            "They were all dangerous, powerful opponents. Master, why do you think I was the one who managed to defeat them?"
+          ],
+          "correct": "Because you understood war better.",
+          "wrong": "Because you were the strongest."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Our casual chat eventually drifts toward the topic of Tarosian culture.",
+            "I've been working on a cultural restoration project for a while now. The end goal is to revive the lost legacy of the old Tarosian civilization.",
+            "Problem is, most Undead have zero interest in paintings or literature... What's your take on the project, Master?"
+          ],
+          "correct": "Culture is precious; it's worth restoring.",
+          "wrong": "You should teach them how to enjoy it first."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "While we are talking, my eyes wander to the massive octopus right next to her.",
+            "This is Octovius. He was a beast from the Dead Sea of Taros, but I managed to tame him after a significant amount of effort."
+          ],
+          "correct": "He looks dependable.",
+          "wrong": "He looks delicious."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Mamonir begins to explain the challenges of commanding an entire legion.",
+            "Managing a legion during a war is a constant struggle. You have to process real-time updates from the front while issuing orders.",
+            "I noticed you have a significant staff here at the restaurant... How do you go about directing them, Master?"
+          ],
+          "correct": "I assign heads for different stations and let them run things.",
+          "wrong": "I just go with the flow and hope for the best."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "A shadow of bitterness crosses Mamonir's face as she speaks.",
+            "When I first started gathering people to rebuild Taros... I hired a painter. She was brilliant, but she was always so emotionally fragile.",
+            "But because of my own lack of foresight, she's ended up on the other side. There isn't a single day where I don't carry the weight of that regret."
+          ],
+          "correct": "I'm sure you two can reconcile someday.",
+          "wrong": "That really is a sad thing to have happened."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Mamonir leans forward, a look of genuine curiosity on her face.",
+            "Maintaining a legion is an incredible drain on resources. Every new soldier drafted is one less person working on something else.",
+            "Yet, in times like these, cutting military spending isn't an option. If you were in my position, how would you solve this?"
+          ],
+          "correct": "Give them other tasks during peacetime.",
+          "wrong": "Scale back the size of the legion."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "The conversation turns to the inevitable war on the horizon.",
+            "Taros is still surrounded by countless threats. As long as they exist, the Undead will never stop suffering.",
+            "But I haven't even reclaimed the full kingdom yet, and my numbers are significantly lower than I'd like. It's only a matter of time before the next invasion."
+          ],
+          "correct": "Tell her to reach out whenever she needs help",
+          "wrong": "Tell her to be careful"
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Mamonir questions me with an intrigued look on her face.",
+            "In strategy, information is everything. But the most valuable intel is always buried behind layers of secrecy.",
+            "If you were up against an opponent who refused to show their hand, how would you go about getting the information you need?"
+          ],
+          "correct": "I'd feel them out first.",
+          "wrong": "Observe them quietly from the shadows."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Mamonir's voice drops slightly, sounding hesitant.",
+            "I was telling some of the folks from the surface about my past exploits... but they all looked so miserable by the time I finished.",
+            "Am I... really that bad of a storyteller?"
+          ],
+          "correct": "Tell her she tends to go on for too long",
+          "wrong": "Ask her what the story was about"
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Mamonir's voice turns serious as we begin discussing the current state of Taros.",
+            "I managed to forge the ruins of Taros back into a kingdom. My people call me the \"True King\" for it, and they sing my praises.",
+            "But... I'm no grand hero. I just happened to be born with the memories of a previous life. I had a head start on the history books, that's all."
+          ],
+          "correct": "Using that knowledge for your people is what makes you great.",
+          "wrong": "You are an exceptional hero, Mamonir."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Mamonir sips her drink while scribbling furiously into a thick book.",
+            "This might sound a bit eccentric, but my hobby is writing tactical manuals. I'm trying to make them simple enough for any Undead to understand.",
+            "If every soldier has a copy of this, they'll be able to protect Taros themselves. Even if... even if I'm not around."
+          ],
+          "correct": "Ask if she's already thinking about retiring",
+          "wrong": "Tell her Taros still needs her"
+        },
+        {
+          "n": 15,
+          "intro": [
+            "I ask Mamonir about her drink of choice.",
+            "I'm not particularly picky. I've read too much about old kings who fell into ruin through a taste for luxury. I don't intend to join them.",
+            "Still... sometimes I find myself missing the taste of \"Fiend-Soaked Brew.\" It's a Tarosian traditional liquor. I used to drink it back in my warlord days."
+          ],
+          "correct": "Give me the recipe and I'll brew it for you.",
+          "wrong": "Pour her a glass of the restaurant's most popular liqueur, on the house"
+        }
+      ]
+    },
+    {
+      "id": "heavenly-guardian-successor-glacia",
+      "costume": "Heavenly Guardian Successor Glacia",
+      "character": "Glacia",
+      "drinks": [
+        { "name": "Warm Black Tea", "icon": "assets/images/rapport/icons/icon_resource190005_399_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Glacia sips her tea with quiet, effortless grace.",
+            "The Heavenly Guardian Qi Art isn't just an internal cultivation technique. It's a way to understand the fabric of creation itself, and a path meant to bring us closer to the heavens.",
+            "To break down the wall between yourself and the world, and become one with all things... Every disciple in our Palace trains day in and day out to reach that state."
+          ],
+          "correct": "It sounds like a profoundly deep martial art.",
+          "wrong": "It sounds a bit over my head."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Glacia frowns slightly, complaining about how often trouble has been breaking out in Dragonhaven lately.",
+            "The moment the Golden Dragon Festival gets close, every third-rate martial artist comes pouring into town. They all make up some petty excuse to start a duel wherever they please.",
+            "I punish those fools whenever I see them, but it feels like trying to sweep away the ocean... The chaos of the Jianghu never truly ends."
+          ],
+          "correct": "Dragonhaven is lucky to have you keeping the peace.",
+          "wrong": "Sounds like your punishments aren't quite sticking."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Glacia takes a slow sip of her black tea, clearly enjoying the flavor.",
+            "I really like the fresh aroma of this black tea.",
+            "Though compared to the white tea we usually drink at the Palace, the finish is a little lacking. Maybe it's because it was brewed in a foreign style?"
+          ],
+          "correct": "Ask if the Heavenly Guardian Palace has a special way of brewing tea",
+          "wrong": "Ask if the Heavenly Guardian Palace uses different tea leaves"
+        },
+        {
+          "n": 4,
+          "intro": [
+            "As we chat, my eyes drift to the sweeping sleeves of her martial robes.",
+            "Why are you staring at me like that? Is there something wrong with my clothes?",
+            "...I think I know exactly what's crossing your mind. Don't keep it to yourself. Go ahead and say it."
+          ],
+          "correct": "You look stunning in that outfit.",
+          "wrong": "It looks fancy and expensive."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "I ask Glacia about the fan she always carries.",
+            "This? It's just an ordinary fan. It caught my eye at the market during the last Golden Dragon Festival, so I picked it up.",
+            "...You look a bit disappointed. What did you think I used it for?"
+          ],
+          "correct": "As a cultivation tool",
+          "wrong": "As a secret weapon"
+        },
+        {
+          "n": 6,
+          "intro": [
+            "I ask Glacia about her favorite food.",
+            "I like fruit, but I won't touch it unless it's strictly in season. My tastes are pretty particular.",
+            "I also have a pretty small appetite, so I get full after only a few bites... But peaches are the one exception. I wish I could eat them forever."
+          ],
+          "correct": "Make her a peach drink",
+          "wrong": "Peel a plateful of peaches for her"
+        },
+        {
+          "n": 7,
+          "intro": [
+            "I ask Glacia why her inner Qi radiates with a blue light.",
+            "I was born with a condition called the Nine Yin Blocked Meridians. My innate yin energy was so powerful that it completely blocked my pathways. It's an incurable disease that should have killed me before I turned ten.",
+            "Learning the Heavenly Guardian Qi Art saved me from an early death... but because only yin energy built up in my dantian, my martial art transformed into a blue-hued ice art."
+          ],
+          "correct": "Ask if it's still life-threatening",
+          "wrong": "Say that it must've been difficult to live with"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Glacia speaks, a conflicted look shadowing her eyes.",
+            "My Shifu was completely blinded by the dream of ascending to immortality and suffered a Qi deviation. I know now that her noble nature was tarnished long ago, but...",
+            "Even so, I just can't bring myself to hate her."
+          ],
+          "correct": "Sounds like you truly respected the Palace Lord.",
+          "wrong": "I understand your bond, but the Palace Lord was still evil."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Glacia talks about her childhood, her expression turning cold.",
+            "You can tell just by looking at me that I'm not from Dragonhaven. I came from a martial realm far beyond the Central Plains, known as the Northern Sea Ice Palace.",
+            "I don't have a single fond memory of that place. And I will never go back there."
+          ],
+          "correct": "Dragonhaven is your home now",
+          "wrong": "A part of you must still miss the place you grew up."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "I ask Glacia if she and Helena are still getting along well these days.",
+            "We meet up often, but I'm not sure I would call it getting along.",
+            "Helena's personality, her martial arts, and her constitution are the exact opposite of mine. We have absolutely nothing in common."
+          ],
+          "correct": "Opposites attract.",
+          "wrong": "If you hang out enough, you'll start finding things in common."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Glacia and I talk about Sylvia's martial arts.",
+            "The martial arts Sylvia displayed were anything but ordinary. To think she could wield swords so freely with her Qi...",
+            "I plan to challenge her to a friendly spar someday, partly as an exchange between our sects. Tell me, who do you think would win?"
+          ],
+          "correct": "I think you would win",
+          "wrong": "I think Sylvia would win"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "We start talking about Dalvi and Yuri.",
+            "Humans aren't the only ones who visit the Golden Dragon Festival. Terrorfiends come as well, and unlike other towns, Dragonhaven doesn't turn them away.",
+            "Under the Golden Dragon's blessing, all life is equal. Everyone deserves respect, no matter where they come from."
+          ],
+          "correct": "Let's invite them to the next festival too.",
+          "wrong": "Let's ask them to bring more Terrorfiends next time."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Glacia makes it clear that she doesn't respect just anyone as a true practitioner.",
+            "I despise people who learn a few basic techniques and strut around like they're superior. It's even worse when they use that power to trample the weak.",
+            "Fools who train themselves just to chase after something as empty as fame... people like that have absolutely no right to call themselves practitioners."
+          ],
+          "correct": "I agree",
+          "wrong": "I'm not so sure"
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Glacia and I talk about everything that has happened since she became the new Palace Lord.",
+            "Dalvi managed to spread a comforting story for the public, but the disciples who know the absolute truth are still in total turmoil.",
+            "The Palace Lord they all revered fell into madness... It's only natural that they've begun to doubt our entire sect."
+          ],
+          "correct": "You are their leader now. Guide them forward.",
+          "wrong": "Maybe a little punishment will straighten them out."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "I ask why the folk of Dragonhaven look up to Glacia so much.",
+            "Some drunken fools once tried to draw their blades on the townsfolk. I punished them to make a clear example out of them.",
+            "After that, no one dared draw a weapon in town without a damn good reason. The townsfolk started treating me with real warmth and thanking me for it."
+          ],
+          "correct": "It's admirable how fiercely you stand up for the weak.",
+          "wrong": "I'm impressed by how ruthlessly you crush evil."
+        }
+      ]
+    },
+    {
+      "id": "the-sword-queen-sylvia",
+      "costume": "The Sword Queen Sylvia",
+      "character": "Sylvia",
+      "drinks": [
+        { "name": "Fragrant Whiskey", "icon": "assets/images/rapport/icons/icon_resource190004_398_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "I ask Sylvia why she chose to take Yuri under her wing.",
+            "To be honest, I wasn't planning to take on a disciple back then.",
+            "Looking back now, I think I was just afraid of losing someone precious to me again."
+          ],
+          "correct": "You have to move past that fear.",
+          "wrong": "I know what it's like to carry that kind of fear."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Sylvia looks over the menu with a slight frown, so I suggest a glass of whiskey.",
+            "Whiskey...? I'm not familiar with it, but if it's your recommendation, Master...",
+            "Is there a specific way to drink it?"
+          ],
+          "correct": "Pour it neat into an empty glass",
+          "wrong": "Pour it over ice"
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Sylvia beams, a proud smile breaking across her face the moment she mentions Yuri.",
+            "I'm not saying this just because she is my disciple, but Yuri really only needs to see a form once to master it.",
+            "What do you think of her talent, Master?"
+          ],
+          "correct": "She has what it takes to succeed you one day.",
+          "wrong": "She has the potential to become the next Peerless Swordsman Under Heaven."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "I ask Sylvia how to improve my focus.",
+            "Why not try meditation?",
+            "Close your eyes, relax your muscles, and let go of the day's clutter.",
+            "Would you like to try it now? I can guide you."
+          ],
+          "correct": "Relax and meditate",
+          "wrong": "Meditate with focus"
+        },
+        {
+          "n": 5,
+          "intro": [
+            "I strike up a conversation with Sylvia about animals.",
+            "Yuri's so cute, I often forget she's a tiger Terrorfiend.",
+            "Fufu, sometimes I wonder if she's actually a <i>cat</i> Terrorfiend."
+          ],
+          "correct": "A crane.",
+          "wrong": "A wildcat."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Sylvia and I strike a friendly wager, putting our foreheads on the line for a sharp flick.",
+            "...It seems I lost.",
+            "There is no need to hold back. Go ahead whenever you are ready."
+          ],
+          "correct": "Give her forehead a light flick",
+          "wrong": "Flick her forehead with absolutely everything you've got"
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Sylvia raises a lazy hand toward a bottle across the room, and it snaps straight into her palm.",
+            "Fufu. This isn't Sword Qi Manipulation Arts. It's called the Void Grasp—a minor trick for pulling distant objects through the air.",
+            "It's quite convenient, though."
+          ],
+          "correct": "Ask if she can lift people too",
+          "wrong": "Ask her to help organize the storage room next time"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "I tell Sylvia that children must surely listen to her.",
+            "Not quite. They don't throw fits—but that doesn't mean they always listen.",
+            "Personally, I prefer it that way. It feels more child-like.",
+            "Fufu, but why did you think they'd listen to me?"
+          ],
+          "correct": "Because you're so pretty.",
+          "wrong": "Because you're scary."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Sylvia gestures toward the potted greenery by the window, a small smile playing on her lips.",
+            "There is a beautiful grove near my home that is lovely to wander through. Would you like to visit sometime?",
+            "Fufu. If you can guess what kind of trees grow there, I'll take you with me on my next trip."
+          ],
+          "correct": "A bamboo forest",
+          "wrong": "A pine forest"
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Sylvia and I talk about the art of the blade.",
+            "One of the young children I teach told me he wants to learn dual-wielding. I suppose children always think carrying more swords looks flashier and more imposing.",
+            "Do you also believe that wielding more steel makes a better martial artist, Master?"
+          ],
+          "correct": "A single blade is more than enough.",
+          "wrong": "I want to hold one sword in my mouth and use three at once."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Sylvia chuckles, a warm light in her eyes as she speaks.",
+            "I played that game of tag you taught me with my disciples today. Yuri and the rest of the children had so much fun.",
+            "Could you teach me a few other games?"
+          ],
+          "correct": "Teach her how to play baseball",
+          "wrong": "Teach her how to play soccer"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Sylvia gently traces the edge of her hairpin, a wistful smile softening her lips.",
+            "This hairpin was a precious gift from Rubia.",
+            "It's a little old now, but it still suits me well, doesn't it?"
+          ],
+          "correct": "It looks nice, but I would love to pick out a new one for you too.",
+          "wrong": "It suits you so perfectly that it would be hard to ever find anything better."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "I ask Sylvia what true righteousness means to her, and she pauses for a thoughtful moment before answering.",
+            "In the end, righteousness is simply the conviction you choose to uphold. My purpose now is to live quietly here and protect the people around me.",
+            "Do you have a path of righteousness you wish to pursue, Master?"
+          ],
+          "correct": "I want to save as many people as I can.",
+          "wrong": "I want to help the people around me."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "I ask Sylvia about her sword art.",
+            "My sword art? Its core is deeply tied to flowers.",
+            "Once fully mastered, it can even cause petals to bloom directly from the sharp edge of the blade. The fascinating part is that the color of those flowers differs from person to person.",
+            "My Shifu always made purple flowers bloom. Can you guess what color mine are?"
+          ],
+          "correct": "Pink",
+          "wrong": "White"
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Sylvia steps into the kitchen, a confident smirk playing on her lips.",
+            "I always feel terrible having you cook for me every single time I visit.",
+            "So today, I thought I would step in and cook for you instead."
+          ],
+          "correct": "You don't have to.",
+          "wrong": "Well, if you insist..."
+        }
+      ]
+    },
+    {
+      "id": "bright-moon-dalvi",
+      "costume": "Bright Moon Dalvi",
+      "character": "Dalvi",
+      "drinks": [
+        { "name": "Velvety Wine", "icon": "assets/images/rapport/icons/icon_resource190003_397_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Dalvi traces the tip of her tongue across her lips as she turns to me.",
+            "Master, you got a spot that... catches fire at the slightest touch?",
+            "A secret, sensitive spot..."
+          ],
+          "correct": "Not sure I do.",
+          "wrong": "Nope."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Mischief lights up Dalvi's face as she looks at me.",
+            "Master, I just had a fun thought...",
+            "Could you close your eyes for a sec?",
+            "I do as Dalvi asks and shut my eyes—and a heartbeat later, something soft brushes against my lips."
+          ],
+          "correct": "Snap my eyes open in surprise",
+          "wrong": "Calmly open my eyes"
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Dalvi gives her wine glass a gentle tilt as she turns to me with a question.",
+            "They say a person can live on forever... as long as someone out there still remembers them.",
+            "It's a nice thought, but... part of me wonders if it actually means anything.",
+            "What do you think, Master?"
+          ],
+          "correct": "I think it's a beautiful expression.",
+          "wrong": "I don't think it means much."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Dalvi stares straight at me and asks.",
+            "I hear humans think of the nine-tailed fox as some terrifying creature that eats people's livers.",
+            "So... what if I asked you for yours, Master?",
+            "What would you do?"
+          ],
+          "correct": "I'd give you half, honestly. Livers grow back anyway.",
+          "wrong": "I'd run and never look back."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Beyond the window, cherry blossoms scatter through the air—Dalvi watches them for a moment, then turns to me with a question.",
+            "They say cherry blossoms bloom in spring and wilt after about a week to ten days.",
+            "So... say I asked you to come see them with me, Master...",
+            "How many of those ten days would you spare for me?"
+          ],
+          "correct": "I could manage one day.",
+          "wrong": "I could do all ten."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Dalvi shivers slightly as she asks me a question.",
+            "Brr... It's spring, but it's still a bit cold.",
+            "Master, got anything to warm me up?"
+          ],
+          "correct": "Drape a blanket over her",
+          "wrong": "Bring her a brazier"
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Dalvi gives her wine glass a gentle tilt as she turns to me with a question.",
+            "A daytime drink under a languid, creeping sun—petals drifting into your glass, each sip fragrant with their scent.",
+            "Or... a late-night drink beneath a star-strewn sky—with nothing but the soft gleam of moonlight on your glass for company?",
+            "If you could only pick one... which would you pick?"
+          ],
+          "correct": "A fragrant drink in the afternoon sun.",
+          "wrong": "An evening drink, with nothing but the moonlight for company."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Dalvi turns away from me—then bares her pale shoulders.",
+            "Oooh, servant! Come here and massage my shoulders!"
+          ],
+          "correct": "Yes, ma'am!",
+          "wrong": "Silently massage her shoulders"
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Beyond the window, cherry blossoms scatter through the air—Dalvi watches them for a moment, then turns to me with a question.",
+            "Humans have this saying, don't they—that the dead are eventually reborn into this world as another form of life?",
+            "I used to think it was foolish...",
+            "But those cherry blossoms—fleeting as they are—still bloom again every spring. Maybe humans are the same way.",
+            "What do you think, Master?"
+          ],
+          "correct": "That's not very realistic.",
+          "wrong": "There's a possibility."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Dalvi's tails sway gently behind her as she asks me a question.",
+            "I've heard humans bond in two ways—physically, and emotionally...",
+            "So, Master—which do you lean toward?"
+          ],
+          "correct": "Emotionally.",
+          "wrong": "Physically."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Dalvi's nine tails sway gently as she turns to me with a question.",
+            "These tails of mine are immaculate—even other nine-tailed foxes praise them as the finest around.",
+            "I don't let just anyone touch them... but you always find a way to amuse me, Master.",
+            "So, as a special exception, I'll allow you to touch them.",
+            "With an alluring twist of her hips, Dalvi gently extends her nine tails toward me."
+          ],
+          "correct": "Touch the base of her tail",
+          "wrong": "Touch the tip of her tail"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Dalvi rests her chin on her hand, a quiet sigh slipping from her lips as she asks me a question.",
+            "Long-lived races sometimes go through stretches where everything in the world just feels... monotonous. Seems like it's finally caught up with me.",
+            "Any good ideas for shaking this off?"
+          ],
+          "correct": "Recommend picking up a hobby",
+          "wrong": "Recommend making some new friends"
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Dalvi stares me down—then, in a flash, lunges straight at me.",
+            "Gotcha!",
+            "<i>GLOMP!</i>",
+            "Dalvi throws her arms around me and presses close, rubbing against me without a shred of restraint."
+          ],
+          "correct": "What are you doing?",
+          "wrong": "Gently push her away"
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Dalvi gazes at the flowers beyond the window and turns to me with a question.",
+            "Say there were two flowers. One with a blinding beauty, and the other with a fragrance so sweet it makes your heart ache...",
+            "Which one would you choose, Master?"
+          ],
+          "correct": "The one with the sweet fragrance.",
+          "wrong": "The beautiful one."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Dalvi stares straight at me and asks.",
+            "Say, Master—when you eat, do you go for the best part first?",
+            "Or do you save it for last?"
+          ],
+          "correct": "I save the best for last.",
+          "wrong": "I eat the best part first."
+        }
+      ]
+    },
+    {
+      "id": "sunny-inn-hand-helena",
+      "costume": "Sunny Inn Hand Helena",
+      "character": "Helena",
+      "drinks": [
+        { "name": "Sweet Soda", "icon": "assets/images/rapport/icons/icon_resource190006_400_2.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "I ask Helena why she became an inn hand.",
+            "I love making people happy. Seeing people smile always brightens my day!",
+            "There are plenty of jobs that bring joy to others, but cooking and serving guests suited me best, so this is the path I chose!"
+          ],
+          "correct": "Sounds like you found your calling.",
+          "wrong": "Doesn't it feel like a waste of your talent?"
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Helena and I talk about Dragonhead Inn.",
+            "Our inn is one of the most famous in the Jianghu! The view is beautiful, and the head chef's cooking is second to none!",
+            "The only downside is that outsiders can only visit during the Golden Dragon Festival, so we don't get as many guests for most of the year."
+          ],
+          "correct": "You could offer delivery outside of town.",
+          "wrong": "You could open a branch outside of town."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Helena tells me about the unique ingredients found in Dragonhaven.",
+            "Dragonhaven has tons of rare ingredients you won't find anywhere else. They don't just taste amazing—they can actually help clear your meridians.",
+            "But ingredients grown here have properties tied to yin, yang, and the five elements, so eating them carelessly can make you really sick."
+          ],
+          "correct": "Ask how to eat them safely",
+          "wrong": "Ask if they are really edible"
+        },
+        {
+          "n": 4,
+          "intro": [
+            "I casually ask Helena just how strong she really is.",
+            "Honestly... I'm not sure. I haven't gone all out since I was little.",
+            "Back then, I didn't know how to control my strength and caused a huge accident... After the elders scolded me, I've held myself back ever since."
+          ],
+          "correct": "Say it must be hard holding back all the time",
+          "wrong": "Ask what kind of accident she caused"
+        },
+        {
+          "n": 5,
+          "intro": [
+            "I ask Helena what she does on her days off.",
+            "Sometimes I chat with the townspeople, but I usually spend my time testing recipes and training my external qi.",
+            "Swinging a heavy pot around while wearing stone weights on my arms and legs lets me train and cook at the same time, so it's a lot of fun!"
+          ],
+          "correct": "Sounds like your work is your hobby.",
+          "wrong": "It doesn't sound like you're really resting."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Helena tells me about the place where she was born and raised.",
+            "My hometown is a village of hunters. People there make a living hunting ferocious beasts, and since they don't want to damage the pelts, they train their external Qi to take them down barehanded.",
+            "Before I came here, I helped the elders with their hunts too. They took me in after I was orphaned, so I wanted to repay them however I could."
+          ],
+          "correct": "It sounds like you were happy there.",
+          "wrong": "That sounds dangerous and difficult."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "I notice that Helena seems to cherish her clothes.",
+            "These were a gift from the elders before I left home. They're made from fabric tough enough to withstand a tiger's claws!",
+            "Of course, I'd like to try other outfits too... but I can't really wear anything that wasn't brought from my hometown."
+          ],
+          "correct": "Tell Helena her outfit suits her",
+          "wrong": "Ask why she can't wear other clothes"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "I ask Helena why she always carries steamed buns around.",
+            "These are a new recipe I came up with! I've been handing them out to people and asking for their honest feedback!",
+            "I keep tweaking the recipe every day, trying to figure out how to make them taste even better and bring bigger smiles to people's faces!"
+          ],
+          "correct": "Say it must help her improve her cooking",
+          "wrong": "Ask if the head chef won't get mad for giving food away"
+        },
+        {
+          "n": 9,
+          "intro": [
+            "While Helena and I are chatting about food, her stomach suddenly growls loudly.",
+            "Haha... how embarrassing! I guess talking about food all this time made me hungry...",
+            "Food never seems to stay with me for long. I ate a full dinner earlier, but I'm already starving again."
+          ],
+          "correct": "Add a chewy topping to her drink",
+          "wrong": "Make her a generous plate of snacks"
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Helena gulps down her soda in one go and orders another.",
+            "Whew! This soda stuff is amazing! It's sweet, and I love that fizzy feeling going down my throat!",
+            "A drink this good needs a great dish to go with it. What do you usually pair with it?"
+          ],
+          "correct": "Savory food.",
+          "wrong": "Spicy food."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "I ask Helena where her incredible strength comes from.",
+            "I was born with Nine Yang Blocked Meridians, so I suffered from terrible fevers as a child. The elders taught me an external martial art called Beast-Hunting Fist to help me grow stronger.",
+            "But... maybe it worked too well with my body, because I ended up way too strong!"
+          ],
+          "correct": "Ask if she is fully recovered now",
+          "wrong": "Ask if her strength would fade if she stopped training her external Qi"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "I ask Helena if she and Glacia have been getting along.",
+            "Yup! We always have a nice chat whenever she comes to our inn for a meal!",
+            "But... every time I give her extra spring rolls, she just quietly stares at me without saying a word. What do you think that means?"
+          ],
+          "correct": "She's thanking you.",
+          "wrong": "She's telling you to stop giving her spring rolls."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "I ask Helena how she became friends with Dalvi.",
+            "I met Dalvi at last year's Golden Dragon Festival. She came to our inn asking for directions, and that's how it all started!",
+            "I was in a bit of trouble at the time, but she helped me clear it up right away, and we became close really fast!"
+          ],
+          "correct": "Ask what she likes about Dalvi",
+          "wrong": "Ask how Dalvi helped her"
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Helena seems curious about Sylvia and Yuri.",
+            "Sylvia and Yuri look so close. They seem like the ideal shifu and disciple!",
+            "It almost feels like looking at the head chef and me back at our inn."
+          ],
+          "correct": "Ask if she feels a strong bond with the head chef",
+          "wrong": "Ask if the head chef scolds her often"
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Helena looks around my restaurant, her eyes filled with curiosity.",
+            "Your inn has such a unique atmosphere, Master! And I've never seen dishes like these before!",
+            "Do you have a different philosophy when running your inn? I'd love to know what mindset you have when managing this place!"
+          ],
+          "correct": "I heal people's hearts with warm hospitality.",
+          "wrong": "I offer guests a gourmet experience with delicious food."
+        }
+      ]
+    },
+    {
+      "id": "comeback-idol-yuri",
+      "costume": "Comeback Idol Yuri",
+      "character": "Yuri",
+      "drinks": [
+        { "name": "Creamy Milk", "icon": "assets/images/rapport/icons/icon_resource190001_395_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Yuri drops by the restaurant and proudly shows off her stage greeting.",
+            "One, two, three! Hello! Your fairies have arrived—E. Fairy!"
+          ],
+          "correct": "Ask for an autograph",
+          "wrong": "Ask for a handshake"
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Yuri tells me about her favorite snacks.",
+            "After a rough day, I just gotta have a snack.",
+            "And the one I go for the most? Pudding!",
+            "It's sooo soft and sweet.",
+            "Just one bite and I feel sooo happy!",
+            "Do you like pudding too, Master?"
+          ],
+          "correct": "Yep.",
+          "wrong": "I prefer making it over eating it."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Yuri walks into the restaurant, looking completely down.",
+            "Aw, man... I fell during practice."
+          ],
+          "correct": "Ask if she's hurt",
+          "wrong": "Ask how practice went"
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Yuri bounces around, boasting proudly.",
+            "So I was out on my day off...",
+            "...and guess what—a fan recognized me!",
+            "Moments like that just make me so happy!"
+          ],
+          "correct": "Tell her the fan must've been happy too",
+          "wrong": "Tell her she's a superstar"
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Yuri talks to me, eyes sparkling.",
+            "I just saw A.twist perform!",
+            "They were sooo cool... and adorable too!",
+            "But I especially liked their powerful, hard-hitting choreography!",
+            "Do you think a dance like that would suit me?"
+          ],
+          "correct": "Absolutely.",
+          "wrong": "Something cute would suit you better."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Yuri tells me about her next concert venue.",
+            "We're performing at Brown Marina Resort Beach this time!",
+            "I wanna try a new stage greeting for the fans...",
+            "Any good ideas?"
+          ],
+          "correct": "Brown-derful day, everyone!",
+          "wrong": "The usual greeting works fine."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Yuri shows up at the restaurant, scared stiff.",
+            "I went to see a movie with the girls...",
+            "The poster had this dreamy, fairy tale look to it...",
+            "...but turns out there was a really scary ghost in it!",
+            "Ugh... The scenes of the ghost messing with people keep playing in my head.",
+            "What if a ghost comes after me?!"
+          ],
+          "correct": "Ghosts don't mess with cute people.",
+          "wrong": "Ghosts aren't real."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Yuri tells me about the signature colors idols have.",
+            "Every idol has their own signature color!",
+            "What color do you think represents me?",
+            "Go on, take a guess!"
+          ],
+          "correct": "A bubbly orange.",
+          "wrong": "A crisp white."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "I ask Yuri about the origins of E. Fairy's mascot.",
+            "You mean our mascot?",
+            "Hehe... Cute, right?"
+          ],
+          "correct": "It looks a lot like you.",
+          "wrong": "You're cuter."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Yuri brings up her dreams.",
+            "When I drift off to a nice, sweet sleep after a really great day...",
+            "...I envision it—",
+            "E. Fairy, soaring above the rest.",
+            "Every single fan in the world cheering for us.",
+            "Hehe... I know... It sounds ridiculous, doesn't it?"
+          ],
+          "correct": "Tell her it doesn't sound ridiculous at all",
+          "wrong": "Tell her it might take some time"
+        },
+        {
+          "n": 11,
+          "intro": [
+            "A nervous Yuri comes over to talk.",
+            "We got invited to perform at a really big concert hall!",
+            "This is the perfect chance to boost E. Fairy's popularity...!",
+            "But that's exactly why I'm so nervous... What do I do?"
+          ],
+          "correct": "Tell her if she makes a mistake, she can always try again",
+          "wrong": "Suggest pushing back the schedule"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Yuri suddenly bursts out from under the table.",
+            "Surprise!"
+          ],
+          "correct": "Whoa, that scared me.",
+          "wrong": "Saw it coming."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Yuri tells me about her favorite season.",
+            "My favorite season is spring!",
+            "When the spring breeze drifts in all soft and gentle...",
+            "...you fall into the best sleep ever!",
+            "What season do <i>you</i> like, Master?"
+          ],
+          "correct": "Winter.",
+          "wrong": "Summer."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Fans at my autograph sessions always bring me tons of gifts.",
+            "I'm super grateful for every one of them, but...",
+            "...how come so many are snacks?"
+          ],
+          "correct": "Hand her a glass of milk",
+          "wrong": "Tell her they're probably hoping she'll grow taller"
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Hey, check this out!",
+            "Yuri puts on her fiercest look and stares straight at me.",
+            "The look on my face! What do you think?"
+          ],
+          "correct": "You look really cool.",
+          "wrong": "You're so cute."
+        }
+      ]
+    },
+    {
+      "id": "starlight-guardian-tyr",
+      "costume": "Starlight Guardian Tyr",
+      "character": "Tyr",
+      "drinks": [
+        { "name": "Creamy Milk", "icon": "assets/images/rapport/icons/icon_resource190001_395_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Eyes fixed on the array of snacks spread before her, Tyr gasps in awe.",
+            "Wow...! So many different kinds of snacks!",
+            "Are you more of an eat-your-favorites-first style, Master?",
+            "Or a save-them-for-last style?"
+          ],
+          "correct": "I save the best for last.",
+          "wrong": "I eat my favorites first."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Tyr tips the cup back and takes a long, steady drink of milk.",
+            "<i>Gulp, gulp...</i> That hits the spot...!",
+            "Why does the milk you give me always taste so good?",
+            "It makes me sad every time I take a sip because there's less left.",
+            "Oh...! I already drank half of it."
+          ],
+          "correct": "There's plenty more milk.",
+          "wrong": "Drinking that fast might upset your stomach."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Tyr turns to me with a question, a serious look on her face.",
+            "I feel like my understanding of cooking has gotten so much better after eating your cooking—and Justia's!",
+            "Before, I was just... eating to fill my stomach, but... lately I feel like I can appreciate the flavors and aromas a little more...",
+            "So, um...",
+            "Master, when you cook, what do you focus on the most?"
+          ],
+          "correct": "The aroma.",
+          "wrong": "The flavor."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Tyr mumbles to herself in a low voice, her face sullen.",
+            "Ugh... At dinner earlier, Aya went and sat next to Justia.",
+            "She used to stick right by my side, at least when we ate...",
+            "S-surely she doesn't like Justia more than me now... right?!"
+          ],
+          "correct": "She still seems to like you more, Tyr.",
+          "wrong": "She seems to like Justia more now."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Tyr takes a sip of her milk, then—suddenly serious—turns to me with a question.",
+            "Master, what would you do if you got into a fight with a friend?",
+            "Say it happened, not because someone did something wrong, but...",
+            "...because you just couldn't see eye to eye."
+          ],
+          "correct": "I'd be the first to apologize.",
+          "wrong": "I wouldn't apologize if I didn't do anything wrong."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Tyr approaches, a loose, carefree grin across her face.",
+            "Hehe, Veila told me you're working on a special meal for tomorrow night, Master!",
+            "Any chance you could let me in on what's on the menu? Just between us?"
+          ],
+          "correct": "Meat—your favorite.",
+          "wrong": "A wholesome vegetable dish."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Tyr lets out a long, lazy yawn as she settles into her seat.",
+            "<i>Yaaawn...</i>",
+            "Maybe it's because I've been getting up so early in the mornings... I just can't stop yawning."
+          ],
+          "correct": "Suggest going to bed a little earlier",
+          "wrong": "Suggest sleeping in"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Tyr perks her ears up and leans her head toward me.",
+            "Hehehe..."
+          ],
+          "correct": "Pet her head",
+          "wrong": "Rub her belly"
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Tyr sneaks a furtive glance around the room before asking me a question.",
+            "Master, you said you've been running a restaurant for a long time, right?",
+            "What did you do when you had employees who weren't... that great at their job?"
+          ],
+          "correct": "I comfort them and encourage them to do better.",
+          "wrong": "I give them a firm talking to."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Tyr murmurs to herself in a low voice, a languid look on her face.",
+            "I can't help but notice every time I'm here... Glupy Diner always feels so warm and cozy...!",
+            "When we used to camp out in the Night World, everyone was always shivering!",
+            "Master, do you get cold easily too?"
+          ],
+          "correct": "I can't handle the cold.",
+          "wrong": "I can't handle the heat."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Between sips of milk, Tyr turns to me with a question.",
+            "You know, some days, the sad memories from long ago just... hit me out of nowhere.",
+            "Even after all this time, I never get used to them... Every time, they still make me wanna cry...",
+            "Master, how do you deal with memories like that?"
+          ],
+          "correct": "I try to smile through it.",
+          "wrong": "I cry it out."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Waaah! Master!",
+            "Liberta said I look like I've gained even more weight...",
+            "Do you think so too?"
+          ],
+          "correct": "Not at all.",
+          "wrong": "Maybe you gained just a little."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Tyr stares at me with an inscrutable look on her face.",
+            "Master, guess what I'm thinking right now...!"
+          ],
+          "correct": "What's for dinner tomorrow.",
+          "wrong": "I can't tell."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Tyr's ears perk up as she turns to me with a question.",
+            "Wolves are pack animals, so we're really particular about rules and discipline...!",
+            "That said, it's not like we follow <i>all</i> rules... We don't follow the ones that make no sense."
+          ],
+          "correct": "Rules that make no sense need to be challenged and changed.",
+          "wrong": "Rules are rules. Better to follow them."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Tyr mumbles to herself in a low voice, her face sullen.",
+            "<i>Sigh...</i> I'm a wolf, but lately I feel like more and more people keep thinking I'm a puppy.",
+            "Master, do you think I look like a puppy, too?"
+          ],
+          "correct": "You look like a proper wolf.",
+          "wrong": "You look like a wolf-like puppy."
+        }
+      ]
+    },
+    {
+      "id": "night-of-jealousy-levia",
+      "costume": "Night of Jealousy Levia",
+      "character": "Levia",
+      "drinks": [
+        { "name": "Fragrant Whiskey", "icon": "assets/images/rapport/icons/icon_resource190004_398_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Levia stresses the importance of reading, time and again.",
+            "Books are treasure chests filled with knowledge—the finest teachers you could ask for. A single good book can teach you a great deal.",
+            "I've heard that on the surface, there are many who read and enjoy books as I do... Do you enjoy books?"
+          ],
+          "correct": "I do.",
+          "wrong": "Not really."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Levia tells me about a recent visit to a bookshop in Ghenar.",
+            "Most Demons don't read much. There are few bookshops, and the booksellers handle their books terribly.",
+            "The one I visited today had books piled carelessly in a damp room. Dreadful, don't you think?"
+          ],
+          "correct": "All books should be handled with care.",
+          "wrong": "It shouldn't matter as long as the book can still be read."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "While discussing Ghenar's cuisine, the conversation turns to what Levia's favorite food might be.",
+            "Anything I can eat quickly. The less time I spend on meals, the more time I have for reading and research.",
+            "...Come to think of it, I skip meals more often these days. It feels like a waste of time—even chewing and swallowing."
+          ],
+          "correct": "Share a simple grab-and-go recipe",
+          "wrong": "Tell her about a drink that helps with staying up at night"
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Levia toys with an ember between her fingers as she speaks.",
+            "Once I've recovered my strength, I intend to reclaim the throne. I have no intention of handing over my crown to some lackey of the False Mother.",
+            "No objections to my decision, I trust?"
+          ],
+          "correct": "No one is more suited than you.",
+          "wrong": "You don't necessarily have to take that risk."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "She swirls the glass, savoring the aroma of the whiskey as she speaks.",
+            "Demons value pride as much as they do strength. That's why they flaunt their power every chance they get, trying to cow others with sheer force of presence.",
+            "...It's absolutely pathetic. That's not how one achieves true pride."
+          ],
+          "correct": "Agreed.",
+          "wrong": "I wouldn't know."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Levia vents her frustrations about the history books published in Ghenar.",
+            "Every book on Ancient Ghenar is worthless. It's as though someone deliberately excised all knowledge from certain eras.",
+            "So much information is missing, my research has hit a wall. If you have a worthwhile idea, would you share it?"
+          ],
+          "correct": "You should reference the history books of other kingdoms.",
+          "wrong": "You should look for more history books."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "I ask Levia what she usually researches.",
+            "Mainly, I study the history of Ghenar. Beyond that, I dabble in every discipline the Night World has to offer—magic, philosophy, and the like.",
+            "It might seem unfocused, but it gets results. You find connections between fields that seem unrelated."
+          ],
+          "correct": "Not sure I follow, but sounds impressive.",
+          "wrong": "Tell her she's not like other Demons"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "I ask Levia what she does in her spare time.",
+            "Reading, obviously. Papers, novels—doesn't matter. If it's in print, I can't rest until I've finished it.",
+            "Once I start, I can't stop midway. It gets me into trouble sometimes."
+          ],
+          "correct": "It seems like you really love books.",
+          "wrong": "Ask what kind of trouble she's had"
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Levia looks troubled lately, as though her research hasn't been going well.",
+            "Suppose you were forced to develop a new recipe. On a strict deadline, no less... and expected to deliver perfect results every time.",
+            "But you're running out of time and energy, and it doesn't look like you'll make the deadline... How would you deal with a situation like that?"
+          ],
+          "correct": "Might as well try to enjoy it.",
+          "wrong": "I would find an assistant to help with the research."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Levia holds the whiskey bottle in her hand, turning it in various angles as she examines it.",
+            "This is my first time seeing a surface-world bottle up close. Rather than pulling the stopper, you twist it open... How very strange.",
+            "I... gave it a light turn, but it won't budge. Is there some particular reason it's sealed so tightly?"
+          ],
+          "correct": "To preserve the aroma.",
+          "wrong": "Your grip is weak."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Levia traces the rim of the glass with one finger and asks...",
+            "There is a saying—that pride and self-worth are not the same thing. The difference is in how one preserves their dignity.",
+            "A Demon I know carries great pride, yet lacks self-worth... and it weighs on them. If it were you... what would you tell them?"
+          ],
+          "correct": "Look for your own strengths.",
+          "wrong": "Stop caring about what others think."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Levia sets down the glass and asks me, serious.",
+            "There's a saying—everything has its limits. An invisible ceiling you can never break through, no matter how hard you try.",
+            "If you realize you can never reach your goal through effort alone... what would you do?"
+          ],
+          "correct": "Accept that there are limits and find another way.",
+          "wrong": "Keep pushing until I break through."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Levia soundlessly chews at some dried fruit, before speaking up in a low voice.",
+            "A certain Demon got their hands on immense power, thanks to a patron they happened upon by sheer luck. Though the power wasn't truly theirs, they used it to climb up the ranks.",
+            "Without that borrowed power, they'd be a nobody... Could you defend them?"
+          ],
+          "correct": "The ability to use what you've borrowed is a skill in itself.",
+          "wrong": "I don't think I could defend that."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Levia stares at the ancient tome resting on the table, and speaks.",
+            "Long ago, there was a Demon who believed they could achieve anything with enough effort. But no matter how hard they tried, there was no progress... In the end, they wound up abandoning that belief.",
+            "What do you think of their decision?"
+          ],
+          "correct": "They may have failed once, but that doesn't mean it's over.",
+          "wrong": "The Demon should have tried harder."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Levia asks me, noticeably tenser than usual.",
+            "In Demon society, strength is both rank and order. The weak have no dignity—they must bow down to the strong.",
+            "But if there were someone who had no power, yet still refused to swallow their pride... would you call them a fool?"
+          ],
+          "correct": "Not really.",
+          "wrong": "Probably."
+        }
+      ]
+    },
+    {
+      "id": "savage-warrior-aquila",
+      "costume": "Savage Warrior Aquila",
+      "character": "Aquila",
+      "drinks": [
+        { "name": "Cold Beer", "icon": "assets/images/rapport/icons/icon_resource190002_396_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Aquila stares right at me and asks...",
+            "Gotta say, you've got a real pretty face, you know that?",
+            "You ever cursed before?"
+          ],
+          "correct": "****!",
+          "wrong": "You shouldn't curse."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Aquila lets out a sigh and asks...",
+            "I just love throwing down with strong opponents at the Colosseum. But damn, it pisses me off that I don't get to pick who I face in the qualifiers...",
+            "The playoffs at least have some opponents that get me fired up, but the qualifiers are boring as hell.",
+            "<i>Sigh...</i> I know, that's just how qualifiers are...",
+            "But come on, there's gotta be some way to make 'em at least a little fun, right?"
+          ],
+          "correct": "Suggest fighting with a handicap",
+          "wrong": "Suggest taunting opponents to fire them up"
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Aquila gives her glass a slight tilt and asks...",
+            "Say you're in the middle of a fight, and you realize there's no way in hell you can win...",
+            "What do you do?"
+          ],
+          "correct": "Fight to the end, even if it kills me.",
+          "wrong": "Quickly concede defeat and give up."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Aquila flashes a sly grin as she turns to me with a question.",
+            "Trading bloody blows on a battlefield where it's either kill or be killed—",
+            "—that's the only pleasure that makes me feel alive.",
+            "When do you feel real pleasure?"
+          ],
+          "correct": "It's a secret.",
+          "wrong": "When a customer enjoys my food."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Aquila holds out her hand to me as she asks me a question.",
+            "When I grab someone's hand, I can size them up right away—whether they've got what it takes to be a gladiator.",
+            "So go on, take my hand.",
+            "Let's see what you're made of. I myself will be the judge."
+          ],
+          "correct": "Gently take her hand",
+          "wrong": "Grip her hand hard"
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Aquila locks eyes on something, then shoots her arm out at the empty glass.",
+            "Why you little...!",
+            "<i>CRASH!</i>",
+            "<i>Bzzz...</i>",
+            "The glass shatters, but the bug drifts lazily into the air without a care. Blood runs down Aquila's hand, torn up by the broken shards."
+          ],
+          "correct": "You okay?",
+          "wrong": "Can't believe you missed <i>that</i>..."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Aquila gives her glass a slight tilt and asks...",
+            "I overheard the other slave gladiators whining about their futures the other day.",
+            "Damn future hasn't even come yet, and they're all looking like they're about to have a funeral.",
+            "What about you? You normally worry about the future and all that?"
+          ],
+          "correct": "I don't.",
+          "wrong": "I do."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Aquila asks me a question while cleaning her greatsword.",
+            "The efficiency of a gladiator's weapon depends on the wielder's strength and the weapon's weight.",
+            "For the strong ones, heavy weapons usually have more advantages—but I've seen some go for lighter weapons to boost their attack speed.",
+            "So, what kind of weapon do you think suits me better?"
+          ],
+          "correct": "A heavy weapon.",
+          "wrong": "A light weapon."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Aquila gives her glass a slight tilt and asks...",
+            "Your crew might've used some cheap tricks, but it doesn't change the fact that I lost.",
+            "So tell me... If I went up against your crew again...",
+            "...you think they would beat me again?"
+          ],
+          "correct": "Yep.",
+          "wrong": "Hard to say."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Aquila stretches and asks...",
+            "Damn, I'm bored out of my mind.",
+            "Got anything fun to do?"
+          ],
+          "correct": "Offer to tell her a cool story",
+          "wrong": "Tell her that life needs its moments of dullness"
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Mid-swig, Aquila turns to me with a question.",
+            "Booze here's great, but the size of this glass bugs me.",
+            "Got anything bigger?"
+          ],
+          "correct": "Hand her the bottle",
+          "wrong": "Hand her a slightly bigger glass"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Aquila stares right at me and says...",
+            "Y'know, seems like everything you do here is nothing but boring work.",
+            "If I had to work a place like this, I'd have bolted before the first day was over.",
+            "Not that any of the jobs here suit me anyway."
+          ],
+          "correct": "You could take out the trash.",
+          "wrong": "You might have a knack for dealing with customers."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Aquila tips her glass slightly and speaks to me.",
+            "Saw some bastards causing a scene at Ghenar Restaurant the other day, and out of nowhere, you popped into my head.",
+            "If a bunch of lowlifes like that showed up here and started wrecking the place...",
+            "...what would you do?"
+          ],
+          "correct": "Throw them out by force, right then and there.",
+          "wrong": "Calmly talk them down."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Aquila tips her glass slightly and speaks to me.",
+            "Hey, you doing anything tomorrow?",
+            "I'm heading out to hunt some fiends. It's been a while...",
+            "If you've got nothing going on, you should come with me."
+          ],
+          "correct": "You sure you want me along?",
+          "wrong": "I don't think I can if it's just the two of us..."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Aquila lets out a sigh and asks...",
+            "Days I don't get a good fight? Drives me damn crazy. Can't sleep at night.",
+            "What should I do on days like that?"
+          ],
+          "correct": "Read a book.",
+          "wrong": "Work out."
+        }
+      ]
+    }
+  ]
+}

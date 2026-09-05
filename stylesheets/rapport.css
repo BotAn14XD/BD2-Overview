@@ -1,0 +1,248 @@
+.rapport {
+  --rp-bg:      var(--md-default-bg-color, #141a2b);
+  --rp-panel:   color-mix(in srgb, var(--md-default-fg-color, #fff) 4%, var(--md-default-bg-color, #141a2b));
+  --rp-raised:  color-mix(in srgb, var(--md-default-fg-color, #fff) 8%, var(--md-default-bg-color, #141a2b));
+  --rp-border:  color-mix(in srgb, var(--md-default-fg-color, #90a4ae) 20%, transparent);
+  --rp-border-hi: color-mix(in srgb, var(--md-primary-fg-color, #2196f3) 55%, transparent);
+  --rp-fg:      var(--md-default-fg-color, #e6ebf2);
+  --rp-text:    var(--md-default-fg-color, #e6ebf2);
+  --rp-muted:   color-mix(in srgb, var(--md-default-fg-color, #90a4ae) 60%, transparent);
+  --rp-accent:  var(--md-primary-fg-color, #2196f3);
+  --rp-good:    #4caf50;
+  --rp-good-bg: color-mix(in srgb, #4caf50 16%, transparent);
+  --rp-bad:     #f2555a;
+  --rp-bad-bg:  color-mix(in srgb, #f2555a 15%, transparent);
+  --rp-radius:  10px;
+
+  margin: 1.2rem 0;
+  font-size: 0.9rem;
+  min-height: 4rem;
+}
+
+[data-md-color-scheme="slate"]    .rapport { --rp-text: #e8ecf3; }
+
+/* ---- search ---- */
+.rapport__search { position: relative; }
+
+.rapport__input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.7rem 0.9rem;
+  font-size: 1rem;
+  color: var(--rp-fg);
+  background: var(--rp-panel);
+  border: 1px solid var(--rp-border);
+  border-radius: var(--rp-radius);
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.rapport__input::placeholder { color: var(--rp-muted); }
+.rapport__input:focus {
+  border-color: var(--rp-border-hi);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--rp-accent) 18%, transparent);
+}
+
+/* ---- autocomplete dropdown ---- */
+.rapport__list {
+  position: absolute;
+  z-index: 30;
+  left: 0; right: 0;
+  margin-top: 4px;
+  padding: 4px;
+  list-style: none;
+  background: var(--rp-raised);
+  border: 1px solid var(--rp-border);
+  border-radius: var(--rp-radius);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.32);
+  max-height: 300px;
+  overflow-y: auto;
+}
+.rapport__list[hidden] { display: none; }
+
+.rapport__option {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.rapport__option[aria-selected="true"],
+.rapport__option:hover {
+  background: color-mix(in srgb, var(--rp-accent) 18%, transparent);
+}
+.rapport__option-name { color: var(--rp-fg); font-weight: 600; }
+.rapport__option-char { color: var(--rp-muted); font-size: 0.82em; }
+.rapport__option mark {
+  background: color-mix(in srgb, var(--rp-accent) 40%, transparent);
+  color: inherit; border-radius: 3px; padding: 0 1px;
+}
+.rapport__empty { padding: 0.6rem; color: var(--rp-muted); }
+
+/* ---- result panel ---- */
+.rapport__panel[hidden] { display: none; }
+.rapport__panel { margin-top: 1rem; }
+
+.rapport .rapport__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.9rem 1.1rem;
+  background: var(--rp-panel);
+  border: 1px solid var(--rp-border);
+  border-radius: var(--rp-radius);
+}
+.rapport .rapport__title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--rp-fg);
+}
+.rapport .rapport__title small {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--rp-muted);
+}
+
+.rapport__drinks { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.rapport__drink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  background: color-mix(in srgb, var(--rp-accent) 12%, transparent);
+  border: 1px solid var(--rp-border-hi);
+  border-radius: 14px;
+  cursor: default;
+}
+.rapport__drink img {
+  width: 56px; height: 56px;
+  object-fit: contain;
+  display: block;
+}
+
+.rapport__drink-name {
+  padding: 0 0.4rem;
+  font-size: 0.8rem;
+  color: var(--rp-text);
+}
+
+/* ---- encounters ---- */
+.rapport__encounters { margin-top: 0.8rem; display: grid; gap: 0.7rem; }
+
+.rp-enc {
+  background: var(--rp-panel);
+  border: 1px solid var(--rp-border);
+  border-radius: var(--rp-radius);
+  overflow: hidden;
+}
+.rp-enc__head {
+  padding: 0.45rem 0.9rem;
+  font-size: 0.72rem; font-weight: 700;
+  letter-spacing: 0.07em; text-transform: uppercase;
+  color: #e8ecf3;
+  background: color-mix(in srgb, var(--rp-accent) 50%, transparent);
+  border-bottom: 1px solid var(--rp-border);
+}
+
+.rapport .rp-enc__intro { 
+  padding: 0.7rem 0.9rem; 
+  border-bottom: 1px solid var(--rp-border);
+  max-width: 72ch;
+}
+
+.rapport .rp-enc__intro p {
+  margin: 0 0 0.4rem 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--rp-text);
+}
+.rapport .rp-enc__intro p:last-child { margin-bottom: 0; }
+
+.rp-ans {
+  display: flex; align-items: flex-start; gap: 0.55rem;
+  padding: 0.6rem 0.9rem; line-height: 1.45;
+  color: var(--rp-text);
+  max-width: 72ch;
+}
+.rp-ans--good { background: var(--rp-good-bg); }
+.rp-ans--bad  { background: var(--rp-bad-bg); }
+.rp-ans__mark { font-weight: 700; flex: 0 0 auto; }
+.rp-ans--good .rp-ans__mark { color: var(--rp-good); }
+.rp-ans--bad  .rp-ans__mark { color: var(--rp-bad); }
+
+.rapport__placeholder {
+  padding: 1.4rem 1rem; text-align: center;
+  color: var(--rp-muted);
+  border: 1px dashed var(--rp-border); border-radius: var(--rp-radius);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rapport__input { transition: none; }
+}
+
+.rapport__back-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 90;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.6rem 1rem;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: var(--rp-accent);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.38);
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+              opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.2s ease;
+}
+
+.rapport__back-btn[hidden] {
+  display: none !important;
+}
+
+.rapport__back-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.48);
+}
+
+.rapport__back-btn:active {
+  transform: translateY(0);
+}
+
+.rapport__back-btn svg {
+  display: block;
+  fill: currentColor;
+}
+
+@media (max-width: 600px) {
+  .rapport__back-btn {
+    bottom: 1.2rem;
+    right: 1.2rem;
+    padding: 0.6rem 0.8rem;
+  }
+  .rapport__back-btn span {
+    display: none; /* Icon-only view on narrow mobile screens */
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rapport__back-btn {
+    transition: none;
+  }
+}

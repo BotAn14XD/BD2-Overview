@@ -1,0 +1,210 @@
+/* ==========================================
+   Interactive Checklist Styles
+   ========================================== */
+
+/* Checklist Container */
+.checklist-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+/* Icon rendered from an item's icon_path (real image, e.g. matching your
+   MATERIALS_DB/DISHES_DB asset paths) — sizing only, the image itself
+   comes from the src set per-item in checklist.json. */
+.checklist-icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    vertical-align: -3px;
+    margin-right: 4px;
+}
+
+/* Priority section headers within a tab. Only inserted when a tab
+   actually mixes high/low priority items — see finalizeContainerPriority
+   in checklist.js. Reuses --bd-muted-strong (the dark-mode-safe token
+   from the settlement-lock-note fix) rather than a new one-off color. */
+.checklist-group .priority-divider {
+    margin: 10px 0 2px;
+    padding: 0 2px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--bd-muted-strong, var(--bd-muted, #9ca3af));
+}
+.checklist-group .priority-divider:first-child {
+    margin-top: 0;
+}
+
+/* Individual Checklist Card */
+.checklist-item {
+    display: flex;
+    align-items: center;
+    background-color: var(--bd-fill-5, rgba(255, 255, 255, 0.03));
+    border: 1px solid var(--bd-fill-10, rgba(255, 255, 255, 0.1));
+    border-radius: 10px;
+    padding: 12px 16px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer; /* Makes entire box show pointer cursor */
+    user-select: none;
+    width: 100%;
+}
+
+.checklist-item:hover {
+    background-color: var(--bd-fill-10, rgba(255, 255, 255, 0.07));
+    border-color: var(--bd-accent-blue, #3dc8ff);
+    transform: translateY(-1px);
+}
+
+/* Applied briefly by JS while restoring saved checkbox state on page
+   load, so hydrating a stored "checked" value doesn't visibly animate
+   like a real click would. */
+.checklist-item.no-anim,
+.checklist-item.no-anim * {
+    transition: none !important;
+}
+
+/* Settlement lock: item is temporarily un-doable (combat locked during
+   settlement), distinct from "already done" or "not done yet, go do it". */
+.checklist-item.is-locked {
+    cursor: not-allowed;
+}
+.checklist-item.is-locked:hover {
+    transform: none;
+    border-color: var(--bd-fill-10, rgba(255, 255, 255, 0.1));
+    background-color: var(--bd-fill-5, rgba(255, 255, 255, 0.03));
+}
+.checklist-item.is-locked input[type="checkbox"] {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+.checklist-item.is-locked label {
+    cursor: not-allowed;
+}
+.checklist-item.is-locked label {
+    cursor: not-allowed;
+    /* Dim the label's own (inherited) text color — NOT opacity, which
+       would also dim the lock-note below it. An explicit color on a
+       child always wins over an inherited one, so .lock-note's own
+       color stays at full strength regardless of markup shape (this
+       works the same whether the main text is wrapped in a <span>,
+       as dynamic items are, or bare text + <strong>/<a>, as static
+       items are). */
+    color: color-mix(in srgb, var(--md-default-fg-color, currentColor) 65%, transparent);
+}
+.checklist-item .lock-note {
+    display: none;
+    font-size: 0.78em;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--bd-muted-strong, var(--bd-muted, #9ca3af));
+    margin-left: 6px;
+}
+.checklist-item.is-locked .lock-note {
+    display: inline-block;
+}
+
+/* Hide Default Checkbox */
+.checklist-item input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--bd-muted, #8a99a8);
+    border-radius: 6px;
+    margin: 0 14px 0 0;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+/* Checkbox Hover */
+.checklist-item:hover input[type="checkbox"] {
+    border-color: var(--bd-accent-blue, #3dc8ff);
+}
+
+/* Checked State - Box Background */
+.checklist-item input[type="checkbox"]:checked {
+    background-color: var(--bd-accent-blue, #3dc8ff);
+    border-color: var(--bd-accent-blue, #3dc8ff);
+}
+
+/* Checked State - Custom Checkmark */
+.checklist-item input[type="checkbox"]:checked::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid #000000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/* Label & Typography */
+.checklist-item label {
+    font-size: 0.95em;
+    color: var(--md-default-fg-color);
+    cursor: pointer;
+    flex-grow: 1;          /* still a flex ITEM of .checklist-item's row — keep */
+    line-height: 1.4;
+    width: 100%;
+}
+/* NOTE: intentionally NOT display:flex/gap here. A flex container wraps
+   any direct run of plain text into an anonymous flex item, and `gap`
+   then applies between it and neighboring tags too — so mixed text like
+   "...text... <strong>...</strong> (<a>...</a>)" got a stray gap forced
+   in around every tag boundary. Plain inline flow spaces normal text
+   correctly on its own; the badge/guide-link chips below already carry
+   their own margins for separation, so nothing needed flex to begin with. */
+
+/* Completed Item Dimming & Strikethrough */
+.checklist-item:has(input[type="checkbox"]:checked) {
+    opacity: 0.55;
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+.checklist-item:has(input[type="checkbox"]:checked) label {
+    text-decoration: line-through;
+}
+
+/* Badges for Event Tags (PvE, Guild, etc.) */
+.checklist-item .badge {
+    display: inline-block;
+    font-size: 0.75em;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background-color: rgba(61, 200, 255, 0.15);
+    color: var(--bd-accent-blue, #3dc8ff);
+    border: 1px solid rgba(61, 200, 255, 0.3);
+    margin-right: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* External Guide Links inside Checkbox */
+.checklist-item .item-link {
+    font-size: 0.85em;
+    color: var(--bd-accent-blue, #3dc8ff);
+    margin-left: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.checklist-item .item-link:hover {
+    text-decoration: underline;
+}
+
+.checklist-item a {
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
