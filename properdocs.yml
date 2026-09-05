@@ -65,13 +65,15 @@ nav:
         - 'Fiend Hunter Calculator': misc/fh-calc.md
         - 'Game Slang': misc/slang.md
     - 'Common Questions': FAQ.md
-    - 'New Player Guide [WIP]': new.md
+    - 'New Player Guide': new.md
     - 'Game Routine Checklists': checklists.md 
     - '---': '#'
     - 'Survey': survey.md
     - 'Banner Recommendations': https://zormolo.github.io/BD2-Banner-Recommendation/
     - 'Our Discord Server': https://discord.gg/tays83ew3N
     - 'P2W Efficiency Spreadsheet': https://docs.google.com/spreadsheets/d/19X4TjCjyrl6XV1jCh6kRoChubKjL9xBZbfyh9SB2egg/edit
+    - '---': '#'
+    - 'Support Compendium': https://ko-fi.com/botan14xd
     - '---': '#'
     - 'My position regarding The Official Brown Dust 2 Server': assets/misc/My position regarding The Official Brown Dust 2 Server.pdf
 repo_name: BotAn14XD/BD2-Overview
@@ -85,12 +87,14 @@ extra_css:
   - stylesheets/checklists.css
   - stylesheets/print.css
   - stylesheets/fiend-hunter-bosses.css
+  - stylesheets/ads.css
   - assets/katex/katex.min.css
 extra_javascript:
   - javascripts/main.js
   - javascripts/rapport.js
   - javascripts/checklist.js
   - javascripts/fiend-hunter-bosses.js
+  - javascripts/ads.js
   - assets/katex/katex.min.js
   - assets/katex/contrib/auto-render.min.js
   - javascripts/katex-config.js
@@ -165,4 +169,3 @@ extra:
   III: '<span class="num">III</span>'
   IV: '<span class="num">IV</span>'
   EX: '<span class="num">EX</span>'
-

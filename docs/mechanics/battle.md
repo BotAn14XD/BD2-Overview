@@ -67,16 +67,16 @@ Brown Dust II is a turn-based strategy in which you can position your characters
         ![Targeting Logic](../assets/images/battle-system/targeting.avif)
 
 !!! abstract "Damage Formula"
-    $\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MATK} / \textcolor{orange}{HP}} \text{/ \textcolor{white}{Energy Guard}]} \\\\
+    $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MATK} / \textcolor{orange}{HP}} \text{/ \textcolor{white}{Energy Guard}}^\text{]}\\\\
     \times \; \text{Skill\%} \\\\
     \times \; (100\% + \text{\textcolor{ffe8aa}{ATK\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{ffe8aa}{ATK\%} Debuffs}) \\\\
-    \times \; (100\% + \text{\textcolor{white}{CDMG\%}} + \text{\textcolor{white}{CDMG\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{white}{CDMG\%} Debuffs}) \\
+    \times \; (100\% + \text{\textcolor{white}{CDMG\%}} + \text{\textcolor{white}{CDMG\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{white}{CDMG\%} Debuffs} + 6 \times (\text{\textcolor{white}{Crit Rate\%}} - 100\%)) \\
     \times \; (100\% + (10\% + \text{Increase Chain DMG\%}) \times \text{Chains}) \\\\
     \times \; (100\% + \text{Target's Vulnerability Debuffs\%} + \text{DMG Increase\% Buffs}) \\\\
-    \times \; (100\% + \text{\textcolor{8A9A5B}{Property Damage\%}} + \text{Season Buff\%} + \text{\textcolor{8A9A5B}{Property Damage\%} Buffs} \times [100\% - \text{Pressure\%}]  )\\\\
+    \times \; (100\% + \text{\textcolor{8A9A5B}{Property Damage\%}} + \text{Season Buff\%} + \text{\textcolor{8A9A5B}{Property Damage\%} Buffs} \times [100\% - \text{Pressure\%}]) \\\\
     \times \; (100\% - (\text{Target's \textcolor{ffe8aa}{DEF\%}} + \text{Target's \textcolor{ffe8aa}{DEF\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{Target's \textcolor{ffe8aa}{DEF\%} Debuffs})) \\\\  
     \times \; (100\% - \text{Target's DMG Reduction\% Buffs}) \\\\
-    \times \; (100\% - \text{Target's \textcolor{8A9A5B}{Property Resist\%}}) \\\\
+    \times \; (100\% - \text{Target's \textcolor{8A9A5B}{Property Resist\%}})\\\\
     \times \; (100\% + \text{Weak Point\%}) \\\\
     \times \; (100\% + \text{Support Bonus\%})$
 
@@ -433,4 +433,4 @@ There are a few types of unique damage in the game.
 
 * <u>**Fixed DMG**</u> **cannot crit**. It is not affected by **DEF**, **Magic Resist** and **DMG Taken Reduction / Increase**, but is affected by **Property DMG**, **Chain Effect**, **DMG Dealt Increase / Reduction** and **Death Time Effect**.
 * <u>**Consumed DMG**</u> also **cannot crit**. It is not affected by **DEF**, **Magic Resist**, **DMG Taken Reduction / Increase** and <u>**Energy Guard**</u>, but is affected by **Property DMG**, **Chain Effect**, **DMG Dealt Increase / Reduction** and **Death Time Effect**.
-* <u>**Pure DMG**</u> is not affected by **DEF**, **Magic Resist**, **DMG Taken Reduction / Increase** and **Energy Guard**, but affected by <u>**Critical Hit**</u>, **Property DMG**, **Chain Effect**, **DMG Dealt Increase / Reduction** and **Death Time Effect**.
+* <u>**Pure DMG**</u> is not affected by **DEF**, **Magic Resist**, <u>**DMG Taken Reduction**</u> and **Energy Guard**, but affected by <u>**Critical Hit**</u>, **Property DMG**, **Chain Effect**, <u> **DMG Taken Increase**</u>, **DMG Dealt Increase / Reduction** and **Death Time Effect**.

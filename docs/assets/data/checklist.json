@@ -170,7 +170,8 @@
     },
     {
       "id": 1, "cadence": "biseasonal", "priority": "high", "target_tab": "seasonal",
-      "name": "Completed all the boards in the <strong>The Soul Wager</strong> & bought resources in the Shop (<a href=\"../content-packs/soul-wager/\">The Soul Wager</a>)"
+      "name": "Completed all the boards in the <strong>The Soul Wager</strong> & bought resources in the Shop (<a href=\"../content-packs/soul-wager/\">The Soul Wager</a>)",
+      "settlement_hours_before_reset": 9
     },
 
     {

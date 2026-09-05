@@ -38,15 +38,6 @@
     --bd-btn-border:   #2e384d;
     --bd-btn-hover-border: #4f5d75;
     --bd-accent-blue:  #AFDBF5;  /* slang headings / tags */
-
-    /* --bd-emphasis used to chain through var(--md-default-fg-color) on the
-       assumption that Material's own fg variable tracks the active scheme
-       here. It doesn't (see the --md-primary-fg-color override two lines up
-       for proof this fork already overrides Material vars directly, and the
-       --bd-muted-strong slate fix further down where we already hit and
-       fixed this exact issue once). --bd-emphasis/--bd-muted now get real
-       per-scheme values the same way every other token in this block does,
-       so nothing consuming them needs a local workaround. */
     --bd-emphasis: var(--bd-white, #f5f7fa);
     --bd-muted:    color-mix(in srgb, var(--bd-emphasis) 58%, transparent);
     --bd-muted-strong: var(--bd-muted);
@@ -110,7 +101,6 @@ html {
 
 :root, [data-md-color-scheme] {
     --md-primary-fg-color: #161616 !important;
-    /*--md-default-bg-color: #161616 !important;*/
 }
 
 .icon {

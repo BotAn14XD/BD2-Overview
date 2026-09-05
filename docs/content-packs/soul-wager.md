@@ -37,6 +37,8 @@ If you are defeated, the Battle Shop refreshes and the reroll counter resets, gi
 
 If you complete the Board, you get {{ Alea_Chip }} **Alea Chips** as shop currency to purchase resources for your general progression.
 
+On the last day of the Season, a Settlement Period starts at {{ time('15:00') }}, after which you can no longer participate in the Soul Wager.
+
 ---
 
 ## Field
@@ -803,7 +805,15 @@ The damage scales every 3 seconds upward according to the following logic:
 
 ## Strategy
 
-Boards 1 — 3 don't require a specific strategy, since the enemy isn't that strong. As long as you build decent synergy within the team, it should work well.
+Current Season offer decent variety of builds you can run to clear the mode. 
+
+DPS that show themselves the best are **Liatris — Rodev's Star**, **Rubia — Thorn of the Desert** and **Blade — Apostle**.
+
+When in comes to Supports / Curse units, there are a lot of options, such as **Refithea — Pure While Blessing**, **Celia — The Curse**, **Levia — Overheat**, **Liberta — Onsen Manager**, **Palette — Shattered Dream** and more. 
+
+The goal is to stack huge amount of Debuffs, in particular {{Poison2}} **Poison**, while having moderate sustain to nullify enemy's incoming damage.
+
+<!--Boards 1 — 3 don't require a specific strategy, since the enemy isn't that strong. As long as you build decent synergy within the team, it should work well.
 
 When it comes to Boards 4 — 5, the easiest strategy revolves around using 1-2 copies of **Ingrid - Kardis' Bullet** alongside **Lathel - Homunculus** to buff Ingrid.
 
@@ -818,7 +828,7 @@ Other good support units for this strategy are **Blade - Apostle**, **Arines - P
     ![Typical Ingrid Cheese](../assets/images/soul-wager/ingrid-cheese.avif)
 
 There are other possible ways to complete the Soul Wager, but these options are harder to execute compared to the one described above.
-
+-->
 ---
 
 ## Shop
