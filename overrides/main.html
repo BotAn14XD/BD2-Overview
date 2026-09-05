@@ -23,6 +23,12 @@
   <meta property="og:type" content="website">
   {# Wide card by default; a page can request a square 'summary' card instead. #}
   <meta name="twitter:card" content="{{ page.meta.card_type if page.meta and page.meta.card_type else 'summary_large_image' }}">
+
+  {# Google AdSense: site verification + loader. Ad placement itself lives
+     in javascripts/ads.js, which decides sidebar vs. footer per viewport. #}
+  <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXXXXXXXX">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+          crossorigin="anonymous"></script>
 {% endblock %}
 
 {% block announce %}
@@ -38,6 +44,35 @@
 
 {% block content %}
   {{ super() }}
+
+  {# Monetization area #}
+  {#
+    <div class="content-support-wrap">
+    <!-- Real Ad Unit -->
+    <div class="md-ad md-ad--content-bottom">
+      <span class="md-ad__label">Advertisement</span>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-5192778583439992"
+           data-ad-slot="XXXXXXXXXX"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+    </div>
+
+    <!-- AdBlock Fallback (hidden by default) -->
+    <div id="support-fallback" class="support-fallback" style="display: none;">
+      <div class="support-fallback__inner">
+        <img src="{{base_url}}/assets/images/site-assets/illust_face00050208_19_1.avif" alt="Support" class="support-fallback__image" loading="lazy">
+        <div class="support-fallback__body">
+        <p class="support-fallback__title">Enjoying the Tactical Compendium?</p>
+        <p class="support-fallback__text">
+          Consider disabling your ad blocker on this website — it helps support future guides!
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  #}
 
   {# Only load Giscus if page meta enables comments #}
   {% if page and page.meta and page.meta.comments %}

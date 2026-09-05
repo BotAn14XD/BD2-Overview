@@ -27,7 +27,7 @@ This site is a work in progress, focusing on high-quality explanations for every
 
     ---
 
-    [View Page [WIP] →](./new.md){: .md-button}
+    [View Page →](./new.md){: .md-button}
 </div>
 
 <div class="grid cards center-content" markdown>
@@ -45,6 +45,10 @@ This site is a work in progress, focusing on high-quality explanations for every
 
     [View Page →](./checklists.md){: .md-button}
 </div>
+
+---
+
+---
 
 ---
 

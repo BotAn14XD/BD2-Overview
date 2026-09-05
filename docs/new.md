@@ -1,6 +1,6 @@
 ---
 
-description: 
+description: A comprehensive beginner guide for Brown Dust 2 covering Infinite Draw pick, Selective Ticket priorities, starter team compositions, daily farming loops, and key progression milestones.
 comments: true
 image: assets/images/site-assets/new-banner.png
 hero: assets/images/site-assets/index-pc-nav-27.avif
@@ -11,18 +11,25 @@ icon: material/book
 
 #
 
-!!! warning "WORK IN PROGRESS"
-    ![Sad Glupy](./assets/images/site-assets/illust_npcface0013210114_74.avif){.icon-portrait align=left}
-    **This page is currently under construction and will be completed soon. Thank you for your patience!**
+Welcome to **Brown Dust 2**!
+Whether you are starting fresh or returning after a break, navigating the game's cartridge system, gacha mechanics, and tactical grid battles can feel overwhelming at first.
 
----
+This guide provides a structured roadmap to help you build an efficient account from Day 1 without wasting scarce resources. Below you will find breakdowns of the interface, early battle solutions, gacha and ticket priorities, core team templates, and essential daily farming routines.
+
+!!! tip "" 
+    If you are looking for quick navigation:
+
+    * Clear **Master Pack 1 (Edge of Dimensions)** to unlock the gacha and core event hubs.
+    * Target **The Curse Celia** in the Infinite Draw and save your Selective Tickets for meta supports (*mostly* **Adventurer of the Unknown Diana**, **B-Rank Idol Helena**, **Homunculus Lathel**).
+    * Never mix Physical and Magic buffers and DPS in the same team composition.
+
 
 ## Field Menu Layout
 
 !!! image "Field Menu Layout"
     ![Field Menu Layout](./assets/images/new-player-guide/field-menu-guide.avif)
 
-=== "1 — Minimap & Map Info (Top-Left)"
+??? abstract "1 — Minimap & Map Info (Top-Left)"
 
     * **Collection & Rapport & Other Bonuses** — View active global stat bonuses applied to the current Pack.
     * **Minimap & Enlarging Button ([+] Icon)** — Shows immediate surroundings; tap the **[+]** icon to expand into the bigger version of itself, tap the minimap directly to expand into the full area map.
@@ -30,7 +37,7 @@ icon: material/book
     * **Rewards & Exploration Info** — Tracks remaining collectibles (glimmers), search objects, and field monsters left in the area.
     * **Health Bar & Food Option** — Track HP of the first Character and enable restoring HP with Food. 
 
-=== "2 — Resources, Shortcuts & Quests (Top-Right)"
+??? abstract "2 — Resources, Shortcuts & Quests (Top-Right)"
 
     * **Current Currencies** — Displays current totals for {{Dia}} **Dia**, {{Gold}} **Gold**, and {{Ability_Pill}} **Ability Pills**.
     * **Companion** — Manage your **character roster**: level up, equip costumes, upgrade gear, allocate [Potential Liberation](./progression/potentials.md) nodes, Awakening and [Burst](./progression/burst.md) upgrades.
@@ -38,14 +45,14 @@ icon: material/book
     * **Home** — Return directly to the **Home Screen**.
     * **Quest Tracker** — Displays **active quest goals**. Tap the tracker to activate **Auto-Move** pathfinding, or tap the **[+]** icon to view full quest details.
 
-=== "3 — Interaction, Field Abilities & Movement (Bottom-Right)"
+??? abstract "3 — Interaction, Field Abilities & Movement (Bottom-Right)"
 
     * **Interaction Button** — Interact with objects on the map. 
     * **Field Abilities Shortcut** — Quick-cast equipped **Field Abilities** (Search, Absorption, Assemble, Overpower, Danger Detection etc.) using {{Ability_Pill}} Ability Pills.
     * **Dash** — Sprint to move faster in fast motion. 
     * **Field Abilities Presets** — Cycle between 3 customizable sets of assigned Field Abilities.
 
-=== "4 — Miscellaneous (Bottom)"
+??? abstract "4 — Miscellaneous (Bottom)"
 
     * **Pack Selection (Cartridges)** — Switch between Main Story Packs, Character Packs, and Special Content Packs (e.g., [Evil Castle](./content-packs/evil-castle.md), [Mirror Wars](./content-packs/mirror-wars.md)).
     * **Field Character** — Toggle field sprite appearance between the Story Team, Custom Character, or active Battle Team. 
@@ -87,7 +94,7 @@ Since Master Pack 1, Edge of Dimensions, mostly relies on using Temporary Units 
 !!! image "Home Screen Layout"
     ![Home Screen Layout](./assets/images/new-player-guide/main-menu-explanation.avif)
 
-=== "1 — Social & Daily Management (Top-Left)"
+??? abstract "1 — Social & Daily Management (Top-Left)"
 
     * **Profile / Account** — View player Profile & Combat Power. Tapping the plus icon displays your **Player ID** and detailed account statistics.
     * **My Room** — Customize and decorate a personal dormitory that can be visited by other players.
@@ -99,7 +106,7 @@ Since Master Pack 1, Edge of Dimensions, mostly relies on using Temporary Units 
     * **Arcade** — Access standalone mini-games.
     * **Secret Events / View Mode** — Trigger special interactive cutscenes with specific Costumes, or hide the UI for a clean background view.
 
-=== "2 — Currencies, System & Shortcuts (Top-Right)"
+??? abstract "2 — Currencies, System & Shortcuts (Top-Right)"
 
     * **Current Currencies** — Displays current totals for {{Dia}} **Dia**, {{Gold}} **Gold**, and {{Ability_Pill}} **Ability Pills**.
     * **Notices** — Official patch notes, maintenance alerts, update announcements, and player feedback surveys.
@@ -112,7 +119,7 @@ Since Master Pack 1, Edge of Dimensions, mostly relies on using Temporary Units 
     * **Pass** — Central hub for the **Guide Pass**, **Season Pass**, **Character Pass** and other seasonal passes.
     * **Quick Hunt** — Instantly sweep unlocked **Hunting Grounds** and **Path of Adventure** stages without having to load into the map.
 
-=== "3 — Cartridges & Event Shortcuts (Bottom-Right)"
+??? abstract "3 — Cartridges & Event Shortcuts (Bottom-Right)"
 
     * **Prestige & Special Skins** — View active cosmetic skins offers (purely visual overhauls with no gameplay stat bonuses).
     * [**Season Event**](./content/events.md) — Shortcut to the current limited-time event hub (Event Story, Mini-game, Fiend Hunter, and Event Shop).
@@ -123,7 +130,7 @@ Since Master Pack 1, Edge of Dimensions, mostly relies on using Temporary Units 
         
         {{ redirect_btn('content/events/#event-shop', 'More about Season Event Shop', '#e5b567') }}
 
-=== "4 — Navigation Dock (Bottom)"
+??? abstract "4 — Navigation Dock (Bottom)"
 
     * **Jukebox** — Select background music from the unlocked soundtrack collection.
     * **Draw (Gacha)** — Summon on rate-up banners, standard banners, and claim daily free pulls.
@@ -158,7 +165,7 @@ Almost all content is divided into **Packs**. To switch the Packs, press the Car
 
 ## Guide Pass
 
-The **Guide Pass** is a Newbie Pass which goal is to make a player used with the game more, additionally giving out resources to start the game easier.
+The **Guide Pass** is a beginner event designed to help new players learn game mechanics while earning essential progression resources.
 
 It is located in the top right corner of the Home Screen in the Pass tab. Additionally, while it's active, it will be displayed above the Pass button.
 
@@ -254,7 +261,7 @@ As a general rule,
 
 * {{Selective_Exclusive_Draw_Ticket}} **Selective Exclusive Draw Tickets** *(Purple tickets)* — for **12-Pick Banner**.
 * {{Draw_Ticket}} **Draw Tickets** *(Red Tickets)* — for **regular banners**. Sometimes using in 12-Pick banner is fine, but keep it balanced.
-* {{Dia}} **Dia** — **treat them as Red Tickets**, but always have 1k {{Dia}} for purchasing a **Seasonal Pass**.<br>1 {{Draw_Ticket}} **Draw Ticket** is equal to 200 {{Dia}} **Dia**, with 10x Draw costing 1000 {{Dia}} **Dia**, respectively.
+* {{Dia}} **Dia** — **treat them as Red Tickets**, but always have 1k {{Dia}} for purchasing a **Seasonal Pass**.<br>1 {{Draw_Ticket}} **Draw Ticket** is equal to 200 {{Dia}} **Dia**, with 10x Draw costing 2000 {{Dia}} **Dia**, respectively.
 
 {{ redirect_btn('FAQ/#12pick', 'View 12-Pick Recommendations', '#4caf50') }}
 {{ redirect_btn('https://zormolo.github.io/BD2-Banner-Recommendation/', 'Active Banners Recommendations', '#4caf50') }}
@@ -269,8 +276,8 @@ However, for simplification, in a story you tend to run the same core stuff with
 
 The general idea is **1-3 DPS**, with rest being **Supports**. **3 Supports** and **2 DPS** is author's preferred team composition for simple fights, although it can vary.
 
-!!! warning "Damage Types Are Not Good to Mix!"
-    Keep your buffers within same damage type, unless you know what you are doing. 
+!!! warning "Avoid Mixing Physical & Magic Damage Types!"
+    Keep your buffers and DPS within same damage type, unless you know what you are doing.
 
     * {{ATK}} **ATK Buffers**{.yellow} (Arines, Homunculus Lathel) only buff {{Physical}} **Physical**{.yellow} damage.
     * {{MATK}} **MATK Buffers**{.magenta} (B-Rank Idol Helena, Elpis) only buff {{Magical}} **Magical**{.magenta} damage.
@@ -289,7 +296,7 @@ This team is designed to clear battle with a lot of enemies.
     * **Slot 3**{.yellow} — [Kind Student Samay](https://browndust2.miraheze.org/wiki/Samay/Kind_Student) — 4★ Support — from any Gacha banner.
         * **Substitute** — [Queen of Gluttis Granadair](https://browndust2.miraheze.org/wiki/Granadair/Queen_of_Gluttis) — 5★ Support — from random Pub Recruit.
         * **Substitute** — [Adventurer of the Unknown Diana](https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown) — 5★ Support — from Story Pack 10 Pub Recruit — **if enemy is {{Light}} Light or {{Fire}} Fire**{.yellow}.
-    * **Slot 4**{.yellow} — [Dream Bride Eclipse](https://browndust2.miraheze.org/wiki/Eclipse/Dream Bride) — 5★ DPS — from Events Tab.
+    * **Slot 4**{.yellow} — [Dream Bride Eclipse](https://browndust2.miraheze.org/wiki/Eclipse/Dream_Bride) — 5★ DPS — from Events Tab.
     * **Slot 5**{.yellow} — [Summer Vacation Dalvi](https://browndust2.miraheze.org/wiki/Dalvi/Summer_Vacation) — 5★ DPS — from Events Tab.
 
 !!! abstract "Costumes vs Characters"
@@ -297,6 +304,27 @@ This team is designed to clear battle with a lot of enemies.
     To clarify things, in a battle you use **Characters**.
     
     On the image and in the list, **Costumes** are provided as a **Turn 1** option. If you use these Costumes (Skills) on Turn 1, you have more chances to finish the battle in a single turn. 
+
+!!! question "Do I really have to use ★3/4 Characters?"
+    There is absolutely nothing wrong with using ★3/4 Supports. To be even more precise, ★5 equivalents are often worse at low upgrade dupes than +5 ★3/4 Costumes.
+
+    Of course, you can replace them once you are established in the game, but it should not be your main objective early on. 
+
+!!! question "What positioning should I use?"
+    There is no solid concrete positioning, because it varies based on the enemies.
+
+    If your current positioning clears, there is no reason to change it. If you fail, check positioning first.
+
+    Nonetheless, most of layouts vulnerable to damage from middle row/column, therefore, put DPS in the middle, while supports positioning does not matter much. 
+
+    ??? image "One of possible positioning layouts"
+        ![Possible Team Layout](./assets/images/new-player-guide/team-layout.avif)
+
+
+!!! abstract "Additional Note"
+    **Dalvi's** and **Eclipse's** order can be altered based on enemies. Supports order in this team **does not matter**.
+
+
 
 ### General Content Single Target Team
 
@@ -356,6 +384,8 @@ There are two main types of the Gear — **Offensive** and **Defensive**. For mo
 
 Gear have different **Rarity** ({{N_Grade}} — {{UR_Grade}}), **Tier** (I — IV), **Upgrade Level** (+1 — +9), and **Refinement Score** (6 — 24). The higher the number everywhere, the better.
 
+To craft Gear, you need to upgrade the Crafting Ability first ([Fred](https://browndust2.miraheze.org/wiki/Fred) / [Layla](https://browndust2.miraheze.org/wiki/Layla)). To do that, you need to earn EXP and then update it. The EXP required is equivalent to at most 20-40 crafts of {{N_Grade}} gear for each level.
+
 Focus on your Offensive Gear first, running glass cannon setup.
 
 {{ redirect_btn('progression/gear', 'More about Gear System & Crafting / Gearing Guide', '#e5b567') }}
@@ -368,12 +398,98 @@ Given list can help you to not miss anything for a game progression.
 
 Do keep in mind that you **do not have to strictly follow the order**, but the list is ordered in a way that makes sense during a playthrough.
 
+If you are searching for a **daily**, **weekly** or **seasonal** routine, follow the link below instead.
+
+{{ redirect_btn('checklists/', 'Game Routine Checklists', '#e5b567') }}
+
 <div class="checklist-group" id="checklist-permanent" markdown="0"></div>
 
 ---
 
+## Shops Recommendations
+
+### Points Shops
+??? abstract "{{Golden_Thread}} Golden Thread Shop"
+
+    1. **Costume Selective Enhancement**{.yellow} (1600 {{Golden_Thread}})
+    2. {{Spark_of_Rampage}} **Spark of Rampage**{.yellow} **x55** (275 {{Golden_Thread}})
+    3. **Featured Costume**{.yellow} (1600 {{Golden_Thread}}) — Situational
+
+??? abstract "{{Powder_of_Hope}} Powder of Hope Shop"
+
+    1. **Featured Costume(s)**{.yellow} (200 {{Powder_of_Hope}} per copy)  — Situational
+    2. {{Spark_of_Rampage}} **Spark of Rampage**{.yellow} **x55** (55 {{Powder_of_Hope}}) — only if big {{Powder_of_Hope}} excess
+
+??? abstract "{{Refinement_Remnants}} Refinement Remnants Shop"
+
+    1. {{Spark_of_Rampage}} **Spark of Rampage**{.yellow} **x200** (600 {{Refinement_Remnants}})
+    2. **24-Point Gear Score Change Ticket**{.yellow} (10000 {{Refinement_Remnants}})
+    3. **23-Point Gear Score Change Ticket**{.yellow} (6000 {{Refinement_Remnants}})
+
+### Content Shops
+
+??? abstract "{{Medal_of_the_Fighting_Spirit}}  Mirror Wars Shop"
+    1. **Featured Costume**{.yellow} (18000 {{Medal_of_the_Fighting_Spirit}}) — Unless the Costume is already at +5
+    2. {{Refining_Crystal}} **Refining Crystal**{.yellow} **x150** (10500 {{Medal_of_the_Fighting_Spirit}}) 
+
+??? abstract "{{Devil_Coin}} Evil Castle Shop"
+    1. {{Engraving_Scroll}} **Engraving Scroll**{.yellow} **x2000** (10000 {{Devil_Coin}})
+    2. {{Essence_of_Strength}} **Essence of Strength**{.yellow} **x200** (4000 {{Devil_Coin}})
+    3. {{Essence_of_Perseverance}} **Essence of Perseverance**{.yellow} **x200** (4000 {{Devil_Coin}})
+    4. {{Essence_of_Life}} **Essence of Life**{.yellow} **x200** (4000 {{Devil_Coin}})
+    5. {{Gold}} **Gold Pocket**{.yellow} **x100** (10000 {{Devil_Coin}}) — Optional
+    6. {{Refining_Powder}} **Refining Powder**{.yellow} **x2000** (20000 {{Devil_Coin}}) — Optional
+    7. {{S3_Ability_S_Book}} **★4 Ability S. Book**{.yellow} **x5** (2560 {{Devil_Coin}}) — Optional
+
+??? abstract "{{Mercenary_Alliance_Deed}} Guild Shop"
+
+    1. {{Tear_of_Goddess}} **Tear of Goddess**{.yellow} (2000 {{Mercenary_Alliance_Deed}})
+    2. {{Spark_of_Rampage}} **Spark of Rampage**{.yellow} (750 {{Mercenary_Alliance_Deed}})
+    3. {{Draw_Ticket}} **Draw Ticket**{.yellow} **x10** (3000 {{Mercenary_Alliance_Deed}})
+    4. {{Awakening_Elixir}} **Awakening Elixir**{.yellow} x100 (3000 {{Mercenary_Alliance_Deed}})
+    5. {{Essence_of_Strength}} **Essence of Strength**{.yellow} **x100** (1000 {{Mercenary_Alliance_Deed}})
+    6. {{Essence_of_Perseverance}} **Essence of Perseverance**{.yellow} **x100** (1000 {{Mercenary_Alliance_Deed}})
+    7. {{Essence_of_Life}} **Essence of Life**{.yellow} **x100** (1000 {{Mercenary_Alliance_Deed}})
+
+    Do note that it is possible to buy everything from the shop if you are active enough in Guild Raid.
+
+??? abstract "{{Aurum_Coin}} The Golden Colosseum Shop"
+
+    Depends on the account Progress, although {{Spark_of_Rampage}} [**Sparks**](./misc/slang.md?term=Sparks) and {{Draw_Ticket}} **Draw Tickets**{.yellow} take high priority nonetheless.
+    
+    Check more details in [Golden Colosseum](./content-packs/gc.md) Page.
+
+    {{ redirect_btn('content-packs/gc/#shop', 'Golden Colosseum Shop Priority', '#e5b567') }}
+
+??? abstract "{{Lucky_Silver_Coin}} Fishing Shop"
+
+    1. {{Gold}} **Gold Pocket**{.yellow} **x10** (18750 {{Lucky_Silver_Coin}})
+    2. {{Refining_Powder}} **Refining Powder**{.yellow} **x30** (18750 {{Lucky_Silver_Coin}})
+    3. {{Deco_Coin}} **Deco Coin**{.yellow} **x450** (33750 {{Lucky_Silver_Coin}})
+
+    Do note that it is easy to purchase everything on monthly basis if you progressed in fishing enough.
+
+??? abstract "{{Alea_Chip}} Soul-Wager Shop"
+
+    1. {{Tear_of_Goddess}} **Tear of Goddess**{.yellow} (1000 {{Alea_Chip}})
+    2. {{Refining_Powder}} **Refining Powder**{.yellow} **x10** (1000 {{Alea_Chip}})
+    3. {{Gold}} **Gold**{.yellow} **x10** (1000 {{Alea_Chip}})
+    4. {{Fire_Magic_Crystal}} {{Water_Magic_Crystal}} {{Wind_Magic_Crystal}} {{Light_Magic_Crystal}} {{Darkness_Magic_Crystal}} **Magic Crystals**{.yellow} **x10** each (1000 {{Alea_Chip}} each)
+    5. {{S5_R_Contract}} **★5 R. Contract**{.yellow} (1000 {{Alea_Chip}})
+    6. {{S4_R_Contract}} **★4 R. Contract**{.yellow} **x2** (1000 {{Alea_Chip}})
+
+    Do note that you can purchase everything if you full clear [Soul Wager](./content-packs/soul-wager.md).
+
+### Event Shop
+
+??? abstract "Event Shop"
+
+    ![Event Shop Priority](./assets/images/season-event/eshop_prio.avif)
+---
+
+
 !!! question "Still Have a Question?"
-    If so, check [FAQ](FAQ.md) page. If it does not help you either, that means it either is not new player question or it is explained elsewhere.
+    Have a specific question not covered here? Check out the **[FAQ](FAQ.md)** or use the search bar above to look up specific mechanics, character builds, and modes.
 
     Either way, feel free to experiment with your progress and do not hesitate to search for any info you seem necessary.
 

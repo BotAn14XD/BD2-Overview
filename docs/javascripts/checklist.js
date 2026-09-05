@@ -149,6 +149,9 @@ async function initChecklist() {
     const cycleDays = data.patch_cycle_days || 28;
     const totalDaysElapsed = Math.floor((now.getTime() - anchor.getTime()) / (1000 * 60 * 60 * 24));
 
+    const biSeasonDays = cycleDays * 2; // 56 days
+    const biSeasonElapsedDays = ((totalDaysElapsed % biSeasonDays) + biSeasonDays) % biSeasonDays;
+
     const currentBiweekCycle = Math.floor(totalDaysElapsed / 14);
     if (timestamps.lastBiweekCycle === undefined || timestamps.lastBiweekCycle !== currentBiweekCycle) {
       Object.keys(state).forEach((k) => { if (k.startsWith("bw_")) delete state[k]; });
@@ -167,6 +170,14 @@ async function initChecklist() {
       timestamps.lastBiSeasonCycle = currentBiSeasonCycle;
     }
 
+    const currentBiSeasonStart = new Date(anchor.getTime());
+    currentBiSeasonStart.setUTCDate(currentBiSeasonStart.getUTCDate() + currentBiSeasonCycle * biSeasonDays);
+    const nextBiSeasonReset = new Date(currentBiSeasonStart.getTime());
+    nextBiSeasonReset.setUTCDate(nextBiSeasonReset.getUTCDate() + biSeasonDays);
+
+    const msUntilReset = nextBiSeasonReset.getTime() - now.getTime();
+    const hoursUntilReset = msUntilReset / (1000 * 60 * 60);
+
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
     localStorage.setItem(TIMESTAMP_KEY, JSON.stringify(timestamps));
 
@@ -178,13 +189,15 @@ async function initChecklist() {
 
     // --- Repeating (daily/weekly/biweekly/monthly/seasonal/biseasonal) ---
     sortItems(data.repeating || []).forEach((item) => {
-      // Allow item.target_tab to override where it renders, default to item.cadence
       const targetTab = item.target_tab || item.cadence;
       const container = document.getElementById(`checklist-${targetTab}`);
-      
-      // Keep the cadence prefix (e.g., "bs_" for biseasonal) so storage resets independently!
       const prefix = CADENCE_PREFIX[item.cadence] || "x_";
-      const locked = isLockedByDayHour(item.settlement_day, item.settlement_hour);
+
+      let locked = isLockedByDayHour(item.settlement_day, item.settlement_hour);
+
+      if (item.settlement_hours_before_reset !== undefined) {
+        locked = hoursUntilReset <= item.settlement_hours_before_reset && hoursUntilReset > 0;
+      }
 
       renderItem(container, `${prefix}${item.id}`, item, { locked });
     });

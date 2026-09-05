@@ -19,7 +19,7 @@ icon: material/calculator
 $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MATK} / \textcolor{orange}{HP}}^{\textcolor{AFDBF5}{[1]}} \text{/ \textcolor{white}{Energy Guard}}^{\textcolor{AFDBF5}{[2]}}\text{]}^{\textcolor{AFDBF5}{[3]}}  \\\\
 \times \; \text{Skill\%} \\\\
 \times \; (100\% + \text{\textcolor{ffe8aa}{ATK\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{ffe8aa}{ATK\%} Debuffs})^{\textcolor{AFDBF5}{[4]}} \\\\
-\times \; (100\% + \text{\textcolor{white}{CDMG\%}} + \text{\textcolor{white}{CDMG\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{white}{CDMG\%} Debuffs})^{\textcolor{AFDBF5}{[5]}} \\
+\times \; (100\% + \text{\textcolor{white}{CDMG\%}} + \text{\textcolor{white}{CDMG\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{white}{CDMG\%} Debuffs} + 6 \times (\text{\textcolor{white}{Crit Rate\%}} - 100\%)^{\textcolor{AFDBF5}{[13]}})^{\textcolor{AFDBF5}{[5]}} \\
 \times \; (100\% + (10\% + \text{Increase Chain DMG\%}) \times \text{Chains})^{\textcolor{AFDBD5}{[6]}} \\\\
 \times \; (100\% + \text{Target's Vulnerability Debuffs\%} + \text{DMG Increase\% Buffs}) \\\\
 \times \; (100\% + \text{\textcolor{8A9A5B}{Property Damage\%}} + \text{Season Buff\%}^{\textcolor{AFDBD5}{[7]}} + \text{\textcolor{8A9A5B}{Property Damage\%} Buffs} \times [100\% - \text{Pressure\%}]  )^\text{\textcolor{AFDBF5}{[8]}} \\\\
@@ -56,74 +56,29 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ${\textcolor{AFDBF5}{[12]}}$: Exclusive to Last Night.
 
-??? example "Pure Math Formula (FOR MATH NERDS ONLY)"
-    $\text{Damage} = 
-    \max \left(\left\lfloor\text{Damage}_{\; \text{Total}}\right\rfloor, 1\right)$
+    ${\textcolor{AFDBF5}{[13]}}$: Only when {{CritRate}} **Crit Rate**{.white} is greater than 100%.
 
-    ---
+??? example "Master Formula"
+    $$
+    \footnotesize
+    \begin{aligned}
+    D_{\text{terminal}} = \max \Biggl( 1, \; \Biggl\lfloor & \bigg\lfloor \min_{\circ} \Big( \vec{C}, \; \big\lfloor \vec{v} \circ \max_{\circ} \big( \vec{0}, \; \vec{1} + \sum_j \vec{b}^{(\text{off})}_j \cdot P - \sum_j \vec{d}^{(\text{off})}_j \big) \big\rfloor \Big)^\top \vec{m} \bigg\rfloor \\
+    & \cdot \min \bigg( 1, \; \max \Big( 0.1, \; 1 - \gamma_{\text{def}} \Big[ \operatorname{sgn}(v_1) \big( \text{DEF}_{\text{tgt}} + \sum_j b^{(\text{def})}_j \cdot P - \sum_j d^{(\text{def})}_j \big) \\
+    & \qquad\qquad\qquad\qquad\qquad\qquad\qquad + \operatorname{sgn}(v_2) \big( \text{MRES}_{\text{tgt}} + \sum_j b^{(\text{mres})}_j \cdot P - \sum_j d^{(\text{mres})}_j \big) \Big] \Big) \bigg) \\
+    & \cdot \bigg( 1 + \gamma_{\text{crit}} \max \Big( \mathcal{H}\big( \max(0, v^{(\text{cr})} + \sum_j b^{(\text{cr})}_j \cdot P - \sum_j d^{(\text{cr})}_j) - u \big), \; \gamma_{\text{raid}} \mathcal{H}\big( N^{(\text{weak})}_{\text{chain}} - 3 \big) \Big) \\
+    & \qquad\quad \cdot \min \Big( 10^2, \; \max \big( 0, \; v^{(\text{cdmg})} + \sum_j b^{(\text{cdmg})}_j \cdot P - \sum_j d^{(\text{cdmg})}_j \\
+    & \qquad\qquad\qquad\qquad\qquad\qquad\quad + 6 \max(0, \; v^{(\text{cr})} + \sum_j b^{(\text{cr})}_j \cdot P - \sum_j d^{(\text{cr})}_j - 1) \big) \Big) \bigg) \\
+    & \cdot \max \bigg( 0, \; 1 + \max(0, \mathbf{e}_{\text{src}}^\top \mathbf{A}_{\text{elem}} \mathbf{e}_{\text{tgt}}) \Big( v_{\text{pr}}^{(\text{off})} + \sum_j b_j^{(\text{pr\_off})} \cdot P - \sum_j d_j^{(\text{pr\_off})} + \gamma_{\text{ec}} b^{(\text{pr\_ec})} \Big) \\
+    & \qquad\qquad\quad - \max(0, -\mathbf{e}_{\text{src}}^\top \mathbf{A}_{\text{elem}} \mathbf{e}_{\text{tgt}}) \Big( v_{\text{pr}}^{(\text{def})} + \sum_j b_j^{(\text{pr\_def})} \cdot P - \sum_j d_j^{(\text{pr\_def})} \Big) \bigg) \\
+    & \cdot \bigg( 1 + \gamma_{\text{chain}} \big( 0.10 + \sum_j b_j^{(\text{chain})} \big) \Big[ (1 - \gamma_{\text{ln}})\min(100, N_{\text{chain}}) + \gamma_{\text{ln}} N_{\text{chain}} \Big] \bigg) \\
+    & \cdot \bigg( 1 + \sum_j b_j^{(\text{aug})} + \gamma_{\text{vuln}} \Big[ \sum_j b_j^{(\text{vuln\_gen})} + \operatorname{sgn}(v_1)\sum_j b_j^{(\text{vuln\_phys})} + \operatorname{sgn}(v_2)\sum_j b_j^{(\text{vuln\_mag})} \\
+    & \qquad\qquad\qquad\qquad\qquad\quad + \big( \sum_j \vec{\mathbf{b}}_j^{(\text{vuln\_elem})} \big)^\top \mathbf{e}_{\text{src}} + \gamma_{\text{dot}} \sum_j b_j^{(\text{vuln\_dot})} + \gamma_{\text{sum}} \sum_j b_j^{(\text{vuln\_sum})} \Big] \bigg) \\
+    & \cdot \prod_k \bigg( 1 - \gamma_{\text{barrier}} \Big[ r_k^{(\text{gen})} + \operatorname{sgn}(v_1) r_k^{(\text{phys})} + \operatorname{sgn}(v_2) r_k^{(\text{mag})} \Big] \bigg) \\
+    & \cdot \Big( 1 + \gamma_{\text{raid}} \gamma_{\text{weak}} b_{\text{weak}} \Big) \Big( 1 + \gamma_{\text{ln}} b_{\text{supp}} \Big) \Biggr\rfloor \Biggr)
+    \end{aligned}
+    $$ 
 
-    $\text{Damage}_{\; \text{Total}} = \\\\
-    \left[\min \left(\vec{c}_\text{max}^\text{v}, \vec{\text{v}} \odot \left[1 + \displaystyle \sum_{i=1}^{n^{(1)}} \vec{\text{b}}_\text{i}^{\text{(off)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(2)}}\vec{\text{d}}_\text{i}^{\text{(off)}}\right] \right) \odot \vec{\text{SM}} \right] \vec{\text{s}}^{\top} \times \\\\
-    \times \left[ \min \left(1, \max \left(0.1, \left[ 1 - \left(1-\delta_{\text{pfc}}\right) \times \left(\vec{\tilde{\text{v}}} + \displaystyle \sum_{i=1}^{n^{(3)}} \vec{\text{b}}_\text{i}^{\text{(def)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(4)}}\vec{\text{d}}_\text{i}^{\text{(def)}}\right) \right]\right) \right) \right] \vec{\tilde{\text{s}}}^{\top} \times \\\\
-    \times \Bigg[ \max \Biggl(1,\Bigg[ 1 + \left(\left(1-\delta_{\text{fc}} \right) \times \mathcal{H}\left(\text{v}^{\text{cr}} + \displaystyle \sum_{i=1}^{n^{(5)}} \text{b}_\text{i}^{\text{(cr)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(6)}}\text{d}_\text{i}^{\text{(cr)}}- \mathcal{U}\left(0,1\right) \right) \right) \times \\\\ 
-    \times \min\left(10^4, 10^{-3} \times \left\lfloor 10^3 \times \left(1+ \text{v}^{\text{(cdmg)}} + \displaystyle \sum_{i=1}^{n^{(7)}} \text{b}_\text{i}^{\text{(cdmg)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(8)}}\text{d}_\text{i}^{\text{(cdmg)}}\right)\right\rfloor\right) \Bigg]\Bigg)\Bigg] \times \\\\
-    \times \Bigg[1+\max \left(0, \vec{\text{pr}}^\text{(off)} \times \text{PR} \times \left(\vec{\text{pr}}^\text{(def)}\right)^{\top}\right) \times \left( \vec{\text{v}}_{\text{pr}}^{\text{(off)}} + \displaystyle \sum_{i=1}^{n^{(9)}} \vec{\text{b}}_\text{i}^{\text{(pr\_off)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(10)}} \vec{\text{d}}_\text{i}^{\text{(pr)}}\right)+\\\\
-    +\min \left(0, \vec{\text{pr}}^\text{(off)} \times \text{PR} \times \left(\vec{\text{pr}}^\text{(def)}\right)^{\top}\right) \times \left( \vec{\text{v}}_{\text{pr}}^{\text{(def)}} + \displaystyle \sum_{i=1}^{n^{(11)}} \vec{\text{b}}_\text{i}^{\text{(pr\_def)}} \times \left[1 - \min\left(\text{P},1\right) \right] - \displaystyle \sum_{i=1}^{n^{(12)}} \vec{\text{d}}_\text{i}^{\text{(pr)}}\right) + \\\\
-    + \delta_{\text{EC}} \times \text{b}^{\text{EC}} \Bigg] \times \\\\
-    \times \left[1 + \delta_{\text{chains}} \times \left(0.1 + \displaystyle \sum_{i=1}^{n^{(13)}} \text{b}_\text{i}^{\text{(chains)}} \right) \times \left[\left(1-\delta_\text{ln}\right) \times \min \left(100, \text{v}^{\text{(chains)}}\right) + \delta_\text{ln} \text{v}^{\text{(chains)}} \right] \right] \times \\\\
-    \times \Bigg[1 + \displaystyle \sum_{i=1}^{n^{(14)}} \text{b}_\text{i}^{\text{(aug)}} + \displaystyle \sum_{i=1}^{n^{(15)}} \text{b}_\text{i}^{\text{(vuln\_gen)}} + \displaystyle \sum_{i=1}^{n^{(16)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_dt)}} \times \vec{\tilde{\text{s}}}^{\top} + \displaystyle \sum_{i=1}^{n^{(17)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_pr)}} \times  \left(\vec{\text{pr}}^\text{(off)}\right)^{\top} + \\\\
-    + \delta_{\text{DoT}} \times \displaystyle \sum_{i=1}^{n^{(18)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_dot)}} + \delta_{\text{summons}} \times \displaystyle \sum_{i=1}^{n^{(19)}} \vec{\text{b}}_\text{i}^{\text{(vuln\_summons)}}  \Bigg] \times \\\\
-    \times \left(1-\delta_{\text{pf}}\right) \times \displaystyle \prod_{i=1}^{n^{(20)}}  \left[1 - \vec{\text{b}}_\text{i}^{\text{(dmg\_red)}} \right] \vec{\tilde{\text{s}}}^{\top}  \times \\\\
-    \times \left[1 + \delta_{\text{fh/gr}} \times \text{b}_{\text{weak}} \right] \times \\\\
-    \times \left[1 + \delta_\text{ln} \times \text{b}_{\text{supp}} \right] \times \\\\
-    \times \left[1-\delta_{\text{kb}}\right]$    
-    
-
-    ---
-
-    $\vec{\text{c}}^\text{v}_\text{max} = \begin{pmatrix} 10^5 & 10^5 & 5 \cdot 10^4 & \infty & 10^5 & 10^5 & 5 \cdot 10^4 \end{pmatrix}$
-
-    $\vec{\text{v}} = \begin{pmatrix}\text{\textcolor{ffe8aa}{ATK}}_\text{self} & \text{\textcolor{ffa6ff}{MATK}}_\text{self} & \text{\textcolor{orange}{HP}}_\text{self} & \text{\textcolor{white}{EG}}_\text{self} & \text{\textcolor{ffe8aa}{ATK}}_\text{enemy} & \text{\textcolor{ffa6ff}{MATK}}_\text{enemy} & \text{\textcolor{orange}{HP}}_\text{enemy} \end{pmatrix}$
-
-    $\text{SM} = \begin{pmatrix}\text{SM}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{self}} & \text{SM}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{self}} & \text{SM}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{self}} & \text{SM}_{\text{i}}^{\text{\textcolor{white}{EG}}_\text{self}}& \text{SM}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{enemy}}& \text{SM}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{enemy}} & \text{SM}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{enemy}} \end{pmatrix}$
-
-    $\vec{\text{s}} = \begin{pmatrix}\delta\text{\textcolor{ffe8aa}{ATK}}_\text{self} & \delta\text{\textcolor{ffa6ff}{MATK}}_\text{self} & \delta\text{\textcolor{orange}{HP}}_\text{self} & \delta\text{\textcolor{white}{EG}}_\text{self} & \delta\text{\textcolor{ffe8aa}{ATK}}_\text{enemy} & \delta\text{\textcolor{ffa6ff}{MATK}}_\text{enemy} & \delta\text{\textcolor{orange}{HP}}_\text{enemy} \end{pmatrix}$
-
-    $\vec{\text{b}}_\text{i}^{\text{(off)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{self}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{self}} & \text{b}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{self}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{white}{EG}}_\text{self}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{enemy}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{enemy}} \equiv 0 & \text{b}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{enemy}} \equiv 0 \end{pmatrix}$
-
-    $\vec{\text{d}}_\text{i}^{\text{(off)}} = \begin{pmatrix}\text{d}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{self}} & \text{d}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{self}} & \text{d}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{self}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{white}{EG}}_\text{self}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{ffe8aa}{ATK}}_\text{enemy}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{ffa6ff}{MATK}}_\text{enemy}} \equiv 0 & \text{d}_{\text{i}}^{\text{\textcolor{orange}{HP}}_\text{enemy}} \equiv 0 \end{pmatrix}$
-
-    $\vec{\tilde{\text{v}}} = \begin{pmatrix}\text{\textcolor{ffe8aa}{DEF}} & \text{\textcolor{ffa6ff}{MRES}} \end{pmatrix}$
-
-    $\vec{\tilde{\text{s}}} = \begin{pmatrix}\delta\text{\textcolor{ffe8aa}{Physical}} & \delta\text{\textcolor{ffa6ff}{Magical}} \end{pmatrix}$
-
-    $\vec{\text{b}}_\text{i}^{\text{(def)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{DEF}}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{MRES}}}\end{pmatrix}$
-
-    $\vec{\text{d}}_\text{i}^{\text{(def)}} = \begin{pmatrix}\text{d}_{\text{i}}^{\text{\textcolor{ffe8aa}{DEF}}} & \text{d}_{\text{i}}^{\text{\textcolor{ffa6ff}{MRES}}}\end{pmatrix}$
-
-    $\delta_{\text{pfc}} = \begin{pmatrix}\delta\text{Pure} & \delta\text{Fixed} & \delta\text{Consumed}\end{pmatrix} \cdot \begin{pmatrix}1 & 1 & 1\end{pmatrix}^{\top}$
-    
-    $\delta_{\text{fc}} = \begin{pmatrix}\delta\text{Fixed} & \delta\text{Consumed}\end{pmatrix} \cdot \begin{pmatrix}1 & 1\end{pmatrix}^{\top}$ 
-
-    $\text{PR} = \begin{pmatrix}0 & 1 & -1 & 0 & 0 & 0 \\ -1 & 0 & 1 & 0 & 0 & 0 \\ 1 & -1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 & 0\end{pmatrix}$
-    
-    $\vec{\text{pr}}^\text{(off)} = \begin{pmatrix}\delta\text{Water} & \delta\text{Fire} & \delta\text{Wind} & \delta\text{Light} & \delta\text{Darkness} & \delta\text{Neutral}\end{pmatrix} \\\\
-    \vec{\text{pr}}^\text{(def)} = \begin{pmatrix}\delta\text{Water} & \delta\text{Fire} & \delta\text{Wind} & \delta\text{Light} & \delta\text{Darkness} & \delta\text{Neutral}\end{pmatrix}$
-
-    $\vec{\text{b}}_\text{i}^{\text{(pr)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{Water}} & \text{b}_{\text{i}}^{\text{Fire}} & \text{b}_{\text{i}}^{\text{Wind}} & \text{b}_{\text{i}}^{\text{Light}} & \text{b}_{\text{i}}^{\text{Darkness}} & \text{b}_{\text{i}}^{\text{Neutral}} \equiv 0 \end{pmatrix}$
-
-    $\vec{\text{d}}_\text{i}^{\text{(pr)}} = \begin{pmatrix}\text{d}_{\text{i}}^{\text{Water}} & \text{d}_{\text{i}}^{\text{Fire}} & \text{d}_{\text{i}}^{\text{Wind}} & \text{d}_{\text{i}}^{\text{Light}} & \text{d}_{\text{i}}^{\text{Darkness}} & \text{d}_{\text{i}}^{\text{Neutral}} \equiv 0 \end{pmatrix}$
-
-    $\vec{\text{v}}_\text{(pr)}^{\text{j}} = \begin{pmatrix}\text{v}_{\text{pr}}^{\text{j\_Water}} & \text{v}_{\text{pr}}^{\text{j\_Fire}} & \text{v}_{\text{pr}}^{\text{j\_Wind}} & \text{v}_{\text{pr}}^{\text{j\_Light}} & \text{v}_{\text{pr}}^{\text{j\_Darkness}} & \text{v}_{\text{pr}}^{\text{j\_Neutral}} \equiv 0 \end{pmatrix}$
-
-    $\vec{\text{b}}_\text{i}^{\text{(vuln\_dt)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{Vuln\_Physical}}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{Vuln\_Magical}}} \end{pmatrix}$
-
-    $\vec{\text{b}}_\text{i}^{\text{(vuln\_pr)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{Vuln\_Water}} & \text{b}_{\text{i}}^{\text{Vuln\_Fire}} & \text{b}_{\text{i}}^{\text{Vuln\_Wind}} & \text{b}_{\text{i}}^{\text{Vuln\_Light}} & \text{b}_{\text{i}}^{\text{Vuln\_Darkness}} & \text{b}_{\text{i}}^{\text{Vuln\_Neutral}} \end{pmatrix}$
-
-    $\vec{\text{b}}_\text{i}^{\text{(dmg\_red)}} = \begin{pmatrix}\text{b}_{\text{i}}^{\text{\textcolor{ffe8aa}{dmg\_red\_Physical}}} & \text{b}_{\text{i}}^{\text{\textcolor{ffa6ff}{dmg\_red\_Magical}}} \end{pmatrix}$
-
-    $\delta_{\text{fh/gr}} = \begin{pmatrix}\delta\text{Fiend Hunter} & \delta\text{Guild Raid}\end{pmatrix} \cdot \begin{pmatrix}1 & 1\end{pmatrix}^{\top}$ 
-
+    {{ redirect_btn('https://github.com/BotAn14XD/BD2-Overview/blob/main/docs/assets/publishings/damage-formula/damage-formula.pdf', 'Formula Breakdown & Testing', '#4caf50') }}
 ## Damage Formula Details {.tab-align}
 
 === "<span class="yellow">ATK</span>"
@@ -172,7 +127,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 ![Prophetic Dream Darian](../assets/images/damage-formula/illust_inven_char004001_181.avif){.icon-portrait}
                 </td>
                 <td><strong>Prophetic Dream<br>Darian</strong></td>
-                <td>$\textcolor{white}{775\% \sim 1300\% \text{ to the Main Target}} \newline 500\% \sim 900\% \text{ otherwise}$</td>
+                <td>$\textcolor{white}{775\% \sim 1900\% \text{ to the Main Target}} \newline 500\% \sim 1700\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
@@ -207,7 +162,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 ![Night of Jealousy Levia](../assets/images/damage-formula/illust_inven_char067302_139.avif){.icon-portrait}
                 </td>
                 <td><strong>Night of Jealousy<br>Levia</strong></td>
-                <td>$\textcolor{white}{80\% \sim 300\% \text{ to the Main Target}} \newline 30\% \sim 90\% \text{ otherwise}$</td>
+                <td>$\textcolor{white}{200\% \sim 420\% \text{ to the Main Target}} \newline 100\% \sim 240\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
@@ -221,7 +176,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 ![New Hire Nebris](../assets/images/damage-formula/illust_inven_char003303_149.avif){.icon-portrait}
                 </td>
                 <td><strong>New Hire<br>Nebris</strong></td>
-                <td>$[40\% \sim 80\%] + [15\% \sim 30\%] \times \text{Buffs Applied}$</td>
+                <td>$[40\% \sim 110\%] + [15\% \sim 46\%] \times \text{Buffs Applied}$</td>
             </tr>
             <tr>
                 <td align="center">
@@ -242,7 +197,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 ![Reclaimed Destiny Sacred Justia](../assets/images/damage-formula/illust_inven_char003501_131.avif){.icon-portrait}
                 </td>
                 <td><strong>Reclaimed Destiny<br>Sacred Justia</strong></td>
-                <td>$[150\% \sim 300\%] + [50\% \sim 100\%] \times \text{Targets affected}$</td>
+                <td>$[150\% \sim 300\%] + [80\% \sim 310\%] \times \text{Targets affected}$</td>
             </tr>
             <tr>
                 <td align="center">
@@ -277,7 +232,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 ![Wild Dog Luvencia](../assets/images/damage-formula/illust_inven_char067503_155.avif){.icon-portrait}
                 </td>
                 <td><strong>Wild Dog<br>Luvencia</strong></td>
-                <td>$\textcolor{white}{40\% \sim 160\% \newline \text{if enemy Chain count is a multiple of 3}} \newline 30\% \sim 80\% \text{ otherwise}$</td>
+                <td>$\textcolor{white}{40\% \sim 260\% \newline \text{if enemy Chain count is a multiple of 3}} \newline 30\% \sim 80\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
@@ -285,6 +240,41 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </td>
                 <td><strong>Onsen Swordfighter<br>Blade</strong></td>
                 <td>$[350\% \sim 600\%] + [70\% \sim 120\%] \times \text{Debuffs Applied on enemy}$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Tricky Lover Dalvi](../assets/images/damage-formula/illust_inven_char061306_208.avif){.icon-portrait}
+                </td>
+                <td><strong>Tricky Lover<br>Dalvi</strong></td>
+                <td>$\textcolor{white}{[100\% \sim 300\%] \times \text{Bleed Stacks Applied} \newline \text{if enemy has Bleed Applied}} \newline 100\% \text{ otherwise}$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Miracle Violet Palette](../assets/images/damage-formula/illust_inven_char004202_200.avif){.icon-portrait}
+                </td>
+                <td><strong>Miracle Violet<br>Palette</strong></td>
+                <td>$\textcolor{white}{110\% \sim 250\% \newline \text{if enemy Debuff count is 7 or more}} \newline 35\% \sim 65\% \text{ otherwise}$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Gentle Maid Anastasia](../assets/images/damage-formula/illust_inven_char060501_79.avif){.icon-portrait}
+                </td>
+                <td><strong>Gentle Maid Anastasia</strong></td>
+                <td>$\textcolor{white}{250\% \sim 500\% \text{ to the Main Target}} \newline 110\% \sim 210\% \text{ otherwise}$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Fire Graffiti Anastasia](../assets/images/damage-formula/illust_inven_char060502_46.avif){.icon-portrait}
+                </td>
+                <td><strong>Fire Graffiti Anastasia</strong></td>
+                <td>$\textcolor{white}{55\% \sim 90\% \text{ to the Main Target}} \newline 30\% \sim 50\% \text{ otherwise}$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Pool Party Scheherazade](../assets/images/damage-formula/illust_inven_char000306_92.avif){.icon-portrait}
+                </td>
+                <td><strong>Pool Party Scheherazade</strong></td>
+                <td>$\textcolor{white}{140\% \sim 260\% \text{ if Chain Count on the enemy is 15 or more}} \newline 30\% \sim 60\% \text{ otherwise}$</td>
             </tr>
         </tbody>
     </table>
@@ -329,12 +319,12 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 ![Homunculus Lathel](../assets/images/damage-formula/illust_inven_char000103_59.avif){.icon-portrait}
                 </td>
                 <td rowspan="2"><strong>Homunculus Lathel</strong></td>
-                <td>$60\% \sim 90\%$</td>
+                <td>$60\% \sim 130\%$</td>
                 <td>$4 \sim 6 \text{ Turns}$</td>
-                <td align="center" rowspan="2">$2 \sim 1$</td>
+                <td align="center" rowspan="2">$6 \sim 1$</td>
             </tr>
             <tr>
-                <td>$25\% \sim 70\%$</td>
+                <td>$25\% \sim 150\%$</td>
                 <td>$\text{2 Turns}$</td>
             </tr>
             <tr>
@@ -418,9 +408,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 ![B-Rank Idol Helena](../assets/images/damage-formula/illust_inven_char061002_26.avif){.icon-portrait}
                 </td>
                 <td><strong>B-Rank Idol Helena</strong></td>
-                <td>$35\% \sim 115\%$</td>
+                <td>$35\% \sim 190\%$</td>
                 <td>$\text{4 Turns}$</td>
-                <td align="center">$3 \sim 1$</td>
+                <td align="center">$6 \sim 1$</td>
             </tr>
             <tr>
                 <td align="center">
@@ -544,9 +534,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 ![Pool Party Justia](../assets/images/damage-formula/illust_inven_char000206_91.avif){.icon-portrait}
                 </td>
                 <td><strong>Pool Party<br>Justia</strong></td>
-                <td>$150\% \sim 300\%$</td>
+                <td>$150\% \sim 400\%$</td>
                 <td>$8 \sim 12 \text{ Turns}$</td>
-                <td align="center">$2 \sim 1$</td>
+                <td align="center">$5 \sim 1$</td>
             </tr>
             <tr>
                 <td align="center">
@@ -554,7 +544,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </td>
                 <td><strong>Comeback Idol<br>Ventana</strong></td>
                 <td>$50\% \sim 125\%$</td>
-                <td>$4 \text{ Turns}$</td>
+                <td>$6 \text{ Turns}$</td>
                 <td align="center">$5 \sim 3$</td>
             </tr>
             <tr>
@@ -563,7 +553,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </td>
                 <td><strong>Whitebolt<br>Yuri</strong></td>
                 <td>$150\% \sim 160\%$</td>
-                <td>$4 \text{ Turns}$</td>
+                <td>$6 \text{ Turns}$</td>
                 <td align="center">$4 \sim 3$</td>
             </tr>
             <tr>
@@ -583,6 +573,42 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 <td>$25\% \sim 40\%$</td>
                 <td>$10 \text{ Turns}$</td>
                 <td align="center">$6 \sim 4$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Savage Warrior Aquila](../assets/images/damage-formula/illust_inven_char067901_222.avif){.icon-portrait}
+                </td>
+                <td><strong>Savage Warrior Aquila</strong></td>
+                <td>$15\% \sim 30\%$</td>
+                <td>$4 \text{ Turns}\newline \text{99 stacks MAX} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
+                <td align="center">$5 \sim 4$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Ocean Vanguard Luvencia](../assets/images/damage-formula/illust_inven_char067504_205.avif){.icon-portrait}
+                </td>
+                <td><strong>Ocean Vanguard Luvencia</strong></td>
+                <td>$1\% \sim 3\%$</td>
+                <td>$6 \text{ Turns}\newline \text{60 stacks MAX} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
+                <td align="center">$6 \sim 5$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Dream Bride Eclipse](../assets/images/damage-formula/illust_inven_char000708_170.avif){.icon-portrait}
+                </td>
+                <td><strong>Dream Bride Eclipse</strong></td>
+                <td>$50\% ~ 100\%$</td>
+                <td>$6 \text{ Turns}$</td>
+                <td align="center">$5 \sim 4$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![DJ Venaka](../assets/images/damage-formula/illust_inven_char067201_129.avif){.icon-portrait}
+                </td>
+                <td><strong>DJ<br>Venaka</strong></td>
+                <td>$100\%$</td>
+                <td>$4\text{ Turns}$</td>
+                <td align="center">$6 \sim 5$</td>
             </tr>
         </tbody>
     </table>
@@ -607,7 +633,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 ![Track and Field Team Loen](../assets/images/damage-formula/illust_inven_char003202_133.avif){.icon-portrait}
                 </td>
                 <td><strong>Track and Field Team<br>Loen</strong></td>
-                <td>$40\% \sim 80\%$</td>
+                <td>$60\% \sim 100\%$</td>
                 <td>$4 \text{ Turns}$</td>
                 <td align="center">$5 \sim 4$</td>
             </tr>
@@ -616,9 +642,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 ![Beachside Justice Michaela](../assets/images/damage-formula/illust_inven_char067401_137.avif){.icon-portrait}
                 </td>
                 <td><strong>Beachside Justice<br>Michaela</strong></td>
-                <td>$200\%$</td>
-                <td>$2 \text{ Turns}$</td>
-                <td align="center">$5 \sim 4$</td>
+                <td>$200\% \sim 300\%$</td>
+                <td>$2 \sim 4 \text{ Turns}$</td>
+                <td align="center">$8 \sim 4$</td>
             </tr>
             <tr>
                 <td align="center">
@@ -772,6 +798,11 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     $\text{\textcolor{white}{CDMG\%}}$ addend refers to the sum of inherent, gear, and bonding {{CritDMG}} **Crit Damage**:
     
     $\text{\textcolor{white}{CDMG\%}} = \text{Character's Base \textcolor{white}{CDMG\%}} + \text{Gear \textcolor{white}{CDMG\%}} + \text{ Potential \textcolor{white}{CDMG\%}}$
+
+    !!! example "Overflow {{CritRate}} **Crit Rate** Conversion"
+        When {{CritRate}} **Crit Rate**{.white} exceeds 100%, extra **Crit Rate**{.white} is converted to {{CritDMG}} **Crit Damage**{.white} at a ratio of 1:6.
+
+        Converted {{CritDMG}} **Crit Damage**{.white} this way **is not affected by Pressure** and is enviromental rule rather than direct buff.
 
     ---
 
@@ -981,7 +1012,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     ![Gentle Maid Anastasia](../assets/images/damage-formula/illust_inven_char060501_79.avif){.icon-portrait}
                     </td>
                     <td><strong>Gentle Maid Anastasia</strong></td>
-                    <td>$200\% \sim 500\%$</td>
+                    <td>$350\% \sim 600\%$</td>
                     <td>$\text{1 Turn}$</td>
                     <td align="center">$5 \sim 3$</td>
                 </tr>
@@ -990,9 +1021,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     ![Fire Graffiti Anastasia](../assets/images/damage-formula/illust_inven_char060502_46.avif){.icon-portrait}
                     </td>
                     <td><strong>Fire Graffiti Anastasia</strong></td>
-                    <td>$200\% \sim 500\%$</td>
-                    <td>$\text{1 Turn}$</td>
-                    <td align="center">$4 \sim 3$</td>
+                    <td>$350\% \sim 600\%$</td>
+                    <td>$1 \sim 3 \text{ Turns}$</td>
+                    <td align="center">$7 \sim 6$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1017,9 +1048,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     ![Comeback Idol Yuri](../assets/images/damage-formula/illust_inven_char065103_110.avif){.icon-portrait}
                     </td>
                     <td><strong>Comeback Idol Yuri</strong></td>
-                    <td>$150\%$</td>
+                    <td>$150\% \sim 300\%$</td>
                     <td>$4 \text{ Turns}$</td>
-                    <td align="center">$4 \sim 3$</td>
+                    <td align="center">$8 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1029,6 +1060,24 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td>$300\% \sim 500\%$</td>
                     <td>$4 \sim 6 \text{ Turns}$</td>
                     <td align="center">$4 \sim 2$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Combat Medic Granhildr](../assets/images/damage-formula/illust_inven_char067104_206.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Combat Medic Granhildr</strong></td>
+                    <td>$100\% \sim 200\%$</td>
+                    <td>$2 \text{ Turns}$</td>
+                    <td align="center">$5 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Bikini Agent Sylvia](../assets/images/damage-formula/illust_inven_char001006_177.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Bikini Agent Sylvia</strong></td>
+                    <td>$200\%$</td>
+                    <td>$2 \text{ Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
+                    <td align="center">$9 \sim 8$</td>
                 </tr>
             </tbody>
         </table>
@@ -1044,6 +1093,15 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     ---
 
     Each **Chain** increases damage by 10% by default; however, there is an effect called **Increased Chain DMG**, which increases that value further.
+
+    ---
+
+    **Chain Retention** is an effect that keeps set amount of Chains in-between Turns. If you reach more Chains than Retention can carry over, the maximum amount from Chain Retention will be carried over instead. 
+
+    ---
+
+
+    **Chain Weakening** is similar to **Chain Reinforcement**, but is applied to the Enemy instead.
 
     ---
 
@@ -1093,6 +1151,24 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td>$2 \sim 4 \text{ Turns}$</td>
                     <td align="center">$4 \sim 2$</td>
                 </tr>
+            <tr>
+                <td align="center">
+                ![Ocean Vanguard Luvencia](../assets/images/damage-formula/illust_inven_char067504_205.avif){.icon-portrait}
+                </td>
+                <td><strong>Ocean Vanguard Luvencia</strong></td>
+                <td>$6\% \sim 20\%$</td>
+                <td>$2 \text{ Turns}\newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
+                <td align="center">$5 \sim 9$</td>
+            </tr>
+            <tr>
+                <td align="center">
+                ![Deadeye Nekyndalia](../assets/images/damage-formula/illust_inven_char004301_214.avif){.icon-portrait}
+                </td>
+                <td><strong>Deadeye Nekyndalia</strong></td>
+                <td>$3\%$</td>
+                <td>$4 \text{ Turns}$</td>
+                <td align="center">$4 \sim 5$</td>
+            </tr>
             </tbody>
         </table>
     </div>
@@ -1125,6 +1201,74 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>Masquerade Bunny Celia</strong></td>
                     <td>$4 \sim 6 \text{ Turns}$</td>
                     <td align="center">$4 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Heavenly Guardian Successor Glacia](../assets/images/damage-formula/illust_inven_char066907_209.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Heavenly Guardian Successor Glacia</strong></td>
+                    <td>$2 \text{ Turns}$</td>
+                    <td align="center">$8 \sim 7$</td>
+                </tr>
+                <tr>
+                <td align="center">
+                ![Pool Party Scheherazade](../assets/images/damage-formula/illust_inven_char000306_92.avif){.icon-portrait}
+                </td>
+                <td><strong>Pool Party Scheherazade</strong></td>
+                <td>$6 \text{ Turns}$</td>
+                <td align="center">$7 \sim 6$</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    ---
+
+    Costumes providing **Chain Retention** debuff to enemy:
+    <div class="responsive-table-wrapper">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Chains Retained</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Heavenly Guardian Successor Glacia](../assets/images/damage-formula/illust_inven_char066907_209.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Heavenly Guardian<br>Successor Glacia</strong></td>
+                    <td>$6 \sim 20$</td>
+                    <td>$4 \sim 6 \text{ Turns}$</td>
+                    <td align="center">$5 \sim 3$</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    ---
+
+    Costumes providing **Chain Weakening** debuff **to enemies**:
+    <div class="responsive-table-wrapper">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Steel Engine Rafina](../assets/images/damage-formula/illust_inven_char060701_81.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Steel Engine Rafina</strong></td>
+                    <td>$\text{2 Turns}$</td>
+                    <td align="center">$7 \sim 6$</td>
                 </tr>
             </tbody>
         </table>
@@ -1187,6 +1331,15 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td>$\text{4 Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
                     <td align="center">$4 \sim 3$</td>
                 </tr>
+                <tr>
+                    <td align="center">
+                    ![Miracle Marine Mamonir](../assets/images/damage-formula/illust_inven_char067803_199.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Miracle Marine<br>Mamonir</strong></td>
+                    <td>$30\% \sim 80\%$</td>
+                    <td>$2 \sim 6 \text{ Turns}\newline \text{\textcolor{AFDBF5}{[Max 8 Stacks]}} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
+                    <td align="center">$6 \sim 5$</td>
+                </tr>
             </tbody>
         </table>
     </div>
@@ -1228,9 +1381,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     ![Young Lady Blade](../assets/images/damage-formula/illust_inven_char003703_166.avif){.icon-portrait}
                     </td>
                     <td><strong>Young Lady Blade</strong></td>
-                    <td>$100\% \sim 150\% \newline \text{\textcolor{AFDBF5}{[Main Target]}}$</td>
+                    <td>$100\% \sim 150\% \newline \text{\textcolor{AFDBF5}{[Main Target]}} \newline 75\% \newline \text{\textcolor{AFDBF5}{[All Targets]}}$</td>
                     <td>$\text{4 Turns}$</td>
-                    <td align="center">$5 \sim 4$</td>
+                    <td align="center">$6 \sim 4$</td>
                 </tr>
             </tbody>
         </table>
@@ -1267,6 +1420,15 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td>$50\% \sim 75\%$</td>
                     <td>$\text{2 Turns}$</td>
                     <td align="center">$4 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Night of Jealousy Levia](../assets/images/damage-formula/illust_inven_char067302_139.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Night of Jealousy<br>Levia</strong></td>
+                    <td>$50\%$</td>
+                    <td>$4 \text{ Turns}$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
             </tbody>
         </table>
@@ -1429,9 +1591,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     ![Onsen Manager Liberta](../assets/images/damage-formula/illust_inven_char003802_159.avif){.icon-portrait}
                     </td>
                     <td><strong>Onsen Manager<br>Liberta</strong></td>
-                    <td>$80\% \sim 130\% \newline \text{\textcolor{AFDBF5}{[When attacking enemy}} \newline \text{\textcolor{AFDBF5}{with 10 Chains or more]}}$</td>
+                    <td>$80\% \sim 175\% \newline \text{\textcolor{AFDBF5}{[When attacking enemy}} \newline \text{\textcolor{AFDBF5}{with 10 Chains or more]}}$</td>
                     <td>$6 \sim 4 \text{ Turns}$</td>
-                    <td align="center">$3 \sim 2$</td>
+                    <td align="center">$6 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1441,6 +1603,15 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td>$10\% \sim 22\% \times \newline \text{\textcolor{AFDBF5}{[Amount of times}} \newline \text{\textcolor{AFDBF5}{Seir gets hit]}}$</td>
                     <td>$6 \sim 8 \text{ Turns}$</td>
                     <td align="center">$3 \sim 2$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Sunny Inn Hand Helena](../assets/images/damage-formula/illust_inven_char061003_210.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Sunny Inn<br>Hand Helena</strong></td>
+                    <td>$75\% \sim 280\%$</td>
+                    <td>$6 \sim 8 \text{ Turns}$</td>
+                    <td align="center">$5 \sim 3$</td>
                 </tr>
             </tbody>
         </table>
@@ -1477,6 +1648,15 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td>$400\% \sim 1200\% \newline \text{\textcolor{AFDBF5}{[For 1 next}} \newline  \text{\textcolor{AFDBF5}{Basic Attack]}}$</td>
                     <td>$\text{Until} \newline \text{Basic Attack}$</td>
                     <td align="center">$5 \sim 4$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Naive Lady Elise](../assets/images/damage-formula/illust_inven_char060804_207.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Naive Lady<br>Elise</strong></td>
+                    <td>$70\% \sim 150\% \newline + \; [4\% \sim 10\%] \newline \times \; \text{\textcolor{AFDBF5}{Resonate Stacks}}$</td>
+                    <td>$6 \text{ Turns}$</td>
+                    <td align="center">$5 \sim 3$</td>
                 </tr>
             </tbody>
         </table>
@@ -1521,9 +1701,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     ![Adventurer of the Unknown Diana](../assets/images/damage-formula/illust_inven_char002401_58.avif){.icon-portrait}
                     </td>
                     <td><strong>Adventurer of the Unknown<br>Diana</strong></td>
-                    <td>$100\% \sim 220\%$</td>
+                    <td>$100\% \sim 295\%$</td>
                     <td>$\text{8 Turns} \newline \text{\textcolor{AFDBF5}{[Aura]}}$</td>
-                    <td align="center">$3 \sim 2$</td>
+                    <td align="center">$6 \sim 2$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1575,9 +1755,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     ![Frozen Queen Wilhelmina](../assets/images/damage-formula/illust_inven_char067604_189.avif){.icon-portrait}
                     </td>
                     <td><strong>Frozen Queen<br>Wilhelmina</strong></td>
-                    <td>$30\% \sim 60\%$</td>
+                    <td>$30\% \sim 90\%$</td>
                     <td>$4 \sim 6 \text{ Turns}$</td>
-                    <td align="center">$5 \sim 3$</td>
+                    <td align="center">$8 \sim 3$</td>
                 </tr>
                 <tr>
                     <td align="center">
@@ -1596,6 +1776,15 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td>$200\% \sim 400\%$</td>
                     <td>$\text{8 Turns}$</td>
                     <td align="center">$3 \sim 2$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![The Fallen Angelica](../assets/images/damage-formula/illust_inven_char066401_94.avif){.icon-portrait}
+                    </td>
+                    <td><strong>The Fallen<br>Angelica</strong></td>
+                    <td>$100\%$</td>
+                    <td>$\text{4 Turns}$</td>
+                    <td align="center">$5 \sim 4$</td>
                 </tr>
             </tbody>
         </table>
@@ -1781,6 +1970,15 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td>$50\%$</td>
                     <td>$4 \text{ Turns}$</td>
                     <td align="center">$5 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Miracle Violet Palette](../assets/images/damage-formula/illust_inven_char004202_200.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Miracle Violet<br>Palette</strong></td>
+                    <td>$50\%$</td>
+                    <td>$4 \text{ Turns}$</td>
+                    <td align="center">$7 \sim 6$</td>
                 </tr>
             </tbody>
         </table>
@@ -2020,6 +2218,15 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td>$4 \text{ Turns}$</td>
                     <td align="center">$5 \sim 4$</td>
                 </tr>
+                <tr>
+                    <td align="center">
+                    ![Miracle Marine Mamonir](../assets/images/damage-formula/illust_inven_char067803_199.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Miracle Marine<br>Mamonir</strong></td>
+                    <td>$50\% \sim 70\%$</td>
+                    <td>$6 \text{ Turns}$</td>
+                    <td align="center">$3 \sim 2$</td>
+                </tr>
             </tbody>
         </table>
     </div>
@@ -2032,24 +2239,28 @@ All Costumes are upgraded to the max.
 
 !!! abstract "Blade's Stats"
     * **Hit Multiplier**: $150\%$
-    * {{ATK}} **ATK**: $2950$
-    * {{CritDMG}} **Crit DMG**: $734.44\%$
+    * {{ATK}} **ATK**: $3133$
+    * {{CritRate}} **Crit Rate**: $60\%$
+    * {{CritDMG}} **Crit DMG**: $680.44\%$
     * **Darkness DMG**: $60\%$
 
 !!! abstract "Enemy Stats"
     * {{DEF}} **DEF**: $25\%$
 
-Liberta increases {{ATK}} **ATK** by $115\%$, Lathel increases {{ATK}} **ATK** by $160\%$, and Teresse increases **DMG Dealt** by $200\%$.
+Liberta increases {{ATK}} **ATK** by $115\%$ and {{CritRate}} **Crit Rate** by $50\%$, Lathel increases {{ATK}} **ATK** by $240\%$, and Teresse increases **DMG Dealt** by $200\%$.
 
 Putting that into the equation:
 
-$\text{Damage} = \underbrace{2950}_\text{ATK} \times \underbrace{150\%}_\text{Skill Multiplier} \times \underbrace{(100\% + \overbrace{115\%}^\text{Liberta} + \overbrace{160\%}^\text{Lathel})}_\text{ATK Buffs} \times \underbrace{(100\% + \overbrace{200\%}^\text{Teresse})}_\text{DMG Increase} \times \underbrace{(100\% + 734.4\%)}_\text{Crit DMG} \times \underbrace{(100\% + 60\%)}_\text{Property} \times \underbrace{(100\% - 25\%)}_\text{Enemy DEF}$
+$\text{Damage} = \left\lfloor \left\lfloor \underbrace{3133}_\text{ATK} \times \underbrace{(100\% + \overbrace{115\%}^\text{Liberta} + \overbrace{240\%}^\text{Lathel})}_\text{ATK Buffs}\right\rfloor \times \underbrace{150\%}_\text{Skill Multiplier} \right\rfloor \times \underbrace{(100\% - 25\%)}_\text{Enemy DEF} \times \underbrace{(100\% + \overbrace{200\%}^\text{Teresse})}_\text{DMG Increase} \times \underbrace{(100\% + 680.44\% + \overbrace{6 \cdot 10\%}^\text{CRate Overflow})}_\text{Crit DMG} \times \underbrace{(100\% + 60\%)}_\text{Property}$
 
-$\text{Damage} = 2950 \times 1.5 \times 3.75 \times 3 \times 8.344 \times 1.6 \times 0.75 = 498449.7$
+$\text{Damage} = \lfloor \lfloor 3133 \times 4.55 \rfloor \times 1.5 \rfloor \times \underbrace{0.75 \times 3 \times 8.344 \times 1.6}_{30.25584} = \\
+= \lfloor 14255 \times 1.5 \rfloor \times 30.25584 = 21382 \times 30.25584 = 646930.37$
 
 That confirms the damage received by the enemy in-game:
 
 ![Fight Screenshot №2](../assets/images/damage-formula/fight_2.avif)
+
+The difference of 1 can be explained with calculations precision.
 
 ## Stat Limits
 During calculations, some numbers have a cap to avoid weird bugs or mechanics.
