@@ -57,19 +57,24 @@ For each Costume, the **SP Cost** and **Effects** are different.
 !!! example "{{Spark_of_Rampage}} **Sparks of Rampage**"
     To upgrade the Bursts, you need the currency called {{Spark_of_Rampage}} **Spark of Rampage**. It is obtained from many sources:
         
-    * **Event Shop**: **30 / season**{.yellow} — **60 / month**{.yellow}
+    * **Event Shop**: **50 / season**{.yellow} — **100 / month**{.yellow}
     * {{Golden_Thread}} **Golden Thread Shop**: **55 / month**{.yellow}
     * {{Powder_of_Hope}} **Powder of Hope Shop**: **55 / month**{.yellow}
     * **Refinement Remnants Shop**: **200 / month**{.yellow}
-    * {{Medal_of_the_Fighting_Spirit}} **[Mirror Wars](../content-packs/mirror-wars.md) Shop**: **55 / month**{.yellow}
-    * {{Mercenary_Alliance_Deed}} **Guild Shop**: **50 / month**{.yellow}
-    * {{Aurum_Coin}} **Golden Colosseum Shop**: **55 / month**{.yellow}
-    * **Taros Tactical Manual**: **30 / month**{.yellow}
+    * {{Medal_of_the_Fighting_Spirit}} **[Mirror Wars](../content-packs/mirror-wars.md) Shop**: **65 / month**{.yellow}
+    * {{Mercenary_Alliance_Deed}} **Guild Shop**: **60 / month**{.yellow}
+    * {{Aurum_Coin}} **Golden Colosseum Shop**: **65 / month**{.yellow}
+    * **Taros Tactical Manual**: **40 / month**{.yellow}
 
     ---
 
-    * **Total theoretical:** **560 / month**{.yellow} ~ **3.1 Costumes / month**{.magenta}
-    * **Total realistic:** **450 ~ 505 / month**{.yellow} ~ **2.5 ~ 2.8 Costumes / month**{.magenta}
+    * **Total theoretical:** **640 / month**{.yellow} ~ **3.5 Costumes / month**{.magenta}
+    * **Total realistic:** **530 ~ 585 / month**{.yellow} ~ **2.94 ~ 3.25 Costumes / month**{.magenta}
+
+!!! abstract "Spark of the Overworld"
+    **Spark of the Overworld** is a **Burst** material specifically for characters from **collaborations**.
+
+    The cost is the same as for regular Bursts, but, unlike {{Spark_of_Rampage}} **Spark of Rampage**, **Spark of the Overworld** can be obtained only during limited time (collaboration) and is presented in limited amount, enough to burst all featured collaboration Costumes. 
 
 ---
 
@@ -145,6 +150,8 @@ Costumes within each category are **not sorted** in priority, but rather **alpha
 
 When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burst 1 provides a small benefit on its own. For these costumes, you should save your Sparks of Rampage and wait to upgrade until you can afford to unlock up to Burst 2 or 3 all at once.
 
+Priority list will also feature **Collaboration Costumes** priority, but since those use **Spark of Overworld**, their bursts are displayed in **magenta**{.magenta} color, while regular Bursts are displayed in **yellow**{.yellow}.
+
 === "Highest Priority"
     * **Adventurer of the Unknown Diana** **Bursts 1-3**{.yellow}
     * **B-Rank Idol Helena** **Bursts 1-3**{.yellow}
@@ -154,8 +161,10 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
 === "High Priority"
     * **Heavenly Guardian Successor Glacia** **Bursts 1-3**{.yellow}
     * **Sunny Inn Hand Helena** **Bursts 1-2**{.yellow}
+    * **Eternal Chains Kyouka Uzen** **Burst 1**{.magenta}
     * **Homunculus Lathel** **Burst 2-3**{.yellow}
     * **Miracle Marine Mamonir** **Bursts 1-3**{.yellow}
+    * **New Hire Seir** **Bursts 1-2**{.yellow}
 
 === "Medium Priority"
     * **Fire Graffiti Anastasia** **Burst 3**{.yellow}
@@ -163,6 +172,7 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Young Lady Blade** **Burst 1**{.yellow}
     * **Prophetic Dream Darian** **Burst 1**{.yellow}
     * **Beach Vacation Eclipse** **Bursts 1**{.yellow}
+    * **Piercing Magic Bow Eleaneer** **Bursts 1-2**{.yellow}
     * **Code Name O Elise** **Burst 1**{.yellow}
     * **Naive Lady Elise** **Burst 3**{.yellow}
     * **Sunny Inn Hand Helena** **Burst 3**{.yellow}
@@ -176,6 +186,7 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Magical Violet Palette** **Burst 1**{.yellow}
     * **Pool Party Scheherazade** **Bursts 1,3**{.yellow}
     * **Bikini Agent Sylvia** **Bursts 1,3**{.yellow}
+    * **Ame-no-Mitori Tenka Izumo** **Burst 1**{.magenta}
     * **Starlight Guardian Tyr** **Bursts 1-2**{.yellow}
     * **DJ Venaka** **Burst 1**{.yellow}
     * **Frozen Queen Wilhelmina** **Burst 1**{.yellow}
@@ -191,6 +202,7 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Beach Vacation Eclipse** **Bursts 2-3**{.yellow}
     * **Code Name O Elise** **Bursts 2-3**{.yellow}
     * **Naive Lady Elise** **Bursts 1,2**{.yellow}
+    * **Eternal Chains Kyouka Uzen** **Bursts 2-3**{.magenta}
     * **Night of Jealousy Levia** **Bursts 2-3**{.yellow}
     * **Ocean Vanguard Luvencia** **Bursts 2-3**{.yellow}
     * **Wild Dog Luvencia** **Bursts 1-3**{.yellow}
@@ -203,13 +215,16 @@ When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burs
     * **Reclaimed Destiny Sacred Justia** **Bursts 2-3**{.yellow}
     * **Pool Party Scheherazade** **Burst 2**{.yellow}
     * **The Lapis Witch Scheherazade** **Burst 1**{.yellow}
+    * **New Hire Seir** **Burst 3**{.yellow}
     * **Bikini Agent Sylvia** **Burst 2**{.yellow}
+    * **Ame-no-Mitori Tenka Izumo** **Bursts 2-3**{.magenta}
     * **Starlight Guardian Tyr** **Burst 3**{.yellow}
     * **DJ Venaka** **Bursts 2-3**{.yellow}
     * **Frozen Queen Wilhelmina** **Bursts 2-3**{.yellow}
     * **Comeback Idol Yuri** **Burst 2**{.yellow}
 
 === "Complete Skip"
+    * **Piercing Magic Bow Eleaneer** **Burst 3**{.yellow}
     * **Blood Glutton Justia** **Bursts 1-3**{.yellow}
     * **Pool Party Justia** **Bursts 1-3**{.yellow}
     * **Steel Engine Rafina** **Bursts 1-2**{.yellow}

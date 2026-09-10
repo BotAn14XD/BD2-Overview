@@ -200,7 +200,7 @@ Tower of Salvation is a **seasonal** roguelike game mode where you climb Floors 
     * <u>**Unlock requirement: Clear Story Pack 9 "Iron Mask" (Normal Difficulty)**</u>.
     * **Levels:** 10 Difficulties \[ 10-30 floors each \]
     * **Season Duration:** 4 weeks with settlement period on last day (starting at {{ time('15:00') }}).
-    * **Daily attempts:** 3 {{ Key_of_Salvation }} per day.
+    * **Daily attempts:** 10 {{ Key_of_Salvation }} per day.
 
 Before starting your run, you're allowed to choose a difficulty and purchase some upgrades.<br>
 Difficulty decides how hard it will be to climb the Tower, while upgrades ease the process but require from you {{ Night_World_Obsidian }} Night World Obsidian, earned in your other runs.

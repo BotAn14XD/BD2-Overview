@@ -16,7 +16,7 @@ icon: material/home
 
 Welcome to the ultimate starter encyclopedia for **Brown Dust II**.
 
-This site is a work in progress, focusing on high-quality explanations for every game aspect for new players.
+This site focuses on high-quality explanations for every game aspect for new players.
 
 ---
 

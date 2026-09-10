@@ -160,6 +160,7 @@ markdown_extensions:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
 
 extra:
+  generator: false
   social_image: assets/images/site-assets/banner.png
   analytics:
       provider: google
@@ -169,3 +170,10 @@ extra:
   III: '<span class="num">III</span>'
   IV: '<span class="num">IV</span>'
   EX: '<span class="num">EX</span>'
+
+copyright: >
+  &copy; 2026 BotAn &middot;
+  <a href="/privacy.html">Privacy Policy</a><br>
+  <span style="font-size: 0.8em; color: var(--md-default-fg-color--lighter);">
+    Brown Dust 2 is a trademark of NEOWIZ & GAMFS N. This fan site is not affiliated with or endorsed by the publishers.
+  </span>
