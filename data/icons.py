@@ -123,6 +123,7 @@ IMAGES = {
         "Solar_Brilliance": ["assets/images/gear-system/icons/icon_equipment4405_71.avif", "Solar Brilliance"],
         "Spanking_Wheat": ["assets/images/territory/icons/icon_life_item_crop_001.avif", "Spanking Wheat"],
         "Spark_of_Rampage": ["assets/images/icons/icon_resource20045_383.avif", "Spark of Rampage"],
+        "Spark_of_the_Overworld": ["assets/images/icons/icon_resource20052_433_1.avif", "Spark of the Overworld"],
         "SR_Exclusive_Gear_Draw_Exchange_Ticket": ["assets/images/icons/icon_resource40008_130.avif", "SR Exclusive Gear Draw Exchange Ticket"],
         "SR_Grade": ["assets/images/gear-system/icons/SR_Grade.avif", "SR Grade"],
         "Stamina_Pepper": ["assets/images/territory/icons/icon_life_item_crop_012.avif", "Stamina Pepper"],
