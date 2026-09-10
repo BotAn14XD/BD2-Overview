@@ -8,7 +8,7 @@ Path of Adventure is one of Content Packs, offering you daily income of useful m
 
 
 !!! question "How should I use {{ Cooked_Rice }} Rice and {{ Torch }} Torches?"
-    * For {{ Cooked_Rice }} Rice, use **6 rice** *(equivalent to 1 quick hunt)* on **Hunting Grounds** for the pass task, rest **54** — on {{ Gold }} **Gold** (Goblin Cave) or {{ Red_Slime }} **Slimes** (Slime Empire) depending on the bonus day.
+    * For {{ Cooked_Rice }} Rice, use **6 rice** *(equivalent to 1 quick hunt)* on **Hunting Grounds** for the pass task, rest **84** — on {{ Gold }} **Gold** (Goblin Cave) or {{ Red_Slime }} **Slimes** (Slime Empire) depending on the bonus day.
     * For {{ Torch }} Torches, do whatever Property you need crystals for.  
 
 !!! info ""Paid Rice""
@@ -16,7 +16,6 @@ Path of Adventure is one of Content Packs, offering you daily income of useful m
     ??? image "Image Guide"
         ![Paid Rice enabling](../assets/images/path-of-adventure/PoA_7.avif)
 
-<h1>WORK IN PROGRESS</h1>
 <!--This pack has the same requirements to be unlocked as Mirror Wars pack — clearing Normal Difficulty of Story Pack 3. It introduces you a way to gain three very essential resources on a daily basis — gold, slimes and property crystals. 
 Gold is obtained via Goblin Ruins, Slimes via Slime Empire, and Crystals through Magic Crystal Caves. 
 Each of the trials has three difficulties (so basically the same as Story Packs), giving more items for higher difficulty completed. 

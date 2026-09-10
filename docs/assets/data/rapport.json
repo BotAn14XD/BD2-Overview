@@ -2805,6 +2805,339 @@
           "wrong": "Work out."
         }
       ]
+    },
+    {
+      "id": "whitebolt-yuri",
+      "costume": "Whitebolt Yuri",
+      "character": "Yuri",
+      "drinks": [
+        { "name": "Creamy Milk", "icon": "assets/images/rapport/icons/icon_resource190001_395_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Yuri sneaks up to me and shouts...",
+            "Roar!",
+            "Give me a rice cake, and I won't gobble you up!"
+          ],
+          "correct": "Give her a honey rice cake",
+          "wrong": "Give her a bean rice cake"
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Yuri waves her arms about as she speaks.",
+            "Have you ever seen Shifu's sword?",
+            "Shifu can swing her blade any way she wants... without even touching it!",
+            "And each swing... it's like it leaves behind a trail of blossoms...!",
+            "You think I can make a trail of blossoms like that one day?"
+          ],
+          "correct": "Of course.",
+          "wrong": "You've got a long way to go."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Yuri turns to me, looking a bit bashful.",
+            "Old Man Fiery Tiger scares me, lightning scares me, and <i>even Shifu scares me...</i>",
+            "Aw, man... Why am I scared of so many things?",
+            "Master, are you scared of anything?"
+          ],
+          "correct": "Tigers.",
+          "wrong": "Cockroaches."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Yuri cries out with full bravado...",
+            "I'm the eldest daughter of House Whitebolt and disciple of the Sword Queen!",
+            "Can you believe it actually happened?",
+            "My legendary triumph in a one-versus-seventeen matchup, I mean!"
+          ],
+          "correct": "Very impressive.",
+          "wrong": "Were you one of the seventeen?"
+        },
+        {
+          "n": 5,
+          "intro": [
+            "After drinking her fill of milk, Yuri says to me...",
+            "I've never had milk with honey before! You're the best!",
+            "Since you gave me this awesome treat, I wanna do something for you in return..."
+          ],
+          "correct": "Can I give you a head pat?",
+          "wrong": "Can I stroke your tail?"
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Yuri tells me about the sword style she uses.",
+            "I use two kinds of sword styles!",
+            "One's the Whitebolt sword style!",
+            "And the other's what Shifu taught me!",
+            "Which one do you want to know about?"
+          ],
+          "correct": "House Whitebolt's sword style.",
+          "wrong": "Sylvia's sword style."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "I ask Yuri if there are any secret techniques that have been passed down in House Whitebolt.",
+            "Of course there are!",
+            "House Whitebolt's ultimate secret technique!",
+            "It's called the White Tiger Flash Strike!",
+            "Just the name alone sounds crazy strong, right?!"
+          ],
+          "correct": "Tell her it sounds strong",
+          "wrong": "Ask her for a demonstration"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Yuri talks to me about a certain master of hand-to-hand combat.",
+            "One of the elders in my village was a master of the Drunken Fist!",
+            "He'd sway around all wobbly like this...!",
+            "He looks wide open, but he dodges anything you throw at him, I'm telling you!",
+            "I use a sword and all, but I'd love to try learning it someday!"
+          ],
+          "correct": "Tell her she's not allowed to drink",
+          "wrong": "Tell her she should focus on her swordsmanship"
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Yuri calls out, brimming with confidence.",
+            "Someday, I'm going to follow in Shifu's footsteps and become the greatest swordsman ever!",
+            "And once I've made a name for myself in the Jianghu...",
+            "...I bet I'll get an amazing title just like Shifu!",
+            "What kind of title do you think I'd get?!"
+          ],
+          "correct": "Yuri the Sword Controller.",
+          "wrong": "Yuri the Cat."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Yuri brings up the dynamic between dragons and tigers.",
+            "Only a tiger's fangs can stand against the might of a dragon!",
+            "So... between a dragon and a tiger, who do you think would win?"
+          ],
+          "correct": "The tiger.",
+          "wrong": "The dragon."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Yuri sits cross-legged, eyes shut tight as if deep in concentration.",
+            "Nothing will tempt me!",
+            "Go ahead—try me!"
+          ],
+          "correct": "Tickle her with a foxtail",
+          "wrong": "Don't do anything"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Shifu and all the other girls have such amazing techniques!",
+            "Think I could ever come up with my own sword style?",
+            "Because if I do, I want to give it an awesome name!",
+            "Got any suggestions?"
+          ],
+          "correct": "Tigerbolt Fang Blade.",
+          "wrong": "Tiger Claw."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "With a cup of black tea set before her, Yuri holds her chin high.",
+            "I'm not a little kid anymore!",
+            "So I know exactly how a proper tea ceremony works!"
+          ],
+          "correct": "I'd love to learn.",
+          "wrong": "Milk feels like a better fit for you."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Yuri drops by the restaurant and says she has a question for me.",
+            "We all run into a crisis at some point in our lives.",
+            "And they say there are all kinds of ways to get through one!",
+            "Master, what would you do if you were in a crisis?"
+          ],
+          "correct": "Smile through it.",
+          "wrong": "Cry through it."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "I ask Yuri what she does after training.",
+            "After a tough day of training...",
+            "...I just flop down in a toasty room and eat rice cakes... and it's the best feeling ever!"
+          ],
+          "correct": "Rice cakes taste best lying down.",
+          "wrong": "Don't eat lying down... you'll get sick."
+        }
+      ]
+    },
+    {
+      "id": "desert-flower-sylvia",
+      "costume": "Desert Flower Sylvia",
+      "character": "Sylvia",
+      "drinks": [
+        { "name": "Fragrant Whiskey", "icon": "assets/images/rapport/icons/icon_resource190004_398_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Sylvia props her chin in her hand and asks in a light, playful voice.",
+            "Tell me, Master—between Rubia and me, who do you think is more popular?"
+          ],
+          "correct": "Rubia.",
+          "wrong": "Sylvia."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Sylvia pauses to examine the herbs growing in the kitchen.",
+            "So you just snip off what you need while cooking.",
+            "...Hmm.",
+            "Master—what if a weed takes root among them? What do you do?"
+          ],
+          "correct": "Pluck it out and toss it.",
+          "wrong": "Replant it somewhere else."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Here's a bit of practical wisdom worth remembering, Master.",
+            "If you ever get stranded in the desert, what's your first move?"
+          ],
+          "correct": "Stay put and conserve energy.",
+          "wrong": "Pick a direction and start walking."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "May I ask you a serious question, Master?",
+            "When a choice made with good intentions leads to tragedy—",
+            "can we truly call it the right choice?"
+          ],
+          "correct": "If it caused severe harm, it wasn't right.",
+          "wrong": "If the intent was good, it was the right choice."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Sylvia gazes off into the distance.",
+            "...Master.",
+            "When your mind feels heavy and cluttered, what do you do to clear it?"
+          ],
+          "correct": "Zone out by the water.",
+          "wrong": "Zone out by the fire."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Sylvia casually flips through the Glupy Diner recipe book.",
+            "So this is how new hires at Glupy Diner learn the ropes.",
+            "Fufu... Tell me, Master—",
+            "Do you know what Aldebaran puts new recruits through first?"
+          ],
+          "correct": "Survival training.",
+          "wrong": "Mental discipline."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Sylvia leans in, her expression turning serious.",
+            "Tell me, Master—do you think I'm overprotective of Rubia?"
+          ],
+          "correct": "You do seem overprotective.",
+          "wrong": "Not really."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Fufu... Say, Master,",
+            "did you know you can find some rather unexpected creatures in the desert?",
+            "Take tortoises and hippos, for instance—one of them actually calls the sands home.",
+            "Which one do you think it is?"
+          ],
+          "correct": "Tortoise.",
+          "wrong": "Hippo."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Sylvia looks over the neatly arranged dishes.",
+            "There's something I've been meaning to ask you, Master.",
+            "Do you view cooking and housework as a matter of raw talent—",
+            "or can anyone master them through effort?"
+          ],
+          "correct": "It's a matter of talent.",
+          "wrong": "They can be honed through effort."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Sylvia eyes the neatly arranged staff aprons.",
+            "So these are for the diner staff.",
+            "In your eyes, Master, what is the single most vital pillar of a team?"
+          ],
+          "correct": "Mutual trust.",
+          "wrong": "Chain of Command."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Sylvia taps her fingers idly on the table.",
+            "Master—if you stumbled across a scorpion in the desert, what would be your first instinct?"
+          ],
+          "correct": "Avoid it. It could be venomous.",
+          "wrong": "Great source of protein."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Sylvia takes a slow sip of her whiskey.",
+            "Master... is there truly such a thing as a meaningful death?"
+          ],
+          "correct": "That depends on those left behind.",
+          "wrong": "Death is just death."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "I start to prepare a snack to go with her whiskey.",
+            "What are you preparing for me, Master?"
+          ],
+          "correct": "Dried fruit.",
+          "wrong": "Roasted nuts."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Sylvia wipes the condensation from her glass.",
+            "Master, do you know much about desert oases?",
+            "Specifically, how one actually forms?"
+          ],
+          "correct": "Groundwater rising to the surface.",
+          "wrong": "Rainwater collecting over time."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Sylvia sets down her glass.",
+            "Master... what is your stance on lying?"
+          ],
+          "correct": "It's best not to lie.",
+          "wrong": "White lies are fine."
+        }
+      ]
     }
   ]
 }

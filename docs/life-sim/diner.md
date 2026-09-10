@@ -2,10 +2,10 @@
 description: Brown Dust II Glupy Diner Content Pack Overview.
 ---
 
-!!! warning "WORK IN PROGRESS"
+<!--!!! warning "WORK IN PROGRESS"
     ![Sad Glupy](../assets/images/site-assets/illust_npcface0013210114_74.avif){.icon-portrait align=left}
     **This page is currently under construction and will be completed soon. Thank you for your patience!**
-
+-->
 ## **Overview**
 
 Glupy Diner is a Content Pack offering you daily income of {{Gold}} **Gold**, {{Refining_Powder}} **Refining Powder**, {{Deco_Coin}} **Deco Coins**, {{Light_Magic_Crystal}} **Magic Crystals** and ability to do **encounters** with in-game costumes, leading to **Live2D interactions** with them.
@@ -27,8 +27,7 @@ Glupy Diner is the lite version of idle incremental simulators. Your main resour
     ??? image "Image Guide"
         ![Glupy Collection Guide](../assets/images/glupy-diner/glupy_collecting_guide.avif)
 
-### **Fated Guests**
-<h1>WORK IN PROGRESS</h1>
+<!--### **Fated Guests**-->
 <!--Glupy Diner is the last content pack. In this pack you are the Diner owner. Your task is to expand the diner using Glupy Stars, which are generated automatically over time. It’s also a place for small gold, Refining Powder and Elemental Crystals gain. For the gold and Refining Powder, you can press Checkout either in the pack or in the main menu. For the crystals, you need to press Regular Guests in the pack.
 
 Maximum level of diner is 30, and you can no longer get stars afterwards. Diner is adjusted to your current time, so you can see the difference in different periods of the day.

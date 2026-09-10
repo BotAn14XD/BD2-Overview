@@ -70,7 +70,7 @@ icon: material/frequently-asked-questions
 
     ---
 
-    **Keep in mind that for Dark Saintess Liberta and Adventurer of the Unknown Diana, there is a Pub Recruitment; thus, if you haven't recruited them yet, remove at +4 instead.**
+    Keep in mind that for **Dark Saintess Liberta**, **Adventurer of the Unknown Diana** and **Queen of Gluttis Granadair** there is a Pub Recruitment; thus, if you haven't recruited them yet, remove at **+4** instead.
 
     !!! image "Visual Costume Display"
         ![12-Pick Recommendations](assets/images/faq/12-pick.avif)

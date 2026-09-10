@@ -2,9 +2,9 @@
 description: "Brown Dust II Last Night Content Pack overview, strategy"
 ---
 
-!!! warning "WORK IN PROGRESS"
+<!--!!! warning "WORK IN PROGRESS"
     ![Sad Glupy](../assets/images/site-assets/illust_npcface0013210114_74.avif){.icon-portrait align=left}
-    **This page is currently under construction and will be completed soon. Thank you for your patience!**
+    **This page is currently under construction and will be completed soon. Thank you for your patience!**-->
 
 # Last Night
 Last Night is a [PvE](../misc/slang.md?term=PvE) mode where you are tasked with dealing as much damage to the boss as possible.
