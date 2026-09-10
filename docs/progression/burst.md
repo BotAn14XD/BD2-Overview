@@ -33,6 +33,12 @@ Effects from all Bursts **stack**, meaning **if you activate Burst 3, you will h
         * **Burst 3:** 60 {{Spark_of_Rampage}} **Sparks of Rampage** & 1.5M {{Gold}} **Gold**
         * **Total:** 180 {{Spark_of_Rampage}} **Sparks of Rampage** & 4.5M {{Gold}} **Gold**
       
+    * **5★ Collaboration Costume:**
+        * **Burst 1:** 60 {{Spark_of_the_Overworld}} **Sparks of the Overworld** & 50K {{Gold}} **Gold**
+        * **Burst 2:** 60 {{Spark_of_the_Overworld}} **Sparks of the Overworld** & 50K {{Gold}} **Gold**
+        * **Burst 3:** 60 {{Spark_of_the_Overworld}} **Sparks of the Overworld** & 50K {{Gold}} **Gold**
+        * **Total:** 180 {{Spark_of_the_Overworld}} **Sparks of the Overworld** & 150K {{Gold}} **Gold**
+
     <!-- --- -->
 
     <!--* **4★ Costume:**
@@ -71,10 +77,10 @@ For each Costume, the **SP Cost** and **Effects** are different.
     * **Total theoretical:** **640 / month**{.yellow} ~ **3.5 Costumes / month**{.magenta}
     * **Total realistic:** **530 ~ 585 / month**{.yellow} ~ **2.94 ~ 3.25 Costumes / month**{.magenta}
 
-!!! abstract "Spark of the Overworld"
-    **Spark of the Overworld** is a **Burst** material specifically for characters from **collaborations**.
+!!! abstract "{{Spark_of_the_Overworld}} Spark of the Overworld"
+    {{Spark_of_the_Overworld}} **Spark of the Overworld** is a **Burst** material specifically for characters from **collaborations**.
 
-    The cost is the same as for regular Bursts, but, unlike {{Spark_of_Rampage}} **Spark of Rampage**, **Spark of the Overworld** can be obtained only during limited time (collaboration) and is presented in limited amount, enough to burst all featured collaboration Costumes. 
+    The cost is the same as for regular Bursts, but, unlike {{Spark_of_Rampage}} **Spark of Rampage**, {{Spark_of_the_Overworld}} **Spark of the Overworld** can be obtained only during limited time (collaboration) and is presented in limited amount, enough to burst all featured collaboration Costumes. 
 
 ---
 
