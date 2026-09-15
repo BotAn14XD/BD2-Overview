@@ -34,10 +34,10 @@ Effects from all Bursts **stack**, meaning **if you activate Burst 3, you will h
         * **Total:** 180 {{Spark_of_Rampage}} **Sparks of Rampage** & 4.5M {{Gold}} **Gold**
       
     * **5★ Collaboration Costume:**
-        * **Burst 1:** 60 {{Spark_of_the_Overworld}} **Sparks of the Overworld** & 50K {{Gold}} **Gold**
-        * **Burst 2:** 60 {{Spark_of_the_Overworld}} **Sparks of the Overworld** & 50K {{Gold}} **Gold**
-        * **Burst 3:** 60 {{Spark_of_the_Overworld}} **Sparks of the Overworld** & 50K {{Gold}} **Gold**
-        * **Total:** 180 {{Spark_of_the_Overworld}} **Sparks of the Overworld** & 150K {{Gold}} **Gold**
+        * **Burst 1:** 60 {{Spark_of_the_Otherworld}} **Sparks of the Otherworld** & 50K {{Gold}} **Gold**
+        * **Burst 2:** 60 {{Spark_of_the_Otherworld}} **Sparks of the Otherworld** & 50K {{Gold}} **Gold**
+        * **Burst 3:** 60 {{Spark_of_the_Otherworld}} **Sparks of the Otherworld** & 50K {{Gold}} **Gold**
+        * **Total:** 180 {{Spark_of_the_Otherworld}} **Sparks of the Otherworld** & 150K {{Gold}} **Gold**
 
     <!-- --- -->
 
@@ -77,10 +77,10 @@ For each Costume, the **SP Cost** and **Effects** are different.
     * **Total theoretical:** **640 / month**{.yellow} ~ **3.5 Costumes / month**{.magenta}
     * **Total realistic:** **530 ~ 585 / month**{.yellow} ~ **2.94 ~ 3.25 Costumes / month**{.magenta}
 
-!!! abstract "{{Spark_of_the_Overworld}} Spark of the Overworld"
-    {{Spark_of_the_Overworld}} **Spark of the Overworld** is a **Burst** material specifically for characters from **collaborations**.
+!!! abstract "{{Spark_of_the_Otherworld}} Spark of the Otherworld"
+    {{Spark_of_the_Otherworld}} **Spark of the Otherworld** is a **Burst** material specifically for characters from **collaborations**.
 
-    The cost is the same as for regular Bursts, but, unlike {{Spark_of_Rampage}} **Spark of Rampage**, {{Spark_of_the_Overworld}} **Spark of the Overworld** can be obtained only during limited time (collaboration) and is presented in limited amount, enough to burst all featured collaboration Costumes. 
+    The cost is the same as for regular Bursts, but, unlike {{Spark_of_Rampage}} **Spark of Rampage**, {{Spark_of_the_Otherworld}} **Spark of the Otherworld** can be obtained only during limited time (collaboration) and is presented in limited amount, enough to burst all featured collaboration Costumes. 
 
 ---
 
@@ -156,7 +156,7 @@ Costumes within each category are **not sorted** in priority, but rather **alpha
 
 When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burst 1 provides a small benefit on its own. For these costumes, you should save your Sparks of Rampage and wait to upgrade until you can afford to unlock up to Burst 2 or 3 all at once.
 
-Priority list will also feature **Collaboration Costumes** priority, but since those use **Spark of Overworld**, their bursts are displayed in **magenta**{.magenta} color, while regular Bursts are displayed in **yellow**{.yellow}.
+Priority list will also feature **Collaboration Costumes** priority, but since those use **Spark of Otherworld**, their bursts are displayed in **magenta**{.magenta} color, while regular Bursts are displayed in **yellow**{.yellow}.
 
 === "Highest Priority"
     * **Adventurer of the Unknown Diana** **Bursts 1-3**{.yellow}

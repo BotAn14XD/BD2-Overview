@@ -118,11 +118,6 @@
       "name": "Collected Daily Attendance Reward from the <a href=\"https://webshop.browndust2.global/en-US/\">Web Shop</a>"
     },
     {
-      "id": 1, "cadence": "weekly", "priority": "high",
-      "name": "Fought in <strong>Golden Colosseum</strong> (<a href=\"../content-packs/gc.md\">Golden Colosseum</a>)",
-      "settlement_day": 3, "settlement_hour": 15
-    },
-    {
       "id": 2, "cadence": "weekly", "priority": "high",
       "name": "Completed <strong>Weekly Missions</strong> (Missions)"
     },
@@ -219,6 +214,15 @@
           "settlement_utc_hour": 15,
           "is_daily_reset": false,
           "target_tab": "weekly"
+        },
+        {
+          "id": "golden_colosseum",
+          "name": "Fought in <strong>Golden Colosseum</strong> (<a href=\"../content-packs/gc.md\">Golden Colosseum</a>)",
+          "offset_start_days": 0,
+          "offset_end_days": 6,
+          "settlement_utc_hour": 15,
+          "is_daily_reset": false,
+          "target_tab": "weekly"
         }
       ]
     },
@@ -233,10 +237,30 @@
           "is_daily_reset": true,
           "target_tab": "daily",
           "link": "../content/fh.md"
+        },
+        {
+          "id": "golden_colosseum",
+          "name": "Fought in <strong>Golden Colosseum</strong> (<a href=\"../content-packs/gc.md\">Golden Colosseum</a>)",
+          "offset_start_days": 0,
+          "offset_end_days": 6,
+          "settlement_utc_hour": 15,
+          "is_daily_reset": false,
+          "target_tab": "weekly"
         }
       ]
     },
-    "week_3": { "events": [] },
+    "week_3": { "events": [
+              {
+          "id": "golden_colosseum",
+          "name": "Fought in <strong>Golden Colosseum</strong> (<a href=\"../content-packs/gc.md\">Golden Colosseum</a>)",
+          "offset_start_days": 0,
+          "offset_end_days": 6,
+          "settlement_utc_hour": 15,
+          "is_daily_reset": false,
+          "target_tab": "weekly"
+        }
+      ] 
+    },
     "week_4": {
       "events": [
         {
@@ -248,6 +272,15 @@
           "is_daily_reset": true,
           "target_tab": "daily",
           "link": "../content/fh.md"
+        },
+        {
+          "id": "golden_colosseum",
+          "name": "Fought in <strong>Golden Colosseum</strong> (<a href=\"../content-packs/gc.md\">Golden Colosseum</a>)",
+          "offset_start_days": 0,
+          "offset_end_days": 6,
+          "settlement_utc_hour": 15,
+          "is_daily_reset": false,
+          "target_tab": "weekly"
         }
       ]
     }
@@ -272,6 +305,39 @@
       "end": "2026-08-19T15:00:00Z",
       "is_daily_reset": true,
       "target_tab": "daily",
+      "suppress_default_cycle": true
+    },
+    {
+      "comment": "Fiend Hunter — KR holiday, 1 day shift",
+      "id": "fiend_hunter",
+      "name": "Attacked Fiend Hunter Boss (<a href='https://botan14xd.github.io/BD2-Overview/content/fh/'>Fiend Hunter</a>)",
+      "start": "2026-09-16T00:00:00Z",
+      "end": "2026-09-24T00:00:00Z",
+      "is_daily_reset": true,
+      "target_tab": "daily",
+      "suppress_default_cycle": true,
+      "settlement_start": "2026-09-22T15:00:00Z"
+    },
+    {
+      "comment": "Golden Colosseum — KR holiday, shift_1",
+      "id": "golden_colosseum",
+      "name": "Fought in <strong>Golden Colosseum</strong> (<a href=\"../content-packs/gc.md\">Golden Colosseum</a>)",
+      "start": "2026-09-17T00:00:00Z",
+      "settlement_start": "2026-09-22T15:00:00Z",
+      "end": "2026-09-24T00:00:00Z",
+      "is_daily_reset": false,
+      "target_tab": "weekly",
+      "suppress_default_cycle": true
+    },
+    {
+      "comment": "Golden Colosseum — KR holiday, shift_1",
+      "id": "golden_colosseum",
+      "name": "Fought in <strong>Golden Colosseum</strong> (<a href=\"../content-packs/gc.md\">Golden Colosseum</a>)",
+      "start": "2026-09-23T00:00:00Z",
+      "settlement_start": "2026-09-30T15:00:00Z",
+      "end": "2026-10-01T00:00:00Z",
+      "is_daily_reset": false,
+      "target_tab": "weekly",
       "suppress_default_cycle": true
     }
   ]

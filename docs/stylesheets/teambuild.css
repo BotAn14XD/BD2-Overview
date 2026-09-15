@@ -1,0 +1,300 @@
+#bd2-checker .slots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+#bd2-checker .slot label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--bd-muted);
+  margin-bottom: 0.25rem;
+}
+
+#bd2-checker .unit-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem 0.6rem;
+  font-size: 0.95rem;
+  border-radius: 4px;
+  border: 1px solid var(--bd-input-border);
+  background-color: var(--bd-input-bg);
+  color: var(--bd-emphasis);
+  transition: border-color 0.2s ease-in-out;
+}
+
+#bd2-checker .unit-input::placeholder {
+  color: var(--bd-muted);
+}
+
+#bd2-checker .unit-input:focus-visible {
+  outline: 2px solid var(--bd-focus, #7db4ff);
+  outline-offset: 2px;
+  border-color: var(--bd-btn-hover-border);
+}
+
+#bd2-checker .controls {
+  display: flex;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+
+#bd2-checker .result {
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  border-left: 4px solid;
+  color: var(--bd-emphasis);
+}
+
+#bd2-checker .result.error {
+  background: color-mix(in srgb, #ef8383 15%, transparent);
+  border-color: #ef8383;
+}
+#bd2-checker .result.error .tag { color: #ef8383; }
+
+#bd2-checker .result.warning {
+  background: color-mix(in srgb, var(--bd-gold) 15%, transparent);
+  border-color: var(--bd-gold);
+}
+#bd2-checker .result.warning .tag { color: var(--bd-gold); }
+
+#bd2-checker .result.advice {
+  background: color-mix(in srgb, var(--bd-accent-blue) 15%, transparent);
+  border-color: var(--bd-accent-blue);
+}
+#bd2-checker .result.advice .tag { color: var(--bd-accent-blue); }
+
+#bd2-checker .tag {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-right: 0.4rem;
+}
+
+#bd2-checker .empty-msg {
+  color: var(--bd-muted);
+  font-style: italic;
+}
+
+/* --- Team cells (image-based slots) -------------------------------- */
+
+#bd2-checker .cells {
+  display: grid;
+  grid-template-columns: repeat(var(--slot-count, 5), 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+#bd2-checker .cell {
+  cursor: pointer;
+  border: 1px solid var(--bd-input-border);
+  border-radius: 6px;
+  background-color: var(--bd-input-bg);
+  overflow: hidden;
+  transition: border-color 0.15s ease-in-out;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#bd2-checker .cell:hover,
+#bd2-checker .cell:focus-visible {
+  border-color: var(--bd-btn-hover-border);
+  outline: none;
+}
+
+#bd2-checker .cell-image-wrap {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: color-mix(in srgb, var(--bd-input-border) 25%, transparent);
+}
+
+#bd2-checker .cell-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+#bd2-checker .cell-placeholder {
+  color: var(--bd-muted);
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+#bd2-checker .cell-name {
+  padding: 0.35rem 0.3rem;
+  font-size: 0.75rem;
+  color: var(--bd-emphasis);
+  white-space: normal;
+  word-break: break-word;
+  line-height: 1.25;
+  flex: 1;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+}
+
+#bd2-checker .cell-name.empty {
+  color: var(--bd-muted);
+  font-style: italic;
+}
+
+/* --- Picker modal ---------------------------------------------------- */
+
+#bd2-checker .picker-backdrop {
+  position: fixed;
+  inset: 0;
+  background: color-mix(in srgb, black 55%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#bd2-checker .picker-backdrop[hidden] {
+  display: none;
+}
+
+#bd2-checker .picker-panel {
+  background-color: var(--bd-input-bg);
+  border: 1px solid var(--bd-input-border);
+  border-radius: 8px;
+  padding: 1rem;
+  width: min(600px, 90vw);
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+#bd2-checker .picker-search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.55rem 0.7rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--bd-input-border);
+  background-color: var(--bd-input-bg);
+  color: var(--bd-emphasis);
+}
+
+#bd2-checker .picker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 0.5rem;
+  overflow-y: auto;
+}
+
+#bd2-checker .picker-item {
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 0.25rem;
+  text-align: center;
+  background: none;
+  color: inherit;
+  font: inherit;
+}
+
+#bd2-checker .picker-item:hover,
+#bd2-checker .picker-item:focus-visible {
+  border-color: var(--bd-btn-hover-border);
+  outline: none;
+}
+
+#bd2-checker .picker-item img,
+#bd2-checker .picker-item-noimg {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bd-muted);
+  font-size: 1.4rem;
+  background-color: color-mix(in srgb, var(--bd-input-border) 25%, transparent);
+}
+
+#bd2-checker .picker-item-name {
+  font-size: 0.7rem;
+  margin-top: 0.25rem;
+  color: var(--bd-emphasis);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#bd2-checker .picker-empty {
+  color: var(--bd-muted);
+  font-style: italic;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* --- Cell reorder arrows --------------------------------------------- */
+
+#bd2-checker .cell-arrows {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0.3rem 0;
+}
+
+#bd2-checker .cell-arrow {
+  cursor: pointer;
+  border: 1px solid var(--bd-input-border);
+  border-radius: 3px;
+  background-color: var(--bd-input-bg);
+  color: var(--bd-emphasis);
+  font-size: 0.65rem;
+  line-height: 1;
+  padding: 0.15rem 0.4rem;
+}
+
+#bd2-checker .cell-arrow:hover:not(:disabled),
+#bd2-checker .cell-arrow:focus-visible {
+  border-color: var(--bd-btn-hover-border);
+  outline: none;
+}
+
+#bd2-checker .cell-arrow:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+#bd2-checker .version-badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+  vertical-align: middle;
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--bd-gold, #ffd700) 20%, transparent);
+  color: var(--bd-gold, #ffd700);
+  border: 1px solid color-mix(in srgb, var(--bd-gold, #ffd700) 40%, transparent);
+}
+
+#bd2-checker .tool-notes {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: var(--bd-muted);
+  border-top: 1px solid var(--bd-input-border);
+  padding-top: 1rem;
+}
+
+#bd2-checker .tool-notes summary {
+  cursor: pointer;
+  color: var(--bd-emphasis);
+  margin-bottom: 0.5rem;
+}
+
+#bd2-checker .tool-notes p {
+  margin: 0.35rem 0;
+  line-height: 1.4;
+}

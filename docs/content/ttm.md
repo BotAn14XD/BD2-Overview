@@ -72,7 +72,7 @@ Missions are located at the bottom left corner of the Taros Tactical Manual menu
             </tr>
             <tr>
                     <td>Complete 3 Bingos</td>
-                    <td>10 {{Spark_of_Rampage}} Sparks of Rampage</td>
+                    <td>20 {{Spark_of_Rampage}} Sparks of Rampage</td>
             </tr>
             <tr>
                     <td>Complete Bingo Board</td>
