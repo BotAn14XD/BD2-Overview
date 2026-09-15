@@ -1,0 +1,3373 @@
+[
+    {
+    "id": "sword_breaker_alec",
+    "name": "Sword Breaker Alec",
+    "role": [
+        "DPS"
+    ],
+    "damageType": "physical",
+    "element": "fire",
+    "effects": [
+        "fixedDamage"
+    ],
+    "minSP": 2,
+    "maxSP": 4,
+    "chains": 3,
+    "orderPriority": 10
+    },
+    {
+    "id": "the_destruction_alec",
+    "name": "The Destruction Alec",
+    "role": [
+        "DPS"
+    ],
+    "damageType": "physical",
+    "element": "fire",
+    "effects": [
+        "fixedDamage"
+    ],
+    "minSP": 2,
+    "maxSP": 3,
+    "chains": 1,
+    "orderPriority": 10
+    },
+    {
+    "id": "fire_graffiti_anastasia",
+    "name": "Fire Graffiti Anastasia",
+    "role": [
+        "DPS",
+        "chainer"
+    ],
+    "damageType": "physical",
+    "element": "fire",
+    "effects": [
+        "smallAOE",
+        "critDMGSelfAmp"
+    ],
+    "minSP": 3,
+    "maxSP": 4,
+    "chains": 10,
+    "orderPriority": 9
+    },
+    {
+    "id": "gentle_maid_anastasia",
+    "name": "Gentle Maid Anastasia",
+    "role": [
+        "DPS"
+    ],
+    "damageType": "physical",
+    "element": "fire",
+    "effects": [
+        "smallAOE",
+        "critDMGSelfAmp"
+    ],
+    "minSP": 3,
+    "maxSP": 5,
+    "chains": 3,
+    "orderPriority": 10
+    },
+    {
+      "id": "loyal_butler_andrew",
+      "name": "Loyal Butler Andrew",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "healSelf",
+        "spDrain"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 2,
+      "orderPriority": 10
+    },
+    {
+      "id": "specialist_andrew",
+      "name": "Specialist Andrew",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "fire",
+      "effects": [
+        "taunt",
+        "evasionSelfAmp"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "neon_savior_angelica",
+      "name": "Neon Savior Angelica",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "barrierAmp",
+        "percentageDamage",
+        "dot"
+      ],
+      "minSP": 3,
+      "maxSP": 6,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "pool_party_angelica",
+      "name": "Pool Party Angelica",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "barrierAmp",
+        "percentageDamage",
+        "smallAOE"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "the_fallen_angelica",
+      "name": "The Fallen Angelica",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "barrierAmp",
+        "percentageDamage",
+        "smallAOE"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "savage_warrior_aquila",
+      "name": "Savage Warrior Aquila",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "smallAOE",
+        "physAttackSelfAmp",
+        "cooldownReductionSelf"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "priest_of_vitality_arines",
+      "name": "Priest of Vitality Arines",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "physAttackAmp",
+        "critRate"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "the_mighty_warrior_of_the_tribe_beatrice",
+      "name": "The Mighty Warrior of the Tribe Beatrice",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "fixedDamage"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 2,
+      "orderPriority": 10
+    },
+    {
+      "id": "righteous_raider_girl_bernie",
+      "name": "Righteous Raider Girl Bernie",
+      "role": [
+        "DPS",
+        "debuffer",
+        "support"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "spRegen",
+        "silence"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 2,
+      "orderPriority": 10
+    },
+    {
+      "id": "apostle_blade",
+      "name": "Apostle Blade",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "smallAOE",
+        "counter"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "onsen_swordfighter_blade",
+      "name": "Onsen Swordfighter Blade",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "smallAOE",
+        "conditionalDamage"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "young_lady_blade",
+      "name": "Young Lady Blade",
+      "role": [
+        "DPS",
+        "debuffer",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "largeAOE",
+        "physVulnerability"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 4,
+      "orderPriority": 5
+    },
+    {
+      "id": "the_mercenary_knight_carlson",
+      "name": "The Mercenary Knight Carlson",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "water",
+      "effects": [
+        "barrierAmp"
+      ],
+      "minSP": 1,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "descendant_of_the_great_witch_celia",
+      "name": "Descendant of the Great Witch Celia",
+      "role": [
+        "DPS",
+        "debuffer",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "magicAttackDebuff"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 5,
+      "orderPriority": 5
+    },
+    {
+      "id": "masquerade_bunny_celia",
+      "name": "Masquerade Bunny Celia",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "chainReinforcementSelf"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 3,
+      "orderPriority": 5
+    },
+    {
+      "id": "the_curse_celia",
+      "name": "The Curse Celia",
+      "role": [
+        "DPS",
+        "debuffer",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "physAttackDebuff"
+      ],
+      "notes": "Added 'physAttackDebuff' because the skill lowers enemy ATK by 65%, a physical attack debuff distinct from magicAttackDebuff.",
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 7,
+      "orderPriority": 5
+    },
+    {
+      "id": "warmth_within_the_severe_cold_cynthia",
+      "name": "Warmth Within the Severe Cold Cynthia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "mediumAOE",
+        "dot"
+      ],
+      "minSP": 2,
+      "maxSP": 4,
+      "chains": 2,
+      "orderPriority": 10
+    },
+    {
+      "id": "bright_moon_dalvi",
+      "name": "Bright Moon Dalvi",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "dot"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 2,
+      "orderPriority": 10
+    },
+    {
+      "id": "summer_vacation_dalvi",
+      "name": "Summer Vacation Dalvi",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "bigAOE",
+        "dot"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 4,
+      "orderPriority": 10
+    },
+    {
+      "id": "tricky_lover_dalvi",
+      "name": "Tricky Lover Dalvi",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "bigAOE",
+        "conditionalDamage",
+        "bleedDispel"
+      ],
+      "notes": "Added 'dispelDebuff' because the skill consumes/removes Bleed stacks from the target upon hitting.",
+      "minSP": 5,
+      "maxSP": 7,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "bittersweet_bunny_darian",
+      "name": "Bittersweet Bunny Darian",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "bigAOE",
+        "conditionalDamage",
+        "dot",
+        "cooldownReductionSelf"
+      ],
+      "minSP": 6,
+      "maxSP": 7,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "prophetic_dream_darian",
+      "name": "Prophetic Dream Darian",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "bigAOE"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "adventurer_of_the_unknown_diana",
+      "name": "Adventurer of the Unknown Diana",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "wind",
+      "effects": [
+        "propertyDmgAmp",
+        "critRate"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "anti_dystopia_diana",
+      "name": "Anti-Dystopia Diana",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "wind",
+      "effects": [
+        "energyGuard"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "magical_innovator_diana",
+      "name": "Magical Innovator Diana",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "wind",
+      "effects": [
+        "propertyDmgAmp",
+        "barrierAmp",
+        "summon",
+        "preemptive"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "beach_vacation_eclipse",
+      "name": "Beach Vacation Eclipse",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 2,
+      "orderPriority": 10
+    },
+    {
+      "id": "dimension_witch_eclipse",
+      "name": "Dimension Witch Eclipse",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "healSelf",
+        "spDrain"
+      ],
+      "minSP": 2,
+      "maxSP": 4,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "dream_bride_eclipse",
+      "name": "Dream Bride Eclipse",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "magicAttackSelfAmp"
+      ],
+      "notes": "Added 'magicAttackSelfAmp' because the skill increases self Magic ATK by 50% for 6 turns, following the buffSelfAmp convention for self-buffs.",
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "nightmare_bunny_eclipse",
+      "name": "Nightmare Bunny Eclipse",
+      "role": [
+        "DPS",
+        "debuffer",
+        "support"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "spRegen",
+        "spDrain",
+        "mresDebuff"
+      ],
+      "minSP": 3,
+      "maxSP": 3,
+      "chains": 3,
+      "orderPriority": 5
+    },
+    {
+      "id": "b_rank_idol_eleaneer",
+      "name": "B-Rank Idol Eleaneer",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "silence"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 3,
+      "orderPriority": 5
+    },
+    {
+      "id": "piercing_magic_bow_eleaneer",
+      "name": "Piercing Magic Bow Eleaneer",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "smallAOE",
+        "dispelBuff"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 3,
+      "orderPriority": 5
+    },
+    {
+      "id": "shadow_bunny_eleaneer",
+      "name": "Shadow Bunny Eleaneer",
+      "role": [
+        "support",
+        "debuffer",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "physAttackSelfAmp",
+        "physAttackAmp",
+        "magicAttackAmp",
+        "vulnerability",
+        "domain"
+      ],
+      "minSP": 4,
+      "maxSP": 6,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "code_name_o_elise",
+      "name": "Code Name O Elise",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "spRegen"
+      ],
+      "minSP": 2,
+      "maxSP": 5,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "lovely_lady_elise",
+      "name": "Lovely Lady Elise",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "defDebuff",
+        "mresDebuff"
+      ],
+      "minSP": 3,
+      "maxSP": 7,
+      "chains": 3,
+      "orderPriority": 5
+    },
+    {
+      "id": "naive_lady_elise",
+      "name": "Naive Lady Elise",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "dmgSelfAmp"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "hand_of_salvation_elpis",
+      "name": "Hand of Salvation Elpis",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "dark",
+      "effects": [
+        "magicAttackAmp",
+        "critRateAmp"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "haggard_delinquent_emma",
+      "name": "Haggard Delinquent Emma",
+      "role": [
+        "DPS"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "physAttackSelfAmp",
+        "critRateSelfAmp"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 0,
+      "orderPriority": 10
+    },
+    {
+      "id": "school_queen_emma",
+      "name": "School Queen Emma",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "smallAOE",
+        "spRegen",
+        "knockback",
+        "dot",
+        "percentDamage"
+      ],
+      "minSP": 1,
+      "maxSP": 3,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "esteemed_adventurer_eris",
+      "name": "Esteemed Adventurer Eris",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "conditionalDamage"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "your_very_own_cat_eris",
+      "name": "Your Very Own Cat Eris",
+      "role": [
+        "DPS",
+        "debuffer",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "physVulnerability"
+      ],
+      "minSP": 4,
+      "maxSP": 6,
+      "chains": 5,
+      "orderPriority": 5
+    },
+    {
+      "id": "lugo_defense_force_fred",
+      "name": "Lugo Defense Force Fred",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "spRegen",
+        "knockback",
+        "dot",
+        "percentDamage"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "alice_glacia",
+      "name": "Alice Glacia",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "water",
+      "effects": [
+        "taunt",
+        "energyGuardSelf",
+        "revive"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "disciplinary_committee_glacia",
+      "name": "Disciplinary Committee Glacia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "fixedDamage",
+        "barrierSelfAmp"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "heavenly_guardian_successor_glacia",
+      "name": "Heavenly Guardian Successor Glacia",
+      "role": [
+        "DPS",
+        "chainer",
+        "support"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "mediumAOE",
+        "fixedDamage",
+        "chainRetention"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 5,
+      "orderPriority": 5
+    },
+    {
+      "id": "orcbolg_goblin_slayer",
+      "name": "Orcbolg Goblin Slayer",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "barrierSelfAmp",
+        "spRegen"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 2,
+      "orderPriority": 10
+    },
+    {
+      "id": "queen_of_gluttis_granadair",
+      "name": "Queen of Gluttis Granadair",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "water",
+      "effects": [
+        "magicAttackAmp",
+        "spRegen"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "shrine_maiden_of_purification_granadair",
+      "name": "Shrine Maiden of Purification Granadair",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "water",
+      "effects": [
+        "dmgAmp",
+        "dispelDebuff"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "boo_ghost_granhildr",
+      "name": "Boo Ghost Granhildr",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "smallAOE",
+        "hpScalingDamage",
+        "energyGuardScalingDamage"
+      ],
+      "minSP": 4,
+      "maxSP": 6,
+      "chains": 8,
+      "orderPriority": 5
+    },
+    {
+      "id": "combat_medic_granhildr",
+      "name": "Combat Medic Granhildr",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "mediumAOE",
+        "critDmgSelfAmp",
+        "buffDurationExtendSelf",
+        "hpScalingDamage"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "comeback_idol_granhildr",
+      "name": "Comeback Idol Granhildr",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "preemptive",
+        "taunt",
+        "energyGuardSelf"
+      ],
+      "minSP": 5,
+      "maxSP": 6,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "the_void_granhildr",
+      "name": "The Void Granhildr",
+      "role": [
+        "tank"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "preemptive",
+        "counter"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "b_rank_manager_gray",
+      "name": "B-Rank Manager Gray",
+      "role": [
+        "DPS",
+        "debuffer",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "defDebuff"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 5,
+      "orderPriority": 5
+    },
+    {
+      "id": "pool_party_gray",
+      "name": "Pool Party Gray",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "mediumAOE",
+        "critRateSelfAmp",
+        "critDmgSelfAmp"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "the_sharpshooter_of_the_mist_gray",
+      "name": "The Sharpshooter of the Mist Gray",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "dot"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "vanguard_gray",
+      "name": "Vanguard Gray",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "bigAOE",
+        "dot"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 5,
+      "orderPriority": 5
+    },
+    {
+      "id": "lugo_hunter_gynt",
+      "name": "Lugo Hunter Gynt",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "physAttackDebuff"
+      ],
+      "notes": "Added 'physAttackDebuff' because the skill reduces enemy ATK by 50% for 4 turns.",
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 2,
+      "orderPriority": 5
+    },
+    {
+      "id": "b_rank_idol_helena",
+      "name": "B-Rank Idol Helena",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "magicAttackAmp",
+        "critRateAmp",
+        "heal"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "sunny_inn_hand_helena",
+      "name": "Sunny Inn Hand Helena",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "dmgAmp",
+        "cooldownReduction"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 0,
+      "orderPriority": 9
+    },
+    {
+      "id": "top_idol_helena",
+      "name": "Top Idol Helena",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "spRegen",
+        "barrierAmp"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "daughter_of_starwind_high_elf_archer",
+      "name": "Daughter of Starwind High Elf Archer",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "critRateSelfAmp"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 4,
+      "orderPriority": 10
+    },
+    {
+      "id": "kind_ruthlessness_hikage",
+      "name": "Kind Ruthlessness Hikage",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "smallAOE"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 12,
+      "orderPriority": 5
+    },
+    {
+      "id": "noble_flame_ikaruga",
+      "name": "Noble Flame Ikaruga",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "physAttackSelfAmp"
+      ],
+      "minSP": 4,
+      "maxSP": 6,
+      "chains": 6,
+      "orderPriority": 5
+    },
+    {
+      "id": "kardis_bullet_ingrid",
+      "name": "Kardis' Bullet Ingrid",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "beautiful_girl_devotee_jayden",
+      "name": "Beautiful Girl Devotee Jayden",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "healSelf",
+        "barrierSelfAmp"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "manga_research_club_jayden",
+      "name": "Manga Research Club Jayden",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "mediumAOE"
+      ],
+      "minSP": 5,
+      "maxSP": 6,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "healer_julie",
+      "name": "Healer Julie",
+      "role": [
+        "support"
+      ],
+      "damageType": null,
+      "element": "wind",
+      "effects": [
+        "heal"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "blood_glutton_justia",
+      "name": "Blood Glutton Justia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "smallAOE",
+        "propertyDmgSelfAmp",
+        "healSelf",
+        "fixedDamage"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "kendo_club_justia",
+      "name": "Kendo Club Justia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "smallAOE",
+        "fixedDamage"
+      ],
+      "minSP": 2,
+      "maxSP": 4,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "knight_of_blood_justia",
+      "name": "Knight of Blood Justia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "smallAOE",
+        "fixedDamage"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "pool_party_justia",
+      "name": "Pool Party Justia",
+      "role": [
+        "DPS",
+        "tank",
+        "support"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "evasionSelf",
+        "physAttackSelfAmp",
+        "spRegen"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 0,
+      "orderPriority": 10
+    },
+    {
+      "id": "white_reaper_justia",
+      "name": "White Reaper Justia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "smallAOE",
+        "fixedDamage"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "liberated_marauder_kry",
+      "name": "Liberated Marauder Kry",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "defDebuff"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 2,
+      "orderPriority": 5
+    },
+    {
+      "id": "violent_student_kry",
+      "name": "Violent Student Kry",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "smallAOE",
+        "spRegen",
+        "knockback",
+        "dot",
+        "percentDamage"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "eternal_chains_kyouka_uzen",
+      "name": "Eternal Chains Kyouka Uzen",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "mediumAOE"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "dark_knight_lathel",
+      "name": "Dark Knight Lathel",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "fire",
+      "effects": [
+        "preemptive",
+        "energyGuardSelf",
+        "barrierSelfAmp"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "herb_tracker_lathel",
+      "name": "Herb Tracker Lathel",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "physAttackSelfAmp",
+        "selfHpConsumption"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 2,
+      "orderPriority": 10
+    },
+    {
+      "id": "homunculus_lathel",
+      "name": "Homunculus Lathel",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "fire",
+      "effects": [
+        "physAttackAmp"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "lonely_survivor_lathel",
+      "name": "Lonely Survivor Lathel",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "smallAOE",
+        "physAttackSelfAmp",
+        "selfHpConsumption"
+      ],
+      "minSP": 2,
+      "maxSP": 4,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "pool_party_lathel",
+      "name": "Pool Party Lathel",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "critRateSelfAmp",
+        "selfHpConsumption"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "promise_of_vengeance_lathel",
+      "name": "Promise of Vengeance Lathel",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "singleTarget",
+        "physAttackSelfAmp",
+        "selfHpConsumption"
+      ],
+      "notes": "Single-target high-multiplier nuke (1000% ATK) that consumes 5% current HP.",
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "anvil_of_creation_layla",
+      "name": "Anvil of Creation Layla",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "mediumAOE",
+        "spRegen"
+      ],
+      "minSP": 4,
+      "maxSP": 6,
+      "chains": 2,
+      "orderPriority": 10
+    },
+    {
+      "id": "android_queen_lecliss",
+      "name": "Android Queen Lecliss",
+      "role": [
+        "tank"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "counter",
+        "energyGuardSelf",
+        "hpScalingDamage"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "killer_doll_lecliss",
+      "name": "Killer Doll Lecliss",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "wind",
+      "effects": [
+        "taunt",
+        "barrierSelfAmp"
+      ],
+      "minSP": 1,
+      "maxSP": 4,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "night_of_jealousy_levia",
+      "name": "Night of Jealousy Levia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "mainTargetDamage"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 4,
+      "orderPriority": 10
+    },
+    {
+      "id": "overheat_levia",
+      "name": "Overheat Levia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "fire",
+      "effects": [
+        "bigAOE",
+        "conditionalDamage",
+        "dispelDebuff"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "track_and_field_captain_levia",
+      "name": "Track and Field Captain Levia",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "fire",
+      "effects": [
+        "bigAOE",
+        "magicVulnerability"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 4,
+      "orderPriority": 5
+    },
+    {
+      "id": "maid_name_r_liatris",
+      "name": "Maid Name R Liatris",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "conditionalDamage"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "neon_stalker_liatris",
+      "name": "Neon Stalker Liatris",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "dot"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 5,
+      "orderPriority": 5
+    },
+    {
+      "id": "rodevs_star_liatris",
+      "name": "Rodev's Star Liatris",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "bigAOE",
+        "dot"
+      ],
+      "notes": "Hits a 3x3 area, delivering 5 chains and applying stacking Burn physical DoT.",
+      "minSP": 4,
+      "maxSP": 6,
+      "chains": 5,
+      "orderPriority": 5
+    },
+    {
+      "id": "dark_saintess_liberta",
+      "name": "Dark Saintess Liberta",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "fire",
+      "effects": [
+        "physAttackAmp",
+        "critRateAmp",
+        "spRegen"
+      ],
+      "minSP": 1,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "miracle_rose_liberta",
+      "name": "Miracle Rose Liberta",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "critRateSelfAmp",
+        "hpScalingDamage"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 5,
+      "orderPriority": 5
+    },
+    {
+      "id": "onsen_manager_liberta",
+      "name": "Onsen Manager Liberta",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "fire",
+      "effects": [
+        "conditionalDmgAmp",
+        "heal"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "wandering_priest_lisianne",
+      "name": "Wandering Priest Lisianne",
+      "role": [
+        "support"
+      ],
+      "damageType": null,
+      "element": "wind",
+      "effects": [
+        "heal",
+        "dispelDebuff",
+        "energyGuardAmp"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "celebrity_bunny_loen",
+      "name": "Celebrity Bunny Loen",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "fire",
+      "effects": [
+        "bigAOE",
+        "conditionalDamage"
+      ],
+      "minSP": 6,
+      "maxSP": 7,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "last_hope_loen",
+      "name": "Last Hope Loen",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "fire",
+      "effects": [
+        "mediumAOE"
+      ],
+      "minSP": 5,
+      "maxSP": 5,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "track_and_field_team_loen",
+      "name": "Track and Field Team Loen",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "magicAttackSelfAmp"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 2,
+      "orderPriority": 10
+    },
+    {
+      "id": "seductive_wings_lucrezia",
+      "name": "Seductive Wings Lucrezia",
+      "role": [
+        "support",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "silence",
+        "spRegen"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 2,
+      "orderPriority": 5
+    },
+    {
+      "id": "deal_snatcher_luvencia",
+      "name": "Deal Snatcher Luvencia",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "mainTargetDamage"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 8,
+      "orderPriority": 5
+    },
+    {
+      "id": "ocean_vanguard_luvencia",
+      "name": "Ocean Vanguard Luvencia",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "physAttackSelfAmp",
+        "chainDmgSelfAmp"
+      ],
+      "minSP": 5,
+      "maxSP": 6,
+      "chains": 8,
+      "orderPriority": 5
+    },
+    {
+      "id": "wild_dog_luvencia",
+      "name": "Wild Dog Luvencia",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "conditionalDamage"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 8,
+      "orderPriority": 5
+    },
+    {
+      "id": "apprentice_spearman_lydia",
+      "name": "Apprentice Spearman Lydia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "miracle_marine_mamonir",
+      "name": "Miracle Marine Mamonir",
+      "role": [
+        "tank",
+        "debuffer"
+      ],
+      "damageType": null,
+      "element": "water",
+      "effects": [
+        "barrierSelfAmp",
+        "vulnerability"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "night_of_death_mamonir",
+      "name": "Night of Death Mamonir",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "bigAOE",
+        "critDmgSelfAmp",
+        "hpScalingDamage"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 8,
+      "orderPriority": 5
+    },
+    {
+      "id": "archmage_maria",
+      "name": "Archmage Maria",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "smallAOE"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 2,
+      "orderPriority": 10
+    },
+    {
+      "id": "acting_archbishop_michaela",
+      "name": "Acting Archbishop Michaela",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "bigAOE",
+        "critDmgSelfAmp"
+      ],
+      "minSP": 2,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "beachside_justice_michaela",
+      "name": "Beachside Justice Michaela",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "mediumAOE",
+        "magicAttackSelfAmp",
+        "selfHpConsumption"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "queen_of_signatures_michaela",
+      "name": "Queen of Signatures Michaela",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "bigAOE",
+        "spConsumption"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "apostle_morpeah",
+      "name": "Apostle Morpeah",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "bigAOE",
+        "focusFire",
+        "summonsVulnerability"
+      ],
+      "minSP": 1,
+      "maxSP": 3,
+      "chains": 1,
+      "orderPriority": 5
+    },
+    {
+      "id": "beach_vacation_morpeah",
+      "name": "Beach Vacation Morpeah",
+      "role": [
+        "support",
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "preemptive",
+        "summon"
+      ],
+      "notes": "Preemptively summons 1 Persona of Worship and 1 Persona of Slander to the allied zone. Potential unlocks a 30% barrier for self.",
+      "minSP": 5,
+      "maxSP": 6,
+      "chains": 0,
+      "orderPriority": 3
+    },
+    {
+      "id": "daydream_bunny_morpeah",
+      "name": "Daydream Bunny Morpeah",
+      "role": [
+        "support",
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "summon",
+        "mresDebuff",
+        "DPS"
+      ],
+      "minSP": 1,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 3
+    },
+    {
+      "id": "anonymous_sage_nartas",
+      "name": "Anonymous Sage Nartas",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "conditionalDamage",
+        "barrierSelfAmp"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "labyrinth_gatekeeper_nebris",
+      "name": "Labyrinth Gatekeeper Nebris",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "dmgSelfAmp",
+        "critDmgSelfAmp"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 2,
+      "orderPriority": 10
+    },
+    {
+      "id": "laid_back_lifeguard_nebris",
+      "name": "Laid-back Lifeguard Nebris",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "mediumAOE",
+        "physAttackSelfAmp",
+        "propertyDmgSelfAmp"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 2,
+      "orderPriority": 10
+    },
+    {
+      "id": "new_hire_nebris",
+      "name": "New Hire Nebris",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "mediumAOE",
+        "conditionalDamage"
+      ],
+      "notes": "Deals 3 hits across a 3x1 line with bonus ATK scaling per buff currently on self (+25% per buff).",
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "deadeye_nekyndalia",
+      "name": "Deadeye Nekyndalia",
+      "role": [
+        "DPS",
+        "chainer",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "mark"
+      ],
+      "notes": "Applies Mark to enemies for 4 turns and deals 10 hits across a 1x2 vertical line (expandable to 1x4 via potential).",
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 10,
+      "orderPriority": 5
+    },
+    {
+      "id": "apostle_olivier",
+      "name": "Apostle Olivier",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "preemptive",
+        "evasionSelf",
+        "magicAttackSelfAmp"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "faithful_wings_olivier",
+      "name": "Faithful Wings Olivier",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "mediumAOE",
+        "spRegen",
+        "conditionalDamage"
+      ],
+      "notes": "Hits a 3x2 area, recovering 1 SP per hit per target while dealing damage that increases by 46% per target hit.",
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "fallen_wings_olivier",
+      "name": "Fallen Wings Olivier",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "mediumAOE",
+        "conditionalDamage"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "retired_legend_olivier",
+      "name": "Retired Legend Olivier",
+      "role": [
+        "support",
+        "chainer",
+        "buffer",
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "smallAOE",
+        "domain",
+        "magicAttackAmp"
+      ],
+      "minSP": 4,
+      "maxSP": 6,
+      "chains": 6,
+      "orderPriority": 8
+    },
+    {
+      "id": "sage_of_blue_clouds_olstein",
+      "name": "Sage of Blue Clouds Olstein",
+      "role": [
+        "debuffer",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "mediumAOE",
+        "dispelBuff",
+        "attackDebuff",
+        "magicAttackDebuff"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 7,
+      "orderPriority": 5
+    },
+    {
+      "id": "the_fiend_scholar_olstein",
+      "name": "The Fiend Scholar Olstein",
+      "role": [
+        "support",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "bigAOE",
+        "spRegen",
+        "spDrain",
+        "silence"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 5
+    },
+    {
+      "id": "miracle_violet_palette",
+      "name": "Miracle Violet Palette",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "conditionalDamage"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 7,
+      "orderPriority": 10
+    },
+    {
+      "id": "shattered_dream_palette",
+      "name": "Shattered Dream Palette",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "debuffDurationIncrease"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 8
+    },
+    {
+      "id": "earth_mother_believer_priestess",
+      "name": "Earth Mother Believer Priestess",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "bigAOE",
+        "magicVulnerability"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 5
+    },
+    {
+      "id": "code_name_a_rafina",
+      "name": "Code Name A Rafina",
+      "role": [
+        "DPS",
+        "chainer",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "mediumAOE",
+        "defDebuff"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 5,
+      "orderPriority": 5
+    },
+    {
+      "id": "game_club_rafina",
+      "name": "Game Club Rafina",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "bigAOE",
+        "physVulnerability"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 3,
+      "orderPriority": 5
+    },
+    {
+      "id": "steel_engine_rafina",
+      "name": "Steel Engine Rafina",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "mediumAOE",
+        "dispelShield"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "poolside_fairy_refithea",
+      "name": "Poolside Fairy Refithea",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "propertyDmgAmp",
+        "spCostReduction"
+      ],
+      "minSP": 6,
+      "maxSP": 7,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "pure_white_blessing_refithea",
+      "name": "Pure White Blessing Refithea",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "propertyDmgAmp",
+        "chainReinforcement",
+        "energyGuardAmp"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "the_gluttonous_refithea",
+      "name": "The Gluttonous Refithea",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "critDmgAmp",
+        "aura",
+        "barrierAmp",
+        "spRegen"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "combat_doctor_remnunt",
+      "name": "Combat Doctor Remnunt",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "physAttackDebuff"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 2,
+      "orderPriority": 5
+    },
+    {
+      "id": "little_hunter_rigenette",
+      "name": "Little Hunter Rigenette",
+      "role": [
+        "debuffer",
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "focusFire",
+        "smallAOE"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 2,
+      "orderPriority": 5
+    },
+    {
+      "id": "natures_claw_rou",
+      "name": "Nature's Claw Rou",
+      "role": [
+        "DPS",
+        "tank",
+        "chainer",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "evasionSelf",
+        "percentDamage",
+        "defDebuff",
+        "smallAOE"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 5,
+      "orderPriority": 5
+    },
+    {
+      "id": "red_riding_hood_rou",
+      "name": "Red Riding Hood Rou",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "dark",
+      "effects": [
+        "critRateAmp",
+        "critDmgAmp",
+        "energyGuardAmp"
+      ],
+      "notes": "All-range team buff providing +50% Crit Rate, +300% Crit DMG, and Energy Guard equal to 120% Max HP.",
+      "minSP": 2,
+      "maxSP": 4,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "stray_cat_rou",
+      "name": "Stray Cat Rou",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "critRateSelfAmp"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "white_cat_rou",
+      "name": "White Cat Rou",
+      "role": [
+        "DPS",
+        "tank"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "evasionSelf",
+        "knockback",
+        "dot",
+        "percentDamage"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "emerging_desire_roxy",
+      "name": "Emerging Desire Roxy",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "silence"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 3,
+      "orderPriority": 5
+    },
+    {
+      "id": "respected_master_roxy",
+      "name": "Respected Master Roxy",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "bigAOE",
+        "mainTargetDamage"
+      ],
+      "minSP": 6,
+      "maxSP": 7,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "maid_bikini_rubia",
+      "name": "Maid Bikini Rubia",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "smallAOE",
+        "dot",
+        "dotVulnerability"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 5
+    },
+    {
+      "id": "maid_name_c_rubia",
+      "name": "Maid Name C Rubia",
+      "role": [
+        "DPS",
+        "tank"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "evasionSelf",
+        "physAttackSelfAmp"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 2,
+      "orderPriority": 10
+    },
+    {
+      "id": "the_empress_of_the_ocean_rubia",
+      "name": "The Empress of the Ocean Rubia",
+      "role": [
+        "DPS",
+        "chainer",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "bigAOE",
+        "defDebuff"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 6,
+      "orderPriority": 5
+    },
+    {
+      "id": "thorn_of_the_desert_rubia",
+      "name": "Thorn of the Desert Rubia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "dot"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "reclaimed_destiny_sacred_justia",
+      "name": "Reclaimed Destiny Sacred Justia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "bigAOE",
+        "conditionalDamage"
+      ],
+      "minSP": 5,
+      "maxSP": 6,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "kind_liberator_samay",
+      "name": "Kind Liberator Samay",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "mresDebuff"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 2,
+      "orderPriority": 5
+    },
+    {
+      "id": "kind_student_samay",
+      "name": "Kind Student Samay",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "dark",
+      "effects": [
+        "physAttackAmp",
+        "magicAttackAmp",
+        "heal"
+      ],
+      "minSP": 0,
+      "maxSP": 2,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "code_name_s_scheherazade",
+      "name": "Code Name S Scheherazade",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "dispelBuff",
+        "silence"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 3,
+      "orderPriority": 5
+    },
+    {
+      "id": "pool_party_scheherazade",
+      "name": "Pool Party Scheherazade",
+      "role": [
+        "DPS",
+        "chainer",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "mediumAOE",
+        "dispelBuff",
+        "conditionalDamage"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 5,
+      "orderPriority": 5
+    },
+    {
+      "id": "the_lapis_witch_scheherazade",
+      "name": "The Lapis Witch Scheherazade",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "mediumAOE",
+        "dispelBuff"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 3,
+      "orderPriority": 5
+    },
+    {
+      "id": "the_magic_school_professor_scheherazade",
+      "name": "The Magic School Professor Scheherazade",
+      "role": [
+        "DPS",
+        "chainer",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "bigAOE",
+        "dispelBuff",
+        "mresDebuff"
+      ],
+      "minSP": 4,
+      "maxSP": 6,
+      "chains": 7,
+      "orderPriority": 5
+    },
+    {
+      "id": "b_rank_idol_seir",
+      "name": "B-Rank Idol Seir",
+      "role": [
+        "tank",
+        "support"
+      ],
+      "damageType": null,
+      "element": "dark",
+      "effects": [
+        "barrierSelfAmp",
+        "spRegen",
+        "energyGuardSelf"
+      ],
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "demons_daughter_seir",
+      "name": "Demon's Daughter Seir",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "dark",
+      "effects": [
+        "taunt",
+        "barrierSelfAmp",
+        "healSelf"
+      ],
+      "minSP": 1,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "new_hire_seir",
+      "name": "New Hire Seir",
+      "role": [
+        "tank",
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "dark",
+      "effects": [
+        "dmgAmp"
+      ],
+      "minSP": 3,
+      "maxSP": 3,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "little_pumpkin_girl_sonya",
+      "name": "Little Pumpkin Girl Sonya",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "conditionalDamage"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "shadowed_dream_sonya",
+      "name": "Shadowed Dream Sonya",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "vulnerability",
+        "darkVulnerability"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 5
+    },
+    {
+      "id": "supreme_god_archbishop_sword_maiden",
+      "name": "Supreme God Archbishop Sword Maiden",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "bigAOE"
+      ],
+      "minSP": 5,
+      "maxSP": 6,
+      "chains": 5,
+      "orderPriority": 5
+    },
+    {
+      "id": "admiral_sylvia",
+      "name": "Admiral Sylvia",
+      "role": [
+        "tank",
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "mediumAOE",
+        "energyGuardSelf"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 5,
+      "orderPriority": 5
+    },
+    {
+      "id": "bikini_agent_sylvia",
+      "name": "Bikini Agent Sylvia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "bigAOE",
+        "buffDurationSelfIncrease"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "desert_flower_sylvia",
+      "name": "Desert Flower Sylvia",
+      "role": [
+        "tank",
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "counter",
+        "barrierSelfAmp"
+      ],
+      "minSP": 2,
+      "maxSP": 4,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "the_sword_queen_sylvia",
+      "name": "The Sword Queen Sylvia",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "physAttackSelfAmp"
+      ],
+      "notes": "Self-buffs ATK by 200% for 6 turns and attacks 4 times along a 1x2 vertical line.",
+      "minSP": 1,
+      "maxSP": 1,
+      "chains": 4,
+      "orderPriority": 10
+    },
+    {
+      "id": "ame_no_mitori_tenka_izumo",
+      "name": "Ame-no-Mitori Tenka Izumo",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE"
+      ],
+      "notes": "Deals 3 hits across a 3x3 square (320% Magic ATK per hit).",
+      "minSP": 5,
+      "maxSP": 6,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "angel_of_destruction_teresse",
+      "name": "Angel of Destruction Teresse",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "spRegen",
+        "knockback",
+        "dot",
+        "percentDamage"
+      ],
+      "notes": "Restores 3 SP to allies, knocks back target 2 tiles dealing 125% colliding Max HP damage, and inflicts Bleed across a 3-tile horizontal row (expandable to 5-tile horizontal line via potential).",
+      "minSP": 1,
+      "maxSP": 2,
+      "chains": 1,
+      "orderPriority": 5
+    },
+    {
+      "id": "beachside_angel_teresse",
+      "name": "Beachside Angel Teresse",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "water",
+      "effects": [
+        "conditionalDmgAmp"
+      ],
+      "minSP": 2,
+      "maxSP": 4,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "medical_club_teresse",
+      "name": "Medical Club Teresse",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "water",
+      "effects": [
+        "physAttackAmp",
+        "magicAttackAmp",
+        "heal"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 0,
+      "orderPriority": 0
+    },
+    {
+      "id": "innocent_bunny_tyr",
+      "name": "Innocent Bunny Tyr",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "mediumAOE",
+        "conditionalDamage",
+        "spCostIncreaseSelf"
+      ],
+      "minSP": 4,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "starlight_guardian_tyr",
+      "name": "Starlight Guardian Tyr",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "bigAOE",
+        "spCostIncreaseSelf"
+      ],
+      "minSP": 4,
+      "maxSP": 6,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "dj_venaka",
+      "name": "DJ Venaka",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "mediumAOE",
+        "mresDebuff"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 5
+    },
+    {
+      "id": "wind_dancer_venaka",
+      "name": "Wind Dancer Venaka",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "bigAOE",
+        "windVulnerability"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 5
+    },
+    {
+      "id": "comeback_idol_ventana",
+      "name": "Comeback Idol Ventana",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "physAttackSelfAmp",
+        "pureDamage",
+        "conditionalDamage"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "onsen_practitioner_ventana",
+      "name": "Onsen Practitioner Ventana",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "lightVulnerability",
+        "conditionalDebuff"
+      ],
+      "minSP": 2,
+      "maxSP": 3,
+      "chains": 1,
+      "orderPriority": 5
+    },
+    {
+      "id": "snow_white_ventana",
+      "name": "Snow White Ventana",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "conditionalDamage"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "bomb_fanatic_wiggle",
+      "name": "Bomb Fanatic Wiggle",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "selfDestruct"
+      ],
+      "minSP": 2,
+      "maxSP": 5,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "bomb_in_the_hoodie_wiggle",
+      "name": "Bomb in the Hoodie Wiggle",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "dot"
+      ],
+      "minSP": 4,
+      "maxSP": 6,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "frozen_queen_wilhelmina",
+      "name": "Frozen Queen Wilhelmina",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "propertyDmgSelfAmp"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 6,
+      "orderPriority": 10
+    },
+    {
+      "id": "iron_monarch_wilhelmina",
+      "name": "Iron Monarch Wilhelmina",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 12,
+      "orderPriority": 5
+    },
+    {
+      "id": "water_park_queen_wilhelmina",
+      "name": "Water Park Queen Wilhelmina",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "chainReinforcementSelf"
+      ],
+      "notes": "Self-applies 1 Chain Reinforcement (+1 chain per hit) for 6 turns and attacks 9 times across a 3-tile corner area.",
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 9,
+      "orderPriority": 5
+    },
+    {
+      "id": "gentle_destroyer_yomi",
+      "name": "Gentle Destroyer Yomi",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "mediumAOE"
+      ],
+      "notes": "Attacks 4 times across a 3x2 area (130% ATK per hit).",
+      "minSP": 6,
+      "maxSP": 7,
+      "chains": 4,
+      "orderPriority": 10
+    },
+    {
+      "id": "fist_of_conviction_yozakura",
+      "name": "Fist of Conviction Yozakura",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "basicAttackAugmentation"
+      ],
+      "minSP": 4,
+      "maxSP": 5,
+      "chains": 3,
+      "orderPriority": 10
+    },
+    {
+      "id": "dancing_snowflake_yumi",
+      "name": "Dancing Snowflake Yumi",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "dot"
+      ],
+      "minSP": 3,
+      "maxSP": 5,
+      "chains": 5,
+      "orderPriority": 10
+    },
+    {
+      "id": "comeback_idol_yuri",
+      "name": "Comeback Idol Yuri",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "mediumAOE",
+        "critDmgSelfAmp",
+        "targetAvoidance"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 1,
+      "orderPriority": 10
+    },
+    {
+      "id": "whitebolt_yuri",
+      "name": "Whitebolt Yuri",
+      "role": [
+        "DPS",
+        "chainer",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "mediumAOE",
+        "physAttackSelfAmp",
+        "dispelBuff"
+      ],
+      "minSP": 3,
+      "maxSP": 4,
+      "chains": 4,
+      "orderPriority": 5
+    },
+    {
+      "id": "poolside_guardian_zenith",
+      "name": "Poolside Guardian Zenith",
+      "role": [
+        "debuffer",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "focusFire",
+        "chainDmgAmp"
+      ],
+      "minSP": 2,
+      "maxSP": 4,
+      "chains": 6,
+      "orderPriority": 5
+    },
+    {
+      "id": "robin_hood_zenith",
+      "name": "Robin Hood Zenith",
+      "role": [
+        "debuffer",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "focusFire",
+        "vulnerability"
+      ],
+      "minSP": 0,
+      "maxSP": 2,
+      "chains": 6,
+      "orderPriority": 5
+    }
+]

@@ -190,6 +190,14 @@ This site focuses on high-quality explanations for every game aspect for new pla
     [View Page →](./misc/fh-calc.md){: .md-button }
 
 </div>
+<div class="grid cards center-content" markdown>
+-   ![Team Evaluator](assets/images/site-assets/index-pc-nav-30.avif){: .card-header-img }
+
+    ---
+
+    [View Page →](./misc/team-evaluator.md){: .md-button }
+</div>
+
 ---
 <div class="banner-container">
     <img src="assets/images/site-assets/index-pc-6.avif" alt="Community" class="responsive-banner">

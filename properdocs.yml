@@ -60,10 +60,10 @@ nav:
         - 'Rapport': content/rapport.md
         - 'Season Events': content/events.md
         - 'Taros Tactical Manual': content/ttm.md
-        
     - 'Miscellaneous':
         - 'Fiend Hunter Calculator': misc/fh-calc.md
         - 'Game Slang': misc/slang.md
+        - 'Team Evaluator': misc/team-evaluator.md
     - 'Common Questions': FAQ.md
     - 'New Player Guide': new.md
     - 'Game Routine Checklists': checklists.md 
@@ -87,6 +87,7 @@ extra_css:
   - stylesheets/checklists.css
   - stylesheets/print.css
   - stylesheets/fiend-hunter-bosses.css
+  - stylesheets/teambuild.css
   - stylesheets/ads.css
   - assets/katex/katex.min.css
 extra_javascript:
@@ -98,6 +99,7 @@ extra_javascript:
   - assets/katex/katex.min.js
   - assets/katex/contrib/auto-render.min.js
   - javascripts/katex-config.js
+  - javascripts/teambuild/teambuild.mjs
   - https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js
 plugins:
   - search

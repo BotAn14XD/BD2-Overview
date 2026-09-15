@@ -270,6 +270,7 @@ async function initChecklist() {
       const start = new Date(override.start);
       const end = new Date(override.end);
       if (now >= start && now < end) {
+        const settlementStart = override.settlement_start ? new Date(override.settlement_start) : null;
         activeEvents.push({
           id: override.id || override.event_id,
           name: override.name,
@@ -277,7 +278,7 @@ async function initChecklist() {
           is_daily_reset: override.is_daily_reset || false,
           target_tab: override.target_tab || (override.is_daily_reset ? "daily" : "seasonal"),
           suppress_default_cycle: override.suppress_default_cycle || false,
-          is_settlement_locked: false
+          is_settlement_locked: settlementStart ? now >= settlementStart : false
         });
       }
     });

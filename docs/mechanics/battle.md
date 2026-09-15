@@ -67,7 +67,7 @@ Brown Dust II is a turn-based strategy in which you can position your characters
         ![Targeting Logic](../assets/images/battle-system/targeting.avif)
 
 !!! abstract "Damage Formula"
-    $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MATK} / \textcolor{orange}{HP}} \text{/ \textcolor{white}{Energy Guard}}^\text{]}\\\\
+    $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MATK} / \textcolor{orange}{HP}} \text{/ \textcolor{white}{Energy Guard}}]\\\\
     \times \; \text{Skill\%} \\\\
     \times \; (100\% + \text{\textcolor{ffe8aa}{ATK\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{ffe8aa}{ATK\%} Debuffs}) \\\\
     \times \; (100\% + \text{\textcolor{white}{CDMG\%}} + \text{\textcolor{white}{CDMG\%} Buffs} \times [100\% - \text{Pressure\%}] - \text{\textcolor{white}{CDMG\%} Debuffs} + 6 \times (\text{\textcolor{white}{Crit Rate\%}} - 100\%)) \\

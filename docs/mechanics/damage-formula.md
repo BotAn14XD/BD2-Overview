@@ -117,161 +117,161 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         <tbody>
             <tr>
                 <td align="center">
-                ![Respected Master Roxy](../assets/images/damage-formula/illust_inven_char020101_125.avif){.icon-portrait}
+                ![Respected Master Roxy](../assets/images/character-illustration/torso/illust_inven_char020101_125.avif){.icon-portrait}
                 </td>
                 <td><strong>Respected Master<br>Roxy</strong></td>
                 <td>$\textcolor{white}{300\% \sim 600\% \text{ to the Main Target}} \newline 140\% \sim 300\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Prophetic Dream Darian](../assets/images/damage-formula/illust_inven_char004001_181.avif){.icon-portrait}
+                ![Prophetic Dream Darian](../assets/images/character-illustration/torso/illust_inven_char004001_181.avif){.icon-portrait}
                 </td>
                 <td><strong>Prophetic Dream<br>Darian</strong></td>
                 <td>$\textcolor{white}{775\% \sim 1900\% \text{ to the Main Target}} \newline 500\% \sim 1700\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Bittersweet Bunny Darian](../assets/images/damage-formula/illust_inven_char004002_185.avif){.icon-portrait}
+                ![Bittersweet Bunny Darian](../assets/images/character-illustration/torso/illust_inven_char004002_185.avif){.icon-portrait}
                 </td>
                 <td><strong>Bittersweet Bunny<br>Darian</strong></td>
                 <td>$\textcolor{white}{400\% \sim 600\% \text{ if enemy is under DoT effects}} \newline 200\% \sim 400\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Maid Name R Liatris](../assets/images/damage-formula/illust_inven_char001207_114.avif){.icon-portrait}
+                ![Maid Name R Liatris](../assets/images/character-illustration/torso/illust_inven_char001207_114.avif){.icon-portrait}
                 </td>
                 <td><strong>Maid Name R<br>Liatris</strong></td>
                 <td>$\textcolor{white}{500\% \sim 850\% \text{ if enemy is under DoT effects}} \newline 400\% \sim 550\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Celebrity Bunny Loen](../assets/images/damage-formula/illust_inven_char003203_153.avif){.icon-portrait}
+                ![Celebrity Bunny Loen](../assets/images/character-illustration/torso/illust_inven_char003203_153.avif){.icon-portrait}
                 </td>
                 <td><strong>Celebrity Bunny<br>Loen</strong></td>
                 <td>$50\% + [75\% \sim 175\%] \times \text{Targets affected}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Esteemed Adventurer Eris](../assets/images/damage-formula/illust_inven_char020001_124.avif){.icon-portrait}
+                ![Esteemed Adventurer Eris](../assets/images/character-illustration/torso/illust_inven_char020001_124.avif){.icon-portrait}
                 </td>
                 <td><strong>Esteemed Adventurer<br>Eris</strong></td>
                 <td>$\textcolor{white}{600\% \sim 1100\% \newline \text{if Chain count after the attack is} \le 7} \newline 300\% \sim 650\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Night of Jealousy Levia](../assets/images/damage-formula/illust_inven_char067302_139.avif){.icon-portrait}
+                ![Night of Jealousy Levia](../assets/images/character-illustration/torso/illust_inven_char067302_139.avif){.icon-portrait}
                 </td>
                 <td><strong>Night of Jealousy<br>Levia</strong></td>
                 <td>$\textcolor{white}{200\% \sim 420\% \text{ to the Main Target}} \newline 100\% \sim 240\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Overheat Levia](../assets/images/damage-formula/illust_inven_char067303_154.avif){.icon-portrait}
+                ![Overheat Levia](../assets/images/character-illustration/torso/illust_inven_char067303_154.avif){.icon-portrait}
                 </td>
                 <td><strong>Overheat<br>Levia</strong></td>
                 <td>$\textcolor{white}{550\% \sim 1000\% \newline \text{if enemy is in Vulnerability state}} \newline 200\% \sim 350\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![New Hire Nebris](../assets/images/damage-formula/illust_inven_char003303_149.avif){.icon-portrait}
+                ![New Hire Nebris](../assets/images/character-illustration/torso/illust_inven_char003303_149.avif){.icon-portrait}
                 </td>
                 <td><strong>New Hire<br>Nebris</strong></td>
                 <td>$[40\% \sim 110\%] + [15\% \sim 46\%] \times \text{Buffs Applied}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Innocent Bunny Tyr](../assets/images/damage-formula/illust_inven_char004102_186.avif){.icon-portrait}
+                ![Innocent Bunny Tyr](../assets/images/character-illustration/torso/illust_inven_char004102_186.avif){.icon-portrait}
                 </td>
                 <td><strong>Innocent Bunny<br>Tyr</strong></td>
                 <td>$[125\% \sim 300\%] + [100\% \sim 180\%] \times \text{SP Consumed}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Snow White Ventana](../assets/images/damage-formula/illust_inven_char067002_99.avif){.icon-portrait}
+                ![Snow White Ventana](../assets/images/character-illustration/torso/illust_inven_char067002_99.avif){.icon-portrait}
                 </td>
                 <td><strong>Snow White<br>Ventana</strong></td>
                 <td>$\textcolor{white}{600\% \sim 1300\% \newline \text{if enemy is in Taunt or Concentrated Fire state}} \newline 200\% \sim 450\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Reclaimed Destiny Sacred Justia](../assets/images/damage-formula/illust_inven_char003501_131.avif){.icon-portrait}
+                ![Reclaimed Destiny Sacred Justia](../assets/images/character-illustration/torso/illust_inven_char003501_131.avif){.icon-portrait}
                 </td>
                 <td><strong>Reclaimed Destiny<br>Sacred Justia</strong></td>
                 <td>$[150\% \sim 300\%] + [80\% \sim 310\%] \times \text{Targets affected}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Fallen Wings Olivier](../assets/images/damage-formula/illust_inven_char003603_175.avif){.icon-portrait}
+                ![Fallen Wings Olivier](../assets/images/character-illustration/torso/illust_inven_char003603_175.avif){.icon-portrait}
                 </td>
                 <td><strong>Fallen Wings<br>Olivier</strong></td>
                 <td>$[150\% \sim 250\%] + [60\% \sim 100\%] \times \text{Additional SP Consumed}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Faithful Wings Olivier](../assets/images/damage-formula/illust_inven_char003601_138.avif){.icon-portrait}
+                ![Faithful Wings Olivier](../assets/images/character-illustration/torso/illust_inven_char003601_138.avif){.icon-portrait}
                 </td>
                 <td><strong>Faithful Wings<br>Olivier</strong></td>
                 <td>$[150\% \sim 250\%] + [30\% \sim 50\%] \times \text{Targets affected}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Anonymous Sage Nartas](../assets/images/damage-formula/illust_inven_char065802_103.avif){.icon-portrait}
+                ![Anonymous Sage Nartas](../assets/images/character-illustration/torso/illust_inven_char065802_103.avif){.icon-portrait}
                 </td>
                 <td><strong>Anonymous Sage<br>Nartas</strong></td>
                 <td>$\textcolor{white}{400\% \sim 1050\% \newline \text{if enemy is a Physical Type}} \newline 300\% \sim 450\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Deal Snatcher Luvencia](../assets/images/damage-formula/illust_inven_char067502_148.avif){.icon-portrait}
+                ![Deal Snatcher Luvencia](../assets/images/character-illustration/torso/illust_inven_char067502_148.avif){.icon-portrait}
                 </td>
                 <td><strong>Deal Snatcher<br>Luvencia</strong></td>
                 <td>$\textcolor{white}{[80\% \sim 160\%] \times (100\% - 5\% \times \text{Targets Affected}) \newline \text{ to the Main Target}} \newline [60\% \sim 80\%] \times (100\% - 5\% \times \text{Targets Affected}) \newline \text{otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Wild Dog Luvencia](../assets/images/damage-formula/illust_inven_char067503_155.avif){.icon-portrait}
+                ![Wild Dog Luvencia](../assets/images/character-illustration/torso/illust_inven_char067503_155.avif){.icon-portrait}
                 </td>
                 <td><strong>Wild Dog<br>Luvencia</strong></td>
                 <td>$\textcolor{white}{40\% \sim 260\% \newline \text{if enemy Chain count is a multiple of 3}} \newline 30\% \sim 80\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Onsen Swordfighter Blade](../assets/images/damage-formula/illust_inven_char003702_158.avif){.icon-portrait}
+                ![Onsen Swordfighter Blade](../assets/images/character-illustration/torso/illust_inven_char003702_158.avif){.icon-portrait}
                 </td>
                 <td><strong>Onsen Swordfighter<br>Blade</strong></td>
                 <td>$[350\% \sim 600\%] + [70\% \sim 120\%] \times \text{Debuffs Applied on enemy}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Tricky Lover Dalvi](../assets/images/damage-formula/illust_inven_char061306_208.avif){.icon-portrait}
+                ![Tricky Lover Dalvi](../assets/images/character-illustration/torso/illust_inven_char061306_208.avif){.icon-portrait}
                 </td>
                 <td><strong>Tricky Lover<br>Dalvi</strong></td>
                 <td>$\textcolor{white}{[100\% \sim 300\%] \times \text{Bleed Stacks Applied} \newline \text{if enemy has Bleed Applied}} \newline 100\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Miracle Violet Palette](../assets/images/damage-formula/illust_inven_char004202_200.avif){.icon-portrait}
+                ![Miracle Violet Palette](../assets/images/character-illustration/torso/illust_inven_char004202_200.avif){.icon-portrait}
                 </td>
                 <td><strong>Miracle Violet<br>Palette</strong></td>
                 <td>$\textcolor{white}{110\% \sim 250\% \newline \text{if enemy Debuff count is 7 or more}} \newline 35\% \sim 65\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Gentle Maid Anastasia](../assets/images/damage-formula/illust_inven_char060501_79.avif){.icon-portrait}
+                ![Gentle Maid Anastasia](../assets/images/character-illustration/torso/illust_inven_char060501_79.avif){.icon-portrait}
                 </td>
                 <td><strong>Gentle Maid Anastasia</strong></td>
                 <td>$\textcolor{white}{250\% \sim 500\% \text{ to the Main Target}} \newline 110\% \sim 210\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Fire Graffiti Anastasia](../assets/images/damage-formula/illust_inven_char060502_46.avif){.icon-portrait}
+                ![Fire Graffiti Anastasia](../assets/images/character-illustration/torso/illust_inven_char060502_46.avif){.icon-portrait}
                 </td>
                 <td><strong>Fire Graffiti Anastasia</strong></td>
                 <td>$\textcolor{white}{55\% \sim 90\% \text{ to the Main Target}} \newline 30\% \sim 50\% \text{ otherwise}$</td>
             </tr>
             <tr>
                 <td align="center">
-                ![Pool Party Scheherazade](../assets/images/damage-formula/illust_inven_char000306_92.avif){.icon-portrait}
+                ![Pool Party Scheherazade](../assets/images/character-illustration/torso/illust_inven_char000306_92.avif){.icon-portrait}
                 </td>
                 <td><strong>Pool Party Scheherazade</strong></td>
                 <td>$\textcolor{white}{140\% \sim 260\% \text{ if Chain Count on the enemy is 15 or more}} \newline 30\% \sim 60\% \text{ otherwise}$</td>
@@ -307,7 +307,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         <tbody>
             <tr>
                 <td align="center">
-                ![Medical Club Teresse](../assets/images/damage-formula/illust_inven_char001106_117.avif){.icon-portrait}
+                ![Medical Club Teresse](../assets/images/character-illustration/torso/illust_inven_char001106_117.avif){.icon-portrait}
                 </td>
                 <td><strong>Medical Club Teresse</strong></td>
                 <td>$50\% \sim 120\%$</td>
@@ -316,7 +316,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td rowspan="2" align="center">
-                ![Homunculus Lathel](../assets/images/damage-formula/illust_inven_char000103_59.avif){.icon-portrait}
+                ![Homunculus Lathel](../assets/images/character-illustration/torso/illust_inven_char000103_59.avif){.icon-portrait}
                 </td>
                 <td rowspan="2"><strong>Homunculus Lathel</strong></td>
                 <td>$60\% \sim 130\%$</td>
@@ -329,7 +329,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Dark Saintess Liberta](../assets/images/damage-formula/illust_inven_char003801_164.avif){.icon-portrait}
+                ![Dark Saintess Liberta](../assets/images/character-illustration/torso/illust_inven_char003801_164.avif){.icon-portrait}
                 </td>
                 <td><strong>Dark Saintess Liberta</strong></td>
                 <td>$35\% \sim 115\%$</td>
@@ -338,7 +338,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Priest of Vitality Arines](../assets/images/damage-formula/illust_inven_char103701_36.avif){.icon-portrait}
+                ![Priest of Vitality Arines](../assets/images/character-illustration/torso/illust_inven_char103701_36.avif){.icon-portrait}
                 </td>
                 <td><strong>Priest of Vitality Arines</strong></td>
                 <td>$25\% \sim 80\%$</td>
@@ -347,7 +347,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Shadow Bunny Eleaneer](../assets/images/damage-formula/illust_inven_char061103_187.avif){.icon-portrait}
+                ![Shadow Bunny Eleaneer](../assets/images/character-illustration/torso/illust_inven_char061103_187.avif){.icon-portrait}
                 </td>
                 <td><strong>Shadow Bunny Eleaneer</strong></td>
                 <td>$20\% \sim 60\%$</td>
@@ -356,7 +356,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Kind Student Samay](../assets/images/damage-formula/illust_inven_char101402_16.avif){.icon-portrait}
+                ![Kind Student Samay](../assets/images/character-illustration/torso/illust_inven_char101402_16.avif){.icon-portrait}
                 </td>
                 <td><strong>Kind Student Samay</strong></td>
                 <td>$20\% \sim 50\%$</td>
@@ -383,7 +383,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         <tbody>
             <tr>
                 <td align="center">
-                ![Medical Club Teresse](../assets/images/damage-formula/illust_inven_char001106_117.avif){.icon-portrait}
+                ![Medical Club Teresse](../assets/images/character-illustration/torso/illust_inven_char001106_117.avif){.icon-portrait}
                 </td>
                 <td><strong>Medical Club Teresse</strong></td>
                 <td>$50\% \sim 120\%$</td>
@@ -392,7 +392,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td rowspan="2" align="center">
-                ![Queen of Gluttis Granadair](../assets/images/damage-formula/illust_inven_char067702_194.avif){.icon-portrait}
+                ![Queen of Gluttis Granadair](../assets/images/character-illustration/torso/illust_inven_char067702_194.avif){.icon-portrait}
                 </td>
                 <td rowspan="2"><strong>Queen of Gluttis Granadair</strong></td>
                 <td>$50\% \sim 80\%$</td>
@@ -405,7 +405,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![B-Rank Idol Helena](../assets/images/damage-formula/illust_inven_char061002_26.avif){.icon-portrait}
+                ![B-Rank Idol Helena](../assets/images/character-illustration/torso/illust_inven_char061002_26.avif){.icon-portrait}
                 </td>
                 <td><strong>B-Rank Idol Helena</strong></td>
                 <td>$35\% \sim 190\%$</td>
@@ -414,7 +414,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Retired Legend Olivier](../assets/images/damage-formula/illust_inven_char003604_196.avif){.icon-portrait}
+                ![Retired Legend Olivier](../assets/images/character-illustration/torso/illust_inven_char003604_196.avif){.icon-portrait}
                 </td>
                 <td><strong>Retired Legend Olivier</strong></td>
                 <td>$60\% \sim 100\%$</td>
@@ -423,7 +423,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Shadow Bunny Eleaneer](../assets/images/damage-formula/illust_inven_char061103_187.avif){.icon-portrait}
+                ![Shadow Bunny Eleaneer](../assets/images/character-illustration/torso/illust_inven_char061103_187.avif){.icon-portrait}
                 </td>
                 <td><strong>Shadow Bunny Eleaneer</strong></td>
                 <td>$20\% \sim 60\%$</td>
@@ -432,7 +432,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Kind Student Samay](../assets/images/damage-formula/illust_inven_char101402_16.avif){.icon-portrait}
+                ![Kind Student Samay](../assets/images/character-illustration/torso/illust_inven_char101402_16.avif){.icon-portrait}
                 </td>
                 <td><strong>Kind Student Samay</strong></td>
                 <td>$20\% \sim 50\%$</td>
@@ -441,7 +441,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Hand of Salvation Elpis](../assets/images/damage-formula/illust_inven_char003101_122.avif){.icon-portrait}
+                ![Hand of Salvation Elpis](../assets/images/character-illustration/torso/illust_inven_char003101_122.avif){.icon-portrait}
                 </td>
                 <td><strong>Hand of Salvation Elpis</strong></td>
                 <td>$25\% \sim 80\%$</td>
@@ -468,7 +468,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         <tbody>
             <tr>
                 <td align="center">
-                ![The Sword Queen Sylvia](../assets/images/damage-formula/illust_inven_char001002_102.avif){.icon-portrait}
+                ![The Sword Queen Sylvia](../assets/images/character-illustration/torso/illust_inven_char001002_102.avif){.icon-portrait}
                 </td>
                 <td><strong>The Sword Queen<br>Sylvia</strong></td>
                 <td>$100\% \sim 225\%$</td>
@@ -477,7 +477,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Herb Tracker Lathel](../assets/images/damage-formula/illust_inven_char000101_1.avif){.icon-portrait}
+                ![Herb Tracker Lathel](../assets/images/character-illustration/torso/illust_inven_char000101_1.avif){.icon-portrait}
                 </td>
                 <td><strong>Herb Tracker<br>Lathel</strong></td>
                 <td>$50\%$</td>
@@ -486,7 +486,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Lonely Survivor Lathel](../assets/images/damage-formula/illust_inven_char000102_44.avif){.icon-portrait}
+                ![Lonely Survivor Lathel](../assets/images/character-illustration/torso/illust_inven_char000102_44.avif){.icon-portrait}
                 </td>
                 <td><strong>Lonely Survivor<br>Lathel</strong></td>
                 <td>$50\%$</td>
@@ -495,7 +495,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Promise of Vengeance Lathel](../assets/images/damage-formula/illust_inven_char000105_42.avif){.icon-portrait}
+                ![Promise of Vengeance Lathel](../assets/images/character-illustration/torso/illust_inven_char000105_42.avif){.icon-portrait}
                 </td>
                 <td><strong>Promise of Vengeance<br>Lathel</strong></td>
                 <td>$50\% \sim 60\%$</td>
@@ -504,7 +504,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Maid Name C Rubia](../assets/images/damage-formula/illust_inven_char000806_116.avif){.icon-portrait}
+                ![Maid Name C Rubia](../assets/images/character-illustration/torso/illust_inven_char000806_116.avif){.icon-portrait}
                 </td>
                 <td><strong>Maid Name C<br>Rubia</strong></td>
                 <td>$50\%$</td>
@@ -513,7 +513,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Noble Flame Ikaruga](../assets/images/damage-formula/illust_inven_char021001_198.avif){.icon-portrait}
+                ![Noble Flame Ikaruga](../assets/images/character-illustration/torso/illust_inven_char021001_198.avif){.icon-portrait}
                 </td>
                 <td><strong>Noble Flame<br>Ikaruga</strong></td>
                 <td>$60\% \sim 100\%$</td>
@@ -522,7 +522,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Laid-back Lifeguard Nebris](../assets/images/damage-formula/illust_inven_char003302_130.avif){.icon-portrait}
+                ![Laid-back Lifeguard Nebris](../assets/images/character-illustration/torso/illust_inven_char003302_130.avif){.icon-portrait}
                 </td>
                 <td><strong>Laid-back Lifeguard<br>Nebris</strong></td>
                 <td>$50\%$</td>
@@ -531,7 +531,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Pool Party Justia](../assets/images/damage-formula/illust_inven_char000206_91.avif){.icon-portrait}
+                ![Pool Party Justia](../assets/images/character-illustration/torso/illust_inven_char000206_91.avif){.icon-portrait}
                 </td>
                 <td><strong>Pool Party<br>Justia</strong></td>
                 <td>$150\% \sim 400\%$</td>
@@ -540,7 +540,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Comeback Idol Ventana](../assets/images/damage-formula/illust_inven_char067003_111.avif){.icon-portrait}
+                ![Comeback Idol Ventana](../assets/images/character-illustration/torso/illust_inven_char067003_111.avif){.icon-portrait}
                 </td>
                 <td><strong>Comeback Idol<br>Ventana</strong></td>
                 <td>$50\% \sim 125\%$</td>
@@ -549,7 +549,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Whitebolt Yuri](../assets/images/damage-formula/illust_inven_char065102_105.avif){.icon-portrait}
+                ![Whitebolt Yuri](../assets/images/character-illustration/torso/illust_inven_char065102_105.avif){.icon-portrait}
                 </td>
                 <td><strong>Whitebolt<br>Yuri</strong></td>
                 <td>$150\% \sim 160\%$</td>
@@ -558,7 +558,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Haggard Delinquent Emma](../assets/images/damage-formula/illust_inven_char101301_61.avif){.icon-portrait}
+                ![Haggard Delinquent Emma](../assets/images/character-illustration/torso/illust_inven_char101301_61.avif){.icon-portrait}
                 </td>
                 <td><strong>Haggard Delinquent<br>Emma</strong></td>
                 <td>$200\% \sim 500\%$</td>
@@ -567,7 +567,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Shadow Bunny Eleaneer](../assets/images/damage-formula/illust_inven_char061103_187.avif){.icon-portrait}
+                ![Shadow Bunny Eleaneer](../assets/images/character-illustration/torso/illust_inven_char061103_187.avif){.icon-portrait}
                 </td>
                 <td><strong>Shadow Bunny Eleaneer</strong></td>
                 <td>$25\% \sim 40\%$</td>
@@ -576,7 +576,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Savage Warrior Aquila](../assets/images/damage-formula/illust_inven_char067901_222.avif){.icon-portrait}
+                ![Savage Warrior Aquila](../assets/images/character-illustration/torso/illust_inven_char067901_222.avif){.icon-portrait}
                 </td>
                 <td><strong>Savage Warrior Aquila</strong></td>
                 <td>$15\% \sim 30\%$</td>
@@ -585,7 +585,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Ocean Vanguard Luvencia](../assets/images/damage-formula/illust_inven_char067504_205.avif){.icon-portrait}
+                ![Ocean Vanguard Luvencia](../assets/images/character-illustration/torso/illust_inven_char067504_205.avif){.icon-portrait}
                 </td>
                 <td><strong>Ocean Vanguard Luvencia</strong></td>
                 <td>$1\% \sim 3\%$</td>
@@ -594,7 +594,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Dream Bride Eclipse](../assets/images/damage-formula/illust_inven_char000708_170.avif){.icon-portrait}
+                ![Dream Bride Eclipse](../assets/images/character-illustration/torso/illust_inven_char000708_170.avif){.icon-portrait}
                 </td>
                 <td><strong>Dream Bride Eclipse</strong></td>
                 <td>$50\% ~ 100\%$</td>
@@ -603,7 +603,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![DJ Venaka](../assets/images/damage-formula/illust_inven_char067201_129.avif){.icon-portrait}
+                ![DJ Venaka](../assets/images/character-illustration/torso/illust_inven_char067201_129.avif){.icon-portrait}
                 </td>
                 <td><strong>DJ<br>Venaka</strong></td>
                 <td>$100\%$</td>
@@ -630,7 +630,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
         <tbody>
             <tr>
                 <td align="center">
-                ![Track and Field Team Loen](../assets/images/damage-formula/illust_inven_char003202_133.avif){.icon-portrait}
+                ![Track and Field Team Loen](../assets/images/character-illustration/torso/illust_inven_char003202_133.avif){.icon-portrait}
                 </td>
                 <td><strong>Track and Field Team<br>Loen</strong></td>
                 <td>$60\% \sim 100\%$</td>
@@ -639,7 +639,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Beachside Justice Michaela](../assets/images/damage-formula/illust_inven_char067401_137.avif){.icon-portrait}
+                ![Beachside Justice Michaela](../assets/images/character-illustration/torso/illust_inven_char067401_137.avif){.icon-portrait}
                 </td>
                 <td><strong>Beachside Justice<br>Michaela</strong></td>
                 <td>$200\% \sim 300\%$</td>
@@ -648,7 +648,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Apostle Olivier](../assets/images/damage-formula/illust_inven_char003602_176.avif){.icon-portrait}
+                ![Apostle Olivier](../assets/images/character-illustration/torso/illust_inven_char003602_176.avif){.icon-portrait}
                 </td>
                 <td><strong>Apostle<br>Olivier</strong></td>
                 <td>$50\% \sim 80\%$</td>
@@ -709,7 +709,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Combat Doctor Remnunt](../assets/images/damage-formula/illust_inven_char100401_8.avif){.icon-portrait}
+                    ![Combat Doctor Remnunt](../assets/images/character-illustration/torso/illust_inven_char100401_8.avif){.icon-portrait}
                     </td>
                     <td><strong>Combat Doctor<br>Remnunt</strong></td>
                     <td>$50\%$</td>
@@ -718,7 +718,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Sage of Blue Clouds Olstein](../assets/images/damage-formula/illust_inven_char000604_72.avif){.icon-portrait}
+                    ![Sage of Blue Clouds Olstein](../assets/images/character-illustration/torso/illust_inven_char000604_72.avif){.icon-portrait}
                     </td>
                     <td><strong>Sage of Blue Clouds<br>Olstein</strong></td>
                     <td>$70\%$</td>
@@ -727,7 +727,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Lugo Hunter Gynt](../assets/images/damage-formula/illust_inven_char100101_4.avif){.icon-portrait}
+                    ![Lugo Hunter Gynt](../assets/images/character-illustration/torso/illust_inven_char100101_4.avif){.icon-portrait}
                     </td>
                     <td><strong>Lugo Hunter<br>Gynt</strong></td>
                     <td>$50\%$</td>
@@ -736,7 +736,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![The Curse Celia](../assets/images/damage-formula/illust_inven_char101601_78.avif){.icon-portrait}
+                    ![The Curse Celia](../assets/images/character-illustration/torso/illust_inven_char101601_78.avif){.icon-portrait}
                     </td>
                     <td><strong>The Curse<br>Celia</strong></td>
                     <td>$35\% \sim 65 \%$</td>
@@ -763,7 +763,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Sage of Blue Clouds Olstein](../assets/images/damage-formula/illust_inven_char000604_72.avif){.icon-portrait}
+                    ![Sage of Blue Clouds Olstein](../assets/images/character-illustration/torso/illust_inven_char000604_72.avif){.icon-portrait}
                     </td>
                     <td><strong>Sage of Blue Clouds<br>Olstein</strong></td>
                     <td>$70\%$</td>
@@ -772,7 +772,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Descendant of the Great Witch Celia](../assets/images/damage-formula/illust_inven_char060402_28.avif){.icon-portrait}
+                    ![Descendant of the Great Witch Celia](../assets/images/character-illustration/torso/illust_inven_char060402_28.avif){.icon-portrait}
                     </td>
                     <td><strong>Descendant of the Great Witch<br>Celia</strong></td>
                     <td>$35\% \sim 65 \%$</td>
@@ -820,7 +820,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Dark Saintess Liberta](../assets/images/damage-formula/illust_inven_char003801_164.avif){.icon-portrait}
+                    ![Dark Saintess Liberta](../assets/images/character-illustration/torso/illust_inven_char003801_164.avif){.icon-portrait}
                     </td>
                     <td><strong>Dark Saintess Liberta</strong></td>
                     <td>$25\% \sim 50\%$</td>
@@ -829,7 +829,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Adventurer of the Unknown Diana](../assets/images/damage-formula/illust_inven_char002401_58.avif){.icon-portrait}
+                    ![Adventurer of the Unknown Diana](../assets/images/character-illustration/torso/illust_inven_char002401_58.avif){.icon-portrait}
                     </td>
                     <td><strong>Adventurer of the Unknown Diana</strong></td>
                     <td>$20\% \sim 30\%$</td>
@@ -838,7 +838,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![B-Rank Idol Helena](../assets/images/damage-formula/illust_inven_char061002_26.avif){.icon-portrait}
+                    ![B-Rank Idol Helena](../assets/images/character-illustration/torso/illust_inven_char061002_26.avif){.icon-portrait}
                     </td>
                     <td><strong>B-Rank Idol Helena</strong></td>
                     <td>$25\% \sim 50\%$</td>
@@ -847,7 +847,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Priest of Vitality Arines](../assets/images/damage-formula/illust_inven_char103701_36.avif){.icon-portrait}
+                    ![Priest of Vitality Arines](../assets/images/character-illustration/torso/illust_inven_char103701_36.avif){.icon-portrait}
                     </td>
                     <td><strong>Priest of Vitality Arines</strong></td>
                     <td>$30\%$</td>
@@ -856,7 +856,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Red Riding Hood Rou](../assets/images/damage-formula/illust_inven_char000502_98.avif){.icon-portrait}
+                    ![Red Riding Hood Rou](../assets/images/character-illustration/torso/illust_inven_char000502_98.avif){.icon-portrait}
                     </td>
                     <td><strong>Red Riding Hood Rou</strong></td>
                     <td>$30\% \sim 50\%$</td>
@@ -865,7 +865,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Hand of Salvation Elpis](../assets/images/damage-formula/illust_inven_char003101_122.avif){.icon-portrait}
+                    ![Hand of Salvation Elpis](../assets/images/character-illustration/torso/illust_inven_char003101_122.avif){.icon-portrait}
                     </td>
                     <td><strong>Hand of Salvation Elpis</strong></td>
                     <td>$30\% \sim 35\%$</td>
@@ -892,7 +892,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![The Gluttonous Refithea](../assets/images/damage-formula/illust_inven_char066801_120.avif){.icon-portrait}
+                    ![The Gluttonous Refithea](../assets/images/character-illustration/torso/illust_inven_char066801_120.avif){.icon-portrait}
                     </td>
                     <td><strong>The Gluttonous Refithea</strong></td>
                     <td>$50\% \sim 125\%$</td>
@@ -901,7 +901,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Red Riding Hood Rou](../assets/images/damage-formula/illust_inven_char000502_98.avif){.icon-portrait}
+                    ![Red Riding Hood Rou](../assets/images/character-illustration/torso/illust_inven_char000502_98.avif){.icon-portrait}
                     </td>
                     <td><strong>Red Riding Hood Rou</strong></td>
                     <td>$150\% \sim 300\%$</td>
@@ -928,7 +928,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Pool Party Lathel](../assets/images/damage-formula/illust_inven_char000106_90.avif){.icon-portrait}
+                    ![Pool Party Lathel](../assets/images/character-illustration/torso/illust_inven_char000106_90.avif){.icon-portrait}
                     </td>
                     <td><strong>Pool Party Lathel</strong></td>
                     <td>$100\%$</td>
@@ -937,7 +937,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Miracle Rose Liberta](../assets/images/damage-formula/illust_inven_char003803_201.avif){.icon-portrait}
+                    ![Miracle Rose Liberta](../assets/images/character-illustration/torso/illust_inven_char003803_201.avif){.icon-portrait}
                     </td>
                     <td><strong>Miracle Rose Liberta</strong></td>
                     <td>$40 \sim 100\%$</td>
@@ -946,7 +946,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Pool Party Gray](../assets/images/damage-formula/illust_inven_char000406_93.avif){.icon-portrait}
+                    ![Pool Party Gray](../assets/images/character-illustration/torso/illust_inven_char000406_93.avif){.icon-portrait}
                     </td>
                     <td><strong>Pool Party Gray</strong></td>
                     <td>$50\%$</td>
@@ -955,7 +955,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Daughter of Starwind High Elf Archer](../assets/images/damage-formula/illust_inven_char020801_162.avif){.icon-portrait}
+                    ![Daughter of Starwind High Elf Archer](../assets/images/character-illustration/torso/illust_inven_char020801_162.avif){.icon-portrait}
                     </td>
                     <td><strong>Daughter of Starwind<br>High Elf Archer</strong></td>
                     <td>$100\%$</td>
@@ -964,7 +964,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Haggard Delinquent Emma](../assets/images/damage-formula/illust_inven_char101301_61.avif){.icon-portrait}
+                    ![Haggard Delinquent Emma](../assets/images/character-illustration/torso/illust_inven_char101301_61.avif){.icon-portrait}
                     </td>
                     <td><strong>Haggard Delinquent<br>Emma</strong></td>
                     <td>$30\%$</td>
@@ -973,7 +973,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Stray Cat Rou](../assets/images/damage-formula/illust_inven_char000506_107.avif){.icon-portrait}
+                    ![Stray Cat Rou](../assets/images/character-illustration/torso/illust_inven_char000506_107.avif){.icon-portrait}
                     </td>
                     <td><strong>Stray Cat Rou</strong></td>
                     <td>$50\%$</td>
@@ -1000,7 +1000,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Night of Death Mamonir](../assets/images/damage-formula/illust_inven_char067801_192.avif){.icon-portrait}
+                    ![Night of Death Mamonir](../assets/images/character-illustration/torso/illust_inven_char067801_192.avif){.icon-portrait}
                     </td>
                     <td><strong>Night of Death Mamonir</strong></td>
                     <td>$200\% \sim 300\%$</td>
@@ -1009,7 +1009,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Gentle Maid Anastasia](../assets/images/damage-formula/illust_inven_char060501_79.avif){.icon-portrait}
+                    ![Gentle Maid Anastasia](../assets/images/character-illustration/torso/illust_inven_char060501_79.avif){.icon-portrait}
                     </td>
                     <td><strong>Gentle Maid Anastasia</strong></td>
                     <td>$350\% \sim 600\%$</td>
@@ -1018,7 +1018,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Fire Graffiti Anastasia](../assets/images/damage-formula/illust_inven_char060502_46.avif){.icon-portrait}
+                    ![Fire Graffiti Anastasia](../assets/images/character-illustration/torso/illust_inven_char060502_46.avif){.icon-portrait}
                     </td>
                     <td><strong>Fire Graffiti Anastasia</strong></td>
                     <td>$350\% \sim 600\%$</td>
@@ -1027,7 +1027,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Pool Party Gray](../assets/images/damage-formula/illust_inven_char000406_93.avif){.icon-portrait}
+                    ![Pool Party Gray](../assets/images/character-illustration/torso/illust_inven_char000406_93.avif){.icon-portrait}
                     </td>
                     <td><strong>Pool Party Gray</strong></td>
                     <td>$50\%$</td>
@@ -1036,7 +1036,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Labyrinth Gatekeeper Nebris](../assets/images/damage-formula/illust_inven_char003301_146.avif){.icon-portrait}
+                    ![Labyrinth Gatekeeper Nebris](../assets/images/character-illustration/torso/illust_inven_char003301_146.avif){.icon-portrait}
                     </td>
                     <td><strong>Labyrinth Gatekeeper Nebris</strong></td>
                     <td>$200\% \sim 300\%$</td>
@@ -1045,7 +1045,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Comeback Idol Yuri](../assets/images/damage-formula/illust_inven_char065103_110.avif){.icon-portrait}
+                    ![Comeback Idol Yuri](../assets/images/character-illustration/torso/illust_inven_char065103_110.avif){.icon-portrait}
                     </td>
                     <td><strong>Comeback Idol Yuri</strong></td>
                     <td>$150\% \sim 300\%$</td>
@@ -1054,7 +1054,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Acting Archbishop Michaela](../assets/images/damage-formula/illust_inven_char067403_168.avif){.icon-portrait}
+                    ![Acting Archbishop Michaela](../assets/images/character-illustration/torso/illust_inven_char067403_168.avif){.icon-portrait}
                     </td>
                     <td><strong>Acting Archbishop Michaela</strong></td>
                     <td>$300\% \sim 500\%$</td>
@@ -1063,7 +1063,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Combat Medic Granhildr](../assets/images/damage-formula/illust_inven_char067104_206.avif){.icon-portrait}
+                    ![Combat Medic Granhildr](../assets/images/character-illustration/torso/illust_inven_char067104_206.avif){.icon-portrait}
                     </td>
                     <td><strong>Combat Medic Granhildr</strong></td>
                     <td>$100\% \sim 200\%$</td>
@@ -1072,7 +1072,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Bikini Agent Sylvia](../assets/images/damage-formula/illust_inven_char001006_177.avif){.icon-portrait}
+                    ![Bikini Agent Sylvia](../assets/images/character-illustration/torso/illust_inven_char001006_177.avif){.icon-portrait}
                     </td>
                     <td><strong>Bikini Agent Sylvia</strong></td>
                     <td>$200\%$</td>
@@ -1118,7 +1118,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Pure White Blessing Refithea](../assets/images/damage-formula/illust_inven_char066802_121.avif){.icon-portrait}
+                    ![Pure White Blessing Refithea](../assets/images/character-illustration/torso/illust_inven_char066802_121.avif){.icon-portrait}
                     </td>
                     <td><strong>Pure White Blessing Refithea</strong></td>
                     <td>$\text{2 Turns}$</td>
@@ -1144,7 +1144,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Poolside Guardian Zenith](../assets/images/damage-formula/illust_inven_char061404_172.avif){.icon-portrait}
+                    ![Poolside Guardian Zenith](../assets/images/character-illustration/torso/illust_inven_char061404_172.avif){.icon-portrait}
                     </td>
                     <td><strong>Poolside Guardian Zenith</strong></td>
                     <td>$5\% \sim 10\%$</td>
@@ -1153,7 +1153,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
             <tr>
                 <td align="center">
-                ![Ocean Vanguard Luvencia](../assets/images/damage-formula/illust_inven_char067504_205.avif){.icon-portrait}
+                ![Ocean Vanguard Luvencia](../assets/images/character-illustration/torso/illust_inven_char067504_205.avif){.icon-portrait}
                 </td>
                 <td><strong>Ocean Vanguard Luvencia</strong></td>
                 <td>$6\% \sim 20\%$</td>
@@ -1162,7 +1162,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             </tr>
             <tr>
                 <td align="center">
-                ![Deadeye Nekyndalia](../assets/images/damage-formula/illust_inven_char004301_214.avif){.icon-portrait}
+                ![Deadeye Nekyndalia](../assets/images/character-illustration/torso/illust_inven_char004301_214.avif){.icon-portrait}
                 </td>
                 <td><strong>Deadeye Nekyndalia</strong></td>
                 <td>$3\%$</td>
@@ -1188,7 +1188,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Water Park Queen Wilhelmina](../assets/images/damage-formula/illust_inven_char067603_171.avif){.icon-portrait}
+                    ![Water Park Queen Wilhelmina](../assets/images/character-illustration/torso/illust_inven_char067603_171.avif){.icon-portrait}
                     </td>
                     <td><strong>Water Park Queen Wilhelmina</strong></td>
                     <td>$4 \sim 6 \text{ Turns}$</td>
@@ -1196,7 +1196,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Masquerade Bunny Celia](../assets/images/damage-formula/illust_inven_char060403_109.avif){.icon-portrait}
+                    ![Masquerade Bunny Celia](../assets/images/character-illustration/torso/illust_inven_char060403_109.avif){.icon-portrait}
                     </td>
                     <td><strong>Masquerade Bunny Celia</strong></td>
                     <td>$4 \sim 6 \text{ Turns}$</td>
@@ -1204,7 +1204,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Heavenly Guardian Successor Glacia](../assets/images/damage-formula/illust_inven_char066907_209.avif){.icon-portrait}
+                    ![Heavenly Guardian Successor Glacia](../assets/images/character-illustration/torso/illust_inven_char066907_209.avif){.icon-portrait}
                     </td>
                     <td><strong>Heavenly Guardian Successor Glacia</strong></td>
                     <td>$2 \text{ Turns}$</td>
@@ -1212,7 +1212,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                 <td align="center">
-                ![Pool Party Scheherazade](../assets/images/damage-formula/illust_inven_char000306_92.avif){.icon-portrait}
+                ![Pool Party Scheherazade](../assets/images/character-illustration/torso/illust_inven_char000306_92.avif){.icon-portrait}
                 </td>
                 <td><strong>Pool Party Scheherazade</strong></td>
                 <td>$6 \text{ Turns}$</td>
@@ -1238,7 +1238,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Heavenly Guardian Successor Glacia](../assets/images/damage-formula/illust_inven_char066907_209.avif){.icon-portrait}
+                    ![Heavenly Guardian Successor Glacia](../assets/images/character-illustration/torso/illust_inven_char066907_209.avif){.icon-portrait}
                     </td>
                     <td><strong>Heavenly Guardian<br>Successor Glacia</strong></td>
                     <td>$6 \sim 20$</td>
@@ -1264,7 +1264,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Steel Engine Rafina](../assets/images/damage-formula/illust_inven_char060701_81.avif){.icon-portrait}
+                    ![Steel Engine Rafina](../assets/images/character-illustration/torso/illust_inven_char060701_81.avif){.icon-portrait}
                     </td>
                     <td><strong>Steel Engine Rafina</strong></td>
                     <td>$\text{2 Turns}$</td>
@@ -1306,7 +1306,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Robin Hood Zenith](../assets/images/damage-formula/illust_inven_char061402_101.avif){.icon-portrait}
+                    ![Robin Hood Zenith](../assets/images/character-illustration/torso/illust_inven_char061402_101.avif){.icon-portrait}
                     </td>
                     <td><strong>Robin Hood Zenith</strong></td>
                     <td>$20\% \sim 100\%$</td>
@@ -1315,7 +1315,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Shadow Bunny Eleaneer](../assets/images/damage-formula/illust_inven_char061103_187.avif){.icon-portrait}
+                    ![Shadow Bunny Eleaneer](../assets/images/character-illustration/torso/illust_inven_char061103_187.avif){.icon-portrait}
                     </td>
                     <td><strong>Shadow Bunny Eleaneer</strong></td>
                     <td>$30\% \sim 50\%$</td>
@@ -1324,7 +1324,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Shadowed Dream Sonya](../assets/images/damage-formula/illust_inven_char003901_180.avif){.icon-portrait}
+                    ![Shadowed Dream Sonya](../assets/images/character-illustration/torso/illust_inven_char003901_180.avif){.icon-portrait}
                     </td>
                     <td><strong>Shadowed Dream Sonya</strong></td>
                     <td>$55\% \sim 125\%$</td>
@@ -1333,7 +1333,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Miracle Marine Mamonir](../assets/images/damage-formula/illust_inven_char067803_199.avif){.icon-portrait}
+                    ![Miracle Marine Mamonir](../assets/images/character-illustration/torso/illust_inven_char067803_199.avif){.icon-portrait}
                     </td>
                     <td><strong>Miracle Marine<br>Mamonir</strong></td>
                     <td>$30\% \sim 80\%$</td>
@@ -1360,7 +1360,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Game Club Rafina](../assets/images/damage-formula/illust_inven_char060706_118.avif){.icon-portrait}
+                    ![Game Club Rafina](../assets/images/character-illustration/torso/illust_inven_char060706_118.avif){.icon-portrait}
                     </td>
                     <td><strong>Game Club Rafina</strong></td>
                     <td>$50\% \sim 100\%$</td>
@@ -1369,7 +1369,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Your Very Own Cat Eris](../assets/images/damage-formula/illust_inven_char020002_127.avif){.icon-portrait}
+                    ![Your Very Own Cat Eris](../assets/images/character-illustration/torso/illust_inven_char020002_127.avif){.icon-portrait}
                     </td>
                     <td><strong>Your Very Own Cat Eris</strong></td>
                     <td>$100\% \sim 150\% \newline \text{\textcolor{AFDBF5}{[Main Target]}}$</td>
@@ -1378,7 +1378,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Young Lady Blade](../assets/images/damage-formula/illust_inven_char003703_166.avif){.icon-portrait}
+                    ![Young Lady Blade](../assets/images/character-illustration/torso/illust_inven_char003703_166.avif){.icon-portrait}
                     </td>
                     <td><strong>Young Lady Blade</strong></td>
                     <td>$100\% \sim 150\% \newline \text{\textcolor{AFDBF5}{[Main Target]}} \newline 75\% \newline \text{\textcolor{AFDBF5}{[All Targets]}}$</td>
@@ -1405,7 +1405,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Track and Field Captain Levia](../assets/images/damage-formula/illust_inven_char067301_132.avif){.icon-portrait}
+                    ![Track and Field Captain Levia](../assets/images/character-illustration/torso/illust_inven_char067301_132.avif){.icon-portrait}
                     </td>
                     <td><strong>Track and Field Captain Levia</strong></td>
                     <td>$60\% \sim 120\% \newline \text{\textcolor{AFDBF5}{[Main Target]}} \newline 40\% \sim 100\% \newline \text{\textcolor{AFDBF5}{[Otherwise]}}$</td>
@@ -1414,7 +1414,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Earth Mother Believer Priestess](../assets/images/damage-formula/illust_inven_char020701_161.avif){.icon-portrait}
+                    ![Earth Mother Believer Priestess](../assets/images/character-illustration/torso/illust_inven_char020701_161.avif){.icon-portrait}
                     </td>
                     <td><strong>Earth Mother Believer Priestess</strong></td>
                     <td>$50\% \sim 75\%$</td>
@@ -1423,7 +1423,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Night of Jealousy Levia](../assets/images/damage-formula/illust_inven_char067302_139.avif){.icon-portrait}
+                    ![Night of Jealousy Levia](../assets/images/character-illustration/torso/illust_inven_char067302_139.avif){.icon-portrait}
                     </td>
                     <td><strong>Night of Jealousy<br>Levia</strong></td>
                     <td>$50\%$</td>
@@ -1450,7 +1450,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Maid Bikini Rubia](../assets/images/damage-formula/illust_inven_char000807_178.avif){.icon-portrait}
+                    ![Maid Bikini Rubia](../assets/images/character-illustration/torso/illust_inven_char000807_178.avif){.icon-portrait}
                     </td>
                     <td><strong>Maid Bikini Rubia</strong></td>
                     <td>$150\% \sim 300\%$</td>
@@ -1477,7 +1477,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Apostle Morpeah](../assets/images/damage-formula/illust_inven_char003403_169.avif){.icon-portrait}
+                    ![Apostle Morpeah](../assets/images/character-illustration/torso/illust_inven_char003403_169.avif){.icon-portrait}
                     </td>
                     <td><strong>Apostle Morpeah</strong></td>
                     <td>$100\% \sim 180\%$</td>
@@ -1504,7 +1504,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Wind Dancer Venaka](../assets/images/damage-formula/illust_inven_char067202_147.avif){.icon-portrait}
+                    ![Wind Dancer Venaka](../assets/images/character-illustration/torso/illust_inven_char067202_147.avif){.icon-portrait}
                     </td>
                     <td><strong>Wind Dancer Venaka</strong></td>
                     <td>$75\% \sim 150\% \newline \text{\textcolor{AFDBF5}{[Wind]}}$</td>
@@ -1513,7 +1513,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Onsen Practitioner Ventana](../assets/images/damage-formula/illust_inven_char067004_157.avif){.icon-portrait}
+                    ![Onsen Practitioner Ventana](../assets/images/character-illustration/torso/illust_inven_char067004_157.avif){.icon-portrait}
                     </td>
                     <td><strong>Onsen Practitioner Ventana</strong></td>
                     <td>$100\% \sim 200\% \newline \text{\textcolor{AFDBF5}{[Light]}}$</td>
@@ -1522,7 +1522,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Shadowed Dream Sonya](../assets/images/damage-formula/illust_inven_char003901_180.avif){.icon-portrait}
+                    ![Shadowed Dream Sonya](../assets/images/character-illustration/torso/illust_inven_char003901_180.avif){.icon-portrait}
                     </td>
                     <td><strong>Shadowed Dream Sonya</strong></td>
                     <td>$75\% \sim 175\% \newline \text{\textcolor{AFDBF5}{[Darkness]}}$</td>
@@ -1566,7 +1566,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Beachside Angel Teresse](../assets/images/damage-formula/illust_inven_char001107_135.avif){.icon-portrait}
+                    ![Beachside Angel Teresse](../assets/images/character-illustration/torso/illust_inven_char001107_135.avif){.icon-portrait}
                     </td>
                     <td><strong>Beachside Angel<br>Teresse</strong></td>
                     <td>$100\% \sim 200\% \newline \text{\textcolor{AFDBF5}{[When attacking enemy}} \newline \text{\textcolor{AFDBF5}{with a Chain count 5 or less]}}$</td>
@@ -1575,7 +1575,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center" rowspan="2">
-                    ![Shrine Maiden of Purification Granadair](../assets/images/damage-formula/illust_inven_char067701_193.avif){.icon-portrait}
+                    ![Shrine Maiden of Purification Granadair](../assets/images/character-illustration/torso/illust_inven_char067701_193.avif){.icon-portrait}
                     </td>
                     <td rowspan="2"><strong>Shrine Maiden<br>of Purification<br>Granadair</strong></td>
                     <td>$75\% \sim 120\%$</td>
@@ -1588,7 +1588,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Onsen Manager Liberta](../assets/images/damage-formula/illust_inven_char003802_159.avif){.icon-portrait}
+                    ![Onsen Manager Liberta](../assets/images/character-illustration/torso/illust_inven_char003802_159.avif){.icon-portrait}
                     </td>
                     <td><strong>Onsen Manager<br>Liberta</strong></td>
                     <td>$80\% \sim 175\% \newline \text{\textcolor{AFDBF5}{[When attacking enemy}} \newline \text{\textcolor{AFDBF5}{with 10 Chains or more]}}$</td>
@@ -1597,7 +1597,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![New Hire Seir](../assets/images/damage-formula/illust_inven_char101103_150.avif){.icon-portrait}
+                    ![New Hire Seir](../assets/images/character-illustration/torso/illust_inven_char101103_150.avif){.icon-portrait}
                     </td>
                     <td><strong>New Hire<br>Seir</strong></td>
                     <td>$10\% \sim 22\% \times \newline \text{\textcolor{AFDBF5}{[Amount of times}} \newline \text{\textcolor{AFDBF5}{Seir gets hit]}}$</td>
@@ -1606,7 +1606,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Sunny Inn Hand Helena](../assets/images/damage-formula/illust_inven_char061003_210.avif){.icon-portrait}
+                    ![Sunny Inn Hand Helena](../assets/images/character-illustration/torso/illust_inven_char061003_210.avif){.icon-portrait}
                     </td>
                     <td><strong>Sunny Inn<br>Hand Helena</strong></td>
                     <td>$75\% \sim 280\%$</td>
@@ -1633,7 +1633,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Labyrinth Gatekeeper Nebris](../assets/images/damage-formula/illust_inven_char003301_146.avif){.icon-portrait}
+                    ![Labyrinth Gatekeeper Nebris](../assets/images/character-illustration/torso/illust_inven_char003301_146.avif){.icon-portrait}
                     </td>
                     <td><strong>Labyrinth Gatekeeper<br>Nebris</strong></td>
                     <td>$100\% \sim 150\% \newline \text{\textcolor{AFDBF5}{[If no Augmentation}} \newline \text{\textcolor{AFDBF5}{Status Effect]}}$</td>
@@ -1642,7 +1642,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Fist of Conviction Yozakura](../assets/images/damage-formula/illust_inven_char020301_141.avif){.icon-portrait}
+                    ![Fist of Conviction Yozakura](../assets/images/character-illustration/torso/illust_inven_char020301_141.avif){.icon-portrait}
                     </td>
                     <td><strong>Fist of Conviction<br>Yozakura</strong></td>
                     <td>$400\% \sim 1200\% \newline \text{\textcolor{AFDBF5}{[For 1 next}} \newline  \text{\textcolor{AFDBF5}{Basic Attack]}}$</td>
@@ -1651,7 +1651,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Naive Lady Elise](../assets/images/damage-formula/illust_inven_char060804_207.avif){.icon-portrait}
+                    ![Naive Lady Elise](../assets/images/character-illustration/torso/illust_inven_char060804_207.avif){.icon-portrait}
                     </td>
                     <td><strong>Naive Lady<br>Elise</strong></td>
                     <td>$70\% \sim 150\% \newline + \; [4\% \sim 10\%] \newline \times \; \text{\textcolor{AFDBF5}{Resonate Stacks}}$</td>
@@ -1698,7 +1698,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Adventurer of the Unknown Diana](../assets/images/damage-formula/illust_inven_char002401_58.avif){.icon-portrait}
+                    ![Adventurer of the Unknown Diana](../assets/images/character-illustration/torso/illust_inven_char002401_58.avif){.icon-portrait}
                     </td>
                     <td><strong>Adventurer of the Unknown<br>Diana</strong></td>
                     <td>$100\% \sim 295\%$</td>
@@ -1707,7 +1707,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Magical Innovator Diana](../assets/images/damage-formula/illust_inven_char002403_195.avif){.icon-portrait}
+                    ![Magical Innovator Diana](../assets/images/character-illustration/torso/illust_inven_char002403_195.avif){.icon-portrait}
                     </td>
                     <td><strong>Magical Innovator<br>Diana</strong></td>
                     <td>$25\% \sim 200\% \newline \text{\textcolor{AFDBF5}{[Per Summon]}}$</td>
@@ -1716,7 +1716,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>                
                 <tr>
                     <td align="center">
-                    ![Pure White Blessing Refithea](../assets/images/damage-formula/illust_inven_char066802_121.avif){.icon-portrait}
+                    ![Pure White Blessing Refithea](../assets/images/character-illustration/torso/illust_inven_char066802_121.avif){.icon-portrait}
                     </td>
                     <td><strong>Pure White Blessing<Br>Refithea</strong></td>
                     <td>$40\% \sim 100\%$</td>
@@ -1725,7 +1725,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Poolside Fairy Refithea](../assets/images/damage-formula/illust_inven_char066803_173.avif){.icon-portrait}
+                    ![Poolside Fairy Refithea](../assets/images/character-illustration/torso/illust_inven_char066803_173.avif){.icon-portrait}
                     </td>
                     <td><strong>Poolside Fairy<br>Refithea</strong></td>
                     <td>$\newline 50\% \sim 100\% \newline \text{\textcolor{AFDBF5}{[if Light Property]}} \newline 25\% \sim 50\% \newline \text{\textcolor{AFDBF5}{[otherwise]}}$</td>
@@ -1752,7 +1752,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Frozen Queen Wilhelmina](../assets/images/damage-formula/illust_inven_char067604_189.avif){.icon-portrait}
+                    ![Frozen Queen Wilhelmina](../assets/images/character-illustration/torso/illust_inven_char067604_189.avif){.icon-portrait}
                     </td>
                     <td><strong>Frozen Queen<br>Wilhelmina</strong></td>
                     <td>$30\% \sim 90\%$</td>
@@ -1761,7 +1761,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Laid-back Lifeguard Nebris](../assets/images/damage-formula/illust_inven_char003302_130.avif){.icon-portrait}
+                    ![Laid-back Lifeguard Nebris](../assets/images/character-illustration/torso/illust_inven_char003302_130.avif){.icon-portrait}
                     </td>
                     <td><strong>Laid-back Lifeguard<br>Nebris</strong></td>
                     <td>$50\%$</td>
@@ -1770,7 +1770,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Blood Glutton Justia](../assets/images/damage-formula/illust_inven_char000203_41.avif){.icon-portrait}
+                    ![Blood Glutton Justia](../assets/images/character-illustration/torso/illust_inven_char000203_41.avif){.icon-portrait}
                     </td>
                     <td><strong>Blood Glutton<br>Justia</strong></td>
                     <td>$200\% \sim 400\%$</td>
@@ -1779,7 +1779,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![The Fallen Angelica](../assets/images/damage-formula/illust_inven_char066401_94.avif){.icon-portrait}
+                    ![The Fallen Angelica](../assets/images/character-illustration/torso/illust_inven_char066401_94.avif){.icon-portrait}
                     </td>
                     <td><strong>The Fallen<br>Angelica</strong></td>
                     <td>$100\%$</td>
@@ -1820,7 +1820,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Code Name A Rafina](../assets/images/damage-formula/illust_inven_char060702_49.avif){.icon-portrait}
+                    ![Code Name A Rafina](../assets/images/character-illustration/torso/illust_inven_char060702_49.avif){.icon-portrait}
                     </td>
                     <td><strong>Code Name A<br>Rafina</strong></td>
                     <td>$50\%$</td>
@@ -1829,7 +1829,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Empress of the Ocean Rubia](../assets/images/damage-formula/illust_inven_char000804_74.avif){.icon-portrait}
+                    ![Empress of the Ocean Rubia](../assets/images/character-illustration/torso/illust_inven_char000804_74.avif){.icon-portrait}
                     </td>
                     <td><strong>Empress of the Ocean<br>Rubia</strong></td>
                     <td>$25\% \sim 45\%$</td>
@@ -1838,7 +1838,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Lovely Lady Elise](../assets/images/damage-formula/illust_inven_char060801_82.avif){.icon-portrait}
+                    ![Lovely Lady Elise](../assets/images/character-illustration/torso/illust_inven_char060801_82.avif){.icon-portrait}
                     </td>
                     <td><strong>Lovely Lady<br>Elise</strong></td>
                     <td>$50\%$</td>
@@ -1847,7 +1847,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![B-Rank Manager Gray](../assets/images/damage-formula/illust_inven_char000402_24.avif){.icon-portrait}
+                    ![B-Rank Manager Gray](../assets/images/character-illustration/torso/illust_inven_char000402_24.avif){.icon-portrait}
                     </td>
                     <td><strong>B-Rank Manager<br>Gray</strong></td>
                     <td>$50\%$</td>
@@ -1856,7 +1856,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Nature's Claw Rou](../assets/images/damage-formula/illust_inven_char000504_71.avif){.icon-portrait}
+                    ![Nature's Claw Rou](../assets/images/character-illustration/torso/illust_inven_char000504_71.avif){.icon-portrait}
                     </td>
                     <td><strong>Nature's Claw<br>Rou</strong></td>
                     <td>$20\%$</td>
@@ -1865,7 +1865,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![The Curse Celia](../assets/images/damage-formula/illust_inven_char101601_78.avif){.icon-portrait}
+                    ![The Curse Celia](../assets/images/character-illustration/torso/illust_inven_char101601_78.avif){.icon-portrait}
                     </td>
                     <td><strong>The Curse<br>Celia</strong></td>
                     <td>$10\%$</td>
@@ -1874,7 +1874,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![B-Rank Idol Eleaneer](../assets/images/damage-formula/illust_inven_char061102_27.avif){.icon-portrait}
+                    ![B-Rank Idol Eleaneer](../assets/images/character-illustration/torso/illust_inven_char061102_27.avif){.icon-portrait}
                     </td>
                     <td><strong>B-Rank Idol<br>Eleaneer</strong></td>
                     <td>$20\%$</td>
@@ -1883,7 +1883,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Liberated Marauder Kry](../assets/images/damage-formula/illust_inven_char101501_65.avif){.icon-portrait}
+                    ![Liberated Marauder Kry](../assets/images/character-illustration/torso/illust_inven_char101501_65.avif){.icon-portrait}
                     </td>
                     <td><strong>Liberated Marauder<br>Kry</strong></td>
                     <td>$50\%$</td>
@@ -1910,7 +1910,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Magic School Professor Scheherazade](../assets/images/damage-formula/illust_inven_char000303_43.avif){.icon-portrait}
+                    ![Magic School Professor Scheherazade](../assets/images/character-illustration/torso/illust_inven_char000303_43.avif){.icon-portrait}
                     </td>
                     <td><strong>Magic School Professor<br>Scheherazade</strong></td>
                     <td>$15\%$</td>
@@ -1919,7 +1919,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Daydream Bunny Morpeah](../assets/images/damage-formula/illust_inven_char003402_152.avif){.icon-portrait}
+                    ![Daydream Bunny Morpeah](../assets/images/character-illustration/torso/illust_inven_char003402_152.avif){.icon-portrait}
                     </td>
                     <td><strong>Daydream Bunny<br>Morpeah</strong></td>
                     <td>$30\% \newline \text{\textcolor{AFDBF5}{[Summon]}}$</td>
@@ -1928,7 +1928,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Lovely Lady Elise](../assets/images/damage-formula/illust_inven_char060801_82.avif){.icon-portrait}
+                    ![Lovely Lady Elise](../assets/images/character-illustration/torso/illust_inven_char060801_82.avif){.icon-portrait}
                     </td>
                     <td><strong>Lovely Lady<br>Elise</strong></td>
                     <td>$50\%$</td>
@@ -1937,7 +1937,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![DJ Venaka](../assets/images/damage-formula/illust_inven_char067201_129.avif){.icon-portrait}
+                    ![DJ Venaka](../assets/images/character-illustration/torso/illust_inven_char067201_129.avif){.icon-portrait}
                     </td>
                     <td><strong>DJ<br>Venaka</strong></td>
                     <td>$50\%$</td>
@@ -1946,7 +1946,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Nightmare Bunny Eclipse](../assets/images/damage-formula/illust_inven_char000706_106.avif){.icon-portrait}
+                    ![Nightmare Bunny Eclipse](../assets/images/character-illustration/torso/illust_inven_char000706_106.avif){.icon-portrait}
                     </td>
                     <td><strong>Nightmare Bunny<br>Eclipse</strong></td>
                     <td>$15\% \sim 20\%$</td>
@@ -1955,7 +1955,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Descendant of the Great Witch Celia](../assets/images/damage-formula/illust_inven_char060402_28.avif){.icon-portrait}
+                    ![Descendant of the Great Witch Celia](../assets/images/character-illustration/torso/illust_inven_char060402_28.avif){.icon-portrait}
                     </td>
                     <td><strong>Descendant of the Great Witch<br>Celia</strong></td>
                     <td>$10\%$</td>
@@ -1964,7 +1964,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Kind Liberator Samay](../assets/images/damage-formula/illust_inven_char101401_66.avif){.icon-portrait}
+                    ![Kind Liberator Samay](../assets/images/character-illustration/torso/illust_inven_char101401_66.avif){.icon-portrait}
                     </td>
                     <td><strong>Kind Liberator<br>Samay</strong></td>
                     <td>$50\%$</td>
@@ -1973,7 +1973,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Miracle Violet Palette](../assets/images/damage-formula/illust_inven_char004202_200.avif){.icon-portrait}
+                    ![Miracle Violet Palette](../assets/images/character-illustration/torso/illust_inven_char004202_200.avif){.icon-portrait}
                     </td>
                     <td><strong>Miracle Violet<br>Palette</strong></td>
                     <td>$50\%$</td>
@@ -2000,7 +2000,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Acting Archbishop Michaela](../assets/images/damage-formula/illust_inven_char067403_168.avif){.icon-portrait}
+                    ![Acting Archbishop Michaela](../assets/images/character-illustration/torso/illust_inven_char067403_168.avif){.icon-portrait}
                     </td>
                     <td><strong>Acting Archbishop Michaela</strong></td>
                     <td>$90\% \newline \text{\textcolor{ffe8aa}{DEF} \& \textcolor{ffa6ff}{MRES}}$</td>
@@ -2049,7 +2049,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Top Idol Helena](../assets/images/damage-formula/illust_inven_char061001_83.avif){.icon-portrait}
+                    ![Top Idol Helena](../assets/images/character-illustration/torso/illust_inven_char061001_83.avif){.icon-portrait}
                     </td>
                     <td><strong>Top Idol<br>Helena</strong></td>
                     <td>$30\% \sim 70\%$</td>
@@ -2058,7 +2058,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![The Gluttonous Refithea](../assets/images/damage-formula/illust_inven_char066801_120.avif){.icon-portrait}
+                    ![The Gluttonous Refithea](../assets/images/character-illustration/torso/illust_inven_char066801_120.avif){.icon-portrait}
                     </td>
                     <td><strong>The Gluttonous<br>Refithea</strong></td>
                     <td>$25\% \sim 50\%$</td>
@@ -2085,7 +2085,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Desert Flower Sylvia](../assets/images/damage-formula/illust_inven_char001001_22.avif){.icon-portrait}
+                    ![Desert Flower Sylvia](../assets/images/character-illustration/torso/illust_inven_char001001_22.avif){.icon-portrait}
                     </td>
                     <td><strong>Desert Flower<br>Sylvia</strong></td>
                     <td>$50\% \sim 75\%$</td>
@@ -2094,7 +2094,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Disciplinary Committee Glacia](../assets/images/damage-formula/illust_inven_char066906_119.avif){.icon-portrait}
+                    ![Disciplinary Committee Glacia](../assets/images/character-illustration/torso/illust_inven_char066906_119.avif){.icon-portrait}
                     </td>
                     <td><strong>Disciplinary Committee<br>Glacia</strong></td>
                     <td>$50\% \newline \text{\textcolor{ffa6ff}{[Magic]}}$</td>
@@ -2103,7 +2103,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Beach Vacation Morpeah](../assets/images/damage-formula/illust_inven_char003401_136.avif){.icon-portrait}
+                    ![Beach Vacation Morpeah](../assets/images/character-illustration/torso/illust_inven_char003401_136.avif){.icon-portrait}
                     </td>
                     <td><strong>Beach Vacation<br>Morpeah</strong></td>
                     <td>$30\%$</td>
@@ -2112,7 +2112,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Mercenary Knight Carlson](../assets/images/damage-formula/illust_inven_char103201_31.avif){.icon-portrait}
+                    ![Mercenary Knight Carlson](../assets/images/character-illustration/torso/illust_inven_char103201_31.avif){.icon-portrait}
                     </td>
                     <td><strong>Mercenary Knight<br>Carlson</strong></td>
                     <td>$35\% \sim 65\% \newline \text{\textcolor{ffe8aa}{[Physical]}}$</td>
@@ -2121,7 +2121,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Dark Knight Lathel](../assets/images/damage-formula/illust_inven_char000104_69.avif){.icon-portrait}
+                    ![Dark Knight Lathel](../assets/images/character-illustration/torso/illust_inven_char000104_69.avif){.icon-portrait}
                     </td>
                     <td><strong>Dark Knight<br>Lathel</strong></td>
                     <td>$50\% \sim 65\% \newline \text{\textcolor{ffe8aa}{[Physical]}}$</td>
@@ -2130,7 +2130,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Orcbolg Goblin Slayer](../assets/images/damage-formula/illust_inven_char020601_160.avif){.icon-portrait}
+                    ![Orcbolg Goblin Slayer](../assets/images/character-illustration/torso/illust_inven_char020601_160.avif){.icon-portrait}
                     </td>
                     <td><strong>Orcbolg<br>Goblin Slayer</strong></td>
                     <td>$50\% \sim 75\%$</td>
@@ -2139,7 +2139,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Killer Doll Lecliss](../assets/images/damage-formula/illust_inven_char060601_80.avif){.icon-portrait}
+                    ![Killer Doll Lecliss](../assets/images/character-illustration/torso/illust_inven_char060601_80.avif){.icon-portrait}
                     </td>
                     <td><strong>Killer Doll<br>Lecliss</strong></td>
                     <td>$45\% \sim 85\%$</td>
@@ -2148,7 +2148,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Magical Innovator Diana](../assets/images/damage-formula/illust_inven_char002403_195.avif){.icon-portrait}
+                    ![Magical Innovator Diana](../assets/images/character-illustration/torso/illust_inven_char002403_195.avif){.icon-portrait}
                     </td>
                     <td><strong>Magical Innovator<br>Diana</strong></td>
                     <td>$20\%$</td>
@@ -2157,7 +2157,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Pool Party Angelica](../assets/images/damage-formula/illust_inven_char066402_95.avif){.icon-portrait}
+                    ![Pool Party Angelica](../assets/images/character-illustration/torso/illust_inven_char066402_95.avif){.icon-portrait}
                     </td>
                     <td><strong>Pool Party<br>Angelica</strong></td>
                     <td>$75\%$</td>
@@ -2166,7 +2166,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Neon Savior Angelica](../assets/images/damage-formula/illust_inven_char066403_96.avif){.icon-portrait}
+                    ![Neon Savior Angelica](../assets/images/character-illustration/torso/illust_inven_char066403_96.avif){.icon-portrait}
                     </td>
                     <td><strong>Neon Savior<br>Angelica</strong></td>
                     <td>$75\%$</td>
@@ -2175,7 +2175,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![The Fallen Angelica](../assets/images/damage-formula/illust_inven_char066401_94.avif){.icon-portrait}
+                    ![The Fallen Angelica](../assets/images/character-illustration/torso/illust_inven_char066401_94.avif){.icon-portrait}
                     </td>
                     <td><strong>The Fallen<br>Angelica</strong></td>
                     <td>$50\%$</td>
@@ -2184,7 +2184,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Beautiful Girl Devotee Jayden](../assets/images/damage-formula/illust_inven_char101201_75.avif){.icon-portrait}
+                    ![Beautiful Girl Devotee Jayden](../assets/images/character-illustration/torso/illust_inven_char101201_75.avif){.icon-portrait}
                     </td>
                     <td><strong>Beautiful Girl Devotee<br>Jayden</strong></td>
                     <td>$50\% \sim 75\% \newline \text{\textcolor{ffa6ff}{[Magic]}}$</td>
@@ -2193,7 +2193,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Demon's Daughter Seir](../assets/images/damage-formula/illust_inven_char101101_67.avif){.icon-portrait}
+                    ![Demon's Daughter Seir](../assets/images/character-illustration/torso/illust_inven_char101101_67.avif){.icon-portrait}
                     </td>
                     <td><strong>Demon's Daughter<br>Seir</strong></td>
                     <td>$40\% \sim 85\%$</td>
@@ -2202,7 +2202,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![B-Rank Idol Seir](../assets/images/damage-formula/illust_inven_char101102_25.avif){.icon-portrait}
+                    ![B-Rank Idol Seir](../assets/images/character-illustration/torso/illust_inven_char101102_25.avif){.icon-portrait}
                     </td>
                     <td><strong>B-Rank Idol<br>Seir</strong></td>
                     <td>$40\% \sim 85\%$</td>
@@ -2211,7 +2211,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Anonymous Sage Nartas](../assets/images/damage-formula/illust_inven_char065802_103.avif){.icon-portrait}
+                    ![Anonymous Sage Nartas](../assets/images/character-illustration/torso/illust_inven_char065802_103.avif){.icon-portrait}
                     </td>
                     <td><strong>Anonymous Sage<br>Nartas</strong></td>
                     <td>$75\% \newline \text{\textcolor{ffa6ff}{[Magic]}}$</td>
@@ -2220,7 +2220,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 </tr>
                 <tr>
                     <td align="center">
-                    ![Miracle Marine Mamonir](../assets/images/damage-formula/illust_inven_char067803_199.avif){.icon-portrait}
+                    ![Miracle Marine Mamonir](../assets/images/character-illustration/torso/illust_inven_char067803_199.avif){.icon-portrait}
                     </td>
                     <td><strong>Miracle Marine<br>Mamonir</strong></td>
                     <td>$50\% \sim 70\%$</td>
