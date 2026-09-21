@@ -40,6 +40,7 @@ nav:
     - 'Game Mechanics':
         - 'Battle System': mechanics/battle.md
         - 'Damage Formula': mechanics/damage-formula.md
+        # - 'Gacha System': mechanics/gacha.md
     - 'Characters Progression':
         - 'Burst System': progression/burst.md
         - 'Gear System': progression/gear.md  

@@ -310,9 +310,9 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                 ![Medical Club Teresse](../assets/images/character-illustration/torso/illust_inven_char001106_117.avif){.icon-portrait}
                 </td>
                 <td><strong>Medical Club Teresse</strong></td>
-                <td>$50\% \sim 120\%$</td>
+                <td>$50\% \sim 170\%$</td>
                 <td>$\text{4 Turns}$</td>
-                <td align="center">$4 \sim 3$</td>
+                <td align="center">$7 \sim 3$</td>
             </tr>
             <tr>
                 <td rowspan="2" align="center">

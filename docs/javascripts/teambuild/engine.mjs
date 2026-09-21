@@ -1,8 +1,16 @@
 const SEVERITY_ORDER = {
   error: 0,
   warning: 1,
-  advice: 2
+  success: 2,
+  advice: 3
 };
+
+function generateTeamSummary(hasAdvices) {
+  if (hasAdvices) {
+    return "Team composition looks solid! Review the tactical advice below for specific encounter nuances.";
+  }
+  return "Team composition looks solid! All Turn 1 requirements are fully met with no warnings.";
+}
 
 export function evaluateTeam(team, context, rules) {
   const results = [];
@@ -16,6 +24,19 @@ export function evaluateTeam(team, context, rules) {
         results.push({ id: rule.id, severity: rule.severity || "warning", message });
       }
     }
+  }
+
+  const hasBlockers = results.some(
+    (r) => r.severity === "error" || r.severity === "warning"
+  );
+  const hasAdvices = results.some((r) => r.severity === "advice");
+
+  if (!hasBlockers && team.length > 0) {
+    results.push({
+      id: "team-all-clear",
+      severity: "success",
+      message: generateTeamSummary(hasAdvices)
+    });
   }
 
   return results.sort((a, b) => {
