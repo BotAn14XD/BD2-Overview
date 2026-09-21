@@ -37,7 +37,9 @@ To evaluate the team, pick five **Costumes** (Not Characters) and it will give y
   </div>
 </div>
 
-??? info "v1.0.0-beta Notes & Known Limitations"
-    This is an initial release focused purely on basic Turn 1 burst validity. Advanced mechanics (such as Ventana's conditional requirenments or placement validation) are planned for future updates.
+??? info "v1.1.0 Notes & Known Limitations"
+    Version 1.1.0 brings UI refinement, more precise dupe / SP control, potential liberation toggles and finetuned dictionary file.
+
+    Nonetheless, advanced mechanics (such as conditional requirenments for DPS or placement validation) are still planned for future updates.
 
     Notice an inaccurate interaction or missing mechanic? Feedback and edge-case reports are welcome via [GitHub Issues](https://github.com/BotAn14XD/BD2-Overview/issues) or our [Discord Server](https://discord.gg/tays83ew3N).

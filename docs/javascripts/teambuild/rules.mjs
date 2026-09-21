@@ -1,12 +1,5 @@
 const STARTING_SP = 15;
-const MULTI_WORD_CHARACTERS = [
-  "Sacred Justia",
-  "Goblin Slayer",
-  "Sword Maiden",
-  "High Elf Archer",
-  "Kyouka Uzen",
-  "Tenka Izumo"
-];
+
 const PROPERTY_ADVANTAGE = {
   fire: "Wind",
   wind: "Water",
@@ -37,38 +30,7 @@ function renderElementIcon(element) {
 
 function getCharacterName(unit) {
   if (!unit) return "";
-  const name = (unit.name || "").trim();
-  const id = (unit.id || "").toLowerCase();
-
-  for (const char of MULTI_WORD_CHARACTERS) {
-    const slug = char.toLowerCase().replace(/\s+/g, "_");
-    if (name.toLowerCase().endsWith(char.toLowerCase()) || id.endsWith(slug)) {
-      return char;
-    }
-  }
-
-  if (name) {
-    const parts = name.split(/\s+/);
-    return parts[parts.length - 1];
-  }
-
-  if (id) {
-    const parts = id.split("_");
-    const last = parts[parts.length - 1];
-    return last.charAt(0).toUpperCase() + last.slice(1);
-  }
-
-  return "";
-}
-
-function teamSPRange(team) {
-  return team.reduce(
-    (totals, u) => ({
-      minSP: totals.minSP + (u.minSP || 0),
-      maxSP: totals.maxSP + (u.maxSP || 0)
-    }),
-    { minSP: 0, maxSP: 0 }
-  );
+  return unit.character || unit.name || unit.id || "";
 }
 
 function calculateUnitChains(team) {
@@ -127,104 +89,135 @@ const rules = [
         )
   },
 
-  // --- Tier 1: SP economy - Impossible rotation ----------------------
-    {
-      id: "sp-economy-impossible",
-      severity: "error",
-      check: (team) => teamSPRange(team).minSP,
-      fire: (minSP) => minSP > STARTING_SP,
-      message: (minSP) =>
-        `This team requires at least <strong>${minSP} SP</strong> to cast every skill, more than starting <strong>${STARTING_SP} SP</strong>. A full Turn 1 rotation is impossible.`
-    },
-
-    // --- Tier 1: SP economy - Upgrade-dependent rotation ---------------
-    {
-      id: "sp-economy-upgrades-needed",
-      severity: "warning",
-      check: (team) => teamSPRange(team),
-      fire: ({ minSP, maxSP }) => minSP <= STARTING_SP && maxSP > STARTING_SP,
-      message: ({ maxSP }) =>
-        `This team can consume up to <strong>${maxSP} SP</strong>, more than starting <strong>${STARTING_SP} SP</strong>. Make sure you have dupe upgrades and potential liberation to activate all abilities on Turn 1.`
-    },
+  // --- Tier 1: SP economy check (Exact dynamic SP) ---------------------
+  {
+    id: "sp-economy-exact",
+    severity: "error",
+    check: (team) => team.reduce((sum, u) => sum + (u.currentSP ?? u.spCost ?? 0), 0),
+    fire: (totalSP) => totalSP > STARTING_SP,
+    message: (totalSP) =>
+      `This team consumes <strong>${totalSP} SP</strong>, exceeding starting limit of <strong>${STARTING_SP} SP</strong>. Either adjust Costumes upgrades & SP potentials or switch Costumes to afford full skillset on Turn 1.`
+  },
 
 // --- Tier 1: Matching ATK Amp check ------------
-  {
-    id: "missing-atk-amp",
-    severity: "warning",
-    check: (team) => {
-      const ampEligibleDPS = team.filter(
-        (u) => (u.role || []).includes("DPS")
+{
+  id: "missing-atk-amp",
+  severity: "warning",
+  check: (team) => {
+    // Only count team-wide buffs (exclude self-buffs)
+    const teamEffects = team.flatMap((u) =>
+      (u.effects || []).filter((e) => !/self/i.test(e))
+    );
+
+    const dpsUnits = team.filter((u) => (u.role || []).includes("DPS"));
+
+    // 1. Standard DPS reliant on Phys / Magic ATK stats
+    const standardDPS = dpsUnits.filter(
+      (u) => !(u.effects || []).includes("hpScalingDamage")
+    );
+
+    const hasPhysDPS = standardDPS.some((u) => u.damageType === "physical");
+    const hasMagicDPS = standardDPS.some((u) => u.damageType === "magic");
+
+    const hasPhysAmp = teamEffects.some((e) => /phys.*amp/i.test(e));
+    const hasMagicAmp = teamEffects.some((e) => /magic.*amp/i.test(e));
+
+    const warnings = [];
+    if (hasPhysDPS && !hasPhysAmp) {
+      warnings.push({
+        type: "Physical",
+        msg: "Your team has Physical DPS but no team-wide Physical ATK buffer. Without this buff, you will miss a significant amount of damage."
+      });
+    }
+    if (hasMagicDPS && !hasMagicAmp) {
+      warnings.push({
+        type: "Magic",
+        msg: "Your team has Magic DPS but no team-wide Magic ATK buffer. Without this buff, you will miss a significant amount of damage."
+      });
+    }
+
+    // 2. HP-scaling DPS check (e.g., Granhildr, Night of Death Mamonir)
+    const hpScalingDPS = dpsUnits.filter((u) =>
+      (u.effects || []).includes("hpScalingDamage")
+    );
+
+    if (hpScalingDPS.length > 0) {
+      const hasUniversalAmp = teamEffects.some((e) =>
+        [
+          "critDmgAmp",
+          "critRateAmp",
+          "propertyDmgAmp",
+          "dmgAmp",
+          "conditionalDmgAmp"
+        ].includes(e)
       );
 
-      // Only count team-wide amps (exclude self-buffs)
-      const teamEffects = team.flatMap((u) =>
-        (u.effects || []).filter((e) => !/self/i.test(e))
-      );
+      if (!hasUniversalAmp) {
+        const names = hpScalingDPS.map((u) => u.name).join(", ");
+        warnings.push({
+          type: "HPScaling",
+          msg: `Your team relies on HP-scaling DPS (${names}). Standard ATK/MATK buffs do not boost HP-scaling damage; consider adding Crit DMG, Property DMG, or Augmentation buffers.`
+        });
+      }
+    }
 
-      const hasPhysDPS = ampEligibleDPS.some((u) => u.damageType === "physical");
-      const hasMagicDPS = ampEligibleDPS.some((u) => u.damageType === "magic");
-
-      const hasPhysAmp = teamEffects.some((e) => /phys.*amp/i.test(e));
-      const hasMagicAmp = teamEffects.some((e) => /magic.*amp/i.test(e));
-
-      const missing = [];
-      if (hasPhysDPS && !hasPhysAmp) missing.push("Physical");
-      if (hasMagicDPS && !hasMagicAmp) missing.push("Magic");
-
-      return missing;
+      return warnings;
     },
-    fire: (missing) => missing.length > 0,
-    message: (missing) =>
-      missing.map(
-        (type) =>
-          `Your team has ${type} DPS but no ${type} ATK buffer. Without this buff, you will be missing a lot of damage.`
-      )
+    fire: (warnings) => warnings.length > 0,
+    message: (warnings) => warnings.map((w) => w.msg)
   },
 
-  // --- Tier 1: Mismatched support buff check-----
-  {
-    id: "mismatched-support-amp",
-    severity: "warning",
-    check: (team) => {
-      const ampEligibleDPS = team.filter(
-        (u) => (u.role || []).includes("DPS")
-      );
-      const hasPhysDPS = ampEligibleDPS.some((u) => u.damageType === "physical");
-      const hasMagicDPS = ampEligibleDPS.some((u) => u.damageType === "magic");
+  // --- Tier 1: Mismatched support buff check -----
+{
+  id: "mismatched-support-amp",
+  severity: "warning",
+  check: (team) => {
+    // Only DPS units that actually scale off ATK / MATK
+    const ampEligibleDPS = team.filter(
+      (u) =>
+        (u.role || []).includes("DPS") &&
+        !(u.effects || []).includes("hpScalingDamage")
+    );
 
-      return team
-        .map((u) => {
-          // Exclude self-only buffs
-          const teamEffects = (u.effects || []).filter((e) => !/self/i.test(e));
-          const hasPhysAmp = teamEffects.some((e) => /phys.*amp/i.test(e));
-          const hasMagicAmp = teamEffects.some((e) => /magic.*amp/i.test(e));
+    const hasPhysDPS = ampEligibleDPS.some((u) => u.damageType === "physical");
+    const hasMagicDPS = ampEligibleDPS.some((u) => u.damageType === "magic");
 
-          if (hasPhysAmp && hasMagicAmp) {
-            if (!hasPhysDPS && !hasMagicDPS && ampEligibleDPS.length > 0) {
-              return { unit: u, wastedType: "Physical or Magic" };
-            }
-            return null;
+    return team
+      .map((u) => {
+        // Exclude self-only buffs
+        const teamEffects = (u.effects || []).filter((e) => !/self/i.test(e));
+        const hasPhysAmp = teamEffects.some((e) => /phys.*amp/i.test(e));
+        const hasMagicAmp = teamEffects.some((e) => /magic.*amp/i.test(e));
+
+        // Dual-type buffers (e.g., Kind Student Samay)
+        if (hasPhysAmp && hasMagicAmp) {
+          if (!hasPhysDPS && !hasMagicDPS) {
+            return { unit: u, wastedType: "Physical & Magic" };
           }
+          return null; // At least one type benefits, so buff is not entirely wasted
+        }
 
-          if (hasPhysAmp && !hasPhysDPS) {
-            return { unit: u, wastedType: "Physical" };
-          }
+        // Pure Physical ATK buffers (e.g., Homunculus Lathel)
+        if (hasPhysAmp && !hasPhysDPS) {
+          return { unit: u, wastedType: "Physical" };
+        }
 
-          if (hasMagicAmp && !hasMagicDPS) {
-            return { unit: u, wastedType: "Magic" };
-          }
+        // Pure Magic ATK buffers (e.g., Queen of Gluttis Granadair)
+        if (hasMagicAmp && !hasMagicDPS) {
+          return { unit: u, wastedType: "Magic" };
+        }
 
-          return null;
-        })
-        .filter(Boolean);
-    },
-    fire: (mismatches) => mismatches.length > 0,
-    message: (mismatches) =>
-      mismatches.map(
-        ({ unit, wastedType }) =>
-          `<strong>${unit.name}</strong> provides ${wastedType} ATK Buff, but the team has no ${wastedType} DPS that benefits from it. Their buff does not impact the damage.`
-      )
+        return null;
+      })
+      .filter(Boolean);
   },
+  fire: (mismatches) => mismatches.length > 0,
+  message: (mismatches) =>
+    mismatches.map(
+      ({ unit, wastedType }) =>
+        `<strong>${unit.name}</strong> provides ${wastedType} ATK Buff, but the team has no standard ${wastedType} DPS that benefits from it. Their buff does not impact the damage.`
+    )
+},
 
 // --- Tier 1: Duplicate character / costume check --------------------
   {
@@ -290,7 +283,7 @@ const rules = [
 // --- Tier 2: Elemental counter conditional --------------------------
   {
     id: "conditional-elemental-support-present",
-    severity: "warning",
+    severity: "advice",
     check: (team) => {
       const propertyBuffers = team.filter((u) =>
         (u.effects || []).includes("propertyDmgAmp")
@@ -357,34 +350,37 @@ const rules = [
   },
 
 // --- Tier 2: Conditional chain threshold check (Teresse / Liberta) ---
-  {
-    id: "conditional-chain-threshold",
-    severity: "warning",
-    check: (team) => {
-      const unitChains = calculateUnitChains(team);
-      const warnings = [];
+{
+  id: "conditional-chain-threshold",
+  severity: "warning",
+  check: (team) => {
+    const unitChains = calculateUnitChains(team);
+    const warnings = [];
 
-      team.forEach((unit, idx) => {
-        const subsequentChains = unitChains
-          .slice(idx + 1)
-          .reduce((sum, count) => sum + count, 0);
+    team.forEach((unit, idx) => {
+      const subsequentChains = unitChains
+        .slice(idx + 1)
+        .reduce((sum, count) => sum + count, 0);
 
-        if (unit.id === "beachside_angel_teresse" && subsequentChains >= 6) {
-          warnings.push({
-            unit,
-            chains: subsequentChains,
-            type: "teresse"
-          });
-        }
+      // Threshold is 5 or less. The 6th subsequent hit lands on 5 chains (buff active), 
+      // but the 7th hit lands on 6 chains (buff lost). 
+      // Thus, exceeding 6 total subsequent hits guarantees buff drop-off.
+      if (unit.id === "beachside_angel_teresse" && subsequentChains > 6) {
+        warnings.push({
+          unit,
+          chains: subsequentChains,
+          type: "teresse"
+        });
+      }
 
-        if (unit.id === "onsen_manager_liberta" && subsequentChains <= 9) {
-          warnings.push({
-            unit,
-            chains: subsequentChains,
-            type: "liberta"
-          });
-        }
-      });
+      if (unit.id === "onsen_manager_liberta" && subsequentChains < 10) {
+        warnings.push({
+          unit,
+          chains: subsequentChains,
+          type: "liberta"
+        });
+      }
+    });
 
       return warnings;
     },
@@ -392,8 +388,8 @@ const rules = [
     message: (warnings) =>
       warnings.map(({ unit, chains, type }) =>
         type === "teresse"
-          ? `<strong>${unit.name}</strong>'s buff requires 5 or fewer chains on the target. Teammates acting after her generate ${chains} chains in total — if focused on one enemy, her buff will not apply.`
-          : `<strong>${unit.name}</strong>'s buff requires at least 10 chains on the target. Teammates acting after her only generate ${chains} chain(s) in total, so her buff will not trigger.`
+          ? `<strong>${unit.name}</strong> only buffs attacks landed at 5 or fewer chains. Subsequent allies generate ${chains} chains total — attacks exceeding the 5-chain limit on a single target will lose the damage buff.`
+          : `<strong>${unit.name}</strong> requires a target to have at least 10 chains to trigger her buff. Subsequent allies only generate ${chains} chain(s) total, failing to reach the threshold.`
       )
   },
   // --- Tier 2: AOE combat profile specialization ---------------------
@@ -420,49 +416,65 @@ const rules = [
         : "Your team focuses on wide coverage (Big/Medium AoE). This setup is ideal for AoE fights, but may lack concentrated single-target burst against high-HP bosses."
   },
 // --- Tier 2: Turn 1 clear impact check (0 Chains / Summons) ----------
-  {
-    id: "turn-one-offensive-impact",
-    severity: "warning",
-    check: (team) => {
-      const flagged = [];
+{
+  id: "turn-one-offensive-impact",
+  severity: "warning",
+  check: (team) => {
+    const flagged = [];
 
-      for (const unit of team) {
-        const chains = unit.chains ?? 0;
-        const effects = unit.effects || [];
+    for (const unit of team) {
+      const chains = unit.chains ?? 0;
+      const effects = unit.effects || [];
 
-        const hasSummon = effects.some((e) => /^summon$/i.test(e));
-        const isPreemptive = effects.some((e) => /^preemptive$/i.test(e));
+      const hasSummon = effects.some((e) => /^summon$/i.test(e));
+      const isPreemptive = effects.some((e) => /^preemptive$/i.test(e));
+      const hasDomain = effects.some((e) => /^domain$/i.test(e));
 
-        const providesOffensiveSupport = effects.some(
-          (e) =>
-            (e.endsWith("Amp") && !/(self|barrier|energyguard|evasion)/i.test(e)) ||
-            /(vulnerability|defdebuff|mresdebuff)/i.test(e) ||
-            /^(critrate(amp)?|chainreinforcement)$/i.test(e)
+      // Active team amps (exclude self-only, defensive, or reactive/counter amps)
+      const hasActiveTeamAmp = effects.some(
+        (e) =>
+          e.endsWith("Amp") &&
+          !/(self|barrier|energyguard|evasion|reactive|onhit)/i.test(e)
+      );
+
+      // Debuffs only impact Turn 1 if applied via an attack or Domain aura
+      const hasActiveDebuff =
+        (chains > 0 || hasDomain) &&
+        effects.some((e) =>
+          /(vulnerability|defdebuff|mresdebuff)/i.test(e) &&
+          !/(reactive|onhit)/i.test(e)
         );
 
-        if (chains === 0 && !providesOffensiveSupport && !hasSummon) {
-          flagged.push({ unit, type: "no-impact" });
-        }
+      const hasActiveSupport =
+        hasActiveTeamAmp ||
+        hasActiveDebuff ||
+        hasDomain ||
+        effects.some((e) => /^(critrate(amp)?|chainreinforcement)$/i.test(e));
 
-        if (hasSummon) {
-          flagged.push({ unit, type: "summon", isPreemptive });
-        }
+      if (chains === 0 && !hasActiveSupport && !hasSummon) {
+        flagged.push({ unit, type: "no-impact" });
       }
 
-      return flagged;
-    },
-    fire: (flagged) => flagged.length > 0,
-    message: (flagged) =>
-      flagged.map(({ unit, type, isPreemptive }) => {
-        if (type === "no-impact") {
-          return `<strong>${unit.name}</strong> lands no hits and provides no offensive buffs or debuffs, offering no clearing impact on Turn 1.`;
-        }
-        if (isPreemptive) {
-          return `<strong>${unit.name}</strong> relies on a Preemptive Summon. While usable on Turn 1, summons dilute SP compared to direct attackers or dedicated buffers.`;
-        }
-        return `<strong>${unit.name}</strong> relies on an active Summon. Non-preemptive summons cannot act immediately on Turn 1, offering no direct impact toward an opening clear rotation.`;
-      })
+      if (hasSummon) {
+        flagged.push({ unit, type: "summon", isPreemptive });
+      }
+    }
+
+    return flagged;
   },
+  fire: (flagged) => flagged.length > 0,
+  message: (flagged) =>
+    flagged.map(({ unit, type, isPreemptive }) => {
+      if (type === "no-impact") {
+        return `<strong>${unit.name}</strong> lands no hits and provides no offensive buffs or debuffs, offering no clearing impact on Turn 1.`;
+      }
+      if (isPreemptive) {
+        return `<strong>${unit.name}</strong> relies on a Preemptive Summon. While usable on Turn 1, summons dilute SP compared to direct attackers or dedicated buffers.`;
+      }
+      return `<strong>${unit.name}</strong> relies on an active Summon. Non-preemptive summons cannot act immediately on Turn 1, offering no direct impact toward an opening clear rotation.`;
+    })
+},
+
 {
     id: "sunny-inn-helena-last",
     severity: "warning",
@@ -523,7 +535,45 @@ const rules = [
         (u) =>
           `<strong>${u.name}</strong> applies Focus Fire, redirecting all following attacks to the enemy under the effect. This has zero impact in single-target boss fights, but will redirect AoE patterns in multi-target battles.`
       )
-  }
+  },
+// --- Tier 2: Low-investment 5* buffer downgrade check ----------------
+{
+  id: "budget-buffer-upgrade-advice",
+  severity: "advice",
+  check: (team) => {
+    const suggestions = [];
+    const getPlus = (u) => u.plus ?? u.upgradeLevel ?? u.dupeLevel ?? 0;
+
+    const hasElpis = team.some((u) => (u.id || "").includes("elpis"));
+    const hasArines = team.some((u) => (u.id || "").includes("arines"));
+
+    const helena = team.find((u) => u.id === "b_rank_idol_helena");
+    if (helena && getPlus(helena) <= 1 && !hasElpis) {
+      suggestions.push({
+        unit: helena,
+        replacement: "Hand of Salvation Elpis",
+        type: "Magic"
+      });
+    }
+
+    const liberta = team.find((u) => u.id === "dark_saintess_liberta");
+    if (liberta && getPlus(liberta) <= 1 && !hasArines) {
+      suggestions.push({
+        unit: liberta,
+        replacement: "Arines",
+        type: "Physical"
+      });
+    }
+
+    return suggestions;
+  },
+  fire: (suggestions) => suggestions.length > 0,
+  message: (suggestions) =>
+    suggestions.map(
+      ({ unit, replacement, type, critRate, amp }) =>
+        `<strong>${unit.name}</strong> is at low upgrade (+0 / +1). Replacing her with a maxed <strong>${replacement}</strong> is a strict upgrade for ${type} teams, providing greater buffs.`
+    )
+}
 ];
 
-export { rules, teamSPRange, STARTING_SP };
+export { rules, STARTING_SP };

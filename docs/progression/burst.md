@@ -163,6 +163,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **B-Rank Idol Helena** **Bursts 1-3**{.yellow}
     * **Homunculus Lathel** **Burst 1**{.yellow}
     * **Onsen Manager Liberta** **Bursts 1-3**{.yellow}
+    * **Medical Club Teresse** **Burst 3**{.yellow}
 
 === "High Priority"
     * **Heavenly Guardian Successor Glacia** **Bursts 1-3**{.yellow}
@@ -171,6 +172,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Homunculus Lathel** **Burst 2-3**{.yellow}
     * **Miracle Marine Mamonir** **Bursts 1-3**{.yellow}
     * **New Hire Seir** **Bursts 1-2**{.yellow}
+    * **Medical Club Teresse** **Bursts 1-2**{.yellow}
 
 === "Medium Priority"
     * **Fire Graffiti Anastasia** **Burst 3**{.yellow}
@@ -187,6 +189,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Beachside Justice Michaela** **Bursts 1**{.yellow}
     * **New Hire Nebris** **Bursts 1-2**{.yellow}
     * **Deadeye Nekyndalia** **Bursts 1-2**{.yellow}
+    * **Lord of the Cosmos Ren Yamashiro** **Burst 1**{.magenta}
     * **Thorn of the Desert Rubia** **Bursts 1,3**{.yellow}
     * **Reclaimed Destiny Sacred Justia** **Burst 1**{.yellow}
     * **Magical Violet Palette** **Burst 1**{.yellow}
@@ -215,8 +218,10 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Beachside Justice Michaela** **Bursts 2-3**{.yellow}
     * **New Hire Nebris** **Burst 3**{.yellow}
     * **Deadeye Nekyndalia** **Burst 3**{.yellow}
+    * **Faithful Wings Olivier** **Bursts 1-3**{.yellow}
     * **Magical Violet Palette** **Bursts 2-3**{.yellow}
     * **Steel Engine Rafina** **Burst 3**{.yellow}
+    * **Lord of the Cosmos Ren Yamashiro** **Bursts 2-3**{.magenta}
     * **Thorn of the Desert Rubia** **Burst 2**{.yellow}
     * **Reclaimed Destiny Sacred Justia** **Bursts 2-3**{.yellow}
     * **Pool Party Scheherazade** **Burst 2**{.yellow}

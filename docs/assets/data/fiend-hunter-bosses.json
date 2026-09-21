@@ -1921,5 +1921,30 @@
       "rate": "3",
       "slope": "1.5"
     }
+  },
+  {
+    "season": "79",
+    "seasonEvent": "Time to Submit",
+    "name": "Chimera of Resentment (Wind)",
+    "property": "Wind",
+    "id": "9272",
+    "defaultCostumeID": "927200",
+    "dateStart": "2026-09-03",
+    "dateEnd": "2026-09-09",
+    "stage2Level": "10",
+    "stage2Ratio": "1",
+    "stage3Level": "13",
+    "stage3Ratio": "1",
+    "HP": {
+      "base": "5800",
+      "rate": "4000",
+      "slope": "2.90"
+    },
+    "MATK": {
+      "base": "100",
+      "rate": "1.5",
+      "slope": "2"
+    },
+    "isBreakSeason": "TRUE"
   }
 ]
