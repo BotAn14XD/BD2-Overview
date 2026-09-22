@@ -542,10 +542,11 @@ const rules = [
   severity: "advice",
   check: (team) => {
     const suggestions = [];
-    const getPlus = (u) => u.plus ?? u.upgradeLevel ?? u.dupeLevel ?? 0;
+    const getPlus = (u) => u.dupe ?? u.plus ?? u.upgradeLevel ?? 0;
 
     const hasElpis = team.some((u) => (u.id || "").includes("elpis"));
     const hasArines = team.some((u) => (u.id || "").includes("arines"));
+    const hasSamay = team.some((u) => (u.id || "").includes("kind_student_samay"));
 
     const helena = team.find((u) => u.id === "b_rank_idol_helena");
     if (helena && getPlus(helena) <= 1 && !hasElpis) {
@@ -565,13 +566,22 @@ const rules = [
       });
     }
 
+    const teresse = team.find((u) => u.id === "medical_club_teresse");
+    if (teresse && getPlus(teresse) <= 1 && !hasSamay) {
+      suggestions.push({
+        unit: teresse,
+        replacement: "Kind Student Samay",
+        type: "Physical & Magic"
+      });
+    }
+
     return suggestions;
   },
   fire: (suggestions) => suggestions.length > 0,
   message: (suggestions) =>
     suggestions.map(
-      ({ unit, replacement, type, critRate, amp }) =>
-        `<strong>${unit.name}</strong> is at low upgrade (+0 / +1). Replacing her with a maxed <strong>${replacement}</strong> is a strict upgrade for ${type} teams, providing greater buffs.`
+      ({ unit, replacement, type }) =>
+        `<strong>${unit.name}</strong> is at low upgrade (+0 / +1). Replacing her with a maxed <strong>${replacement}</strong> is an upgrade for ${type} teams, providing better buffs.`
     )
 }
 ];

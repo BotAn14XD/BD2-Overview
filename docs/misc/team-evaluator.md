@@ -37,8 +37,8 @@ To evaluate the team, pick five **Costumes** (Not Characters) and it will give y
   </div>
 </div>
 
-??? info "v1.1.0 Notes & Known Limitations"
-    Version 1.1.0 brings UI refinement, more precise dupe / SP control, potential liberation toggles and finetuned dictionary file.
+??? info "v1.1.1 Notes & Known Limitations"
+    Version 1.1.1 brings UI refinement, more precise dupe / SP control, potential liberation toggles and finetuned dictionary file.
 
     Nonetheless, advanced mechanics (such as conditional requirenments for DPS or placement validation) are still planned for future updates.
 
