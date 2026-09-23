@@ -260,7 +260,7 @@ icon: material/frequently-asked-questions
     {{ redirect_btn('progression/gear/', 'More about Gear System', '#9d65c9') }} 
 
 ??? q-progression "Who to spend [Tears of Goddess](misc/slang.md/?term=Tear of Goddess) and [Crystals](misc/slang.md/?term=Property Crystal) on? {{ share_btn('pots') }}"
-    Refer to the [Cymmina's Guide](https://web.archive.org/web/20260807024523/http://cymmina.gamependium.com/browndust2/growth.html#potentials). 
+    Refer to the [Cymmina's Guide](http://cymmina.gamependium.com/browndust2/growth.html#potentials). 
 
     {{ redirect_btn('progression/potentials/', 'More about Potential Liberation', '#9d65c9') }} 
 
