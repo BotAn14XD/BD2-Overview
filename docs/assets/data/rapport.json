@@ -3138,6 +3138,179 @@
           "wrong": "White lies are fine."
         }
       ]
+    },
+    {
+      "id": "thorn-of-the-desert-rubia",
+      "costume": "Thorn of the Desert Rubia",
+      "character": "Rubia",
+      "drinks": [
+        { "name": "Velvety Wine", "icon": "assets/images/rapport/icons/icon_resource190003_397_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Rubia eyes the drinks laid out before her and begins to speak.",
+            "You have quite the selection.",
+            "Say, Master. When you've got all these fine drinks in front of you...",
+            "...do you go for the best one first? Or save it for the very end?"
+          ],
+          "correct": "Go for the best one.",
+          "wrong": "Save it for last."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Rubia wipes her mouth and settles into a seat at the bar counter.",
+            "Phew... I tore through so much meat after training that I'm stuffed... but my mouth still feels greasy.",
+            "I need something to cut through this grease... something bold and clean to reset my palate.",
+            "Master, got anything good?"
+          ],
+          "correct": "A rich, velvety red wine?",
+          "wrong": "A light, sweet honey wine?"
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Rubia asks, an unusually serious look in her eyes.",
+            "You know my sister, right?",
+            "What kind of person does she seem like to you?"
+          ],
+          "correct": "Perfect and dependable.",
+          "wrong": "An enigma of many secrets."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Rubia takes a slow sip of her wine, then asks...",
+            "Master, when the person you care about most does something that hurts you... how do you usually react?",
+            "Like when you can't just ask them directly, and it eats at you from the inside."
+          ],
+          "correct": "I start by opening up.",
+          "wrong": "I wait until they're ready to tell me."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Rubia rests her chin on her hand at the bar counter and asks...",
+            "Master, do you like competition? Bets, challenges, that sort of thing? Because I love them.",
+            "Losing sucks, sure, but the thrill of the match itself is fun.",
+            "So, what do you say? Want to go a round with me over a drink?"
+          ],
+          "correct": "I never lose a bet.",
+          "wrong": "Bets are best avoided, if you ask me."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Rubia swirls the full glass of wine in her hand as she speaks.",
+            "...What does it take to stand beside someone perfect?",
+            "You can never walk alongside them if all you do is follow in their shadow.",
+            "I wonder sometimes...",
+            "...I've always been one to act before I think. Does that make me nothing but a burden to my perfect sister?"
+          ],
+          "correct": "Sylvia needs your ability to act without a moment's hesitation.",
+          "wrong": "You can ask Sylvia for advice and go from there."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Rubia glances around the restaurant, then asks...",
+            "Suppose an employee, receiving no orders from above, took matters into their own hands while everyone else stood by—only to have the whole thing backfire.",
+            "How would you coach them, Master?"
+          ],
+          "correct": "Praise their courage.",
+          "wrong": "Chew them out first."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Rubia gives the table a light tap as she speaks.",
+            "People call me the Thorn of the Desert.",
+            "I suppose it means I'm like a cactus spine—hard to approach, defiant.",
+            "Master, do I come across that way to you too?"
+          ],
+          "correct": "You're just protecting what matters to you.",
+          "wrong": "You can be a bit stubborn."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Rubia draws her sword as she speaks.",
+            "Master, do you have any hobbies?",
+            "I like sword dancing.",
+            "When I'm feeling bored and restless, nothing beats a good round of sword dancing. Clears the mind like nothing else."
+          ],
+          "correct": "I'd like to see you perform.",
+          "wrong": "That's dangerous."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Rubia blinks and tilts her head.",
+            "Oh, this hair tie? My sister gave it to me.",
+            "It might not look like much, but it's one of the most precious things I own."
+          ],
+          "correct": "It really suits you, Rubia.",
+          "wrong": "I wonder what you look like with your hair down."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Rubia's expression sours without warning.",
+            "Master, how do you feel about bugs?",
+            "I don't really love or hate them...",
+            "...but if there's one thing I can't stand, it's when bugs swarm around a beautiful flower.",
+            "What would you do about pests like that, Master?"
+          ],
+          "correct": "I'd swat them away every chance I get.",
+          "wrong": "Flowers attract bugs. That's just how it is."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Rubia wipes the sweat from her brow as she steps into the restaurant.",
+            "Whew, ran the crew ragged again.",
+            "They were all whining and making a big fuss.",
+            "But that's what it takes to survive out in the desert."
+          ],
+          "correct": "You're a good commander.",
+          "wrong": "You're too ruthless with them."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Rubia speaks as though lost in old memories.",
+            "Master, did you know my sister and I are twins? We were born the same day.",
+            "We're polar opposites, though, so we used to butt heads constantly growing up.",
+            "You might find it hard to believe, but back then there was never a dull moment."
+          ],
+          "correct": "You seem to have become irreplaceable to one another.",
+          "wrong": "Somehow, that doesn't surprise me."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Rubia speaks, her gaze fixed on the world beyond the window.",
+            "It's as quiet as a desert night.",
+            "No matter how hot and loud it gets during the day, once the sun sets, everything goes still... as if by magic."
+          ],
+          "correct": "I'd love to visit the desert someday.",
+          "wrong": "A night out in the desert sounds a bit dangerous."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Rubia grips her sword, her expression turning serious as she speaks.",
+            "A flower of the desert is not so easily plucked.",
+            "For it grows sharp thorns to protect its beauty from those who'd trample it out of greed.",
+            "Master, what do you think this expression means?"
+          ],
+          "correct": "You'll take on the role of the thorns?",
+          "wrong": "You should never pick desert plants?"
+        }
+      ]
     }
   ]
 }

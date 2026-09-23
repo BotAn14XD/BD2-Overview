@@ -1946,5 +1946,29 @@
       "slope": "2"
     },
     "isBreakSeason": "TRUE"
+  },
+  {
+    "season": "80",
+    "seasonEvent": "Time to Submit",
+    "name": "Spirit of the Mine",
+    "property": "Darkness",
+    "id": "9274",
+    "defaultCostumeID": "927400",
+    "dateStart": "2026-10-01",
+    "dateEnd": "2026-10-07",
+    "stage2Level": "10",
+    "stage2Ratio": "1",
+    "stage3Level": "13",
+    "stage3Ratio": "1",
+    "HP": {
+      "base": "5400",
+      "rate": "4000",
+      "slope": "2.90"
+    },
+    "ATK": {
+      "base": "100",
+      "rate": "3",
+      "slope": "1.5"
+    }
   }
 ]

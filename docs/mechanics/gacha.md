@@ -54,22 +54,67 @@ Costume Pick-Up banner has **3%** to give a ★5 Costume, with half of that (**1
 
 Gear Pick-Up banner has a bit more complicated system due to Rarity and Character dependency, but it still has **1.5%** chance to get featured Gear.
 
-<!--??? abstract "More Detailed Rates"
-    * **Costume Pick-Up**:
-        * ★5 Featured — 1.5%
-        * ★5 Non-Featured — 1.5%
-        * ★4 — 14%
-        * ★3 — 83%
+???+ abstract "More Detailed Rates"
+    === "Costume Pick-Up"
+
+        <div class="responsive-table-wrapper">
+        <table class="data-table" style="width: 100%; table-layout: fixed; text-align: center;">
+        <thead>
+            <tr>
+            <th style="width: 25%; white-space: nowrap;">★5 (Featured)</th>
+            <th style="width: 25%; white-space: nowrap;">★5 (Off-rate)</th>
+            <th style="width: 25%; white-space: nowrap;">★4</th>
+            <th style="width: 25%; white-space: nowrap;">★3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>1.5%</td>
+            <td>1.5%</td>
+            <td>14.0%</td>
+            <td>83.0%</td>
+            </tr>
+        </tbody>
+        </table>
+        </div>
         
     === "Exclusive Gear"
-
-        | Character Base | UR (Featured) | UR (Off-rate) | SR | R | Tier Total |
-        | :--- | :---: | :---: | :---: | :---: | :---: |
-        | **★5 Characters** | 1.5% | 1.5% | 2.0% | — | **5.0%** |
-        | **★4 Characters** | — | 2.5% | 8.5% | 17.0% | **28.0%** |
-        | **★3 Characters** | — | 4.0% | 16.0% | 47.0% | **67.0%** |
-        | **Total by Rarity** | **1.5%** | **8.0%** | **26.5%** | **64.0%** | **100.0%** |
-
-        *Gear banners feature a total **9.5% UR rate**, but only **1.5%** belongs to the featured character's exclusive weapon.*-->
+        
+        <div class="responsive-table-wrapper">
+        <table class="data-table">
+        <thead>
+            <tr>
+                <th>Character Base</th>
+                <th>UR (Featured)</th>
+                <th>UR (Off-rate)</th>
+                <th>SR</th>
+                <th>R</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="yellow">**★5 Characters**</td>
+                <td>1.5%</td>
+                <td>1.5%</td>
+                <td>2.0%</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td class="yellow">**★4 Characters**</td>
+                <td>—</td>
+                <td>2.5%</td>
+                <td>8.5%</td>
+                <td>17.0%</td>
+            </tr>
+            <tr>
+                <td class="yellow">**★3 Characters**</td>
+                <td>—</td>
+                <td>4.0%</td>
+                <td>16.0%</td>
+                <td>47.0%</td>
+            </tr>
+        </tbody>
+        </table>
+        </div>
 
 ## Limited Banners
