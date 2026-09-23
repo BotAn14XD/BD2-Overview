@@ -1,0 +1,280 @@
+/*
+ * Scoped under .fh-calc for CSS-specificity safety, and to keep these
+ * fairly generic class names from colliding with other classes on the site.
+ *
+ * Colors are pulled from main.css's own design tokens (--bd-*) so this
+ * widget adapts to light/dark like the rest of the site. --bd-emphasis and
+ * --bd-muted used to chain through Material's --md-default-fg-color, which
+ * doesn't reliably track the active scheme in this fork — that's fixed at
+ * the source in main.css now (--bd-emphasis gets a real per-scheme value,
+ * same as every other opaque token), so this file just consumes it plainly.
+ *
+ * Color, background, border-color, and the card-title's margin all carry
+ * !important: this is the second time a theme rule has silently overridden
+ * a properly-scoped declaration of ours (first the h2 margin, now table
+ * text color), which suggests the site's own theme is using !important in
+ * at least some of those rules — the only reliable way to win against that
+ * is to also use !important here.
+ */
+.fh-calc {
+  --accent:     var(--bd-accent-blue, #4aa8ff);
+  --accent-dim: color-mix(in srgb, var(--accent) 16%, transparent);
+  --radius:     8px;
+  font-size: 0.9rem;
+}
+
+/* ---- search / combobox ---- */
+.fh-calc .search { position: relative; }
+
+.fh-calc .search-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 15px;
+  border: 1px solid var(--md-typeset-table-color);
+  background: var(--md-code-bg-color);
+  color: var(--md-typeset-color);
+  border-radius: var(--radius);
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  font-size: 16px; 
+}
+
+.fh-calc .search-input:focus {
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 0 3px var(--accent-dim);
+}
+
+.fh-calc .dropdown {
+  position: absolute;
+  z-index: 30;
+  left: 0; right: 0;
+  margin: 4px 0 0 !important;
+  padding: 4px;
+  list-style: none;
+  background: var(--bd-choice-bg, var(--bd-card-bg, var(--md-default-bg-color, #161d2e))) !important;
+  border: 1px solid var(--bd-choice-border, var(--bd-border, #374151)) !important;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  max-height: 320px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) transparent;
+}
+.fh-calc .dropdown[hidden] { display: none; }
+.fh-calc .dropdown::-webkit-scrollbar { width: 8px; }
+.fh-calc .dropdown::-webkit-scrollbar-track { background: transparent; }
+.fh-calc .dropdown::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 999px;
+}
+
+.fh-calc .option {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.fh-calc .option[aria-selected="true"],
+.fh-calc .option:hover { background: var(--accent-dim) !important; }
+
+.fh-calc .option-name { color: var(--bd-emphasis, #e8ecf5) !important; font-weight: 600; }
+.fh-calc .option-meta { color: var(--bd-muted, #8b98b8) !important; font-size: 0.8em; white-space: nowrap; }
+.fh-calc .option mark { background: var(--accent-dim) !important; color: inherit !important; border-radius: 3px; padding: 0 1px; }
+.fh-calc .dropdown-empty { padding: 0.6rem; color: var(--bd-muted, #8b98b8) !important; margin: 0 !important; }
+
+/* ---- placeholder ---- */
+.fh-calc .placeholder {
+  margin-top: 1rem !important;
+  padding: 1.4rem 1rem;
+  text-align: center;
+  color: var(--bd-muted, #8b98b8) !important;
+  border: 1px dashed var(--bd-border, #374151) !important;
+  border-radius: var(--radius);
+}
+.fh-calc .placeholder[hidden] { display: none; }
+
+/* ---- result card ---- */
+.fh-calc .card[hidden] { display: none; }
+.fh-calc .card { margin-top: 1rem !important; }
+
+.fh-calc .card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.9rem 1.1rem;
+  background-color: var(--bd-choice-bg, #1a2333) !important;
+  border: 1px solid var(--bd-btn-border, #2e384d) !important;
+  border-radius: var(--radius);
+}
+
+.fh-calc .title-block { display: flex; flex-direction: column; gap: 0.25rem; min-width: 0; }
+
+.fh-calc .card-title {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
+  color: var(--bd-emphasis, #e8ecf5) !important;
+  word-break: break-word;
+}
+.fh-calc .card-subtitle {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--bd-muted, #8b98b8) !important;
+}
+.fh-calc .break-tag {
+  display: inline-block;
+  margin-top: 0.1rem !important;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--bd-muted, #8b98b8) !important;
+}
+.fh-calc .break-tag[hidden] { display: none; }
+
+.fh-calc .tag {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  padding: 0.28rem 0.65rem; border-radius: 999px;
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.03em;
+  white-space: nowrap; flex: 0 0 auto;
+}
+.fh-calc .tag-dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+
+/* ---- toolbar ---- */
+.fh-calc .toolbar {
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;
+  gap: 0.7rem; margin-top: 0.8rem !important;
+}
+
+.fh-calc .level-field { display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; color: var(--bd-muted, #8b98b8) !important; }
+.fh-calc .level-field input {
+  width: 4.2rem; padding: 0.4rem 0.5rem; font-size: 0.85rem; text-align: center;
+  color: var(--bd-emphasis, #e8ecf5) !important;
+  background: var(--bd-input-bg, var(--md-default-bg-color, #161d2e)) !important;
+  border: 1px solid var(--bd-input-border, var(--bd-border, #374151)) !important;
+  border-radius: 8px; outline: none;
+}
+.fh-calc .level-field input:focus { border-color: var(--accent) !important; }
+
+.fh-calc .presets { display: flex; gap: 0.35rem; }
+.fh-calc .preset-btn {
+  padding: 0.3rem 0.55rem; font-size: 0.72rem; font-weight: 600;
+  color: var(--bd-muted, #8b98b8) !important; background: transparent !important;
+  border: 1px solid var(--bd-border, #374151) !important; border-radius: 7px; cursor: pointer;
+}
+.fh-calc .preset-btn:hover { color: var(--bd-emphasis, #e8ecf5) !important; border-color: var(--accent) !important; }
+.fh-calc .preset-btn.is-active { color: #111827 !important; background: var(--accent) !important; border-color: var(--accent) !important; }
+
+.fh-calc .actions { display: flex; gap: 0.5rem; }
+.fh-calc .btn {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  padding: 0.45rem 0.75rem; font-size: 0.78rem; font-weight: 600;
+  color: var(--bd-emphasis, #e8ecf5) !important;
+  background: var(--bd-btn-bg, var(--md-default-bg-color, #161d2e)) !important;
+  border: 1px solid var(--bd-btn-border, var(--bd-border, #374151)) !important;
+  border-radius: 8px; cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.1s ease;
+}
+.fh-calc .btn:hover { background: var(--bd-btn-hover, var(--accent-dim)) !important; border-color: var(--bd-btn-hover-border, var(--accent)) !important; }
+.fh-calc .btn:active { transform: scale(0.97); }
+.fh-calc .btn svg { width: 14px; height: 14px; flex: 0 0 auto; }
+.fh-calc .btn.is-done { color: var(--bd-green, #4ade80) !important; border-color: var(--bd-green, #4ade80) !important; }
+.fh-calc .btn.is-error { color: #f2555a !important; border-color: #f2555a !important; }
+
+/* ---- table ---- */
+.fh-calc .table-wrap {
+  margin-top: 0.9rem !important;
+  border: 1px solid var(--bd-border, #374151) !important;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background-color: var(--bd-btn-bg, #1e2638) !important;
+  border-radius: 6px;
+}
+.fh-calc .table-scroll {
+  max-height: none;
+  overflow-y: visible;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) transparent;
+}
+
+.fh-calc .table-scroll.has-scroll {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.fh-calc .table-scroll::-webkit-scrollbar { width: 8px; }
+.fh-calc .table-scroll::-webkit-scrollbar-track { background: transparent; }
+.fh-calc .table-scroll::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 999px;
+}
+
+.fh-calc table.stat-table { width: 100%; border-collapse: collapse; font-size: 0.86rem; margin: 0 !important; }
+.fh-calc .stat-table thead th {
+  position: sticky; top: 0; z-index: 2;
+  background-color: var(--bd-choice-bg, #1a2333) !important;
+  color: var(--bd-gold, #ffe8aa) !important;
+  text-align: right;
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase;
+  padding: 0.55rem 0.9rem; border-bottom: 1px solid var(--bd-border, #374151) !important;
+}
+.fh-calc .stat-table thead th:first-child { text-align: left; }
+
+.fh-calc .stat-table td {
+  padding: 0.5rem 0.9rem; text-align: right;
+  color: var(--bd-emphasis, #e8ecf5) !important;
+  border-bottom: 1px solid var(--bd-hairline, rgba(128,128,128,0.15)) !important;
+  font-variant-numeric: tabular-nums;
+}
+.fh-calc .stat-table td:first-child { text-align: left; color: var(--bd-muted, #8b98b8) !important; font-weight: 600; }
+.fh-calc .stat-table tbody tr:hover td { background: var(--bd-fill-5, rgba(128,128,128,0.06)) !important; }
+.fh-calc .stat-table tbody tr:last-child td { border-bottom: none !important; }
+
+@media (max-width: 560px) {
+  .fh-calc .stat-table { font-size: 0.78rem; }
+  .fh-calc .stat-table td, .fh-calc .stat-table thead th { padding: 0.42rem 0.55rem; }
+}
+
+.stat-table tr.highlight-row {
+    background-color: rgba(234, 179, 8, 0.12);
+    font-weight: bold;
+}
+
+[data-md-color-scheme="slate"] .stat-table tr.highlight-row,
+.stat-table tr.highlight-row {
+    border-left: 3px solid var(--bd-survey-accent, #eab308);
+}
+
+.quick-boss-shortcut {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 0.85rem;
+    color: var(--bd-muted, #9ca3af);
+}
+
+.boss-chip {
+    background-color: var(--bd-btn-bg, #1e2638);
+    border: 1px solid var(--bd-btn-border, #2e384d);
+    color: var(--bd-emphasis, #ffffff);
+    padding: 3px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.boss-chip:hover {
+    background-color: var(--bd-btn-hover, #2a354d);
+    border-color: var(--bd-gold, #ffe8aa);
+}

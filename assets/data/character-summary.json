@@ -1,0 +1,3854 @@
+[
+    {
+    "id": "sword_breaker_alec",
+    "character": "alec",
+    "name": "Sword Breaker Alec",
+    "role": [
+        "DPS"
+    ],
+    "damageType": "physical",
+    "element": "fire",
+    "effects": [
+        "fixedDamage",
+        "smallAOE"
+    ],
+    "chains": 3,
+    "orderPriority": 10,
+    "spCost": 4,
+    "spBreak": { "3": 3 },
+    "potentials": [{
+      "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+    }]
+    },
+    {
+    "id": "the_destruction_alec",
+    "name": "The Destruction Alec",
+    "role": [
+        "DPS"
+    ],
+    "damageType": "physical",
+    "character":"alec",
+    "element": "fire",
+    "effects": [
+        "fixedDamage",
+        "smallAOE"
+    ],
+    "chains": 1,
+    "orderPriority": 10,
+    "spCost": 3,
+    "spBreak": { "3": 2 }
+    },
+    {
+    "id": "fire_graffiti_anastasia",
+    "character": "anastasia",
+    "name": "Fire Graffiti Anastasia",
+    "role": [
+        "DPS",
+        "chainer"
+    ],
+    "damageType": "physical",
+    "element": "fire",
+    "effects": [
+        "smallAOE",
+        "critDMGSelfAmp",
+        "mainTargetDamage"
+    ],
+    "chains": 10,
+    "orderPriority": 9,
+    "spCost": 4,
+    "spBreak": { "3": 3 },
+    "potentials": [{
+      "id": "range_up", "label": "Range Up", "icon": "range2_1"
+    }]
+    },
+    {
+    "id": "gentle_maid_anastasia",
+    "character": "anastasia",
+    "name": "Gentle Maid Anastasia",
+    "role": [
+        "DPS"
+    ],
+    "damageType": "physical",
+    "element": "fire",
+    "effects": [
+        "mediumAOE",
+        "mainTargetDamage",
+        "critDMGSelfAmp"
+    ],
+    "chains": 3,
+    "orderPriority": 10,
+    "spCost": 5,
+    "spBreak": { "3": 4 },
+    "potentials": [{
+      "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+    }]
+    },
+    {
+      "id": "loyal_butler_andrew",
+      "character": "andrew",
+      "name": "Loyal Butler Andrew",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "healSelf",
+        "spDrain",
+        "smallAOE"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "3": 4 }
+    },
+    {
+      "id": "specialist_andrew",
+      "character": "andrew",
+      "name": "Specialist Andrew",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "fire",
+      "effects": [
+        "taunt",
+        "evasionSelfAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 5,
+      "spBreak": { "3": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "neon_savior_angelica",
+      "character": "angelica",
+      "name": "Neon Savior Angelica",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "barrierAmp",
+        "hpScalingDamage",
+        "dot",
+        "smallAOE"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 6,
+      "spBreak": { "3": 5 },
+      "potentials": [
+        {"id": "sp_break", "label": "SP -1", "spDelta": "-1"},
+        {"id": "sp_break_2", "label": "SP -1", "spDelta": "-1"}
+      ]
+    },
+    {
+      "id": "pool_party_angelica",
+      "character": "angelica",
+      "name": "Pool Party Angelica",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "barrierSelfAmp",
+        "hpScalingDamage",
+        "mediumAOE"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "3": 4 }
+    },
+    {
+      "id": "the_fallen_angelica",
+      "character": "angelica",
+      "name": "The Fallen Angelica",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "barrierAmp",
+        "hpScalingDamage",
+        "mediumAOE"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 3,
+      "spBreak": { "3": 2 }
+    },
+    {
+      "id": "savage_warrior_aquila",
+      "character": "aquila",
+      "name": "Savage Warrior Aquila",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "bigAOE",
+        "physAttackSelfAmp",
+        "cooldownReductionSelf"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 }
+    },
+    {
+      "id": "priest_of_vitality_arines",
+      "character": "arines",
+      "name": "Priest of Vitality Arines",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "physAttackAmp",
+        "critRate"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 3,
+      "spBreak": { "3": 2 }
+    },
+    {
+      "id": "the_mighty_warrior_of_the_tribe_beatrice",
+      "character": "beatrice",
+      "name": "The Mighty Warrior of the Tribe Beatrice",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "fixedDamage",
+        "smallAOE"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "3": 3 }
+    },
+    {
+      "id": "righteous_raider_girl_bernie",
+      "character": "bernie",
+      "name": "Righteous Raider Girl Bernie",
+      "role": [
+        "DPS",
+        "debuffer",
+        "support"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "spRegen",
+        "silence",
+        "smallAOE"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "3": 3 }
+    },
+    {
+      "id": "apostle_blade",
+      "character": "blade",
+      "name": "Apostle Blade",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "counter"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": {},
+      "potentials": [{
+      "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+    }]
+    },
+    {
+      "id": "onsen_swordfighter_blade",
+      "character": "blade",
+      "name": "Onsen Swordfighter Blade",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "conditionalDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "1": 3 }
+    },
+    {
+      "id": "young_lady_blade",
+      "character": "blade",
+      "name": "Young Lady Blade",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "physVulnerability"
+      ],
+      "chains": 4,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["bigAOE"], "removeEffects": ["mediumAOE"], "icon":"range1_29"
+      }]
+    },
+    {
+      "id": "the_mercenary_knight_carlson",
+      "character": "carlson",
+      "name": "The Mercenary Knight Carlson",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "water",
+      "effects": [
+        "barrierAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 3,
+      "spBreak": { "3": 2 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "descendant_of_the_great_witch_celia",
+      "character": "celia",
+      "name": "Descendant of the Great Witch Celia",
+      "role": [
+        "debuffer",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "magicAttackDebuff"
+      ],
+      "chains": 5,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "3": 4 },
+      "potentials": [{
+        "id": "new_effect", "label": "MRES Reduction", "addEffects": ["mresDebuff"]
+      }]
+    },
+    {
+      "id": "masquerade_bunny_celia",
+      "character": "celia",
+      "name": "Masquerade Bunny Celia",
+      "role": [
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "chainReinforcementSelf"
+      ],
+      "chains": 3,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "1": 3 }
+    },
+    {
+      "id": "the_curse_celia",
+      "character": "celia",
+      "name": "The Curse Celia",
+      "role": [
+        "debuffer",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "physAttackDebuff"
+      ],
+      "chains": 7,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "3": 4 },
+      "potentials": [{
+        "id": "new_effect", "label": "DEF Reduction", "addEffects": ["defDebuff"]
+      }]
+    },
+    {
+      "id": "warmth_within_the_severe_cold_cynthia",
+      "character": "cynthia",
+      "name": "Warmth Within the Severe Cold Cynthia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "mediumAOE",
+        "dot"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "3": 3 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "bright_moon_dalvi",
+      "character": "dalvi",
+      "name": "Bright Moon Dalvi",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "dot"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "3": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "summer_vacation_dalvi",
+      "character": "dalvi",
+      "name": "Summer Vacation Dalvi",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "bigAOE",
+        "dot"
+      ],
+      "chains": 4,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 }
+    },
+    {
+      "id": "tricky_lover_dalvi",
+      "character": "dalvi",
+      "name": "Tricky Lover Dalvi",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "bigAOE",
+        "conditionalDamage",
+        "bleedDispel"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 7,
+      "spBreak": { "1": 6 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "bittersweet_bunny_darian",
+      "character": "darian",
+      "name": "Bittersweet Bunny Darian",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "bigAOE",
+        "conditionalDamage",
+        "dot",
+        "cooldownReductionSelf"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 7,
+      "spBreak": { "1": 6 }
+    },
+    {
+      "id": "prophetic_dream_darian",
+      "character": "darian",
+      "name": "Prophetic Dream Darian",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "bigAOE",
+        "mainTargetDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "1": 3 }
+    },
+    {
+      "id": "adventurer_of_the_unknown_diana",
+      "character": "diana",
+      "name": "Adventurer of the Unknown Diana",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "wind",
+      "effects": [
+        "propertyDmgAmp",
+        "critRate"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 3,
+      "spBreak": { "3": 2 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "icon":"range3_4"
+      }]
+    },
+    {
+      "id": "anti_dystopia_diana",
+      "character": "diana",
+      "name": "Anti-Dystopia Diana",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "wind",
+      "effects": [
+        "energyGuard"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 2,
+      "spBreak": { "1": 1 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "icon":"range4_21"
+      }]
+    },
+    {
+      "id": "magical_innovator_diana",
+      "character": "diana",
+      "name": "Magical Innovator Diana",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "wind",
+      "effects": [
+        "propertyDmgAmp",
+        "barrierAmp",
+        "summon",
+        "preemptive"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 5,
+      "spBreak": { },
+      "potentials": [
+        {"id": "sp_break", "label": "SP -1", "spDelta": "-1"},
+        {"id": "sp_break_2", "label": "SP -1", "spDelta": "-1"}
+      ]
+    },
+    {
+      "id": "beach_vacation_eclipse",
+      "character": "eclipse",
+      "name": "Beach Vacation Eclipse",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "dimension_witch_eclipse",
+      "character": "eclipse",
+      "name": "Dimension Witch Eclipse",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "healSelf",
+        "spDrain"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "3": 3 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "dream_bride_eclipse",
+      "character": "eclipse",
+      "name": "Dream Bride Eclipse",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "magicAttackSelfAmp"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 }
+    },
+    {
+      "id": "nightmare_bunny_eclipse",
+      "character": "eclipse",
+      "name": "Nightmare Bunny Eclipse",
+      "role": [
+        "DPS",
+        "debuffer",
+        "support"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "spRegen",
+        "spDrain",
+        "mresDebuff"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 3,
+      "spBreak": { }
+    },
+    {
+      "id": "b_rank_idol_eleaneer",
+      "character": "eleaneer",
+      "name": "B-Rank Idol Eleaneer",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "silence"
+      ],
+      "chains": 3,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "3": 4 },
+      "potentials": [
+        {"id": "sp_break", "label": "SP -1", "spDelta": "-1"},
+        {"id": "new_effect", "label": "DEF Reduction", "addEffects": ["defDebuff"]}
+      ]
+    },
+    {
+      "id": "piercing_magic_bow_eleaneer",
+      "character": "eleaneer",
+      "name": "Piercing Magic Bow Eleaneer",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "dispelBuff"
+      ],
+      "chains": 3,
+      "orderPriority": 5,
+      "spCost": 3,
+      "spBreak": { "1": 2 }
+    },
+    {
+      "id": "shadow_bunny_eleaneer",
+      "character": "eleaneer",
+      "name": "Shadow Bunny Eleaneer",
+      "role": [
+        "support",
+        "debuffer",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "dark",
+      "effects": [
+        "physAttackSelfAmp",
+        "physAttackAmp",
+        "magicAttackAmp",
+        "vulnerability",
+        "domain"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 6,
+      "spBreak": { "1": 5 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "code_name_o_elise",
+      "character": "elise",
+      "name": "Code Name O Elise",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "spRegen"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 3,
+      "spBreak": { "3": 2 }
+    },
+    {
+      "id": "lovely_lady_elise",
+      "character": "elise",
+      "name": "Lovely Lady Elise",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "bigAOE",
+        "defDebuff",
+        "mresDebuff"
+      ],
+      "chains": 3,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "3": 4 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["bigAOE"], "removeEffects": ["mediumAOE"], "icon":"range1_12"
+      }]
+    },
+    {
+      "id": "naive_lady_elise",
+      "character": "elise",
+      "name": "Naive Lady Elise",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "dmgSelfAmp"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "1": 3 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "hand_of_salvation_elpis",
+      "character": "elpis",
+      "name": "Hand of Salvation Elpis",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "dark",
+      "effects": [
+        "magicAttackAmp",
+        "critRateAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 3,
+      "spBreak": { "2": 2 }
+    },
+    {
+      "id": "haggard_delinquent_emma",
+      "character": "emma",
+      "name": "Haggard Delinquent Emma",
+      "role": [
+        "DPS"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "physAttackSelfAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 10,
+      "spCost": 2,
+      "spBreak": { "3": 1 },
+      "potentials": [{
+        "id": "new_effect", "label": "Crit Rate Increase", "addEffects": ["critRateSelfAmp"]
+      }]
+    },
+    {
+      "id": "school_queen_emma",
+      "character": "emma",
+      "name": "School Queen Emma",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "smallAOE",
+        "spRegen",
+        "knockback",
+        "dot",
+        "percentageDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 3,
+      "spBreak": { "3": 2 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "esteemed_adventurer_eris",
+      "character": "eris",
+      "name": "Esteemed Adventurer Eris",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "conditionalDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "1": 3 }
+    },
+    {
+      "id": "your_very_own_cat_eris",
+      "character": "eris",
+      "name": "Your Very Own Cat Eris",
+      "role": [
+        "DPS",
+        "debuffer",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "physVulnerability"
+      ],
+      "chains": 5,
+      "orderPriority": 5,
+      "spCost": 6,
+      "spBreak": { "1": 5 },
+      "potentials": [
+        {"id": "sp_break", "label": "SP -1", "spDelta": "-1"},
+        {"id": "range_up", "label": "Range Up", "icon":"range1_25"}
+      ]
+    },
+    {
+      "id": "lugo_defense_force_fred",
+      "character": "fred",
+      "name": "Lugo Defense Force Fred",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "spRegen",
+        "knockback",
+        "dot",
+        "percentageDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 2,
+      "spBreak": { "3": 1 }
+    },
+    {
+      "id": "alice_glacia",
+      "character": "glacia",
+      "name": "Alice Glacia",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "water",
+      "effects": [
+        "taunt",
+        "energyGuardSelfAmp",
+        "revive"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 4,
+      "spBreak": { "3": 3 }
+    },
+    {
+      "id": "disciplinary_committee_glacia",
+      "character": "glacia",
+      "name": "Disciplinary Committee Glacia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "fixedDamage",
+        "barrierSelfAmp"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 3,
+      "spBreak": { "1": 2 }
+    },
+    {
+      "id": "heavenly_guardian_successor_glacia",
+      "character": "glacia",
+      "name": "Heavenly Guardian Successor Glacia",
+      "role": [
+        "DPS",
+        "chainer",
+        "support"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "bigAOE",
+        "fixedDamage",
+        "chainRetention"
+      ],
+      "chains": 5,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "1": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "orcbolg_goblin_slayer",
+      "character": "goblin_slayer",
+      "name": "Orcbolg Goblin Slayer",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "barrierSelfAmp",
+        "spRegen"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 }
+    },
+    {
+      "id": "queen_of_gluttis_granadair",
+      "character": "granadair",
+      "name": "Queen of Gluttis Granadair",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "water",
+      "effects": [
+        "magicAttackAmp",
+        "spRegen"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 2,
+      "spBreak": { "1": 1 }
+    },
+    {
+      "id": "shrine_maiden_of_purification_granadair",
+      "character": "granadair",
+      "name": "Shrine Maiden of Purification Granadair",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "water",
+      "effects": [
+        "dmgAmp",
+        "dispelDebuff"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 4,
+      "spBreak": { "1": 3 }
+    },
+    {
+      "id": "boo_ghost_granhildr",
+      "character": "granhildr",
+      "name": "Boo Ghost Granhildr",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "mediumAOE",
+        "hpScalingDamage",
+        "energyGuardScalingDamage"
+      ],
+      "chains": 8,
+      "orderPriority": 9,
+      "spCost": 6,
+      "spBreak": { "1": 5 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "combat_medic_granhildr",
+      "character": "granhildr",
+      "name": "Combat Medic Granhildr",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "mediumAOE",
+        "critDmgSelfAmp",
+        "buffDurationExtendSelf",
+        "hpScalingDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "comeback_idol_granhildr",
+      "character": "granhildr",
+      "name": "Comeback Idol Granhildr",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "preemptive",
+        "taunt",
+        "energyGuardSelfAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 6,
+      "spBreak": { },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "the_void_granhildr",
+      "character": "granhildr",
+      "name": "The Void Granhildr",
+      "role": [
+        "tank"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "preemptive",
+        "counter"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 4,
+      "spBreak": { },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "b_rank_manager_gray",
+      "character": "gray",
+      "name": "B-Rank Manager Gray",
+      "role": [
+        "DPS",
+        "debuffer",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "defDebuff"
+      ],
+      "chains": 5,
+      "orderPriority": 5,
+      "spCost": 3,
+      "spBreak": { "3": 2 }
+    },
+    {
+      "id": "pool_party_gray",
+      "character": "gray",
+      "name": "Pool Party Gray",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "mediumAOE",
+        "critRateSelfAmp",
+        "critDmgSelfAmp"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "3": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "the_sharpshooter_of_the_mist_gray",
+      "character": "gray",
+      "name": "The Sharpshooter of the Mist Gray",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "dot"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 3,
+      "spBreak": { "3": 2 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["mediumAOE"], "removeEffects": ["smallAOE"], "icon": "range1_4"
+      }]
+    },
+    {
+      "id": "vanguard_gray",
+      "character": "gray",
+      "name": "Vanguard Gray",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "bigAOE",
+        "dot"
+      ],
+      "chains": 5,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "3": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "lugo_hunter_gynt",
+      "character": "gynt",
+      "name": "Lugo Hunter Gynt",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "physAttackDebuff"
+      ],
+      "chains": 2,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "3": 3 }
+    },
+    {
+      "id": "b_rank_idol_helena",
+      "character": "helena",
+      "name": "B-Rank Idol Helena",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "magicAttackAmp",
+        "critRateAmp",
+        "heal"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 3,
+      "spBreak": { "3": 2 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      } ]
+    },
+    {
+      "id": "sunny_inn_hand_helena",
+      "character": "helena",
+      "name": "Sunny Inn Hand Helena",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "dmgAmp",
+        "cooldownReduction"
+      ],
+      "chains": 0,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "1": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "top_idol_helena",
+      "character": "helena",
+      "name": "Top Idol Helena",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "spRegen",
+        "barrierAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 2,
+      "spBreak": { "3": 1 }
+    },
+    {
+      "id": "daughter_of_starwind_high_elf_archer",
+      "character": "high_elf_archer",
+      "name": "Daughter of Starwind High Elf Archer",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "critRateSelfAmp"
+      ],
+      "chains": 4,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "1": 3 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["mediumAOE"], "removeEffects": ["smallAOE"], "icon":"range2_2"
+      }]
+    },
+    {
+      "id": "kind_ruthlessness_hikage",
+      "character": "hikage",
+      "name": "Kind Ruthlessness Hikage",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "smallAOE"
+      ],
+      "chains": 12,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "1": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "noble_flame_ikaruga",
+      "character": "ikaruga",
+      "name": "Noble Flame Ikaruga",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "bigAOE",
+        "physAttackSelfAmp"
+      ],
+      "chains": 6,
+      "orderPriority": 5,
+      "spCost": 6,
+      "spBreak": { "1": 5 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "kardis_bullet_ingrid",
+      "character": "ingrid",
+      "name": "Kardis' Bullet Ingrid",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "3": 3 }
+    },
+    {
+      "id": "beautiful_girl_devotee_jayden",
+      "character": "jayden",
+      "name": "Beautiful Girl Devotee Jayden",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "healSelf",
+        "barrierSelfAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 3,
+      "spBreak": { "3": 2 }
+    },
+    {
+      "id": "manga_research_club_jayden",
+      "character": "jayden",
+      "name": "Manga Research Club Jayden",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "mediumAOE"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 6,
+      "spBreak": { "3": 5 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["bigAOE"], "removeEffects": ["mediumAOE"], "icon":"range1_12"
+      }]
+    },
+    {
+      "id": "healer_julie",
+      "character": "julie",
+      "name": "Healer Julie",
+      "role": [
+        "support"
+      ],
+      "damageType": null,
+      "element": "wind",
+      "effects": [
+        "heal"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 3,
+      "spBreak": { "3": 2 }
+    },
+    {
+      "id": "blood_glutton_justia",
+      "character": "justia",
+      "name": "Blood Glutton Justia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "mediumAOE",
+        "propertyDmgSelfAmp",
+        "healSelf",
+        "fixedDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 3,
+      "spBreak": { "1": 2 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["bigAOE"], "removeEffects": ["mediumAOE"], "icon":"range1_12"
+      }]
+    },
+    {
+      "id": "kendo_club_justia",
+      "character": "justia",
+      "name": "Kendo Club Justia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "smallAOE",
+        "fixedDamage"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "3": 3 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "knight_of_blood_justia",
+      "character": "justia",
+      "name": "Knight of Blood Justia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "smallAOE",
+        "fixedDamage"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "3": 3 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["mediumAOE"], "removeEffects": ["smallAOE"], "icon":"range2_2"
+      }]
+    },
+    {
+      "id": "pool_party_justia",
+      "character": "justia",
+      "name": "Pool Party Justia",
+      "role": [
+        "DPS",
+        "tank",
+        "support"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "evasionSelf",
+        "physAttackSelfAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 10,
+      "spCost": 2,
+      "spBreak": { "3": 1 },
+      "potentials": [{
+        "id": "new_effect", "label": "SP Restoration", "addEffects": ["spRegen"]
+      }]
+    },
+    {
+      "id": "white_reaper_justia",
+      "character": "justia",
+      "name": "White Reaper Justia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "smallAOE",
+        "fixedDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 3,
+      "spBreak": { "3": 2 }
+    },
+    {
+      "id": "liberated_marauder_kry",
+      "character": "kry",
+      "name": "Liberated Marauder Kry",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "defDebuff"
+      ],
+      "chains": 2,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "3": 4 }
+    },
+    {
+      "id": "violent_student_kry",
+      "character": "kry",
+      "name": "Violent Student Kry",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "smallAOE",
+        "spRegen",
+        "knockback",
+        "dot",
+        "hpScalingDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 2,
+      "spBreak": { "3": 1 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "icon":"range2_8"
+      }]
+    },
+    {
+      "id": "eternal_chains_kyouka_uzen",
+      "character": "kyouka_uzen",
+      "name": "Eternal Chains Kyouka Uzen",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "mediumAOE"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 }
+    },
+    {
+      "id": "dark_knight_lathel",
+      "character": "lathel",
+      "name": "Dark Knight Lathel",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "fire",
+      "effects": [
+        "preemptive",
+        "energyGuardSelfAmp",
+        "barrierSelfAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 2,
+      "spBreak": { "3": 1 }
+    },
+    {
+      "id": "herb_tracker_lathel",
+      "character": "lathel",
+      "name": "Herb Tracker Lathel",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "smallAOE",
+        "physAttackSelfAmp",
+        "selfHpConsumption"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 3,
+      "spBreak": { "3": 2 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "icon":"range2_9"
+      }]
+    },
+    {
+      "id": "homunculus_lathel",
+      "character": "lathel",
+      "name": "Homunculus Lathel",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "fire",
+      "effects": [
+        "physAttackAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 2,
+      "spBreak": { "3": 1 }
+    },
+    {
+      "id": "lonely_survivor_lathel",
+      "character": "lathel",
+      "name": "Lonely Survivor Lathel",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "smallAOE",
+        "physAttackSelfAmp",
+        "selfHpConsumption"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "3": 3 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "pool_party_lathel",
+      "character": "lathel",
+      "name": "Pool Party Lathel",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "smallAOE",
+        "critRateSelfAmp",
+        "selfHpConsumption"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "3": 3 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["mediumAOE"], "removeEffects": ["smallAOE"], "icon":"range2_2"
+      }]
+    },
+    {
+      "id": "promise_of_vengeance_lathel",
+      "character": "lathel",
+      "name": "Promise of Vengeance Lathel",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "smallAOE",
+        "physAttackSelfAmp",
+        "selfHpConsumption"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 3,
+      "spBreak": { "3": 2 }
+    },
+    {
+      "id": "anvil_of_creation_layla",
+      "character": "layla",
+      "name": "Anvil of Creation Layla",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "mediumAOE",
+        "spRegen"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 6,
+      "spBreak": { "3": 5 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "android_queen_lecliss",
+      "character": "lecliss",
+      "name": "Android Queen Lecliss",
+      "role": [
+        "tank"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "counter",
+        "energyGuardSelfAmp",
+        "hpScalingDamage"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 4,
+      "spBreak": { "3": 3 }
+    },
+    {
+      "id": "killer_doll_lecliss",
+      "character": "lecliss",
+      "name": "Killer Doll Lecliss",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "wind",
+      "effects": [
+        "taunt",
+        "barrierSelfAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 4,
+      "spBreak": { "3": 3 },
+      "potentials": [
+        {"id": "sp_break", "label": "SP -1", "spDelta": "-1"},
+        {"id": "sp_break_2", "label": "SP -1", "spDelta": "-1"}
+      ]
+    },
+    {
+      "id": "night_of_jealousy_levia",
+      "character": "levia",
+      "name": "Night of Jealousy Levia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "mainTargetDamage"
+      ],
+      "chains": 4,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "3": 4 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["bigAOE"], "removeEffects": ["mediumAOE"], "icon": "range2_4"
+      }]
+    },
+    {
+      "id": "overheat_levia",
+      "character": "levia",
+      "name": "Overheat Levia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "fire",
+      "effects": [
+        "bigAOE",
+        "conditionalDamage",
+        "dispelDebuff"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 }
+    },
+    {
+      "id": "track_and_field_captain_levia",
+      "character": "levia",
+      "name": "Track and Field Captain Levia",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "fire",
+      "effects": [
+        "bigAOE",
+        "magicVulnerability"
+      ],
+      "chains": 4,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "1": 4 }
+    },
+    {
+      "id": "maid_name_r_liatris",
+      "character": "liatris",
+      "name": "Maid Name R Liatris",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "conditionalDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { },
+      "potentials": [
+        {"id": "sp_break", "label": "SP -1", "spDelta": "-1"},
+        {"id": "range_up", "label": "Range Up", "addEffects": ["bigAOE"], "removeEffects": ["mediumAOE"],"icon": "range1_12"}
+      ]
+    },
+    {
+      "id": "neon_stalker_liatris",
+      "character": "liatris",
+      "name": "Neon Stalker Liatris",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "dot"
+      ],
+      "chains": 5,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "3": 3 }
+    },
+    {
+      "id": "rodevs_star_liatris",
+      "character": "liatris",
+      "name": "Rodev's Star Liatris",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "bigAOE",
+        "dot"
+      ],
+      "chains": 5,
+      "orderPriority": 5,
+      "spCost": 6,
+      "spBreak": { "3": 5 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "dark_saintess_liberta",
+      "character": "liberta",
+      "name": "Dark Saintess Liberta",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "fire",
+      "effects": [
+        "physAttackAmp",
+        "critRateAmp",
+        "spRegen"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 3,
+      "spBreak": { "1": 2 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "miracle_rose_liberta",
+      "character": "liberta",
+      "name": "Miracle Rose Liberta",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "critRateSelfAmp",
+        "hpScalingDamage"
+      ],
+      "chains": 5,
+      "orderPriority": 5,
+      "spCost": 2,
+      "spBreak": { "1": 1 }
+    },
+    {
+      "id": "onsen_manager_liberta",
+      "character": "liberta",
+      "name": "Onsen Manager Liberta",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "fire",
+      "effects": [
+        "conditionalDmgAmp",
+        "heal"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 3,
+      "spBreak": { "1": 2 }
+    },
+    {
+      "id": "wandering_priest_lisianne",
+      "character": "lisianne",
+      "name": "Wandering Priest Lisianne",
+      "role": [
+        "support"
+      ],
+      "damageType": null,
+      "element": "wind",
+      "effects": [
+        "heal",
+        "dispelDebuff"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 3,
+      "spBreak": { "3": 2 },
+      "potentials": [{
+        "id": "new_effect", "label": "Energy Guard", "addEffects": ["energyGuardAmp"]
+      }]
+    },
+    {
+      "id": "celebrity_bunny_loen",
+      "character": "loen",
+      "name": "Celebrity Bunny Loen",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "fire",
+      "effects": [
+        "bigAOE",
+        "conditionalDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 7,
+      "spBreak": { "1": 6 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "icon": "range2_21"
+      }]
+    },
+    {
+      "id": "last_hope_loen",
+      "character": "loen",
+      "name": "Last Hope Loen",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "fire",
+      "effects": [
+        "mediumAOE"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["bigAOE"], "removeEffects": ["mediumAOE"], "icon": "range1_12"
+      }]
+    },
+    {
+      "id": "track_and_field_team_loen",
+      "character": "loen",
+      "name": "Track and Field Team Loen",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "magicAttackSelfAmp"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 }
+    },
+    {
+      "id": "seductive_wings_lucrezia",
+      "character": "lucrezia",
+      "name": "Seductive Wings Lucrezia",
+      "role": [
+        "support",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "silence",
+        "spRegen"
+      ],
+      "chains": 2,
+      "orderPriority": 5,
+      "spCost": 3,
+      "spBreak": { "3": 2 }
+    },
+    {
+      "id": "deal_snatcher_luvencia",
+      "character": "luvencia",
+      "name": "Deal Snatcher Luvencia",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "mainTargetDamage"
+      ],
+      "chains": 8,
+      "orderPriority": 5,
+      "spCost": 6,
+      "spBreak": { "1": 5 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "ocean_vanguard_luvencia",
+      "character": "luvencia",
+      "name": "Ocean Vanguard Luvencia",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "physAttackSelfAmp",
+        "chainDmgSelfAmp"
+      ],
+      "chains": 8,
+      "orderPriority": 5,
+      "spCost": 6,
+      "spBreak": { "1": 5 }
+    },
+    {
+      "id": "wild_dog_luvencia",
+      "character": "luvencia",
+      "name": "Wild Dog Luvencia",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "conditionalDamage"
+      ],
+      "chains": 8,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "1": 4 }
+    },
+    {
+      "id": "apprentice_spearman_lydia",
+      "character": "lydia",
+      "name": "Apprentice Spearman Lydia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "3": 3 }
+    },
+    {
+      "id": "miracle_marine_mamonir",
+      "character": "mamonir",
+      "name": "Miracle Marine Mamonir",
+      "role": [
+        "tank",
+        "debuffer"
+      ],
+      "damageType": null,
+      "element": "water",
+      "effects": [
+        "barrierSelfAmp",
+        "reactiveVulnerability"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 3,
+      "spBreak": { "1": 2 }
+    },
+    {
+      "id": "night_of_death_mamonir",
+      "character": "mamonir",
+      "name": "Night of Death Mamonir",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "mediumAOE",
+        "critDmgSelfAmp",
+        "hpScalingDamage"
+      ],
+      "chains": 8,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "1": 3 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["bigAOE"], "removeEffects": ["mediumAOE"], "icon":"range1_29"
+      }]
+    },
+    {
+      "id": "archmage_maria",
+      "character": "maria",
+      "name": "Archmage Maria",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "smallAOE"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "3": 4 }
+    },
+    {
+      "id": "acting_archbishop_michaela",
+      "character": "michaela",
+      "name": "Acting Archbishop Michaela",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "bigAOE",
+        "critDmgSelfAmp"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "1": 3 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "beachside_justice_michaela",
+      "character": "michaela",
+      "name": "Beachside Justice Michaela",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "smallAOE",
+        "magicAttackSelfAmp",
+        "selfHpConsumption"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "1": 3 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["mediumAOE"], "removeEffects": ["smallAOE"], "icon":"range2_3"
+      }]
+    },
+    {
+      "id": "queen_of_signatures_michaela",
+      "character": "michaela",
+      "name": "Queen of Signatures Michaela",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "bigAOE",
+        "spConsumption"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 3,
+      "spBreak": { "1": 2 }
+    },
+    {
+      "id": "apostle_morpeah",
+      "character": "morpeah",
+      "name": "Apostle Morpeah",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "bigAOE",
+        "focusFire",
+        "summonsVulnerability"
+      ],
+      "chains": 1,
+      "orderPriority": 5,
+      "spCost": 3,
+      "spBreak": { "1": 2 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "beach_vacation_morpeah",
+      "character": "morpeah",
+      "name": "Beach Vacation Morpeah",
+      "role": [
+        "support",
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "preemptive",
+        "summon"
+      ],
+      "chains": 0,
+      "orderPriority": 3,
+      "spCost": 6,
+      "spBreak": { },
+      "potentials": [
+        {"id": "sp_break", "label": "SP -1", "spDelta": "-1"},
+        {"id": "new_effect", "label": "Barrier", "addEffects": ["barrierSelfAmp"]}
+      ]
+    },
+    {
+      "id": "daydream_bunny_morpeah",
+      "character": "morpeah",
+      "name": "Daydream Bunny Morpeah",
+      "role": [
+        "support",
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "summon",
+        "mresDebuff",
+        "DPS"
+      ],
+      "chains": 0,
+      "orderPriority": 3,
+      "spCost": 3,
+      "spBreak": { },
+      "potentials": [
+        {"id": "sp_break", "label": "SP -1", "spDelta": "-1"},
+        {"id": "sp_break_2", "label": "SP -1", "spDelta": "-1"}
+      ]
+    },
+    {
+      "id": "anonymous_sage_nartas",
+      "character": "nartas",
+      "name": "Anonymous Sage Nartas",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "conditionalDamage",
+        "barrierSelfAmp"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "labyrinth_gatekeeper_nebris",
+      "character": "nebris",
+      "name": "Labyrinth Gatekeeper Nebris",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "dmgSelfAmp",
+        "critDmgSelfAmp"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "1": 3 }
+    },
+    {
+      "id": "laid_back_lifeguard_nebris",
+      "character": "nebris",
+      "name": "Laid-back Lifeguard Nebris",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "mediumAOE",
+        "physAttackSelfAmp",
+        "propertyDmgSelfAmp"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "1": 3 }
+    },
+    {
+      "id": "new_hire_nebris",
+      "character": "nebris",
+      "name": "New Hire Nebris",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "mediumAOE",
+        "conditionalDamage"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "1": 3 }
+    },
+    {
+      "id": "deadeye_nekyndalia",
+      "character": "nekyndalia",
+      "name": "Deadeye Nekyndalia",
+      "role": [
+        "DPS",
+        "chainer",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "mark"
+      ],
+      "chains": 10,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "1": 3 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["mediumAOE"], "removeEffects": ["smallAOE"], "icon": "range1_27"
+      }]
+    },
+    {
+      "id": "apostle_olivier",
+      "character": "olivier",
+      "name": "Apostle Olivier",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "preemptive",
+        "evasionSelf",
+        "magicAttackSelfAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 2,
+      "spBreak": { "1": 1 }
+    },
+    {
+      "id": "faithful_wings_olivier",
+      "character": "olivier",
+      "name": "Faithful Wings Olivier",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "bigAOE",
+        "spRegen",
+        "conditionalDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 3,
+      "spBreak": { "1": 2 }
+    },
+    {
+      "id": "fallen_wings_olivier",
+      "character": "olivier",
+      "name": "Fallen Wings Olivier",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "mediumAOE",
+        "conditionalDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 2,
+      "spBreak": { "1": 1 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["bigAOE"], "removeEffects": ["mediumAOE"], "icon":"range2_31"
+      }]
+    },
+    {
+      "id": "retired_legend_olivier",
+      "character": "olivier",
+      "name": "Retired Legend Olivier",
+      "role": [
+        "support",
+        "chainer",
+        "buffer",
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "smallAOE",
+        "domain",
+        "magicAttackAmp"
+      ],
+      "chains": 6,
+      "orderPriority": 4,
+      "spCost": 6,
+      "spBreak": { "1": 5 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "sage_of_blue_clouds_olstein",
+      "character": "olstein",
+      "name": "Sage of Blue Clouds Olstein",
+      "role": [
+        "debuffer",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "mediumAOE",
+        "dispelBuff",
+        "attackDebuff",
+        "magicAttackDebuff"
+      ],
+      "chains": 7,
+      "orderPriority": 5,
+      "spCost": 2,
+      "spBreak": { "3": 1 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["bigAOE"], "removeEffects": ["mediumAOE"], "icon":"range1_12"
+      }]
+    },
+    {
+      "id": "the_fiend_scholar_olstein",
+      "character": "olstein",
+      "name": "The Fiend Scholar Olstein",
+      "role": [
+        "support",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "bigAOE",
+        "spRegen",
+        "spDrain",
+        "silence"
+      ],
+      "chains": 1,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "3": 3 }
+    },
+    {
+      "id": "miracle_violet_palette",
+      "character": "palette",
+      "name": "Miracle Violet Palette",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "conditionalDamage"
+      ],
+      "chains": 7,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 }
+    },
+    {
+      "id": "shattered_dream_palette",
+      "character": "palette",
+      "name": "Shattered Dream Palette",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "debuffDurationIncrease"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "1": 3 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["bigAOE"], "removeEffects": ["mediumAOE"], "icon":"range1_12"
+      }]
+    },
+    {
+      "id": "earth_mother_believer_priestess",
+      "character": "priestess",
+      "name": "Earth Mother Believer Priestess",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "bigAOE",
+        "magicVulnerability"
+      ],
+      "chains": 1,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "1": 3 }
+    },
+    {
+      "id": "code_name_a_rafina",
+      "character": "rafina",
+      "name": "Code Name A Rafina",
+      "role": [
+        "DPS",
+        "chainer",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "mediumAOE",
+        "defDebuff"
+      ],
+      "chains": 5,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "3": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "game_club_rafina",
+      "character": "rafina",
+      "name": "Game Club Rafina",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "bigAOE",
+        "physVulnerability"
+      ],
+      "chains": 3,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "1": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "steel_engine_rafina",
+      "character": "rafina",
+      "name": "Steel Engine Rafina",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "mediumAOE",
+        "dispelShield"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "3": 3 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["bigAOE"], "removeEffects": ["mediumAOE"], "icon":"range2_4"
+      }]
+    },
+    {
+      "id": "poolside_fairy_refithea",
+      "character": "refithea",
+      "name": "Poolside Fairy Refithea",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "propertyDmgAmp",
+        "spCostReduction"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 7,
+      "spBreak": { "1": 6 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "icon":"range1_12"
+      }]
+    },
+    {
+      "id": "pure_white_blessing_refithea",
+      "character": "refithea",
+      "name": "Pure White Blessing Refithea",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "propertyDmgAmp",
+        "chainReinforcement",
+        "energyGuardAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 3,
+      "spBreak": { "1": 2 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "icon":"range1_12"
+      }]
+    },
+    {
+      "id": "the_gluttonous_refithea",
+      "character": "refithea",
+      "name": "The Gluttonous Refithea",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "light",
+      "effects": [
+        "critDmgAmp",
+        "aura",
+        "barrierAmp",
+        "spRegen"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 3,
+      "spBreak": { "1": 2 }
+    },
+    {
+      "id": "combat_doctor_remnunt",
+      "character": "remnunt",
+      "name": "Combat Doctor Remnunt",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "physAttackDebuff"
+      ],
+      "chains": 2,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "3": 3 }
+    },
+    {
+      "id": "little_hunter_rigenette",
+      "character": "rigenette",
+      "name": "Little Hunter Rigenette",
+      "role": [
+        "debuffer",
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "focusFire",
+        "smallAOE"
+      ],
+      "chains": 2,
+      "orderPriority": 5,
+      "spCost": 2,
+      "spBreak": { "3": 1 }
+    },
+    {
+      "id": "natures_claw_rou",
+      "character": "rou",
+      "name": "Nature's Claw Rou",
+      "role": [
+        "DPS",
+        "tank",
+        "chainer",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "evasionSelf",
+        "hpScalingDamage",
+        "smallAOE"
+      ],
+      "chains": 5,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "3": 4 },
+      "potentials": [
+        {"id": "sp_break", "label": "SP -1", "spDelta": "-1"},
+        {"id": "new_effect", "label": "DEF Reduction", "addEffects": ["defDebuff"]}
+      ]
+    },
+    {
+      "id": "red_riding_hood_rou",
+      "character": "rou",
+      "name": "Red Riding Hood Rou",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "dark",
+      "effects": [
+        "critRateAmp",
+        "critDmgAmp",
+        "energyGuardAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 4,
+      "spBreak": { "3": 3 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "stray_cat_rou",
+      "character": "rou",
+      "name": "Stray Cat Rou",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "critRateSelfAmp"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "white_cat_rou",
+      "character": "rou",
+      "name": "White Cat Rou",
+      "role": [
+        "DPS",
+        "tank"
+      ],
+      "damageType": "physical",
+      "element": "dark",
+      "effects": [
+        "evasionSelf",
+        "knockback",
+        "dot",
+        "percentageDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 2,
+      "spBreak": { "3": 1 }
+    },
+    {
+      "id": "emerging_desire_roxy",
+      "character": "roxy",
+      "name": "Emerging Desire Roxy",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "silence"
+      ],
+      "chains": 3,
+      "orderPriority": 5,
+      "spCost": 2,
+      "spBreak": { "1": 1 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "icon":"range1_3"
+      }]
+    },
+    {
+      "id": "respected_master_roxy",
+      "character": "roxy",
+      "name": "Respected Master Roxy",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "bigAOE",
+        "mainTargetDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 7,
+      "spBreak": { "1": 6 }
+    },
+    {
+      "id": "maid_bikini_rubia",
+      "character": "rubia",
+      "name": "Maid Bikini Rubia",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "smallAOE",
+        "dot",
+        "dotVulnerability"
+      ],
+      "chains": 1,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "1": 3 }
+    },
+    {
+      "id": "maid_name_c_rubia",
+      "character": "rubia",
+      "name": "Maid Name C Rubia",
+      "role": [
+        "DPS",
+        "tank"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "evasionSelf",
+        "physAttackSelfAmp"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 3,
+      "spBreak": { "1": 2 }
+    },
+    {
+      "id": "the_empress_of_the_ocean_rubia",
+      "character": "rubia",
+      "name": "The Empress of the Ocean Rubia",
+      "role": [
+        "DPS",
+        "chainer",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "bigAOE",
+        "defDebuff"
+      ],
+      "chains": 6,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "3": 4 }
+    },
+    {
+      "id": "thorn_of_the_desert_rubia",
+      "character": "rubia",
+      "name": "Thorn of the Desert Rubia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "dot"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "3": 3 }
+    },
+    {
+      "id": "reclaimed_destiny_sacred_justia",
+      "character": "sacred_justia",
+      "name": "Reclaimed Destiny Sacred Justia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "bigAOE",
+        "conditionalDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 6,
+      "spBreak": { "1": 5 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "icon":"range2_21"
+      }]
+    },
+    {
+      "id": "kind_liberator_samay",
+      "character": "samay",
+      "name": "Kind Liberator Samay",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "mresDebuff"
+      ],
+      "chains": 2,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "3": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "kind_student_samay",
+      "character": "samay",
+      "name": "Kind Student Samay",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "dark",
+      "effects": [
+        "physAttackAmp",
+        "magicAttackAmp",
+        "heal"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 2,
+      "spBreak": { "3": 1 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "code_name_s_scheherazade",
+      "character": "scheherazade",
+      "name": "Code Name S Scheherazade",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "mediumAOE",
+        "dispelBuff",
+        "silence"
+      ],
+      "chains": 3,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "3": 3 }
+    },
+    {
+      "id": "pool_party_scheherazade",
+      "character": "scheherazade",
+      "name": "Pool Party Scheherazade",
+      "role": [
+        "DPS",
+        "chainer",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "mediumAOE",
+        "dispelBuff",
+        "conditionalDamage"
+      ],
+      "chains": 5,
+      "orderPriority": 5,
+      "spCost": 3,
+      "spBreak": { "3": 2 }
+    },
+    {
+      "id": "the_lapis_witch_scheherazade",
+      "character": "scheherazade",
+      "name": "The Lapis Witch Scheherazade",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "mediumAOE",
+        "dispelBuff"
+      ],
+      "chains": 3,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "3": 3 }
+    },
+    {
+      "id": "the_magic_school_professor_scheherazade",
+      "character": "scheherazade",
+      "name": "The Magic School Professor Scheherazade",
+      "role": [
+        "DPS",
+        "chainer",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "bigAOE",
+        "dispelBuff"
+      ],
+      "chains": 7,
+      "orderPriority": 5,
+      "spCost": 6,
+      "spBreak": { "3": 5 },
+      "potentials": [
+        {"id": "sp_break", "label": "SP -1", "spDelta": "-1"},
+        {"id": "new_effect", "label": "MRES Reduction", "addEffects": ["mresDebuff"]}
+      ]
+    },
+    {
+      "id": "b_rank_idol_seir",
+      "character": "seir",
+      "name": "B-Rank Idol Seir",
+      "role": [
+        "tank",
+        "support"
+      ],
+      "damageType": null,
+      "element": "dark",
+      "effects": [
+        "barrierSelfAmp",
+        "spRegen"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 2,
+      "spBreak": { "3": 1 },
+      "potentials": [{
+        "id": "new_effect", "label": "Energy Guard", "addEffects": ["energyGuardSelfAmp"]
+      }]
+    },
+    {
+      "id": "demons_daughter_seir",
+      "character": "seir",
+      "name": "Demon's Daughter Seir",
+      "role": [
+        "tank"
+      ],
+      "damageType": null,
+      "element": "dark",
+      "effects": [
+        "barrierSelfAmp",
+        "healSelf"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 3,
+      "spBreak": { "3": 2 },
+      "potentials": [
+        {"id": "sp_break", "label": "SP -1", "spDelta": "-1"},
+        {"id": "new_effect", "label": "Taunt", "addEffects": ["taunt"]}
+      ]
+    },
+    {
+      "id": "new_hire_seir",
+      "character": "seir",
+      "name": "New Hire Seir",
+      "role": [
+        "tank",
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "dark",
+      "effects": [
+        "reactiveDmgAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 3,
+      "spBreak": { },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "little_pumpkin_girl_sonya",
+      "character": "sonya",
+      "name": "Little Pumpkin Girl Sonya",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "conditionalDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "1": 4 }
+    },
+    {
+      "id": "shadowed_dream_sonya",
+      "character": "sonya",
+      "name": "Shadowed Dream Sonya",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "mediumAOE",
+        "vulnerability",
+        "darkVulnerability"
+      ],
+      "chains": 1,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "1": 3 }
+    },
+    {
+      "id": "supreme_god_archbishop_sword_maiden",
+      "character": "sword_maiden",
+      "name": "Supreme God Archbishop Sword Maiden",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "light",
+      "effects": [
+        "bigAOE"
+      ],
+      "chains": 5,
+      "orderPriority": 5,
+      "spCost": 6,
+      "spBreak": { "1": 5 }
+    },
+    {
+      "id": "admiral_sylvia",
+      "character": "sylvia",
+      "name": "Admiral Sylvia",
+      "role": [
+        "tank",
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "mediumAOE",
+        "energyGuardSelfAmp"
+      ],
+      "chains": 5,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "3": 3 }
+    },
+    {
+      "id": "bikini_agent_sylvia",
+      "character": "sylvia",
+      "name": "Bikini Agent Sylvia",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "bigAOE",
+        "buffDurationSelfIncrease"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 }
+    },
+    {
+      "id": "desert_flower_sylvia",
+      "character": "sylvia",
+      "name": "Desert Flower Sylvia",
+      "role": [
+        "tank",
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "counter",
+        "barrierSelfAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 4,
+      "spBreak": { "3": 3 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "the_sword_queen_sylvia",
+      "character": "sylvia",
+      "name": "The Sword Queen Sylvia",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "physAttackSelfAmp"
+      ],
+      "chains": 4,
+      "orderPriority": 10,
+      "spCost": 1,
+      "spBreak": { }
+    },
+    {
+      "id": "ame_no_mitori_tenka_izumo",
+      "character": "tenka_izumo",
+      "name": "Ame-no-Mitori Tenka Izumo",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 6,
+      "spBreak": { "1": 5 }
+    },
+    {
+      "id": "angel_of_destruction_teresse",
+      "character": "teresse",
+      "name": "Angel of Destruction Teresse",
+      "role": [
+        "DPS",
+        "support"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "spRegen",
+        "knockback",
+        "dot",
+        "percentageDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 5,
+      "spCost": 2,
+      "spBreak": { "3": 1 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["mediumAOE"], "removeEffects": ["smallAOE"], "icon":"range2_2"
+      }]
+    },
+    {
+      "id": "beachside_angel_teresse",
+      "character": "teresse",
+      "name": "Beachside Angel Teresse",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "water",
+      "effects": [
+        "conditionalDmgAmp"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 4,
+      "spBreak": { "1": 3 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "medical_club_teresse",
+      "character": "teresse",
+      "name": "Medical Club Teresse",
+      "role": [
+        "support",
+        "buffer"
+      ],
+      "damageType": null,
+      "element": "water",
+      "effects": [
+        "physAttackAmp",
+        "magicAttackAmp",
+        "heal"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 4,
+      "spBreak": { "1": 3 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "icon": "range2_21"
+      }]
+    },
+    {
+      "id": "innocent_bunny_tyr",
+      "character": "tyr",
+      "name": "Innocent Bunny Tyr",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "mediumAOE",
+        "conditionalDamage",
+        "spCostIncreaseSelf"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { }
+    },
+    {
+      "id": "starlight_guardian_tyr",
+      "character": "tyr",
+      "name": "Starlight Guardian Tyr",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "bigAOE",
+        "spCostIncreaseSelf"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 6,
+      "spBreak": { "1": 5 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "dj_venaka",
+      "character": "venaka",
+      "name": "DJ Venaka",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "mediumAOE",
+        "mresDebuff"
+      ],
+      "chains": 1,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "1": 3 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["bigAOE"], "removeEffects": ["mediumAOE"],"icon":"range2_4"
+      }]
+    },
+    {
+      "id": "wind_dancer_venaka",
+      "character": "venaka",
+      "name": "Wind Dancer Venaka",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "bigAOE",
+        "windVulnerability"
+      ],
+      "chains": 1,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "1": 3 }
+    },
+    {
+      "id": "comeback_idol_ventana",
+      "character": "ventana",
+      "name": "Comeback Idol Ventana",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "physAttackSelfAmp",
+        "pureDamage",
+        "conditionalDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "onsen_practitioner_ventana",
+      "character": "ventana",
+      "name": "Onsen Practitioner Ventana",
+      "role": [
+        "DPS",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "lightVulnerability",
+        "conditionalDebuff"
+      ],
+      "chains": 1,
+      "orderPriority": 5,
+      "spCost": 3,
+      "spBreak": { "1": 2 }
+    },
+    {
+      "id": "snow_white_ventana",
+      "character": "ventana",
+      "name": "Snow White Ventana",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "conditionalDamage"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "3": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "bomb_fanatic_wiggle",
+      "character": "wiggle",
+      "name": "Bomb Fanatic Wiggle",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "selfDestruct"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4, "3": 3 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "bomb_in_the_hoodie_wiggle",
+      "character": "wiggle",
+      "name": "Bomb in the Hoodie Wiggle",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "mediumAOE",
+        "dot"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 6,
+      "spBreak": { "3": 5 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "frozen_queen_wilhelmina",
+      "character": "wilhelmina",
+      "name": "Frozen Queen Wilhelmina",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "propertyDmgSelfAmp"
+      ],
+      "chains": 6,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "iron_monarch_wilhelmina",
+      "character": "wilhelmina",
+      "name": "Iron Monarch Wilhelmina",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE"
+      ],
+      "chains": 12,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "1": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "water_park_queen_wilhelmina",
+      "character": "wilhelmina",
+      "name": "Water Park Queen Wilhelmina",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "chainReinforcementSelf"
+      ],
+      "chains": 9,
+      "orderPriority": 5,
+      "spCost": 5,
+      "spBreak": { "1": 4 }
+    },
+    {
+      "id": "gentle_destroyer_yomi",
+      "character": "yomi",
+      "name": "Gentle Destroyer Yomi",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "bigAOE"
+      ],
+      "chains": 4,
+      "orderPriority": 10,
+      "spCost": 7,
+      "spBreak": { },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "fist_of_conviction_yozakura",
+      "character": "yozakura",
+      "name": "Fist of Conviction Yozakura",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "smallAOE",
+        "basicAttackAugmentation"
+      ],
+      "chains": 3,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 }
+    },
+    {
+      "id": "dancing_snowflake_yumi",
+      "character": "yumi",
+      "name": "Dancing Snowflake Yumi",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "dot"
+      ],
+      "chains": 5,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 },
+      "potentials": [
+        {"id": "sp_break", "label": "SP -1", "spDelta": "-1"},
+        {"id": "range_up", "label": "Range Up","icon":"range3_1", "addEffects": ["mediumAOE"], "removeEffects": ["smallAOE"]}
+      ]
+    },
+    {
+      "id": "comeback_idol_yuri",
+      "character": "yuri",
+      "name": "Comeback Idol Yuri",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "mediumAOE",
+        "critDmgSelfAmp",
+        "targetAvoidance"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 4,
+      "spBreak": { "1": 3 }
+    },
+    {
+      "id": "whitebolt_yuri",
+      "character": "yuri",
+      "name": "Whitebolt Yuri",
+      "role": [
+        "DPS",
+        "chainer",
+        "debuffer"
+      ],
+      "damageType": "physical",
+      "element": "light",
+      "effects": [
+        "mediumAOE",
+        "physAttackSelfAmp",
+        "dispelBuff"
+      ],
+      "chains": 4,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "1": 3 }
+    },
+    {
+      "id": "poolside_guardian_zenith",
+      "character": "zenith",
+      "name": "Poolside Guardian Zenith",
+      "role": [
+        "debuffer",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "focusFire",
+        "chainDmgAmp"
+      ],
+      "chains": 6,
+      "orderPriority": 5,
+      "spCost": 4,
+      "spBreak": { "1": 3 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    },
+    {
+      "id": "robin_hood_zenith",
+      "character": "zenith",
+      "name": "Robin Hood Zenith",
+      "role": [
+        "debuffer",
+        "chainer"
+      ],
+      "damageType": "physical",
+      "element": "wind",
+      "effects": [
+        "focusFire",
+        "vulnerability"
+      ],
+      "chains": 6,
+      "orderPriority": 5,
+      "spCost": 2,
+      "spBreak": { "3": 1 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
+      }]
+    }
+]
