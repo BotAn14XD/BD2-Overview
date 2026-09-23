@@ -263,7 +263,7 @@ This site focuses on high-quality explanations for every game aspect for new pla
 
 </div>
 
-<!--<div class="grid cards center-content" markdown>
+<div class="grid cards center-content" markdown>
 
 -   ![Cymmina's Website](assets/images/site-assets/index-pc-nav-17.avif){: .card-header-img }
 
@@ -271,7 +271,7 @@ This site focuses on high-quality explanations for every game aspect for new pla
 
     [Check the Website →](http://cymmina.gamependium.com/browndust2/){: .md-button }
 
-</div>-->
+</div>
 
 
 

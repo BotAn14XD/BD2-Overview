@@ -125,7 +125,7 @@ A disabled Potential will have a lock icon, indicating it is not used at the mom
 2.  **DPS:** "Quality of Life" upgrades first (**SP Cost Reduction**, **Cooldown Reduction**, **AoE Expansion**). **<u>Do not target Damage nodes until you are done with most supports</u>**.
 
 !!! quote ""
-    **For a detailed priority list, check out <u>[Cymmina's Potential Guide](https://web.archive.org/web/20260807024523/http://cymmina.gamependium.com/browndust2/growth.html#potentials)</u>**.
+    **For a detailed priority list, check out <u>[Cymmina's Potential Guide](http://cymmina.gamependium.com/browndust2/growth.html#potentials)</u>**.
 
 ---
 
