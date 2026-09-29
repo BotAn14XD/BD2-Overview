@@ -2796,6 +2796,28 @@
       "spBreak": { "3": 3 }
     },
     {
+      "id": "lord_of_the_cosmos_ren_yamashiro",
+      "character": "Ren Yamashiro",
+      "name": "Lord of the Cosmos Ren Yamashiro",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "water",
+      "effects": [
+        "smallAOE",
+        "evasionSelf"
+      ],
+      "chains": 1,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 },
+      "potentials": [
+        {"id": "sp_break", "label": "SP -1", "spDelta": "-1"},
+        {"id": "range_up", "label": "Range Up", "addEffects": ["mediumAOE"], "removeEffects": ["smallAOE"],"icon": "range1_27"}
+      ]
+    },
+    {
       "id": "little_hunter_rigenette",
       "character": "rigenette",
       "name": "Little Hunter Rigenette",
