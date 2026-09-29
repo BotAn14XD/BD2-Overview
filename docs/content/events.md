@@ -5,7 +5,7 @@ hero: assets/images/site-assets/index-pc-nav-18.avif
 icon: material/clock-time-ten
 ---
 ![Season Event](../assets/images/site-assets/index-pc-nav-18.avif){: .card-header-img fetchpriority=high loading=eager}
-#
+# Season Events {: .sr-only }
 
 A **Season Event** is a recurring, limited-time activity typically lasting two weeks that introduces unique story content, specialized combat encounters, and event-exclusive rewards.
 

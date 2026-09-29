@@ -7,8 +7,8 @@ icon: material/calculator-variant
 
 ---
 
-![Fiend Hunter](../assets/images/site-assets/index-pc-nav-29.avif){: .card-header-img fetchpriority=high loading=eager }
-#
+![Fiend Hunter Calculator](../assets/images/site-assets/index-pc-nav-29.avif){: .card-header-img fetchpriority=high loading=eager }
+# Fiend Hunter Calculator {: .sr-only }
 
 This is a calculator for [Fiend Hunter](../content/fh.md) Bosses stats and threshold damage. 
 

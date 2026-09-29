@@ -9,8 +9,7 @@ icon: material/sword-cross
 ---
 
 ![Golden Colosseum](../assets/images/site-assets/index-pc-nav-25.avif){: .card-header-img fetchpriority=high loading=eager }
-
-#
+# Golden Colosseum {: .sr-only }
 
 **Golden Colosseum** is a weekly seasonal [PvP](../misc/slang.md?term=PvP) content.
 

@@ -6,7 +6,7 @@ icon: material/calculator
 ---
 
 ![Damage Formula](../assets/images/site-assets/index-pc-nav-3.avif){: .card-header-img fetchpriority=high loading=eager }
-#
+# Damage Formula {: .sr-only }
 
 !!! abstract "TL;DR"
     The Damage Formula consists of a few multipliers, the main of which are {{ATK}} $\text{\textcolor{ffe8aa}{ATK}}$ / {{MATK}} $\text{\textcolor{ffa6ff}{MATK}}$ and its Buffs, {{CritDMG}} $\text{\textcolor{white}{CDMG}}$ and its buffs, $\text{\textcolor{8A9A5B}{Property Damage}}$, $\text{Vulnerability}$ with $\text{DMG Increase}$ Buffs, and, lastly, $\text{Chains}$.

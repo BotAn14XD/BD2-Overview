@@ -69,6 +69,14 @@ This site focuses on high-quality explanations for every game aspect for new pla
     [View Page →](./mechanics/damage-formula.md){: .md-button }
 </div>
 
+<div class="grid cards center-content" markdown>
+-   ![Gacha System](assets/images/site-assets/index-pc-nav-31.avif){: .card-header-img }
+
+    ---
+
+    [View Page →](./mechanics/gacha.md){: .md-button }
+</div>
+
 ---
 
 <div class="banner-container">

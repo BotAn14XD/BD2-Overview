@@ -8,7 +8,7 @@ icon: simple/sparkpost
 
 ---
 ![Burst System](../assets/images/site-assets/index-pc-nav-6.avif){: .card-header-img fetchpriority=high loading=eager }
-#
+# Burst System {: .sr-only }
 
 The Burst System is one of the costume upgrading systems.<br>**It allows you to spend more SP to activate the ability in exchange for having the ability enhanced.**
 

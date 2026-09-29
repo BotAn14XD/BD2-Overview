@@ -8,8 +8,7 @@ icon: octicons/checklist-24
 ---
 
 ![Game Routine Checklists](./assets/images/site-assets/index-pc-nav-28.avif){: .card-header-img fetchpriority=high loading=eager }
-
-#
+# Game Routine Checklists {: .sr-only }
 
 This checklist helps you track Brown Dust II **Daily**, **Weekly**, **Biweekly**, **Seasonal**, and **Monthly** resets.
 

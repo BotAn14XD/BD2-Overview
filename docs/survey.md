@@ -7,8 +7,7 @@ icon: material/poll
 
 ---
 ![Survey](assets/images/site-assets/index-pc-nav-22.avif){: .card-header-img }
-
-#
+# Survey {: .sr-only }
 
 
 
@@ -111,7 +110,7 @@ icon: material/poll
 <label class="survey-choice-box"><input type="radio" name="ads" value="No">No</label>
 <label class="survey-choice-box"><input type="radio" name="ads" value="No Preference">No Preference / Whatever</label>
 
-<p>If there were a Patreon subscription, would you pay for it, and if yes, is there anything you would like to have as a "reward" for a subscription?</p>
+<!--<p>If there were a Patreon subscription, would you pay for it, and if yes, is there anything you would like to have as a "reward" for a subscription?</p>
 
 <label class="survey-choice-box">
 <div class="survey-choice-other-wrapper">
@@ -120,7 +119,7 @@ icon: material/poll
     <input type="text" id="other-text-patreon" placeholder="Please specify..." disabled>
 </div></label>
 <label class="survey-choice-box"><input type="radio" name="patreon" value="No">No</label>
-<label class="survey-choice-box"><input type="radio" name="patreon" value="Not Interested">Not Interested</label>
+<label class="survey-choice-box"><input type="radio" name="patreon" value="Not Interested">Not Interested</label>-->
 
 <hr>
 

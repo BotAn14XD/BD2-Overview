@@ -7,7 +7,7 @@ icon: fontawesome/solid/spaghetti-monster-flying
 ---
 
 ![Fiend Hunter](../assets/images/site-assets/index-pc-nav-19.avif){: .card-header-img fetchpriority=high loading=eager }
-#
+# Fiend Hunter {: .sr-only }
 
 Fiend Hunter is an activity revolving around defeating a Boss that becomes stronger with each level. Defeating the Boss successfully grants various rewards.
 

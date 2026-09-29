@@ -8,8 +8,7 @@ icon: material/puzzle
 
 ---
 ![Taros Tactical Manual](../assets/images/site-assets/index-pc-nav-24.avif){: .card-header-img fetchpriority=high loading=eager }
-
-#
+# Taros Tactical Manual {: .sr-only }
 
 **Taros Tactical Manual** is a game mode revolving around completing battles using a fixed set of Characters.
 

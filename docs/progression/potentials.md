@@ -7,7 +7,7 @@ icon: material/dots-vertical
 ---
 
 ![Potential Liberation](../assets/images/site-assets/index-pc-nav-5.avif){: .card-header-img fetchpriority=high loading=eager }
-#
+# Potential Liberation {: .sr-only }
 
 Potential Liberation (often called **"Pots"**) is the system used to upgrade a costume's performance and a character's stats.
 
