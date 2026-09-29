@@ -148,10 +148,15 @@ IMAGES = {
         "Wind_Magic_Crystal": ["assets/images/icons/icon_resource113_17.avif", "Wind Magic Crystal"],
         "Wooden_Branch": ["assets/images/territory/icons/icon_life_item_consumption_006.avif", "Wooden Branch"],
         "Yellow_Slime": ["assets/images/icons/icon_resource9001_59.avif", "Yellow Slime"],
+
         "S": ["assets/images/gear-system/icons/S_score.avif", "S Gear Score"],
         "A": ["assets/images/gear-system/icons/A_score.avif", "A Gear Score"],
         "B": ["assets/images/gear-system/icons/B_score.avif", "B Gear Score"],
         "C": ["assets/images/gear-system/icons/C_score.avif", "C Gear Score"],
+
+        "Third_Anniversary_S5_Costume_Draw_Ticket": ["assets/images/icons/icon_resource40029_413_5.avif", "3rd Anniversary ★5 Costume Draw Ticket"],
+        "UR_Exclusive_Gear_Guaranteed_Draw_Exchange_Ticket": ["assets/images/icons/icon_resource40007_129.avif", "UR Exclusive Gear Guaranteed Draw Exchange Ticket"],
+        "SR_Exclusive_Gear_Guaranteed_Draw_Exchange_Ticket": ["assets/images/icons/icon_resource40008_130.avif", "SR Exclusive Gear Guaranteed Draw Exchange Ticket"],
 
         # TERRITORY 
 
@@ -208,4 +213,11 @@ IMAGES = {
         "Frost2": ["assets/images/soul-wager/icons/icon_buff_019.avif","Frost"],
         "Darkness2": ["assets/images/soul-wager/icons/icon_buff_020.avif","Darkness"],
         "Laceration2": ["assets/images/soul-wager/icons/icon_buff_021.avif","Laceration"],
+
+        "pl0": ["assets/images/icons/upgrades/upgrade_0.avif", "+0"],
+        "pl1": ["assets/images/icons/upgrades/upgrade_1.avif", "+1"],
+        "pl2": ["assets/images/icons/upgrades/upgrade_2.avif", "+2"],
+        "pl3": ["assets/images/icons/upgrades/upgrade_3.avif", "+3"],
+        "pl4": ["assets/images/icons/upgrades/upgrade_4.avif", "+4"],
+        "pl5": ["assets/images/icons/upgrades/upgrade_5.avif", "+5"]
     }

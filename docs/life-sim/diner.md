@@ -1,6 +1,7 @@
 ---
 description: Brown Dust II Glupy Diner Content Pack Overview.
 ---
+# Glupy Diner {: .sr-only }
 
 <!--!!! warning "WORK IN PROGRESS"
     ![Sad Glupy](../assets/images/site-assets/illust_npcface0013210114_74.avif){.icon-portrait align=left}

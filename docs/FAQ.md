@@ -39,6 +39,8 @@ icon: material/frequently-asked-questions
 
     Do not worry about any weapons or other costumes; it is not worth the time spent on rerolling the banner.
 
+    {{ redirect_btn('mechanics/gacha/#inf', 'Detailed Banner Breakdown', '#4caf50') }} 
+
 ??? question "How does the Selective Draw work? Is 1-Pick or 12-Pick better? {{ share_btn('selective-banners') }}"
     Selective Draw (Banners) work in a way that you pick desired Costumes and they have increased chances to appear. They are the only banners that accept [Selective Draw Tickets](misc/slang.md/?term=Selective Draw Ticket).
 
@@ -81,7 +83,7 @@ icon: material/frequently-asked-questions
     
     * **Poolside Guardian Zenith ({{Wind}} Wind)** (until +5)
     * **Iron Monarch Wilhelmina ({{Water}} Water)** (until +4)
-    * **Sunny Inn Hand Helena ({{Light}} Light**) (until +5)
+    * **Sunny Inn Hand Helena ({{Light}} Light)** (until +5)
     * **Red Riding Hood Rou ({{Darkness}} Darkness)** (until +5)
     * **Young Lady Blade ({{Darkness}} Darkness)** (until +5)
     * **Medical Club Teresse ({{Water}} Water)** (until +5)

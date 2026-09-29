@@ -7,7 +7,7 @@ icon: material/sword-cross
 ---
 
 ![Mirror Wars](../assets/images/site-assets/index-pc-nav-8.avif){: .card-header-img fetchpriority=high loading=eager }
-#
+# Mirror Wars {: .sr-only }
 
 Mirror Wars is the [PvP](../misc/slang.md?term=Player vs. Player Content) mode where you fight other players' defense teams.
 

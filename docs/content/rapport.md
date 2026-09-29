@@ -8,8 +8,7 @@ icon: material/heart
 
 ---
 ![Rapport](../assets/images/site-assets/index-pc-nav-23.avif){: .card-header-img fetchpriority=high loading=eager }
-
-#
+# Rapport {: .sr-only }
 
 Rapport is a system where you interact with specific Costumes via visual novel-style 'Diner Talks,' unlocking personal character stories and a global account buff that permanently boosts your team's Crit Rate.
 

@@ -8,7 +8,7 @@ icon: fontawesome/solid/people-group
 ---
 
 ![Team Evaluator](../assets/images/site-assets/index-pc-nav-30_2.avif){: .card-header-img fetchpriority=high loading=eager }
-#
+# Team Evaluator {: .sr-only }
 
 Team Evaluator diagnoses your 5-unit roster for **General Content**, optimized around securing a clean **Turn 1 clear**.
 

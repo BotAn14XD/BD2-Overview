@@ -10,7 +10,7 @@ icon: material/magic-staff
 ---
 
 ![Gear System](../assets/images/site-assets/index-pc-nav-4.avif){: .card-header-img fetchpriority=high loading=eager}
-#
+# Gear System {: .sr-only }
 
 The Gear System is an important character progression system. It increases a character's stats, improving damage output or improving sustain on the battlefield.
 

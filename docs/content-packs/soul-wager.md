@@ -9,8 +9,7 @@ icon: material/chess-bishop
 
 ---
 ![The Soul Wager](../assets/images/site-assets/index-pc-nav-21.avif){: .card-header-img fetchpriority=high loading=eager }
-
-#
+# The Soul Wager {: .sr-only }
 
 **The Soul Wager** is an Auto Battler Inventory Management Content Pack. In it, your goal is to clear a set number of **Boards** (each consisting of several stages) within a limited number of attempts within the same Board.
 

@@ -8,8 +8,7 @@ icon: material/book
 ---
 
 ![New Player Page](./assets/images/site-assets/index-pc-nav-27.avif){: .card-header-img fetchpriority=high loading=eager }
-
-#
+# New Player Page {: .sr-only }
 
 Welcome to **Brown Dust 2**!
 Whether you are starting fresh or returning after a break, navigating the game's cartridge system, gacha mechanics, and tactical grid battles can feel overwhelming at first.
@@ -234,6 +233,10 @@ Order, generally speaking, does not matter since at the end you will have the sa
 ---
 
 ## Gacha
+
+For quick reference, check the sections below. If you, however, want to check other banners' suggestions or more in-depth explanation, refer to the Gacha page.
+
+{{ redirect_btn('progression/gacha/', 'Gacha System Explanation', '#9d65c9') }} 
 
 ### Infinite Draw
 

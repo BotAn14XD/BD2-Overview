@@ -8,8 +8,7 @@ icon: material/terrain
 
 ---
 ![Territory](../assets/images/site-assets/index-pc-nav-20.avif){: .card-header-img fetchpriority=high loading=eager }
-
-#
+# Territory {: .sr-only }
 
 Territory is a cozy management mode where players gather resources through farming, logging, and mining to build, landscape, and customize their own town while populating it with character residents.
 

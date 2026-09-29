@@ -8,7 +8,7 @@ icon: material/book-search
 ---
 
 ![Game Slang](../assets/images/site-assets/index-pc-nav-9.avif){: .card-header-img fetchpriority=high loading=eager }
-#
+# Game Slang {: .sr-only }
 
 <input type="text" id="slangSearch" onkeyup="filterSlang()" placeholder="Search for slang or full name..." class="slang-search-box">
 
@@ -484,6 +484,13 @@ icon: material/book-search
                 <span class="alias-tag rare-tag">Boohildr</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Granhildr/Boo_Ghost">Boo Ghost</a> is one of <a href="https://browndust2.miraheze.org/wiki/Granhildr">Granhildr's</a> costumes. Used as <span class="cross-link" onclick="searchFor('PvE')">PvE</span> <span class="cross-link" onclick="searchFor('DPS')">DPS</span>.</p>
+        </li>
+        <li class="slang-item" data-keywords="">
+            <h3>Breakpoint</h3>
+            <div class="alias-container">
+                <span class="alias-tag game-tag ignore-exact">Game Mechanics</span>
+            </div>
+            <p>Breakpoint is a specific Costume's Upgrade level, with which Costume becomes more powerful / usable without simple damage increase.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Bright Moon Dalvi</h3>

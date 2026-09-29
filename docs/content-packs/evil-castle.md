@@ -6,7 +6,7 @@ icon: material/castle
 ---
 
 ![Evil Castle](../assets/images/site-assets/index-pc-nav-7.avif){: .card-header-img fetchpriority=high loading=eager }
-#
+# Evil Castle {: .sr-only }
 
 ## **Overview**
 
