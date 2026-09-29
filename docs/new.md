@@ -236,7 +236,7 @@ Order, generally speaking, does not matter since at the end you will have the sa
 
 For quick reference, check the sections below. If you, however, want to check other banners' suggestions or more in-depth explanation, refer to the Gacha page.
 
-{{ redirect_btn('progression/gacha/', 'Gacha System Explanation', '#9d65c9') }} 
+{{ redirect_btn('mechanics/gacha/', 'Gacha System Explanation', '#9d65c9') }} 
 
 ### Infinite Draw
 
