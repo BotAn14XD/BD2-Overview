@@ -298,7 +298,7 @@ This team is designed to clear battle with a lot of enemies.
     * **Slot 2**{.yellow} — [Hand of Salvation Elpis](https://browndust2.miraheze.org/wiki/Elpis/Hand_of_Salvation) — 4★ Support — from any Gacha banner.
     * **Slot 3**{.yellow} — [Kind Student Samay](https://browndust2.miraheze.org/wiki/Samay/Kind_Student) — 4★ Support — from any Gacha banner.
         * **Substitute** — [Queen of Gluttis Granadair](https://browndust2.miraheze.org/wiki/Granadair/Queen_of_Gluttis) — 5★ Support — from random Pub Recruit.
-        * **Substitute** — [Adventurer of the Unknown Diana](https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown) — 5★ Support — from Story Pack 10 Pub Recruit — **if enemy is {{Light}} Light or {{Fire}} Fire**{.yellow}.
+        * **Substitute** — [Adventurer of the Unknown Diana](https://browndust2.miraheze.org/wiki/Diana/Adventurer_of_the_Unknown) — 5★ Support — from Story Pack 10 Pub Recruit — **if enemy is {{Light}} Light or {{Water}} Water**{.yellow}.
     * **Slot 4**{.yellow} — [Dream Bride Eclipse](https://browndust2.miraheze.org/wiki/Eclipse/Dream_Bride) — 5★ DPS — from Events Tab.
     * **Slot 5**{.yellow} — [Summer Vacation Dalvi](https://browndust2.miraheze.org/wiki/Dalvi/Summer_Vacation) — 5★ DPS — from Events Tab.
 
