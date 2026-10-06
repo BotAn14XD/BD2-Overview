@@ -1,215 +1,156 @@
 ---
-description: "Brown Dust II Last Night Content Pack overview, strategy"
+description: Brown Dust II Last Night Overview, Strategy and Tips
+comments: true
+hero: assets/images/site-assets/index-pc-nav-32.avif
+image: assets/images/site-assets/ln-banner.png
+icon: fontawesome/solid/dragon
 ---
 
-<!--!!! warning "WORK IN PROGRESS"
-    ![Sad Glupy](../assets/images/site-assets/illust_npcface0013210114_74.avif){.icon-portrait align=left}
-    **This page is currently under construction and will be completed soon. Thank you for your patience!**-->
-
+![Last Night](../assets/images/site-assets/index-pc-nav-32.avif){: .card-header-img fetchpriority=high loading=eager }
 # Last Night {: .sr-only }
 
-Last Night is a [PvE](../misc/slang.md?term=PvE) mode where you are tasked with dealing as much damage to the boss as possible.
+Last Night is a [PvE](../misc/slang.md?term=PvE) mode where you are tasked with dealing as much damage to the boss called Seeker of Extinction (Seeker of the End, Atraxus) as possible.
 
+!!! image "Last Night Main Lobby"
+    ![Last Night Lobby](../assets/images/last-night/main-lobby.avif)
 
-!!! abstract "Unlock Requirement"
-    Clear **Story Pack 3 "Mist Man" (Normal Difficulty)**.
+## Basics
 
-## Overview
-In this mode, your team consists of **20** costumes instead of usual five.
+**Last Night** is unlocked upon clearing all **Mist Man** (Story Pack 3) Main Quests.
 
-??? info "Last Night Rewards"
-    * **7,000,000,000 damage:** 374K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **6,900,000,000 damage:** 372K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **6,800,000,000 damage:** 370K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **6,700,000,000 damage:** 368K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **6,600,000,000 damage:** 366K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **6,500,000,000 damage:** 364K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **6,400,000,000 damage:** 362K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **6,300,000,000 damage:** 360K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **6,200,000,000 damage:** 358K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **6,100,000,000 damage:** 356K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **6,000,000,000 damage:** 354K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **5,900,000,000 damage:** 352K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **5,800,000,000 damage:** 350K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **5,700,000,000 damage:** 348K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **5,600,000,000 damage:** 346K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **5,500,000,000 damage:** 344K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **5,400,000,000 damage:** 342K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **5,300,000,000 damage:** 340K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **5,200,000,000 damage:** 338K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **5,100,000,000 damage:** 336K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **5,000,000,000 damage:** 334K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **4,900,000,000 damage:** 332K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **4,800,000,000 damage:** 330K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **4,700,000,000 damage:** 328K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }} 
-    * **4,600,000,000 damage:** 326K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **4,500,000,000 damage:** 324K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **4,400,000,000 damage:** 322K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **4,300,000,000 damage:** 320K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **4,200,000,000 damage:** 318K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **4,100,000,000 damage:** 316K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **4,000,000,000 damage:** 314K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **3,900,000,000 damage:** 312K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **3,800,000,000 damage:** 310K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **3,700,000,000 damage:** 308K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }} 
-    * **3,600,000,000 damage:** 306K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **3,500,000,000 damage:** 304K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **3,400,000,000 damage:** 302K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **3,300,000,000 damage:** 300K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **3,200,000,000 damage:** 298K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **3,100,000,000 damage:** 296K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **3,000,000,000 damage:** 294K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **2,900,000,000 damage:** 292K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **2,800,000,000 damage:** 290K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **2,700,000,000 damage:** 288K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }} 
-    * **2,600,000,000 damage:** 286K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **2,500,000,000 damage:** 284K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **2,400,000,000 damage:** 282K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **2,300,000,000 damage:** 280K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **2,200,000,000 damage:** 278K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **2,100,000,000 damage:** 276K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **2,000,000,000 damage:** 274K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **1,900,000,000 damage:** 272K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **1,800,000,000 damage:** 270K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **1,700,000,000 damage:** 268K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }} 
-    * **1,600,000,000 damage:** 266K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **1,500,000,000 damage:** 264K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **1,400,000,000 damage:** 262K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **1,300,000,000 damage:** 260K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **1,200,000,000 damage:** 258K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **1,100,000,000 damage:** 256K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **1,000,000,000 damage:** 254K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **900,000,000 damage:** 252K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **800,000,000 damage:** 250K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **700,000,000 damage:** 248K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **600,000,000 damage:** 246K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **500,000,000 damage:** 244K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **400,000,000 damage:** 242K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **300,000,000 damage:** 240K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **290,000,000 damage:** 238K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **280,000,000 damage:** 236K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **270,000,000 damage:** 234K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **260,000,000 damage:** 232K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **250,000,000 damage:** 230K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **240,000,000 damage:** 228K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **230,000,000 damage:** 226K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **220,000,000 damage:** 224K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **210,000,000 damage:** 222K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **200,000,000 damage:** 220K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **190,000,000 damage:** 218K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **180,000,000 damage:** 216K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **170,000,000 damage:** 214K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **160,000,000 damage:** 212K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **150,000,000 damage:** 210K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **140,000,000 damage:** 208K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **130,000,000 damage:** 206K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **120,000,000 damage:** 204K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **110,000,000 damage:** 202K {{ Gold }}, 5 {{ Ancient_Crystal }}, 5 {{ Awakening_Elixir }}
-    * **100,000,000 damage:** 200K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **97,000,000 damage:** 198K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **94,000,000 damage:** 196K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **91,000,000 damage:** 194K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **88,000,000 damage:** 192K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **85,000,000 damage:** 190K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **82,000,000 damage:** 188K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **79,000,000 damage:** 186K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **76,000,000 damage:** 184K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **73,000,000 damage:** 182K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **70,000,000 damage:** 180K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **68,000,000 damage:** 178K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **66,000,000 damage:** 176K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **64,000,000 damage:** 174K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **62,000,000 damage:** 172K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **60,000,000 damage:** 170K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **58,000,000 damage:** 168K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **56,000,000 damage:** 166K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **54,000,000 damage:** 164K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **52,000,000 damage:** 162K {{ Gold }}, 5 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **50,000,000 damage:** 160K {{ Gold }}, 4 {{ Ancient_Crystal }}, 4 {{ Awakening_Elixir }}
-    * **48,000,000 damage:** 158K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **46,000,000 damage:** 156K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **44,000,000 damage:** 154K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **42,000,000 damage:** 152K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **40,000,000 damage:** 150K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **39,000,000 damage:** 148K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **38,000,000 damage:** 146K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **37,000,000 damage:** 144K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **36,000,000 damage:** 142K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **35,000,000 damage:** 140K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **34,000,000 damage:** 138K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **33,000,000 damage:** 136K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **32,000,000 damage:** 134K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **31,000,000 damage:** 132K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **30,000,000 damage:** 130K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **29,000,000 damage:** 128K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **28,000,000 damage:** 126K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **27,000,000 damage:** 124K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **26,000,000 damage:** 122K {{ Gold }}, 4 {{ Ancient_Crystal }}, 3 {{ Awakening_Elixir }}
-    * **25,000,000 damage:** 120K {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **24,000,000 damage:** 118K {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **23,000,000 damage:** 116K {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **22,000,000 damage:** 114K {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **21,000,000 damage:** 112K {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **20,000,000 damage:** 110K {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **19,000,000 damage:** 108K {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **18,000,000 damage:** 106K {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **17,000,000 damage:** 104K {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **16,000,000 damage:** 102K {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **15,000,000 damage:** 100K {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **14,000,000 damage:** 98,000 {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **13,000,000 damage:** 96,000 {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **12,000,000 damage:** 94,000 {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **11,000,000 damage:** 92,000 {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **10,000,000 damage:** 90,000 {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **9,500,000 damage:** 88,000 {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **9,000,000 damage:** 86,000 {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **8,500,000 damage:** 84,000 {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **8,000,000 damage:** 82,000 {{ Gold }}, 3 {{ Ancient_Crystal }}, 2 {{ Awakening_Elixir }}
-    * **7,500,000 damage:** 80,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **7,000,000 damage:** 78,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **6,500,000 damage:** 76,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **6,000,000 damage:** 74,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **5,500,000 damage:** 72,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **5,000,000 damage:** 70,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **4,500,000 damage:** 68,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **4,000,000 damage:** 66,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **3,500,000 damage:** 64,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **3,000,000 damage:** 62,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **2,500,000 damage:** 60,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **2,000,000 damage:** 58,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **1,500,000 damage:** 56,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **1,000,000 damage:** 54,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **950,000 damage:** 52,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **900,000 damage:** 50,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **850,000 damage:** 48,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **800,000 damage:** 46,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **750,000 damage:** 44,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **700,000 damage:** 42,000 {{ Gold }}, 2 {{ Ancient_Crystal }}, 1 {{ Awakening_Elixir }}
-    * **650,000 damage:** 40,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **600,000 damage:** 38,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **550,000 damage:** 36,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **500,000 damage:** 34,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **460,000 damage:** 32,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **420,000 damage:** 30,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **380,000 damage:** 28,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **340,000 damage:** 26,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **300,000 damage:** 24,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **260,000 damage:** 22,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **220,000 damage:** 20,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **180,000 damage:** 18,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **140,000 damage:** 16,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **100,000 damage:** 14,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **75,000 damage:** 12,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **50,000 damage:** 10,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **40,000 damage:** 8,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **30,000 damage:** 6,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **20,000 damage:** 4,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
-    * **10,000 damage:** 2,000 {{ Gold }}, 1 {{ Ancient_Crystal }}
+In this mode, your team consists of **20 (twenty)** costumes instead of usual five.
 
-<!--Last Night is the fourth of the content packs, having the same requirements as the previous one. In this mode, your goal is to deal as much damage to a single boss as possible. Your team consists of 20 costumes (not companions!) in a specific order set by you, and you have only one turn.
-Aside from that, buffs you receive are halved, as you can see here [video?], and the boss effectively has only one tile. 
-With all that in mind, the general strategy for Last Night is getting 7-8 buffers (both magical and physical), then using 5-7 high chainers and finishing your team with DPS to deal massive damage.
-Aside from this, any costumes you don’t use also take part in your battle — but in a form of support bonus. Bonus is counted separately for each unused costume and then added together. To increase bonus, you can upgrade characters in every way possible: gearing them up, leveling up, awakening etc. You should aim for at least 4% bonus per costume.
-Your main goal should be achieving 110 million — then you’ll receive 5 Ancient crystals and 5 Awakening Elixir daily with some gold as bonus — very useful items for your progress.
-As for crucial costumes which are good in this mode — Onsen Liberta, Pure White Blessing Refithea from buffers, Promise of Vengeance Lathel, New Hire Nebris as DPS.
-Last Night is also a good way to show your costumes for team help. Despite lacking information about awakening and potential liberation, it’s still a good way to compactly show your costumes, which often matters above rest when giving advice. To do that, head to the Last Night battle area, hit Replace -> Reset -> Confirm buttons, then sort by Deployed First and you’re good to screenshot your collection.-->
+To access Last Night, select the corresponding **Combat Content Pack** from the list.
+
+??? image "Image Guide"
+    ![Access Guide](../assets/images/last-night/access-guide.avif)
+
+Once you deal enough damage, you will start receiving **Daily Rewards**. To claim them, interact with **Isaac** daily in any Pack, except [Golden Colosseum](./gc.md), Glupy Diner, [The Soul Wager](./soul-wager.md), [Fantasia Territory](../life-sim/territory.md), and Fishing Voyage.
+
+??? image "Image Guide"
+    ![Isaac Reward](../assets/images/evil-castle/dispatch_guide.avif)
+
+**You do not need to fight every day to get rewards.**
+
+Daily Rewards include {{Gold}} **Gold**, {{Ancient_Crystal}} **Ancient Crystals** and {{Awakening_Elixir}} **Awakening Elixirs**.
+
+## Team
+
+As stated previously, your team consists of 20 **Costumes**, not Characters.
+
+To modify your team, head to the Battle Menu and click the **Replace** button.
+
+??? image "Image Guide"
+    ![Access Guide 2](../assets/images/last-night/access-guide-2.avif)
+
+!!! image "Battle & Team Menu"
+    ![Battle Menu](../assets/images/last-night/battle-lobby.avif)
+
+In Last Night, **Gear on Characters is saved separately from other content**, so make sure to equip characters and update Gear once you are trying to climb higher.
+
+## Battle Specifics
+
+The Last Night battle is different from other fights in the game. Here, all your 20 Costumes activate their ability based on the order they were set in, after which the battle is over and you gain your damage result.
+
+* Costumes **do not use SP**. All skills are cost-free.
+
+* Seeker of Extinction occupies **only one tile**, which automatically becomes the target for all your attacking units. That also means that any ability with "Main Target" will have this condition satisfied automatically.
+* The Boss is **immune to Debuffs**. That also includes **Vulnerability** and **Damage over Time**.
+* Seeker of the End has **Neutral** Property.
+* Atraxus has both {{Physical}} **Physical**{.yellow} and {{Magical}} **Magical**{.magenta} properties ({{ATK}} **ATK**{.yellow} & {{MATK}} **MATK**{.magenta}).
+* The boss also has 0% {{DEF}} **DEF**{.yellow} and 0% {{MRES}} **MRES**{.magenta}.
+
+* In Last Night, **Chains** limit is removed.
+* The Battle has a 50% [**Pressure**](../mechanics/damage-formula.md#pressure) effect, reducing any Stat buffs by 50%. This **does not** affect **Chains** and **Augmentation** (for example, fully upgraded [Homunculus Lathel](https://browndust2.miraheze.org/wiki/Homunculus_Lathel)'s Buff will be equal to only 140%, instead of 280%).
+* Any Supports with limited AoE will provide the buff to all teammates. Same goes for Supports with **ALL** range by default.
+* Self-Buffs are still applied to self only.
+* Costumes with unlocked [Burst](../progression/burst.md) will automatically use it at their maximum unlocked level at zero SP cost.
+
+## Support Bonus
+
+**Support Bonus** is an additional damage multiplier unique to the Last Night. It is affected by **all unused Costumes** in the **whole roster**.
+
+You can check your Support Bonus in the Battle Menu.
+
+??? image "Support Bonus Display"
+    ![Support Bonus Display](../assets/images/last-night/support-bonus-3.avif)
+
+Support bonus is calculated separately for each Costume and then added together. Support Bonus for an individual Costume is calculated as **(Combat Power / 1000) %**, floored to the nearest 0.01%.
+
+!!! example "Example"
+
+    Angelica has **10983** Combat Power.
+    !!! image ""
+        ![Support-Bonus-1](../assets/images/last-night/support-bonus-1.avif)
+
+    That means each of her Costumes will grant 10.98% Support Bonus.
+    !!! image ""
+        ![Support-Bonus-2](../assets/images/last-night/support-bonus-2.avif)
+
+!!! tip "Support Bonus Strategy"
+    1. Since Support Bonus affects each Costume based on a **Character's** Combat Power, you should prioritize equipping the Characters with the most Costumes, like [Justia](https://browndust2.miraheze.org/wiki/Justia) and [Lathel](https://browndust2.miraheze.org/wiki/Lathel). This way, the same increase from the Gear gets multiplied by a higher number.
+    2. Costumes in the active team **do not provide Support Bonus**. That means you can **ignore Gearing** some characters like [Elpis](https://browndust2.miraheze.org/wiki/Elpis) or [Arines](https://browndust2.miraheze.org/wiki/Arines) who have only one Costume **if you use them in your team**.
+
+## Rewards Milestones
+
+As stated previously, Last Night provides {{Gold}} **Gold**, {{Ancient_Crystal}} **Ancient Crystals** and {{Awakening_Elixir}} **Awakening Elixirs**.
+
+There are two core milestones in the damage: **52M** and **110M**. 
+
+Reaching **52 million** damage awards the maximum **5** {{Ancient_Crystal}} **Ancient Crystals** daily, while **110 million** awards the maximum **5** {{Awakening_Elixir}} **Awakening Elixirs**, completing the daily material cap.
+
+Any higher score provides only a small {{Gold}} **Gold** increase, as well as some titles & stickers on specific thresholds.
+
+## Guide
+
+A proper Last Night team can roughly be divided into three phases: **Supports (Buffers)**, **Chainers**, and **DPS (Damage Dealers)**
+
+!!! image "Rough Last Night Team Composition"
+    ![Rough Last Night Team Composition](../assets/images/last-night/ln-teamcomp-breakdown.avif)
+
+* **Supports** buff other Characters / Costumes.
+* **Chainers** apply the biggest amount of **Chains**. Because the boss is **neutral** (Property Damage does not apply) and **immune to debuffs** (therefore, Vulnerability), Chains and {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} / **Augmentation** / {{CritRate}} **Crit Rate** and {{CritDMG}} **Crit Damage** Buffs are the primary ways to scale damage.
+* **DPS** deal the bulk of the team's total damage, capitalizing on the fully stacked chain multiplier.
+
+!!! warning "Chainers — DPS edge"
+    There is no major separation between Chainers and DPS in Last Night. This is mainly because Chainers still have *some* damage and they still contribute to the final score. Yet, you can roughly understand who should be the priority to set up the order.
+
+    Because each hit increases the damage of all subsequent attacks, prioritize high-hit-count skills earlier in the chain, reserving your massive single-hit multipliers for the final slots where the chain bonus is peaked.
+    
+    This is not always the case, but it could guide you towards a better team composition.
+
+!!! warning "Sunny Inn Hand Helena"
+    In the given example, [Sunny Inn Hand Helena](https://browndust2.miraheze.org/wiki/Helena/Sunny_Inn_Hand) is put before Nebris, almost at the end of the team.
+
+    This is **an exception** to Supports, since she buffs the next-attacking ally and is the only Support with such mechanics.
+
+### Buffers
+
+Almost all Buffers are good for the Last Night. However, due to the Pressure effect, the most impactful Buffers are the ones that give Augmentation or any Non-Stat increase.
+
+This mostly includes [Pure White Blessing Refithea](https://browndust2.miraheze.org/wiki/Refithea/Pure_White_Blessing), [Onsen Manager Liberta](https://browndust2.miraheze.org/wiki/Liberta/Onsen_Manager), [Shrine Maiden of Purification Granadair](https://browndust2.miraheze.org/wiki/Granadair/Shrine_Maiden_of_Purification) and [Sunny Inn Hand Helena](https://browndust2.miraheze.org/wiki/Helena/Sunny_Inn_Hand).
+
+It is worth noting that [Beachside Angel Teresse](https://browndust2.miraheze.org/wiki/Teresse/Beachside_Angel) is really ineffective here thanks to her low chain requirement that you cannot preserve.
+
+??? image "List of Usable Supports"
+    ![Supports List](../assets/images/last-night/supports-pick.avif)
+
+### Chainers
+
+In the beginning, you can use essentially any units with high chain/hit count, even including [Zenith](https://browndust2.miraheze.org/wiki/Zenith) that cannot apply either Vulnerability or Chain DMG Increase. Towards the end game, it shifts to Costumes with even higher Chain Count, such as [Water Park Wilhelmina](https://browndust2.miraheze.org/wiki/Wilhelmina/Water_Park_Queen) and [Deadeye Nekyndalia](https://browndust2.miraheze.org/wiki/Nekyndalia/Deadeye).
+
+??? image "List of Usable Chainers"
+    ![Chainers List](../assets/images/last-night/chainers-pick.avif)
+
+### Damage Dealers
+
+[New Hire Nebris](https://browndust2.miraheze.org/wiki/Nebris/New_Hire) is currently the best DPS for the Last Night thanks to her skill, which increases damage based on the number of buffs. In the best team, you gain ~25 Buffs that translate to **1260%** of ATK per hit for fully upgraded Nebris, or **3780%** total.
+
+DPS Costumes that rely on {{HP}} **Enemy HP**, such as [Nature's Claw Rou](https://browndust2.miraheze.org/wiki/Rou/Nature%27s_Claw) or any [Angelica](https://browndust2.miraheze.org/wiki/Angelica)'s Costume, are quite powerful early on because of big scaling with no investment.
+
+Additionally, [Promise of Vengeance Lathel](https://browndust2.miraheze.org/wiki/Promise_of_Vengeance_Lathel) is also good DPS that you can get for free by completing **Story Pack 7 (Fury Angel)** on each difficulty.
+
+Worth noting that DPS that scale based on the number of enemies, such as [Reclaimed Destiny Sacred Justia](https://browndust2.miraheze.org/wiki/Reclaimed_Destiny_Sacred_Justia), perform worse, since essentially you hit only one tile.
+
+??? image "List of Usable DPS"
+    ![DPS List](../assets/images/last-night/dps-pick.avif)

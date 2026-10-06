@@ -94,13 +94,13 @@ icon: material/poll
 
 <hr>
 
-<p>Name <b>one</b> Article that is, in your opinion, the best.</p>
+<p>Name <b>one</b> Article that is, in your opinion, the best. (Optional)</p>
 <textarea name="best_article" rows="1" placeholder="Gear System..."></textarea>
 
-<p>Name <b>one</b> Article that is, in your opinion, the worst.</p>
+<p>Name <b>one</b> Article that is, in your opinion, the worst. (Optional)</p>
 <textarea name="worst_article" rows="1" placeholder="Mirror Wars..."></textarea>
 
-<p>Name <b>one</b> Topic / Article that is missing and you want to see the most.</p>
+<p>Name <b>one</b> Topic / Article that is missing and you want to see the most. (Optional)</p>
 <textarea name="awaiting_stuff" rows="1" placeholder="The Soul Wager..."></textarea>
 
 <hr>

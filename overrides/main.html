@@ -120,15 +120,12 @@
         giscusScript.setAttribute("data-theme", getGiscusTheme());
       }
 
-      /* Synchronize whenever MkDocs palette changes or instant loading navigates */
       if (typeof document$ !== "undefined") {
         document$.subscribe(function() {
-          /* Allow iframe time to mount if page was just loaded */
           setTimeout(updateGiscusTheme, 300);
         });
       }
 
-      /* Also listen directly for MkDocs palette toggle clicks */
       var paletteForm = document.querySelector("[data-md-component='palette']");
       if (paletteForm) {
         paletteForm.addEventListener("change", function() {

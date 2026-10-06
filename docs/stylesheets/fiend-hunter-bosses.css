@@ -194,7 +194,7 @@
   margin-top: 0.9rem !important;
   border: 1px solid var(--bd-border, #374151) !important;
   border-radius: var(--radius);
-  overflow: hidden;
+  overflow: auto;
   background-color: var(--bd-btn-bg, #1e2638) !important;
   border-radius: 6px;
 }

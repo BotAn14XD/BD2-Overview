@@ -88,7 +88,7 @@ Tower of Pride is a unique Tower, offering **daily** rewards based on your score
     
 
 !!! question "Do I need to fight it daily to obtain rewards?"
-    **No.** Game mode offers both one-time clear and daily rewards. To obtain daily ones, go to any pack except Golden Colosseum and Glupy Diner and interact with the pet following you. 
+    **No.** Game mode offers both one-time clear and daily rewards. To obtain daily ones, go to any pack except [Golden Colosseum](./gc.md), Glupy Diner, [The Soul Wager](./soul-wager.md), [Fantasia Territory](../life-sim/territory.md) and Fishing Voyage and interact with the pets following you.
     ??? image "Image Guide"
         ![Claiming rewards Tutorial](../assets/images/evil-castle/dispatch_guide.avif)
 
