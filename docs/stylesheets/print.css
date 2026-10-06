@@ -1,23 +1,21 @@
 /* =========================================================================
-   PRINT / PDF  (Part 2: §2.6)
-   Loaded globally via extra_css; the @media print guard means these rules
-   ONLY apply when the reader prints or "Save as PDF" - zero effect on screen.
-   Goal: a clean, ink-friendly, fully-expanded reference page.
+   PRINT / PDF STYLESHEET
+   Clean, ink-friendly, crash-resistant paged layout for MkDocs Material.
    ========================================================================= */
 @page {
-    margin: 0;
+    margin: 16mm 14mm;
     size: auto;
 }
 
 @media print {
 
-    /* Force background colors and exact graphics rendering */
-    *, *::before, *::after {
+    /* Apply color adjustment at root to prevent compositor memory exhaustion */
+    html, body {
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
     }
 
-    /* --- Hide navigation, headers, and UI widgets --- */
+    /* --- Hide navigation, headers, footers, and interactive UI --- */
     .md-header, .md-tabs, .md-sidebar, .md-footer, .md-banner,
     .survey-announce-bar, .md-content__button, .md-top,
     .share-link-wrapper, .redirect-btn-wrap,
@@ -27,7 +25,7 @@
     }
 
     /* =====================================================================
-       DARK / SLATE THEME (Matches body[data-md-color-scheme="slate"])
+       DARK / SLATE THEME
        ===================================================================== */
     body[data-md-color-scheme="slate"],
     [data-md-color-scheme="slate"] {
@@ -35,11 +33,6 @@
         --md-default-bg-color: #161616 !important;
         --md-default-fg-color: #f5f7fa !important;
         --md-typeset-color: #f5f7fa !important;
-    }
-
-    body[data-md-color-scheme="slate"] {
-        padding: 16mm 14mm !important;
-        box-sizing: border-box !important;
     }
 
     body[data-md-color-scheme="slate"] .md-typeset {
@@ -74,34 +67,51 @@
     }
 
     /* =====================================================================
-       LIGHT THEME (Fallback / when light mode is explicitly selected)
+       LIGHT THEME
        ===================================================================== */
     body[data-md-color-scheme="default"] {
         background-color: #ffffff !important;
-        padding: 16mm 14mm !important;
     }
 
     /* --- General Structural Resets --- */
+    body {
+        padding: 0 !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    html, body,
     .md-container,
     .md-main,
     .md-main__inner,
     .md-grid,
-    .md-content {
-        max-width: 100% !important;
-        width: 100% !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        background: transparent !important;
+    .md-content,
+    .md-content__inner {
+        height: auto !important;
+        min-height: auto !important;
+        max-height: none !important;
         overflow: visible !important;
+        position: static !important;
     }
 
-    .md-typeset table,
+    /* --- Pagination Control (Crash-Safe) --- */
+    .md-typeset table {
+        break-inside: auto !important; /* Prevents infinite layout loops on long tables */
+    }
+
+    .md-typeset tr,
+    .md-typeset thead,
     .md-typeset figure,
     .territory-grid-tile {
-        break-inside: avoid;
+        break-inside: avoid !important;
     }
 
-    .md-typeset details:not([open]) > *:not(summary) {
+    /* --- Safe Collapsible Expansion --- */
+    .md-typeset details {
+        display: block !important;
+    }
+
+    .md-typeset details > * {
         display: block !important;
     }
 }

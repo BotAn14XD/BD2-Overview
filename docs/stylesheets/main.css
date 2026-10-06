@@ -1123,3 +1123,116 @@ h1:has(> a.headerlink:only-child) {
     justify-content: safe center !important;
     display: flex !important;
 }
+
+/* ====================== */
+
+.md-typeset .tree-nav ul {
+  list-style: none;
+  padding-left: 1.25rem;
+  position: relative;
+  margin: 0;
+}
+
+.md-typeset .tree-nav > ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.md-typeset .tree-nav li {
+  position: relative;
+  padding: 0.35rem 0 0.35rem 1.5rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.md-typeset .tree-nav li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 2px solid var(--md-default-fg-color--lighter, #ccc);
+  height: 100%;
+  width: 1px;
+}
+
+.md-typeset .tree-nav li::after {
+  content: "";
+  position: absolute;
+  top: 1.1rem;
+  left: 0;
+  border-top: 2px solid var(--md-default-fg-color--lighter, #ccc);
+  width: 1.1rem;
+}
+
+.md-typeset .tree-nav li:last-child::before {
+  height: 1.1rem;
+}
+
+.md-typeset .tree-nav a {
+  font-weight: 500;
+  color: var(--md-typeset-a-color);
+  text-decoration: none;
+}
+
+.md-typeset .tree-nav a:hover {
+  text-decoration: underline;
+}
+
+.md-typeset .tree-nav > ul > li::before,
+.md-typeset .tree-nav > ul > li::after {
+  display: none;
+}
+
+.md-typeset .tree-nav > ul > li {
+  padding-left: 0;
+  padding-top: 0;
+}
+
+/* =================================== */
+
+.support-nav {
+  margin: 1.5rem 0 1.5rem;
+  padding: 1.2rem 1.5rem;
+  max-width: auto;
+  background-color: var(--md-code-bg-color);
+  border: 1px dashed var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+}
+
+.support-nav__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  text-align: left;
+}
+
+.support-nav__image {
+  max-width: 80px;
+  height: auto;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.support-nav__body {
+  flex: 1;
+}
+
+.support-nav__title {
+  font-weight: bold;
+  margin: 0 0 0.3rem 0;
+  color: var(--bd-accent-blue);
+}
+
+.support-nav__text {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+}
+
+/* ============================ */
+
+.md-typeset a[href*="browndust2.miraheze.org"]::after {
+    display: none !important;
+}

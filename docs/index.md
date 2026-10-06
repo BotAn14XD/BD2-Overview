@@ -176,7 +176,13 @@ This site focuses on high-quality explanations for every game aspect for new pla
     [View Page →](./content-packs/gc.md){: .md-button }
 </div>
 
+<div class="grid cards center-content" markdown>
+-   ![The Soul Wager](assets/images/site-assets/index-pc-nav-32.avif){: .card-header-img }
 
+    ---
+
+    [View Page →](./content-packs/last-night.md){: .md-button }
+</div>
 
 ---
 
@@ -279,6 +285,18 @@ This site focuses on high-quality explanations for every game aspect for new pla
 
     [Check the Website →](http://cymmina.gamependium.com/browndust2/){: .md-button }
 
+</div>
+
+<div id="support-nav" class="support-nav">
+<div class="support-nav__inner">
+<img src="assets/images/site-assets/illust_face00050205_23.avif" alt="Support" class="support-nav__image" loading="lazy">
+<div class="support-nav__body">
+<p class="support-nav__title">Confused and want to see the simplified navigation?</p>
+<p class="support-nav__text">
+    Check the <a href="sitemap/">Sitemap</a>!
+</p>
+</div>
+</div>
 </div>
 
 

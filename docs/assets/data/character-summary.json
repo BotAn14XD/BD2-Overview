@@ -2802,7 +2802,7 @@
       "role": [
         "DPS"
       ],
-      "damageType": "physical",
+      "damageType": "magic",
       "element": "water",
       "effects": [
         "smallAOE",

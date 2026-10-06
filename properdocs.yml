@@ -47,12 +47,12 @@ nav:
         - 'Potential Liberation': progression/potentials.md
     - 'Game Content':
         - 'Combat Content Packs':
-            - 'Mirror Wars': content-packs/mirror-wars.md
             - 'Evil Castle': content-packs/evil-castle.md
             # - 'Path of Adventure': content-packs/path-of-adventure.md
-            # - 'Last Night': content-packs/last-night.md
             - 'Golden Colosseum': content-packs/gc.md
+            - 'Last Night': content-packs/last-night.md
             # - 'Fantasia Square': content-packs/fantasia-square.md
+            - 'Mirror Wars': content-packs/mirror-wars.md
             - 'The Soul Wager': content-packs/soul-wager.md
         - 'Life Sim Content Packs':
             - 'Fantasia Territory': life-sim/territory.md
@@ -74,7 +74,7 @@ nav:
     - 'Our Discord Server': https://discord.gg/tays83ew3N
     - 'P2W Efficiency Spreadsheet': https://docs.google.com/spreadsheets/d/19X4TjCjyrl6XV1jCh6kRoChubKjL9xBZbfyh9SB2egg/edit
     - '---': '#'
-    - 'Support Compendium': https://ko-fi.com/botan14xd
+    - 'Support Compendium': https://www.patreon.com/cw/BotAn14XD
     - '---': '#'
     - 'My position regarding The Official Brown Dust 2 Server': assets/misc/My position regarding The Official Brown Dust 2 Server.pdf
 repo_name: BotAn14XD/BD2-Overview
@@ -142,7 +142,11 @@ markdown_extensions:
   - attr_list
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - md_in_html
   - def_list
 #  - pymdownx.blocks.grid
@@ -176,7 +180,8 @@ extra:
 
 copyright: >
   &copy; 2026 BotAn &middot;
-  <a href="/BD2-Overview/privacy/">Privacy Policy</a><br>
+  <a href="/BD2-Overview/privacy/">Privacy Policy</a> &middot;
+  <a href="/BD2-Overview/sitemap/">Sitemap</a><br>
   <span style="font-size: 0.8em; color: var(--md-default-fg-color--lighter);">
     Brown Dust 2 is a trademark of NEOWIZ & GAMFS N. This fan site is not affiliated with or endorsed by the publishers.
   </span>
