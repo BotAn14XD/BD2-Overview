@@ -21,9 +21,11 @@
 
 \geometry{a4paper, margin=0.75in}
 
-\title{\textbf{An Analytical Framework for Multi-Variable Non-Linear Damage Superposition in Bounded Discrete Tactical Environments}}
+\title{\textbf{An Analytical Framework for Multi-Variable Non-Linear Damage Superposition in Bounded Discrete Tactical Environments} \\
+\large Technical Report \& Combat Specification --- Version 1.1\thanks{First published: September 5, 2026. Version~1.1 published: October 2026. Major changes in v1.1: Decoupled source-side combo enhancements from target-side chain debuffs in Section~\ref{sec:chains} and Eq.~\ref{eq:master_monolithic}.}}
+
 \author{\textbf{BotAn} \\ \small Brown Dust II Tactical Compendium}
-\date{\today}
+\date{September 5, 2026 \quad $\vert$ \quad \small Last Revised: October 2026}
 
 \begin{document}
 \raggedbottom
@@ -540,12 +542,12 @@ The environmental term $\gamma_{\text{ec}} b^{(\text{pr\_ec})}$ couples exclusiv
 \label{sec:chains}
 Sequential hits landed upon an encounter target accumulate temporal combo counters, termed \textit{Chains} ($N_{\text{chain}} \in \mathbb{N}_0$). Each successive chain dynamically scales the kinetic output of subsequent attacks.
 
-The marginal amplification rate per registered chain, denoted $\beta_{\text{chain}}$, consists of a baseline $10\%$ yield augmented by active combat enhancements:
-
+The marginal amplification rate per registered chain, denoted $\beta_{\text{chain}}$, decomposes into a native baseline yield of $10\%$ ($0.10$) augmented concurrently by source-entity offensive chain buffs and target-node combo susceptibility debuffs:
 \begin{equation}
 \label{eq:chain_rate}
-  \beta_{\text{chain}} = 0.10 + \sum_{j} b_j^{(\text{chain})}
+\beta_{\text{chain}} = 0.10 + \sum_{j} b_{j,\text{src}}^{(\text{chain})} + \sum_{k} d_{k,\text{tgt}}^{(\text{chain})}
 \end{equation}
+where $b_{j,\text{src}}^{(\text{chain})}$ represents active chain amplification buffs applied to the attacker, and $d_{k,\text{tgt}}^{(\text{chain})}$ denotes incoming chain damage amplifications (chain vulnerabilities) hosted on the targeted node. Prior to client revisions introducing source-side combo enhancements, these pools were operationally merged into a single summation, as $\sum b_{j,\text{src}} \equiv 0$ held universally across all existing unit profiles.
 
 In standard combat environments, combo accumulation is bounded by a saturation threshold of 100 chains. However, this upper ceiling is removed within the \textit{Last Night} domain. Let $\gamma_{\text{ln}} \in \{0, 1\}$ denote the Last Night environmental coupling factor:
 
@@ -730,7 +732,7 @@ where $\mathcal{K} = \{\text{base}, \text{res}, \text{crit}, \text{prop}, \text{
   % -----------------------------------------------------------------------
   % 5. TEMPORAL COMBO STACKING (M_chain)
   % -----------------------------------------------------------------------
-  & \cdot \bigg( 1 + \gamma_{\text{chain}} \big( 0.10 + \sum_j b_j^{(\text{chain})} \big) \Big[ (1 - \gamma_{\text{ln}})\min(100, N_{\text{chain}}) + \gamma_{\text{ln}} N_{\text{chain}} \Big] \bigg) \\
+  & \cdot \bigg( 1 + \gamma_{\text{chain}} \left( 0.10 + \sum_j b_{j,\text{src}}^{(\text{chain})} + \sum_k d_{k,\text{tgt}}^{(\text{chain})} \right) \left[ (1 - \gamma_{\text{ln}})\min(100, N_{\text{chain}}) + \gamma_{\text{ln}} N_{\text{chain}} \right] \bigg)
   % -----------------------------------------------------------------------
   % 6. VULNERABILITY POOL (M_vuln)
   % -----------------------------------------------------------------------

@@ -313,12 +313,12 @@ icon: material/frequently-asked-questions
     ??? image "Image Guide"
         ![Guide for displaying a Costume collection](assets/images/faq/box_costumes.avif)
 
-    * When asking for an **Awakening** / [**Potential Liberation**](progression/potentials.md) / [**Burst**](progression/burst.md) help, use Companion tab with **View Costume** button enabled.
+    * When asking for an **Awakening** / [**Potential Liberation**](progression/potentials.md) / [**Burst**](progression/burst.md) help, use Character tab with **View Costume** button enabled.
 
     ??? image "Image Guide"
         ![Guide for displaying a Costume collection ver.2](assets/images/faq/box_pots.avif)
 
-    * When asking for a help with **Gear**, use **second menu** inside of **Companion tab**. It captures the gear for your main team (which is usually the best) and some extra gear on the right side. Later on, you can show from the bag by using [Custom Marks](progression/gear.md#custom-marks) and filtering to display them first.
+    * When asking for a help with **Gear**, use **second menu** inside of **Character tab**. It captures the gear for your main team (which is usually the best) and some extra gear on the right side. Later on, you can show from the bag by using [Custom Marks](progression/gear.md#custom-marks) and filtering to display them first.
 
     ??? image "Image Guide"
         ![Guide for displaying a Gear collection](assets/images/faq/box_gear.avif)

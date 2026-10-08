@@ -70,7 +70,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     & \qquad\qquad\qquad\qquad\qquad\qquad\quad + 6 \max(0, \; v^{(\text{cr})} + \sum_j b^{(\text{cr})}_j \cdot P - \sum_j d^{(\text{cr})}_j - 1) \big) \Big) \bigg) \\
     & \cdot \max \bigg( 0, \; 1 + \max(0, \mathbf{e}_{\text{src}}^\top \mathbf{A}_{\text{elem}} \mathbf{e}_{\text{tgt}}) \Big( v_{\text{pr}}^{(\text{off})} + \sum_j b_j^{(\text{pr\_off})} \cdot P - \sum_j d_j^{(\text{pr\_off})} + \gamma_{\text{ec}} b^{(\text{pr\_ec})} \Big) \\
     & \qquad\qquad\quad - \max(0, -\mathbf{e}_{\text{src}}^\top \mathbf{A}_{\text{elem}} \mathbf{e}_{\text{tgt}}) \Big( v_{\text{pr}}^{(\text{def})} + \sum_j b_j^{(\text{pr\_def})} \cdot P - \sum_j d_j^{(\text{pr\_def})} \Big) \bigg) \\
-    & \cdot \bigg( 1 + \gamma_{\text{chain}} \big( 0.10 + \sum_j b_j^{(\text{chain})} \big) \Big[ (1 - \gamma_{\text{ln}})\min(100, N_{\text{chain}}) + \gamma_{\text{ln}} N_{\text{chain}} \Big] \bigg) \\
+    & \cdot \bigg( 1 + \gamma_{\text{chain}} \left( 0.10 + \sum_j b_{j,\text{src}}^{(\text{chain})} + \sum_k d_{k,\text{tgt}}^{(\text{chain})} \right) \left[ (1 - \gamma_{\text{ln}})\min(100, N_{\text{chain}}) + \gamma_{\text{ln}} N_{\text{chain}} \right] \bigg) \\
     & \cdot \bigg( 1 + \sum_j b_j^{(\text{aug})} + \gamma_{\text{vuln}} \Big[ \sum_j b_j^{(\text{vuln\_gen})} + \operatorname{sgn}(v_1)\sum_j b_j^{(\text{vuln\_phys})} + \operatorname{sgn}(v_2)\sum_j b_j^{(\text{vuln\_mag})} \\
     & \qquad\qquad\qquad\qquad\qquad\quad + \big( \sum_j \vec{\mathbf{b}}_j^{(\text{vuln\_elem})} \big)^\top \mathbf{e}_{\text{src}} + \gamma_{\text{dot}} \sum_j b_j^{(\text{vuln\_dot})} + \gamma_{\text{sum}} \sum_j b_j^{(\text{vuln\_sum})} \Big] \bigg) \\
     & \cdot \prod_k \bigg( 1 - \gamma_{\text{barrier}} \Big[ r_k^{(\text{gen})} + \operatorname{sgn}(v_1) r_k^{(\text{phys})} + \operatorname{sgn}(v_2) r_k^{(\text{mag})} \Big] \bigg) \\
@@ -1094,6 +1094,8 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     Each **Chain** increases damage by 10% by default; however, there is an effect called **Increased Chain DMG**, which increases that value further.
 
+    It exists in a form of a **Debuff** and **Buff**, affecting the enemy and self / allies correspondingly.
+
     ---
 
     **Chain Retention** is an effect that keeps set amount of Chains in-between Turns. If you reach more Chains than Retention can carry over, the maximum amount from Chain Retention will be carried over instead. 
@@ -1130,7 +1132,34 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ---
 
-    Costumes providing $\text{Increased Chain DMG\%}$:
+    Costumes providing $\text{Increased Chain DMG\%}$ Buff to **themselves only**:
+    <div class="responsive-table-wrapper">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Costume</th>
+                    <th>Value</th>
+                    <th>Duration</th>
+                    <th>SP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">
+                    ![Unraveling Mummy Nekyndalia](../assets/images/character/illustration/torso/illust_inven_char004302_225.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Unraveling Mummy Nekyndalia</strong></td>
+                    <td>$2\%$</td>
+                    <td>$2\text{ Turns}\newline \text{\textcolor{AFDBF5}{[Max 10 Stacks]}} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
+                    <td align="center">$6 \sim 5$</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    ---
+
+    Costumes providing $\text{Increased Chain DMG\%}$ Debuff:
     <div class="responsive-table-wrapper">
         <table class="data-table">
             <thead>
@@ -1528,6 +1557,15 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td>$75\% \sim 175\% \newline \text{\textcolor{AFDBF5}{[Darkness]}}$</td>
                     <td>$\text{4 Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
                     <td align="center">$4 \sim 3$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Descendant of the Great Witch Celia](../assets/images/character-illustration/torso/illust_inven_char060402_28.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Descendant of the<br>Great Witch Celia</strong></td>
+                    <td>$50\% \newline \text{\textcolor{AFDBF5}{[Darkness]}}$</td>
+                    <td>$\text{2 Turns} \newline \text{\textcolor{AFDBF5}{[Conditional]}}$</td>
+                    <td align="center">$8 \sim 7$</td>
                 </tr>
             </tbody>
         </table>

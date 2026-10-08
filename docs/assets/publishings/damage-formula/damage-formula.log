@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.3)  5 SEP 2026 10:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.3)  6 OCT 2026 18:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -365,31 +365,31 @@ File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 ) (damage-formula.aux)
 \openout1 = `damage-formula.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Info: Redefining \microtypecontext on input line 28.
-Package microtype Info: Applying patch `item' on input line 28.
-Package microtype Info: Applying patch `toc' on input line 28.
-Package microtype Info: Applying patch `eqnum' on input line 28.
-Package microtype Info: Applying patch `footnote' on input line 28.
-Package microtype Info: Applying patch `verbatim' on input line 28.
-LaTeX Info: Redefining \microtypesetup on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Info: Redefining \microtypecontext on input line 30.
+Package microtype Info: Applying patch `item' on input line 30.
+Package microtype Info: Applying patch `toc' on input line 30.
+Package microtype Info: Applying patch `eqnum' on input line 30.
+Package microtype Info: Applying patch `footnote' on input line 30.
+Package microtype Info: Applying patch `verbatim' on input line 30.
+LaTeX Info: Redefining \microtypesetup on input line 30.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -459,64 +459,66 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 30.
  (damage-formula.out) (damage-formula.out)
 \@outlinefile=\write3
 \openout3 = `damage-formula.out'.
 
- [1{C:/Users/zelen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
-
-
-]
-Underfull \hbox (badness 1147) in paragraph at lines 59--59
-[]\OT1/cmr/bx/n/14.4 (+20) System Mod-el-ing and Core
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
-(C:\Users\zelen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
+ (C:\Users\zelen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\zelen\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
  (C:\Users\zelen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\zelen\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [2
+) [1{C:/Users/zelen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
-] [3] [4]
-Underfull \hbox (badness 4595) in paragraph at lines 251--252
+
+] [2
+
+]
+Underfull \hbox (badness 1147) in paragraph at lines 61--61
+[]\OT1/cmr/bx/n/14.4 (+20) System Mod-el-ing and Core
+ []
+
+[3
+
+] [4] [5]
+Underfull \hbox (badness 4595) in paragraph at lines 253--254
 []\OT1/cmr/m/n/10 (+20) To en-force these op-er-a-tional bound-aries, the
  []
 
-[5] [6]
-Underfull \hbox (badness 1484) in paragraph at lines 479--480
+[6] [7]
+Underfull \hbox (badness 1484) in paragraph at lines 481--482
 \OT1/cmr/m/n/10 (+20) The di-rec-tional in-ter-ac-tion dy-nam-ics be-tween op-
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 496--497
+Underfull \hbox (badness 1629) in paragraph at lines 498--499
 []\OT1/cmr/m/n/10 (+20) The non-zero en-tries of $\OT1/cmr/bx/n/10 (+20) A[]$ \OT1/cmr/m/n/10 (+20) rep-re-sent a hy-
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 496--497
+Underfull \hbox (badness 1337) in paragraph at lines 498--499
 \OT1/cmr/m/n/10 (+20) brid in-ter-ac-tion graph: the cyclic sub-space over
  []
 
-[7]
-Overfull \hbox (0.65788pt too wide) detected at line 524
+[8]
+Overfull \hbox (0.65788pt too wide) detected at line 526
 [][][][][]
  []
 
-[8]
-Underfull \hbox (badness 1127) in paragraph at lines 649--650
+[9]
+Underfull \hbox (badness 1127) in paragraph at lines 651--652
 \OMS/cmsy/m/n/10 f[]\OML/cmm/m/it/10 ; []; []\OMS/cmsy/m/n/10 g$\OT1/cmr/m/n/10 (+20) ) by-pass re-duc-tive bar-ri-ers
  []
 
-[9]
-Overfull \hbox (19.46503pt too wide) detected at line 749
+[10]
+Overfull \hbox (405.40686pt too wide) detected at line 751
 [][][][][]
  []
 
@@ -532,35 +534,35 @@ Pagestretch: 0.0pt
 CUTED [output]: 37.95137pt
 CUTED [leftcolumn badness]: 0
 CUTED [rightcolumn badness]: 0
-[10
+[11
 
 
-] [11
+] [12
 
 
 ]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 860.
+(caption)                particular \caption on input line 862.
 See the caption package documentation for explanation.
 
-<figures/aquila-stats.png, id=375, 313.77225pt x 375.804pt>
+<figures/aquila-stats.png, id=383, 313.77225pt x 375.804pt>
 File: figures/aquila-stats.png Graphic file (type png)
 <use figures/aquila-stats.png>
-Package pdftex.def Info: figures/aquila-stats.png  used on input line 867.
+Package pdftex.def Info: figures/aquila-stats.png  used on input line 869.
 (pdftex.def)             Requested size: 200.53397pt x 240.18115pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 868.
+(caption)                particular \caption on input line 870.
 See the caption package documentation for explanation.
 
-[12 <./figures/aquila-stats.png>]
-<figures/fiend-hunter-telemetry.jpg, id=394, 1027.84pt x 738.76pt>
+[13 <./figures/aquila-stats.png>]
+<figures/fiend-hunter-telemetry.jpg, id=403, 1027.84pt x 738.76pt>
 File: figures/fiend-hunter-telemetry.jpg Graphic file (type jpg)
 <use figures/fiend-hunter-telemetry.jpg>
-Package pdftex.def Info: figures/fiend-hunter-telemetry.jpg  used on input line 968.
+Package pdftex.def Info: figures/fiend-hunter-telemetry.jpg  used on input line 970.
 (pdftex.def)             Requested size: 366.82715pt x 263.6538pt.
- [13] [14 <./figures/fiend-hunter-telemetry.jpg>] [15] [16] [17
+ [14] [15 <./figures/fiend-hunter-telemetry.jpg>] [16] [17] [18
 
 ] (damage-formula.aux)
  ***********
@@ -571,17 +573,17 @@ Package rerunfilecheck Info: File `damage-formula.out' has not changed.
 (rerunfilecheck)             Checksum: 3D59B6ADEC1978D4D7CC103522097345;11935.
  ) 
 Here is how much of TeX's memory you used:
- 14534 strings out of 467509
- 234557 string characters out of 5408781
- 709741 words of memory out of 5000000
- 43219 multiletter control sequences out of 15000+600000
- 646092 words of font info for 190 fonts, out of 8000000 for 9000
+ 14561 strings out of 467509
+ 234951 string characters out of 5408781
+ 710090 words of memory out of 5000000
+ 43234 multiletter control sequences out of 15000+600000
+ 648198 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,20n,79p,1078b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\zelen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on damage-formula.pdf (17 pages, 1091603 bytes).
+ 74i,20n,79p,1078b,604s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\zelen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\zelen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0600.pk> <C:\Users\zelen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/zelen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on damage-formula.pdf (18 pages, 1099076 bytes).
 PDF statistics:
- 613 PDF objects out of 1000 (max. 8388607)
- 163 named destinations out of 1000 (max. 500000)
- 48515 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 629 PDF objects out of 1000 (max. 8388607)
+ 164 named destinations out of 1000 (max. 500000)
+ 52611 words of extra memory for PDF output out of 61914 (max. 10000000)
 
