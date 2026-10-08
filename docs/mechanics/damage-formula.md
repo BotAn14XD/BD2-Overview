@@ -1146,7 +1146,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
             <tbody>
                 <tr>
                     <td align="center">
-                    ![Unraveling Mummy Nekyndalia](../assets/images/character/illustration/torso/illust_inven_char004302_225.avif){.icon-portrait}
+                    ![Unraveling Mummy Nekyndalia](../assets/images/character-illustration/torso/illust_inven_char004302_225.avif){.icon-portrait}
                     </td>
                     <td><strong>Unraveling Mummy Nekyndalia</strong></td>
                     <td>$2\%$</td>
