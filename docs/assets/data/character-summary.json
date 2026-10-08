@@ -2455,6 +2455,27 @@
       }]
     },
     {
+      "id": "unraveling_mummy_nekyndalia",
+      "character": "nekyndalia",
+      "name": "Unraveling Mummy Nekyndalia",
+      "role": [
+        "DPS",
+        "chainer"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "mediumAOE"
+      ],
+      "chains": 10,
+      "orderPriority": 5,
+      "spCost": 6,
+      "spBreak": { "1": 5 },
+      "potentials": [{
+        "id": "range_up", "label": "Range Up", "addEffects": ["bigAOE"], "removeEffects": ["mediumAOE"], "icon": "range1_29"
+      }]
+    },
+    {
       "id": "apostle_olivier",
       "character": "olivier",
       "name": "Apostle Olivier",

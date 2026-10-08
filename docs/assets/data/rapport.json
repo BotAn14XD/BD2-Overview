@@ -3311,6 +3311,354 @@
           "wrong": "You should never pick desert plants?"
         }
       ]
+    },
+    {
+      "id": "innocent-bunny-tyr",
+      "costume": "Innocent Bunny Tyr",
+      "character": "Tyr",
+      "drinks": [
+        { "name": "Creamy Milk", "icon": "assets/images/rapport/icons/icon_resource190001_395_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Taking a big bite of her dessert, Tyr beams with pure bliss.",
+            "Out of all three today, this dessert is definitely the best!",
+            "Especially the syrup drizzled on top—it's just how I like it.",
+            "Hehe, what about you, Master? Which syrup is your favorite?"
+          ],
+          "correct": "Raspberry",
+          "wrong": "Grape."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Clearing her throat with a soft \"ahem,\" Tyr speaks up in a slightly raspy voice.",
+            "Ah, sorry... My voice is a little scratchy today, huh?",
+            "I stayed up all night practicing a cool howl, so I strained it a bit!"
+          ],
+          "correct": "Like a wolf?",
+          "wrong": "Like a rabbit trying to howl?"
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Gazing up toward the dark second floor above us, Tyr breaks the quiet.",
+            "You know... do you ever get scared going into the dark, even somewhere you know really well? Like up there?",
+            "I usually turn on all the lights and make as much noise as I can first.",
+            "Do you do that too?"
+          ],
+          "correct": "Yeah.",
+          "wrong": "Never."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Trembling, Tyr forces out her words.",
+            "So... earlier today... Rou and Sonya were reading a scary book.",
+            "I didn't mean to eavesdrop, but it was all about people getting chased by ghosts!",
+            "If I were in a story like that, what kind of role do you think I'd play?"
+          ],
+          "correct": "The watchdog.",
+          "wrong": "The bait."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Leaving her dessert half-eaten, Tyr hesitates briefly before speaking up.",
+            "Master... can I take this dessert to go?",
+            "I want to share it with the other Snow Rabbits.",
+            "I bet they'll love it."
+          ],
+          "correct": "I'll pack it so it doesn't melt on the way.",
+          "wrong": "Bring your friends over."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Wearing a look of determination, Tyr steels herself to speak.",
+            "Master, I'm not having any dessert today!",
+            "So even if I ask, don't give me any, okay?"
+          ],
+          "correct": "Are you on a diet?",
+          "wrong": "...Did you gain weight?"
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Looking back on our time at the haunted manor, Tyr and I revisit what happened.",
+            "You know... so much happened at that manor.",
+            "You were in real danger, and we were lucky to get out safely thanks to everyone else.",
+            "I don't know what would've happened if it was just you and me..."
+          ],
+          "correct": "You were brave, Tyr.",
+          "wrong": "Your'e cute, so it's okay."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Tyr and I chat about her sense of smell.",
+            "People sometimes ask if having a good sense of smell bothers me.",
+            "To be honest, really strong scents aren't that great, but I'm still glad I have a sharp nose.",
+            "Can you guess why?"
+          ],
+          "correct": "You can enjoy food more, since you get a better sense of flavor and aroma.",
+          "wrong": "You can sense danger quickly."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Wearing a miserable expression, Tyr speaks up.",
+            "Ugh, it's gotten so hot lately...",
+            "I want to go outside, get some frozen treats, and go for walks, but the heat is just way too much..."
+          ],
+          "correct": "Give her cold milk",
+          "wrong": "Give her warm milk"
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Leaning in close with sparkling eyes, Tyr speaks up.",
+            "Master, I'm gonna try making some new frozen treats!",
+            "I'm thinking of bringing some over to the haunted manor, too.",
+            "What flavor do you think I should go with?"
+          ],
+          "correct": "Candy flavor.",
+          "wrong": "Cucumber flavor."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Sniffing the air curiously, Tyr turns her attention to me.",
+            "Whoa, the kitchen smells like so many things today!",
+            "Even with my sharp nose, I can barely tell what's what.",
+            "What's the occasion?"
+          ],
+          "correct": "I was practicing some new recipes.",
+          "wrong": "We had an important guest over today."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Looking visibly anxious, Tyr speaks up.",
+            "M-Master... I keep feeling like someone's watching me...",
+            "I-Is there someone standing behind me?"
+          ],
+          "correct": "It's a mirror.",
+          "wrong": "It's a ghost."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Tyr and I talk about food.",
+            "Master, I tried a really good food combo recently!",
+            "It's grilled pineapple... on top of a pizza!",
+            "What do you think? Doesn't that sound delicious?"
+          ],
+          "correct": "That actually sounds pretty good.",
+          "wrong": "I'm not so sure about that..."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Sipping quietly on her glass of milk, Tyr pauses to ask a question.",
+            "I know I say this a lot, but the milk here is so good!",
+            "Don't you think a dessert made with this milk would taste amazing, too?",
+            "Hehe, we should try making something with it!"
+          ],
+          "correct": "Make milk pudding",
+          "wrong": "Make orange milk"
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Chatting together, Tyr and I freeze as the diner lights suddenly cut out.",
+            "Eek! Wh-what happened?!",
+            "It's pitch black... M-Master, you're still next to me, right?"
+          ],
+          "correct": "Yeah, I'm right here.",
+          "wrong": "..."
+        }
+      ]
+    },
+    {
+      "id": "unraveling-mummy-nekyndalia",
+      "costume": "Unraveling Mummy Nekyndalia",
+      "character": "Nekyndalia",
+      "drinks": [
+        { "name": "Warm Black Tea", "icon": "assets/images/rapport/icons/icon_resource190005_399_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Nekyndalia tells me about the ghost princess.",
+            "Whenever Princess wants to play house, she won't leave me alone until I join her.",
+            "She'll tug on my bandages mid-chore, throwing my whole routine off.",
+            "How do you think I should handle her when she gets like that?"
+          ],
+          "correct": "Why not just play along for a few minutes?",
+          "wrong": "What if you just ignore her?"
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Nekyndalia tells me about the manor's ghosts.",
+            "If the spirits around the manor don't blow off steam once in a while, they throw terrible tantrums.",
+            "Playing games is their main outlet, so I do my best to humor them...",
+            "...but every ghost wants something different. Balancing their whims with my actual duties is exhausting.",
+            "So I am looking for ways to keep them entertained without spending all day playing.",
+            "Do you have any suggestions, Master?"
+          ],
+          "correct": "How about making them some snacks?",
+          "wrong": "Why not just bind them with your bandages?"
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Absentmindedly adjusting her bandages, Nekyndalia asks a question.",
+            "While dusting the archives, I stumbled across a handbook on maids.",
+            "According to the text, a proper maid should wear a neat, standardized uniform on duty.",
+            "I wanted your opinion on the matter...",
+            "Should I adopt a standard maid uniform as well?"
+          ],
+          "correct": "You don't need to force yourself.",
+          "wrong": "I think it'd look nice on you."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Taking a quiet sip, Nekyndalia looks up at me.",
+            "You always brew such exquisite tea, Master.",
+            "I wish to offer something in return.",
+            "Is there any favor or task you require of me?",
+            "For today, consider me your servant. Ask anything of me."
+          ],
+          "correct": "How about a massage?",
+          "wrong": "Anything's fine by me."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Nekyndalia shifts uncomfortably, frowning softly.",
+            "Master, it seems my wraps snagged on your side of the counter...",
+            "Would you mind freeing them for me?",
+            "Following her gaze, I spot two loose strips of cloth caught on the edge."
+          ],
+          "correct": "Pull the right bandage",
+          "wrong": "Pull the left bandage"
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Setting her teacup down after another sip, Nekyndalia asks a question.",
+            "I hear you have staff helping you at the diner.",
+            "If you were given the chance to trade your current staff for a maid like me...",
+            "...what would you say?"
+          ],
+          "correct": "I wouldn't trade them for anyone.",
+          "wrong": "In a heartbeat."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Nekyndalia looks at me intently before speaking.",
+            "If you were to serve as my personal butler for a day, Master...",
+            "...what would you do first?"
+          ],
+          "correct": "I'd brew a special tea blend just for you.",
+          "wrong": "I'd try on a butler suit."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Nekyndalia sets two teacups on the counter and looks up at me.",
+            "While crafting teacups for my mistress, I made one for you as well.",
+            "Would you care to pick your favorite?",
+            "I shall keep whichever one remains."
+          ],
+          "correct": "It's hard to choose. I like them both.",
+          "wrong": "I'll take whichever one you recommend."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Setting her teacup down after another sip, Nekyndalia asks a question.",
+            "I read in a handbook that there are different types of maids.",
+            "Apparently, the cute ones get the most affection from masters.",
+            "If you were to hire a maid yourself...",
+            "...what kind would you choose?"
+          ],
+          "correct": "An efficient one who gets work done.",
+          "wrong": "A beautiful maid."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Savoring the aroma of her tea, Nekyndalia asks a question.",
+            "What do you value most when drinking tea, Master?"
+          ],
+          "correct": "The aroma.",
+          "wrong": "The taste."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Nekyndalia looks at me intently.",
+            "If you were to rate me as a maid, Master...",
+            "...what score would you give me out of one hundred?"
+          ],
+          "correct": "98",
+          "wrong": "I can't put a score on you."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Nekyndalia stares into her teacup, looking visibly troubled.",
+            "Whenever I make a major mistake at work, it brings back memories of how incompetent I used to be.",
+            "It throws off my focus, and my whole routine falls apart.",
+            "How should I handle moments like that?"
+          ],
+          "correct": "Take a break and rest for a bit.",
+          "wrong": "Pause what you're doing and try a different task."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Toying with her bandages, Nekyndalia turns to me.",
+            "Restraining unruly ghosts takes proper practice.",
+            "Since you have been caught in my wraps before, Master...",
+            "...would you mind checking if I'm squeezing too hard?"
+          ],
+          "correct": "Go easy on me.",
+          "wrong": "Give it all you've got."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "My limbs are completely detachable.",
+            "<i>POP!</i>",
+            "Nekyndalia pops her arm right off without warning."
+          ],
+          "correct": "That's pretty convenient.",
+          "wrong": "Isn't that inconvenient?"
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Twirling one of her pigtails, Nekyndalia asks a question.",
+            "I read about maid hairstyles in a book recently.",
+            "Apparently, a neat bun or a ponytail is standard to keep hair out of the way.",
+            "Mine seem to be called pigtails...",
+            "...Should I switch to a standard maid hairstyle?"
+          ],
+          "correct": "Pigtails are the best!",
+          "wrong": "I'd like to see a new style."
+        }
+      ]
     }
   ]
 }

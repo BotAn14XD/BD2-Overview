@@ -166,11 +166,13 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Medical Club Teresse** **Burst 3**{.yellow}
 
 === "High Priority"
+    * **Descendant of the Great Witch Celia** **Burst 1**{.yellow}
     * **Heavenly Guardian Successor Glacia** **Bursts 1-3**{.yellow}
     * **Sunny Inn Hand Helena** **Bursts 1-2**{.yellow}
     * **Eternal Chains Kyouka Uzen** **Burst 1**{.magenta}
     * **Homunculus Lathel** **Burst 2-3**{.yellow}
     * **Miracle Marine Mamonir** **Bursts 1-3**{.yellow}
+    * **Unraveling Mummy Nekyndalia** **Burst 1**{.yellow}
     * **New Hire Seir** **Bursts 1-2**{.yellow}
     * **Medical Club Teresse** **Bursts 1-2**{.yellow}
 
@@ -178,6 +180,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Fire Graffiti Anastasia** **Burst 3**{.yellow}
     * **The Fallen Angelica** **Burst 1**{.yellow}
     * **Young Lady Blade** **Burst 1**{.yellow}
+    * **Descendant of the Great Witch Celia** **Burst 2**{.yellow}
     * **Prophetic Dream Darian** **Burst 1**{.yellow}
     * **Beach Vacation Eclipse** **Bursts 1**{.yellow}
     * **Piercing Magic Bow Eleaneer** **Bursts 1-2**{.yellow}
@@ -189,6 +192,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Beachside Justice Michaela** **Bursts 1**{.yellow}
     * **New Hire Nebris** **Bursts 1-2**{.yellow}
     * **Deadeye Nekyndalia** **Bursts 1-2**{.yellow}
+    * **Unraveling Mummy Nekyndalia** **Bursts 2,3**{.yellow}
     * **Lord of the Cosmos Ren Yamashiro** **Burst 1**{.magenta}
     * **Thorn of the Desert Rubia** **Bursts 1,3**{.yellow}
     * **Reclaimed Destiny Sacred Justia** **Burst 1**{.yellow}
@@ -235,6 +239,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Comeback Idol Yuri** **Burst 2**{.yellow}
 
 === "Complete Skip"
+    * **Descendant of the Great Witch Celia** **Burst 3**{.yellow}
     * **Piercing Magic Bow Eleaneer** **Burst 3**{.yellow}
     * **Blood Glutton Justia** **Bursts 1-3**{.yellow}
     * **Pool Party Justia** **Bursts 1-3**{.yellow}

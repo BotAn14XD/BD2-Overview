@@ -53,11 +53,23 @@ You can also check the tiles by inspecting the Boss info in the Fiend Hunter Men
 
 ### Boss Levels
 
+!!! warning "REVAMP IN PROGRESS"
+    ![Elise](../assets/images/site-assets/illust_face6080250_315_5.avif){.icon-portrait-callout}
+    **This section needs a rewrite due to the update and will be revamped soon. Thank you for your patience!**
+
+
 Fiend Hunter Bosses have 25 initial Levels you can freely choose between in both **Normal** and **Practice** Battles. However, after defeating Level 25, you will face Level 26 — meaning the Boss, in theory, has infinitely many Difficulty Levels.
 
 Each new Level is progressively harder thanks to scaling parameters such as  {{ HP }} [**HP**{.white}](../misc/slang.md?term=Health) and {{ATK}} [**ATK**{.yellow}](../misc/slang.md?term=Attack) / {{MATK}} [**MATK**{.magenta}](../misc/slang.md?term=Magical Attack).
 
 ### Boss Stats
+
+
+!!! warning "REVAMP IN PROGRESS"
+    ![Elise](../assets/images/site-assets/illust_face6080250_315_5.avif){.icon-portrait-callout}
+    **This section needs a rewrite due to the update and will be revamped soon. Thank you for your patience!**
+
+
 Each Boss has its own predetermined **Base Value**, **Initial Growth** and **Scale Growth** parameters for {{ HP }} **HP** and {{ATK}} **ATK**{.yellow} or {{MATK}} **MATK**{.magenta}. These three parameters determine the Boss's **Health** and **Attack** potential on each Difficulty Level.
 
 **Initial Growth** is responsible for scaling immediately, starting from Level 2, while **Scale Growth** has a much greater impact at higher difficulties.
@@ -143,6 +155,11 @@ This feature is overall rarely used, with the sole exception of saving time at h
 
 ## Damage Mechanic
 
+!!! warning "REVAMP IN PROGRESS"
+    ![Elise](../assets/images/site-assets/illust_face6080250_315_5.avif){.icon-portrait-callout}
+    **This section needs a rewrite due to the update and will be revamped soon. Thank you for your patience!**
+
+
 Since you can challenge any Difficulty Level, it is possible that you won't deal enough damage to clear the entire run.
 
 If this happens, you will automatically defeat all levels whose HP thresholds are lower than the damage you dealt. Your full damage score will then carry over and be applied to the next level.
@@ -182,6 +199,11 @@ You can continue dealing damage to the Boss the **following day**, either by att
 ---
 
 ## Rewards
+
+!!! warning "REVAMP IN PROGRESS"
+    ![Elise](../assets/images/site-assets/illust_face6080250_315_5.avif){.icon-portrait-callout}
+    **This section needs a rewrite due to the update and will be revamped soon. Thank you for your patience!**
+
 
 Similar to Season Events, Fiend Hunter has **Clear** (Kill) Rewards and **Challenge** (Daily) Rewards.
 
@@ -234,6 +256,10 @@ Similar to the Damage behavior, you can obtain Challenge Rewards once per day pe
 ---
 
 ## Ranking
+
+!!! warning "REVAMP IN PROGRESS"
+    ![Elise](../assets/images/site-assets/illust_face6080250_315_5.avif){.icon-portrait-callout}
+    **This section needs a rewrite due to the update and will be revamped soon. Thank you for your patience!**
 
 Since Fiend Hunter is a competitive [PvE](../misc/slang.md/?term=PvE) game mode, it features a ranking system.
 
@@ -333,11 +359,6 @@ Since figuring out the best strategy for Fiend Hunter can be tricky for the aver
 
     This option is similar to the second; however, it is a **Korean forum**. Therefore, you should use a translator, but generally speaking, images do not need any translation.
     {{ redirect_btn('https://arca.live/b/browndust2/', "Arca Live Forum", '#e5b567') }}
-
-* **Option 4: Check the Official Discord Forum**{.yellow}
-
-    If you are a part of the Official Brown Dust II Discord Community, you can visit **#fiend-hunter-tips** to find the guides from **Pod** and other players.
-    {{ redirect_btn('https://canary.discord.com/channels/1027111928327323668/1162208623250911305', "#fiend-hunter-tips", '#e5b567') }}
 
 ---
 

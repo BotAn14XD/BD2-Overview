@@ -120,6 +120,35 @@ html {
   pointer-events: none;
 }
 
+.callout-with-portrait .admonition {
+  padding-bottom: 0.8rem;
+}
+
+.md-typeset .admonition p:has(.icon-portrait-callout) {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1.25rem;
+  margin: 0.4rem 0 !important;
+}
+
+.md-typeset .admonition .icon-portrait-callout,
+.md-typeset .admonition a:has(.icon-portrait-callout) {
+  display: block !important;
+  flex-shrink: 0 !important;      
+  width: 95px !important;
+  height: auto !important;
+  max-width: none !important;
+  margin: 0 !important;
+  pointer-events: none !important;
+  cursor: default !important;
+  transform: none !important;
+}
+
+.md-typeset .admonition p:has(.icon-portrait-callout) strong {
+  flex: 1;
+  line-height: 1.55;
+}
+
 .icon-header {
   width: 1.2em;
   height: 1.2em;

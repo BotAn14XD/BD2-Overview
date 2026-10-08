@@ -121,6 +121,7 @@ plugins:
         - tile-image
         - table-icon
         - colo-icon
+        - icon-portrait-callout
   - git-revision-date-localized:
       type: date
       timezone: UTC

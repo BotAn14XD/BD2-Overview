@@ -10,6 +10,10 @@ icon: material/calculator-variant
 ![Fiend Hunter Calculator](../assets/images/site-assets/index-pc-nav-29.avif){: .card-header-img fetchpriority=high loading=eager }
 # Fiend Hunter Calculator {: .sr-only }
 
+!!! warning "REVAMP IN PROGRESS"
+    ![Elise](../assets/images/site-assets/illust_face6080250_315_5.avif){.icon-portrait-callout}
+    **The Calculator needs a revamp due to the Fiend Hunter update. Old entries will be left as it is, while new ones will be modified. Revamp will be done soon. Thank you for your patience!**
+
 This is a calculator for [Fiend Hunter](../content/fh.md) Bosses stats and threshold damage. 
 
 Type the Boss name, [Season Event](../content/events.md) or Property to open the stats for a specific Boss.
