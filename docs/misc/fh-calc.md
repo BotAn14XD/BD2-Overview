@@ -1,5 +1,5 @@
 ---
-description: A utility tool that displays Brown Dust II Fiend Hunter data and threshold damage required to clear a specific level.
+description: A utility tool that displays Brown Dust II Fiend Hunter Boss stats for every Stage, plus the archived Level stats and daily threshold damage of earlier Bosses.
 comments: true
 image: assets/images/site-assets/fh-calc-banner.png
 hero: assets/images/site-assets/index-pc-nav-29.avif
@@ -10,17 +10,15 @@ icon: material/calculator-variant
 ![Fiend Hunter Calculator](../assets/images/site-assets/index-pc-nav-29.avif){: .card-header-img fetchpriority=high loading=eager }
 # Fiend Hunter Calculator {: .sr-only }
 
-!!! warning "REVAMP IN PROGRESS"
-    ![Elise](../assets/images/site-assets/illust_face6080250_315_5.avif){.icon-portrait-callout}
-    **The Calculator needs a revamp due to the Fiend Hunter update. Old entries will be left as it is, while new ones will be modified. Revamp will be done soon. Thank you for your patience!**
+!!! info "Stages and Archive"
+    Fiend Hunter now uses **Stages** (Easy — Challenge) and is fought once per week. Bosses from before that update used Levels and daily attacks; their data is kept here as an archive, including the daily Threshold Damage. **From now on, the tool will serve as an archive of Bosses stats.**
 
-This is a calculator for [Fiend Hunter](../content/fh.md) Bosses stats and threshold damage. 
+This is a calculator for [Fiend Hunter](../content/fh.md) Bosses stats.
 
 Type the Boss name, [Season Event](../content/events.md) or Property to open the stats for a specific Boss.
 
-Table includes **Level**, {{HP}} **HP**{.white}, {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and the Daily Threshold Damage (the consistent score required each day from Day 1 to successfully defeat that level by the final day).
-
-Displayed Level amount can be changed, from 1 to 100 (default — 25).
+* **Stage Bosses** show a table with **Stage**, {{HP}} **HP** and {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} for each of the 5 Stages.
+* **Archived (Level) Bosses** show **Level**, {{HP}} **HP**, {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and the Daily Threshold Damage (the consistent score required each day from Day 1 to successfully defeat that level by the final day). Displayed Level amount can be changed, from 1 to 100 (default — 25).
 
 If you are looking for raw Fiend parameters instead, refer to [this data file](https://github.com/BotAn14XD/BD2-Overview/blob/main/docs/assets/data/fiend-hunter-bosses.json) instead.
 
@@ -82,17 +80,12 @@ If you are looking for raw Fiend parameters instead, refer to [this data file](h
     </div>
 </div>
  
+<p class="era-note" id="era-note" hidden>Archived Boss: Levels and daily Thresholds from before the Stage update.</p>
+
 <div class="table-wrap">
 <div class="table-scroll" id="table-scroll">
     <table class="stat-table" id="stat-table">
-    <thead>
-        <tr>
-        <th>Level</th>
-        <th>HP</th>
-        <th>Threshold</th>
-        <th id="atk-head">ATK</th>
-        </tr>
-    </thead>
+    <thead id="table-head"></thead>
     <tbody id="table-body"></tbody>
     </table>
 </div>
@@ -102,17 +95,33 @@ If you are looking for raw Fiend parameters instead, refer to [this data file](h
 </div>
 
 !!! example "Stat Formula & Details"
-    $\text{Value} = \text{round}\left[\text{Base} \cdot 1.1 \cdot \left(1 + (\text{Level}-1) \cdot \text{Rate} \cdot 0.01 \cdot \text{Level}^\text{Slope} \cdot \text{Stage Ratio}\right)\right]$
+    Each stat of a Stage Boss is the sum of two addends, each rounded separately:
 
-    * $\text{Base} \rightarrow \text{Base Value}$
-    * $\text{Level} \rightarrow \text{Boss Level}$
-    * $\text{Rate} \rightarrow \text{Initial Growth Parameter}$
-    * $\text{Slope} \rightarrow \text{Scale Growth Parameter}$
-    * $\text{Stage Ratio} \rightarrow \text{Level Related Multiplier}$
+    $\text{Value} = \displaystyle\sum_{i=1}^{2}{\text{round}\left[\text{Base}_i \cdot 1.1 \cdot \left(1 + (\text{Parameter}_{i} -1) \cdot \text{Rate}_i \cdot 0.01 \cdot \text{Parameter}_{i}^{\text{Slope}_{i}} \right)\right]}$
+
+    * $\text{Base}_i \rightarrow \text{Base Value}$
+    * $\text{Parameter}_1 \rightarrow \text{Number of the Stage, 1 — 5}$
+    * $\text{Parameter}_2 \rightarrow \text{Stage-specific parameter (resembles the old Boss Level)}$
+    * $\text{Rate}_i \rightarrow \text{Linear Growth Parameter}$
+    * $\text{Slope}_i \rightarrow \text{Scale Growth Parameter}$
 
     ---
 
     * **Rounding** in the formula works as follows:
         * For {{HP}} **HP**, **rounding down to 3 significant figures** is applied.
         * For {{ATK}} **ATK**{.yellow} and {{MATK}} **MATK**{.magenta}, **rounding to the nearest integer** is applied instead, with 0.5 being rounded **down**.
-    * Parameters **do not change** with level. However, boss has specific **levels**, after which a new **Stage** is applied. That *can* modify the final stat value, although recently (for at least 11 hunts) it has no impact.
+    * Parameters **do not change** with Stage.
+    * **Challenge** replaces the second addend with fixed values (about **+9T** {{HP}} **HP** and **+5000** {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}).
+    * {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} in Easy Difficulty does not include the second addend.
+
+    ??? abstract "Legacy (Level) Stat Formula"
+        $\text{Value} = \text{round}\left[\text{Base} \cdot 1.1 \cdot \left(1 + (\text{Level}-1) \cdot \text{Rate} \cdot 0.01 \cdot \text{Level}^\text{Slope} \cdot \text{Stage Ratio}\right)\right]$
+
+        * $\text{Base} \rightarrow \text{Base Value}$
+        * $\text{Level} \rightarrow \text{Boss Level}$
+        * $\text{Rate} \rightarrow \text{Initial Growth Parameter}$
+        * $\text{Slope} \rightarrow \text{Scale Growth Parameter}$
+        * $\text{Stage Ratio} \rightarrow \text{Level Related Multiplier}$
+
+        * Rounding is the same as above.
+        * Boss had specific **levels**, after which a new **Stage** was applied. That *could* modify the final stat value, although for at least 11 hunts it had no impact.

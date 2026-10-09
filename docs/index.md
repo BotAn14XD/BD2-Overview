@@ -287,6 +287,30 @@ This site focuses on high-quality explanations for every game aspect for new pla
 
 </div>
 
+---
+
+<div class="grid cards center-content" markdown>
+
+-   ![Patreon](assets/images/site-assets/index-pc-nav-34.avif){: .card-header-img }
+
+    ---
+
+    [Support Compendium →](supporters.md){: .md-button }
+
+</div>
+
+<div class="grid cards center-content" markdown>
+
+-   ![Compendium Supporters](assets/images/site-assets/index-pc-nav-33.avif){: .card-header-img }
+
+    ---
+
+    [Check the Honor Board →](supporters.md){: .md-button }
+
+</div>
+
+
+
 <div id="support-nav" class="support-nav">
 <div class="support-nav__inner">
 <img src="assets/images/site-assets/illust_face00050205_23.avif" alt="Support" class="support-nav__image" loading="lazy">

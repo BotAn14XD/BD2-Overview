@@ -46,5 +46,6 @@
     * [Our Discord Server](https://discord.gg/tays83ew3N)
     * [P2W Efficiency Spreadsheet](https://docs.google.com/spreadsheets/d/19X4TjCjyrl6XV1jCh6kRoChubKjL9xBZbfyh9SB2egg/edit)
     * [Support Compendium](https://www.patreon.com/cw/BotAn14XD)
+    * [Compendium Supporters](supporters.md)
 
 </div>

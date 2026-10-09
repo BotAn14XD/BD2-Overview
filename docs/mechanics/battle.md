@@ -342,6 +342,16 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
         ??? image "Image Guide"
             ![Replace Shortcut Guide](../assets/images/battle-system/replace_shortcut.avif)
 
+=== "![View Skill Order](../assets/images/battle-system/icons/icon_costume.avif){ .icon-list }"
+    **View Skill Order**
+
+    View Skill Order feature allows you to check your settings of [**Set Costume Order**](#set-costume-order) for your whole team instead of just one Character.
+
+    ??? image "Image Guide"
+        ![View Skill Order](../assets/images/battle-system/view-skill-order.avif)
+
+    You can also move Costumes around with this feature enabled without going to specific Character's skill order.
+
 === "![Preset](../assets/images/battle-system/icons/icon_preset.avif){ .icon-list }"
     **Preset Feature**
 
@@ -395,7 +405,7 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
 ### ![Death Time icon](../assets/images/battle-system/icons/bufficon_72.avif){.icon-header} **Death Time**
 Death Time is a feature that should prevent the game from having extremely long battles. 
 
-It appears **after the 10th Turn** in **Story, Normal / Challenge Battles of Event, Mirror Wars, and Evil Castle**. It also appears on **different turns ** in **Golden Colosseum** (depending on the rule), and does **NOT** appear in **Fiend Hunter and Guild Raid**.
+It appears **after the 10th Turn** in **Story, Normal / Challenge Battles of Event, Mirror Wars, and Evil Castle**. It also appears on **different turns** in **Golden Colosseum** (depending on the rule), and does **NOT** appear in **Fiend Hunter and Guild Raid**.
 
 Every 2 turns, every unit on the battlefield receives **+100% [ATK](../misc/slang.md?term=Attack) / [MATK](../misc/slang.md?term=Magic Attack) increase**, as well as **DEF / MRES decrease by 100%** and **Incoming Damage increase by 50%**. This means that characters like Gynt and Remnunt will no longer be effective at locking down enemies with their ATK reduction.
 

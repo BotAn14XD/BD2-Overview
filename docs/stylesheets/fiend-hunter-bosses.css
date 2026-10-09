@@ -154,6 +154,7 @@
   gap: 0.7rem; margin-top: 0.8rem !important;
 }
 
+.fh-calc .level-field[hidden] { display: none; }
 .fh-calc .level-field { display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; color: var(--bd-muted, #8b98b8) !important; }
 .fh-calc .level-field input {
   width: 4.2rem; padding: 0.4rem 0.5rem; font-size: 0.85rem; text-align: center;
@@ -278,3 +279,11 @@
     background-color: var(--bd-btn-hover, #2a354d);
     border-color: var(--bd-gold, #ffe8aa);
 }
+
+/* ---- archive note (legacy bosses) ---- */
+.fh-calc .era-note {
+  margin: 0.7rem 0 0 !important;
+  font-size: 0.75rem;
+  color: var(--bd-muted, #8b98b8) !important;
+}
+.fh-calc .era-note[hidden] { display: none; }

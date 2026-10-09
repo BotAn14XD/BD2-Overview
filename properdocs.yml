@@ -89,6 +89,7 @@ extra_css:
   - stylesheets/print.css
   - stylesheets/fiend-hunter-bosses.css
   - stylesheets/teambuild.css
+  - stylesheets/supporters.css
   - stylesheets/ads.css
   - assets/katex/katex.min.css
 extra_javascript:
@@ -122,6 +123,7 @@ plugins:
         - table-icon
         - colo-icon
         - icon-portrait-callout
+        - note-avatar
   - git-revision-date-localized:
       type: date
       timezone: UTC
@@ -182,7 +184,8 @@ extra:
 copyright: >
   &copy; 2026 BotAn &middot;
   <a href="/BD2-Overview/privacy/">Privacy Policy</a> &middot;
-  <a href="/BD2-Overview/sitemap/">Sitemap</a><br>
+  <a href="/BD2-Overview/sitemap/">Sitemap</a> &middot;
+  <a href="/BD2-Overview/supporters/">Compendium Supporters</a><br>
   <span style="font-size: 0.8em; color: var(--md-default-fg-color--lighter);">
     Brown Dust 2 is a trademark of NEOWIZ & GAMFS N. This fan site is not affiliated with or endorsed by the publishers.
   </span>
