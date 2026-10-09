@@ -1,0 +1,117 @@
+/* =========================================================================
+   PRINT / PDF STYLESHEET
+   Clean, ink-friendly, crash-resistant paged layout for MkDocs Material.
+   ========================================================================= */
+@page {
+    margin: 16mm 14mm;
+    size: auto;
+}
+
+@media print {
+
+    /* Apply color adjustment at root to prevent compositor memory exhaustion */
+    html, body {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    /* --- Hide navigation, headers, footers, and interactive UI --- */
+    .md-header, .md-tabs, .md-sidebar, .md-footer, .md-banner,
+    .survey-announce-bar, .md-content__button, .md-top,
+    .share-link-wrapper, .redirect-btn-wrap,
+    .gear-tooltip-box, #custom-survey,
+    .search, .quick-boss-shortcut, .toolbar, .actions {
+        display: none !important;
+    }
+
+    /* =====================================================================
+       DARK / SLATE THEME
+       ===================================================================== */
+    body[data-md-color-scheme="slate"],
+    [data-md-color-scheme="slate"] {
+        background-color: #161616 !important;
+        --md-default-bg-color: #161616 !important;
+        --md-default-fg-color: #f5f7fa !important;
+        --md-typeset-color: #f5f7fa !important;
+    }
+
+    body[data-md-color-scheme="slate"] .md-typeset {
+        color: #f5f7fa !important;
+    }
+
+    body[data-md-color-scheme="slate"] .md-typeset p,
+    body[data-md-color-scheme="slate"] .md-typeset li,
+    body[data-md-color-scheme="slate"] .md-typeset span {
+        color: #e5e7eb !important;
+    }
+
+    body[data-md-color-scheme="slate"] .md-typeset a {
+        color: #7db4ff !important;
+        text-decoration: underline;
+    }
+
+    /* Cards, Admonitions & Containers */
+    body[data-md-color-scheme="slate"] .fh-calc .card,
+    body[data-md-color-scheme="slate"] .md-typeset .admonition,
+    body[data-md-color-scheme="slate"] .md-typeset details {
+        background-color: #1e2124 !important;
+        border-color: #2a2d32 !important;
+        color: #f5f7fa !important;
+    }
+
+    body[data-md-color-scheme="slate"] .fh-calc .card-head,
+    body[data-md-color-scheme="slate"] .md-typeset .admonition-title,
+    body[data-md-color-scheme="slate"] .md-typeset summary {
+        background-color: #24292e !important;
+        color: var(--bd-gold, #ffe8aa) !important;
+    }
+
+    /* =====================================================================
+       LIGHT THEME
+       ===================================================================== */
+    body[data-md-color-scheme="default"] {
+        background-color: #ffffff !important;
+    }
+
+    /* --- General Structural Resets --- */
+    body {
+        padding: 0 !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    html, body,
+    .md-container,
+    .md-main,
+    .md-main__inner,
+    .md-grid,
+    .md-content,
+    .md-content__inner {
+        height: auto !important;
+        min-height: auto !important;
+        max-height: none !important;
+        overflow: visible !important;
+        position: static !important;
+    }
+
+    /* --- Pagination Control (Crash-Safe) --- */
+    .md-typeset table {
+        break-inside: auto !important; /* Prevents infinite layout loops on long tables */
+    }
+
+    .md-typeset tr,
+    .md-typeset thead,
+    .md-typeset figure,
+    .territory-grid-tile {
+        break-inside: avoid !important;
+    }
+
+    /* --- Safe Collapsible Expansion --- */
+    .md-typeset details {
+        display: block !important;
+    }
+
+    .md-typeset details > * {
+        display: block !important;
+    }
+}
