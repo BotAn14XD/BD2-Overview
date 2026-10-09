@@ -144,8 +144,9 @@ html {
   transform: none !important;
 }
 
-.md-typeset .admonition p:has(.icon-portrait-callout) strong {
+.md-typeset .admonition p:has(.icon-portrait-callout) > span {
   flex: 1;
+  display: block;
   line-height: 1.55;
 }
 

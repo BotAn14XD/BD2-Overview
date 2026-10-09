@@ -1970,5 +1970,58 @@
       "rate": "3",
       "slope": "1.5"
     }
+  },
+  {
+    "season": "81",
+    "seasonEvent": "Loyal Maid",
+    "name": "Dark Magica (Water)",
+    "property": "Water",
+    "id": "9275",
+    "defaultCostumeID": "927500",
+    "dateStart": "2026-10-15",
+    "dateEnd": "2026-10-21",
+    "HP": {
+      "base": "10000",
+      "rate": "1",
+      "slope": "1.00"
+    },
+    "MATK": {
+      "base": "100",
+      "rate": "1",
+      "slope": "1"
+    },
+    "stages": {
+      "easy": {
+        "param": "2",
+        "skipATKParamAddend": "TRUE"
+      },
+      "normal": {
+        "param": "4"
+      },
+      "hard": {
+        "param": "7"
+      },
+      "veryHard": {
+        "param": "13"
+      },
+      "challenge": {
+        "flat": {
+          "HP": "9000000000000",
+          "MATK": "5000"
+        }
+      }
+    },
+    "paramAddend": {
+      "HP": {
+        "base": "7700",
+        "rate": "4000",
+        "slope": "2.9"
+      },
+      "MATK": {
+        "base": "100",
+        "rate": "3",
+        "slope": "1.5"
+      }
+    }
   }
 ]

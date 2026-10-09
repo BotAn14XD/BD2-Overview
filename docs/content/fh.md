@@ -19,7 +19,7 @@ To access the game mode, press the [Season Event](events.md) logo, then click th
 ---
 
 !!! image "Fiend Hunter Menu"
-    ![Fiend Hunter Menu](../assets/images/fiend-hunter/Fiend%20Hunter.avif)
+    ![Fiend Hunter Menu](../assets/images/fiend-hunter/fh-new.avif)
 
 ---
 ## Fiend Hunter Schedule
@@ -51,44 +51,60 @@ You can also check the tiles by inspecting the Boss info in the Fiend Hunter Men
 ??? image "Image Guide" 
     ![Image Guide](../assets/images/fiend-hunter/FH_tiles_2.avif)
 
-### Boss Levels
+### Boss Stages
 
-!!! warning "REVAMP IN PROGRESS"
-    ![Elise](../assets/images/site-assets/illust_face6080250_315_5.avif){.icon-portrait-callout}
-    **This section needs a rewrite due to the update and will be revamped soon. Thank you for your patience!**
+Fiend Hunter Bosses have 5 different stages you can freely choose between in both **Normal** and **Practice** Battles.
 
+These stages are called **Easy**, **Normal**, **Hard**, **Very Hard** and **Challenge** difficulties.
 
-Fiend Hunter Bosses have 25 initial Levels you can freely choose between in both **Normal** and **Practice** Battles. However, after defeating Level 25, you will face Level 26 — meaning the Boss, in theory, has infinitely many Difficulty Levels.
+**Challenge** difficulty meant as purely damage contest for players to compete in, while rest difficulties provide rewards upon clear.
+
+<!--Fiend Hunter Bosses have 25 initial Levels you can freely choose between in both **Normal** and **Practice** Battles. However, after defeating Level 25, you will face Level 26 — meaning the Boss, in theory, has infinitely many Difficulty Levels.-->
 
 Each new Level is progressively harder thanks to scaling parameters such as  {{ HP }} [**HP**{.white}](../misc/slang.md?term=Health) and {{ATK}} [**ATK**{.yellow}](../misc/slang.md?term=Attack) / {{MATK}} [**MATK**{.magenta}](../misc/slang.md?term=Magical Attack).
 
 ### Boss Stats
 
-
-!!! warning "REVAMP IN PROGRESS"
+<!--!!! warning "REVAMP IN PROGRESS"
     ![Elise](../assets/images/site-assets/illust_face6080250_315_5.avif){.icon-portrait-callout}
-    **This section needs a rewrite due to the update and will be revamped soon. Thank you for your patience!**
+    **This section needs a rewrite due to the update and will be revamped soon. Thank you for your patience!**-->
 
+Each Boss stat consists of 2 addends. They scale the same way, but use different values.
 
-Each Boss has its own predetermined **Base Value**, **Initial Growth** and **Scale Growth** parameters for {{ HP }} **HP** and {{ATK}} **ATK**{.yellow} or {{MATK}} **MATK**{.magenta}. These three parameters determine the Boss's **Health** and **Attack** potential on each Difficulty Level.
+Each addend has its own predetermined **Base Value**, **Linear Growth** and **Scale Growth** parameters for {{ HP }} **HP** and {{ATK}} **ATK**{.yellow} or {{MATK}} **MATK**{.magenta}.
 
-**Initial Growth** is responsible for scaling immediately, starting from Level 2, while **Scale Growth** has a much greater impact at higher difficulties.
+Addend scale from arbitrary parameter, which is represented by either Stage number (1 — 5), or specific Level value (from legacy Fiend Hunter system)
 
-Additionally, Bosses have 3 stages, with **State 2** and **Stage 3** potentially carrying multiplier to adjust the parameters.
+**Linear Growth** is responsible for scaling immediately, while **Scale Growth** has a much greater impact at higher difficulties.
+
 !!! example "Stat Formula"
-    $\text{Value} = \text{round}\left[\text{Base} \cdot 1.1 \cdot \left(1 + (\text{Level}-1) \cdot \text{Rate} \cdot 0.01 \cdot \text{Level}^\text{Slope} \cdot \text{Stage Ratio}\right)\right]$
+
+    $\text{Value} = \displaystyle\sum_{i=1}^{2}{\text{round}\left[\text{Base}_i \cdot 1.1 \cdot \left(1 + (\text{Parameter}_{i} -1) \cdot \text{Rate}_i \cdot 0.01 \cdot \text{Parameter}_{i}^{\text{Slope}_{i}} \right)\right]}$
 
     * $\text{Base} \rightarrow \text{Base Value}$
-    * $\text{Level} \rightarrow \text{Boss Level}$
-    * $\text{Rate} \rightarrow \text{Initial Growth Parameter}$
+    * $\text{Parameter}_1 \rightarrow \text{Number of the stage, 1 — 5}$
+    * $\text{Parameter}_2 \rightarrow \text{Arbitraty parameter, previously the Boss Level}$
+    * $\text{Rate} \rightarrow \text{Linear Growth Parameter}$
     * $\text{Slope} \rightarrow \text{Scale Growth Parameter}$
-    * $\text{Stage Ratio} \rightarrow \text{Level Related Multiplier}$
+
+    ??? abstract "Legacy Stat Formula"
+        $\text{Value} = \text{round}\left[\text{Base} \cdot 1.1 \cdot \left(1 + (\text{Level}-1) \cdot \text{Rate} \cdot 0.01 \cdot \text{Level}^\text{Slope} \cdot \text{Stage Ratio}\right)\right]$
+
+        * $\text{Base} \rightarrow \text{Base Value}$
+        * $\text{Level} \rightarrow \text{Boss Level}$
+        * $\text{Rate} \rightarrow \text{Initial Growth Parameter}$
+        * $\text{Slope} \rightarrow \text{Scale Growth Parameter}$
+        * $\text{Stage Ratio} \rightarrow \text{Level Related Multiplier}$
+
+        * Boss had specific **levels**, after which a new **Stage** is applied. That *could* modify the final stat value, although for quite some time it had no impact. 
 
 ??? example "Formula Explanations & Limitations"
     * **Rounding** in the formula works as follows:
         * For {{HP}} **HP**, **rounding down to 3 significant figures** is applied. 
         * For {{ATK}} **ATK**{.yellow} and {{MATK}} **MATK**{.magenta}, **rounding to the nearest integer** is applied instead, with 0.5 being rounded **down**.
-    * Parameters **do not change** with level. However, boss has specific **levels**, after which a new **Stage** is applied. That *can* modify the final stat value, although recently (for at least 11 hunts) it has no impact. 
+    * Parameters **do not change** with difficulty.
+    * **Challenge** replaces the second addend with fixed values (about **+9T** {{HP}} **HP** and **+5000** {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}).
+    * {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} in Easy Difficulty does not include the second addend.
 
 {{ redirect_btn('misc/fh-calc/', 'Stats Data', '#e5b567') }}
 {{ redirect_btn('https://github.com/BotAn14XD/BD2-Overview/blob/main/docs/assets/data/fiend-hunter-bosses.json', 'Parameters Data', '#e5b567') }}
@@ -123,7 +139,7 @@ Each Weak Point takes additional damage and is displayed as text reading **WEAK*
 
 For the Battle, you can deploy up to **3** teams with **5** Companions in each. Each team goes strictly in the set order (Team 1 &rarr; Team 2 &rarr; Team 3).
 
-You are also free to choose any difficulty you want to face, up to Level 25.
+You are also free to choose any difficulty stage you want to face, including Challenge one.
 
 Once the Battle starts and Team 1 perishes, Team 2 replaces it; this continues until every team has perished.
 
@@ -155,26 +171,21 @@ This feature is overall rarely used, with the sole exception of saving time at h
 
 ## Damage Mechanic
 
-!!! warning "REVAMP IN PROGRESS"
-    ![Elise](../assets/images/site-assets/illust_face6080250_315_5.avif){.icon-portrait-callout}
-    **This section needs a rewrite due to the update and will be revamped soon. Thank you for your patience!**
+Since you can challenge any Difficulty Stage, it is possible that you won't deal enough damage to clear it entirely.
 
-
-Since you can challenge any Difficulty Level, it is possible that you won't deal enough damage to clear the entire run.
-
-If this happens, you will automatically defeat all levels whose HP thresholds are lower than the damage you dealt. Your full damage score will then carry over and be applied to the next level.
+If this happens, you will automatically defeat all stages whose HP thresholds are lower than the damage you dealt. Your full damage score will then carry over and be applied to the next stage.
 
 !!! example "Example"
-    Assume the Boss named Baywatcher has 487M {{HP}} **HP** at Level 10, and 714M {{HP}} **HP** at Level 11.
+    Assume the Boss named Dark Magica has 573M {{HP}} **HP** at Hard Difficulty, and 6.91B {{HP}} **HP** at Very Hard Difficulty.
 
-    If you challenge Level 15 but only manage to deal a total of **500M** **damage**:
+    If you challenge Very Hard but only manage to deal a total of **1B** **damage**:
     
-    * You will completely defeat **Levels 1 through 10** (since 500M is greater than 487M).
-    * You will deal that same 500M damage to **Level 11**, leaving it with 214M {{HP}} **HP**.
+    * You will clear **Easy, Normal and Hard difficulties** (since 1B is greater than 573M).
+    * Your **Very Hard** Boss will take damage equal to the same 1B {{HP}} **HP**.
 
-Any subsequent attempts to deal damage **during the same day** will have no impact, unless your new damage is higher than your previous record.
+You can attack the boss as much as you want, but **only the best result** will be saved. 
 
-You can continue dealing damage to the Boss the **following day**, either by attacking manually or by using the **Quick Battle** feature.
+<!--You can continue dealing damage to the Boss the **following day**, either by attacking manually or by using the **Quick Battle** feature.
 
 !!! abstract "Quick Battle" 
     **Quick Battle** allows you to instantly apply your most serious recorded damage from the previous day. However, the system only saves this damage record for the **highest level your damage actually reached**, not the level you originally clicked on.
@@ -196,85 +207,55 @@ You can continue dealing damage to the Boss the **following day**, either by att
     {{ redirect_btn('https://browndust2-db.souseha.com/en/fiend-season-calculator', "Souseha's Database Threshold Chart", '#e5b567') }}
     {{ redirect_btn('https://docs.google.com/spreadsheets/d/1c8SuOk7aAy2ZWZ13SjM-spg9YJ9zcN4g1lTWmpaQhYI/edit?gid=1944196942#gid=1944196942', "BotAn's Fiend Hunter Threshold Data", '#e5b567') }}
 
+-->
+## Replicate Battle
+
+If you accidentally cleared the Stage but do not want to repeat everything manually for the next one or if you just want to change something in your clear, but don't want to run multiple team skillset once again, you can **Save Battle Data** and use **Replicate Battle Feature**.
+
+??? image "Image Guide"
+    ![Replicate Battle Guide](../assets/images/fiend-hunter/replicate-battle.avif)
+
+**Replicate Battle** will enable Auto-Play, copying your **skills**, **bursts** and **positioning** on **each Turn**.
+
+You can cancel replicating at any moment. Once the Turn count exceeds saved data, Auto Play stops automatically.
+
 ---
 
 ## Rewards
 
-!!! warning "REVAMP IN PROGRESS"
-    ![Elise](../assets/images/site-assets/illust_face6080250_315_5.avif){.icon-portrait-callout}
-    **This section needs a rewrite due to the update and will be revamped soon. Thank you for your patience!**
+In Fiend Hunter, you obtain rewards based on **Stage Clear** and **Rankings**.
+
+* **Clear Rewards** contain {{Draw_Ticket}} **Draw Tickets**, {{Tear_of_Goddess}} **Tears of Goddess**, {{Refining_Powder}} **Refining Powder**, {{Gold}} **Gold** and **Event Currency**.
+* **Rankings Rewards** contain {{Draw_Ticket}} **Draw Tickets**, {{Refining_Crystal}} **Refining Crystals**.
 
 
-Similar to Season Events, Fiend Hunter has **Clear** (Kill) Rewards and **Challenge** (Daily) Rewards.
-
-* **Clear Rewards** contain {{Draw_Ticket}} **Draw Tickets**, {{Tear_of_Goddess}} **Tears of Goddess**, {{Refining_Powder}} **Refining Powder** and {{Gold}} **Gold**.
-* **Challenge Rewards** contain **Event Currency**.
-
-Similar to the Damage behavior, you can obtain Challenge Rewards once per day per Difficulty Level. This means you automatically gain the Challenge Rewards for Levels 1 - 10 upon clearing them all at once, alongside the Level 11 reward on the first day, as shown in the previous example.
-
-=== "Clear Rewards"
-
-    * Level 1: 3 {{Draw_Ticket}} **Draw Tickets**
-    * Level 2: 3 {{Draw_Ticket}} **Draw Tickets**
-    * Level 3: 3 {{Draw_Ticket}} **Draw Tickets**
-    * Level 4: 3 {{Draw_Ticket}} **Draw Tickets**
-    * Level 5: 3 {{Draw_Ticket}} **Draw Tickets**
-    * Level 6: 3 {{Draw_Ticket}} **Draw Tickets**
-    * Level 7: 3 {{Draw_Ticket}} **Draw Tickets**
-    * Level 8: 3 {{Draw_Ticket}} **Draw Tickets**
-    * Level 9: 3 {{Draw_Ticket}} **Draw Tickets**
-    * Level 10: 3 {{Draw_Ticket}} **Draw Tickets** & 1 {{Tear_of_Goddess}} **Tear of Goddess**
-    * Level 11: 50K {{Gold}} **Gold** & 30K {{Refining_Powder}} **Refining Powder**
-    * Level 12: 50K {{Gold}} **Gold** & 30K {{Refining_Powder}} **Refining Powder**
-    * Level 13: 50K {{Gold}} **Gold** & 30K {{Refining_Powder}} **Refining Powder**
-    * Level 14: 50K {{Gold}} **Gold** & 30K {{Refining_Powder}} **Refining Powder**
-    * Level 15: 50K {{Gold}} **Gold** & 30K {{Refining_Powder}} **Refining Powder**
+!!! abstract "Clear Rewards"
+    * **Easy Difficulty**: 10 {{Draw_Ticket}} **Draw Tickets** & 5K **Event Currency**
+    * **Normal Difficulty**: 10 {{Draw_Ticket}} **Draw Tickets** & 15K **Event Currency**
+    * **Hard Difficulty**: 10 {{Draw_Ticket}} **Draw Tickets** & 1 {{Tear_of_Goddess}} **Tear of Goddess** & 30K **Event Currency**
+    * **Very Hard Difficulty**: 225K {{Refining_Powder}} **Refining Powder** & 1.5M {{Gold}} **Gold** & 50K **Event Currency**
 
     ---
 
-    Total: 
-
-    * 30 {{Draw_Ticket}} **Draw Tickets**
-    * 150K {{Refining_Powder}} **Refining Powder**
-    * 1 {{Tear_of_Goddess}} **Tear of Goddess**
-    * 250K {{Gold}} **Gold**
-
-    ---
-
-    * Level 16: 50K {{Gold}} **Gold**
-    * Level 17: 50K {{Gold}} **Gold**
-    * ...
-
-=== "Challenge Rewards"
-
-    * Level 1: 1000 **Event Currency**
-    * Level 2: 1100 **Event Currency**
-    * Level 3: 1200 **Event Currency**
-    * Level 4: 1300 **Event Currency**
-    * ...
-
+    **Total**: 30 {{Draw_Ticket}} **Draw Tickets**, 225K {{Refining_Powder}} **Refining Powder**, 1 {{Tear_of_Goddess}} **Tear of Goddess**, 1.5M {{Gold}} **Gold**
 ---
 
 ## Ranking
 
-!!! warning "REVAMP IN PROGRESS"
-    ![Elise](../assets/images/site-assets/illust_face6080250_315_5.avif){.icon-portrait-callout}
-    **This section needs a rewrite due to the update and will be revamped soon. Thank you for your patience!**
-
 Since Fiend Hunter is a competitive [PvE](../misc/slang.md/?term=PvE) game mode, it features a ranking system.
 
-Rankings are determined by the **remaining Boss HP percentage**, accurate up to 0.01%, and rewards are distributed once the season is over.
+Rankings are determined by the **highest damage dealt** for the highest achieved difficulty (notably Challenge), and rewards are distributed once the season is over.
 
 !!! abstract "Ranking Rewards"
     * Rank 1: 5 {{Draw_Ticket}} **Draw Tickets** & 300 {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 4"** sticker & **Boss Gold Trophy**
     * Rank 2 - 10: 5 {{Draw_Ticket}} **Draw Tickets** & 300 {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 3"** sticker & **Boss Silver Trophy**
     * Rank 11 - 100: 5 {{Draw_Ticket}} **Draw Tickets** & 300 {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 2"** sticker & **Boss Bronze Trophy**
     * Rank 101 - 1000: 4 {{Draw_Ticket}} **Draw Tickets** & 300 {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 1"** sticker & **Boss Tarnished Bronze Trophy**
-    * Rank 101 - Top 5\%: 3 {{Draw_Ticket}} **Draw Tickets** & 250 {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 1"** sticker
-    * Top 5.1\% - 10%: 3 {{Draw_Ticket}} **Draw Tickets** & 200 {{Refining_Crystal}} **Refining Crystals**
-    * Top 10.1\% - 30%: 3 {{Draw_Ticket}} **Draw Tickets** & 150 {{Refining_Crystal}} **Refining Crystals**
-    * Top 30.1\% - 50%: 3 {{Draw_Ticket}} **Draw Tickets** & 100 {{Refining_Crystal}} **Refining Crystals**
-    * Top 50.1\% - 100%: 3 {{Draw_Ticket}} **Draw Tickets** & 50 {{Refining_Crystal}} **Refining Crystals**
+    * Rank 101 - Top 5%: 3 {{Draw_Ticket}} **Draw Tickets** & 250 {{Refining_Crystal}} **Refining Crystals** & **"Victory! Marianne 1"** sticker
+    * Top 5.1% - 10%: 3 {{Draw_Ticket}} **Draw Tickets** & 200 {{Refining_Crystal}} **Refining Crystals**
+    * Top 10.1% - 30%: 3 {{Draw_Ticket}} **Draw Tickets** & 150 {{Refining_Crystal}} **Refining Crystals**
+    * Top 30.1% - 50%: 3 {{Draw_Ticket}} **Draw Tickets** & 100 {{Refining_Crystal}} **Refining Crystals**
+    * Top 50.1% - 100%: 3 {{Draw_Ticket}} **Draw Tickets** & 50 {{Refining_Crystal}} **Refining Crystals**
 
 ---
 
@@ -294,7 +275,7 @@ You can spot a Break Season by checking in-game notifications or noticing the "B
 After some time, a **Return Season** will be introduced, featuring the same Boss.
 
 !!! tip "...Even if this is a Break Season..."
-    ...you still should fight the Boss daily.
+    you still should try your best.
 
     * You still get all resources from **Clear Rewards**.
     * You also gain **Event Currency** that will **not** be obtainable during the **Return Season**, so you will want to clear out the [Event Shop](events.md/#event-shop).
@@ -332,7 +313,7 @@ If all of a Companion's costumes are banned, they cannot be deployed for battle.
     ![Ban System in Action](../assets/images/fiend-hunter/ban_system_1.avif)
 
 !!! tip "...Even if this is a Return Season..."
-    ...you still should fight the Boss daily.
+    ...you still should try your best.
 
     * You still get all resources from **Clear Rewards**, **even if you claimed them during the Break Season**.
 

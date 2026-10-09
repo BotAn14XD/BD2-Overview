@@ -13,6 +13,7 @@ async function loadBosses() {
   if (!res.ok) throw new Error('Failed to load boss data: ' + res.status);
   BOSSES = await res.json();
   SORTED_BOSSES = [...BOSSES].sort((a, b) => b.season - a.season);
+  BOSSES.filter(isStageBoss).forEach(validateStageBoss);
 }
 
 const PROPERTY_COLORS = {
@@ -85,6 +86,78 @@ function getAtkBlock(boss) {
   return null;
 }
 
+// ---------------------------------------------------------------------------
+// Stage-era bosses (Easy / Normal / Hard / Very Hard / Challenge)
+//
+// A boss is stage-era if it has a `stages` object; legacy bosses have none.
+// Each stat is the sum of two separately-rounded addends:
+//
+//   main  : the top-level HP / ATK / MATK block, driven by the stage number
+//           (Easy = 1 ... Challenge = 5).
+//   large : the `paramAddend` block, driven by the stage's discrete `param`
+//           (2, 4, 7, 13, ...). It is not a uniform sequence, so it is
+//           treated as a parameter rather than a level.
+//
+// Per-stage overrides (stages.<key>):
+//   param               - value fed to the large addend
+//   flat                - { HP, ATK/MATK }: replaces the large addend entirely
+//                         (Challenge: ~9T HP / 5000 ATK)
+//   skipATKParamAddend  - "TRUE": large addend is dropped for ATK/MATK only
+//                         (Easy; delete this line if the devs fix it)
+// ---------------------------------------------------------------------------
+const STAGE_ORDER = ['easy', 'normal', 'hard', 'veryHard', 'challenge'];
+const STAGE_LABELS = {
+  easy: 'Easy', normal: 'Normal', hard: 'Hard', veryHard: 'Very Hard', challenge: 'Challenge'
+};
+// Show the raw `param` column in the stage table (handy for data checking).
+const SHOW_PARAM_COLUMN = false;
+
+function isStageBoss(boss) {
+  return !!(boss && boss.stages);
+}
+
+// One addend: base * 1.1 * (1 + (p - 1) * rate * 0.01 * p^slope), then rounded.
+// All JSON values are strings, so everything goes through Number() here.
+function addend(blk, p, mode) {
+  const raw = Number(blk.base) * 1.1 *
+    (1 + (p - 1) * Number(blk.rate) * 0.01 * Math.pow(p, Number(blk.slope)));
+  return mode === 'integer' ? roundHalfDown(raw) : floorToSigFigs(raw, 3);
+}
+
+// stat: 'HP' | 'ATK' | 'MATK'
+function stageStat(boss, stageKey, stat) {
+  const st = boss.stages[stageKey];
+  const isHp = stat === 'HP';
+  const mode = isHp ? 'sig3fig' : 'integer';
+
+  const main = addend(boss[stat], STAGE_ORDER.indexOf(stageKey) + 1, mode);
+
+  let large;
+  if (st.flat) {
+    large = Number(st.flat[stat]);
+  } else if (!isHp && st.skipATKParamAddend === 'TRUE') {
+    large = 0;
+  } else {
+    large = addend(boss.paramAddend[stat], Number(st.param), mode);
+  }
+  return main + large;
+}
+
+function validateStageBoss(boss) {
+  const atk = getAtkBlock(boss);
+  const problems = [];
+  if (!boss.HP) problems.push('missing HP');
+  if (!atk) problems.push('missing ATK/MATK');
+  if (!boss.paramAddend || !boss.paramAddend.HP) problems.push('missing paramAddend.HP');
+  if (atk && (!boss.paramAddend || !boss.paramAddend[atk.label])) problems.push('missing paramAddend.' + atk.label);
+  Object.keys(boss.stages).forEach(k => {
+    if (STAGE_ORDER.indexOf(k) === -1) problems.push('unknown stage "' + k + '"');
+    const st = boss.stages[k];
+    if (!st.flat && isNaN(Number(st.param))) problems.push('stage "' + k + '" has no numeric param or flat');
+  });
+  if (problems.length) console.warn('[fh-calc] ' + boss.name + ': ' + problems.join('; '));
+}
+
 function formatNumber(n) {
   return n.toLocaleString('en-US', { maximumFractionDigits: 6 });
 }
@@ -100,7 +173,7 @@ function formatDateShort(iso) {
 }
 
 // ---------------------------------------------------------------------------
-// Threshold: minimum sustained daily damage to clear each level's HP pool
+// Threshold (LEGACY bosses only; stage-era bosses are fought weekly): minimum sustained daily damage to clear each level's HP pool
 // by its own day, attacking once per day starting day 1, plus one bonus
 // attack on any day a kill is scored. Uses BigInt because some bosses'
 // HP at high levels exceeds Number.MAX_SAFE_INTEGER.
@@ -168,6 +241,9 @@ const placeholder = document.getElementById('placeholder');
 const card = document.getElementById('card');
 const maxLevelInput = document.getElementById('max-level');
 const presetBtns = [...document.querySelectorAll('.preset-btn')];
+const levelField = document.querySelector('.fh-calc .level-field');
+const eraNote = document.getElementById('era-note');
+const tableHead = document.getElementById('table-head');
 
 let activeIndex = -1;
 let currentMatches = [];
@@ -300,9 +376,6 @@ function selectBoss(boss) {
   tag.style.border = '1px solid ' + hexToRgba(color, 0.45);
   document.getElementById('property-label').textContent = boss.property;
 
-  const atk = getAtkBlock(boss);
-  document.getElementById('atk-head').textContent = atk ? atk.label : 'ATK';
-
   renderTable();
 }
 
@@ -311,10 +384,51 @@ function clampLevel(n) {
   return Math.min(100, Math.max(1, n));
 }
 
+function setTableHead(labels) {
+  tableHead.innerHTML = '<tr>' + labels.map(l => '<th>' + l + '</th>').join('') + '</tr>';
+}
+
+// Picks the table layout from the boss's era.
 function renderTable() {
   if (!selectedBoss) return;
-  const boss = selectedBoss;
+  const stageMode = isStageBoss(selectedBoss);
+  levelField.hidden = stageMode;   // level input / presets are legacy-only
+  eraNote.hidden = stageMode;      // archive note is legacy-only
+  if (stageMode) renderStageTable(selectedBoss);
+  else renderLegacyTable(selectedBoss);
+}
+
+function renderStageTable(boss) {
   const atk = getAtkBlock(boss);
+  const atkLabel = atk ? atk.label : 'ATK';
+
+  const head = ['Stage'];
+  if (SHOW_PARAM_COLUMN) head.push('Param');
+  head.push('HP', atkLabel);
+  setTableHead(head);
+
+  const tableScroll = document.getElementById('table-scroll');
+  if (tableScroll) tableScroll.classList.remove('has-scroll');
+
+  const tbody = document.getElementById('table-body');
+  tbody.innerHTML = '';
+
+  STAGE_ORDER.forEach(key => {
+    const st = boss.stages[key];
+    if (!st) return;
+    let html = '<td>' + STAGE_LABELS[key] + '</td>';
+    if (SHOW_PARAM_COLUMN) html += '<td>' + (st.flat ? '—' : st.param) + '</td>';
+    html += '<td>' + formatNumber(stageStat(boss, key, 'HP')) + '</td>';
+    html += '<td>' + (atk ? formatNumber(stageStat(boss, key, atk.label)) : '—') + '</td>';
+    const row = document.createElement('tr');
+    row.innerHTML = html;
+    tbody.appendChild(row);
+  });
+}
+
+function renderLegacyTable(boss) {
+  const atk = getAtkBlock(boss);
+  setTableHead(['Level', 'HP', 'Threshold', atk ? atk.label : 'ATK']);
   const maxLevel = clampLevel(parseInt(maxLevelInput.value, 10) || 25);
   maxLevelInput.value = maxLevel;
   presetBtns.forEach(btn => btn.classList.toggle('is-active', Number(btn.dataset.level) === maxLevel));

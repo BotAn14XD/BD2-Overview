@@ -10,7 +10,7 @@ Path of Adventure is one of Content Packs, offering you daily income of useful m
 
 
 !!! question "How should I use {{ Cooked_Rice }} Rice and {{ Torch }} Torches?"
-    * For {{ Cooked_Rice }} Rice, use **6 rice** *(equivalent to 1 quick hunt)* on **Hunting Grounds** for the pass task, rest **84** — on {{ Gold }} **Gold** (Goblin Cave) or {{ Red_Slime }} **Slimes** (Slime Empire) depending on the bonus day.
+    * For {{ Cooked_Rice }} Rice, use all of it (**90** {{Cooked_Rice}}) on {{ Gold }} **Gold** (Goblin Cave) or {{ Red_Slime }} **Slimes** (Slime Empire) depending on the bonus day.
     * For {{ Torch }} Torches, do whatever Property you need crystals for.  
 
 !!! info ""Paid Rice""

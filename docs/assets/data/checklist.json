@@ -234,8 +234,8 @@
           "offset_start_days": 0,
           "offset_end_days": 6,
           "settlement_utc_hour": 15,
-          "is_daily_reset": true,
-          "target_tab": "daily",
+          "is_daily_reset": false,
+          "target_tab": "weekly",
           "link": "../content/fh.md"
         },
         {
@@ -269,8 +269,8 @@
           "offset_start_days": 0,
           "offset_end_days": 6,
           "settlement_utc_hour": 15,
-          "is_daily_reset": true,
-          "target_tab": "daily",
+          "is_daily_reset": false,
+          "target_tab": "weekly",
           "link": "../content/fh.md"
         },
         {
