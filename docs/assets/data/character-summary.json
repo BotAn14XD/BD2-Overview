@@ -206,6 +206,25 @@
       "spBreak": { "1": 4 }
     },
     {
+      "id": "sealed_desires_aquila",
+      "character": "aquila",
+      "name": "Sealed Desires Aquila",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "physical",
+      "element": "fire",
+      "effects": [
+        "bigAOE",
+        "propertyDmgSelfAmp",
+        "healImmunitySelf"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 5,
+      "spBreak": { "1": 4 }
+    },
+    {
       "id": "priest_of_vitality_arines",
       "character": "arines",
       "name": "Priest of Vitality Arines",

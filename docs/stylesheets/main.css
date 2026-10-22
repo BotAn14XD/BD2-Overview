@@ -1266,3 +1266,14 @@ h1:has(> a.headerlink:only-child) {
 .md-typeset a[href*="browndust2.miraheze.org"]::after {
     display: none !important;
 }
+
+img.nsfw-click-reveal {
+  filter: blur(22px) brightness(0.65);
+  transition: filter 0.3s ease;
+  cursor: pointer;
+}
+
+img.nsfw-click-reveal.revealed {
+  filter: blur(0) brightness(1);
+  cursor: zoom-in;
+}
