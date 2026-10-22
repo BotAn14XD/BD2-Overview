@@ -27,6 +27,8 @@ icon: material/sword-cross
 
 To fight, you set up a **team** and **Blessings** tailored to the active season's [Rules](#rules). While core combat mechanics remain stable across most seasons, specific parameters (like grid size, unit limits, and bans) rotate regularly.
 
+Each battle, you spend 1 battle attempt. You are given **100 base attempts** per week. You can purchase up to **3 refills** (100 attempts each) for **10 {{Dia}} Dia** per refill, capping out at **400 attempts for 30 {{Dia}} Dia total** per season.
+
 Similarly to [Mirror Wars](./mirror-wars.md), the battles are automatic and do not require an active input from a player.
 
 Winning against the opponent grants Points, and losing decreases Points, correspondingly. Unlike the Mirror Wars, though, losing in **Defense** does **not** affect your points; only your offense matters.
@@ -54,6 +56,11 @@ To set the team, press the **Formation** button, then **Replace**, pick the need
     ![Setting up Formation](../assets/images/golden-colosseum/Setup-Costumes.avif)
 
 Additionally, in the **Formation** tab, you can freely change the order of your Costumes, similar to the regular [battles](../mechanics/battle.md#_10).
+
+Each Costume have a set **Cost** that counts towards the Total Сost. If the Total Cost exceeds the Cost set by the Rules, you cannot save the team and have to opt for another team composition.
+
+??? image "Cost Display"
+    ![Cost Display](../assets/images/golden-colosseum/cost.avif)
 
 ---
 
@@ -117,8 +124,8 @@ To check the Rules of current and previous Seasons, press the corresponding menu
                 <td>3 — 11 <span class="yellow">(Rotates)</span><br>The maximum number of Costumes you can bring in the battle.</td>
             </tr>
             <tr>
-                <td><strong>Recharge Weekly<br>Attempts</strong></td>
-                <td>100 <span class="yellow">(Consistent)</span><br>The total number of battles you can enter per season.</td>
+                <td><strong>Cost</strong></td>
+                <td>160 <span class="yellow">(Rotates)</span><br>The total amount of points you can allocate for your team.</td>
             </tr>
             <tr>
                 <td><strong>Refill Limit</strong></td>
@@ -184,9 +191,8 @@ To check the Rules of current and previous Seasons, press the corresponding menu
 
 ### "Consistent" Rules
 
-While parameters labeled as <span class="yellow">(Consistent)</span> can technically be altered by developers in future seasons, they have remained stable defaults throughout 34 seasons:
+While parameters labeled as <span class="yellow">(Consistent)</span> can technically be altered by developers in future seasons, they have remained stable defaults throughout 47 seasons:
 
-* **Weekly Entry:** You are given **100 base attempts** per week. You can purchase up to **3 refills** (100 attempts each) for **10 {{Dia}} Dia** per refill, capping out at **400 attempts for 30 {{Dia}} Dia total** per season.
 * **Initiative:** You cannot choose whether you go first or second; initiative is decided randomly at the start of battle.
 * **Action Flow:** Units alternate turns individually based on placement order.<br>(`Player Costume 1 → Enemy Costume 1 → Player Costume 2 → Enemy Costume 2...`) (if you go first).
     * If the Enemy Costume 1 dies from Player Costume 1, Enemy Costume 2 takes its place, until all deployed enemy Costumes have acted.
@@ -219,39 +225,39 @@ To get them, press the corresponding icon in the Golden Colosseum menu.
         </thead>
         <tbody>
             <tr>
-                <td>Win in the Golden Colosseum 1 time(s).</td>
+                <td>Battle in the Golden Colosseum: 1 time</td>
                 <td>200 {{Aurum_Coin}}</td>
             </tr>
             <tr>
-                <td>Win in the Golden Colosseum 3 time(s).</td>
+                <td>Battle in the Golden Colosseum: 3 times</td>
                 <td>150 {{Aurum_Coin}}</td>
             </tr>
             <tr>
-                <td>Win in the Golden Colosseum 5 time(s).</td>
+                <td>Battle in the Golden Colosseum: 5 times</td>
                 <td>150 {{Aurum_Coin}}</td>
             </tr>
             <tr>
-                <td>Win in the Golden Colosseum 7 time(s).</td>
+                <td>Battle in the Golden Colosseum: 7 times</td>
                 <td>100 {{Aurum_Coin}}</td>
             </tr>
             <tr>
-                <td>Win in the Golden Colosseum 10 time(s).</td>
+                <td>Battle in the Golden Colosseum: 10 times</td>
                 <td>100 {{Aurum_Coin}}</td>
             </tr>
             <tr>
-                <td>Win in the Golden Colosseum 15 time(s).</td>
+                <td>Battle in the Golden Colosseum: 15 times</td>
                 <td>50 {{Aurum_Coin}}</td>
             </tr>
             <tr>
-                <td>Win in the Golden Colosseum 20 time(s).</td>
+                <td>Battle in the Golden Colosseum: 20 times</td>
                 <td>50 {{Aurum_Coin}}</td>
             </tr>
             <tr>
-                <td>Win in the Golden Colosseum 30 time(s).</td>
+                <td>Battle in the Golden Colosseum: 30 times</td>
                 <td>50 {{Aurum_Coin}}</td>
             </tr>
             <tr>
-                <td>Win in the Golden Colosseum 40 time(s).</td>
+                <td>Battle in the Golden Colosseum: 40 times</td>
                 <td>50 {{Aurum_Coin}}</td>
             </tr>
             <tr>
@@ -263,9 +269,7 @@ To get them, press the corresponding icon in the Golden Colosseum menu.
     </div>
 
 !!! tip "If you are very busy, ..."
-    ...at least win 10 fights per Season. You will lose around 22% of coins from Missions alone and some coins from ranking, but at least it will be better than not participating at all.
-
-    10 wins is not hard if you find a good team for a given season.
+    ...at least battle 10 fights per Season. You will lose around 22% of coins from Missions alone and some coins from ranking, but at least it will be better than not participating at all.
 
 !!! tip "Missions Availability"
     You cannot **complete** Missions during the **Settlement Period**.
@@ -521,7 +525,7 @@ Shop is a place where you can spend earned {{Aurum_Coin}} **Aurum Coins**. To ac
     Assuming you are reaching **Platinum II** (55% — 50% bracket) and completing all Missions, you will receive 2100 {{Aurum_Coin}} **Aurum Coins** per season, which translates to 8400 {{Aurum_Coin}} **Aurum Coins** per 4 weeks (roughly a month).
 
     1. {{Property_Selective_Draw_Exchange_Ticket}} **Property Selective Draw Exchange Ticket**{.yellow} x2 — 2000 {{Aurum_Coin}} **Aurum Coins**
-    2. {{Spark_of_Rampage}} **Spark of Rampage**{.yellow} x55 — 550 {{Aurum_Coin}} **Aurum Coins**
+    2. {{Spark_of_Rampage}} **Spark of Rampage**{.yellow} x65 — 520 {{Aurum_Coin}} **Aurum Coins**
     3. {{Draw_Ticket}} **Draw Ticket**{.yellow} x10 — 2000 {{Aurum_Coin}} **Aurum Coins**
     4. {{Refining_Crystal}} **Refining Crystals**{.yellow} x1000 — 2000 {{Aurum_Coin}} **Aurum Coins**
     5. {{Ancient_Crystal}} **Ancient Crystals**{.yellow} x50 — on leftovers — 1000 {{Aurum_Coin}} **Aurum Coins**
@@ -536,14 +540,14 @@ Shop is a place where you can spend earned {{Aurum_Coin}} **Aurum Coins**. To ac
 
     --- 
 
-    * Total without optional: 7550 {{Aurum_Coin}} **Aurum Coins**
-    * Total with optional: 11550 {{Aurum_Coin}} **Aurum Coins**
+    * Total without optional: 7520 {{Aurum_Coin}} **Aurum Coins**
+    * Total with optional: 11520 {{Aurum_Coin}} **Aurum Coins**
 
 === "Old Player Priority"
 
     Assuming you are reaching **Sapphire I** (10% — 12.5% bracket) and completing all Missions, you will receive 2500 {{Aurum_Coin}} **Aurum Coins** per season, which translates to 10000 {{Aurum_Coin}} **Aurum Coins** per 4 weeks (roughly a month).
 
-    1. {{Spark_of_Rampage}} **Spark of Rampage**{.yellow} x55 — 550 {{Aurum_Coin}} **Aurum Coins**
+    1. {{Spark_of_Rampage}} **Spark of Rampage**{.yellow} x65 — 520 {{Aurum_Coin}} **Aurum Coins**
     2. {{Refining_Crystal}} **Refining Crystals**{.yellow} x1000 — 2000 {{Aurum_Coin}} **Aurum Coins**
     3. {{Draw_Ticket}} **Draw Ticket**{.yellow} x10 — 2000 {{Aurum_Coin}} **Aurum Coins**
     4. {{Gold}} **Gold**{.yellow} x2M — 2000 {{Aurum_Coin}} **Aurum Coins**
@@ -559,9 +563,9 @@ Shop is a place where you can spend earned {{Aurum_Coin}} **Aurum Coins**. To ac
 
     --- 
 
-    * Total without optional: 6550 {{Aurum_Coin}} **Aurum Coins**
-    * Total with spending on leftovers items: 8550 {{Aurum_Coin}} **Aurum Coins**
-    * Total with optional: 11550 {{Aurum_Coin}} **Aurum Coins**
+    * Total without optional: 6520 {{Aurum_Coin}} **Aurum Coins**
+    * Total with spending on leftovers items: 8520 {{Aurum_Coin}} **Aurum Coins**
+    * Total with optional: 11520 {{Aurum_Coin}} **Aurum Coins**
 
 ---
 

@@ -172,6 +172,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Eternal Chains Kyouka Uzen** **Burst 1**{.magenta}
     * **Homunculus Lathel** **Burst 2-3**{.yellow}
     * **Miracle Marine Mamonir** **Bursts 1-3**{.yellow}
+    * **Apostle Morpeah** **Burst 1**{.yellow}
     * **Unraveling Mummy Nekyndalia** **Burst 1**{.yellow}
     * **New Hire Seir** **Bursts 1-2**{.yellow}
     * **Medical Club Teresse** **Bursts 1-2**{.yellow}
@@ -179,6 +180,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
 === "Medium Priority"
     * **Fire Graffiti Anastasia** **Burst 3**{.yellow}
     * **The Fallen Angelica** **Burst 1**{.yellow}
+    * **Sealed Desires Aquila** **Bursts 1-2**{.yellow}
     * **Young Lady Blade** **Burst 1**{.yellow}
     * **Descendant of the Great Witch Celia** **Burst 2**{.yellow}
     * **Prophetic Dream Darian** **Burst 1**{.yellow}
@@ -209,6 +211,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Fire Graffiti Anastasia** **Bursts 1-2**{.yellow}
     * **The Fallen Angelica** **Bursts 2-3**{.yellow}
     * **Savage Warrior Aquila** **Bursts 1-3**{.yellow}
+    * **Sealed Desires Aquila** **Burst 3**{.yellow}
     * **Young Lady Blade** **Bursts 2-3**{.yellow}
     * **Tricky Lover Dalvi** **Bursts 1-3**{.yellow}
     * **Prophetic Dream Darian** **Bursts 2-3**{.yellow}
@@ -243,5 +246,6 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Piercing Magic Bow Eleaneer** **Burst 3**{.yellow}
     * **Blood Glutton Justia** **Bursts 1-3**{.yellow}
     * **Pool Party Justia** **Bursts 1-3**{.yellow}
+    * **Apostle Morpeah** **Bursts 2-3**{.yellow}
     * **Steel Engine Rafina** **Bursts 1-2**{.yellow}
     * **The Lapis Witch Scheherazade** **Bursts 2-3**{.yellow}

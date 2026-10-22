@@ -1,5 +1,9 @@
 {
   "anchor_date": "2026-07-30T00:00:00Z",
+  "biseasonal_anchor_date": "2026-08-27T00:00:00Z",
+  "schedules": {
+    "tower": { "resets": ["2026-10-08T00:00:00Z"], "repeat_days": 28 }
+  },
   "patch_cycle_days": 28,
 
   "_schema_note": "permanent = manual-reset-only trackers, never auto-cleared. repeating = cadence-based tasks (daily/weekly/biweekly/monthly/seasonal/biseasonal), auto-reset per cadence. id only needs to be unique WITHIN its cadence (or within 'permanent') — storage key is auto-built as '<cadence-prefix><id>'. priority: 'high' (default) or 'low' — high-priority items render first within a tab, then sorted by id.",
@@ -151,7 +155,9 @@
     },
     {
       "id": 2, "cadence": "seasonal", "priority": "high",
-      "name": "Completed the <strong>Tower of Salvation</strong> (<a href=\"../content-packs/evil-castle/#tower-of-salvation\">Evil Castle</a>)"
+      "name": "Completed the <strong>Tower of Salvation</strong> (<a href=\"../content-packs/evil-castle/#tower-of-salvation\">Evil Castle</a>)",
+      "schedule": "tower",
+      "settlement_hours_before_reset": 9
     },
     {
       "id": 3, "cadence": "seasonal", "priority": "high",

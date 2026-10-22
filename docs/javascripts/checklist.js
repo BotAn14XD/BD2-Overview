@@ -10,12 +10,26 @@ async function initChecklist() {
   // Bail out on pages with no checklist tabs at all.
   if (!document.querySelector(".checklist-group")) return;
 
-  const STORAGE_KEY = "bd2_checklist_state";
-  const TIMESTAMP_KEY = "bd2_checklist_timestamps";
+  const _params = new URLSearchParams(location.search);
+  const _isTest = !!_params.get("bd2_test_date");
+  const SUFFIX = _isTest ? "_test" : "";
+  const STORAGE_KEY = "bd2_checklist_state" + SUFFIX;
+  const TIMESTAMP_KEY = "bd2_checklist_timestamps" + SUFFIX;
+
+  // Seed the test sandbox from real data (first test load, or with &bd2_test_reset=1)
+  if (_isTest && (_params.get("bd2_test_reset") === "1" || localStorage.getItem(STORAGE_KEY) === null)) {
+    ["bd2_checklist_state", "bd2_checklist_timestamps"].forEach((k) => {
+      const v = localStorage.getItem(k);
+      if (v !== null) localStorage.setItem(k + "_test", v);
+      else localStorage.removeItem(k + "_test");
+    });
+  }
+
   let state = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
   let timestamps = JSON.parse(localStorage.getItem(TIMESTAMP_KEY) || "{}");
 
   const now = new Date();
+  let IS_TEST = false;
 
   // --- TEST MODE ---
   // Append ?bd2_test_date=2026-08-20T16:00:00Z to the page URL to run all
@@ -26,6 +40,7 @@ async function initChecklist() {
     const _parsed = new Date(_testDateParam);
     if (!isNaN(_parsed)) {
       now.setTime(_parsed.getTime());
+      IS_TEST = true;
       console.warn("[checklist] TEST MODE — using fake date:", now.toISOString());
     } else {
       console.warn("[checklist] bd2_test_date could not be parsed, ignoring:", _testDateParam);
@@ -40,6 +55,11 @@ async function initChecklist() {
     daily: "d_", weekly: "w_", biweekly: "bw_", monthly: "m_",
     seasonal: "s_", biseasonal: "bs_", permanent: "p_"
   };
+
+  function saveState() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  localStorage.setItem(TIMESTAMP_KEY, JSON.stringify(timestamps));
+}
 
   const PRIORITY_RANK = { high: 0, low: 1 };
   function sortItems(list) {
@@ -86,8 +106,7 @@ async function initChecklist() {
     Object.keys(state).forEach((k) => { if (k.startsWith("w_")) delete state[k]; });
     timestamps.lastWeeklyReset = lastWeeklyResetTS;
   }
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-  localStorage.setItem(TIMESTAMP_KEY, JSON.stringify(timestamps));
+  saveState();
 
   // --- renderItem: the ONLY place that builds checklist DOM ---
   // Every item — permanent, repeating, or template/override-driven —
@@ -143,43 +162,82 @@ async function initChecklist() {
   }
 
   if (data) {
-    // Cycle-derived resets (biweekly / seasonal / bi-seasonal), all off
-    // the same anchor_date so nothing drifts independently.
-    const anchor = new Date(data.anchor_date);
+    const DAY = 86400000, HOUR = 3600000;
     const cycleDays = data.patch_cycle_days || 28;
-    const totalDaysElapsed = Math.floor((now.getTime() - anchor.getTime()) / (1000 * 60 * 60 * 24));
 
-    const biSeasonDays = cycleDays * 2; // 56 days
-    const biSeasonElapsedDays = ((totalDaysElapsed % biSeasonDays) + biSeasonDays) % biSeasonDays;
+    function cycleOf(anchorStr, len) {
+      const a = new Date(anchorStr).getTime();
+      const n = Math.floor((now.getTime() - a) / (len * DAY));
+      return { n, nextReset: a + (n + 1) * len * DAY };
+    }
+    const cycles = {
+      biweekly:   cycleOf(data.anchor_date, 14),
+      seasonal:   cycleOf(data.anchor_date, cycleDays),
+      biseasonal: cycleOf(data.biseasonal_anchor_date || data.anchor_date, cycleDays * 2),
+    };
 
-    const currentBiweekCycle = Math.floor(totalDaysElapsed / 14);
-    if (timestamps.lastBiweekCycle === undefined || timestamps.lastBiweekCycle !== currentBiweekCycle) {
-      Object.keys(state).forEach((k) => { if (k.startsWith("bw_")) delete state[k]; });
-      timestamps.lastBiweekCycle = currentBiweekCycle;
+    // Calendar month (resets on the 1st, 00:00 UTC)
+    const monthIndex = now.getUTCFullYear() * 12 + now.getUTCMonth();
+    const nextMonthlyReset = Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1);
+
+    // Explicit reset boundaries for items whose seasons aren't a clean fixed length
+    function scheduleOf(name) {
+      const s = data.schedules?.[name];
+      if (!s || !s.resets?.length) return null;
+      const list = s.resets.map((d) => new Date(d).getTime()).sort((a, b) => a - b);
+      const step = (s.repeat_days || 0) * DAY;
+      const t = now.getTime();
+      while (step && list[list.length - 1] <= t) list.push(list[list.length - 1] + step);
+      while (step && list[0] > t) list.unshift(list[0] - step);
+      const i = list.findIndex((x) => x > t);
+      if (i === -1) return { start: list[list.length - 1], next: Infinity };
+      return { start: i > 0 ? list[i - 1] : 0, next: list[i] };
     }
 
-    const currentCycleNumber = Math.floor(totalDaysElapsed / cycleDays);
-    if (timestamps.lastSeasonCycle === undefined || timestamps.lastSeasonCycle !== currentCycleNumber) {
-      Object.keys(state).forEach((k) => { if (k.startsWith("s_")) delete state[k]; });
-      timestamps.lastSeasonCycle = currentCycleNumber;
+    // Items with their own schedule are skipped by the group resets below
+    const scheduled = (data.repeating || []).filter((i) => i.schedule);
+    const managed = new Set(scheduled.map((i) => `${CADENCE_PREFIX[i.cadence]}${i.id}`));
+
+    [
+      ["bw_", "lastBiweekCycle",   cycles.biweekly.n],
+      ["s_",  "lastSeasonCycle",   cycles.seasonal.n],
+      ["m_",  "lastMonthIndex",    monthIndex],
+      ["bs_", "lastBiSeasonCycle", cycles.biseasonal.n],
+    ].forEach(([prefix, tsKey, current]) => {
+      if (timestamps[tsKey] !== current) {
+        Object.keys(state).forEach((k) => {
+          if (k.startsWith(prefix) && !managed.has(k)) delete state[k];
+        });
+        timestamps[tsKey] = current;
+      }
+    });
+
+    timestamps.itemPeriods = timestamps.itemPeriods || {};
+    scheduled.forEach((item) => {
+      const sched = scheduleOf(item.schedule);
+      if (!sched) return;
+      const key = `${CADENCE_PREFIX[item.cadence]}${item.id}`;
+      if (timestamps.itemPeriods[key] !== sched.start) {
+        delete state[key];
+        timestamps.itemPeriods[key] = sched.start;
+      }
+    });
+
+    // ms until THIS item's own next reset
+    function msToReset(item) {
+      if (item.schedule) {
+        const s = scheduleOf(item.schedule);
+        return s ? s.next - now.getTime() : Infinity;
+      }
+      switch (item.cadence) {
+        case "daily":   return getLastMidnightUTC() + DAY - now.getTime();
+        case "weekly":  return getLastWednesday15UTC() + 7 * DAY - now.getTime();
+        case "monthly": return nextMonthlyReset - now.getTime();
+        default: return cycles[item.cadence] ? cycles[item.cadence].nextReset - now.getTime() : Infinity;
+      }
     }
 
-    const currentBiSeasonCycle = Math.floor(currentCycleNumber / 2);
-    if (timestamps.lastBiSeasonCycle === undefined || timestamps.lastBiSeasonCycle !== currentBiSeasonCycle) {
-      Object.keys(state).forEach((k) => { if (k.startsWith("bs_")) delete state[k]; });
-      timestamps.lastBiSeasonCycle = currentBiSeasonCycle;
-    }
-
-    const currentBiSeasonStart = new Date(anchor.getTime());
-    currentBiSeasonStart.setUTCDate(currentBiSeasonStart.getUTCDate() + currentBiSeasonCycle * biSeasonDays);
-    const nextBiSeasonReset = new Date(currentBiSeasonStart.getTime());
-    nextBiSeasonReset.setUTCDate(nextBiSeasonReset.getUTCDate() + biSeasonDays);
-
-    const msUntilReset = nextBiSeasonReset.getTime() - now.getTime();
-    const hoursUntilReset = msUntilReset / (1000 * 60 * 60);
-
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-    localStorage.setItem(TIMESTAMP_KEY, JSON.stringify(timestamps));
+    saveState();
 
     // --- Permanent (manual-reset-only trackers) ---
     const container_permanent = document.getElementById("checklist-permanent");
@@ -196,7 +254,7 @@ async function initChecklist() {
       let locked = isLockedByDayHour(item.settlement_day, item.settlement_hour);
 
       if (item.settlement_hours_before_reset !== undefined) {
-        locked = hoursUntilReset <= item.settlement_hours_before_reset && hoursUntilReset > 0;
+        locked = msToReset(item) <= item.settlement_hours_before_reset * HOUR;
       }
 
       renderItem(container, `${prefix}${item.id}`, item, { locked });
@@ -348,7 +406,7 @@ async function initChecklist() {
 
       cb.onchange = (e) => {
         state[e.target.id] = e.target.checked;
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+        saveState();
       };
 
       item.onclick = (e) => {

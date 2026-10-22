@@ -124,6 +124,24 @@ All Bosses have two types of skills: **Basic** and **Conditional** Skills. Each 
 
 It is essential to understand the Skills to maximize your damage.
 
+### Poise
+
+The **Poise** is a mechanic that allows you to increase damage by meeting a specific condition.
+
+Whenever you trigger the condition, Poise is reduced by 1. Upon Poise reaching 0, the Fiend enters the **Guard Down** state and takes increased damage.
+
+To check current Poise status, refer to the Poise Icon below the Boss icon.
+
+??? image "Image Guide"
+    ![Poise in Battle](../assets/images/fiend-hunter/poise.avif)
+
+Neither breaking the Poise nor entering the Guard Down state changes Turn / Skill mechanics.
+
+**Guard Down** carries between teams and Poise is not regenerated between teams as well.
+
+??? image "Guard Down Cutscene"
+    [![](../assets/images/fiend-hunter/guard_down_2.avif){ .nsfw-click-reveal }](../assets/images/fiend-hunter/guard_down_2.avif){ .glightbox data-gallery="nsfw" }
+
 ### Weak Points
 
 **Weak Points** are specific body parts that may or may not be present.

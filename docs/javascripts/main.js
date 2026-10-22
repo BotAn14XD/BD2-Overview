@@ -177,3 +177,19 @@ if (typeof document$ !== 'undefined') {
 } else {
   document.addEventListener('DOMContentLoaded', initPatreonHeader);
 }
+
+document.addEventListener(
+  "click",
+  (e) => {
+    const img = e.target.matches?.("img.nsfw-click-reveal")
+      ? e.target
+      : e.target.querySelector?.("img.nsfw-click-reveal");
+
+    if (!img || img.classList.contains("revealed")) return;
+
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    img.classList.add("revealed");
+  },
+  true
+);

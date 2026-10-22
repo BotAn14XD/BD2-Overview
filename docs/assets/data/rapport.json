@@ -3659,6 +3659,353 @@
           "wrong": "I'd like to see a new style."
         }
       ]
+    },
+    {
+      "id": "sealed-desires-aquila",
+      "costume": "Sealed Desires Aquila",
+      "character": "Aquila",
+      "drinks": [
+        { "name": "Cold Beer", "icon": "assets/images/rapport/icons/icon_resource190002_396_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "I ask Aquila about her outfit.",
+            "Oh... you mean this?",
+            "I just wear it 'cause it's easy to move around in, that's all...",
+            "Why? You don't think it suits me?"
+          ],
+          "correct": "I think it looks great on you.",
+          "wrong": "It's revealing."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Aquila takes a swig of her beer, then asks...",
+            "Say some nasty ghost waltzed into this restaurant and raised hell...",
+            "What would you do?"
+          ],
+          "correct": "I'd call you.",
+          "wrong": "I'd deal with it somehow."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Aquila fiddles with her talisman as she turns to me.",
+            "Ever since I caused you all that trouble at the haunted manor, I can't stop worrying I'm gonna lose my talisman again...",
+            "I've been careful to keep it from falling off, but... it still makes me uneasy, y'know?",
+            "<i>Sigh...</i> You think there's some way of keeping it in place...?"
+          ],
+          "correct": "If it falls off, I'll stick it back on.",
+          "wrong": "How about glue?"
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Aquila stares straight at me and asks...",
+            "Say you really wronged someone. Like, <i>really bad.</i>",
+            "If you wanted to give them a proper apology, what would you do?"
+          ],
+          "correct": "Apologize sincerely.",
+          "wrong": "Apologize with an expensive gift."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Aquila takes a swig of her beer, then asks...",
+            "Let's say I quit being a ghost hunter and need a new job.",
+            "What do you think'd suit me?"
+          ],
+          "correct": "A member of the Glupy Diner staff.",
+          "wrong": "A fortune teller who makes talismans."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Aquila takes a swig of her beer, then asks...",
+            "I think lying's wrong, no matter what.",
+            "But I hear some people tell white lies 'cause they think it's for the other person's good.",
+            "Honestly, I feel like even that's wrong..."
+          ],
+          "correct": "Lying is never the answer.",
+          "wrong": "Nothing wrong with a white lie."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Aquila lets out a deep sigh as she turns to me.",
+            "Y'know, the kids in Fairy Tale Village... if there's even the <i>slightest</i> thing they don't like, they make this face like they're about to burst into tears.",
+            "And I know I should just tell 'em straight up that no means no, but...",
+            "...the second I see them tearing up, I go soft for some reason..."
+          ],
+          "correct": "You should tell it to them straight, tears or no tears.",
+          "wrong": "Comfort them first."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Aquila takes a swig of her beer, then asks...",
+            "Y'know, the booze here is the only thing I have to look forward to these days.",
+            "I'd love to just park myself here all day and drink...",
+            "...but then the hangover the next day means I can't go ghost-hunting...",
+            "Got any bright ideas on what I should do?"
+          ],
+          "correct": "How about I get you some hangover tea along with your booze?",
+          "wrong": "How about I get you something other than booze?"
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Aquila turns to me, dead serious.",
+            "Y'know, I've been hiding something from you...",
+            "I'm... actually a real bad Jiangshi.",
+            "I mean, even now I can barely hold myself back... and it's driving me nuts. I wanna pounce on you so bad..."
+          ],
+          "correct": "It's okay. I trust you, Aquila.",
+          "wrong": "I know."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Aquila fiddles with her talisman as she turns to me.",
+            "I mostly use my talisman for busting bad ghosts, but...",
+            "...books say there are talismans out there for way more than that.",
+            "Like a talisman that can tickle someone...",
+            "...or one that can make someone <i>really</i> aroused...",
+            "So if you could have one talisman, what kind would you go for?"
+          ],
+          "correct": "A talisman that wipes away all the fatigue.",
+          "wrong": "A talisman that stops time."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Aquila takes a swig of her beer, then asks...",
+            "Drinking alone's kinda boring...",
+            "Instead of standing there looking all stiff, how about a drink with me?"
+          ],
+          "correct": "Pour myself a drink",
+          "wrong": "Pour myself some water"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Aquila tosses me a small ball as she speaks.",
+            "Lightning speed and razor-sharp eyes.",
+            "Nobody around here can match me at these.",
+            "I mean... no point talking about it. Let me just show you!",
+            "C'mon, throw it at me!"
+          ],
+          "correct": "Toss it gently",
+          "wrong": "Throw it hard"
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Aquila holds out two candies to me—one heart-shaped, one skull-shaped—and says...",
+            "Got these from a kid in Fairy Tale Village. One's sweet, and the other's supposed to be crazy spicy.",
+            "So hey... whaddya say we test our luck?",
+            "I'll even let you pick first... Go ahead, choose one!"
+          ],
+          "correct": "Choose the skull-shaped candy",
+          "wrong": "Choose the heart-shaped candy"
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Aquila takes a swig of her beer, then asks...",
+            "Y'know how people dress up as all sorts of ghosts for the Pumpkin Festival?",
+            "I hear men each have different kinds of costumes they're into...",
+            "What about you? Got a favorite costume?"
+          ],
+          "correct": "I like Jiangshi costumes.",
+          "wrong": "I like pumpkin ghost costumes."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Aquila turns to me, dead serious.",
+            "Say you're friends with a ghost.",
+            "One day it pulls a real nasty prank, and I'm on its tail... but it comes running to your restaurant, asking you to hide it...",
+            "Would you do it?"
+          ],
+          "correct": "Nope.",
+          "wrong": "Yeah."
+        }
+      ]
+    },
+    {
+      "id": "boo-ghost-granhildr",
+      "costume": "Boo Ghost Granhildr",
+      "character": "Granhildr",
+      "drinks": [
+        { "name": "Warm Black Tea", "icon": "assets/images/rapport/icons/icon_resource190005_399_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Granhildr is trying to decide what flavor of candy to give the children.",
+            "I want to give them something <i>special</i> this time.",
+            "Like... some spooky-tasting candy, for example.",
+            "...But what does \"spooky-tasting\" even mean?"
+          ],
+          "correct": "The kind of sweet where you just can't stop at one.",
+          "wrong": "The painful kind of spicy."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Granhildr walks over to me with an empty glass.",
+            "I heard people instinctively feel fear when they hear the sound of nails on glass.",
+            "Can I test that theory on you?"
+          ],
+          "correct": "Sure.",
+          "wrong": "No!"
+        },
+        {
+          "n": 3,
+          "intro": [
+            "After mulling it over for a while, Granhildr asks me a question.",
+            "No matter how hard I try, my pranks never scare anyone.",
+            "Hm... What am I doing wrong?"
+          ],
+          "correct": "Try making a scarier face.",
+          "wrong": "Your ghost costume isn't scary at all."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "After another prank falls flat, Granhildr turns to me with a dejected look.",
+            "Aww...",
+            "I couldn't scare you again today.",
+            "I really want to get you at least once.",
+            "Is there anything you're afraid of?"
+          ],
+          "correct": "Mondays.",
+          "wrong": "A certain ghost in a dress."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Granhildr speaks up, sounding troubled.",
+            "Even after a thousand years, quite a few people still remember me.",
+            "Some have heard the old legends, and older fairies still recognize me right away.",
+            "That's a problem... See, I want to be friends with them too.",
+            "Is there anything I can do?"
+          ],
+          "correct": "Pretend you're actually a ghost.",
+          "wrong": "Don't worry about it."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Granhildr seems fascinated by the idea of ghost hunters.",
+            "There weren't any ghost hunters a thousand years ago.",
+            "But I've been seeing a lot of them lately. What do they do?"
+          ],
+          "correct": "They play tag with ghosts.",
+          "wrong": "They punish naughty ghosts."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Granhildr arrives at the restaurant carrying a huge oak barrel.",
+            "This toy's all the rage these days.",
+            "Apparently, something fun happens when you stick toy swords into the holes.",
+            "Want to try?"
+          ],
+          "correct": "Insert a toy sword",
+          "wrong": "Shake the barrel"
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Something seems to be weighing on Granhildr's mind as she speaks up.",
+            "Evil spirits play mean pranks.",
+            "They don't care if their pranks hurt someone or leave them injured.",
+            "That doesn't sound very fun to me...",
+            "I want to tell them to stop, but would that be sticking my nose where it doesn't belong?"
+          ],
+          "correct": "Give them a stern warning.",
+          "wrong": "Don't give them any attention."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Granhildr suggests that we dress up together for the Pumpkin Festival.",
+            "You should wear something that'll really scare the kids.",
+            "What do you want to dress up as, Master?"
+          ],
+          "correct": "A tablecloth ghost.",
+          "wrong": "A villain with a spoon."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "There's a tinge of loneliness in Granhildr's voice as she speaks.",
+            "Ghosts with too many lingering attachments can never leave the places they knew in life.",
+            "All they can do is float around on the same spot forever. Sad, isn't it?"
+          ],
+          "correct": "We should listen to their stories.",
+          "wrong": "How do they ignore gravity?"
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Granhildr arrives at the restaurant looking more excited than usual.",
+            "I learned how to play a game called hide-and-seek.",
+            "Close your eyes and count to ten while I hide, okay?"
+          ],
+          "correct": "Count to ten",
+          "wrong": "Count to five"
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Once Granhildr arrives at the cocktail bar, I ask what she'd like to drink.",
+            "Hm... There's nothing I'm particularly craving.",
+            "I don't really need to eat or drink anything in the first place.",
+            "Could you pick something you think would suit me?"
+          ],
+          "correct": "Black tea.",
+          "wrong": "Sweet soda."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Granhildr spends a moment deep in thought before suddenly turning to me with a question.",
+            "I saw some kids get scared by a wolf's howl.",
+            "Maybe I should try making scary animal noises too.",
+            "I want to find one that can scare everyone."
+          ],
+          "correct": "A lion.",
+          "wrong": "A Tyrannosaurus rex."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "It's the day of the Pumpkin Festival, and Granhildr stops by the restaurant.",
+            "Trick or treat!"
+          ],
+          "correct": "Give her a piece of candy",
+          "wrong": "Let her trick you"
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Granhildr stops by the restaurant, eager to tell me about a brilliant new prank she's come up with.",
+            "We hollow out a pumpkin and fill it with stuff.",
+            "Then whoever opens the lid will get a big surprise.",
+            "Hehehe... What should we put inside?"
+          ],
+          "correct": "Let's fill it with bug-shaped gummies.",
+          "wrong": "Let's put a good-luck chain letter inside."
+        }
+      ]
     }
   ]
 }

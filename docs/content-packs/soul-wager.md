@@ -103,8 +103,24 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>3</td>
             </tr>
             <tr>
+                <td>Attack Tile</td>
+                <td>4</td>
+            </tr>
+            <tr>
                 <td>Basic Tile</td>
                 <td>4</td>
+            </tr>
+            <tr>
+                <td>Buff Tile</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Curse Tile</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Efficiency Tile</td>
+                <td>5</td>
             </tr>
             <tr>
                 <td>Protection Tile</td>
@@ -142,6 +158,18 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>9</td>
             </tr>
             <tr>
+                <td>Anastasia - Gentle Maid</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Andrew - Loyal Butler</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Andrew - Specialist</td>
+                <td>5</td>
+            </tr>
+            <tr>
                 <td>Angelica - Neon Savior</td>
                 <td>10</td>
             </tr>
@@ -167,7 +195,7 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             </tr>
             <tr>
                 <td>Blade - Onsen Swordfighter</td>
-                <td>10</td>
+                <td>8</td>
             </tr>
             <tr>
                 <td>Carlson - The Mercenary Knight</td>
@@ -180,6 +208,10 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             <tr>
                 <td>Celia - The Curse</td>
                 <td>4</td>
+            </tr>
+            <tr>
+                <td>Celia - The Descendant of the Great Witch</td>
+                <td>16</td>
             </tr>
             <tr>
                 <td>Cynthia - Warmth within the Severe Cold</td>
@@ -199,6 +231,10 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             </tr>
             <tr>
                 <td>Darian - Bittersweet Bunny</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Darian - Prophetic Dream</td>
                 <td>9</td>
             </tr>
             <tr>
@@ -226,6 +262,10 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>9</td>
             </tr>
             <tr>
+                <td>Eleaneer - Shadow Bunny</td>
+                <td>16</td>
+            </tr>
+            <tr>
                 <td>Elise - Code Name O</td>
                 <td>4</td>
             </tr>
@@ -234,8 +274,16 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>8</td>
             </tr>
             <tr>
+                <td>Elise - Naive Lady</td>
+                <td>16</td>
+            </tr>
+            <tr>
                 <td>Elpis - Hand of Salvation</td>
                 <td>8</td>
+            </tr>
+            <tr>
+                <td>Emma - Haggard Delinquent</td>
+                <td>4</td>
             </tr>
             <tr>
                 <td>Emma - School Queen</td>
@@ -250,8 +298,16 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>7</td>
             </tr>
             <tr>
+                <td>Glacia - Heavenly Guardian Successor</td>
+                <td>16</td>
+            </tr>
+            <tr>
                 <td>Granadair - Shrine Maiden of Purification</td>
                 <td>9</td>
+            </tr>
+            <tr>
+                <td>Granhildr - Boo Ghost</td>
+                <td>16</td>
             </tr>
             <tr>
                 <td>Granhildr - Comeback Idol</td>
@@ -310,8 +366,20 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>11</td>
             </tr>
             <tr>
+                <td>Lathel - Herb Tracker</td>
+                <td>2</td>
+            </tr>
+            <tr>
                 <td>Lathel - Homunculus</td>
                 <td>4</td>
+            </tr>
+            <tr>
+                <td>Lathel - Lone Survivor</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Lathel - Promise of Vengeance</td>
+                <td>5</td>
             </tr>
             <tr>
                 <td>Layla - Anvil of Creation</td>
@@ -322,8 +390,16 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>7</td>
             </tr>
             <tr>
+                <td>Lecliss - Killer Doll</td>
+                <td>7</td>
+            </tr>
+            <tr>
                 <td>Levia - Overheat</td>
                 <td>6</td>
+            </tr>
+            <tr>
+                <td>Levia - Track and Field Captain</td>
+                <td>16</td>
             </tr>
             <tr>
                 <td>Liatris - Neon Stalker</td>
@@ -332,6 +408,10 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             <tr>
                 <td>Liatris - Rodev's Star</td>
                 <td>6</td>
+            </tr>
+            <tr>
+                <td>Liberta - Dark Saintess</td>
+                <td>16</td>
             </tr>
             <tr>
                 <td>Liberta - Onsen Manager</td>
@@ -354,6 +434,10 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>5</td>
             </tr>
             <tr>
+                <td>Luvencia - Ocean Vanguard</td>
+                <td>16</td>
+            </tr>
+            <tr>
                 <td>Luvencia - Wild Dog</td>
                 <td>11</td>
             </tr>
@@ -364,6 +448,10 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             <tr>
                 <td>Mamonir - Miracle Marine</td>
                 <td>11</td>
+            </tr>
+            <tr>
+                <td>Mamonir - Night of Death</td>
+                <td>16</td>
             </tr>
             <tr>
                 <td>Maria - Archmage</td>
@@ -394,12 +482,24 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>9</td>
             </tr>
             <tr>
+                <td>Nebris - New Hire</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Nekyndalia - Deadeye</td>
+                <td>16</td>
+            </tr>
+            <tr>
                 <td>Olivier - Apostle</td>
                 <td>10</td>
             </tr>
             <tr>
                 <td>Olivier - Faithful Wings</td>
                 <td>12</td>
+            </tr>
+            <tr>
+                <td>Olivier - Fallen Wings</td>
+                <td>5</td>
             </tr>
             <tr>
                 <td>Olstein - Fiend Scholar</td>
@@ -414,6 +514,10 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>8</td>
             </tr>
             <tr>
+                <td>Rafina - Game Club</td>
+                <td>16</td>
+            </tr>
+            <tr>
                 <td>Rafina - Steel Engine</td>
                 <td>5</td>
             </tr>
@@ -424,6 +528,10 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             <tr>
                 <td>Refithea - Pure White Blessing</td>
                 <td>4</td>
+            </tr>
+            <tr>
+                <td>Refithea - The Gluttonous</td>
+                <td>16</td>
             </tr>
             <tr>
                 <td>Rigenette - Little Hunter</td>
@@ -459,11 +567,15 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             </tr>
             <tr>
                 <td>Samay - Kind Liberator</td>
-                <td>8</td>
+                <td>7</td>
             </tr>
             <tr>
                 <td>Samay - Kind Student</td>
                 <td>6</td>
+            </tr>
+            <tr>
+                <td>Scheherazade - Code Name S</td>
+                <td>7</td>
             </tr>
             <tr>
                 <td>Scheherazade - Lapis Witch</td>
@@ -486,8 +598,16 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>7</td>
             </tr>
             <tr>
+                <td>Seir - New Hire</td>
+                <td>9</td>
+            </tr>
+            <tr>
                 <td>Sonya - Little Pumpkin Girl</td>
                 <td>11</td>
+            </tr>
+            <tr>
+                <td>Sonya - Shadowed Dream</td>
+                <td>16</td>
             </tr>
             <tr>
                 <td>Sylvia - Admiral</td>
@@ -514,6 +634,10 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
                 <td>7</td>
             </tr>
             <tr>
+                <td>Tyr - Innocent Bunny</td>
+                <td>16</td>
+            </tr>
+            <tr>
                 <td>Tyr - Starlight Guardian</td>
                 <td>7</td>
             </tr>
@@ -536,6 +660,10 @@ Each board piece has an equal chance to appear within the **same Grade**; howeve
             <tr>
                 <td>Wilhelmina - Iron Monarch</td>
                 <td>6</td>
+            </tr>
+            <tr>
+                <td>Wilhelmina - Water Park Queen</td>
+                <td>10</td>
             </tr>
             <tr>
                 <td>Yuri - Comeback Idol</td>
@@ -684,7 +812,7 @@ The **Codex** is a place to learn more about **Tiles**, **Units** and **Gear**. 
 There are a total of 5 different Tiles, each varying in shape, cost, and abilities. They are required to place Units on.
 
 ??? image "Tile Codex"
-    ![Tile Codex](../assets/images/soul-wager/gear-codex.avif)
+    ![Tile Codex](../assets/images/soul-wager/tile_codex.avif)
 
 
 ### Units
