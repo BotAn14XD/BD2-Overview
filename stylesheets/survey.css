@@ -1,0 +1,224 @@
+/* =========================================================================
+   SURVEY + ANNOUNCE BANNER
+   Split out of main.css. The announce bar renders site-wide (overrides/main.html),
+   so this sheet is loaded globally via extra_css - not only on survey.md.
+   Uses design tokens from main.css (--bd-survey-accent, --bd-green, ...).
+   ========================================================================= */
+
+/* SURVEY */
+
+/* Hidden by default ON PURPOSE: main.js reveals it only when the "closed"
+   flag is absent. Doing it this way (default hidden -> JS shows) avoids the
+   banner flashing for a split second on load before the JS can hide it. */
+.md-banner {
+    background-color: #faa419bc !important;
+    padding: 0 !important;
+    display: none;
+}
+
+.md-banner__inner {
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+
+/* DISCORD POP-UP STYLING */
+
+.survey-announce-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: transparent;
+    color: white;
+    font-size: 0.9rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px 40px;
+}
+
+.survey-announce-bar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.survey-announce-bar a:hover {
+    color: #679ee5;
+}
+
+.announce-close {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    line-height: 1;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    padding: 0;
+    margin: 0;
+}
+
+.announce-close:hover {
+    opacity: 1;
+}
+
+/* ======================= SURVEY ======================== */
+
+#custom-survey {
+    color: var(--bd-emphasis);
+    font-family: inherit;
+    margin: 20px 0;
+}
+
+#custom-survey p {
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    color: var(--bd-emphasis);
+}
+
+#custom-survey hr {
+    border: 0;
+    border-top: 1px solid var(--md-typeset-color, #2a3547);
+    margin: 24px 0;
+}
+
+#custom-survey textarea, 
+#custom-survey input[type="text"] {
+    width: 100%;
+    background-color: var(--bd-input-bg);
+    border: 1px solid var(--bd-input-border);
+    border-radius: 4px;
+    padding: 12px;
+    color: var(--bd-emphasis);
+    font-family: inherit;
+    resize: vertical;
+    box-sizing: border-box;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+#custom-survey textarea:focus, 
+#custom-survey input[type="text"]:focus {
+    border-color: var(--bd-survey-accent);
+    background-color: var(--bd-input-bg);
+    outline: none;
+}
+
+.survey-choice-box {
+    display: flex;
+    align-items: center;
+    background-color: var(--bd-choice-bg);
+    border: 1px solid var(--bd-choice-border);
+    border-radius: 4px;
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background-color 0.15s, border-color 0.15s;
+}
+
+.survey-choice-box input[type="radio"],
+.rating-cell input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.survey-choice-box:has(input:checked) {
+    border-color: var(--bd-survey-accent);
+    background-color: rgba(234, 179, 8, 0.08);
+}
+
+.rating-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 12px 0 16px 0;
+}
+
+.rating-cell {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bd-choice-bg);
+    border: 1px solid var(--bd-choice-border);
+    border-radius: 4px;
+    padding: 14px 0;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.rating-cell:has(input:checked) {
+    border-color: var(--bd-survey-accent);
+    background-color: rgba(234, 179, 8, 0.12);
+    color: var(--bd-survey-accent);
+}
+
+.subtext-label {
+    font-size: 0.85em;
+    color: var(--bd-muted);
+    display: block;
+    margin-top: -4px;
+}
+
+.survey-choice-other-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+#source-other-text {
+    flex: 1;
+    padding: 6px 10px;
+    font-size: 0.95em;
+}
+
+#submit-btn {
+    background-color: var(--bd-survey-accent);
+    color: #0b0f17;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    padding: 14px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    transition: background-color 0.15s;
+}
+
+#submit-btn:hover {
+    background-color: #ca8a04;
+}
+
+#status-message {
+    margin-top: 16px;
+    padding: 12px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.95em;
+    transition: background-color 0.2s, border-color 0.2s ease;
+}
+
+#status-message:empty {
+    display: none;
+}
+
+.status-success {
+    background-color: rgba(74, 222, 128, 0.1);
+    border: 1px solid var(--bd-green);
+}
+
+.status-error {
+    background-color: rgba(248, 113, 113, 0.1);
+    border: 1px solid #f87171;
+}
