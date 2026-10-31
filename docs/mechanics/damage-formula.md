@@ -1696,6 +1696,15 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td>$6 \text{ Turns}$</td>
                     <td align="center">$5 \sim 3$</td>
                 </tr>
+                <tr>
+                    <td align="center">
+                    ![Sealed Desires Aquila](../assets/images/character-illustration/torso/illust_inven_char067902_226.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Sealed Desires Aquila</strong></td>
+                    <td>$200\%$</td>
+                    <td>$4 \text{ Turns}$</td>
+                    <td align="center">$7 \sim 6$</td>
+                </tr>
             </tbody>
         </table>
     </div>
@@ -1822,6 +1831,15 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td><strong>The Fallen<br>Angelica</strong></td>
                     <td>$100\%$</td>
                     <td>$\text{4 Turns}$</td>
+                    <td align="center">$5 \sim 4$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Sealed Desires Aquila](../assets/images/character-illustration/torso/illust_inven_char067902_226.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Sealed Desires Aquila</strong></td>
+                    <td>$100\%$</td>
+                    <td>$2 \sim 4 \text{ Turns}$</td>
                     <td align="center">$5 \sim 4$</td>
                 </tr>
             </tbody>
@@ -2044,6 +2062,15 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
                     <td>$90\% \newline \text{\textcolor{ffe8aa}{DEF} \& \textcolor{ffa6ff}{MRES}}$</td>
                     <td>$4 \text{ Turns}$</td>
                     <td align="center">$4 \sim 2$</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    ![Sealed Desires Aquila](../assets/images/character-illustration/torso/illust_inven_char067902_226.avif){.icon-portrait}
+                    </td>
+                    <td><strong>Sealed Desires Aquila</strong></td>
+                    <td>$50\% \newline \text{\textcolor{ffe8aa}{DEF} \& \textcolor{ffa6ff}{MRES}}$</td>
+                    <td>$2 \text{ Turns}$</td>
+                    <td align="center">$7 \sim 6$</td>
                 </tr>
             </tbody>
         </table>

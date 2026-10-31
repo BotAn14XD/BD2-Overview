@@ -21,6 +21,7 @@
         * Life Sim Content Packs
             * [Fantasia Territory](life-sim/territory.md)
         * [Fiend Hunter](content/fh.md)
+        * [Guild Raid](content/raid.md)
         * [Rapport](content/rapport.md)
         * [Season Events](content/events.md)
         * [Taros Tactical Manual](content/ttm.md)

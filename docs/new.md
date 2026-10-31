@@ -431,7 +431,7 @@ If you are searching for a **daily**, **weekly** or **seasonal** routine, follow
 
 ### Content Shops
 
-??? abstract "{{Medal_of_the_Fighting_Spirit}}  Mirror Wars Shop"
+??? abstract "{{Medal_of_the_Fighting_Spirit}} Mirror Wars Shop"
     1. **Featured Costume**{.yellow} (18000 {{Medal_of_the_Fighting_Spirit}}) — Unless the Costume is already at +5
     2. {{Refining_Crystal}} **Refining Crystal**{.yellow} **x150** (10500 {{Medal_of_the_Fighting_Spirit}}) 
 
@@ -447,7 +447,7 @@ If you are searching for a **daily**, **weekly** or **seasonal** routine, follow
 ??? abstract "{{Mercenary_Alliance_Deed}} Guild Shop"
 
     1. {{Tear_of_Goddess}} **Tear of Goddess**{.yellow} (2000 {{Mercenary_Alliance_Deed}})
-    2. {{Spark_of_Rampage}} **Spark of Rampage**{.yellow} (750 {{Mercenary_Alliance_Deed}})
+    2. {{Spark_of_Rampage}} **Spark of Rampage**{.yellow} **x50** (750 {{Mercenary_Alliance_Deed}})
     3. {{Draw_Ticket}} **Draw Ticket**{.yellow} **x10** (3000 {{Mercenary_Alliance_Deed}})
     4. {{Awakening_Elixir}} **Awakening Elixir**{.yellow} x100 (3000 {{Mercenary_Alliance_Deed}})
     5. {{Essence_of_Strength}} **Essence of Strength**{.yellow} **x100** (1000 {{Mercenary_Alliance_Deed}})
