@@ -94,6 +94,8 @@ Break is a mechanic that makes the Boss skip its turn. It is usually obtained by
 
 Boss Skills do not get skipped; instead, they are simply delayed until the Break is over.
 
+---
+
 ## Battle
 
 For the Battle, you need to set up the team with **7 Characters** (unlike the standard 5-character team format). Unlike the [Fiend Hunter](./fh.md), there are no multiple teams; only one goes throughout the whole battle.
@@ -151,6 +153,8 @@ Practice mode does not consume daily character borrow limits, allowing you to fr
 
 Additionally, any [Burst](../progression/burst.md) will be unlocked automatically to the highest level, which helps to test if anyone is worth investing in for the Raid.
 
+---
+
 ## Lancelot
 
 Lancelot is an ally unique to the Guild Raid. It does not occupy a space or a slot in your active party.
@@ -198,6 +202,8 @@ To choose a Skill, press the Lancelot Card and pick the Skill you need.
 
 Similar to [Golden Colosseum](../content-packs/gc.md), Guilds are placed in percentile-based brackets and receive corresponding rewards, with **Within the 0.1%** [of guilds] being the highest place the Guild can achieve.
 
+---
+
 ## Rewards
 
 Rewards are divided into **Personal**, **Guild Score**, and **Ranking**.
@@ -211,6 +217,8 @@ Rewards are divided into **Personal**, **Guild Score**, and **Ranking**.
 {{ redirect_btn('https://browndust2.miraheze.org/wiki/Guild_Raid#Ranking_and_rewards', 'Detailed Rewards Data', '#e5b567') }}
 
 To purchase all rewards from the Guild Shop, you need 11750 {{Mercenary_Alliance_Deed}} **Mercenary Alliance Deed**, which can be achieved by a level 6 clear and the Guild reaching 50000 Points within the 50-40% bracket, which is easily achievable.
+
+---
 
 ## Guild Raid Guide
 
