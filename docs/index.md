@@ -142,6 +142,12 @@ This site focuses on high-quality explanations for every game aspect for new pla
     ---
 
     [View Page →](./content/rapport.md){: .md-button }
+
+-   ![Guild Raid](assets/images/site-assets/index-pc-nav-35.avif){: .card-header-img }
+
+    ---
+
+    [View Page →](./content/raid.md){: .md-button }
 </div>
 ---
 

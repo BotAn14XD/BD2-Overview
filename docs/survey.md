@@ -103,6 +103,7 @@ icon: material/poll
 <p>Name <b>one</b> Topic / Article that is missing and you want to see the most. (Optional)</p>
 <textarea name="awaiting_stuff" rows="1" placeholder="The Soul Wager..."></textarea>
 
+<!--
 <hr>
 
 <p>Do you support the introduction of unobtrusive ads?</p>
@@ -110,7 +111,7 @@ icon: material/poll
 <label class="survey-choice-box"><input type="radio" name="ads" value="No">No</label>
 <label class="survey-choice-box"><input type="radio" name="ads" value="No Preference">No Preference / Whatever</label>
 
-<!--<p>If there were a Patreon subscription, would you pay for it, and if yes, is there anything you would like to have as a "reward" for a subscription?</p>
+<p>If there were a Patreon subscription, would you pay for it, and if yes, is there anything you would like to have as a "reward" for a subscription?</p>
 
 <label class="survey-choice-box">
 <div class="survey-choice-other-wrapper">

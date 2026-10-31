@@ -59,6 +59,8 @@ Additionally, in the **Formation** tab, you can freely change the order of your 
 
 Each Costume have a set **Cost** that counts towards the Total Сost. If the Total Cost exceeds the Cost set by the Rules, you cannot save the team and have to opt for another team composition.
 
+Costs are adjusted each Season based on their usage in the previous one.
+
 ??? image "Cost Display"
     ![Cost Display](../assets/images/golden-colosseum/cost.avif)
 
@@ -95,7 +97,7 @@ To check each Blessing, refer to the Blessing Menu mentioned above. Alternativel
 
 ## Rules
 
-Every 2 Seasons, a new set of Rules is released. They dictate how the season goes. There are a total of **17** Rules, with **7** Rules changing (Rotating), while the rest are untouched/consistent (as of now).
+Every 2 Seasons, a new set of Rules is released. They dictate how the season goes. There are a total of **17** Rules, with **8** Rules changing (Rotating), while the rest are untouched/consistent (as of now).
 
 To check the Rules of current and previous Seasons, press the corresponding menu.
 
@@ -177,11 +179,11 @@ To check the Rules of current and previous Seasons, press the corresponding menu
             </tr>
             <tr>
                 <td><strong>Banned Costumes</strong></td>
-                <td>4 — 5 <span class="yellow">(Rotates)</span><br>Determines how many and which Costumes<br>are not available for the current Season.</td>
+                <td>0 — 5 <span class="yellow">(Rotates)</span><br>Determines how many and which Costumes<br>are not available for the current Season.</td>
             </tr>
             <tr>
                 <td><strong>Banned Blessings</strong></td>
-                <td>4 <span class="yellow">(Rotates)</span><br>Determines how many and which Blessings<br>are not available for the current Season.</td>
+                <td>0 — 5 <span class="yellow">(Rotates)</span><br>Determines how many and which Blessings<br>are not available for the current Season.</td>
             </tr>
         </tbody>
     </table>
@@ -487,7 +489,7 @@ Golden Colosseum ranks players strictly by **relative percentile brackets** acro
 
 ## Guides
 
-If you do not care about [PvP](../misc/slang.md?term=PvP) to the degree you want to actually climb the ladder, **copying someone's teams** will do. This will give you decent Rank and 40 wins easily to complete all missions.
+If you do not care about [PvP](../misc/slang.md?term=PvP) to the degree you want to actually climb the ladder, **copying someone's teams** will do. This will give you decent Rank, and, therefore, decent seasonal rewards.
 
 For that, you have plenty of options:
 
