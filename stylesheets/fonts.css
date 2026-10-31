@@ -1,0 +1,57 @@
+/* =========================================================================
+   SELF-HOSTED ROBOTO  (replaces Material's Google-Fonts dependency)
+   font: false stays in properdocs.yml, so nothing loads from Google. These
+   @font-face rules point at woff2 files vendored in docs/assets/fonts/, and
+   the --md-text-font / --md-code-font VARIABLES tell Material to use them.
+   (Set the variables, never `font-family` directly - that keeps Material's
+   system-font fallback intact if a file ever fails to load.)
+
+   Files this sheet expects in docs/assets/fonts/ :
+     Roboto-Light.woff2        (weight 300)
+     Roboto-Regular.woff2      (weight 400)
+     Roboto-Italic.woff2       (weight 400, italic)
+     Roboto-Bold.woff2         (weight 700)
+     RobotoMono-Regular.woff2  (weight 400)
+   ========================================================================= */
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("../assets/fonts/Roboto-Light.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../assets/fonts/Roboto-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../assets/fonts/Roboto-Italic.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../assets/fonts/Roboto-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../assets/fonts/RobotoMono-Regular.woff2") format("woff2");
+}
+
+:root {
+    --md-text-font: "Roboto";
+    --md-code-font: "Roboto Mono";
+}
