@@ -17,9 +17,9 @@ Brown Dust II is a turn-based strategy in which you can position your characters
 ## **Basics**
 
 !!! example "Turns mechanic"
-    * For all [PvE](../misc/slang.md?term=PvE) content, you attack on **odd turns (1, 3, 5, ...)**, while enemy attacks on **even turns (2, 4, 6, ...)**.
-    * During turns, you don't have to do anything; characters use skills automatically; **all preparation (positioning, skill choices) must be made pre-turn**.
-    * You can make those preparations only ** pre-turn **. Enemy turn is followed instantly after yours.
+    * For all [PvE](../misc/slang.md?term=PvE) content, you attack on **odd turns (1, 3, 5, ...)**, while enemies attack on **even turns (2, 4, 6, ...)**.
+    * During turns, you don't have to do anything; characters use skills automatically.
+    * You can make all preparations (positioning, skill choices) **only pre-turn**. The enemy turn follows instantly after yours.
     * Turn progression only goes after you confirm your choices with the "Turn X Battle" button in the bottom right corner of the battle screen.
 
 ---
@@ -155,7 +155,7 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
     
     ---
 
-    * Property **advantage / disadvantage** also is displayed **during skill / damage preview**, and are shown as ![Property Advantage](../assets/images/battle-system/icons/prop_adv.avif "Property Advantage"){.icon} and ![Property Disadvantage](../assets/images/battle-system/icons/prop_disadv.avif "Propety Disadvantage"){.icon} accordingly. If you have neither advantage nor disadvantage, no icon will show up, similar to attacking a neutral character.
+    * Property **advantage / disadvantage** is also displayed **during skill / damage preview**, and is shown as ![Property Advantage](../assets/images/battle-system/icons/prop_adv.avif "Property Advantage"){.icon} and ![Property Disadvantage](../assets/images/battle-system/icons/prop_disadv.avif "Property Disadvantage"){.icon} accordingly. If you have neither advantage nor disadvantage, no icon will show up, similar to attacking a neutral character.
     ??? image "Advantage, disadvantage and basic damage display"
         ![Adv_Disadv display](../assets/images/battle-system/property-preview.avif)
 
@@ -239,7 +239,7 @@ In battle, you can obtain a lot of information about your units and enemies. Mor
 
     To reselect costume choice, simply click on the character and choose a different costume. 
 
-    Overall, this feature is considered to be a time-saver, since setting up skills yourself is a much bigger hustle. Aside from that, it is a flexible feature which doesn't lock your selected skill order, so you should have no issues.
+    Overall, this feature is considered to be a time-saver, since setting up skills yourself is a much bigger hassle. Aside from that, it is a flexible feature which doesn't lock your selected skill order, so you should have no issues.
 
 === "![Auto Battle Icon](../assets/images/battle-system/icons/icon_autobattle.avif){ .icon-list }"
     **Auto Battle Feature**
@@ -432,15 +432,15 @@ In the opened menu, you will see 10 slots, corresponding to each of your skill a
 Characters and enemies can have different status effects, which enhance, diminish, or modify character impact in a battle. <br>
 Most common status effects (in a Story Pack) are **Taunt**, **Counter**, **Evade**, **Energy Guard**, and **Immunity**.
 
-* ![Taunt](../assets/images/battle-system/icons/bufficon_26.avif "Taunt"){.icon} **Taunt** makes your incoming attacks ignore target logic and attack that specific enemy. Is removable by dispel units (Scheherazade, Yuri, Eleanner), unless the enemy has immunity.
-* ![Counter](../assets/images/battle-system/icons/bufficon_39.avif "Counter"){.icon} **Counter** makes your units receive damage when attacking the enemy. Often paired with **Taunt**. There are a lot of types of Counter, so read the ability to understand what type of it you're facing. Also dispellable by dispel units, unless the enemy has immunity. 
-* ![Evade](../assets/images/battle-system/icons/bufficon_62.avif "Evade"){.icon} **Evade** completely disregards your attacks onto enemy. That means that any effects taking place with attacks *(such as Dispel, [DoT](../misc/slang.md?term=DoT), etc)* **will not work** on the enemy evading. To bypass the Evade, use **Self-Destruction** skills (Wiggle, Morpeah's summons).
+* ![Taunt](../assets/images/battle-system/icons/bufficon_26.avif "Taunt"){.icon} **Taunt** makes incoming attacks ignore targeting logic and attack that specific enemy. It is removable by dispel units (Scheherazade, Yuri, Eleaneer), unless the enemy has immunity.
+* ![Counter](../assets/images/battle-system/icons/bufficon_39.avif "Counter"){.icon} **Counter** makes your units receive damage when attacking the enemy. Often paired with **Taunt**. There are many types of Counter, so read the ability description to understand what type you are facing. It is also dispel-able by dispel units, unless the enemy has immunity. 
+* ![Evade](../assets/images/battle-system/icons/bufficon_62.avif "Evade"){.icon} **Evade** completely disregards attacks against the enemy. That means any effects tied to attacks *(such as Dispel, [DoT](../misc/slang.md?term=DoT), etc.)* **will not work** on the evading enemy. To bypass Evade, use **Self-Destruction** skills (Wiggle, Morpeah's summons).
 * ![Energy Guard](../assets/images/battle-system/icons/bufficon_38.avif "Energy Guard"){.icon} **Energy Guard** acts as a shield, increasing the current character's HP on top of cap. To bypass it, either use Dispel, deal True Damage, or just deal enough DMG to remove it.
 * ![Immunity](../assets/images/battle-system/icons/bufficon_61.avif "Immunity"){.icon} **Immunity** indicates that the character has immunity to some sort of actions, such as Weakness, Buff Removal, Knockback, etc.
 
 ### Different Damage Types
-There are a few types of unique damage in the game.
+There are a few unique damage types in the game.
 
-* <u>**Fixed DMG**</u> **cannot crit**. It is not affected by **DEF**, **Magic Resist** and **DMG Taken Reduction / Increase**, but is affected by **Property DMG**, **Chain Effect**, **DMG Dealt Increase / Reduction** and **Death Time Effect**.
-* <u>**Consumed DMG**</u> also **cannot crit**. It is not affected by **DEF**, **Magic Resist**, **DMG Taken Reduction / Increase** and <u>**Energy Guard**</u>, but is affected by **Property DMG**, **Chain Effect**, **DMG Dealt Increase / Reduction** and **Death Time Effect**.
-* <u>**Pure DMG**</u> is not affected by **DEF**, **Magic Resist**, <u>**DMG Taken Reduction**</u> and **Energy Guard**, but affected by <u>**Critical Hit**</u>, **Property DMG**, **Chain Effect**, <u> **DMG Taken Increase**</u>, **DMG Dealt Increase / Reduction** and **Death Time Effect**.
+* <u>**Fixed DMG**</u> **cannot crit**. It is not affected by **DEF**, **Magic Resist**, and **DMG Taken Reduction / Increase**, but is affected by **Property DMG**, **Chain Effect**, **DMG Dealt Increase / Reduction**, and **Death Time Effect**.
+* <u>**Consumed DMG**</u> also **cannot crit**. It is not affected by **DEF**, **Magic Resist**, **DMG Taken Reduction / Increase**, and <u>**Energy Guard**</u>, but is affected by **Property DMG**, **Chain Effect**, **DMG Dealt Increase / Reduction**, and **Death Time Effect**.
+* <u>**Pure DMG**</u> is not affected by **DEF**, **Magic Resist**, <u>**DMG Taken Reduction**</u>, and **Energy Guard**, but is affected by <u>**Critical Hit**</u>, **Property DMG**, **Chain Effect**, <u>**DMG Taken Increase**</u>, **DMG Dealt Increase / Reduction**, and **Death Time Effect**.

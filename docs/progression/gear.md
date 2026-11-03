@@ -22,9 +22,9 @@ The Gear System is an important character progression system. It increases a cha
     * Prioritize **offensive gear** (Weapons, Gloves, Accessories) and upgrade your **Crafting Ability** to **Legendary** before crafting UR Gear.
     * **Jump straight to the [Crafting Guide](#crafting-guide) or [Gearing Guide](#gearing-guide)** if you are searching for ones.
 
-There are **5 gear slots** available for your characters: {{Weapon}} **Weapon**, {{Armor}} **Armor**, {{Helmet}} **Helmet**, {{Accessory}} **Accessory** and {{Gloves}} **Gloves**.
+There are **5 gear slots** available for your characters: {{Weapon}} **Weapon**, {{Armor}} **Armor**, {{Helmet}} **Helmet**, {{Accessory}} **Accessory**, and {{Gloves}} **Gloves**.
 
-Generally speaking, {{Weapon}} **Weapon**, {{Accessory}} **Accessory** and {{Gloves}} **Gloves** are considered to be offensive gear, while {{Armor}} **Armor** and {{Helmet}} **Helmet** are considered to be defensive gear.
+Generally speaking, {{Weapon}} **Weapon**, {{Accessory}} **Accessory**, and {{Gloves}} **Gloves** are considered to be offensive gear, while {{Armor}} **Armor** and {{Helmet}} **Helmet** are considered to be defensive gear.
 
 ![Gear Slots](../assets/images/gear-system/gear-slots.avif)
 
@@ -270,7 +270,7 @@ Except for things mentioned above, Gear is **identical** to the gear of the same
 
     You can keep buying them until the end game since they are better than craftable {{UR_Grade}} {{III}} for **Support Bonus** of **Last Night**.
     ??? image "**Quick Event Shop Priority Guide**"
-        ![Event Shop Reccomendations](../assets/images/season-event/eshop_prio.avif)
+        ![Event Shop Recommendations](../assets/images/season-event/eshop_prio.avif)
     {{ redirect_btn('content/events/', 'Learn more about Season Event', '#5ad7d7') }} 
 
 ---
@@ -512,7 +512,7 @@ To do the dismantle, it is better to use the [**Upgrade All**](#upgrade-all) or 
 
 As a new player, you should prioritize **offensive** gear instead of **defensive** pieces. To put it simply, it is fine to run a glass cannon strategy for the story, as long as you evaporate everything on Turn 1. 
 
-As was mentioned above, offensive gear is <u>**mostly**</u> {{Weapon}} **Weapon**, {{Accessory}} **Accessory** and {{Gloves}} **Gloves**. 
+As was mentioned above, offensive gear is <u>**mostly**</u> {{Weapon}} **Weapon**, {{Accessory}} **Accessory**, and {{Gloves}} **Gloves**. 
 
 The whole crafting guide essentially comes down to your current needs. Here's an example of what your progression can look like as a player who never touched crafting:
 
@@ -620,7 +620,7 @@ For all of these types, the build you want is different.
 
     Therefore, builds are:
 
-    * {{ gear("Immortal Golden Armor") }} +  {{ gear("Helm of Death") }} + {{ gear("Charming Gaze") }} + if the enemy deals {{Physical}} **Physical**{.yellow} damage;
+    * {{ gear("Immortal Golden Armor") }} + {{ gear("Helm of Death") }} + {{ gear("Charming Gaze") }} if the enemy deals {{Physical}} **Physical**{.yellow} damage;
     * {{ gear("Hellfire Robe") }} + {{ gear("Crown of Galaxy") }} + {{ gear("Charming Gaze") }} if the enemy deals {{Magical}} **Magical**{.magenta} damage.
 
     {{Weapon}} **Weapon** can be either {{ gear("Evil Dragon's Blade") }} or {{ gear("Travel God's Friend") }}, regardless of the damage type the character deals, since its value is in the {{CritDMG}} **Crit DMG**{.white} only.
@@ -672,12 +672,12 @@ For all of these types, the build you want is different.
     * **Fixed Damage DPS** solely benefit from {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta};
     * **HP-reliant DPS** rely on mostly {{HP}} **HP** and {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} as secondary option;
     * **Enemy HP-reliant DPS** want only {{CritDMG}} **Crit DMG** or {{CritRate}} **Crit Rate**{.white};
-    * **Stat-Dependent Supports** want corresponding stat;
+    * **Stat-Dependent Supports** want the corresponding stat;
     * **Other Supports** are fine with whatever.
 
     As for the split (ratio) of said Options, it's better to use the [Gear Calculator](#gear-calculator) **if you want the precise answer**.
 
-    **For the {{Armor}} Armor**, you want to have two different types of sets: one that is stacked with {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and another one with all {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} substats. This way, you are benefiting way more from {{Physical}} **Physical** DPS wearing {{ gear("Invulnerable Armor") }} and {{ gear("Helm of Carnage") }}, but also giving some benefit for **Magical**{.magenta} DPS otherwise.
+    **For {{Armor}} Armor**, you want to have two different types of sets: one stacked with {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and another with all {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} substats. This way, you benefit way more from {{Physical}} **Physical** DPS wearing {{ gear("Invulnerable Armor") }} and {{ gear("Helm of Carnage") }}, while also giving some benefit to **Magical**{.magenta} DPS otherwise.
     
     As rough advice, getting {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} on {{Weapon}} **Weapon** and {{Gloves}} **Gloves** is a go-to (for Standard DPS), and filling the rest with either additional {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} or {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} isn't a bad choice.
 
