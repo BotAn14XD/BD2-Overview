@@ -155,7 +155,7 @@ icon: material/frequently-asked-questions
     * **Any Costume that appears in a Pub and has Active Banner**
     * **[Night of Death Mamonir](https://browndust2.miraheze.org/wiki/Mamonir/Night_of_Death) — Random Appearance**
     * **[Fiend Scholar Olstein](https://browndust2.miraheze.org/wiki/Olstein/Fiend_Scholar) — Story Pack 4 (Cat Daddy)** [if you do not have any other Costume]
-    * **[Shattered Dream Palette](https://browndust2.miraheze.org/wiki/Palette/Shadowed_Dream) — Story Pack 20 (Into the Abyss)**
+    * **[Shattered Dream Palette](https://browndust2.miraheze.org/wiki/Palette/Shattered_Dream) — Story Pack 20 (Into the Abyss)**
     * **[The Gluttonous Refithea](https://browndust2.miraheze.org/wiki/Refithea/The_Gluttonous) — Random Appearance**
     * **[The Curse Celia](https://browndust2.miraheze.org/wiki/Celia/The_Curse) — Random Appearance**
 
