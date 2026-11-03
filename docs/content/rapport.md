@@ -294,7 +294,7 @@ The Rapport Buff is a buff that increases {{CritRate}} **Crit Rate**{.white} and
 
 This means the bonus is **global**, affects **all permanent Companions**, and **cannot be reduced via Pressure Effects**.
 
-It has a maximum value of **50%** and is obtained via completing Missions. Each mission gives 2%.
+It has a maximum value of **50%** and is obtained by completing Missions. Each mission gives 2%.
 
 !!! image "Rapport Buff Missions"
      ![Rapport Buff Missions](../assets/images/rapport/rapport-buff.avif)

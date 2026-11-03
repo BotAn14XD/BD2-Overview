@@ -11,7 +11,7 @@ icon: material/frequently-asked-questions
 ---
 
 ![Commonly Asked Questions](assets/images/site-assets/index-pc-nav-1.avif){: .card-header-img }
-#
+# FAQ {: .sr-only }
 
 ## Gacha, Summons & Economy
 ??? question "Is there a Tier List? {{ share_btn('tierlist') }}" 
@@ -155,7 +155,7 @@ icon: material/frequently-asked-questions
     * **Any Costume that appears in a Pub and has Active Banner**
     * **[Night of Death Mamonir](https://browndust2.miraheze.org/wiki/Mamonir/Night_of_Death) — Random Appearance**
     * **[Fiend Scholar Olstein](https://browndust2.miraheze.org/wiki/Olstein/Fiend_Scholar) — Story Pack 4 (Cat Daddy)** [if you do not have any other Costume]
-    * **[Swadowed Dream Palette](https://browndust2.miraheze.org/wiki/Palette/Shadowed_Dream) — Story Pack 20 (Into the Abyss)**
+    * **[Shattered Dream Palette](https://browndust2.miraheze.org/wiki/Palette/Shattered_Dream) — Story Pack 20 (Into the Abyss)**
     * **[The Gluttonous Refithea](https://browndust2.miraheze.org/wiki/Refithea/The_Gluttonous) — Random Appearance**
     * **[The Curse Celia](https://browndust2.miraheze.org/wiki/Celia/The_Curse) — Random Appearance**
 
@@ -172,7 +172,7 @@ icon: material/frequently-asked-questions
     ![Property Illustration](assets/images/faq/property.avif){ align=right}
     [Property](misc/slang.md/?term=Property) is technically the Element of each Character.
 
-    There are a lotal of 6 Properties: {{Water}} **Water**, {{Fire}} **Fire**, {{Wind}} **Wind**, {{Light}} **Light**, {{Darkness}} **Darkness** and {{Neutral}} **Neutral**.
+    There are a total of 6 Properties: {{Water}} **Water**, {{Fire}} **Fire**, {{Wind}} **Wind**, {{Light}} **Light**, {{Darkness}} **Darkness**, and {{Neutral}} **Neutral**.
 
     * {{Water}} Water Allies deal **more damage** to {{Fire}} Fire Enemies and **less damage** to {{Wind}} Wind Enemies
     * {{Fire}} Fire Allies deal **more damage** to {{Wind}} Wind Enemies and **less damage** to {{Water}} Water Enemies
@@ -266,7 +266,7 @@ icon: material/frequently-asked-questions
 
     {{ redirect_btn('progression/potentials/', 'More about Potential Liberation', '#9d65c9') }} 
 
-??? q-progression "Who to spend Sparkles of Rampage on? {{ share_btn('burst') }}"
+??? q-progression "Who to spend Sparks of Rampage on? {{ share_btn('burst') }}"
     Since this is a relatively new feature, there is no one united opinion on this topic. 
     
     You can refer to [Priority Guide](progression/burst.md#priority-guide) from the Author of the site, but **definitely** read **General Advice** and **Disclaimer** before you do that.
@@ -318,7 +318,7 @@ icon: material/frequently-asked-questions
     ??? image "Image Guide"
         ![Guide for displaying a Costume collection ver.2](assets/images/faq/box_pots.avif)
 
-    * When asking for a help with **Gear**, use **second menu** inside of **Character tab**. It captures the gear for your main team (which is usually the best) and some extra gear on the right side. Later on, you can show from the bag by using [Custom Marks](progression/gear.md#custom-marks) and filtering to display them first.
+    * When asking for help with **Gear**, use the **second menu** inside the **Character tab**. It captures the gear for your main team (which is usually the best) and some extra gear on the right side. Later on, you can show from the bag by using [Custom Marks](progression/gear.md#custom-marks) and filtering to display them first.
 
     ??? image "Image Guide"
         ![Guide for displaying a Gear collection](assets/images/faq/box_gear.avif)

@@ -57,7 +57,7 @@ To set the team, press the **Formation** button, then **Replace**, pick the need
 
 Additionally, in the **Formation** tab, you can freely change the order of your Costumes, similar to the regular [battles](../mechanics/battle.md#_10).
 
-Each Costume have a set **Cost** that counts towards the Total Сost. If the Total Cost exceeds the Cost set by the Rules, you cannot save the team and have to opt for another team composition.
+Each Costume has a set **Cost** that counts towards the Total Cost. If the Total Cost exceeds the Cost set by the Rules, you cannot save the team and have to opt for another team composition.
 
 Costs are adjusted each Season based on their usage in the previous one.
 
@@ -151,11 +151,11 @@ To check the Rules of current and previous Seasons, press the corresponding menu
             </tr>
             <tr>
                 <td><strong>Turn Progression</strong></td>
-                <td>All Characters <span class="yellow">(Consistent)</span><br>Determins when the turn ends.<br>Character represents end of the turn after each action.<br>All represents end of the turn after every action on the field.</td>
+                <td>All Characters <span class="yellow">(Consistent)</span><br>Determines when the turn ends.<br>Character represents end of the turn after each action.<br>All represents end of the turn after every action on the field.</td>
             </tr>
             <tr>
                 <td><strong>Cooldown</strong></td>
-                <td>Disabled <span class="yellow">(Consistent)</span><br>Determins if Costumes have a cooldown.</td>
+                <td>Disabled <span class="yellow">(Consistent)</span><br>Determines if Costumes have a cooldown.</td>
             </tr>
             <tr>
                 <td><strong>SP</strong></td>
@@ -580,4 +580,4 @@ Shop is a place where you can spend earned {{Aurum_Coin}} **Aurum Coins**. To ac
 * [Arca Live Forum](https://arca.live/b/browndust2/)
 * [<u>GemMog</u> | YouTube](https://www.youtube.com/@GemMog)
 * [<u>VioletRose</u> | YouTube](https://www.youtube.com/playlist?list=PLjh8VmDQJsQqQuAMTfTyIa4YePbQlKBMU)
-* [Colden Colosseum: Champion Guide by <u>blanketninja</u>](https://docs.google.com/spreadsheets/d/e/2PACX-1vQEYjBPz0-tkhGwtgEyTm4cj0lVhgItaFXBVqcRxZ8wPoZne94QWnfz2nLJwRoBmEh_JCRZtNYqpObE/pubhtml#gid=2089793421)
+* [Golden Colosseum: Champion Guide by <u>blanketninja</u>](https://docs.google.com/spreadsheets/d/e/2PACX-1vQEYjBPz0-tkhGwtgEyTm4cj0lVhgItaFXBVqcRxZ8wPoZne94QWnfz2nLJwRoBmEh_JCRZtNYqpObE/pubhtml#gid=2089793421)
