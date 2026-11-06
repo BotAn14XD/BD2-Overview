@@ -53,7 +53,7 @@ There are usually 10 - 14 Episodes, usually split between **2 Season Events**. I
     That means that the whole story covered in both **«Strange Request»** and **«Dark Magica»** Season Events will be displayed under the **«Strange Request»** name.
 -->
 
-The Story of the Season Event is a [Rapport](./rapport.md) Story of the specific Costume. It consists of 6 Episodes, with each Episode giving **Event Currency** (650 for the first 5 Episodes and 750 for the last Episode).
+The Story of the Season Event is the [Rapport](./rapport.md) Story of a specific Costume. It consists of 6 Episodes, with each Episode granting **Event Currency** (650 for the first 5 Episodes and 750 for the last Episode).
 
 !!! image "Story Menu"
     ![Story Menu](../assets/images/season-event/story.avif)
@@ -221,7 +221,7 @@ Each shop lasts for **28 days** instead of the usual 14, allowing you to spend w
     1.&nbsp;{{Tear_of_Goddess}} **Tear of Goddess x1**{.yellow} — 1000 **Event Currency**<br>
     2.&nbsp;{{Tear_of_Goddess}} **Tear of Goddess x1**{.yellow} — 2000 **Event Currency**<br>
     3.&nbsp;{{Tear_of_Goddess}} **Tear of Goddess x1**{.yellow} — 3000 **Event Currency**<br>
-    4.&nbsp;{{Spark_of_Rampage}} **Spark of Rampage x30**{.yellow} — 600 **Event Currency**<br>
+    4.&nbsp;{{Spark_of_Rampage}} **Sparks of Rampage x30**{.yellow} — 600 **Event Currency**<br>
     5.&nbsp;{{Draw_Ticket}} **Draw Ticket x15**{.yellow} — 6000 **Event Currency**
 
     ---
@@ -251,7 +251,7 @@ Each shop lasts for **28 days** instead of the usual 14, allowing you to spend w
         ![Event Shop Priority](../assets/images/season-event/eshop_prio.avif)
 
 !!! question "Are Attempts worth buying?"
-    Generally speaking, **no**. The only exception is when you cannot afford the **Highest priority** items on the last day. Otherwise, it is considered a waste of {{Dia}} **Dias**.
+    Generally speaking, **no**. The only exception is when you cannot afford the **highest priority** items on the last day. Otherwise, it is considered a waste of {{Dia}} **Dias**.
 
 !!! abstract "Previous Event Shop"
     As previously stated, Event Shops remain open longer than the duration of the Event itself. This is designed to allow players to make exchanges after the Event has ended.

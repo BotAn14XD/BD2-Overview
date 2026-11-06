@@ -157,7 +157,7 @@ icon: material/book-search
             </div>
             <p>An Amplifier is a Character or a Costume that increases the damage to the target, mostly due to Vulnerability.</p>
         </li>
-        <li class="slang-item" data-keywords="crytals">
+        <li class="slang-item" data-keywords="crystals">
             <h3>Ancient Crystal</h3>
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
@@ -438,7 +438,7 @@ icon: material/book-search
             <h3>Blade</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
-                <span class="alias-tag">Balde</span>
+                <span class="alias-tag">Blade</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Blade">Blade</a> is a playable Darkness Character.</p>
         </li>
@@ -2225,7 +2225,7 @@ icon: material/book-search
             </div>
             <p>Property is one of the character's traits that increases damage dealt versus a weaker Property and reduces damage dealt versus a stronger one.</p>
         </li>
-        <li class="slang-item" data-keywords="crytals">
+        <li class="slang-item" data-keywords="crystals">
             <h3>Property Crystal</h3>
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
@@ -2324,7 +2324,7 @@ icon: material/book-search
                 <span class="alias-tag character-tag ignore-exact">Character</span>
                 <span class="alias-tag">Raf</span>
             </div>
-            <p><a   href="https://browndust2.miraheze.org/wiki/Rafina">Rafina</a> is a playable Water Character.</p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Rafina">Rafina</a> is a playable Water Character.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Rebellion</h3>
@@ -2370,7 +2370,7 @@ icon: material/book-search
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Rou/Red_Riding_Hood">Red Riding Hood</a> is one of <a href="https://browndust2.miraheze.org/wiki/Rou">Rou's</a> costumes. Used as a Buffer.</p>
         </li>
-        <li class="slang-item" data-keywords="crytals">
+        <li class="slang-item" data-keywords="crystals">
             <h3>Refining Crystal</h3>
             <div class="alias-container">
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
@@ -2394,7 +2394,7 @@ icon: material/book-search
                 <span class="alias-tag resource-tag ignore-exact">Resource</span>
                 <span class="alias-tag">RS</span>
             </div>
-            <p><a href="https://browndust2.miraheze.org/wiki/Refining_Stone">Refining Stone</a> <!--STUB--></p>
+            <p><a href="https://browndust2.miraheze.org/wiki/Refining_Stone">Refining Stone</a> is a Resource used to change Substats of the gear.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>Refithea</h3>
@@ -2906,7 +2906,7 @@ icon: material/book-search
                 <span class="alias-tag rare-tag">TSW</span>
                 <span class="alias-tag rare-tag">SW</span>
             </div>
-            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/soul-wager/">The Soul Wager</a> is a auto battler inventory management Content Pack.
+            <p><a href="https://botan14xd.github.io/BD2-Overview/content-packs/soul-wager/">The Soul Wager</a> is an auto battler inventory management Content Pack.</p>
         </li>
         <li class="slang-item" data-keywords="">
             <h3>The Sword Queen Sylvia</h3>

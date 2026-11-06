@@ -107,7 +107,7 @@ A disabled Potential will have a lock icon, indicating it is not used at the mom
     ![Disabled Potential](../assets/images/potential-liberation/lock-pots.avif)
 
 !!! warning "Important"
-    Toggle Potential feature **is not applicable in [Tower of Salvation](../content-packs/evil-castle.md#tower-of-salvation), [Mirror Wars](../content-packs/mirror-wars.md), [Last Night](../content-packs/last-night.md) and [Golden Colosseum](../content-packs/gc.md)**.
+    The Toggle Potential feature **is not applicable in [Tower of Salvation](../content-packs/evil-castle.md#tower-of-salvation), [Mirror Wars](../content-packs/mirror-wars.md), [Last Night](../content-packs/last-night.md), and [Golden Colosseum](../content-packs/gc.md)**.
 
     It is designed to avoid incidents where additional effects such as **Barrier** may actually **harm** the Character instead of helping.
 ---
@@ -120,7 +120,7 @@ A disabled Potential will have a lock icon, indicating it is not used at the mom
 
 **TL;DR Priority List:**
 
-1.  **Buffers:** **SP Cost Reduction**, **Cooldown Reduction** are the highest priority, followed by **Duration Increase**, **[AoE](../misc/slang.md?term=AoE) Expansion** and regular Buff Increases.
+1.  **Buffers:** **SP Cost Reduction** and **Cooldown Reduction** are the highest priority, followed by **Duration Increase**, **[AoE](../misc/slang.md?term=AoE) Expansion**, and regular Buff Increases.
 
 2.  **DPS:** "Quality of Life" upgrades first (**SP Cost Reduction**, **Cooldown Reduction**, **AoE Expansion**). **<u>Do not target Damage nodes until you are done with most supports</u>**.
 
@@ -132,7 +132,7 @@ A disabled Potential will have a lock icon, indicating it is not used at the mom
 !!! tip "QoL Thing You Should Know #1" 
     You do not need to check every costume to check their Potential Liberation Status. Instead, you can check them freely in the Companion Tab or during Battle, when selecting the costume.
     ??? note "Image Guide"
-        ![Potential Liberaion Status Checks](../assets/images/potential-liberation/pots-shortcuts.avif)
+        ![Potential Liberation Status Checks](../assets/images/potential-liberation/pots-shortcuts.avif)
 
 !!! tip "QoL Thing You Should Know #2"
     You can also check the effect of all Potential Liberation Nodes at once. For that, go to the Growth Preview Tab, select the desired costume, and press the switch on the right.
