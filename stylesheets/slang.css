@@ -1,0 +1,263 @@
+.md-typeset ul.slang-list {
+    list-style-type: none !important;
+    padding-left: 0 !important;
+    margin-top: 15px;
+}
+
+.md-typeset .letter-heading {
+    color: var(--bd-accent-blue) !important;
+    border-bottom: 1px solid var(--bd-fill-15); 
+    padding-bottom: 8px;
+    margin-top: 40px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.md-typeset .slang-item {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--bd-fill-8);
+    border-radius: 0;
+    padding: 20px 0;
+    display: block;
+}
+
+.md-typeset .slang-item:last-child {
+    border-bottom: none;
+}
+
+.md-typeset .slang-item h3 {
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+    color: var(--bd-accent-blue) !important;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.md-typeset .slang-item p {
+    margin: 0;
+    line-height: 1.6;
+    color: var(--md-default-fg-color);
+}
+
+.md-typeset .alias-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.md-typeset .alias-tag {
+    background-color: rgba(175, 219, 245, 0.15);
+    color: var(--bd-accent-blue);
+    border: 1px solid rgba(175, 219, 245, 0.3);
+    border-radius: 12px;
+    padding: 3px 10px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.md-typeset .character-tag {
+    background-color: rgba(61, 200, 255, 0.752);
+    color: #000000;
+    border: 1px solid rgba(175, 219, 245, 0.3);
+}
+
+.md-typeset .game-tag {
+    background-color: rgba(255, 61, 61, 0.752);
+    color: #ffffff;
+    border: 1px solid rgba(175, 219, 245, 0.3);
+}
+
+.md-typeset .costume-tag {
+    background-color: rgba(0, 255, 174, 0.752);
+    color: #000000;
+    border: 1px solid rgba(175, 219, 245, 0.3);
+}
+
+.md-typeset .content-tag {
+    background-color: rgba(122, 255, 78, 0.752);
+    color: #000000;
+    border: 1px solid rgba(175, 219, 245, 0.3);
+}
+
+.md-typeset .resource-tag {
+    background-color: rgba(137, 255, 2, 0.752); 
+    color: #000000;
+    border: 1px solid rgba(137, 255, 2, 0.3);
+}
+
+.md-typeset .gear-tag {
+    background-color: rgba(120, 2, 255, 0.752); 
+    color: #ffffff;
+    border: 1px solid rgba(120, 2, 255, 0.2);
+}
+
+.md-typeset .miscellaneous-tag {
+    background-color: var(--bd-emphasis);
+    color: var(--md-default-bg-color);
+    border: 1px solid var(--bd-fill-15);
+}
+
+.md-typeset .rare-tag {
+    background-color: var(--bd-fill-5);
+    color: var(--bd-muted);
+    border: 1px dashed var(--bd-fill-15);
+}
+
+
+.slang-search-box {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--md-typeset-table-color);
+    background: var(--md-code-bg-color);
+    color: var(--md-typeset-color);
+    box-sizing: border-box;
+    font-size: 16px; 
+    transition: border-color 0.3s;
+}
+
+.slang-search-box:focus {
+    outline: none;
+    border-color: var(--accent)
+}   
+
+.alpha-group:not(:has(.slang-item)) {
+    display: none;
+}
+
+.md-typeset .slang-item {
+    transition: all 0.2s ease-in-out;
+    border-left: 3px solid transparent;
+}
+
+.md-typeset .slang-item.exact-match {
+    background-color: rgba(229, 181, 103, 0.08); 
+    border-left: 3px solid var(--bd-button) !important;   
+    border-bottom: 1px solid rgba(229, 181, 103, 0.2);
+    padding-left: 15px;
+}
+
+.md-typeset .slang-item.exact-match::before {
+    content: "EXACT MATCH";
+    display: block;
+    color: var(--bd-button);
+    font-size: 0.75em;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.quick-filters {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.quick-filters button {
+    background-color: var(--bd-fill-5);
+    color: var(--bd-muted);
+    border: 1px solid var(--bd-fill-10);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.quick-filters button:hover {
+    background-color: var(--bd-fill-15);
+    color: var(--bd-emphasis);
+}
+
+.quick-filters .clear-btn {
+    border-color: rgba(255, 77, 77, 0.3);
+}
+.quick-filters .clear-btn:hover {
+    background-color: rgba(255, 77, 77, 0.2);
+}
+
+.quick-filters button.active-filter {
+    background-color: var(--bd-emphasis) !important;
+    color: var(--md-default-bg-color) !important;
+    font-weight: bold;
+    border-color: var(--bd-emphasis);
+}
+
+.slang-counter {
+    font-size: 0.85em;
+    color: var(--bd-muted);
+    margin-bottom: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.cross-link {
+    color: var(--bd-button);
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 3px;
+    transition: color 0.2s;
+}
+
+.cross-link:hover {
+    color: var(--bd-emphasis);
+}
+
+[data-md-color-scheme="slate"] .cross-link:hover {
+    color: #ADD8E6;
+}
+
+
+.md-typeset a[href*="slang"][href*="?term="] {
+    color: var(--bd-button) !important;
+    cursor: pointer;
+    text-decoration: underline !important;
+    text-decoration-style: dotted !important;
+    text-underline-offset: 3px;
+    transition: color 0.2s;
+}
+
+.md-typeset a[href*="slang"][href*="?term="]:hover {
+    color: var(--bd-emphasis);
+}
+
+[data-md-color-scheme="slate"] .md-typeset a[href*="slang"][href*="?term="]:hover {
+    color: #ADD8E6 !important;
+}
+
+[data-md-color-scheme="slate"] .quick-filters button {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.7);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+[data-md-color-scheme="slate"] .quick-filters button:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .quick-filters button.active-filter {
+    background-color: var(--bd-accent-blue) !important;
+    color: #000000 !important;
+    border-color: var(--bd-accent-blue);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .rare-tag {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.45);
+    border: 1px dashed rgba(255, 255, 255, 0.2);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .slang-counter {
+    color: rgba(255, 255, 255, 1);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .miscellaneous-tag {
+    color: rgba(255, 255, 255, 1);
+}
