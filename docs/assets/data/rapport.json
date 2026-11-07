@@ -4006,6 +4006,343 @@
           "wrong": "Let's put a good-luck chain letter inside."
         }
       ]
+    },
+    {
+      "id": "night-of-betrayal-valze",
+      "costume": "Night of Betrayal Valze",
+      "character": "Valze",
+      "drinks": [
+        { "name": "Fragrant Whiskey", "icon": "assets/images/rapport/icons/icon_resource190004_398_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Valze speaks of her reign as the queen of Toire.",
+            "Toire was never this undisciplined under my rule. All kept their dignity.",
+            "Everything had been perfect, and yet—"
+          ],
+          "correct": "You can bring those days back.",
+          "wrong": "Returning things to the way they were won't be easy."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Valze stresses that for the nobility, nothing matters more than to maintain one's dignity.",
+            "We vampires value dignity as much as talent. For the highborn, even more so.",
+            "...Do you know why?"
+          ],
+          "correct": "It's a means of self-control.",
+          "wrong": "It's a means of displaying one's superior status."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "From what Valze describes, Toire's strength used to be in its diplomacy.",
+            "Toire's true weapon was diplomacy... and it was far more effective that way.",
+            "Only unparalleled insight can earn a kingdom such victories."
+          ],
+          "correct": "It must have come easy to you.",
+          "wrong": "Sounds tough, even for you."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Valze looks more tired than usual, as though she's been skipping meals lately.",
+            "Preparing for my return has kept me occupied. Sitting down for a proper meal has been... difficult.",
+            "If there's something quick and simple I can eat, that would suffice... Do you have anything in mind?"
+          ],
+          "correct": "Share a recipe for a quick meal",
+          "wrong": "Share a recipe for preserved food"
+        },
+        {
+          "n": 5,
+          "intro": [
+            "As Valze drinks and gazes up at the moon, a wistful sigh escapes her lips.",
+            "I once enjoyed socializing with the nobility. Light games, intellectual discourse...",
+            "You seem rather sociable yourself. Do you perhaps enjoy such pastimes as well?"
+          ],
+          "correct": "Love them.",
+          "wrong": "Only when I have to."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Valze seems to have taken a liking to the whiskey, savoring it slowly as she speaks.",
+            "I never imagined the surface would have spirits of such refinement. The aroma differs, but the taste is similar to Toire's blood wine.",
+            "It's a premium liquor distilled from blood. Does it interest you?"
+          ],
+          "correct": "I'd like to give it a taste.",
+          "wrong": "A blood drink sounds a bit unsettling."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Mid-conversation with Valze, my gaze drifts to her stark-white, pointed fangs without thinking.",
+            "I know what you're thinking. After all this time, does it bother you that I'm a vampire?",
+            "Humans have feared our kind since ancient times, terrified we would drink their blood in their sleep."
+          ],
+          "correct": "Not at all.",
+          "wrong": "I wouldn't mind if you drank my blood."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Slightly flushed with drink, Valze lets slip her thoughts on her younger sister.",
+            "Hergeia has no remarkable talent. Yet she presumes to be of use to me and goes stirring up trouble.",
+            "Always causing problems on the periphery... There's never a single day's peace."
+          ],
+          "correct": "You seem to care a lot about your sister.",
+          "wrong": "You seem annoyed by your sister."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Valze grumbles that she doesn't particularly care for the scythe she's been using.",
+            "I once wielded a weapon called the Bloodmoon Scythe. But it was taken from me by the enemy... Now I make do with this newly forged replacement.",
+            "It performs well enough, but for a perfect return to power, I must reclaim the original."
+          ],
+          "correct": "I know you'll get it back eventually.",
+          "wrong": "You should find a better weapon."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Valze seems troubled by the vampires absorbed in their games.",
+            "I've been gathering the vampires at the casino, but most of them try to play games every chance they get.",
+            "Even free of the fog's influence, they're still like this... I need to find a solution, and soon."
+          ],
+          "correct": "Suggest giving them work that feels rewarding",
+          "wrong": "Ban them from playing games"
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Something about Valze seems off today—she looks unusually somber.",
+            "The budget projections were off, and I only just noticed.",
+            "...No matter how I turn it over, the cause eludes me."
+          ],
+          "correct": "Try to set your emotions aside. Focus on the facts.",
+          "wrong": "Mistakes happen. Let it go."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Valze clenches her faintly trembling hand and asks...",
+            "Lately, whenever I attempt anything... this unease takes hold without warning.",
+            "If I could, I would resolve this by my own strength, but... I want to hear your thoughts."
+          ],
+          "correct": "Try to start small.",
+          "wrong": "Try to come up with a thorough plan before getting started on anything."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "I'm keeping Valze company when a sudden wave of distress crosses her face.",
+            "An unpleasant memory surged up without warning. That is all.",
+            "I thought I was starting to finally leave it behind..."
+          ],
+          "correct": "Focus on the physical sensations you feel right now.",
+          "wrong": "Think of a pleasant memory."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "I ask Valze what kind of difficulties she's been dealing with lately.",
+            "I'm planning to fight my enemy again... the one who defeated me.",
+            "But no matter how long I think on it... I cannot find a way to bring her down."
+          ],
+          "correct": "Break it down step by step.",
+          "wrong": "Give it everything you have. I know you can do it."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Valze seems intent on reclaiming the perfection she once possessed.",
+            "I still can't match the perfection I once had.",
+            "My former self... wouldn't have made a single mistake...!"
+          ],
+          "correct": "Think of the you who never made mistakes.",
+          "wrong": "Lack of skill doesn't seem to be the issue."
+        }
+      ]
+    },
+    {
+      "id": "maid-name-r-liatris",
+      "costume": "Maid Name R Liatris",
+      "character": "Liatris",
+      "drinks": [
+        { "name": "Cold Beer", "icon": "assets/images/rapport/icons/icon_resource190002_396_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Liatris takes a sip of her beer, then asks...",
+            "So I heard some of the newer recruits recently aced a mission by pretending to be sisters.",
+            "Which got me thinking... Say you're a spy, and you have to go on a mission with me as your partner...",
+            "What kind of roles would you want to play with me?"
+          ],
+          "correct": "A married couple.",
+          "wrong": "Siblings."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Liatris stares at me and asks...",
+            "You know how people sometimes tell white lies for someone else's sake?",
+            "Well, I still think lying is bad, no matter the circumstances...",
+            "What do you think?"
+          ],
+          "correct": "I'd never lie to you, Liatris.",
+          "wrong": "I'd tell a white lie, if it was for your sake."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Liatris fidgets with her shoulders as she asks...",
+            "Maybe it's because I've been working nonstop lately, but... my shoulders feel all knotted up...",
+            "If you've got a minute, could you maybe give me a little massage?"
+          ],
+          "correct": "Massage her shoulders as hard as I can",
+          "wrong": "Massage her shoulders, but not too hard"
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Liatris takes a sip of her beer, then asks...",
+            "So, I was reading this romance novel the other day where the heroine's a maid...",
+            "...and there's this scene where the male lead—a nobleman—tells her, \"Class doesn't matter to me. Marry me.\"",
+            "But then the maid goes, \"But milord, I'm just a maid!\"",
+            "If you were the male lead... what would you say to her next?"
+          ],
+          "correct": "All that matters is our love!",
+          "wrong": "How <i>dare</i> you talk back to me!"
+        },
+        {
+          "n": 5,
+          "intro": [
+            "Liatris flashes a playful smile and asks...",
+            "Say I became your very own maid for a day...",
+            "Is there anything in particular you'd want me to do?"
+          ],
+          "correct": "I'd leave everything to you.",
+          "wrong": "Not really."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Liatris strikes a seductive pose and asks...",
+            "The greatest weapon... for a spy with good looks... is seduction.",
+            "So if I tried to seduce you...",
+            "Well? Do you think you'd fall for it?"
+          ],
+          "correct": "Probably.",
+          "wrong": "It'll take more than a little seduction."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "Liatris hesitates for a moment, then asks...",
+            "The truth is... every time I've baked pastries for you, I've snuck a bite for a taste...",
+            "So, um... don't you think I've put on a little weight?"
+          ],
+          "correct": "You look the same.",
+          "wrong": "I can't really tell."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "After taking a sip of her beer, Liatris turns to me.",
+            "For a spy, composure is key—that ability to remain unshaken no matter the situation.",
+            "That's why I keep up my mental training every day.",
+            "That being said... why don't you say something to shake my composure?"
+          ],
+          "correct": "I love you, Liatris.",
+          "wrong": "Liatris... I have a son I haven't told you about."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Liatris stares at me and asks...",
+            "You know, now that I think about it, you're always so sweet to me.",
+            "Don't get me wrong, I love that about you... but it kinda makes me think you let your guard down way too easily.",
+            "Has it ever occurred to you that I might be a bad girl trying to take advantage of you?"
+          ],
+          "correct": "I'm fine with that as long as it's you.",
+          "wrong": "I already know you're a bad girl."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "Liatris holds out a piece of a pastry and asks...",
+            "This one's different from the others... Lia put extra love into this one!",
+            "Take a bite and tell me what it tastes like!",
+            "Here, open wide!",
+            "I pop the pastry into my mouth, and the sweet taste of chocolate melts across my tongue.",
+            "Well? How does it taste?"
+          ],
+          "correct": "It tastes sweet.",
+          "wrong": "It tastes like chocolate."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Liatris toys with a strand of her hair and asks...",
+            "I've been thinking about trying a new hairstyle for the first time in a while...",
+            "What kind of hairstyle do you think would look good on me?"
+          ],
+          "correct": "You should let your hair down.",
+          "wrong": "Your current hairstyle suits you just fine."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Liatris takes a sip of her beer, then asks...",
+            "So the other day, I was out shopping for clothes and stumbled across this cosplay shop...",
+            "I peeked inside and they had everything—cute outfits, sexy outfits, you name it!",
+            "Is there anything you'd want to see me in?"
+          ],
+          "correct": "Apron.",
+          "wrong": "Animal pajamas."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "Liatris takes a sip of her beer, then asks...",
+            "Every now and then, a spy hits a moment where she has to choose.",
+            "Follow headquarters' orders... or go with her own judgment on the mission.",
+            "Usually, following orders is the right call, but sometimes it's the spy's own judgment that allows her to pull off a mission.",
+            "So... if you were a spy in a situation like that...",
+            "...which would you pick?"
+          ],
+          "correct": "I would trust my own judgment.",
+          "wrong": "I would follow orders."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Liatris fiddles with her glass as she asks...",
+            "So as you know... when Lia gets hooked on something, she gets <i>obsessed</i>.",
+            "So what do you think about this side of me?"
+          ],
+          "correct": "Diving deep into something is a good thing.",
+          "wrong": "Too much of anything isn't good."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "A mischievous grin plays on Liatris's lips.",
+            "I know this is sudden, but... REFLEX TEST!",
+            "HIYAH!",
+            "Before she's even done talking, Liatris launches herself straight at me."
+          ],
+          "correct": "Catch her",
+          "wrong": "Dodge her"
+        }
+      ]
     }
   ]
 }
