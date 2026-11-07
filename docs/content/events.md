@@ -221,7 +221,7 @@ Each shop lasts for **28 days** instead of the usual 14, allowing you to spend w
     1.&nbsp;{{Tear_of_Goddess}} **Tear of Goddess x1**{.yellow} — 1000 **Event Currency**<br>
     2.&nbsp;{{Tear_of_Goddess}} **Tear of Goddess x1**{.yellow} — 2000 **Event Currency**<br>
     3.&nbsp;{{Tear_of_Goddess}} **Tear of Goddess x1**{.yellow} — 3000 **Event Currency**<br>
-    4.&nbsp;{{Spark_of_Rampage}} **Sparks of Rampage x30**{.yellow} — 600 **Event Currency**<br>
+    4.&nbsp;{{Spark_of_Rampage}} **Spark of Rampage x30**{.yellow} — 600 **Event Currency**<br>
     5.&nbsp;{{Draw_Ticket}} **Draw Ticket x15**{.yellow} — 6000 **Event Currency**
 
     ---

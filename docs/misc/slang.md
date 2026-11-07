@@ -438,7 +438,7 @@ icon: material/book-search
             <h3>Blade</h3>
             <div class="alias-container">
                 <span class="alias-tag character-tag ignore-exact">Character</span>
-                <span class="alias-tag">Blade</span>
+                <span class="alias-tag">Balde</span>
             </div>
             <p><a href="https://browndust2.miraheze.org/wiki/Blade">Blade</a> is a playable Darkness Character.</p>
         </li>
