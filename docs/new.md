@@ -151,14 +151,14 @@ Almost all content is divided into **Packs**. To switch the Packs, press the Car
 
 !!! image "Image Guide"
 
-    ![Switching Packs](assets/images/new-player-guide/pack-switch.avif)
+    ![Switching Packs](./assets/images/new-player-guide/pack-switch.avif)
 
 !!! warning "A Common Mistake"
 
     **Story** tab serves for an **Archive**, not progressing down the Story. You can read stuff from there, but it will not grant any progress.
 
     !!! image ""
-        ![Not Story tab](assets/images/new-player-guide/no-archive.avif)
+        ![Not Story tab](./assets/images/new-player-guide/no-archive.avif)
 
 ---
 
@@ -176,7 +176,7 @@ It is located in the top right corner of the Home Screen in the Pass tab. Additi
 
 There are a total of 2 Guide Passes, with 4 Steps for each.
 
-It is incredible powerful tool to learn the game. Follow tasks and try to remember things. 
+It is an incredibly powerful tool to learn the game. Follow tasks and try to remember things. 
 
 !!! warning "Common Pass Problems"
     * **Proceed with Hunting Grounds Battle...**{.yellow} — use a shortcut for Hunting Grounds, located near a minimap.
@@ -273,11 +273,11 @@ As a general rule,
 
 ## Teams
 
-Generally speaking, **there is no universal team for every content**. Broadly, it depends on **enemies**.
+Generally speaking, **there is no universal team for all content**. Broadly, it depends on **enemies**.
 
 However, for simplification, in a story you tend to run the same core stuff with some modifications.
 
-The general idea is **1-3 DPS**, with rest being **Supports**. **3 Supports** and **2 DPS** is author's preferred team composition for simple fights, although it can vary.
+The general idea is **1-3 DPS**, with the rest being **Supports**. **3 Supports** and **2 DPS** is the author's preferred team composition for simple fights, although it can vary.
 
 !!! warning "Avoid Mixing Physical & Magic Damage Types!"
     Keep your buffers and DPS within same damage type, unless you know what you are doing.
@@ -383,9 +383,9 @@ It serves as a **shortcut**, in which you do not have to manually do 6 fights in
 
 Gear is important to increase damage output and sustain of the Characters. Proper gear can increase your damage roughly up to tenfold, if not more.
 
-There are two main types of the Gear — **Offensive** and **Defensive**. For most of the Characters that rely on {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}, {{Weapon}} **Weapon**, {{Accessory}} **Accessory** and {{Gloves}} **Glove** are considered to be offensive ones. {{Armor}} **Armor** and {{Helmet}} **Helmet** for these Characters are considered to be a defensive ones.
+There are two main types of the Gear — **Offensive** and **Defensive**. For most of the Characters that rely on {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}, {{Weapon}} **Weapon**, {{Accessory}} **Accessory** and {{Gloves}} **Glove** are considered to be offensive ones. {{Armor}} **Armor** and {{Helmet}} **Helmet** for these Characters are considered to be defensive ones.
 
-Gear have different **Rarity** ({{N_Grade}} — {{UR_Grade}}), **Tier** (I — IV), **Upgrade Level** (+1 — +9), and **Refinement Score** (6 — 24). The higher the number everywhere, the better.
+Gear has different **Rarity** ({{N_Grade}} — {{UR_Grade}}), **Tier** (I — IV), **Upgrade Level** (+1 — +9), and **Refinement Score** (6 — 24). The higher the number everywhere, the better.
 
 To craft Gear, you need to upgrade the Crafting Ability first ([Fred](https://browndust2.miraheze.org/wiki/Fred) / [Layla](https://browndust2.miraheze.org/wiki/Layla)). To do that, you need to earn EXP and then update it. The EXP required is equivalent to at most 20-40 crafts of {{N_Grade}} gear for each level.
 

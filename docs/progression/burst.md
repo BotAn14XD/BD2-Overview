@@ -88,12 +88,12 @@ For each Costume, the **SP Cost** and **Effects** are different.
 
 If you upgraded your Burst, you can use that in your battle.
 
-When you choose the skill with upgraded Burst, you can press the little arrow to choose the Burst Tier, after which an animation and screen distortion will be visible for a brief period of time, indicating Burst has been activated.
+When you choose a skill with an upgraded Burst, you can press the little arrow to choose the Burst Tier, after which an animation and screen distortion will be visible for a brief period of time, indicating Burst has been activated.
 
 ??? image "Image Guide"
     ![Burst Switch](../assets/images/burst/switch_burst.avif)
 
-Additionally, active Burst will be displayed in their own Cards.
+Additionally, active Bursts will be displayed in their own Cards.
 
 ??? image "Image Demonstration"
     ![Burst Demonstration v2](../assets/images/burst/burst_active.avif)
@@ -103,7 +103,7 @@ Aside from the things mentioned above, the Skill Card will now have a light blue
 ??? image "Image Demonstration"
     ![Burst Demonstration](../assets/images/burst/burst_display.avif)
 
-When Burst is used directly, special pop-up appears for a brief moment as well.
+When Burst is used directly, a special pop-up appears for a brief moment as well.
 
 ??? image "Image Demonstration"
     ![Burst Banner Demonstration](../assets/images/burst/burst_banner.avif)
@@ -117,7 +117,7 @@ In the [Battle](../mechanics/battle.md), you can activate the **Auto Burst** but
 
 When active, Burst will be activated automatically; however, it will take **a lower priority** compared to Costume activation.
 
-That means if you do not have enough SP to activate Burst and Costume at the same time, Costume will be activated only.
+That means if you do not have enough SP to activate Burst and Costume at the same time, only the Costume will be activated.
 
 The [Auto Battle](../mechanics/battle.md#_5) feature enables Auto Burst automatically.
 
@@ -156,7 +156,7 @@ Costumes within each category are **not sorted** in priority, but rather **alpha
 
 When Bursts 2-3 are placed in a higher priority tier than Burst 1, it means Burst 1 provides a small benefit on its own. For these costumes, you should save your Sparks of Rampage and wait to upgrade until you can afford to unlock up to Burst 2 or 3 all at once.
 
-Priority list will also feature **Collaboration Costumes** priority, but since those use **Spark of Otherworld**, their bursts are displayed in **magenta**{.magenta} color, while regular Bursts are displayed in **yellow**{.yellow}.
+Priority list will also feature **Collaboration Costumes** priority, but since those use **Sparks of Otherworld**, their bursts are displayed in **magenta**{.magenta} color, while regular Bursts are displayed in **yellow**{.yellow}.
 
 === "Highest Priority"
     * **Adventurer of the Unknown Diana** **Bursts 1-3**{.yellow}
@@ -194,7 +194,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Beachside Justice Michaela** **Bursts 1**{.yellow}
     * **New Hire Nebris** **Bursts 1-2**{.yellow}
     * **Deadeye Nekyndalia** **Bursts 1-2**{.yellow}
-    * **Unraveling Mummy Nekyndalia** **Bursts 2,3**{.yellow}
+    * **Unraveling Mummy Nekyndalia** **Bursts 2-3**{.yellow}
     * **Lord of the Cosmos Ren Yamashiro** **Burst 1**{.magenta}
     * **Thorn of the Desert Rubia** **Bursts 1,3**{.yellow}
     * **Reclaimed Destiny Sacred Justia** **Burst 1**{.yellow}
