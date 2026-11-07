@@ -1305,7 +1305,7 @@
         "cooldownReduction"
       ],
       "chains": 0,
-      "orderPriority": 5,
+      "orderPriority": 10,
       "spCost": 5,
       "spBreak": { "1": 4 },
       "potentials": [{
@@ -3188,7 +3188,7 @@
         "conditionalDamage"
       ],
       "chains": 5,
-      "orderPriority": 5,
+      "orderPriority": 10,
       "spCost": 3,
       "spBreak": { "3": 2 }
     },
@@ -3561,6 +3561,25 @@
       "potentials": [{
         "id": "sp_break", "label": "SP -1", "spDelta": "-1"
       }]
+    },
+    {
+      "id": "night_of_betrayal_valze",
+      "character": "valze",
+      "name": "Night of Betrayal Valze",
+      "role": [
+        "DPS"
+      ],
+      "damageType": "magic",
+      "element": "dark",
+      "effects": [
+        "bigAOE",
+        "dot",
+        "Bleed",
+        "dotVulnerabilitySelf"
+      ],
+      "chains": 2,
+      "orderPriority": 10,
+      "spCost": 5
     },
     {
       "id": "dj_venaka",

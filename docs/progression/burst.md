@@ -203,6 +203,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Bikini Agent Sylvia** **Bursts 1,3**{.yellow}
     * **Ame-no-Mitori Tenka Izumo** **Burst 1**{.magenta}
     * **Starlight Guardian Tyr** **Bursts 1-2**{.yellow}
+    * **Night of Betrayal Valze** **Bursts 1-2**{.yellow}
     * **DJ Venaka** **Burst 1**{.yellow}
     * **Frozen Queen Wilhelmina** **Burst 1**{.yellow}
     * **Comeback Idol Yuri** **Bursts 1,3**{.yellow}
@@ -237,6 +238,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Bikini Agent Sylvia** **Burst 2**{.yellow}
     * **Ame-no-Mitori Tenka Izumo** **Bursts 2-3**{.magenta}
     * **Starlight Guardian Tyr** **Burst 3**{.yellow}
+    * **Night of Betrayal Valze** **Burst 3**{.yellow}
     * **DJ Venaka** **Bursts 2-3**{.yellow}
     * **Frozen Queen Wilhelmina** **Bursts 2-3**{.yellow}
     * **Comeback Idol Yuri** **Burst 2**{.yellow}

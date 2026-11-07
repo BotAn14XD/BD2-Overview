@@ -579,20 +579,6 @@ document.getElementById('save-btn').addEventListener('click', async () => {
   wrapper.appendChild(cardClone);
   document.body.appendChild(wrapper);
 
-  // html2canvas 1.4.1 predates the modern CSS Color 4 syntax that
-  // color-mix()-derived values can compute to (e.g. "rgb(91 140 255 / 0.16)"
-  // instead of the legacy "rgba(91, 140, 255, 0.16)"), and its color parser
-  // can choke on that silently. Several of the site's own theme tokens
-  // (--bd-muted, --bd-fill-*, --bd-hairline) are color-mix-based.
-  //
-  // Reading ctx.fillStyle back out is NOT a safe fix — that getter's
-  // serialization has evolved along with CSS Color 4 too, so it can hand
-  // back the same "color(...)" function syntax that broke html2canvas in
-  // the first place (confirmed: that's exactly what was happening here).
-  // Instead, actually paint the pixel and read its raw bytes back via
-  // getImageData, then build the rgba() string ourselves by hand. Byte
-  // values out of getImageData are always plain 0-255 integers — there's
-  // no color-function syntax anywhere in that path to go wrong.
   const normalizeCanvas = document.createElement('canvas');
   normalizeCanvas.width = normalizeCanvas.height = 1;
   const normalizeCtx = normalizeCanvas.getContext('2d');
