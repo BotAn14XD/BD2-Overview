@@ -57,7 +57,7 @@ Fiend Hunter Bosses have 5 different stages you can freely choose between in bot
 
 These stages are called **Easy**, **Normal**, **Hard**, **Very Hard** and **Challenge** difficulties.
 
-**Challenge** difficulty meant as purely damage contest for players to compete in, while rest difficulties provide rewards upon clear.
+**Challenge** difficulty is meant as a pure damage contest for players to compete in, while the rest of the difficulties provide rewards upon clear.
 
 <!--Fiend Hunter Bosses have 25 initial Levels you can freely choose between in both **Normal** and **Practice** Battles. However, after defeating Level 25, you will face Level 26 — meaning the Boss, in theory, has infinitely many Difficulty Levels.-->
 
@@ -73,7 +73,7 @@ Each Boss stat consists of 2 addends. They scale the same way, but use different
 
 Each addend has its own predetermined **Base Value**, **Linear Growth** and **Scale Growth** parameters for {{ HP }} **HP** and {{ATK}} **ATK**{.yellow} or {{MATK}} **MATK**{.magenta}.
 
-Addend scale from arbitrary parameter, which is represented by either Stage number (1 — 5), or specific Level value (from legacy Fiend Hunter system)
+Addends scale from an arbitrary parameter, which is represented by either a Stage number (1 — 5) or a specific Level value (from the legacy Fiend Hunter system).
 
 **Linear Growth** is responsible for scaling immediately, while **Scale Growth** has a much greater impact at higher difficulties.
 
@@ -83,7 +83,7 @@ Addend scale from arbitrary parameter, which is represented by either Stage numb
 
     * $\text{Base} \rightarrow \text{Base Value}$
     * $\text{Parameter}_1 \rightarrow \text{Number of the stage, 1 — 5}$
-    * $\text{Parameter}_2 \rightarrow \text{Arbitraty parameter, previously the Boss Level}$
+    * $\text{Parameter}_2 \rightarrow \text{Arbitrary parameter, previously the Boss Level}$
     * $\text{Rate} \rightarrow \text{Linear Growth Parameter}$
     * $\text{Slope} \rightarrow \text{Scale Growth Parameter}$
 
