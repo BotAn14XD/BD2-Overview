@@ -11,16 +11,16 @@ icon: material/calculator-variant
 # Fiend Hunter Calculator {: .sr-only }
 
 !!! info "Stages and Archive"
-    Fiend Hunter now uses **Stages** (Easy — Challenge) and is fought once per week. Bosses from before that update used Levels and daily attacks; their data is kept here as an archive, including the daily Threshold Damage. **From now on, the tool will serve as an archive of Bosses stats.**
+    Fiend Hunter now uses **Stages** (Easy — Challenge) and is fought once per week. Bosses from before that update used Levels and daily attacks; their data is kept here as an archive, including the daily Threshold Damage. **From now on, the tool will serve as an archive of Boss stats.**
 
-This is a calculator for [Fiend Hunter](../content/fh.md) Bosses stats.
+This is a calculator for [Fiend Hunter](../content/fh.md) Boss stats.
 
 Type the Boss name, [Season Event](../content/events.md) or Property to open the stats for a specific Boss.
 
 * **Stage Bosses** show a table with **Stage**, {{HP}} **HP** and {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} for each of the 5 Stages.
-* **Archived (Level) Bosses** show **Level**, {{HP}} **HP**, {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and the Daily Threshold Damage (the consistent score required each day from Day 1 to successfully defeat that level by the final day). Displayed Level amount can be changed, from 1 to 100 (default — 25).
+* **Archived (Level) Bosses** show **Level**, {{HP}} **HP**, {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and the Daily Threshold Damage (the consistent score required each day from Day 1 to successfully defeat that level by the final day). The displayed level range can be adjusted from 1 to 100 (default — 25).
 
-If you are looking for raw Fiend parameters instead, refer to [this data file](https://github.com/BotAn14XD/BD2-Overview/blob/main/docs/assets/data/fiend-hunter-bosses.json) instead.
+If you are looking for raw Fiend parameters, refer to [this data file](https://github.com/BotAn14XD/BD2-Overview/blob/main/docs/assets/data/fiend-hunter-bosses.json) instead.
 
 <div class="fh-calc">
 

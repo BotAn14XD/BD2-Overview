@@ -7,7 +7,7 @@
         * [Battle System](mechanics/battle.md)
         * [Damage Formula](mechanics/damage-formula.md)
         * [Gacha System](mechanics/gacha.md)
-    * Characters Progression
+    * Character Progression
         * [Burst System](progression/burst.md)
         * [Gear System](progression/gear.md)
         * [Potential Liberation](progression/potentials.md)
@@ -46,7 +46,7 @@
     * [Banner Recommendations](https://zormolo.github.io/BD2-Banner-Recommendation/)
     * [Our Discord Server](https://discord.gg/tays83ew3N)
     * [P2W Efficiency Spreadsheet](https://docs.google.com/spreadsheets/d/19X4TjCjyrl6XV1jCh6kRoChubKjL9xBZbfyh9SB2egg/edit)
-    * [Support Compendium](https://www.patreon.com/cw/BotAn14XD)
+    * [Support the Compendium](https://www.patreon.com/cw/BotAn14XD)
     * [Compendium Supporters](supporters.md)
 
 </div>

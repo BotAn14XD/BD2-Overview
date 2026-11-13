@@ -14,8 +14,8 @@ This checklist helps you track Brown Dust II **Daily**, **Weekly**, **Biweekly**
 
 Keep in mind that none of these tasks are **mandatory** — play at your own pace. Nonetheless, some tasks are divided into High and Low priority.
 
-* **High Priority** tasks usually have high resources gain with moderate amount of time spent.
-* **Low Priority** tasks that either require more effort or provide minor gains.
+* **High Priority** tasks usually have high resource gains with a moderate amount of time spent.
+* **Low Priority** tasks either require more effort or provide minor gains.
 
 Pick any tasks that match your schedule and playstyle.
 
