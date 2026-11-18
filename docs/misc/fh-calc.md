@@ -11,9 +11,9 @@ icon: material/calculator-variant
 # Fiend Hunter Calculator {: .sr-only }
 
 !!! info "Stages and Archive"
-    Fiend Hunter now uses **Stages** (Easy — Challenge) and is fought once per week. Bosses from before that update used Levels and daily attacks; their data is kept here as an archive, including the daily Threshold Damage. **From now on, the tool will serve as an archive of Boss stats.**
+    Fiend Hunter now uses **Stages** (Easy — Challenge) and is fought once per week. Bosses from before that update used Levels and daily attacks; their data is kept here as an archive, including the daily Threshold Damage. **From now on, the tool will serve as an archive of Bosses stats.**
 
-This is a calculator for [Fiend Hunter](../content/fh.md) Boss stats.
+This is a calculator for [Fiend Hunter](../content/fh.md) Bosses stats.
 
 Type the Boss name, [Season Event](../content/events.md) or Property to open the stats for a specific Boss.
 

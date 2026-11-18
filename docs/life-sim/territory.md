@@ -328,7 +328,7 @@ The table below displays the level, EXP required to reach it (from the previous 
             </tr>
         </tbody>
     </table>
-    </span>
+    </div>
 
 === "Mining"
 
@@ -405,7 +405,7 @@ The table below displays the level, EXP required to reach it (from the previous 
             </tr>
         </tbody>
     </table>
-    </span>
+    </div>
 
 === "Farming"
 
@@ -482,7 +482,7 @@ The table below displays the level, EXP required to reach it (from the previous 
             </tr>
         </tbody>
     </table>
-    </span>
+    </div>
 
 ---
 
@@ -578,13 +578,13 @@ There are a total of 3 stats: **Logging Skill**, **Mining Skill**, and **Farming
     <div style="display: flex; flex-direction: column; gap: 8px;">
         <span class="tooltip-line gray bold">
             Relevant Skill Used: <strong class="white stat-num" id="calc-active-skill">0</strong>
-        </span>
+        </div>
         <span class="tooltip-line gray bold">
             Damage Per Hit: <strong class="yellow stat-num" id="calc-dmg">0.00</strong>
-        </span>
+        </div>
         <span class="tooltip-line gray bold">
             Hits to Clear: <strong class="magenta stat-num" id="calc-hits" style="font-size: 1.2em;">0</strong>
-        </span>
+        </div>
     </div>
 </div>
 
