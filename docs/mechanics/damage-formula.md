@@ -802,7 +802,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
     !!! example "Overflow {{CritRate}} **Crit Rate** Conversion"
         When {{CritRate}} **Crit Rate**{.white} exceeds 100%, extra **Crit Rate**{.white} is converted to {{CritDMG}} **Crit Damage**{.white} at a ratio of 1:6.
 
-        Converted {{CritDMG}} **Crit Damage**{.white} this way **is not affected by Pressure** and is enviromental rule rather than direct buff.
+        Converted {{CritDMG}} **Crit Damage**{.white} this way **is not affected by Pressure** and is an environmental rule rather than a direct buff.
 
     ---
 
@@ -1098,7 +1098,7 @@ $\small\text{Damage} = \\\\ \text{\textcolor{ffe8aa}{ATK} [\textcolor{ffa6ff}{MA
 
     ---
 
-    **Chain Retention** is an effect that keeps set amount of Chains in-between Turns. If you reach more Chains than Retention can carry over, the maximum amount from Chain Retention will be carried over instead. 
+    **Chain Retention** is an effect that keeps a set amount of chains between turns. If you reach more chains than Retention can carry over, the maximum amount from Chain Retention will be carried over instead. 
 
     ---
 

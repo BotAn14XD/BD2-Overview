@@ -18,7 +18,7 @@ Last Night is a [PvE](../misc/slang.md?term=PvE) mode where you are tasked with 
 
 **Last Night** is unlocked upon clearing all **Mist Man** (Story Pack 3) Main Quests.
 
-In this mode, your team consists of **20 (twenty)** costumes instead of usual five.
+In this mode, your team consists of **20 (twenty)** costumes instead of the usual five.
 
 To access Last Night, select the corresponding **Combat Content Pack** from the list.
 
@@ -50,7 +50,7 @@ In Last Night, **Gear on Characters is saved separately from other content**, so
 
 ## Battle Specifics
 
-The Last Night battle is different from other fights in the game. Here, all your 20 Costumes activate their ability based on the order they were set in, after which the battle is over and you gain your damage result.
+The Last Night battle is different from other fights in the game. Here, all your 20 Costumes activate their abilities based on the order they were set in, after which the battle is over and you gain your damage result.
 
 * Costumes **do not use SP**. All skills are cost-free.
 
@@ -68,7 +68,7 @@ The Last Night battle is different from other fights in the game. Here, all your
 
 ## Support Bonus
 
-**Support Bonus** is an additional damage multiplier unique to the Last Night. It is affected by **all unused Costumes** in the **whole roster**.
+**Support Bonus** is an additional damage multiplier unique to Last Night. It is affected by **all unused Costumes** in the **whole roster**.
 
 You can check your Support Bonus in the Battle Menu.
 
@@ -115,7 +115,7 @@ A proper Last Night team can roughly be divided into three phases: **Supports (B
 !!! warning "Chainers — DPS edge"
     There is no major separation between Chainers and DPS in Last Night. This is mainly because Chainers still have *some* damage and they still contribute to the final score. Yet, you can roughly understand who should be the priority to set up the order.
 
-    Because each hit increases the damage of all subsequent attacks, prioritize high-hit-count skills earlier in the chain, reserving your massive single-hit multipliers for the final slots where the chain bonus is peaked.
+    Because each hit increases the damage of all subsequent attacks, prioritize high-hit-count skills earlier in the chain, reserving your massive single-hit multipliers for the final slots where the chain bonus peaks.
     
     This is not always the case, but it could guide you towards a better team composition.
 
@@ -126,7 +126,7 @@ A proper Last Night team can roughly be divided into three phases: **Supports (B
 
 ### Buffers
 
-Almost all Buffers are good for the Last Night. However, due to the Pressure effect, the most impactful Buffers are the ones that give Augmentation or any Non-Stat increase.
+Almost all Buffers are good for Last Night. However, due to the Pressure effect, the most impactful Buffers are the ones that give Augmentation or any Non-Stat increase.
 
 This mostly includes [Pure White Blessing Refithea](https://browndust2.miraheze.org/wiki/Refithea/Pure_White_Blessing), [Onsen Manager Liberta](https://browndust2.miraheze.org/wiki/Liberta/Onsen_Manager), [Shrine Maiden of Purification Granadair](https://browndust2.miraheze.org/wiki/Granadair/Shrine_Maiden_of_Purification) and [Sunny Inn Hand Helena](https://browndust2.miraheze.org/wiki/Helena/Sunny_Inn_Hand).
 
@@ -148,7 +148,7 @@ In the beginning, you can use essentially any units with high chain/hit count, e
 
 DPS Costumes that rely on {{HP}} **Enemy HP**, such as [Nature's Claw Rou](https://browndust2.miraheze.org/wiki/Rou/Nature%27s_Claw) or any [Angelica](https://browndust2.miraheze.org/wiki/Angelica)'s Costume, are quite powerful early on because of big scaling with no investment.
 
-Additionally, [Promise of Vengeance Lathel](https://browndust2.miraheze.org/wiki/Promise_of_Vengeance_Lathel) is also good DPS that you can get for free by completing **Story Pack 7 (Fury Angel)** on each difficulty.
+Additionally, [Promise of Vengeance Lathel](https://browndust2.miraheze.org/wiki/Promise_of_Vengeance_Lathel) is also a good DPS that you can get for free by completing **Story Pack 7 (Fury Angel)** on each difficulty.
 
 Worth noting that DPS that scale based on the number of enemies, such as [Reclaimed Destiny Sacred Justia](https://browndust2.miraheze.org/wiki/Reclaimed_Destiny_Sacred_Justia), perform worse, since essentially you hit only one tile.
 

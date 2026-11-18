@@ -932,13 +932,13 @@ The damage scales every 3 seconds upward according to the following logic:
 
 ## Strategy
 
-Current Season offer decent variety of builds you can run to clear the mode. 
+The current season offers a decent variety of builds you can run to clear the mode. 
 
 DPS that show themselves the best are **Liatris — Rodev's Star**, **Rubia — Thorn of the Desert** and **Blade — Apostle**.
 
-When in comes to Supports / Curse units, there are a lot of options, such as **Refithea — Pure While Blessing**, **Celia — The Curse**, **Levia — Overheat**, **Liberta — Onsen Manager**, **Palette — Shattered Dream** and more. 
+When it comes to Supports / Curse units, there are a lot of options, such as **Refithea — Pure White Blessing**, **Celia — The Curse**, **Levia — Overheat**, **Liberta — Onsen Manager**, **Palette — Shattered Dream** and more. 
 
-The goal is to stack huge amount of Debuffs, in particular {{Poison2}} **Poison**, while having moderate sustain to nullify enemy's incoming damage.
+The goal is to stack huge amounts of Debuffs, in particular {{Poison2}} **Poison**, while having moderate sustain to nullify incoming enemy damage.
 
 <!--Boards 1 — 3 don't require a specific strategy, since the enemy isn't that strong. As long as you build decent synergy within the team, it should work well.
 

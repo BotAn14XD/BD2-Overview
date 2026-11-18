@@ -199,7 +199,7 @@ Tower of Salvation is a **seasonal** roguelike game mode where you climb Floors 
 !!! info ""
     * <u>**Unlock requirement: Clear Story Pack 9 "Iron Mask" (Normal Difficulty)**</u>.
     * **Levels:** 10 Difficulties \[ 10-30 floors each \]
-    * **Season Duration:** 4 weeks with settlement period on last day (starting at {{ time('15:00') }}).
+    * **Season Duration:** 4 weeks with a settlement period on the last day (starting at {{ time('15:00') }}).
     * **Daily attempts:** 10 {{ Key_of_Salvation }} per day.
 
 Before starting your run, you're allowed to choose a difficulty and purchase some upgrades.<br>
@@ -372,8 +372,8 @@ During your climb, you need to choose the path which can consist of the followin
 
     * **5** ![Artifact Icon](../assets/images/evil-castle/ToS/icon_jar.avif){.icon} **Artifacts** of different rarities (usually, a higher chance of better ones the further you go).
         * Each artifact has a fixed price, and it does not depend on difficulty or floor you're on.
-    * **4 {{Costumes}} Costumes** of characters you own *(whenever it is possible)*.
-        * If it's not *(you own all costumes for all but 3 or fewer characters)*, new character costumes will be offered instead.
+    * **4 {{Costumes}} Costumes** of characters you own *(whenever possible)*.
+        * If not *(meaning you own all costumes for all but 3 or fewer characters)*, new character costumes will be offered instead.
     * **4 {{Costumes}} Costumes** of characters you **DO NOT** own.
     * **Ability to upgrade dupe of owned costumes** (1000 {{Lost_Silver}} per dupe of any character)
     * Ability to heal & revive your characters

@@ -25,7 +25,7 @@ To access the game mode, press the **Enter Guild Raid** button in the **Guild** 
 
 ## Guild Raid Schedule
 
-Guild Raid is a **seasonal** content that occurs **each 4 weeks** and lasts for **1 week**.
+Guild Raid is a **seasonal** content that occurs **every 4 weeks** and lasts for **1 week**.
 
 On the last day of Guild Raid, a Settlement Period starts at {{ time('15:00') }}, during which you cannot perform an attack on the Boss.
 
@@ -47,7 +47,7 @@ Alternatively, inspect the Boss to get the same information.
 
 ### Boss Levels
 
-Each Boss has **15 Levels**, with higher level being harder due to scaling {{ HP }} [**HP**{.white}](../misc/slang.md?term=Health) and {{ATK}} [**ATK**{.yellow}](../misc/slang.md?term=Attack) / {{MATK}} [**MATK**{.magenta}](../misc/slang.md?term=Magical Attack).
+Each Boss has **15 Levels**, with higher levels being harder due to scaling {{ HP }} [**HP**{.white}](../misc/slang.md?term=Health) and {{ATK}} [**ATK**{.yellow}](../misc/slang.md?term=Attack) / {{MATK}} [**MATK**{.magenta}](../misc/slang.md?term=Magical Attack).
 
 You can freely choose and attack any level since there is no penalty or limited number of attempts. Only the best attempt (highest successful level clear) is saved.
 

@@ -40,7 +40,7 @@ Therefore, you should **always** chop down only fully grown trees to obtain the 
 ??? example "Technical Details"
 
     * The Logging Site is a 3x3 field, resulting in a maximum of 9 trees.
-    * Whenever any tile is empty, the Logging Site will grow **one Stage 1** tree in **60 seconds**. Therefore, if you chop down all the trees, it will take 9 minutes to replenish them completely.
+    * Whenever any tile is empty, the Logging Site will grow **one Stage 1** tree every **60 seconds**. Therefore, if you chop down all the trees, it will take 9 minutes to replenish them completely.
     * A tree needs **120** seconds to grow into Stage 2 and **180** seconds to grow into Stage 3; therefore, it takes **5 minutes** to get a fully grown tree after it appears initially.
     * A tree's health determines how difficult it is to chop down, requiring a different number of hits depending on your progression.
 
@@ -255,7 +255,7 @@ The table below displays the level, EXP required to reach it (from the previous 
 
 === "Logging"
 
-    <span class="responsive-table-wrapper">
+    <div class="responsive-table-wrapper">
     <table class="data-table">
         <thead>
             <tr>
@@ -328,11 +328,11 @@ The table below displays the level, EXP required to reach it (from the previous 
             </tr>
         </tbody>
     </table>
-    </span>
+    </div>
 
 === "Mining"
 
-    <span class="responsive-table-wrapper">
+    <div class="responsive-table-wrapper">
     <table class="data-table">
         <thead>
             <tr>
@@ -405,11 +405,11 @@ The table below displays the level, EXP required to reach it (from the previous 
             </tr>
         </tbody>
     </table>
-    </span>
+    </div>
 
 === "Farming"
 
-    <span class="responsive-table-wrapper">
+    <div class="responsive-table-wrapper">
     <table class="data-table">
         <thead>
             <tr>
@@ -482,7 +482,7 @@ The table below displays the level, EXP required to reach it (from the previous 
             </tr>
         </tbody>
     </table>
-    </span>
+    </div>
 
 ---
 
@@ -578,13 +578,13 @@ There are a total of 3 stats: **Logging Skill**, **Mining Skill**, and **Farming
     <div style="display: flex; flex-direction: column; gap: 8px;">
         <span class="tooltip-line gray bold">
             Relevant Skill Used: <strong class="white stat-num" id="calc-active-skill">0</strong>
-        </span>
+        </div>
         <span class="tooltip-line gray bold">
             Damage Per Hit: <strong class="yellow stat-num" id="calc-dmg">0.00</strong>
-        </span>
+        </div>
         <span class="tooltip-line gray bold">
             Hits to Clear: <strong class="magenta stat-num" id="calc-hits" style="font-size: 1.2em;">0</strong>
-        </span>
+        </div>
     </div>
 </div>
 
@@ -871,9 +871,9 @@ You start with 9 unlocked regions and can expand up to 25 using the Territory Ph
         </tr>
     </tbody>
 </table>
-</span>
+</span> 
 
-The **order** in which you expand the Territory **does not matter**. This also provides no real gain except increased space for placement; therefore, expand only when you need more room or when you have good {{Local_Points}} **Local Points** income.
+The **order** in which you expand the Territory **does not matter**. This provides no real benefits other than increased placement space; therefore, only expand when you need more room or have sufficient {{Local_Points}} **Local Points**.
 
 ## Dishes
 

@@ -55,7 +55,7 @@ Brown Dust II relies on a simple draw system.
     In a vacuum, a lack of hard guarantee on featured units seems unforgiving. However, given the generous 3% base 5★ rate, steady {{Draw_Ticket}} Draw Ticket income, and manageable dupe scaling, the overall economy is **F2P-friendly**.
 
 !!! warning "To players from other gachas"
-    As was stated, in Brown Dust II, <u>**rates do not gradually ramp up**</u>. **"Soft pity" refers to the flat guaranteed 5★ at 100 pulls, while "Hard pity" refers to the 200-point spark exchange.**
+   As stated previously, in Brown Dust II, <u>**rates do not gradually ramp up**</u>. **"Soft pity" refers to the flat guaranteed 5★ at 100 pulls, while "Hard pity" refers to the 200-point spark exchange.**
 
     For more explanation, read the sections below.
 
@@ -392,7 +392,7 @@ These banners allow you to obtain a ★5 Costume from each Draw.
 
 !!! tip "Pulling Guide {{ share_btn('anni-banner') }}"
 
-    Since {{Third_Anniversary_S5_Costume_Draw_Ticket}} **★5 Costume Draw Tickets** are given on special occasions in **limited** quantities, and each new Banner uses different **Costume Tickets** (for example, 2nd Anniversary / 3rd Anniversary ones), **there is no point in saving these tickets**. Using them immediately is **strongly recommended**.
+    Since {{Third_Anniversary_S5_Costume_Draw_Ticket}} **★5 Costume Draw Tickets** are given on special occasions in **limited** quantities, and each new banner uses different **Costume Tickets** (for example, 2nd Anniversary or 3rd Anniversary ones), **saving these tickets serves no purpose**. Using them immediately is **strongly recommended**.
     
     Moreover, the more you hoard these tickets, the bigger the chance of them awarding you {{Golden_Thread}} **Golden Thread** instead of a Costume, which is worse for the account progression.
 
@@ -431,7 +431,7 @@ This banner allows you to select a Costume to draw, essentially creating a custo
 
     **Reasons why 12Pick is better than 1Pick:**
     
-    * 1Pick has **offrates**, which reduces the overall efficiency of the banner, while 12Pick only rolls off-rates when triggering the soft pity safety net.
+    * 1Pick has **off-rates**, which reduces the overall efficiency of the banner, whereas 12Pick only rolls off-rates when triggering the soft pity safety net.
     * 1Pick prioritizes fewer Costumes to pull, but in larger quantities (dupes). While it's not bad per se, Brown Dust II is still a **roster** game, and having multiple supports in a minimal "working" state is better compared to one overinvested support.
     * New players have worse game understanding even with guidance from different sources. That means it is easier to opt for questionable decisions. 
     * 12Pick, despite having no hard pity, still gives {{Powder_of_Hope}} **Powder of Hope**, which, in the long run, equals Costumes the same way 1Pick does.   
