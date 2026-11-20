@@ -441,7 +441,7 @@ Aside from filtering by the **slot** the gear is for, you can also use the **Fil
 * **Basic/Exclusive Attribute:** Filter for Basic or Exclusive Attribute, offering any of the possible stats to choose from.
 
 ### Sorting
-With the **Sorting** feature, you have the ability to sort the gear according to your preference. 
+With the **Sorting** feature, you have the ability to sort the gear according to your preference.
 Possible Sorting options:
 
 * By Highest / Lowest Grade.
@@ -675,13 +675,15 @@ For all of these types, the build you want is different.
     * **Stat-Dependent Supports** want the corresponding stat;
     * **Other Supports** are fine with whatever.
 
-    {{ATK}} **ATK%**{.yellow} and {{MATK}} **MATK%** are usually preferred over flat {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} stat gain, at least for Options.
-
     As for the split (ratio) of said Options, it's better to use the [Gear Calculator](#gear-calculator) **if you want the precise answer**.
 
-    **For {{Armor}} Armor**, you want to have two different types of sets: one stacked with {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} and another with all {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} substats. This way, you benefit way more from {{Physical}} **Physical** DPS wearing {{ gear("Invulnerable Armor") }} and {{ gear("Helm of Carnage") }}, while also giving some benefit to **Magical**{.magenta} DPS otherwise.
+    **For {{Armor}} Armor**, you want to have two different types of sets: one stacked with {{ATK}} **ATK(%)**{.yellow} / {{MATK}} **MATK(%)**{.magenta} and another with all {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} substats. This way, you benefit way more from {{Physical}} **Physical** DPS wearing {{ gear("Invulnerable Armor") }} and {{ gear("Helm of Carnage") }}, while also giving some benefit to **Magical**{.magenta} DPS otherwise.
     
-    As rough advice, getting {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} on {{Weapon}} **Weapon** and {{Gloves}} **Gloves** is a go-to (for Standard DPS), and filling the rest with either additional {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} or {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} isn't a bad choice.
+    As rough advice, getting {{ATK}} **ATK(%)**{.yellow} / {{MATK}} **MATK(%)**{.magenta} on {{Weapon}} **Weapon** and {{Gloves}} **Gloves** is a go-to (for Standard DPS), and filling the rest with either additional {{ATK}} **ATK(%)**{.yellow} / {{MATK}} **MATK(%)**{.magenta} or {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} isn't a bad choice.
+
+    ---
+
+    {{ATK}} **ATK%**{.yellow} and {{MATK}} **MATK%**{.magenta} are usually preferred over flat {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} stat gain, at least for Options. There are very rare cases that you also use flat stats, but they are extremely rare so it is not worth worrying about.
 
 ---
 
