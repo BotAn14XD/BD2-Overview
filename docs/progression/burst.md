@@ -183,6 +183,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Sealed Desires Aquila** **Bursts 1-2**{.yellow}
     * **Young Lady Blade** **Burst 1**{.yellow}
     * **Descendant of the Great Witch Celia** **Burst 2**{.yellow}
+    * **Bittersweet Bunny Darian** **Burst 3**{.yellow}
     * **Prophetic Dream Darian** **Burst 1**{.yellow}
     * **Beach Vacation Eclipse** **Bursts 1**{.yellow}
     * **Piercing Magic Bow Eleaneer** **Bursts 1-2**{.yellow}
@@ -190,6 +191,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Naive Lady Elise** **Burst 3**{.yellow}
     * **Sunny Inn Hand Helena** **Burst 3**{.yellow}
     * **Night of Jealousy Levia** **Burst 1**{.yellow}
+    * **Last Hope Loen** **Burst 1**{.yellow}
     * **Ocean Vanguard Luvencia** **Bursts 1**{.yellow}
     * **Beachside Justice Michaela** **Bursts 1**{.yellow}
     * **New Hire Nebris** **Bursts 1-2**{.yellow}
@@ -204,6 +206,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Ame-no-Mitori Tenka Izumo** **Burst 1**{.magenta}
     * **Starlight Guardian Tyr** **Bursts 1-2**{.yellow}
     * **Night of Betrayal Valze** **Bursts 1-2**{.yellow}
+    * **Cheers to Victory Venaka** **Bursts 1-3**{.yellow}
     * **DJ Venaka** **Burst 1**{.yellow}
     * **Frozen Queen Wilhelmina** **Burst 1**{.yellow}
     * **Comeback Idol Yuri** **Bursts 1,3**{.yellow}
@@ -215,12 +218,14 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Sealed Desires Aquila** **Burst 3**{.yellow}
     * **Young Lady Blade** **Bursts 2-3**{.yellow}
     * **Tricky Lover Dalvi** **Bursts 1-3**{.yellow}
+    * **Bittersweet Bunny Darian** **Bursts 1-2**{.yellow}
     * **Prophetic Dream Darian** **Bursts 2-3**{.yellow}
     * **Beach Vacation Eclipse** **Bursts 2-3**{.yellow}
     * **Code Name O Elise** **Bursts 2-3**{.yellow}
     * **Naive Lady Elise** **Bursts 1,2**{.yellow}
     * **Eternal Chains Kyouka Uzen** **Bursts 2-3**{.magenta}
     * **Night of Jealousy Levia** **Bursts 2-3**{.yellow}
+    * **Last Hope Loen** **Bursts 2-3**{.yellow}
     * **Ocean Vanguard Luvencia** **Bursts 2-3**{.yellow}
     * **Wild Dog Luvencia** **Bursts 1-3**{.yellow}
     * **Beachside Justice Michaela** **Bursts 2-3**{.yellow}

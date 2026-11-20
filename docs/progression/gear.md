@@ -668,12 +668,14 @@ For all of these types, the build you want is different.
 !!! question "What about Substats (Options)? Which do I want?"
     Generally speaking, it, again, depends on the type of character you're building.
 
-    * **Standard DPS** benefit mostly from {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta}, and {{CritDMG}} **Crit DMG**{.white} or {{CritRate}} **Crit Rate**{.white} as additional substats to balance out ratios;
-    * **Fixed Damage DPS** solely benefit from {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta};
+    * **Standard DPS** benefit mostly from {{ATK}} **ATK(%)**{.yellow} / {{MATK}} **MATK(%)**{.magenta}, and {{CritDMG}} **Crit DMG**{.white} or {{CritRate}} **Crit Rate**{.white} as additional substats to balance out ratios;
+    * **Fixed Damage DPS** solely benefit from {{ATK}} **ATK(%)**{.yellow} / {{MATK}} **MATK(%)**{.magenta};
     * **HP-reliant DPS** rely on mostly {{HP}} **HP** and {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} as secondary option;
     * **Enemy HP-reliant DPS** want only {{CritDMG}} **Crit DMG** or {{CritRate}} **Crit Rate**{.white};
     * **Stat-Dependent Supports** want the corresponding stat;
     * **Other Supports** are fine with whatever.
+
+    {{ATK}} **ATK%**{.yellow} and {{MATK}} **MATK%** are usually preferred over flat {{ATK}} **ATK**{.yellow} / {{MATK}} **MATK**{.magenta} stat gain, at least for Options.
 
     As for the split (ratio) of said Options, it's better to use the [Gear Calculator](#gear-calculator) **if you want the precise answer**.
 

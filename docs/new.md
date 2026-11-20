@@ -214,17 +214,15 @@ Guide Pass gives you **12** tickets. **Mega SALE!!! First Time Countdown Package
 Assuming you have no one, you should pick
     
 * **Adventurer of the Unknown Diana +2** (3 tickets)
-* **B-Rank Idol Helena +1** (2 tickets)
+* **B-Rank Idol Helena +3** (4 tickets)
 * **Homunculus Lathel +2** (3 tickets)
 * **New Hire Seir +0** (1 ticket)
-* **Track and Field Captain Levia +0** (1 ticket)
 * **Robin Hood Zenith +0** (1 ticket)
-* **Game Club Rafina +0** (1 ticket)
 
 Assuming you also bought **Mega SALE!!! First Time Countdown Package!**, your choice changes to:
 
 * **Adventurer of the Unknown Diana +4** (5 tickets)
-* **B-Rank Idol Helena +3** (4 tickets)
+* **B-Rank Idol Helena +5** (6 tickets)
 * **Homunculus Lathel +3** (4 tickets)
 * ...
 

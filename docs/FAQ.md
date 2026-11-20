@@ -59,13 +59,13 @@ icon: material/frequently-asked-questions
 
     * **Queen of Gluttis Granadair ({{Water}} Water)** (until +5)
     * **Shrine Maiden of Purification Granadair ({{Water}} Water)** (until +5)
-    * **Water Park Queen Wilhelmina ({{Water}} Water)** (until +4)
+    * **Heavenly Guardian Successor Glacia ({{Water}} Water)** (until +4)
     * **Homunculus Lathel ({{Fire}} Fire)** (until +5)
     * **Dark Saintess Liberta ({{Fire}} Fire)** (until +5)
     * **Onsen Manager Liberta ({{Fire}} Fire)** (until +5)
     * **Adventurer of the Unknown Diana ({{Wind}} Wind)** (until +5)
     * **Magical Innovator Diana ({{Wind}} Wind)** (until +0)
-    * **Robin Hood Zenith ({{Wind}} Wind)** (until +3 or +5)
+    * **Sunny Inn Hand Helena ({{Light}} Light)** (until +5)
     * **B-Rank Idol Helena ({{Light}} Light)** (until +5)
     * **Pure White Blessing Refithea ({{Light}} Light)** (until +1 or +5)
     * **Poolside Fairy Refithea ({{Light}} Light)** (until +3 or +5)
@@ -74,24 +74,30 @@ icon: material/frequently-asked-questions
 
     Keep in mind that for **Dark Saintess Liberta**, **Adventurer of the Unknown Diana** and **Queen of Gluttis Granadair** there is a Pub Recruitment; thus, if you haven't recruited them yet, remove at **+4** instead.
 
-    !!! image "Visual Costume Display"
-        ![12-Pick Recommendations](assets/images/faq/12-pick.avif)
+    !!! image "Visual Guide"
+        ![12-Pick Recommendations](assets/images/gacha/12-pick-advice.avif)
 
     ---
 
     If you need a replacement for some of the costumes listed above due to completion, pick the following:
     
-    * **Poolside Guardian Zenith ({{Wind}} Wind)** (until +5)
+    * **Water Park Queen Wilhelmina ({{Water}} Water)** (until +4)
+    * **Robin Hood Zenith ({{Wind}} Wind)** (until +3 or +5)
+    * **Unraveling Mummy Nekyndalia ({{Wind}})** (until +1)
     * **Iron Monarch Wilhelmina ({{Water}} Water)** (until +4)
-    * **Sunny Inn Hand Helena ({{Light}} Light)** (until +5)
-    * **Red Riding Hood Rou ({{Darkness}} Darkness)** (until +5)
-    * **Young Lady Blade ({{Darkness}} Darkness)** (until +5)
-    * **Medical Club Teresse ({{Water}} Water)** (until +5)
-    * **Shadowed Dream Sonya ({{Darkness}} Darkness)** (until +4 or +5)
+    * **Poolside Guardian Zenith ({{Wind}} Wind)** (until +5)
+    * **Magical Innovator Diana ({{Wind}} Wind)** (until +5)    
     * **Miracle Marine Mamonir ({{Water}} Water)** (until +5)
-    * **Heavenly Guardian Successor Glacia ({{Water}} Water)** (until +4)
-    * **New Hire Seir ({{Darkness}} Darkness)** (until +5)
     * **Shadowed Bunny Eleaneer ({{Darkness}} Darkness)** (until +4)
+    * **Red Riding Hood Rou ({{Darkness}} Darkness)** (until +5)
+    * **Medical Club Teresse ({{Water}} Water)** (until +5)
+    * **Young Lady Blade ({{Darkness}} Darkness)** (until +5)
+    * **Deadeye Nekyndalia ({{Wind}})** (until +1)
+    * **The Gluttonous Refithea ({{Light}})** (until +4 or +5)
+    * **Retired Legend Olivier ({{Light}})** (until +4)
+    * **Shadowed Dream Sonya ({{Darkness}} Darkness)** (until +4)
+    * **New Hire Seir ({{Darkness}} Darkness)** (until +5)
+
 
     By the time you need more replacements, better to ask for personal advice in the [Discord Server](https://discord.gg/pHtsuymd3c).
 
@@ -101,17 +107,15 @@ icon: material/frequently-asked-questions
     Assuming you have no one, you should pick
     
     * **Adventurer of the Unknown Diana +2** (3 tickets)
-    * **B-Rank Idol Helena +1** (2 tickets)
+    * **B-Rank Idol Helena +3** (4 tickets)
     * **Homunculus Lathel +2** (3 tickets)
     * **New Hire Seir +0** (1 ticket)
-    * **Track and Field Captain Levia +0** (1 ticket)
     * **Robin Hood Zenith +0** (1 ticket)
-    * **Game Club Rafina +0** (1 ticket)
 
     Assuming you also bought **Mega SALE!!! First Time Countdown Package!**, your choice changes to:
 
     * **Adventurer of the Unknown Diana +4** (5 tickets)
-    * **B-Rank Idol Helena +3** (4 tickets)
+    * **B-Rank Idol Helena +5** (6 tickets)
     * **Homunculus Lathel +3** (4 tickets)
     * ...
 
