@@ -254,7 +254,7 @@ This banner is available when you open the Gacha tab for the first time. This ba
 
     ---
 
-    **Do not worry if you selected someone else**. Your choice here will not make or break account progression. You will naturally acquire off-rate copies over time, and a single +0 copy has minimal impact on long-term viability.
+    **Do not worry if you selected someone else**. Your choice here will not make or break account progression. You will naturally acquire off-rate copies over time, and a single {{pl1}} copy has minimal impact on long-term viability.
 
 ---
 
@@ -480,34 +480,38 @@ It is NOT [12Pick Golden Hand Selective Draw](#12pick-golden-hand-selective-draw
 
     * **Queen of Gluttis Granadair ({{Water}} Water)** (until {{pl5}})
     * **Shrine Maiden of Purification Granadair ({{Water}} Water)** (until {{pl5}})
-    * **Water Park Queen Wilhelmina ({{Water}} Water)** (until {{pl4}})
+    * **Heavenly Guardian Successor Glacia ({{Water}} Water)** (until {{pl4}})
     * **Homunculus Lathel ({{Fire}} Fire)** (until {{pl5}})
     * **Dark Saintess Liberta ({{Fire}} Fire)** (until {{pl5}})
     * **Onsen Manager Liberta ({{Fire}} Fire)** (until {{pl5}})
     * **Adventurer of the Unknown Diana ({{Wind}} Wind)** (until {{pl5}})
-    * **Magical Innovator Diana ({{Wind}} Wind)** (until {{pl0}})
-    * **Robin Hood Zenith ({{Wind}} Wind)** (until {{pl3}} or {{pl5}})
+    * **Magical Innovator Diana ({{Wind}} Wind)** (until {{pl1}})
+    * **Sunny Inn Hand Helena ({{Light}} Light)** (until {{pl5}})
     * **B-Rank Idol Helena ({{Light}} Light)** (until {{pl5}})
     * **Pure White Blessing Refithea ({{Light}} Light)** (until {{pl1}} or {{pl5}})
     * **Poolside Fairy Refithea ({{Light}} Light)** (until {{pl3}} or {{pl5}})
 
-    !!! image "Visual Costume Display"
-        ![12-Pick Recommendations](../assets/images/faq/12-pick.avif)
+    !!! image "Visual Guide"
+        ![12-Pick Recommendations](../assets/images/gacha/12-pick-advice.avif)
 
     Once you have upgraded any primary targets to their recommended breakpoints, you can swap those with the following instead:
 
-    * **Poolside Guardian Zenith ({{Wind}} Wind)** (until {{pl5}})
+    * **Water Park Queen Wilhelmina ({{Water}} Water)** (until {{pl4}})
+    * **Robin Hood Zenith ({{Wind}} Wind)** (until {{pl3}} or {{pl5}})
+    * **Unraveling Mummy Nekyndalia ({{Wind}})** (until {{pl1}})
     * **Iron Monarch Wilhelmina ({{Water}} Water)** (until {{pl4}})
-    * **Sunny Inn Hand Helena ({{Light}} Light)** (until {{pl5}})
-    * **Red Riding Hood Rou ({{Darkness}} Darkness)** (until {{pl5}})
-    * **Young Lady Blade ({{Darkness}} Darkness)** (until {{pl5}})
-    * **Medical Club Teresse ({{Water}} Water)** (until {{pl5}})
-    * **Shadowed Dream Sonya ({{Darkness}} Darkness)** (until {{pl4}} or {{pl5}})
+    * **Poolside Guardian Zenith ({{Wind}} Wind)** (until {{pl5}})
+    * **Magical Innovator Diana ({{Wind}} Wind)** (until {{pl5}})    
     * **Miracle Marine Mamonir ({{Water}} Water)** (until {{pl5}})
-    * **Heavenly Guardian Successor Glacia ({{Water}} Water)** (until {{pl4}})
-    * **New Hire Seir ({{Darkness}} Darkness)** (until {{pl5}})
     * **Shadowed Bunny Eleaneer ({{Darkness}} Darkness)** (until {{pl4}})
-    * **Retired Legend Olivier ({{Light}} Light)** (until {{pl4}})
+    * **Red Riding Hood Rou ({{Darkness}} Darkness)** (until {{pl5}})
+    * **Medical Club Teresse ({{Water}} Water)** (until {{pl5}})
+    * **Young Lady Blade ({{Darkness}} Darkness)** (until {{pl5}})
+    * **Deadeye Nekyndalia ({{Wind}})** (until {{pl1}})
+    * **The Gluttonous Refithea ({{Light}})** (until {{pl4}} or {{pl5}})
+    * **Retired Legend Olivier ({{Light}})** (until {{pl4}})
+    * **Shadowed Dream Sonya ({{Darkness}} Darkness)** (until {{pl4}})
+    * **New Hire Seir ({{Darkness}} Darkness)** (until {{pl5}})
 
     By the time you need a replacement for replacements, you should be able to understand the game slightly more to make your own choices. If you still struggle with that, do not hesitate to ask in the [Discord Server](https://discord.gg/tays83ew3N).
 
@@ -535,7 +539,7 @@ This banner allows you to select a specific **Property (Element)** and guarantee
 
     Later on, focus on the Property that you have weaker supports in. 
 
-    Even later on, when you have most of the units at {{pl5}}, focus on the Property that minimizes your chances of rolling excess +5 duplicates (converting into {{Golden_Thread}} **Golden Thread**), even if it means picking up units with barely any usage.
+    Even later on, when you have most of the units at {{pl5}}, focus on the Property that minimizes your chances of rolling excess {{pl5}} duplicates (converting into {{Golden_Thread}} **Golden Thread**), even if it means picking up units with barely any usage.
 
 ---
 

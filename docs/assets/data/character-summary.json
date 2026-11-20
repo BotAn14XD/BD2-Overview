@@ -3589,7 +3589,7 @@
         "DPS",
         "debuffer"
       ],
-      "damageType": "magic",
+      "damageType": "null",
       "element": "wind",
       "effects": [
         "mediumAOE",
@@ -3601,6 +3601,28 @@
       "spBreak": { "1": 3 },
       "potentials": [{
         "id": "range_up", "label": "Range Up", "addEffects": ["bigAOE"], "removeEffects": ["mediumAOE"],"icon":"range2_4"
+      }]
+    },
+    {
+      "id": "cheers_to_victory_venaka",
+      "character": "venaka",
+      "name": "Cheers to Victory Venaka",
+      "role": [
+        "buffer",
+        "support"
+      ],
+      "damageType": "magic",
+      "element": "wind",
+      "effects": [
+        "spRegen",
+        "spCostReductionSelf"
+      ],
+      "chains": 0,
+      "orderPriority": 0,
+      "spCost": 5,
+      "spBreak": { "1": 4 },
+      "potentials": [{
+        "id": "sp_break", "label": "SP -1", "spDelta": "-1"
       }]
     },
     {

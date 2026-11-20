@@ -930,6 +930,11 @@
     "torso": "illust_inven_char067201_129"
   },
   {
+    "id":"cheers_to_victory_venaka",
+    "name": "Cheers to Victory Venaka",
+    "torso": "illust_inven_char067203_230"
+  },
+  {
     "id": "wind_dancer_venaka",
     "name": "Wind Dancer Venaka",
     "torso": "illust_inven_char067202_147"

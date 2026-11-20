@@ -4343,6 +4343,168 @@
           "wrong": "Dodge her"
         }
       ]
+    },
+    {
+      "id": "cheers-to-victory-venaka",
+      "costume": "Cheers to Victory Venaka",
+      "character": "Venaka",
+      "drinks": [
+        { "name": "Cold Beer", "icon": "assets/images/rapport/icons/icon_resource190002_396_3.avif" },
+        { "name": "Special Drink", "icon": "assets/images/rapport/icons/icon_resource190007_401_2.avif"}
+      ],
+      "encounters": [
+        {
+          "n": 1,
+          "intro": [
+            "Venaka beams as she admits that cheerleading is a lot more fun than she expected.",
+            "In a way, cheerleading isn't that different from DJing or hosting events. You're still there to get the crowd fired up.",
+            "Once the stands really get going, it feels like one huge party. That's when the real fun starts!"
+          ],
+          "correct": "It sounds like the perfect job for you.",
+          "wrong": "Cheering in front of everyone sounds exhausting."
+        },
+        {
+          "n": 2,
+          "intro": [
+            "Venaka insists that upbeat music and flashy dancing alone aren't enough to get a crowd truly invested.",
+            "If you want everyone cheering at the top of their lungs, you need to create an atmosphere where people feel free to let all that emotion out.",
+            "What do you think is the best way to do that, Master?"
+          ],
+          "correct": "Cheer like you truly care about the team.",
+          "wrong": "Cheer in a flashy way to grab everyone's attention."
+        },
+        {
+          "n": 3,
+          "intro": [
+            "Venaka recommends watching sports in person, saying that's where the real fun is.",
+            "You can watch games through all kinds of media now, but nothing compares to actually being there in the stadium.",
+            "Do you go to games in person often, Master?"
+          ],
+          "correct": "Pretty often.",
+          "wrong": "I'm usually too busy with work."
+        },
+        {
+          "n": 4,
+          "intro": [
+            "Venaka hums one of her baseball team's fight songs as she sips her beer.",
+            "Fight songs can be surprisingly catchy. I catch myself humming them without even realizing it.",
+            "I'm not even sure why they leave such a strong impression on me, though."
+          ],
+          "correct": "Maybe they remind you how much fun it is to cheer.",
+          "wrong": "Maybe it's just a really good song."
+        },
+        {
+          "n": 5,
+          "intro": [
+            "As we talk, my attention drifts to Venaka's cheerleading outfit.",
+            "The baseball team I'm working part-time for gave me this for the job. It's light, breathable, and perfect for cheering.",
+            "What do you think, Master? The way it moves is pretty cute, isn't it?"
+          ],
+          "correct": "You definitely look the part.",
+          "wrong": "It doesn't look very warm."
+        },
+        {
+          "n": 6,
+          "intro": [
+            "Venaka and I chat about the kinds of snacks people like to eat while watching sports.",
+            "Stadiums have all kinds of food, and somehow everything tastes better when you eat while watching a game.",
+            "I always grab something whenever I go to a game on my day off too... Want to guess what I usually get?"
+          ],
+          "correct": "Freshly fried chicken and beer.",
+          "wrong": "Meat you can grill while watching the game."
+        },
+        {
+          "n": 7,
+          "intro": [
+            "I ask Venaka how she manages to make every cheer performance such a success.",
+            "There's no special trick to it. You just have to get the crowd to pour all their energy into cheering.",
+            "You know what that takes, don't you, Master?"
+          ],
+          "correct": "Passion.",
+          "wrong": "Perfectly synchronized choreography."
+        },
+        {
+          "n": 8,
+          "intro": [
+            "Venaka mentions that some people come to the stadium more for the cheerleaders than the game itself.",
+            "Popular cheerleaders can build fanbases just like athletes. Some people even come to the stadium mainly to watch the cheer performances.",
+            "I'm happy people enjoy watching me, of course... but I do worry they might end up paying less attention to the actual game."
+          ],
+          "correct": "Cheerleaders are part of the game-day experience too.",
+          "wrong": "Maybe it's not good to stand out too much."
+        },
+        {
+          "n": 9,
+          "intro": [
+            "Venaka explains how she gets the crowd to really let loose.",
+            "If you want people cheering with everything they've got, sometimes you have to give them a little push. Like when a game reaches a crucial moment, I'll shout...",
+            "Everybody, shout it out! Let's hear that victory chant! From the gut, as loud as you can! Sing the fight song!",
+            "...Or something like that."
+          ],
+          "correct": "I can see that working pretty well.",
+          "wrong": "That's a little intense."
+        },
+        {
+          "n": 10,
+          "intro": [
+            "It seems Venaka has started taking dance lessons seriously to help with her cheerleading.",
+            "I've been learning all kinds of choreography at a dance studio for a few hours every day lately.",
+            "The problem is, I can't decide what kind of dance I should focus on if I want it to help with cheerleading."
+          ],
+          "correct": "Something big and powerful.",
+          "wrong": "Something delicate and graceful."
+        },
+        {
+          "n": 11,
+          "intro": [
+            "Venaka seems discouraged by how many fans have become obsessed with winning and losing.",
+            "When a game isn't going well, I keep seeing people throw things at the players or leave before it's even over.",
+            "I understand being upset when the team you're rooting for is losing... but isn't that exactly when fans need to remember how to support them?"
+          ],
+          "correct": "Maybe they've forgotten what cheering is supposed to be about.",
+          "wrong": "Sports are only fun when your team wins."
+        },
+        {
+          "n": 12,
+          "intro": [
+            "Venaka sits quietly in thought for a while, then clears her throat and turns to me.",
+            "Sometimes, no matter how hard I try to get the crowd going, there are still people who just don't want to join in.",
+            "Do you think there's any way to get those people excited enough to cheer too?"
+          ],
+          "correct": "Offer prizes to encourage them to join in on their own.",
+          "wrong": "Call those people out and make them join in."
+        },
+        {
+          "n": 13,
+          "intro": [
+            "I ask Venaka whether there's anything she dislikes about working as a cheerleader.",
+            "I wouldn't exactly call it a complaint... but I don't like how quiet the stands feel after a game ends.",
+            "Maybe it's because they were so full of energy only moments before, but the silence afterward feels even lonelier."
+          ],
+          "correct": "Things have to cool down before they can heat up again.",
+          "wrong": "Every game has to end eventually."
+        },
+        {
+          "n": 14,
+          "intro": [
+            "Venaka admits she's been getting a little worried about how carried away she gets when trying to fire up the crowd.",
+            "When I get too focused on getting everyone excited, I sometimes end up going a bit overboard myself.",
+            "It hasn't caused any real problems yet... but I'm worried I might make a serious mistake one day."
+          ],
+          "correct": "Cheering should come from the heart.",
+          "wrong": "Be careful not to let your emotions carry you away."
+        },
+        {
+          "n": 15,
+          "intro": [
+            "Venaka seems a little uncomfortable with the nickname people have started giving her.",
+            "People in the baseball world have started calling me the \"Legendary Freelance Cheer Captain\"... but honestly, I still have a lot to learn compared to professional cheerleaders.",
+            "Sometimes I wonder whether I can really keep doing this..."
+          ],
+          "correct": "As long as you have the passion, you'll be fine.",
+          "wrong": "It's only a part-time job. Don't put so much pressure on yourself."
+        }
+      ]
     }
   ]
 }

@@ -2082,8 +2082,8 @@
     "seasonEvent": "Blood Royale",
     "name": "Complex (Light)",
     "property": "Light",
-    "id": "9227",
-    "defaultCostumeID": "922700",
+    "id": "9277",
+    "defaultCostumeID": "927703",
     "dateStart": "2026-11-12",
     "dateEnd": "2026-11-18",
     "HP": {
@@ -2124,6 +2124,59 @@
         "slope": "2.9"
       },
       "MATK": {
+        "base": "100",
+        "rate": "3",
+        "slope": "1.5"
+      }
+    }
+  },
+  {
+    "season": "84",
+    "seasonEvent": "Cheer On!",
+    "name": "Baspis",
+    "property": "Wind",
+    "id": "9278",
+    "defaultCostumeID": "927800",
+    "dateStart": "2026-11-26",
+    "dateEnd": "2026-12-02",
+    "HP": {
+      "base": "10000",
+      "rate": "1",
+      "slope": "1.00"
+    },
+    "ATK": {
+      "base": "100",
+      "rate": "1",
+      "slope": "1"
+    },
+    "stages": {
+      "easy": {
+        "skipATKParamAddend": "TRUE",
+        "param": "2"
+      },
+      "normal": {
+        "param": "4"
+      },
+      "hard": {
+        "param": "7"
+      },
+      "veryHard": {
+        "param": "13"
+      },
+      "challenge": {
+        "flat": {
+          "HP": "9000000000000",
+          "ATK": "5000"
+        }
+      }
+    },
+    "paramAddend": {
+      "HP": {
+        "base": "2880",
+        "rate": "4000",
+        "slope": "2.9"
+      },
+      "ATK": {
         "base": "100",
         "rate": "3",
         "slope": "1.5"
