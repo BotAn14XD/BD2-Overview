@@ -211,7 +211,7 @@ To use tickets, head to the bag and press corresponding button.
 
 Guide Pass gives you **12** tickets. **Mega SALE!!! First Time Countdown Package!** (Paid Package) gives another 5. Occasional other Paid Packages can give you 3 tickets as well.
 
-Assuming you have no one, you should pick
+Assuming you have no one, you should pick:
     
 * **Adventurer of the Unknown Diana +2** (3 tickets)
 * **B-Rank Idol Helena +3** (4 tickets)

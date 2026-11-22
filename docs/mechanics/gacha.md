@@ -254,7 +254,7 @@ This banner is available when you open the Gacha tab for the first time. This ba
 
     ---
 
-    **Do not worry if you selected someone else**. Your choice here will not make or break account progression. You will naturally acquire off-rate copies over time, and a single {{pl1}} copy has minimal impact on long-term viability.
+    **Do not worry if you selected someone else.** Your choice here will not make or break account progression. You will naturally acquire off-rate copies over time, and a single {{pl1}} copy has minimal impact on long-term viability.
 
 ---
 
@@ -497,19 +497,19 @@ It is NOT [12Pick Golden Hand Selective Draw](#12pick-golden-hand-selective-draw
     Once you have upgraded any primary targets to their recommended breakpoints, you can swap those with the following instead:
 
     * **Water Park Queen Wilhelmina ({{Water}} Water)** (until {{pl4}})
-    * **Robin Hood Zenith ({{Wind}} Wind)** (until {{pl3}} or {{pl5}})
-    * **Unraveling Mummy Nekyndalia ({{Wind}})** (until {{pl1}})
     * **Iron Monarch Wilhelmina ({{Water}} Water)** (until {{pl4}})
+    * **Robin Hood Zenith ({{Wind}} Wind)** (until {{pl3}} or {{pl5}})
     * **Poolside Guardian Zenith ({{Wind}} Wind)** (until {{pl5}})
+    * **Unraveling Mummy Nekyndalia ({{Wind}} Wind)** (until {{pl1}})
+    * **Deadeye Nekyndalia ({{Wind}} Wind)** (until {{pl1}})
     * **Magical Innovator Diana ({{Wind}} Wind)** (until {{pl5}})    
     * **Miracle Marine Mamonir ({{Water}} Water)** (until {{pl5}})
     * **Shadowed Bunny Eleaneer ({{Darkness}} Darkness)** (until {{pl4}})
     * **Red Riding Hood Rou ({{Darkness}} Darkness)** (until {{pl5}})
     * **Medical Club Teresse ({{Water}} Water)** (until {{pl5}})
     * **Young Lady Blade ({{Darkness}} Darkness)** (until {{pl5}})
-    * **Deadeye Nekyndalia ({{Wind}})** (until {{pl1}})
-    * **The Gluttonous Refithea ({{Light}})** (until {{pl4}} or {{pl5}})
-    * **Retired Legend Olivier ({{Light}})** (until {{pl4}})
+    * **The Gluttonous Refithea ({{Light}} Light)** (until {{pl4}} or {{pl5}})
+    * **Retired Legend Olivier ({{Light}} Light)** (until {{pl4}})
     * **Shadowed Dream Sonya ({{Darkness}} Darkness)** (until {{pl4}})
     * **New Hire Seir ({{Darkness}} Darkness)** (until {{pl5}})
 
@@ -537,7 +537,7 @@ This banner allows you to select a specific **Property (Element)** and guarantee
 
     At the beginning you can focus on getting decent upgrade level for [Refithea](https://browndust2.miraheze.org/wiki/Refithea)'s and [Helena](https://browndust2.miraheze.org/wiki/Helena)'s Costumes ({{Light}} **Light**), but, generally speaking, any Property is decent to pick. 
 
-    Later on, focus on the Property that you have weaker supports in. 
+    Later on, focus on the Property that you have weaker supports in.
 
     Even later on, when you have most of the units at {{pl5}}, focus on the Property that minimizes your chances of rolling excess {{pl5}} duplicates (converting into {{Golden_Thread}} **Golden Thread**), even if it means picking up units with barely any usage.
 

@@ -185,31 +185,31 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Descendant of the Great Witch Celia** **Burst 2**{.yellow}
     * **Bittersweet Bunny Darian** **Burst 3**{.yellow}
     * **Prophetic Dream Darian** **Burst 1**{.yellow}
-    * **Beach Vacation Eclipse** **Bursts 1**{.yellow}
+    * **Beach Vacation Eclipse** **Burst 1**{.yellow}
     * **Piercing Magic Bow Eleaneer** **Bursts 1-2**{.yellow}
     * **Code Name O Elise** **Burst 1**{.yellow}
     * **Naive Lady Elise** **Burst 3**{.yellow}
     * **Sunny Inn Hand Helena** **Burst 3**{.yellow}
     * **Night of Jealousy Levia** **Burst 1**{.yellow}
     * **Last Hope Loen** **Burst 1**{.yellow}
-    * **Ocean Vanguard Luvencia** **Bursts 1**{.yellow}
+    * **Ocean Vanguard Luvencia** **Burst 1**{.yellow}
     * **Beachside Justice Michaela** **Bursts 1**{.yellow}
     * **New Hire Nebris** **Bursts 1-2**{.yellow}
     * **Deadeye Nekyndalia** **Bursts 1-2**{.yellow}
     * **Unraveling Mummy Nekyndalia** **Bursts 2-3**{.yellow}
     * **Lord of the Cosmos Ren Yamashiro** **Burst 1**{.magenta}
-    * **Thorn of the Desert Rubia** **Bursts 1,3**{.yellow}
+    * **Thorn of the Desert Rubia** **Bursts 1-3**{.yellow}
     * **Reclaimed Destiny Sacred Justia** **Burst 1**{.yellow}
     * **Magical Violet Palette** **Burst 1**{.yellow}
-    * **Pool Party Scheherazade** **Bursts 1,3**{.yellow}
-    * **Bikini Agent Sylvia** **Bursts 1,3**{.yellow}
+    * **Pool Party Scheherazade** **Bursts 1-3**{.yellow}
+    * **Bikini Agent Sylvia** **Bursts 1-3**{.yellow}
     * **Ame-no-Mitori Tenka Izumo** **Burst 1**{.magenta}
     * **Starlight Guardian Tyr** **Bursts 1-2**{.yellow}
     * **Night of Betrayal Valze** **Bursts 1-2**{.yellow}
     * **Cheers to Victory Venaka** **Bursts 1-3**{.yellow}
     * **DJ Venaka** **Burst 1**{.yellow}
     * **Frozen Queen Wilhelmina** **Burst 1**{.yellow}
-    * **Comeback Idol Yuri** **Bursts 1,3**{.yellow}
+    * **Comeback Idol Yuri** **Bursts 1-3**{.yellow}
 
 === "Low Priority"
     * **Fire Graffiti Anastasia** **Bursts 1-2**{.yellow}
@@ -222,7 +222,7 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Prophetic Dream Darian** **Bursts 2-3**{.yellow}
     * **Beach Vacation Eclipse** **Bursts 2-3**{.yellow}
     * **Code Name O Elise** **Bursts 2-3**{.yellow}
-    * **Naive Lady Elise** **Bursts 1,2**{.yellow}
+    * **Naive Lady Elise** **Bursts 1-2**{.yellow}
     * **Eternal Chains Kyouka Uzen** **Bursts 2-3**{.magenta}
     * **Night of Jealousy Levia** **Bursts 2-3**{.yellow}
     * **Last Hope Loen** **Bursts 2-3**{.yellow}
