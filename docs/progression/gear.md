@@ -670,14 +670,14 @@ For all of these types, the build you want is different.
 
     * **Standard DPS** benefit mostly from {{ATK}} **ATK(%)**{.yellow} / {{MATK}} **MATK(%)**{.magenta}, and {{CritDMG}} **Crit DMG**{.white} or {{CritRate}} **Crit Rate**{.white} as additional substats to balance out ratios;
     * **Fixed Damage DPS** solely benefit from {{ATK}} **ATK(%)**{.yellow} / {{MATK}} **MATK(%)**{.magenta};
-    * **HP-reliant DPS** rely on mostly {{HP}} **HP** and {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} as secondary option;
+    * **HP-reliant DPS** mostly rely on {{HP}} **HP** and {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} as secondary option;
     * **Enemy HP-reliant DPS** want only {{CritDMG}} **Crit DMG** or {{CritRate}} **Crit Rate**{.white};
     * **Stat-Dependent Supports** want the corresponding stat;
     * **Other Supports** are fine with whatever.
 
     As for the split (ratio) of said Options, it's better to use the [Gear Calculator](#gear-calculator) **if you want the precise answer**.
 
-    **For {{Armor}} Armor**, you want to have two different types of sets: one stacked with {{ATK}} **ATK(%)**{.yellow} / {{MATK}} **MATK(%)**{.magenta} and another with all {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} substats. This way, you benefit way more from {{Physical}} **Physical** DPS wearing {{ gear("Invulnerable Armor") }} and {{ gear("Helm of Carnage") }}, while also giving some benefit to **Magical**{.magenta} DPS otherwise.
+    **For {{Armor}} Armor**, you want to have two different types of sets: one stacked with {{ATK}} **ATK(%)**{.yellow} / {{MATK}} **MATK(%)**{.magenta} and another with all {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} substats. This way, you benefit way more from {{Physical}} **Physical** DPS wearing {{ gear("Invulnerable Armor") }} and {{ gear("Helm of Carnage") }}, while keeping flexible options for {{Magical}} **Magical**{.magenta} DPS.
     
     As rough advice, getting {{ATK}} **ATK(%)**{.yellow} / {{MATK}} **MATK(%)**{.magenta} on {{Weapon}} **Weapon** and {{Gloves}} **Gloves** is a go-to (for Standard DPS), and filling the rest with either additional {{ATK}} **ATK(%)**{.yellow} / {{MATK}} **MATK(%)**{.magenta} or {{CritDMG}} **Crit DMG**{.white} / {{CritRate}} **Crit Rate**{.white} isn't a bad choice.
 
