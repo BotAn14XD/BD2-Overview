@@ -1,0 +1,30 @@
+{
+  "mp-01": [
+    {
+      "id": "27",
+      "name": "Defeat the Fallen Angels",
+      "img_infographic": "assets/images/battles/master-pack-1-1-clear.avif"
+    }
+  ],
+  "mp-02": [
+    {
+      "id": "28",
+      "name": "Defeat the Fallen Angels",
+      "img_infographic": "assets/images/battles/master-pack-1-2-clear.avif"
+    }
+  ],
+  "mp-03": [
+    {
+      "id": "30",
+      "name": "Defeat Ran",
+      "img_infographic": "assets/images/battles/master-pack-1-3-clear.avif"
+    }
+  ],
+  "mp-04": [
+    {
+      "id": "32",
+      "name": "Defeat Ran",
+      "img_infographic": "assets/images/battles/master-pack-1-4-clear.avif"
+    }
+  ]
+}
