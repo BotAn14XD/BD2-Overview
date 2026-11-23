@@ -198,18 +198,18 @@ Priority list will also feature **Collaboration Costumes** priority, but since t
     * **Deadeye Nekyndalia** **Bursts 1-2**{.yellow}
     * **Unraveling Mummy Nekyndalia** **Bursts 2-3**{.yellow}
     * **Lord of the Cosmos Ren Yamashiro** **Burst 1**{.magenta}
-    * **Thorn of the Desert Rubia** **Bursts 1-3**{.yellow}
+    * **Thorn of the Desert Rubia** **Bursts 1,3**{.yellow}
     * **Reclaimed Destiny Sacred Justia** **Burst 1**{.yellow}
     * **Magical Violet Palette** **Burst 1**{.yellow}
-    * **Pool Party Scheherazade** **Bursts 1-3**{.yellow}
-    * **Bikini Agent Sylvia** **Bursts 1-3**{.yellow}
+    * **Pool Party Scheherazade** **Bursts 1,3**{.yellow}
+    * **Bikini Agent Sylvia** **Bursts 1,3**{.yellow}
     * **Ame-no-Mitori Tenka Izumo** **Burst 1**{.magenta}
     * **Starlight Guardian Tyr** **Bursts 1-2**{.yellow}
     * **Night of Betrayal Valze** **Bursts 1-2**{.yellow}
     * **Cheers to Victory Venaka** **Bursts 1-3**{.yellow}
     * **DJ Venaka** **Burst 1**{.yellow}
     * **Frozen Queen Wilhelmina** **Burst 1**{.yellow}
-    * **Comeback Idol Yuri** **Bursts 1-3**{.yellow}
+    * **Comeback Idol Yuri** **Bursts 1,3**{.yellow}
 
 === "Low Priority"
     * **Fire Graffiti Anastasia** **Bursts 1-2**{.yellow}
